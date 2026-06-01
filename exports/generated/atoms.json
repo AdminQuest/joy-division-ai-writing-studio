@@ -127701,6 +127701,495 @@
   },
   {
     "kind": "atom",
+    "id": "S93-A001",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A001 — Qualification de la source : Parker comme lecteur critique de Reynolds",
+    "data": {
+      "id": "S93-A001",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "156-164",
+      "type_unite": "qualification_source",
+      "concepts": [
+        "source critique",
+        "Simon Reynolds",
+        "Retromania",
+        "Rip It Up and Start Again",
+        "historiographie"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "S93 n'est pas une source sur Joy Division mais une lecture académique de Reynolds. Ne jamais citer S93 comme autorité directe sur le post-punk ou sur Joy Division — toujours signaler le double filtre (Parker lisant Reynolds).\n",
+      "methodological_warnings": [
+        "Source secondaire au carré : Parker analyse Reynolds qui analyse le post-punk.",
+        "Ne pas confondre les thèses de Parker avec celles de Reynolds."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A002",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A002 — Joy Division comme paradigme post-punk chez Reynolds",
+    "data": {
+      "id": "S93-A002",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": 158,
+      "type_unite": "analyse",
+      "concepts": [
+        "Joy Division",
+        "post-punk",
+        "The Fall",
+        "Public Image Ltd",
+        "Pere Ubu",
+        "Devo",
+        "The Residents",
+        "Throbbing Gristle",
+        "The Slits",
+        "The Art of Noise",
+        "Simon Reynolds",
+        "Rip It Up and Start Again"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 7"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "La citation est de Reynolds rapportée par Parker. Joy Division figure dans une liste de groupes post-punk : ne pas en faire un statut d'exception que Reynolds ne lui accorde pas explicitement ici. Le jugement « way more interesting than what happened in 1976-7 itself » porte sur le post-punk en général, pas sur Joy Division seul.\n",
+      "methodological_warnings": [
+        "Citation de Reynolds via Parker — vérifier contre S72 (Rip It Up) pour le contexte original.",
+        "Joy Division est un élément d'une liste, pas le sujet principal de la phrase."
+      ],
+      "related_people": [
+        "Simon Reynolds"
+      ],
+      "related_organizations": [
+        "Joy Division",
+        "The Fall",
+        "Public Image Ltd",
+        "Pere Ubu",
+        "Devo",
+        "The Residents",
+        "Throbbing Gristle",
+        "The Slits",
+        "Art of Noise"
+      ],
+      "liens_citations": [
+        "S72-A001",
+        "S72-A002"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A003",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A003 — Le post-punk reynoldsien comme « future-rush »",
+    "data": {
+      "id": "S93-A003",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "158-159",
+      "type_unite": "concept_theorique",
+      "concepts": [
+        "future-rush",
+        "futurisme",
+        "post-punk",
+        "Retromania",
+        "temporalité",
+        "Simon Reynolds"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "Le concept de « future-rush » est reconstruit par Parker à partir de Reynolds. Il ne s'applique pas spécifiquement à Joy Division mais au post-punk dans son ensemble. Ne pas attribuer le concept à Joy Division seul.\n",
+      "methodological_warnings": [
+        "future-rush est un concept reynoldsien, pas un terme de Parker.",
+        "S'applique au post-punk en général, pas à Joy Division en particulier."
+      ],
+      "liens_interchapitres": [
+        "Ch.07 → Ch.01 : le future-rush post-punk éclaire rétrospectivement le contexte de rupture temporelle de 1978-79.",
+        "Ch.07 → Ch.03 : le futurisme esthétique post-punk inclut les innovations sonores de Joy Division."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A004",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A004 — Critique d'Alex Ogg : sélectivité de Reynolds dans *Rip It Up*",
+    "data": {
+      "id": "S93-A004",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": 158,
+      "type_unite": "critique_historiographique",
+      "concepts": [
+        "Alex Ogg",
+        "sélectivité",
+        "Rip It Up and Start Again",
+        "historiographie",
+        "post-punk",
+        "conférence Leeds 2010",
+        "critique académique"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "La critique d'Ogg porte sur Rip It Up en général (sélectivité des groupes retenus), pas spécifiquement sur le traitement de Joy Division. Ne pas utiliser cet atome pour suggérer que Reynolds sous-représente Joy Division — c'est le contraire (Joy Division est au cœur de sa sélection).\n",
+      "methodological_warnings": [
+        "Ogg critique la sélectivité de Reynolds comme méthode, pas le choix de Joy Division.",
+        "Conférence Leeds 2010 : source orale rapportée par Parker, non publiée directement."
+      ],
+      "related_people": [
+        "Alex Ogg",
+        "Simon Reynolds"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A005",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A005 — *Rip It Up* dans l'historiographie du post-punk",
+    "data": {
+      "id": "S93-A005",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "157-158",
+      "type_unite": "analyse",
+      "concepts": [
+        "Rip It Up and Start Again",
+        "historiographie",
+        "post-punk",
+        "canon",
+        "Simon Reynolds"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "Parker analyse la position historiographique de Rip It Up, pas Joy Division directement. Le risque est d'inférer des thèses sur Joy Division à partir d'une analyse du livre qui les contient.\n",
+      "methodological_warnings": [
+        "Distinguer la position de Rip It Up dans l'historiographie (ce dont parle Parker) de son contenu sur Joy Division (ce dont parle Reynolds)."
+      ],
+      "liens_citations": [
+        "S72-A001"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A006",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A006 — Hauntologie : Derrida via Reynolds via Fisher",
+    "data": {
+      "id": "S93-A006",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "160-161",
+      "type_unite": "concept_theorique",
+      "concepts": [
+        "hauntologie",
+        "hauntology",
+        "Derrida",
+        "Simon Reynolds",
+        "Mark Fisher",
+        "spectralité",
+        "futur perdu",
+        "nostalgie"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "Parker synthétise un débat théorique (Derrida → Reynolds → Fisher). Ne pas attribuer à Parker des thèses qui sont celles de Fisher ou de Reynolds. Ne pas appliquer directement le concept de hauntologie à Joy Division à partir de S93 — utiliser les sources primaires (S90-Fisher, S72-Reynolds, S29-Goddard) pour cela.\n",
+      "methodological_warnings": [
+        "Triple filtre : Derrida → Reynolds → Fisher → Parker. Toujours remonter aux sources primaires.",
+        "La hauntologie telle que Parker la résume n'est pas une thèse sur Joy Division mais sur la culture pop 2000-2010."
+      ],
+      "related_people": [
+        "Jacques Derrida",
+        "Simon Reynolds",
+        "Mark Fisher"
+      ],
+      "liens_citations": [
+        "S90",
+        "S29-A003",
+        "S29-A004"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A007",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A007 — L'opposition analogue/numérique comme structure temporelle",
+    "data": {
+      "id": "S93-A007",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "161-162",
+      "type_unite": "concept_theorique",
+      "concepts": [
+        "analogue",
+        "numérique",
+        "temporalité",
+        "archive",
+        "mémoire",
+        "YouTube",
+        "streaming"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "probable",
+      "importance": "secondaire",
+      "risque_surinterpretation": "L'opposition analogue/numérique chez Parker est une lecture de Retromania, pas une thèse sur Joy Division. L'appliquer au son de Joy Division (analogique, bandes, Hannett) serait une extrapolation non autorisée par S93.\n",
+      "methodological_warnings": [
+        "Ne pas projeter l'opposition analogue/numérique sur la production Hannett sans source directe."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A008",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A008 — L'avant-garde devenue arrière-garde",
+    "data": {
+      "id": "S93-A008",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "162-163",
+      "type_unite": "concept_theorique",
+      "concepts": [
+        "avant-garde",
+        "arrière-garde",
+        "rétromanie",
+        "futurisme",
+        "épuisement",
+        "post-punk"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "probable",
+      "importance": "secondaire",
+      "risque_surinterpretation": "Le renversement avant-garde/arrière-garde est un diagnostic de Reynolds lu par Parker sur la culture pop en général. L'appliquer à Joy Division spécifiquement (le groupe avant-gardiste devenu icône rétro) est une extrapolation séduisante mais non explicitement autorisée par S93.\n",
+      "methodological_warnings": [
+        "Extrapolation tentante mais non textuelle : Joy Division comme cas d'avant-garde devenue arrière-garde."
+      ],
+      "liens_interchapitres": [
+        "Ch.07 → Ch.14 : l'inversion avant-garde/arrière-garde est structurante pour penser la postérité commerciale de Joy Division."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A009",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A009 — Le post-punk reynoldsien supérieur au punk : jugement de valeur assumé",
+    "data": {
+      "id": "S93-A009",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": 158,
+      "type_unite": "analyse",
+      "concepts": [
+        "post-punk",
+        "punk",
+        "jugement de valeur",
+        "Simon Reynolds",
+        "hiérarchie esthétique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 7"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "Le jugement « way more interesting » est celui de Reynolds, pas un consensus historiographique. Parker le rapporte comme tel, avec distance critique. Ne pas universaliser ce jugement dans le manuscrit.\n",
+      "methodological_warnings": [
+        "Jugement reynoldsien, pas consensus. À signaler comme tel si cité."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A010",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A010 — Conférence Leeds 2010 : le canon post-punk comme construction critique",
+    "data": {
+      "id": "S93-A010",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": 158,
+      "type_unite": "critique_historiographique",
+      "concepts": [
+        "conférence Leeds 2010",
+        "canon post-punk",
+        "sélectivité",
+        "Alex Ogg",
+        "Simon Reynolds",
+        "construction critique"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "stabilite": "probable",
+      "importance": "secondaire",
+      "risque_surinterpretation": "La conférence Leeds 2010 est rapportée par Parker de mémoire ou de notes. Il ne s'agit pas d'actes publiés. La fiabilité factuelle du contenu de la critique d'Ogg dépend de la fidélité du rapport de Parker.\n",
+      "methodological_warnings": [
+        "Source orale rapportée : pas d'actes publiés de la conférence Leeds 2010.",
+        "Fiabilité du verbatim Ogg dépend du rapport Parker."
+      ],
+      "related_people": [
+        "Alex Ogg",
+        "Simon Reynolds"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S93-A011",
+    "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
+    "heading": "S93-A011 — L'arc Reynolds : de *Rip It Up* à *Retromania*, du futurisme au deuil",
+    "data": {
+      "id": "S93-A011",
+      "source_id": "S93",
+      "source_label": "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012",
+      "source_short_title": "Parker, Reynolds/Retromania, 2012",
+      "source_year": "2012",
+      "auteur": "James Parker",
+      "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
+      "pages_pdf": "156-164",
+      "type_unite": "analyse",
+      "concepts": [
+        "Simon Reynolds",
+        "Rip It Up and Start Again",
+        "Retromania",
+        "arc critique",
+        "futurisme",
+        "rétromanie",
+        "deuil",
+        "épuisement futural"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "brouillon",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "L'arc Rip It Up → Retromania est la thèse de Parker sur Reynolds. C'est un cadrage historiographique élégant mais qui simplifie une œuvre plus large (Energy Flash, Bring the Noise, etc. sont évoqués mais secondaires dans l'article). Ne pas en faire le seul prisme de lecture de Reynolds.\n",
+      "methodological_warnings": [
+        "Cadrage Parker, pas auto-description de Reynolds.",
+        "L'arc Rip It Up → Retromania est une lecture parmi d'autres de l'œuvre de Reynolds."
+      ],
+      "related_people": [
+        "Simon Reynolds"
+      ],
+      "liens_citations": [
+        "S72",
+        "S91"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S89-A007",
     "file": "sources/savage_englands_dreaming/atomes_s89_ch2_3_lfth_buzzcocks_factory.md",
     "heading": "S89-A007 — Lesser Free Trade Hall, 4 juin 1976 : premier concert Sex Pistols à Manchester",

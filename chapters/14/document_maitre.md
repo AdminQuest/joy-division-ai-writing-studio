@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T00:31:35"
+generated_at: "2026-06-01T13:09:05"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1309 |
+| Atomes | 1318 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 228 |
 | Événements chronologiques | 138 |
 | Personnes | 161 |
 | Chansons | 34 |
-| Sources mobilisées | 70 |
+| Sources mobilisées | 71 |
 
 ## 4. Sources mobilisées
 
@@ -104,6 +104,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 10 | 16 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
+| S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 9 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -573,15 +574,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (17)
 - NME (17)
 - Tony Wilson (15)
+- post-punk (15)
 - Factory Records (15)
+- mémoire (14)
 - Atmosphere (14)
 - factory records (13)
 - new order (13)
-- mémoire (13)
 - réception (13)
 - peter saville (12)
 - martin hannett (11)
-- post-punk (11)
 - Manchester (11)
 - Ceremony (11)
 - factory (10)
@@ -592,20 +593,22 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - She's Lost Control (10)
 - Dead Souls (10)
 - John Peel (10)
+- archive (9)
 - postérité (9)
 - Closer (9)
 - authenticité (9)
 - mythe (9)
 - indépendance (8)
 - suicide (8)
-- archive (8)
 - Peter Hook (8)
 - Transmission (8)
 - management (7)
 - Songbook (7)
 - fac-simile (7)
+- Simon Reynolds (7)
 - bootlegs (7)
 - Martin Hannett (7)
+- historiographie (7)
 - Bernard Sumner (7)
 - tony wilson (6)
 - joy division (6)
@@ -624,6 +627,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - goth (6)
 - imagerie nazie (5)
 - love will tear us apart (5)
+- hauntologie (5)
 - Kevin Cummins (5)
 - noir et blanc (5)
 - premier corpus (5)
@@ -638,9 +642,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - still (5)
 - culte (5)
 - Peel Sessions (5)
-- nme (5)
-- scène locale (5)
-- architecture sonore (5)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -777,8 +778,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | reception | 62 |
+| analyse | 43 |
 | prudence_methodologique | 42 |
-| analyse | 41 |
 | concept_structurant | 39 |
 | non qualifié | 27 |
 | archive | 24 |
@@ -809,6 +810,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | synthese_argumentative | 6 |
 | songbook_instruction | 6 |
 | methode | 6 |
+| concept_theorique | 6 |
 | limite_interpretative | 5 |
 | scene_historiographique | 5 |
 | objet_audiovisuel | 5 |
@@ -825,6 +827,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | motif_discursif | 4 |
 | culture_materielle | 4 |
 | concept | 4 |
+| critique_historiographique | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
 | iconographie | 4 |
@@ -892,8 +895,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mythe_a_deconstruire | 2 |
 | analyse_formelle | 2 |
 | synthese_conceptuelle | 2 |
-| concept_theorique | 2 |
-| critique_historiographique | 2 |
 | marketing | 2 |
 | contexte_urbain | 2 |
 | evenement_reception | 2 |
@@ -923,6 +924,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
+| qualification_source | 2 |
 | interpretation_historique | 2 |
 | esthétique | 2 |
 | acteur | 2 |
@@ -1280,7 +1282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | memoire_endeuillée | 1 |
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
-| qualification_source | 1 |
 | qualification_esthetique | 1 |
 | gouvernance | 1 |
 | lieu_archive | 1 |
@@ -1416,9 +1417,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | critique | 522 |
 | non qualifiée | 439 |
-| majeure | 202 |
+| majeure | 205 |
 | majeur | 56 |
-| secondaire | 45 |
+| secondaire | 51 |
 | utile | 22 |
 | haute | 9 |
 | moyenne | 3 |

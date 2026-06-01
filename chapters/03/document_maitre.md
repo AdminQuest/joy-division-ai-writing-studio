@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T00:31:35"
+generated_at: "2026-06-01T13:09:05"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 469 |
+| Atomes | 471 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 45 |
 | Événements chronologiques | 25 |
 | Personnes | 33 |
 | Chansons | 27 |
-| Sources mobilisées | 40 |
+| Sources mobilisées | 41 |
 
 ## 4. Sources mobilisées
 
@@ -75,6 +75,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 0 | 2 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 3 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
+| S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -507,7 +508,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - architecture sonore (18)
 - Unknown Pleasures (15)
 - contrainte productive (13)
-- post-punk (11)
+- post-punk (13)
 - Ian Curtis (11)
 - production (10)
 - Stephen Morris (8)
@@ -540,6 +541,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - glass (4)
 - transmission (4)
 - unknown pleasures (4)
+- Joy Division (4)
 - Arrow Studios (4)
 - radio (4)
 - Hannett (4)
@@ -557,7 +559,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Warsaw (3)
 - factory records (3)
 - piccadilly radio (3)
-- Joy Division (3)
+- Throbbing Gristle (3)
 - basse mélodique (3)
 - Bernard Sumner (3)
 - son live (3)
@@ -582,7 +584,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Velvet Underground (2)
 - Spiral Scratch (2)
 - john peel (2)
-- peel session (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -721,7 +722,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | non qualifié | 40 |
 | production | 24 |
 | session_studio | 17 |
-| analyse | 11 |
+| analyse | 13 |
 | analyse_morceau | 11 |
 | fait | 10 |
 | lecture_musicale | 10 |
@@ -945,10 +946,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | non qualifiée | 202 |
 | critique | 151 |
-| majeure | 64 |
+| majeure | 65 |
 | utile | 17 |
 | majeur | 15 |
-| secondaire | 3 |
+| secondaire | 4 |
 | critique pour le chapitre 3 | 3 |
 | critique pour Chapitre 3 | 3 |
 | haute | 2 |

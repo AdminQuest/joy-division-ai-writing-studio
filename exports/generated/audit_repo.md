@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-01T00:31:35`
+Généré le : `2026-06-01T13:09:05`
 
 ## 1. Verdict
 
 Le repo est techniquement exploitable, mais 1410 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
+La dette principale reste la migration v2 : 2523 atome(s) incomplet(s) sur 2763.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 8415
+- Enregistrements : 8426
 - Erreurs : 0
-- Avertissements : 28713
-- Sources déclarées : 95
-- Sources utilisées : 80
-- Sources exportées : 80
+- Avertissements : 28824
+- Sources déclarées : 96
+- Sources utilisées : 81
+- Sources exportées : 81
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,7 +22,7 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2752 |
+| atom | 2763 |
 | chronology | 539 |
 | concept | 463 |
 | concert | 388 |
@@ -43,12 +43,12 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 
 | Catégorie | Nombre |
 |---|---:|
-| field_type_error | 692 |
-| invalid_controlled_value | 2610 |
+| field_type_error | 725 |
+| invalid_controlled_value | 2628 |
 | missing_required_field | 8046 |
 | schema_warning | 492 |
 | unknown_yaml_block | 1410 |
-| v2_migration_debt | 15463 |
+| v2_migration_debt | 15523 |
 
 ## 5. Erreurs bloquantes
 
@@ -123,10 +123,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 2752
+- Atomes : 2763
 - Atomes v2 complets : 240
-- Atomes v2 incomplets : 2512
-- Avertissements de champs v2 manquants : 15463
+- Atomes v2 incomplets : 2523
+- Avertissements de champs v2 manquants : 15523
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
