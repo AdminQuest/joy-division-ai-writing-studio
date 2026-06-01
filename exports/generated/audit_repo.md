@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-31T18:35:37`
+Généré le : `2026-06-01T00:06:29`
 
 ## 1. Verdict
 
@@ -9,12 +9,12 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 8377
+- Enregistrements : 8415
 - Erreurs : 0
 - Avertissements : 28713
 - Sources déclarées : 95
-- Sources utilisées : 79
-- Sources exportées : 79
+- Sources utilisées : 80
+- Sources exportées : 80
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -29,7 +29,7 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 | metadata | 274 |
 | motif | 427 |
 | myth | 102 |
-| person | 471 |
+| person | 509 |
 | quote | 962 |
 | quote_batch | 1 |
 | rules | 1 |
@@ -113,7 +113,6 @@ Sources déclarées mais non utilisées :
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — a_consolider
 - S25 — Factory Records, philosophie d’indépendance, 1978–1992 — a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — a_consolider
-- S30 — Frith, Sound Effects, 1981 — verifie
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — a_consolider
 - S33 — Can, Tago Mago, 1971 — a_consolider
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — a_consolider
