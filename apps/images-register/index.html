@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
+  <title>Registre iconographique — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="img-app">
+    <header class="img-hero">
+      <div class="img-hero__inner">
+        <a class="img-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre iconographique</h1>
+        <p class="img-hero__subtitle">Registre canonique des seances photographiques et cliches iconiques du corpus Joy Division. Architecture a deux niveaux : seances (IMAGE-S) et images individuelles (IMAGE-I), chacune rattachee a un photographe, un lieu et un contexte documentes.</p>
+      </div>
+    </header>
+
+    <main class="img-layout">
+      <nav class="img-view-tabs" role="tablist" aria-label="Vues du registre">
+        <button class="img-view-tab" id="tab-sessions" role="tab" aria-selected="true" aria-controls="panel-sessions" data-view="sessions">Seances</button>
+        <button class="img-view-tab" id="tab-images" role="tab" aria-selected="false" aria-controls="panel-images" data-view="images" tabindex="-1">Images iconiques</button>
+      </nav>
+
+      <section class="img-toolbar" aria-label="Filtres et recherche">
+        <div class="img-toolbar__filters">
+          <div class="img-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Cummins, Corbijn, Closer, 1979…" autocomplete="off">
+          </div>
+          <div class="img-field">
+            <label for="context-filter">Contexte</label>
+            <select id="context-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="img-field">
+            <label for="photographer-filter">Photographe</label>
+            <select id="photographer-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="img-field">
+            <label for="year-filter">Annee</label>
+            <select id="year-filter"><option value="">Toutes</option></select>
+          </div>
+        </div>
+        <div class="img-toolbar__actions">
+          <button id="reset-filters" class="img-btn" type="button">Reinitialiser</button>
+          <button id="download-csv" class="img-btn img-btn--primary" type="button">Exporter CSV</button>
+          <span class="img-toolbar__meta" id="results-meta"></span>
+        </div>
+      </section>
+
+      <div id="img-status" class="img-status">Chargement du registre iconographique…</div>
+
+      <div id="panel-sessions" role="tabpanel" aria-labelledby="tab-sessions">
+        <div id="sessions-sections"></div>
+      </div>
+      <div id="panel-images" role="tabpanel" aria-labelledby="tab-images" hidden>
+        <div id="images-sections"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

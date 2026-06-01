@@ -1,0 +1,250 @@
+[
+  {
+    "image_id": "IMAGE-S-0001",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Seance Hulme Bridge — Epping Walk",
+    "photographer": "PERSON-kevin-cummins",
+    "date": "1979-01-06",
+    "date_precision": "day",
+    "place": "PLACE-HULME",
+    "event_ref": null,
+    "context": "promo",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-bernard-sumner",
+      "PERSON-peter-hook",
+      "PERSON-stephen-morris"
+    ],
+    "output_count": 7,
+    "notes": "Seance en exterieur par temps de neige sur Epping Walk Bridge (Hulme). Sept cliches realises. L'une des images (Curtis fumant) fait la couverture du NME le 13 janvier 1979. Seance fondatrice de l'iconographie Joy Division. Documentee dans S76 §861.",
+    "sources": ["S50", "S09", "S76"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-S-0002",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Seance Kevin Cummins — T.J. Davidson's Rehearsal Studios",
+    "photographer": "PERSON-kevin-cummins",
+    "date": "1979",
+    "date_precision": "year",
+    "place": "PLACE-TJ-DAVIDSONS",
+    "event_ref": null,
+    "context": "rehearsal",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-bernard-sumner",
+      "PERSON-peter-hook",
+      "PERSON-stephen-morris"
+    ],
+    "output_count": null,
+    "notes": "Photographies en studio de repetition, Little Peter Street. Le lieu devient central dans l'iconographie du groupe a travers les cliches de Cummins et le tournage de Love Will Tear Us Apart.",
+    "sources": ["S76", "S09"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-S-0003",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Concert Bowdon Vale Youth Club — photographies Martin O'Neill, 14 mars 1979",
+    "photographer": "PERSON-martin-oneill",
+    "date": "1979-03-14",
+    "date_precision": "day",
+    "place": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+    "event_ref": null,
+    "context": "live",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-peter-hook",
+      "PERSON-bernard-sumner",
+      "PERSON-stephen-morris"
+    ],
+    "output_count": null,
+    "notes": "Concert peripherique dont la posterite repose principalement sur les photographies de Martin O'Neill, notamment le cliche iconique de Curtis tete dans les bras sur fond de papier peint vif.",
+    "sources": ["S76"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-S-0004",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Premiere seance Anton Corbijn — novembre 1979",
+    "photographer": "PERSON-anton-corbijn",
+    "date": "1979-11",
+    "date_precision": "month",
+    "place": null,
+    "event_ref": "EVENT-SEANCE-PHOTO-CORBIJN",
+    "context": "promo",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-bernard-sumner",
+      "PERSON-peter-hook",
+      "PERSON-stephen-morris"
+    ],
+    "output_count": null,
+    "notes": "Premiere seance photographique d'Anton Corbijn avec Joy Division. Point de depart d'une relation visuelle durable menant jusqu'au film Control (2007). Le lieu exact de la seance n'est pas documente avec certitude dans les sources disponibles.",
+    "sources": ["S41", "S29", "S78"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-S-0005",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Pochette de Closer — photographie de Staglieno, Bernard Pierre Wolff, mars 1980",
+    "photographer": "PERSON-bernard-pierre-wolff",
+    "date": "1980-03",
+    "date_precision": "month",
+    "place": null,
+    "event_ref": "EVENT-POCHETTE-CLOSER-STAGLIENO",
+    "context": "artwork",
+    "subjects": [],
+    "output_count": null,
+    "notes": "Photographie de Bernard Pierre Wolff prise au cimetiere de Staglieno (Genes). Selectionnee par Peter Saville et Martyn Atkins pour la pochette de Closer et le single Love Will Tear Us Apart. La charge funeraire de l'image, choisie avant la mort de Curtis, est amplifiee retrospectivement.",
+    "sources": ["S41", "S76", "S48"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-S-0006",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Seance Kevin Cummins — Princess Parkway",
+    "photographer": "PERSON-kevin-cummins",
+    "date": "1979",
+    "date_precision": "approximate",
+    "place": "PLACE-HULME",
+    "event_ref": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY",
+    "context": "promo",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-bernard-sumner",
+      "PERSON-peter-hook",
+      "PERSON-stephen-morris"
+    ],
+    "output_count": null,
+    "notes": "Seance photographique de Kevin Cummins pres de Princess Parkway. Documentee separement de la seance Epping Walk Bridge dans les sources (S41-A157).",
+    "sources": ["S41"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-I-0001",
+    "level": "image",
+    "session_ref": "IMAGE-S-0001",
+    "canonical_name": "Joy Division sur le pont enneige de Hulme (Epping Walk Bridge)",
+    "photographer": "PERSON-kevin-cummins",
+    "date": "1979-01-06",
+    "date_precision": "day",
+    "place": "PLACE-HULME",
+    "context": "promo",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-bernard-sumner",
+      "PERSON-peter-hook",
+      "PERSON-stephen-morris"
+    ],
+    "usage": [
+      "Couverture NME (13 janvier 1979)",
+      "Cummins, Joy Division (2010)",
+      "Campagne pour renommer Epping Walk Bridge (2010)"
+    ],
+    "iconic": true,
+    "notes": "Cliche le plus reproduit de Joy Division : quatre silhouettes sur le pont enneige. Image qui condense le mystere et le mythe generationnel du groupe (La Rocca). S50 la rattache au canon visuel. La version publiee en couverture du NME montre Curtis fumant.",
+    "sources": ["S41", "S50", "S53", "S09", "S78"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-I-0002",
+    "level": "image",
+    "session_ref": "IMAGE-S-0003",
+    "canonical_name": "Ian Curtis tete dans les bras — Bowdon Vale Youth Club",
+    "photographer": "PERSON-martin-oneill",
+    "date": "1979-03-14",
+    "date_precision": "day",
+    "place": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+    "context": "live",
+    "subjects": [
+      "PERSON-ian-curtis"
+    ],
+    "usage": [
+      "Reproduit dans Torn Apart (Middles & Reade)"
+    ],
+    "iconic": true,
+    "notes": "Curtis tete dans les bras, sur fond de papier peint vif du club. Concert peripherique dont la posterite vient principalement de cette photographie.",
+    "sources": ["S76"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-I-0003",
+    "level": "image",
+    "session_ref": "IMAGE-S-0005",
+    "canonical_name": "Famille en deuil au cimetiere de Staglieno — pochette de Closer",
+    "photographer": "PERSON-bernard-pierre-wolff",
+    "date": "1980-03",
+    "date_precision": "month",
+    "place": null,
+    "context": "artwork",
+    "subjects": [],
+    "usage": [
+      "Pochette de Closer (1980)",
+      "Pochette du single Love Will Tear Us Apart (1980)"
+    ],
+    "iconic": true,
+    "notes": "Photographie en noir et blanc d'une famille en deuil prise au cimetiere de Staglieno (Genes, Italie). Design de Peter Saville et Martyn Atkins. L'image funeraire, selectionnee avant la mort de Curtis, acquiert une charge prophetique retroactive.",
+    "sources": ["S41", "S76", "S48"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  }
+]
