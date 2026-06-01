@@ -51,6 +51,9 @@ jobs:
       - name: Sentinelle anti-drift (rebuild déterministe → 0 divergence)
         run: python tools/check_generated_sync.py
 
+      - name: Build canonique complet
+        run: python tools/build_all.py --quiet
+
       - name: Audit du repo documentaire (--fail-on-error)
         run: python tools/audit_repo.py --fail-on-error
 
