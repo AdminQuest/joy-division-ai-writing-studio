@@ -1,0 +1,242 @@
+[
+  {
+    "org_id": "ORG-0001",
+    "canonical_name": "Buzzcocks",
+    "aliases": ["The Buzzcocks"],
+    "category": "group",
+    "subcategory": "punk",
+    "country": "GB",
+    "city": "Manchester",
+    "active_from": "1976",
+    "active_until": null,
+    "status": "active",
+    "same_as": {
+      "wikidata": "Q485898",
+      "musicbrainz": "31e9c35b-2675-4632-8596-f9bd9286f6c8",
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "peer_group",
+      "period": "1977–1980",
+      "notes": "Manchester punk/post-punk contemporaries. Joy Division supported Buzzcocks on tour (October 1979). Pete Shelley and Howard Devoto key scene figures. Shared venues (Electric Circus, Lesser Free Trade Hall)."
+    },
+    "sources": ["S76", "S41", "S45"],
+    "provenance": {
+      "from_pers": "PERS-S76-068"
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0002",
+    "canonical_name": "Happy Mondays",
+    "aliases": [],
+    "category": "group",
+    "subcategory": "madchester",
+    "country": "GB",
+    "city": "Manchester",
+    "active_from": "1980",
+    "active_until": null,
+    "status": "active",
+    "same_as": {
+      "wikidata": "Q502888",
+      "musicbrainz": "01f4fb92-6bf0-4de5-83dc-3fe194e763bf",
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "successor_scene",
+      "period": "1980s",
+      "notes": "Factory Records roster (FAC 170+). Post-Joy Division Manchester lineage. Tony Wilson connection via Factory."
+    },
+    "sources": ["S76"],
+    "provenance": {
+      "from_attribution": true
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0003",
+    "canonical_name": "Bedhead",
+    "aliases": [],
+    "category": "group",
+    "subcategory": "slowcore",
+    "country": "US",
+    "city": "Dallas",
+    "active_from": "1991",
+    "active_until": "1998",
+    "status": "dissolved",
+    "same_as": {
+      "wikidata": "Q4877508",
+      "musicbrainz": "07ea84a5-34aa-4766-b6d4-e9462a6220c2",
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "influence_recipient",
+      "period": null,
+      "notes": "Cited as influenced by Joy Division's sound aesthetic in secondary sources."
+    },
+    "sources": ["S76"],
+    "provenance": {
+      "from_pers": "PERS-016"
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0004",
+    "canonical_name": "Minny Pops",
+    "aliases": [],
+    "category": "group",
+    "subcategory": "minimal_synth",
+    "country": "NL",
+    "city": "Amsterdam",
+    "active_from": "1978",
+    "active_until": "1983",
+    "status": "dissolved",
+    "same_as": {
+      "wikidata": "Q2530282",
+      "musicbrainz": "68142098-e3b3-4f76-a8cc-8898713fcf58",
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "label_mate",
+      "period": "1980–1981",
+      "notes": "Factory Benelux roster. Supported Joy Division at Plan K, Brussels. Wally van Middendorp led the group."
+    },
+    "sources": ["S76"],
+    "provenance": {
+      "from_pers": "PERS-S76-071"
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0005",
+    "canonical_name": "Oz PA",
+    "aliases": ["Oz P.A."],
+    "category": "crew",
+    "subcategory": "sound_engineering",
+    "country": "GB",
+    "city": "Manchester",
+    "active_from": "1978",
+    "active_until": null,
+    "status": "unknown",
+    "same_as": {
+      "wikidata": null,
+      "musicbrainz": null,
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "technical_crew",
+      "period": "1978–1980",
+      "notes": "Provided PA and sound reinforcement for Joy Division live performances. Oz and Eddy (individuals) referenced as members in S76."
+    },
+    "sources": ["S76"],
+    "provenance": {
+      "from_pers": "PERS-S76-052#oz-pa"
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0006",
+    "canonical_name": "HM Treasury",
+    "aliases": ["Her Majesty's Treasury", "His Majesty's Treasury", "The Treasury"],
+    "category": "institution",
+    "subcategory": "government",
+    "country": "GB",
+    "city": "London",
+    "active_from": "1667",
+    "active_until": null,
+    "status": "active",
+    "same_as": {
+      "wikidata": "Q189794",
+      "musicbrainz": null,
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "contextual",
+      "period": null,
+      "notes": "Referenced in corpus as institutional backdrop to Thatcher-era economic policy affecting Manchester. Marginal relevance to Joy Division narrative."
+    },
+    "sources": ["S76"],
+    "provenance": {
+      "from_attribution": true
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "private",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0007",
+    "canonical_name": "Manchester Digital Music Archive",
+    "aliases": ["MDMArchive", "MDMA"],
+    "category": "institution",
+    "subcategory": "archive",
+    "country": "GB",
+    "city": "Manchester",
+    "active_from": "2003",
+    "active_until": null,
+    "status": "active",
+    "same_as": {
+      "wikidata": "Q6748055",
+      "musicbrainz": null,
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "archive",
+      "period": null,
+      "notes": "Primary archival resource for Manchester music scene documentation including Joy Division materials, oral histories and memorabilia."
+    },
+    "sources": ["S21"],
+    "provenance": {
+      "from_attribution": true
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "org_id": "ORG-0008",
+    "canonical_name": "The Times",
+    "aliases": ["Times", "The Times of London"],
+    "category": "media",
+    "subcategory": "newspaper",
+    "country": "GB",
+    "city": "London",
+    "active_from": "1785",
+    "active_until": null,
+    "status": "active",
+    "same_as": {
+      "wikidata": "Q50008",
+      "musicbrainz": null,
+      "discogs": null
+    },
+    "joy_division_relation": {
+      "type": "press_coverage",
+      "period": null,
+      "notes": "National press coverage and critical reception referenced in corpus secondary sources."
+    },
+    "sources": ["S76"],
+    "provenance": {
+      "from_attribution": true
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "private",
+    "last_verified": "2026-06-01"
+  }
+]
