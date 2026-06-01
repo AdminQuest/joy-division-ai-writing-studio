@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adminquest/joy-division-ai-writing-studio/schemas/image_canonical.schema.json",
+  "title": "Registre canonique de l'iconographie — IMAGE-",
+  "description": "Schema JSON executable (Draft 2020-12, FormatChecker actif) de l'identite canonique d'une seance photographique ou d'un cliche (etape 11). Deux niveaux coexistent : session (IMAGE-S-NNNN) et image (IMAGE-I-NNNN), discrimines par le champ `level`.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "image_id",
+    "level",
+    "canonical_name",
+    "photographer",
+    "date",
+    "date_precision",
+    "subjects",
+    "sources",
+    "same_as",
+    "identity_frozen",
+    "drift_sentinel",
+    "gate",
+    "last_verified"
+  ],
+  "properties": {
+    "image_id": {
+      "type": "string",
+      "description": "Identifiant canonique : IMAGE-S-NNNN (seance) ou IMAGE-I-NNNN (cliche).",
+      "pattern": "^IMAGE-(S|I)-[0-9]{4}$"
+    },
+    "level": {
+      "type": "string",
+      "description": "Niveau de l'entree : seance photographique ou cliche individuel.",
+      "enum": ["session", "image"]
+    },
+    "session_ref": {
+      "type": ["string", "null"],
+      "description": "Identifiant de la seance parente (requis si level=image). Null pour les sessions.",
+      "pattern": "^IMAGE-S-[0-9]{4}$"
+    },
+    "canonical_name": {
+      "type": "string",
+      "description": "Designation canonique de la seance ou du cliche.",
+      "minLength": 1
+    },
+    "photographer": {
+      "type": "string",
+      "description": "Identifiant PERSON- du photographe.",
+      "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "date": {
+      "type": "string",
+      "description": "Date ISO 8601 (complete ou partielle selon date_precision)."
+    },
+    "date_precision": {
+      "type": "string",
+      "description": "Precision de la date.",
+      "enum": ["day", "month", "year", "approximate"]
+    },
+    "place": {
+      "type": ["string", "null"],
+      "description": "Identifiant PLACE- du lieu ou description libre si aucun PLACE- n'existe."
+    },
+    "event_ref": {
+      "type": ["string", "null"],
+      "description": "Identifiant EVENT- de l'ancrage chronologique si existant."
+    },
+    "context": {
+      "type": "string",
+      "description": "Contexte de la seance (sessions uniquement).",
+      "enum": ["promo", "live", "portrait", "artwork", "rehearsal", "other"]
+    },
+    "subjects": {
+      "type": "array",
+      "description": "Sujets photographies (identifiants PERSON- ou descriptions libres).",
+      "items": { "type": "string" }
+    },
+    "output_count": {
+      "type": ["integer", "null"],
+      "description": "Nombre de cliches connus issus de la seance. null si inconnu."
+    },
+    "usage": {
+      "type": "array",
+      "description": "Usages connus du cliche (pochettes, presse, expositions).",
+      "items": { "type": "string" }
+    },
+    "iconic": {
+      "type": "boolean",
+      "description": "Vrai si le cliche est considere comme iconique dans le corpus."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Notes documentaires libres."
+    },
+    "sources": {
+      "type": "array",
+      "description": "Sources documentaires du corpus.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "same_as": {
+      "type": "object",
+      "description": "Identifiants externes.",
+      "additionalProperties": false,
+      "properties": {
+        "wikidata": {
+          "type": ["string", "null"],
+          "description": "Identifiant Wikidata (Q-number).",
+          "pattern": "^Q\\d+$"
+        }
+      }
+    },
+    "identity_frozen": {
+      "type": "boolean",
+      "description": "Toujours true apres validation humaine.",
+      "const": true
+    },
+    "drift_sentinel": {
+      "type": "string",
+      "description": "Version du schema au moment de la derniere validation.",
+      "pattern": "^v\\d+\\.\\d+$"
+    },
+    "gate": {
+      "type": "string",
+      "description": "Controle de visibilite sur GitHub Pages.",
+      "enum": ["public", "private"]
+    },
+    "last_verified": {
+      "type": "string",
+      "description": "Date ISO 8601 de la derniere verification humaine.",
+      "format": "date"
+    }
+  },
+  "if": {
+    "properties": { "level": { "const": "image" } }
+  },
+  "then": {
+    "required": ["session_ref"]
+  }
+}
