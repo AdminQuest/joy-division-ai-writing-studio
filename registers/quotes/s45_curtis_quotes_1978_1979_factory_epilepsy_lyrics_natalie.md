@@ -12,9 +12,10 @@ passage: "they kept their relationships at arm’s length and so did not share a
 traduction_de_travail: "ils tenaient leurs relations à distance et ne partageaient donc aucun bonheur"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "72"
   pagination_pdf: verifiee_page_72
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte rapportée
 usage:
   - Chapitre 10
@@ -35,9 +36,10 @@ passage: "We used to have a right laugh."
 traduction_de_travail: "On se marrait vraiment bien."
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "73"
   pagination_pdf: verifiee_page_73
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte rapportée
 usage:
   - Chapitre 10
@@ -58,9 +60,10 @@ passage: "Being the original ‘girlies’, we had seen Joy Division develop"
 traduction_de_travail: "Étant les « girlies » d’origine, nous avions vu Joy Division se développer"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "73"
   pagination_pdf: verifiee_page_73
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 10
@@ -79,9 +82,10 @@ passage: "possibly the first real Joy Division fans"
 traduction_de_travail: "peut-être les premières véritables fans de Joy Division"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "73"
   pagination_pdf: verifiee_page_73
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 10
@@ -101,9 +105,10 @@ passage: "I convinced myself that I had betrayed Stephanie"
 traduction_de_travail: "je me suis convaincue que j’avais trahi Stephanie"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "74"
   pagination_pdf: verifiee_page_74
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 10
@@ -124,9 +129,10 @@ passage: "a much cleaner and colder sound"
 traduction_de_travail: "un son beaucoup plus propre et plus froid"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "75"
   pagination_pdf: verifiee_page_75
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 3
@@ -146,9 +152,10 @@ passage: "appropriate to a demigod rather than an up-and-coming young singer"
 traduction_de_travail: "digne d’un demi-dieu plutôt que d’un jeune chanteur en devenir"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "75"
   pagination_pdf: verifiee_page_75
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 14
@@ -167,9 +174,10 @@ passage: "I’ve had some kind of fit"
 traduction_de_travail: "J’ai eu une sorte de crise"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "76"
   pagination_pdf: verifiee_page_76
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 12
@@ -188,9 +196,10 @@ passage: "I thought someone must have made a mistake or perhaps he had faked it"
 traduction_de_travail: "je pensais que quelqu’un avait dû se tromper ou peut-être qu’il l’avait simulée"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "76"
   pagination_pdf: verifiee_page_76
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 12
@@ -209,9 +218,10 @@ passage: "Ian’s illness was something we would have to learn to accommodate"
 traduction_de_travail: "la maladie de Ian était quelque chose que nous devrions apprendre à intégrer"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "77"
   pagination_pdf: verifiee_page_77
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 12
@@ -230,9 +240,10 @@ passage: "Ian was now EPILEPTIC"
 traduction_de_travail: "Ian était désormais ÉPILEPTIQUE"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "78"
   pagination_pdf: verifiee_page_78
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 12
@@ -251,9 +262,10 @@ passage: "I really do think it was the tablets that killed him."
 traduction_de_travail: "Je pense vraiment que ce sont les comprimés qui l’ont tué."
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "78"
   pagination_pdf: verifiee_page_78
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte rapportée
 usage:
   - Chapitre 12
@@ -274,9 +286,10 @@ passage: "it became a ritual for him to sit there and wait for an attack"
 traduction_de_travail: "cela devint pour lui un rituel de rester assis là à attendre une crise"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "78"
   pagination_pdf: verifiee_page_78
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 12
@@ -295,9 +308,10 @@ passage: "a distressing parody of his offstage seizures"
 traduction_de_travail: "une parodie pénible de ses crises hors scène"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "79"
   pagination_pdf: verifiee_page_79
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 12
@@ -317,9 +331,10 @@ traduction_de_travail: "Nous n’avons pas vraiment de message ; les paroles son
 statut:
   original: citation_rapportee_par_S45
   source_presse: Printed_Noises_a_verifier
-  pagination_papier: a_completer
+  pagination_papier: "80"
   pagination_pdf: verifiee_page_80
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation entretien rapportée
 usage:
   - Chapitre 4
@@ -340,9 +355,10 @@ passage: "He was a catalyst for the rest of us."
 traduction_de_travail: "Il était un catalyseur pour nous autres."
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "81"
   pagination_pdf: verifiee_page_81
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte rapportée
 usage:
   - Chapitre 3
@@ -362,9 +378,10 @@ passage: "The master tapes were handed over in return for £1,500"
 traduction_de_travail: "Les bandes masters furent remises en échange de 1 500 livres."
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "82"
   pagination_pdf: verifiee_page_82
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 8
@@ -384,9 +401,10 @@ passage: "the catalyst Joy Division badly needed"
 traduction_de_travail: "le catalyseur dont Joy Division avait cruellement besoin"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "83"
   pagination_pdf: verifiee_page_83
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 3
@@ -406,9 +424,10 @@ passage: "the wives and girlfriends had gradually been banished"
 traduction_de_travail: "les épouses et compagnes avaient progressivement été bannies"
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "83"
   pagination_pdf: verifiee_page_83
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 10
@@ -427,9 +446,10 @@ passage: "I can’t imagine there being another person here with us."
 traduction_de_travail: "Je n’arrive pas à imaginer qu’il y ait une autre personne ici avec nous."
 statut:
   original: verifie_sur_ocr
-  pagination_papier: a_completer
+  pagination_papier: "83"
   pagination_pdf: verifiee_page_83
   traduction: a_stabiliser
+note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
 type: citation courte
 usage:
   - Chapitre 10

@@ -11,7 +11,8 @@ quotes:
     statut:
       original: citation_rapportee_par_S45
       pagination_pdf: "113"
-      pagination_papier: a_completer
+      pagination_papier: "113"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A133]
 
   - id: S45-Q089
@@ -21,7 +22,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "114-115"
-      pagination_papier: a_completer
+      pagination_papier: "114-115"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A134]
 
   - id: S45-Q090
@@ -31,7 +33,8 @@ quotes:
     statut:
       original: citation_rapportee_par_S45
       pagination_pdf: "115"
-      pagination_papier: a_completer
+      pagination_papier: "115"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A135]
 
   - id: S45-Q091
@@ -41,7 +44,8 @@ quotes:
     statut:
       original: note_suicidaire_rapportee
       pagination_pdf: "115-116"
-      pagination_papier: a_completer
+      pagination_papier: "115-116"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A136]
 
   - id: S45-Q092
@@ -51,7 +55,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "116"
-      pagination_papier: a_completer
+      pagination_papier: "116"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A137]
 
   - id: S45-Q093
@@ -61,7 +66,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "117"
-      pagination_papier: a_completer
+      pagination_papier: "117"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A138]
 
   - id: S45-Q094
@@ -71,7 +77,8 @@ quotes:
     statut:
       original: citation_rapportee_par_S45
       pagination_pdf: "118"
-      pagination_papier: a_completer
+      pagination_papier: "118"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A139]
 
   - id: S45-Q095
@@ -81,7 +88,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "118-119"
-      pagination_papier: a_completer
+      pagination_papier: "118-119"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A140]
 
   - id: S45-Q096
@@ -91,7 +99,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "119"
-      pagination_papier: a_completer
+      pagination_papier: "119"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A141]
 
   - id: S45-Q097
@@ -101,7 +110,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "119"
-      pagination_papier: a_completer
+      pagination_papier: "119"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A142]
 
   - id: S45-Q098
@@ -111,7 +121,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "120"
-      pagination_papier: a_completer
+      pagination_papier: "120"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A143]
 
   - id: S45-Q099
@@ -121,7 +132,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "120"
-      pagination_papier: a_completer
+      pagination_papier: "120"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A144]
 
   - id: S45-Q100
@@ -131,7 +143,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "120"
-      pagination_papier: a_completer
+      pagination_papier: "120"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A145]
 
   - id: S45-Q101
@@ -141,7 +154,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "121"
-      pagination_papier: a_completer
+      pagination_papier: "121"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A146]
 
   - id: S45-Q102
@@ -151,7 +165,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "122"
-      pagination_papier: a_completer
+      pagination_papier: "122"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A147]
 
   - id: S45-Q103
@@ -161,7 +176,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "122"
-      pagination_papier: a_completer
+      pagination_papier: "122"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A148]
 
   - id: S45-Q104
@@ -171,7 +187,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "123"
-      pagination_papier: a_completer
+      pagination_papier: "123"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A149]
 
   - id: S45-Q105
@@ -181,7 +198,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "124"
-      pagination_papier: a_completer
+      pagination_papier: "124"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A150]
 
   - id: S45-Q106
@@ -191,7 +209,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "124"
-      pagination_papier: a_completer
+      pagination_papier: "124"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A151]
 
   - id: S45-Q107
@@ -201,7 +220,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "125"
-      pagination_papier: a_completer
+      pagination_papier: "125"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A152]
 
   - id: S45-Q108
@@ -211,6 +231,7 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "126"
-      pagination_papier: a_completer
+      pagination_papier: "126"
+      note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S45-A153]
 ```
