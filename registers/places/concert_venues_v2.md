@@ -87,6 +87,12 @@ places:
     sources:
       - S45
     usage: "Club de Manchester ; concert bénéfice *City Fun*."
+    lat: 53.4869
+    lng: -2.2239
+    geo_precision: exacte
+    prudence_methodologique: >-
+      255 Oldham Road M4 ; aussi Factory II / New Electric Circus ;
+      demoli. Source: joydiv.org/places.htm
   - id: PLACE-SALFORD-TECHNICAL-COLLEGE
     label: "Salford Technical College"
     type: education
@@ -452,18 +458,6 @@ places:
     geo_precision: exacte
     prudence_methodologique: >-
       Dommelstraat 2, Eindhoven ; ancien site reconstruit 2005 ; concert 18 jan 1980. Source: cvent.com
-  - id: PLACE-OSBORNE-MANCHESTER
-    label: "The Osborne / New Osborne"
-    type: salle
-    type_detail: club
-    sources:
-      - joydiv
-    usage: "255 Oldham Road, Manchester M4 ; aussi Factory II / New Electric Circus ; demoli."
-    lat: 53.4869
-    lng: -2.2239
-    geo_precision: exacte
-    prudence_methodologique: >-
-      255 Oldham Road M4 ; aussi Factory II / New Electric Circus ; demoli. Source: joydiv.org/places.htm
   - id: PLACE-CENTRAL-SOUND-STUDIOS
     label: "Central Sound Studios"
     type: studio
@@ -490,18 +484,6 @@ places:
       Piccadilly Plaza M1 ; Ian Curtis travaillait pour Manpower Services Commission. Source: en.wikipedia.org/wiki/Piccadilly_Plaza
     reference_croisee:
       - "wikidata:Q7194615"
-  - id: PLACE-HACIENDA-MANCHESTER
-    label: "The Hacienda"
-    type: salle
-    type_detail: club
-    sources:
-      - joydiv
-    usage: "11-15 Whitworth Street West, Manchester M1 ; posterieur a Joy Division, lieu Factory / New Order."
-    lat: 53.47419
-    lng: -2.24711
-    geo_precision: exacte
-    prudence_methodologique: >-
-      11-15 Whitworth Street West M1 ; posterieur a Joy Division, lieu Factory / New Order. Source: en.wikipedia.org/wiki/The_Hacienda
   - id: PLACE-ST-THOMAS-CHURCH-HENBURY
     label: "St Thomas's Church, Henbury"
     type: lieu_memoire
