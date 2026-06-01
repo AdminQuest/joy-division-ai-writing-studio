@@ -9,10 +9,9 @@
 # (horodatage generated_at neutralisé), donc le checkout d'un commit de merge détaché
 # en pull_request — dont la date diffère des generated_at committés — reste vert.
 #
-# Dépendances : la pipeline est quasi-stdlib MAIS tools/build_registers.py importe
-# PyYAML (import dur : exit 2 si absent). C'est la seule dépendance tierce de la chaîne
-# build_all. openpyxl/jsonschema de requirements.txt ne sont PAS utilisés par la
-# pipeline, on ne les installe donc pas.
+# Dépendances : la sentinelle build_all dépend de PyYAML, et les validateurs
+# publics B1 dépendent aussi de jsonschema. On installe donc requirements.txt
+# pour que le check requis couvre réellement les validateurs stabilisés.
 #
 # NOTE : le nom du job `check-generated-sync` est le contrat avec la ruleset
 # « Require status checks » — NE PAS le renommer (cela casserait le required check).
@@ -46,11 +45,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install PyYAML (seule dépendance tierce de la pipeline, épinglée sur le local)
-        run: python -m pip install --upgrade pip "PyYAML==6.0.1"
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip -r requirements.txt
 
       - name: Sentinelle anti-drift (rebuild déterministe → 0 divergence)
         run: python tools/check_generated_sync.py
 
       - name: Audit du repo documentaire (--fail-on-error)
         run: python tools/audit_repo.py --fail-on-error
+
+      - name: Validateurs publics B1
+        run: |
+          python tools/validate_orgs.py
+          python tools/validate_images.py
+          python tools/validate_chronology.py
+          python tools/validate_concerts.py
+          python tools/validate_places.py
+          python tools/validate_songs.py
+          python tools/validate_quotes.py
+          python tools/validate_people.py --check-drift
+          python tools/validate_attribution.py --check-drift
