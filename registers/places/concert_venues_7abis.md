@@ -221,8 +221,8 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
-    lat: 53.82
-    lng: -3.053
+    lat: 53.827301
+    lng: -3.054586
     geo_precision: exacte
     prudence_methodologique: >-
       North Promenade FY1 2HB ; hotel toujours existant. Source: imperialhotelblackpool.co.uk
