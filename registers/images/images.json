@@ -3,12 +3,12 @@
     "image_id": "IMAGE-S-0001",
     "level": "session",
     "session_ref": null,
-    "canonical_name": "Seance Kevin Cummins — Princess Parkway / Epping Walk Bridge, 6 janvier 1979",
+    "canonical_name": "Seance Hulme Bridge — Epping Walk",
     "photographer": "PERSON-kevin-cummins",
     "date": "1979-01-06",
     "date_precision": "day",
     "place": "PLACE-HULME",
-    "event_ref": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY",
+    "event_ref": null,
     "context": "promo",
     "subjects": [
       "PERSON-ian-curtis",
@@ -17,8 +17,8 @@
       "PERSON-stephen-morris"
     ],
     "output_count": 7,
-    "notes": "Seance en exterieur par temps de neige, pres de Princess Parkway et Epping Walk Bridge. Sept cliches realises. L'une des images (Curtis fumant) fait la couverture du NME le 13 janvier 1979. Seance fondatrice de l'iconographie Joy Division.",
-    "sources": ["S41", "S50", "S09"],
+    "notes": "Seance en exterieur par temps de neige sur Epping Walk Bridge (Hulme). Sept cliches realises. L'une des images (Curtis fumant) fait la couverture du NME le 13 janvier 1979. Seance fondatrice de l'iconographie Joy Division. Documentee dans S76 §861.",
+    "sources": ["S50", "S09", "S76"],
     "same_as": {
       "wikidata": null
     },
@@ -126,6 +126,34 @@
     "output_count": null,
     "notes": "Photographie de Bernard Pierre Wolff prise au cimetiere de Staglieno (Genes). Selectionnee par Peter Saville et Martyn Atkins pour la pochette de Closer et le single Love Will Tear Us Apart. La charge funeraire de l'image, choisie avant la mort de Curtis, est amplifiee retrospectivement.",
     "sources": ["S41", "S76", "S48"],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-S-0006",
+    "level": "session",
+    "session_ref": null,
+    "canonical_name": "Seance Kevin Cummins — Princess Parkway",
+    "photographer": "PERSON-kevin-cummins",
+    "date": "1979",
+    "date_precision": "approximate",
+    "place": "PLACE-HULME",
+    "event_ref": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY",
+    "context": "promo",
+    "subjects": [
+      "PERSON-ian-curtis",
+      "PERSON-bernard-sumner",
+      "PERSON-peter-hook",
+      "PERSON-stephen-morris"
+    ],
+    "output_count": null,
+    "notes": "Seance photographique de Kevin Cummins pres de Princess Parkway. Documentee separement de la seance Epping Walk Bridge dans les sources (S41-A157).",
+    "sources": ["S41"],
     "same_as": {
       "wikidata": null
     },
