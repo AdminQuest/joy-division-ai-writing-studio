@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T18:35:37",
+  "generated_at": "2026-06-01T00:31:35",
   "summary": {
-    "records_total": 8377,
+    "records_total": 8415,
     "records_by_kind": {
       "unknown": 1410,
       "source": 120,
@@ -14,7 +14,7 @@
       "chronology": 539,
       "template": 340,
       "concert": 388,
-      "person": 471,
+      "person": 509,
       "quote_batch": 1,
       "rules": 1,
       "song": 110,
@@ -24,9 +24,9 @@
     "errors": 0,
     "warnings": 28713,
     "sources_declared_in_registre_json": 95,
-    "sources_used_in_records": 79,
-    "sources_exported": 79,
-    "declared_but_unused": 16,
+    "sources_used_in_records": 80,
+    "sources_exported": 80,
+    "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -38,7 +38,7 @@
     "metadata": 274,
     "motif": 427,
     "myth": 102,
-    "person": 471,
+    "person": 509,
     "quote": 962,
     "quote_batch": 1,
     "rules": 1,
@@ -109,6 +109,7 @@
       "metadata": 3,
       "atom": 9,
       "unknown": 9,
+      "person": 2,
       "quote": 4
     },
     "S13": {
@@ -117,6 +118,7 @@
       "atom": 11,
       "metadata": 4,
       "motif": 5,
+      "person": 1,
       "unknown": 2,
       "quote": 4
     },
@@ -138,7 +140,8 @@
       "concept": 8,
       "motif": 4,
       "unknown": 17,
-      "source": 1
+      "source": 1,
+      "person": 1
     },
     "S16": {
       "concept": 1,
@@ -179,7 +182,8 @@
       "myth": 4,
       "unknown": 16,
       "source": 1,
-      "atom": 16
+      "atom": 16,
+      "person": 1
     },
     "S26": {
       "metadata": 5,
@@ -189,7 +193,8 @@
       "myth": 4,
       "unknown": 16,
       "source": 1,
-      "atom": 18
+      "atom": 18,
+      "person": 2
     },
     "S27": {
       "metadata": 5,
@@ -199,7 +204,8 @@
       "myth": 3,
       "unknown": 12,
       "source": 1,
-      "atom": 11
+      "atom": 11,
+      "person": 1
     },
     "S29": {
       "metadata": 3,
@@ -212,6 +218,9 @@
       "person": 24,
       "quote": 5,
       "song": 5
+    },
+    "S30": {
+      "person": 1
     },
     "S31": {
       "unknown": 26,
@@ -303,12 +312,14 @@
       "source": 1,
       "atom": 190,
       "quote": 5,
-      "chronology": 16
+      "chronology": 16,
+      "person": 3
     },
     "S47": {
       "chronology": 20,
       "quote": 15,
-      "atom": 200
+      "atom": 200,
+      "person": 1
     },
     "S48": {
       "metadata": 4,
@@ -477,6 +488,7 @@
       "source": 1,
       "metadata": 1,
       "atom": 16,
+      "person": 2,
       "concept": 1,
       "motif": 1,
       "quote": 3,
@@ -487,6 +499,7 @@
       "metadata": 2,
       "atom": 9,
       "unknown": 10,
+      "person": 3,
       "quote": 6,
       "concept": 2,
       "motif": 1
@@ -494,6 +507,7 @@
     "S63": {
       "atom": 11,
       "unknown": 21,
+      "person": 2,
       "quote": 7,
       "concept": 3,
       "motif": 3,
@@ -502,6 +516,7 @@
     "S64": {
       "atom": 8,
       "unknown": 16,
+      "person": 1,
       "quote": 5,
       "concept": 3,
       "motif": 2
@@ -510,18 +525,21 @@
       "metadata": 4,
       "atom": 8,
       "unknown": 8,
+      "person": 1,
       "quote": 7
     },
     "S66": {
       "metadata": 4,
       "atom": 8,
       "unknown": 8,
+      "person": 1,
       "quote": 10
     },
     "S67": {
       "metadata": 4,
       "atom": 9,
       "unknown": 11,
+      "person": 1,
       "quote": 7,
       "chronology": 4,
       "concept": 3,
@@ -531,7 +549,8 @@
       "metadata": 1,
       "quote": 3,
       "atom": 39,
-      "chronology": 40
+      "chronology": 40,
+      "person": 1
     },
     "S69": {
       "metadata": 1,
@@ -539,21 +558,24 @@
       "source": 1,
       "atom": 36,
       "chronology": 12,
-      "unknown": 6
+      "unknown": 6,
+      "person": 2
     },
     "S70": {
       "metadata": 1,
       "quote": 11,
       "source": 1,
       "atom": 40,
-      "chronology": 21
+      "chronology": 21,
+      "person": 1
     },
     "S71": {
       "metadata": 1,
       "quote": 32,
       "atom": 78,
       "chronology": 39,
-      "source": 1
+      "source": 1,
+      "person": 1
     },
     "S72": {
       "metadata": 1,
@@ -615,6 +637,7 @@
       "metadata": 4,
       "atom": 8,
       "unknown": 10,
+      "person": 1,
       "quote": 7,
       "chronology": 4
     },
@@ -622,6 +645,7 @@
       "metadata": 4,
       "atom": 9,
       "unknown": 14,
+      "person": 3,
       "quote": 7,
       "chronology": 7
     },
@@ -629,6 +653,7 @@
       "metadata": 7,
       "atom": 9,
       "unknown": 16,
+      "person": 1,
       "quote": 7,
       "chronology": 5,
       "concept": 5,
@@ -638,6 +663,7 @@
       "metadata": 4,
       "atom": 12,
       "unknown": 22,
+      "person": 2,
       "quote": 7,
       "chronology": 5
     },
@@ -660,6 +686,7 @@
       "metadata": 7,
       "atom": 11,
       "unknown": 15,
+      "person": 1,
       "quote": 11,
       "chronology": 7
     },
@@ -667,6 +694,7 @@
       "metadata": 6,
       "atom": 10,
       "unknown": 14,
+      "person": 1,
       "quote": 12,
       "chronology": 8
     },
@@ -674,6 +702,7 @@
       "metadata": 6,
       "atom": 11,
       "unknown": 16,
+      "person": 1,
       "quote": 17,
       "chronology": 7
     },
@@ -834,6 +863,10 @@
       38
     ],
     [
+      "registers/people/00_authors_canonical.md",
+      38
+    ],
+    [
       "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
       37
     ],
@@ -851,10 +884,6 @@
     ],
     [
       "sources/johnson_morley_an_ideal_for_living/source_suite_06.md",
-      35
-    ],
-    [
-      "registers/s85_malcolm_specialized_registers.md",
       35
     ]
   ],
@@ -12427,21 +12456,6 @@
         ]
       },
       {
-        "source_id": "S30",
-        "source_label": "S30 — Frith, Sound Effects, 1981",
-        "auteur": "Simon Frith",
-        "titre": "Sound Effects: Youth, Leisure, and the Politics of Rock",
-        "annee": "1981",
-        "statut": "verifie",
-        "usage": [
-          "musique populaire",
-          "résistance culturelle",
-          "rock",
-          "subculture",
-          "politique de la musique"
-        ]
-      },
-      {
         "source_id": "S32",
         "source_label": "S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977",
         "auteur": "Kraftwerk",
@@ -12708,7 +12722,7 @@
         "auteur": "The Times ; Nicholas Wood ; Thomson Prentice ; auteurs multiples",
         "titre": "Bundle of press articles re AIDS",
         "annee": "1986",
-        "records": 27,
+        "records": 29,
         "atoms": 9,
         "quotes": 4,
         "chronology": 0,
@@ -12718,6 +12732,7 @@
           "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
           "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
           "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
+          "registers/people/00_authors_canonical.md",
           "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
           "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
           "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
@@ -12733,12 +12748,13 @@
         "auteur": "Caterina Tomeo",
         "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
         "annee": "2021",
-        "records": 28,
+        "records": 29,
         "atoms": 11,
         "quotes": 4,
         "chronology": 0,
         "files": [
           "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md",
+          "registers/people/00_authors_canonical.md",
           "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
           "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
           "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
@@ -12774,11 +12790,12 @@
         "auteur": "Daniele De Luca",
         "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
         "annee": "2021",
-        "records": 61,
+        "records": 62,
         "atoms": 15,
         "quotes": 4,
         "chronology": 8,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/references/s15_deluca_source_canonique.md",
           "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
           "sources/deluca_manchester_punk_threshold/citations_exactes.md",
@@ -12880,11 +12897,12 @@
         "auteur": "David Wilkinson",
         "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
         "annee": "2018",
-        "records": 63,
+        "records": 64,
         "atoms": 16,
         "quotes": 5,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/references/s22_wilkinson_city_fun_source_canonique.md",
           "registers/s21_mdmarchive_city_fun_structuring_registers.md",
           "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
@@ -12900,11 +12918,12 @@
         "auteur": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.)",
         "titre": "Post-Punk Then and Now",
         "annee": "2016",
-        "records": 68,
+        "records": 70,
         "atoms": 18,
         "quotes": 7,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/references/s26_post_punk_then_now_source_canonique.md",
           "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
           "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
@@ -12919,11 +12938,12 @@
         "auteur": "Loïc Riom",
         "titre": "Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980",
         "annee": "2016",
-        "records": 45,
+        "records": 46,
         "atoms": 11,
         "quotes": 3,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/references/s27_riom_review_crossley_source_canonique.md",
           "sources/riom_review_crossley_networks/registres_specialises_s27.md",
           "sources/riom_review_crossley_networks/registres_structurants_s27.md",
@@ -12956,6 +12976,20 @@
           "sources/goddard_missions_dead_souls/source.md",
           "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
           "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md"
+        ]
+      },
+      {
+        "source_id": "S30",
+        "source_label": "S30 — Frith, Sound Effects, 1981",
+        "auteur": "Simon Frith",
+        "titre": "Sound Effects: Youth, Leisure, and the Politics of Rock",
+        "annee": "1981",
+        "records": 1,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/people/00_authors_canonical.md"
         ]
       },
       {
@@ -13340,11 +13374,12 @@
         "auteur": "Mark Johnson ; David Lees ; Paul Morley ; Jon Wozencroft",
         "titre": "An Ideal for Living: An History of Joy Division",
         "annee": "1984",
-        "records": 212,
+        "records": 215,
         "atoms": 190,
         "quotes": 5,
         "chronology": 16,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "sources/johnson_morley_an_ideal_for_living/source.md",
           "sources/johnson_morley_an_ideal_for_living/source_suite_02.md",
           "sources/johnson_morley_an_ideal_for_living/source_suite_03.md",
@@ -13359,11 +13394,12 @@
         "auteur": "Mike West",
         "titre": "Joy Division",
         "annee": "1984",
-        "records": 235,
+        "records": 236,
         "atoms": 200,
         "quotes": 15,
         "chronology": 20,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "sources/mike_west_joy_division/chronology.md",
           "sources/mike_west_joy_division/quotes.md",
           "sources/mike_west_joy_division/source_atomisation_01.md",
@@ -13626,11 +13662,12 @@
         "auteur": "Giada Iovane ; Giovanni Maria Riccio",
         "titre": "Trademark will tear us apart again. A proposito di marchi di impresa e nomi di gruppi musicali: il caso Joy Division",
         "annee": "2021",
-        "records": 47,
+        "records": 49,
         "atoms": 16,
         "quotes": 3,
         "chronology": 4,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/references/s61_iovane_riccio_trademark_registers.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/source.md",
@@ -13644,11 +13681,12 @@
         "auteur": "Martin J. Power, Aileen Dillane, Eoin Devereux",
         "titre": "This Is the Way, Step Inside: Understanding Joy Division",
         "annee": "2018",
-        "records": 30,
+        "records": 33,
         "atoms": 9,
         "quotes": 6,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s62_introduction_specialized_registers.md",
           "registers/s62_introduction_structuring_registers.md",
           "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
@@ -13661,11 +13699,12 @@
         "auteur": "Dan Jacobson, Ian Jeffrey",
         "titre": "Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain",
         "annee": "2018",
-        "records": 46,
+        "records": 48,
         "atoms": 11,
         "quotes": 7,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s63_wilson_faustian_specialized_registers.md",
           "registers/s63_wilson_faustian_structuring_registers.md",
           "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
@@ -13678,11 +13717,12 @@
         "auteur": "Giacomo Bottà",
         "titre": "Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division",
         "annee": "2018",
-        "records": 34,
+        "records": 35,
         "atoms": 8,
         "quotes": 5,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s64_european_imaginary_specialized_registers.md",
           "registers/s64_european_imaginary_structuring_registers.md",
           "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
@@ -13695,11 +13735,12 @@
         "auteur": "Sara Martínez",
         "titre": "Literary Influences on Joy Division: J. G. Ballard, Franz Kafka, Dostoevsky",
         "annee": "2018",
-        "records": 27,
+        "records": 28,
         "atoms": 8,
         "quotes": 7,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s65_literary_influences_specialized_registers.md",
           "registers/s65_literary_influences_structuring_registers.md",
           "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
@@ -13712,11 +13753,12 @@
         "auteur": "Uwe Schütte",
         "titre": "'Possessed by a Fury That Burns from Inside': On Ian Curtis's Lyrics",
         "annee": "2018",
-        "records": 30,
+        "records": 31,
         "atoms": 8,
         "quotes": 10,
         "chronology": 0,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s66_curtis_lyrics_specialized_registers.md",
           "registers/s66_curtis_lyrics_structuring_registers.md",
           "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
@@ -13729,11 +13771,12 @@
         "auteur": "Tiffany Naiman",
         "titre": "In a Lonely Place: Illness and the Temporal Exile of Ian Curtis",
         "annee": "2018",
-        "records": 40,
+        "records": 41,
         "atoms": 9,
         "quotes": 7,
         "chronology": 4,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s67_lonely_place_specialized_registers.md",
           "registers/s67_lonely_place_structuring_registers.md",
           "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
@@ -13746,12 +13789,13 @@
         "auteur": "Marco Broll",
         "titre": "Joy Division",
         "annee": "1988",
-        "records": 83,
+        "records": 84,
         "atoms": 39,
         "quotes": 3,
         "chronology": 40,
         "files": [
           "registers/chronology/s76_torn_apart_chronology_part_03.md",
+          "registers/people/00_authors_canonical.md",
           "sources/marco_broll/README.md",
           "sources/marco_broll/citations_exactes.md",
           "sources/marco_broll/source.md"
@@ -13763,7 +13807,7 @@
         "auteur": "Alastair Greig ; Catherine Strong",
         "titre": "But We Remember When We Were Young",
         "annee": "2014",
-        "records": 62,
+        "records": 64,
         "atoms": 36,
         "quotes": 6,
         "chronology": 12,
@@ -13772,6 +13816,7 @@
           "registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md",
           "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
           "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
+          "registers/people/00_authors_canonical.md",
           "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
           "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
           "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
@@ -13787,11 +13832,12 @@
         "auteur": "Alfredo Suatoni",
         "titre": "Joy Division: Dal cuore della città / From the Centre of the City",
         "annee": "1990",
-        "records": 74,
+        "records": 75,
         "atoms": 40,
         "quotes": 11,
         "chronology": 21,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "sources/suatoni/README.md",
           "sources/suatoni/citations_exactes.md",
           "sources/suatoni/source.md"
@@ -13803,11 +13849,12 @@
         "auteur": "Claude Flowers",
         "titre": "New Order + Joy Division: Dreams Never End",
         "annee": "1995/2012",
-        "records": 151,
+        "records": 152,
         "atoms": 78,
         "quotes": 32,
         "chronology": 39,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
           "sources/flowers/README.md",
           "sources/flowers/citations_exactes.md",
@@ -14065,11 +14112,12 @@
         "auteur": "J. Rubén Valdés Miyares",
         "titre": "Communication Breakdown: Inarticulacy and the Significance of 'Transmission'",
         "annee": "2018",
-        "records": 33,
+        "records": 34,
         "atoms": 8,
         "quotes": 7,
         "chronology": 4,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s80_transmission_specialized_registers.md",
           "registers/s80_transmission_structuring_registers.md",
           "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
@@ -14082,11 +14130,12 @@
         "auteur": "Eoin Devereux, Walter Cullen, David Meagher",
         "titre": "This Is the Crisis I Knew Had to Come: Revisiting Ian Curtis's Suicide",
         "annee": "2018",
-        "records": 41,
+        "records": 44,
         "atoms": 9,
         "quotes": 7,
         "chronology": 7,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s81_curtis_suicide_specialized_registers.md",
           "registers/s81_curtis_suicide_structuring_registers.md",
           "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
@@ -14099,11 +14148,12 @@
         "auteur": "Robin Parmar",
         "titre": "Joy Division in Space: The Aesthetics of Estrangement",
         "annee": "2018",
-        "records": 51,
+        "records": 52,
         "atoms": 9,
         "quotes": 7,
         "chronology": 5,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s82_space_estrangement_specialized_registers.md",
           "registers/s82_space_estrangement_structuring_registers.md",
           "sources/parmar_space_estrangement/atoms_dm_s82_space_estrangement_v2.md",
@@ -14116,11 +14166,12 @@
         "auteur": "John S. Greenwood, Paul Tarpey",
         "titre": "Manchester, Martin Hannett and Joy Division's Pungent Architecture",
         "annee": "2018",
-        "records": 50,
+        "records": 52,
         "atoms": 12,
         "quotes": 7,
         "chronology": 5,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/s83_hannett_architecture_specialized_registers.md",
           "registers/s83_hannett_architecture_structuring_registers.md",
           "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
@@ -14168,12 +14219,13 @@
         "auteur": "Gay Jennifer Breyley",
         "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
         "annee": "2018",
-        "records": 58,
+        "records": 59,
         "atoms": 11,
         "quotes": 11,
         "chronology": 14,
         "files": [
           "registers/organizations/s86_breyley_organizations.md",
+          "registers/people/00_authors_canonical.md",
           "registers/people/s86_breyley_people.md",
           "registers/quotes/s86_breyley_quotes.md",
           "registers/s86_breyley_specialized_registers.md",
@@ -14188,11 +14240,12 @@
         "auteur": "Jennifer Otter Bickerdike",
         "titre": "As If It Never Happened: The Posteconomy of Joy Division and Ian Curtis",
         "annee": "2018",
-        "records": 58,
+        "records": 59,
         "atoms": 10,
         "quotes": 12,
         "chronology": 16,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/people/s87_otter_bickerdike_people.md",
           "registers/quotes/s87_otter_bickerdike_quotes.md",
           "registers/s87_otter_bickerdike_specialized_registers.md",
@@ -14207,11 +14260,12 @@
         "auteur": "Kieran Cashell",
         "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
         "annee": "2018",
-        "records": 64,
+        "records": 65,
         "atoms": 11,
         "quotes": 17,
         "chronology": 14,
         "files": [
+          "registers/people/00_authors_canonical.md",
           "registers/people/s88_cashell_people.md",
           "registers/quotes/s88_cashell_quotes.md",
           "registers/s88_cashell_specialized_registers.md",

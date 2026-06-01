@@ -2,6 +2,30 @@
   "_comment": "Hand-off étape 10 — entités collectives à promouvoir en ORG-. NE PAS créer ici. Issu de la canonicalisation PERSON- (étape 9).",
   "items": [
     {
+      "from_attribution": true,
+      "name": "HM Treasury",
+      "target_kind": "ORG-",
+      "note": "Attribution non-personne (institution/groupe/archive) reperee au cablage etape 9 ; cablage des aretes reporte a l'etape 10."
+    },
+    {
+      "from_attribution": true,
+      "name": "Happy Mondays",
+      "target_kind": "ORG-",
+      "note": "Attribution non-personne (institution/groupe/archive) reperee au cablage etape 9 ; cablage des aretes reporte a l'etape 10."
+    },
+    {
+      "from_attribution": true,
+      "name": "Manchester Digital Music Archive",
+      "target_kind": "ORG-",
+      "note": "Attribution non-personne (institution/groupe/archive) reperee au cablage etape 9 ; cablage des aretes reporte a l'etape 10."
+    },
+    {
+      "from_attribution": true,
+      "name": "The Times",
+      "target_kind": "ORG-",
+      "note": "Attribution non-personne (institution/groupe/archive) reperee au cablage etape 9 ; cablage des aretes reporte a l'etape 10."
+    },
+    {
       "from_pers": "PERS-016",
       "name": "Bedhead",
       "target_kind": "ORG-"

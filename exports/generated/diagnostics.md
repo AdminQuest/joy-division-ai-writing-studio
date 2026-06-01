@@ -1,18 +1,18 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-31T18:35:37`
+Généré le : `2026-06-01T00:31:35`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 8377
+- Enregistrements : 8415
 - Erreurs : 0
 - Avertissements : 28713
 - Sources déclarées dans `data/registre.json` : 95
-- Sources utilisées dans les enregistrements : 79
-- Sources exportées : 79
-- Sources déclarées mais non utilisées : 16
+- Sources utilisées dans les enregistrements : 80
+- Sources exportées : 80
+- Sources déclarées mais non utilisées : 15
 - Sources utilisées mais absentes du registre : 0
 - Libellés faibles : 0
 
@@ -25,7 +25,7 @@ Statut : **warning**
 - metadata : 274
 - motif : 427
 - myth : 102
-- person : 471
+- person : 509
 - quote : 962
 - quote_batch : 1
 - rules : 1
@@ -51,7 +51,6 @@ Aucune.
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — statut : a_consolider
 - S25 — Factory Records, philosophie d’indépendance, 1978–1992 — statut : a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — statut : a_consolider
-- S30 — Frith, Sound Effects, 1981 — statut : verifie
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — statut : a_consolider
 - S33 — Can, Tago Mago, 1971 — statut : a_consolider
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
