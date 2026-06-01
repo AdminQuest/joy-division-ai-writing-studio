@@ -168,5 +168,4 @@ générateur est **idempotent** (un rebuild régénère à l'identique, y compri
 
 ## 10. Lien de la PR
 
-<!-- PR_LINK -->
-_À compléter à l'ouverture de la PR `claude/etape9-cablage-attribution`._
+Pull request : **[https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/48](https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/48)** (branche `claude/etape9-cablage-attribution` → `main`). Revue `@codex review` déclenchée à l'ouverture. **Ne pas merger** (le merge reste gaté).
