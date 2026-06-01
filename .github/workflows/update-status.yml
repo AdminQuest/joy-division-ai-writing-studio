@@ -59,18 +59,43 @@ jobs:
           PR=${{ steps.upsert_pr.outputs.pr_number }}
           echo "Attente du check check-generated-sync sur PR #$PR..."
           for i in $(seq 1 60); do
-            STATUS=$(gh pr checks $PR --json name,state \
-              --jq '.[] | select(.name=="check-generated-sync") | .state')
-            echo "Tentative $i — statut: $STATUS"
+            echo "Tentative $i/60..."
+
+            # Récupérer tous les checks — ignorer les erreurs de commande
+            CHECKS=$(gh pr checks $PR --json name,state 2>/dev/null || echo "[]")
+
+            # Si aucun check encore enregistré : attendre sans erreur
+            COUNT=$(echo "$CHECKS" | jq 'length' 2>/dev/null || echo "0")
+            if [ "$COUNT" = "0" ]; then
+              echo "  Aucun check encore enregistré — attente..."
+              sleep 15
+              continue
+            fi
+
+            # Chercher check-generated-sync spécifiquement
+            STATUS=$(echo "$CHECKS" | jq -r \
+              '.[] | select(.name=="check-generated-sync") | .state' \
+              2>/dev/null || echo "")
+
+            if [ -z "$STATUS" ]; then
+              echo "  check-generated-sync pas encore visible — attente..."
+              sleep 15
+              continue
+            fi
+
+            echo "  Statut check-generated-sync : $STATUS"
+
             if [ "$STATUS" = "SUCCESS" ]; then
               echo "Check passé — merge en cours"
               gh pr merge $PR --merge --delete-branch
               exit 0
             elif [ "$STATUS" = "FAILURE" ]; then
-              echo "Check échoué — merge annulé"
+              echo "Check échoué — merge annulé, PR #$PR laissée ouverte"
               exit 1
             fi
-            sleep 10
+
+            # Statut intermédiaire (PENDING, IN_PROGRESS) : continuer
+            sleep 15
           done
-          echo "Timeout — check non terminé après 10 minutes"
+          echo "Timeout — check non terminé après 15 minutes"
           exit 1
