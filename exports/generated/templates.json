@@ -15084,6 +15084,10 @@
       "places": [
         {
           "id": "PLACE-ALFRED-STREET",
+          "lat": 53.499,
+          "lng": -2.26,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Alfred Street, Lower Broughton, Salford. Rue liée au secteur d'enfance de Bernard Sumner / Wheathill Chemical Works. Coordonnée de rue, pas de bâtiment.",
           "label": "Alfred Street",
           "type": "quartier",
           "type_detail": "rue_ouvriere",
@@ -15096,6 +15100,10 @@
         },
         {
           "id": "PLACE-LOWER-BROUGHTON",
+          "lat": 53.499,
+          "lng": -2.26,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Quartier d'enfance de Bernard Sumner, Lower Broughton, Salford.",
           "label": "Lower Broughton",
           "type": "quartier",
           "type_detail": "quartier_salford",
@@ -15175,6 +15183,10 @@
         },
         {
           "id": "PLACE-VIRGIN-RECORDS-LEVER-STREET",
+          "lat": 53.4827,
+          "lng": -2.2357,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Virgin Records, Lever Street, Manchester. Disquaire de la scène post-punk mancunienne. Adresse exacte à confirmer.",
           "label": "Virgin Records, Lever Street",
           "type": "commerce",
           "type_detail": "disquaire_hub_punk",
@@ -15234,6 +15246,10 @@
         },
         {
           "id": "PLACE-GREENDOW-COMMERCIALS-STUDIO",
+          "lat": 53.47938,
+          "lng": -2.24773,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Arrow Studios / Greendow, 6 Jackson's Row, Manchester. Sessions RCA.",
           "label": "Greendow Commercials studio",
           "type": "studio",
           "type_detail": "studio",
@@ -15304,6 +15320,13 @@
         },
         {
           "id": "PLACE-ANGEL-MEADOW",
+          "lat": 53.4902,
+          "lng": -2.2387,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Quartier historique de Manchester, pas une salle de concert.",
+          "reference_croisee": [
+            "wikidata:Q4760268"
+          ],
           "label": "Angel Meadow",
           "type": "quartier",
           "type_detail": "quartier_taudis_victorien",
@@ -15400,6 +15423,13 @@
         },
         {
           "id": "PLACE-WELLINGTON-STREET-ESTATE",
+          "lat": 53.4743,
+          "lng": -2.2007,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Wellington Street Estate / Fort Beswick, Beswick, Manchester. Coordonnée de secteur, non du bloc exact.",
+          "reference_croisee": [
+            "wikidata:Q4897126"
+          ],
           "label": "Wellington Street estate",
           "type": "habitat",
           "type_detail": "deck_access_estate",
@@ -15491,6 +15521,10 @@
         },
         {
           "id": "PLACE-CHRIST-CHURCH-PRIMARY-SCHOOL",
+          "lat": 53.2588,
+          "lng": -2.1221,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Christ Church Primary School, Macclesfield. Lié à l'enfance de Ian Curtis. Adresse fine à confirmer par archives scolaires.",
           "label": "Christ Church Primary School",
           "type": "education",
           "type_detail": "ecole_primaire",
@@ -15524,6 +15558,10 @@
         },
         {
           "id": "PLACE-BROKEN-CROSS-SECONDARY-MODERN",
+          "lat": 53.2576,
+          "lng": -2.155,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Broken Cross, Macclesfield. Établissement à confirmer par archives scolaires locales.",
           "label": "Broken Cross Secondary Modern",
           "type": "education",
           "type_detail": "secondary_modern",
@@ -15643,6 +15681,10 @@
       "places": [
         {
           "id": "PLACE-IVY-LANE",
+          "lat": 53.258,
+          "lng": -2.1265,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Ivy Lane, Macclesfield. Rue, pas un bâtiment.",
           "label": "Ivy Lane",
           "type": "habitat",
           "type_detail": "domicile_adolescent",
@@ -15791,6 +15833,10 @@
         },
         {
           "id": "PLACE-RARE-RECORDS",
+          "lat": 53.48018,
+          "lng": -2.24714,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Rare Records, 36 John Dalton Street, Manchester. Ian Curtis y travailla.",
           "label": "Rare Records",
           "type": "commerce",
           "type_detail": "disquaire",
@@ -15921,6 +15967,10 @@
         },
         {
           "id": "PLACE-BOOTLE-STREET",
+          "lat": 53.47815,
+          "lng": -2.24756,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Bootle Street, Manchester. Rue, pas un bâtiment.",
           "label": "Bootle Street",
           "type": "pouvoir",
           "type_detail": "commissariat",

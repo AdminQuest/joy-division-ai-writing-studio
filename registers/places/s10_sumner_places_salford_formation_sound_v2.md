@@ -11,6 +11,10 @@ statut: integration_directe
 ```yaml
 places:
   - id: PLACE-ALFRED-STREET
+    lat: 53.499
+    lng: -2.26
+    geo_precision: rue
+    prudence_methodologique: "Alfred Street, Lower Broughton, Salford. Rue liée au secteur d'enfance de Bernard Sumner / Wheathill Chemical Works. Coordonnée de rue, pas de bâtiment."
     label: "Alfred Street"
     type: quartier
     type_detail: rue_ouvriere
@@ -21,6 +25,10 @@ places:
     prudence: "Ne pas idéaliser la communauté ; intégrer violence, pauvreté, toxicité industrielle et destruction."
 
   - id: PLACE-LOWER-BROUGHTON
+    lat: 53.499
+    lng: -2.26
+    geo_precision: quartier
+    prudence_methodologique: "Quartier d'enfance de Bernard Sumner, Lower Broughton, Salford."
     label: "Lower Broughton"
     type: quartier
     type_detail: quartier_salford
@@ -89,6 +97,10 @@ places:
     usage_s10: "Lieu du concert des Sex Pistols du 4 juin 1976, décisif mais non miraculeux selon Sumner."
 
   - id: PLACE-VIRGIN-RECORDS-LEVER-STREET
+    lat: 53.4827
+    lng: -2.2357
+    geo_precision: rue
+    prudence_methodologique: "Virgin Records, Lever Street, Manchester. Disquaire de la scène post-punk mancunienne. Adresse exacte à confirmer."
     label: "Virgin Records, Lever Street"
     type: commerce
     type_detail: disquaire_hub_punk
@@ -140,6 +152,10 @@ places:
     usage_s10: "Lieu de répétition central, proche du futur Haçienda, associé à Gretton et aux photographies de Curtis."
 
   - id: PLACE-GREENDOW-COMMERCIALS-STUDIO
+    lat: 53.47938
+    lng: -2.24773
+    geo_precision: exacte
+    prudence_methodologique: "Arrow Studios / Greendow, 6 Jackson's Row, Manchester. Sessions RCA."
     label: "Greendow Commercials studio"
     type: studio
     type_detail: studio

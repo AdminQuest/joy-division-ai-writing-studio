@@ -46,6 +46,10 @@ places:
     atoms: [S35-A034]
     _legacy_format: s35-lieux-role
   - id: PLACE-CHRIST-CHURCH-PRIMARY-SCHOOL
+    lat: 53.2588
+    lng: -2.1221
+    geo_precision: quartier
+    prudence_methodologique: "Christ Church Primary School, Macclesfield. Lié à l'enfance de Ian Curtis. Adresse fine à confirmer par archives scolaires."
     label: "Christ Church Primary School"
     type: education
     type_detail: ecole_primaire
@@ -67,6 +71,10 @@ places:
     atoms: [S35-A035, S35-A036]
     _legacy_format: s35-lieux-role
   - id: PLACE-BROKEN-CROSS-SECONDARY-MODERN
+    lat: 53.2576
+    lng: -2.155
+    geo_precision: quartier
+    prudence_methodologique: "Broken Cross, Macclesfield. Établissement à confirmer par archives scolaires locales."
     label: "Broken Cross Secondary Modern"
     type: education
     type_detail: secondary_modern

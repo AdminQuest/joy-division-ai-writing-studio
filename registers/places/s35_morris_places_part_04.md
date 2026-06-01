@@ -13,6 +13,10 @@ passage_atomise: "PDF p. 75-102"
 ```yaml
 places:
   - id: PLACE-IVY-LANE
+    lat: 53.258
+    lng: -2.1265
+    geo_precision: rue
+    prudence_methodologique: "Ivy Lane, Macclesfield. Rue, pas un bâtiment."
     label: "Ivy Lane"
     type: habitat
     type_detail: domicile_adolescent
@@ -88,6 +92,10 @@ places:
     chapitres: [Chapitre 8, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-RARE-RECORDS
+    lat: 53.48018
+    lng: -2.24714
+    geo_precision: exacte
+    prudence_methodologique: "Rare Records, 36 John Dalton Street, Manchester. Ian Curtis y travailla."
     label: "Rare Records"
     type: commerce
     type_detail: disquaire
@@ -154,6 +162,10 @@ places:
     chapitres: [Chapitre 8, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-BOOTLE-STREET
+    lat: 53.47815
+    lng: -2.24756
+    geo_precision: rue
+    prudence_methodologique: "Bootle Street, Manchester. Rue, pas un bâtiment."
     label: "Bootle Street"
     type: pouvoir
     type_detail: commissariat

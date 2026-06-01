@@ -21,6 +21,11 @@ places:
     prudence: "À traiter comme lieu social et sanitaire, non comme simple motif noir."
 
   - id: PLACE-ANGEL-MEADOW
+    lat: 53.4902
+    lng: -2.2387
+    geo_precision: quartier
+    prudence_methodologique: "Quartier historique de Manchester, pas une salle de concert."
+    reference_croisee: ["wikidata:Q4760268"]
     label: "Angel Meadow"
     type: quartier
     type_detail: quartier_taudis_victorien
@@ -101,6 +106,11 @@ places:
     usage: "Nom péjoratif du Wellington Street estate, emblématique de l’échec des deck-access estates."
 
   - id: PLACE-WELLINGTON-STREET-ESTATE
+    lat: 53.4743
+    lng: -2.2007
+    geo_precision: quartier
+    prudence_methodologique: "Wellington Street Estate / Fort Beswick, Beswick, Manchester. Coordonnée de secteur, non du bloc exact."
+    reference_croisee: ["wikidata:Q4897126"]
     label: "Wellington Street estate"
     type: habitat
     type_detail: deck_access_estate
