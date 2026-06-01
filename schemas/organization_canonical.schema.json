@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adminquest/joy-division-ai-writing-studio/schemas/organization_canonical.schema.json",
+  "title": "Registre canonique des organisations — ORG-",
+  "description": "Schema JSON executable (Draft 2020-12, FormatChecker actif) de l'identite canonique d'une organisation (etape 10). Decrit les enregistrements ORG-NNNN de registers/orgs/orgs.json, valides par tools/validate_orgs.py. Couvre les groupes musicaux, labels, institutions, medias, equipes techniques et organisations-lieux.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "org_id",
+    "canonical_name",
+    "aliases",
+    "category",
+    "country",
+    "status",
+    "same_as",
+    "joy_division_relation",
+    "sources",
+    "identity_frozen",
+    "drift_sentinel",
+    "gate",
+    "last_verified"
+  ],
+  "properties": {
+    "org_id": {
+      "type": "string",
+      "description": "Identifiant canonique : ORG- suivi de 4 chiffres zero-paddes.",
+      "pattern": "^ORG-\\d{4}$"
+    },
+    "canonical_name": {
+      "type": "string",
+      "description": "Forme canonique du nom de l'organisation.",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Formes secondaires : abreviations, noms alternatifs, anciens noms.",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "category": {
+      "type": "string",
+      "description": "Categorie primaire de l'organisation.",
+      "enum": [
+        "group",
+        "label",
+        "institution",
+        "venue_org",
+        "crew",
+        "media",
+        "other"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Sous-categorie libre (punk, independent_label, newspaper, sound_engineering, etc.)."
+    },
+    "country": {
+      "type": "string",
+      "description": "Code pays ISO 3166-1 alpha-2.",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "city": {
+      "type": "string",
+      "description": "Ville principale de l'organisation."
+    },
+    "active_from": {
+      "type": "string",
+      "description": "Debut d'activite (annee ou date ISO 8601 partielle)."
+    },
+    "active_until": {
+      "type": ["string", "null"],
+      "description": "Fin d'activite. null si toujours active."
+    },
+    "status": {
+      "type": "string",
+      "description": "Statut courant de l'organisation.",
+      "enum": [
+        "active",
+        "dissolved",
+        "dormant",
+        "unknown"
+      ]
+    },
+    "same_as": {
+      "type": "object",
+      "description": "Identifiants externes verifies (Wikidata, Discogs, MusicBrainz).",
+      "additionalProperties": false,
+      "properties": {
+        "wikidata": {
+          "type": "string",
+          "description": "Identifiant Wikidata (Q-number).",
+          "pattern": "^Q\\d+$"
+        },
+        "discogs": {
+          "type": "string",
+          "description": "URL Discogs (label ou artiste)."
+        },
+        "musicbrainz": {
+          "type": "string",
+          "description": "UUID MusicBrainz."
+        }
+      }
+    },
+    "joy_division_relation": {
+      "type": "object",
+      "description": "Relation documentee de l'organisation avec Joy Division.",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Nature de la relation (label, peer_group, influence, technical_crew, contextual, etc.)."
+        },
+        "period": {
+          "type": ["string", "null"],
+          "description": "Periode de la relation (ex. 1978-1980). null si non bornee."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Notes libres sur la relation."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "Sources documentaires du corpus ou la mention apparait.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Traçabilite de la provenance (hand-off etape 9).",
+      "properties": {
+        "from_pers": {
+          "type": "string",
+          "description": "Identifiant PERS-* d'origine si issu d'un eclatement."
+        },
+        "from_attribution": {
+          "type": "boolean",
+          "description": "Vrai si issu de l'attribution de citations (etape 9)."
+        }
+      }
+    },
+    "identity_frozen": {
+      "type": "boolean",
+      "description": "Toujours true apres validation humaine.",
+      "const": true
+    },
+    "drift_sentinel": {
+      "type": "string",
+      "description": "Version du schema au moment de la derniere validation.",
+      "pattern": "^v\\d+\\.\\d+$"
+    },
+    "gate": {
+      "type": "string",
+      "description": "Controle de visibilite sur GitHub Pages.",
+      "enum": ["public", "private"]
+    },
+    "last_verified": {
+      "type": "string",
+      "description": "Date ISO 8601 de la derniere verification humaine.",
+      "format": "date"
+    }
+  }
+}

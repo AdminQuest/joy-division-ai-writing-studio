@@ -3,37 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
   <title>Registre des organisations — Joy Division</title>
-  <link rel="stylesheet" href="../people-register/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Registre des organisations</h1>
-      <p class="subtitle">Vue documentaire dynamique des labels, institutions, groupes, médias, forces de police et organisations politiques.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
-    </div>
-  </header>
-  <main class="layout">
-    <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement des organisations…</div>
-      <div class="filters">
-        <div class="field"><label for="search">Recherche</label><input id="search" type="search" placeholder="Factory, GMP, Granada, National Front, Hacienda…"></div>
-        <div class="field"><label for="source-filter">Source</label><select id="source-filter"><option value="">Toutes</option></select></div>
-        <div class="field"><label for="type-filter">Type</label><select id="type-filter"><option value="">Tous</option></select></div>
-        <div class="field"><label for="chapter-filter">Chapitre</label><select id="chapter-filter"><option value="">Tous</option></select></div>
+  <div id="org-app">
+    <header class="org-hero" id="list-hero">
+      <div class="org-hero__inner">
+        <a class="org-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre des organisations</h1>
+        <p class="org-hero__subtitle">Registre canonique des entites collectives et morales du corpus Joy Division : groupes musicaux, labels, institutions, medias et equipes techniques. Chaque entite porte une identite gelee, des liens externes verifies et une relation documentee au groupe.</p>
       </div>
-      <div class="actions"><button id="reset-filters" type="button">Réinitialiser</button><button id="download-csv" type="button">Exporter CSV</button></div>
-      <p class="note">Ce registre lit directement les fichiers <code>registers/organizations/*.md</code>.</p>
-    </section>
-    <section class="register-panel">
-      <div class="results-header"><h2>Organisations</h2><div id="results-meta"></div></div>
-      <div id="items-list" class="people-list"></div>
-    </section>
-  </main>
-  <!-- Loader partagé : bumper ?v= à CHAQUE modification de apps/lib/dynamic-registers.js
-       (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). -->
-  <script src="../lib/dynamic-registers.js?v=7c"></script>
+    </header>
+
+    <main class="org-layout" id="list-view">
+      <section class="org-toolbar" aria-label="Filtres et recherche">
+        <div class="org-toolbar__filters">
+          <div class="org-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Buzzcocks, Factory, HM Treasury, Oz PA…" autocomplete="off">
+          </div>
+          <div class="org-field">
+            <label for="category-filter">Categorie</label>
+            <select id="category-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="org-field">
+            <label for="status-filter">Statut</label>
+            <select id="status-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="org-field">
+            <label for="gate-filter">Visibilite</label>
+            <select id="gate-filter"><option value="">Toutes</option></select>
+          </div>
+        </div>
+        <div class="org-toolbar__actions">
+          <button id="reset-filters" class="org-btn" type="button">Reinitialiser</button>
+          <button id="download-csv" class="org-btn org-btn--primary" type="button">Exporter CSV</button>
+          <span class="org-toolbar__meta" id="results-meta"></span>
+        </div>
+      </section>
+
+      <div id="org-status" class="org-status">Chargement du registre canonique…</div>
+      <div id="org-sections"></div>
+    </main>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>

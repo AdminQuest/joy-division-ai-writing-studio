@@ -1,45 +1,288 @@
-const listEl = document.getElementById('items-list');
-const statusCard = document.getElementById('status-card');
-const resultsMeta = document.getElementById('results-meta');
 const searchInput = document.getElementById('search');
-const sourceFilter = document.getElementById('source-filter');
-const typeFilter = document.getElementById('type-filter');
-const chapterFilter = document.getElementById('chapter-filter');
+const categoryFilter = document.getElementById('category-filter');
+const statusFilter = document.getElementById('status-filter');
+const gateFilter = document.getElementById('gate-filter');
 const resetButton = document.getElementById('reset-filters');
 const downloadButton = document.getElementById('download-csv');
-let items = [];
-let sourceLabels = {};
-const T = v => DynamicRegisters.text(v);
-const A = v => DynamicRegisters.array(v);
-const U = v => DynamicRegisters.uniq(v);
-const sourceIds = item => DynamicRegisters.sourceIds(item);
-const sourceLabel = id => sourceLabels[id] || id || '';
-const chaptersOf = data => A(data.chapters || data.chapitres);
-const labelOf = data => data.label || data.nom || data.name || data.id || '';
-const typeOf = data => data.type || data.type_organisation || data.category || '';
-async function loadItems() {
-  sourceLabels = await DynamicRegisters.sourceLabels();
-  items = await DynamicRegisters.loadRecords({ prefixes: ['registers/organizations/', 'registers/'], kinds: ['organization'] });
-  items.sort((a, b) => T(labelOf(a.data || {})).localeCompare(T(labelOf(b.data || {})), undefined, { numeric: true }));
-  populateFilters(); render(items);
-  statusCard.textContent = items.length + ' organisation(s) chargée(s) depuis registers/organizations/';
+const resultsMeta = document.getElementById('results-meta');
+const statusEl = document.getElementById('org-status');
+const sectionsEl = document.getElementById('org-sections');
+
+let orgs = [];
+
+const ORGS_URL = '../../registers/orgs/orgs.json';
+
+const CATEGORY_META = {
+  group:       { label: 'Groupe',       order: 0 },
+  label:       { label: 'Label',        order: 1 },
+  institution: { label: 'Institution',  order: 2 },
+  venue_org:   { label: 'Salle / org.', order: 3 },
+  crew:        { label: 'Equipe tech.', order: 4 },
+  media:       { label: 'Media',        order: 5 },
+  other:       { label: 'Autre',        order: 6 }
+};
+
+const STATUS_LABELS = {
+  active: 'Actif',
+  dissolved: 'Dissous',
+  dormant: 'Dormant',
+  unknown: 'Inconnu'
+};
+
+const GATE_LABELS = {
+  public: 'Public',
+  private: 'Prive'
+};
+
+const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+function categoryLabel(cat) {
+  return (CATEGORY_META[cat] || {}).label || cat;
 }
-function addOptions(select, values, labeler = v => v) { select.innerHTML = '<option value="">Tous</option>'; values.forEach(value => { const o = document.createElement('option'); o.value = value; o.textContent = labeler(value); select.appendChild(o); }); }
-function populateFilters() { addOptions(sourceFilter, U(items.flatMap(sourceIds)), sourceLabel); addOptions(typeFilter, U(items.map(i => typeOf(i.data || {})))); addOptions(chapterFilter, U(items.flatMap(i => chaptersOf(i.data || {})))); }
-function sourceBadges(item) { return sourceIds(item).map(v => '<span class="badge">' + sourceLabel(v) + '</span>').join(''); }
-function list(values) { const arr = A(values); return arr.length ? arr.map(v => '<li>' + T(v) + '</li>').join('') : '<li>—</li>'; }
-function render(rows) {
-  listEl.innerHTML = ''; resultsMeta.textContent = rows.length + ' résultat(s)';
-  rows.forEach(item => { const data = item.data || {}; const card = document.createElement('article'); card.className = 'person-card';
-    const usage = data.usage || data.usage_s02 || data.usage_s05 || data.usage_s20 || data.description || data.note || '';
-    card.innerHTML = '<div class="person-header"><div><div class="person-name">' + T(labelOf(data)) + '</div><div class="person-period">' + T(typeOf(data)) + '</div></div><div><code>' + T(item.id) + '</code></div></div>'
-      + '<div class="badges">' + sourceBadges(item) + '</div>'
-      + '<div class="columns"><div><h4>Usage</h4><ul>' + list(usage) + '</ul><h4>Sources</h4><div class="badges">' + sourceBadges(item) + '</div></div><div><h4>Prudences</h4><ul>' + list(data.prudence || data.methodological_warnings) + '</ul><h4>Chapitres</h4><ul>' + list(chaptersOf(data)) + '</ul></div></div>'
-      + '<div class="notes"><code>' + item.file + '</code></div>'; listEl.appendChild(card); });
+
+function categoryOrder(cat) {
+  return (CATEGORY_META[cat] || {}).order ?? 99;
 }
-function filterItems() { const q = searchInput.value.toLowerCase(); const filtered = items.filter(item => { const data = item.data || {}; const ids = sourceIds(item); const chapters = chaptersOf(data); const haystack = [item.id, labelOf(data), typeOf(data), data.usage, data.usage_s02, data.usage_s05, data.usage_s20, data.description, data.prudence, ...ids, ...ids.map(sourceLabel), ...chapters, item.file].map(T).join(' ').toLowerCase(); return (!q || haystack.includes(q)) && (!sourceFilter.value || ids.includes(sourceFilter.value)) && (!typeFilter.value || typeOf(data) === typeFilter.value) && (!chapterFilter.value || chapters.includes(chapterFilter.value)); }); render(filtered); }
-function exportCSV() { const rows = [['id','label','type','sources','chapters','file']]; items.forEach(item => { const data = item.data || {}; rows.push([item.id, labelOf(data), typeOf(data), sourceIds(item).map(sourceLabel).join(' | '), chaptersOf(data).join(' | '), item.file]); }); const csv = rows.map(r => r.map(v => '"' + String(v || '').replace(/"/g, '""') + '"').join(',')).join('\n'); const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'registre_organisations.csv'; a.click(); URL.revokeObjectURL(a.href); }
-[searchInput, sourceFilter, typeFilter, chapterFilter].forEach(el => el.addEventListener('input', filterItems));
-resetButton.addEventListener('click', () => { searchInput.value=''; sourceFilter.value=''; typeFilter.value=''; chapterFilter.value=''; render(items); });
+
+async function loadOrgs() {
+  const resp = await fetch(ORGS_URL, { cache: 'no-store' });
+  if (!resp.ok) throw new Error('HTTP ' + resp.status);
+  const data = await resp.json();
+  orgs = data.map(entry => ({
+    id: entry.org_id,
+    name: entry.canonical_name || '',
+    aliases: entry.aliases || [],
+    category: entry.category || 'other',
+    subcategory: entry.subcategory || '',
+    country: entry.country || '',
+    city: entry.city || '',
+    activeFrom: entry.active_from || '',
+    activeUntil: entry.active_until || '',
+    status: entry.status || 'unknown',
+    sameAs: entry.same_as || {},
+    relation: entry.joy_division_relation || {},
+    sources: entry.sources || [],
+    gate: entry.gate || 'public',
+    lastVerified: entry.last_verified || ''
+  }));
+  orgs.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+
+  statusEl.style.display = 'none';
+
+  handleDeepLink();
+  refreshFacets();
+  render();
+}
+
+function handleDeepLink() {
+  const params = new URLSearchParams(window.location.search);
+  const targetId = params.get('id');
+  if (!targetId) return;
+  requestAnimationFrame(() => {
+    const el = document.getElementById(targetId);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      el.style.outline = '2px solid var(--accent)';
+      setTimeout(() => { el.style.outline = ''; }, 3000);
+    }
+  });
+}
+
+function currentFilters() {
+  return {
+    q: searchInput.value.toLowerCase().trim(),
+    category: categoryFilter.value,
+    status: statusFilter.value,
+    gate: gateFilter.value
+  };
+}
+
+function searchIndex(o) {
+  return [o.name, ...o.aliases, o.category, o.subcategory, o.city, o.country,
+    o.status, o.id, ...o.sources, (o.relation.notes || '')].join(' ').toLowerCase();
+}
+
+function matches(o, f, except) {
+  if (except !== 'q' && f.q && !searchIndex(o).includes(f.q)) return false;
+  if (except !== 'category' && f.category && o.category !== f.category) return false;
+  if (except !== 'status' && f.status && o.status !== f.status) return false;
+  if (except !== 'gate' && f.gate && o.gate !== f.gate) return false;
+  return true;
+}
+
+function setOptions(select, values, allLabel, labeler) {
+  const cur = select.value;
+  select.innerHTML = '';
+  const all = document.createElement('option');
+  all.value = ''; all.textContent = allLabel;
+  select.appendChild(all);
+  values.forEach(v => {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = labeler ? labeler(v) : v;
+    select.appendChild(o);
+  });
+  const cleaned = cur !== '' && !values.includes(cur);
+  select.value = cleaned ? '' : cur;
+  return cleaned;
+}
+
+function uniq(arr) {
+  return [...new Set(arr)].filter(Boolean);
+}
+
+function refreshFacets() {
+  for (let pass = 0; pass < 5; pass++) {
+    const f = currentFilters();
+    const cats = uniq(orgs.filter(o => matches(o, f, 'category')).map(o => o.category))
+      .sort((a, b) => categoryOrder(a) - categoryOrder(b));
+    const statuses = uniq(orgs.filter(o => matches(o, f, 'status')).map(o => o.status));
+    const gates = uniq(orgs.filter(o => matches(o, f, 'gate')).map(o => o.gate));
+    let cleaned = false;
+    cleaned = setOptions(categoryFilter, cats, 'Toutes', categoryLabel) || cleaned;
+    cleaned = setOptions(statusFilter, statuses, 'Tous', v => STATUS_LABELS[v] || v) || cleaned;
+    cleaned = setOptions(gateFilter, gates, 'Toutes', v => GATE_LABELS[v] || v) || cleaned;
+    if (!cleaned) break;
+  }
+}
+
+function sameAsLinks(sameAs) {
+  const links = [];
+  if (sameAs.wikidata) {
+    links.push('<a href="https://www.wikidata.org/wiki/' + esc(sameAs.wikidata) + '" target="_blank" rel="noopener">Wikidata</a>');
+  }
+  if (sameAs.discogs) {
+    links.push('<a href="' + esc(sameAs.discogs) + '" target="_blank" rel="noopener">Discogs</a>');
+  }
+  if (sameAs.musicbrainz) {
+    links.push('<a href="https://musicbrainz.org/artist/' + esc(sameAs.musicbrainz) + '" target="_blank" rel="noopener">MusicBrainz</a>');
+  }
+  return links.length ? '<div class="org-card__links">' + links.join('') + '</div>' : '';
+}
+
+function periodStr(o) {
+  if (o.activeFrom && o.activeUntil) return o.activeFrom + ' – ' + o.activeUntil;
+  if (o.activeFrom) return o.activeFrom + ' – present';
+  return '';
+}
+
+function detail(label, content) {
+  return content ? '<div class="org-detail"><p class="org-detail__label">' + esc(label) + '</p>' + content + '</div>' : '';
+}
+
+function tags(values) {
+  const arr = (values || []).filter(Boolean);
+  return arr.length ? '<div class="org-tags">' + arr.map(v => '<span class="org-tag">' + esc(v) + '</span>').join('') + '</div>' : '';
+}
+
+function card(o) {
+  const rel = o.relation || {};
+  const hasDetails = o.aliases.length || o.sources.length || rel.notes || Object.keys(o.sameAs).length;
+
+  const relationBlock = rel.notes
+    ? '<div class="org-card__relation">'
+      + '<p class="org-card__relation-label">Relation a Joy Division'
+      + (rel.period ? ' (' + esc(rel.period) + ')' : '') + '</p>'
+      + '<p class="org-card__relation-notes">' + esc(rel.notes) + '</p>'
+      + '</div>'
+    : '';
+
+  const detailsContent = detail('Alias', tags(o.aliases))
+    + detail('Sources', tags(o.sources))
+    + detail('Pays / Ville', o.country || o.city
+        ? '<span class="org-tag">' + esc([o.city, o.country].filter(Boolean).join(', ')) + '</span>'
+        : '')
+    + sameAsLinks(o.sameAs);
+
+  return '<article class="org-card org-card--' + esc(o.category) + '" id="' + esc(o.id) + '">'
+    + '<div class="org-card__header"><div class="org-card__heading">'
+    + '<h3 class="org-card__title">' + esc(o.name) + '</h3></div></div>'
+    + '<div class="org-card__badges">'
+    + '<span class="org-badge org-badge--' + esc(o.category) + '">' + esc(categoryLabel(o.category)) + '</span>'
+    + (o.subcategory ? '<span class="org-badge org-badge--category">' + esc(o.subcategory) + '</span>' : '')
+    + '<span class="org-badge org-badge--status org-badge--' + esc(o.status) + '">' + esc(STATUS_LABELS[o.status] || o.status) + '</span>'
+    + (o.gate === 'private' ? '<span class="org-badge org-badge--gate">prive</span>' : '')
+    + '</div>'
+    + (periodStr(o) ? '<p class="org-card__line"><strong>Activite :</strong> ' + esc(periodStr(o)) + '</p>' : '')
+    + relationBlock
+    + (hasDetails
+        ? '<button type="button" class="org-card__more" aria-expanded="false">Voir plus</button>'
+          + '<div class="org-card__details" hidden>' + detailsContent + '</div>'
+        : '')
+    + '<p class="org-card__id"><code>' + esc(o.id) + '</code></p>'
+    + '</article>';
+}
+
+function render() {
+  const f = currentFilters();
+  const filtered = orgs.filter(o => matches(o, f));
+  resultsMeta.textContent = filtered.length + ' organisation' + (filtered.length > 1 ? 's' : '') + ' canonique' + (filtered.length > 1 ? 's' : '');
+  sectionsEl.innerHTML = '';
+  if (!filtered.length) {
+    sectionsEl.innerHTML = '<p class="org-empty">Aucune organisation ne correspond a ces criteres.</p>';
+    return;
+  }
+  const byCategory = new Map();
+  filtered.forEach(o => {
+    if (!byCategory.has(o.category)) byCategory.set(o.category, []);
+    byCategory.get(o.category).push(o);
+  });
+  const order = [...byCategory.keys()].sort((a, b) => categoryOrder(a) - categoryOrder(b));
+  order.forEach(cat => {
+    const group = byCategory.get(cat);
+    if (!group || !group.length) return;
+    group.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+    const section = document.createElement('section');
+    section.className = 'org-section';
+    section.innerHTML = '<div class="org-section__header">'
+      + '<h2 class="org-section__title">' + esc(categoryLabel(cat))
+      + ' <span class="org-section__count">' + group.length + '</span></h2></div>'
+      + '<div class="org-list">' + group.map(card).join('') + '</div>';
+    sectionsEl.appendChild(section);
+  });
+
+  handleDeepLink();
+}
+
+sectionsEl.addEventListener('click', e => {
+  const more = e.target.closest('.org-card__more');
+  if (more) {
+    const details = more.closest('.org-card').querySelector('.org-card__details');
+    const opening = details.hasAttribute('hidden');
+    details.toggleAttribute('hidden', !opening);
+    more.setAttribute('aria-expanded', opening ? 'true' : 'false');
+    more.textContent = opening ? 'Voir moins' : 'Voir plus';
+  }
+});
+
+function exportCSV() {
+  const f = currentFilters();
+  const rows = [['org_id', 'canonical_name', 'category', 'subcategory', 'country', 'city',
+    'active_from', 'active_until', 'status', 'gate', 'wikidata', 'joy_division_relation_type', 'sources']];
+  orgs.filter(o => matches(o, f)).forEach(o => {
+    rows.push([o.id, o.name, o.category, o.subcategory, o.country, o.city,
+      o.activeFrom, o.activeUntil || '', o.status, o.gate,
+      (o.sameAs || {}).wikidata || '', (o.relation || {}).type || '',
+      o.sources.join(' | ')]);
+  });
+  const csv = rows.map(r => r.map(v => '"' + String(v ?? '').replace(/"/g, '""') + '"').join(',')).join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'joy_division_organizations_canonical_register.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function onFilterChange() { refreshFacets(); render(); }
+[searchInput, categoryFilter, statusFilter, gateFilter].forEach(el => el.addEventListener('input', onFilterChange));
+resetButton.addEventListener('click', () => {
+  searchInput.value = ''; categoryFilter.value = ''; statusFilter.value = ''; gateFilter.value = '';
+  refreshFacets(); render();
+});
 downloadButton.addEventListener('click', exportCSV);
-loadItems().catch(err => { console.error(err); statusCard.textContent = 'Erreur : ' + err.message; });
+
+loadOrgs().catch(err => {
+  console.error(err);
+  statusEl.style.display = '';
+  statusEl.textContent = 'Erreur de chargement du registre des organisations : ' + err.message;
+});
