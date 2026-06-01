@@ -192,12 +192,11 @@ def main(argv=None) -> int:
         except Exception:
             warnings.append("[INV6] could not load pending_org.json for provenance check")
 
-    # Optional: jsonschema validation
+    # Optional: jsonschema validation with FormatChecker
     try:
-        import jsonschema
-        from jsonschema import Draft202012Validator
+        from jsonschema import Draft202012Validator, FormatChecker
         schema = load_json(SCHEMA_JSON)
-        validator = Draft202012Validator(schema)
+        validator = Draft202012Validator(schema, format_checker=FormatChecker())
         for entry in records:
             for err in validator.iter_errors(entry):
                 errors.append(f"[INV1/jsonschema] {entry.get('org_id', '?')}: {err.message}")

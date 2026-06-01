@@ -1,7 +1,6 @@
 const searchInput = document.getElementById('search');
 const categoryFilter = document.getElementById('category-filter');
 const statusFilter = document.getElementById('status-filter');
-const gateFilter = document.getElementById('gate-filter');
 const resetButton = document.getElementById('reset-filters');
 const downloadButton = document.getElementById('download-csv');
 const resultsMeta = document.getElementById('results-meta');
@@ -27,11 +26,6 @@ const STATUS_LABELS = {
   dissolved: 'Dissous',
   dormant: 'Dormant',
   unknown: 'Inconnu'
-};
-
-const GATE_LABELS = {
-  public: 'Public',
-  private: 'Prive'
 };
 
 const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -65,6 +59,8 @@ async function loadOrgs() {
     gate: entry.gate || 'public',
     lastVerified: entry.last_verified || ''
   }));
+  // GitHub Pages has no auth context — unconditionally drop private entries.
+  orgs = orgs.filter(o => o.gate === 'public');
   orgs.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
 
   statusEl.style.display = 'none';
@@ -92,8 +88,7 @@ function currentFilters() {
   return {
     q: searchInput.value.toLowerCase().trim(),
     category: categoryFilter.value,
-    status: statusFilter.value,
-    gate: gateFilter.value
+    status: statusFilter.value
   };
 }
 
@@ -106,7 +101,6 @@ function matches(o, f, except) {
   if (except !== 'q' && f.q && !searchIndex(o).includes(f.q)) return false;
   if (except !== 'category' && f.category && o.category !== f.category) return false;
   if (except !== 'status' && f.status && o.status !== f.status) return false;
-  if (except !== 'gate' && f.gate && o.gate !== f.gate) return false;
   return true;
 }
 
@@ -136,11 +130,9 @@ function refreshFacets() {
     const cats = uniq(orgs.filter(o => matches(o, f, 'category')).map(o => o.category))
       .sort((a, b) => categoryOrder(a) - categoryOrder(b));
     const statuses = uniq(orgs.filter(o => matches(o, f, 'status')).map(o => o.status));
-    const gates = uniq(orgs.filter(o => matches(o, f, 'gate')).map(o => o.gate));
     let cleaned = false;
     cleaned = setOptions(categoryFilter, cats, 'Toutes', categoryLabel) || cleaned;
     cleaned = setOptions(statusFilter, statuses, 'Tous', v => STATUS_LABELS[v] || v) || cleaned;
-    cleaned = setOptions(gateFilter, gates, 'Toutes', v => GATE_LABELS[v] || v) || cleaned;
     if (!cleaned) break;
   }
 }
@@ -200,7 +192,6 @@ function card(o) {
     + '<span class="org-badge org-badge--' + esc(o.category) + '">' + esc(categoryLabel(o.category)) + '</span>'
     + (o.subcategory ? '<span class="org-badge org-badge--category">' + esc(o.subcategory) + '</span>' : '')
     + '<span class="org-badge org-badge--status org-badge--' + esc(o.status) + '">' + esc(STATUS_LABELS[o.status] || o.status) + '</span>'
-    + (o.gate === 'private' ? '<span class="org-badge org-badge--gate">prive</span>' : '')
     + '</div>'
     + (periodStr(o) ? '<p class="org-card__line"><strong>Activite :</strong> ' + esc(periodStr(o)) + '</p>' : '')
     + relationBlock
@@ -274,9 +265,9 @@ function exportCSV() {
 }
 
 function onFilterChange() { refreshFacets(); render(); }
-[searchInput, categoryFilter, statusFilter, gateFilter].forEach(el => el.addEventListener('input', onFilterChange));
+[searchInput, categoryFilter, statusFilter].forEach(el => el.addEventListener('input', onFilterChange));
 resetButton.addEventListener('click', () => {
-  searchInput.value = ''; categoryFilter.value = ''; statusFilter.value = ''; gateFilter.value = '';
+  searchInput.value = ''; categoryFilter.value = ''; statusFilter.value = '';
   refreshFacets(); render();
 });
 downloadButton.addEventListener('click', exportCSV);
