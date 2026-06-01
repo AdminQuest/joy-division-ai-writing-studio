@@ -17,6 +17,7 @@ let allEntries = [];
 let sessions = [];
 let images = [];
 let currentView = 'sessions';
+let _rendering = false;
 
 const IMAGES_URL = '../../registers/images/images.json';
 
@@ -263,6 +264,9 @@ function imageCard(e) {
 }
 
 function render() {
+  if (_rendering) return;
+  _rendering = true;
+
   const f = currentFilters();
   const data = currentData();
   const filtered = data.filter(e => matches(e, f));
@@ -274,6 +278,7 @@ function render() {
 
   if (!filtered.length) {
     container.innerHTML = '<p class="img-empty">Aucune entree ne correspond a ces criteres.</p>';
+    _rendering = false;
     return;
   }
 
@@ -309,6 +314,7 @@ function render() {
   }
 
   handleDeepLink();
+  _rendering = false;
 }
 
 document.querySelector('.img-layout').addEventListener('click', e => {
