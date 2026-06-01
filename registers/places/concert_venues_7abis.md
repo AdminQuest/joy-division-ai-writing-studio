@@ -24,6 +24,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 56.11815
+    lng: -3.94186
+    geo_precision: exacte
+    prudence_methodologique: >-
+      24 Dumbarton Road ; Historic Environment Scotland LB41099. Source: trove.scot
   - id: PLACE-ASSEMBLY-ROOMS-DERBY
     label: "Assembly Rooms, Derby"
     type: salle
@@ -31,6 +36,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 52.92331
+    lng: -1.47619
+    geo_precision: exacte
+    prudence_methodologique: >-
+      batiment demoli/transforme ; localisation historique fiable. Source: commons.wikimedia.org
   - id: PLACE-ASTORIA-EDINBURGH
     label: "The Astoria, Edinburgh"
     type: salle
@@ -45,6 +55,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.2289
+    lng: -4.1269
+    geo_precision: quartier
+    prudence_methodologique: >-
+      campus historique, pas d'une salle precise. Source: bangor.ac.uk
   - id: PLACE-BIRMINGHAM-UNIVERSITY
     label: "University of Birmingham (High Hall)"
     type: education
@@ -52,6 +67,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 52.45029
+    lng: -1.93
+    geo_precision: exacte
+    prudence_methodologique: >-
+      High Hall devenu Chamberlain Hall ; coordonnee calee sur The Vale. Source: enkiri.com
   - id: PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY
     label: "Bolton Institute of Technology"
     type: education
@@ -66,6 +86,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.79147
+    lng: -1.76607
+    geo_precision: quartier
+    prudence_methodologique: >-
+      coordonnee du campus central/Richmond Building. Source: bradford.ac.uk
   - id: PLACE-CAPITOL-ABERDEEN
     label: "Capitol, Aberdeen"
     type: salle
@@ -80,6 +105,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 51.48839
+    lng: -3.1775
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Cardiff Students' Union, Park Place / Senghennydd Road. Source: cardiff.ac.uk
   - id: PLACE-CITY-HALL-CORK
     label: "City Hall, Cork"
     type: salle
@@ -94,6 +124,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.74368
+    lng: -0.33979
+    geo_precision: exacte
+    prudence_methodologique: >-
+      batiment liste, Queen Victoria Square, HU1 3RQ. Source: historicengland.org.uk
   - id: PLACE-CIVIC-HALL-GUILDFORD
     label: "Civic Hall, Guildford"
     type: salle
@@ -101,6 +136,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 51.23946
+    lng: -0.56491
+    geo_precision: exacte
+    prudence_methodologique: >-
+      ancien batiment demoli ; coordonnee du site historique/G Live. Source: setlist.fm
   - id: PLACE-CLUB-VERA-GRONINGEN
     label: "Club Vera, Groningen"
     type: salle
@@ -108,6 +148,13 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.21703
+    lng: 6.57011
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Oosterstraat 44, Groningen ; salle existante. Source: visitgroningen.nl
+    reference_croisee:
+      - "wikidata:Q17389445"
   - id: PLACE-COATHAM-BOWL-REDCAR
     label: "Coatham Bowl, Redcar"
     type: salle
@@ -115,6 +162,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 54.62083
+    lng: -1.08083
+    geo_precision: exacte
+    prudence_methodologique: >-
+      batiment demoli 2014 ; coordonnee approximative secteur Majuba Road. Source: redcar-cleveland.gov.uk
   - id: PLACE-COLSTON-HALL-BRISTOL
     label: "Colston Hall, Bristol"
     type: salle
@@ -122,6 +174,13 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 51.454
+    lng: -2.598
+    geo_precision: exacte
+    prudence_methodologique: >-
+      renommee Bristol Beacon. Source: historicengland.org.uk
+    reference_croisee:
+      - "wikidata:Q5149374"
   - id: PLACE-DE-MONTFORT-HALL-LEICESTER
     label: "De Montfort Hall, Leicester"
     type: salle
@@ -129,6 +188,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 52.6243
+    lng: -1.1216
+    geo_precision: exacte
+    prudence_methodologique: >-
+      batiment stable, Granville Road, LE1 7RU. Source: demontforthall.co.uk
   - id: PLACE-DOORNROOSJE-NIJMEGEN
     label: "Doornroosje, Nijmegen"
     type: salle
@@ -136,6 +200,13 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 51.83095
+    lng: 5.86025
+    geo_precision: exacte
+    prudence_methodologique: >-
+      emplacement d'epoque, Groenewoudseweg 322 ; demenage en 2014. Source: podiuminfo.nl
+    reference_croisee:
+      - "wikidata:Q2180529"
   - id: PLACE-GOOD-MOOD-HALIFAX
     label: "Good Mood, Halifax"
     type: salle
@@ -150,6 +221,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.82
+    lng: -3.053
+    geo_precision: exacte
+    prudence_methodologique: >-
+      North Promenade FY1 2HB ; hotel toujours existant. Source: imperialhotelblackpool.co.uk
   - id: PLACE-KANT-KINO-BERLIN
     label: "Kant Kino, Berlin"
     type: salle
@@ -157,6 +233,13 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 52.5069
+    lng: 13.30834
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Kantstrasse 54, 10627 Berlin ; salle existante. Source: yorck.de
+    reference_croisee:
+      - "wikidata:Q42297621"
   - id: PLACE-KING-GEORGES-HALL-BLACKBURN
     label: "King George's Hall, Blackburn"
     type: salle
@@ -164,8 +247,12 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.74893
+    lng: -2.48597
+    geo_precision: exacte
     prudence_methodologique: >-
       Regroupe les graphies « King George's Hall » et « King Georges Hall » (même lieu).
+      Coordonnees: batiment stable, Northgate, BB2 1AA. Source: visitlancashire.com
   - id: PLACE-KING-KONG-ANTWERPEN
     label: "King Kong, Antwerp"
     type: salle
@@ -180,6 +267,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 54.00617
+    lng: -2.78466
+    geo_precision: quartier
+    prudence_methodologique: >-
+      campus Bailrigg, pas d'une salle precise. Source: lancaster.ac.uk
   - id: PLACE-LANTAREN-ROTTERDAM
     label: "Lantaren, Rotterdam"
     type: salle
@@ -208,6 +300,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 52.7648
+    lng: -1.228
+    geo_precision: quartier
+    prudence_methodologique: >-
+      campus etendu ; point central acceptable. Source: lboro.ac.uk
   - id: PLACE-LYCEUM-LONDON
     label: "The Lyceum, London"
     type: salle
@@ -215,6 +312,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 51.51154
+    lng: -0.12008
+    geo_precision: exacte
+    prudence_methodologique: >-
+      21 Wellington Street ; batiment stable. Source: latlong.net
   - id: PLACE-MANCHESTER-POLYTECHNIC
     label: "Manchester Polytechnic"
     type: education
@@ -222,6 +324,11 @@ places:
     sources:
       - joydiv
     usage: "Venue de concert de Joy Division (source joydiv.org)."
+    lat: 53.47053
+    lng: -2.23872
+    geo_precision: quartier
+    prudence_methodologique: >-
+      ancien Manchester Polytechnic ; campus All Saints. Source: mmu.ac.uk
   - id: PLACE-METRO-PLYMOUTH
     label: "Metro, Plymouth"
     type: salle
