@@ -1,6 +1,881 @@
 [
   {
     "kind": "person",
+    "id": "PERSON-aileen-dillane",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-aileen-dillane — Aileen Dillane",
+    "data": {
+      "id": "PERSON-aileen-dillane",
+      "type_unite": "person",
+      "name": "Aileen Dillane",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-alastair-greig",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-alastair-greig — Alastair Greig",
+    "data": {
+      "id": "PERSON-alastair-greig",
+      "type_unite": "person",
+      "name": "Alastair Greig",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-alfredo-suatoni",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-alfredo-suatoni — Alfredo Suatoni",
+    "data": {
+      "id": "PERSON-alfredo-suatoni",
+      "type_unite": "person",
+      "name": "Alfredo Suatoni",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-caterina-tomeo",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-caterina-tomeo — Caterina Tomeo",
+    "data": {
+      "id": "PERSON-caterina-tomeo",
+      "type_unite": "person",
+      "name": "Caterina Tomeo",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S13"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-catherine-strong",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-catherine-strong — Catherine Strong",
+    "data": {
+      "id": "PERSON-catherine-strong",
+      "type_unite": "person",
+      "name": "Catherine Strong",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-claude-flowers",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-claude-flowers — Claude Flowers",
+    "data": {
+      "id": "PERSON-claude-flowers",
+      "type_unite": "person",
+      "name": "Claude Flowers",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-dan-jacobson",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-dan-jacobson — Dan Jacobson",
+    "data": {
+      "id": "PERSON-dan-jacobson",
+      "type_unite": "person",
+      "name": "Dan Jacobson",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S63"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-daniele-de-luca",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-daniele-de-luca — Daniele De Luca",
+    "data": {
+      "id": "PERSON-daniele-de-luca",
+      "type_unite": "person",
+      "name": "Daniele De Luca",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-lees",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-david-lees — David Lees",
+    "data": {
+      "id": "PERSON-david-lees",
+      "type_unite": "person",
+      "name": "David Lees",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-meagher",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-david-meagher — David Meagher",
+    "data": {
+      "id": "PERSON-david-meagher",
+      "type_unite": "person",
+      "name": "David Meagher",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S81"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-wilkinson",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-david-wilkinson — David Wilkinson",
+    "data": {
+      "id": "PERSON-david-wilkinson",
+      "type_unite": "person",
+      "name": "David Wilkinson",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S22"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-eoin-devereux",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-eoin-devereux — Eoin Devereux",
+    "data": {
+      "id": "PERSON-eoin-devereux",
+      "type_unite": "person",
+      "name": "Eoin Devereux",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S62",
+        "S81"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-gavin-butt",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-gavin-butt — Gavin Butt",
+    "data": {
+      "id": "PERSON-gavin-butt",
+      "type_unite": "person",
+      "name": "Gavin Butt",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S26"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-gay-jennifer-breyley",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-gay-jennifer-breyley — Gay Jennifer Breyley",
+    "data": {
+      "id": "PERSON-gay-jennifer-breyley",
+      "type_unite": "person",
+      "name": "Gay Jennifer Breyley",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S86"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-giacomo-botta",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-giacomo-botta — Giacomo Bottà",
+    "data": {
+      "id": "PERSON-giacomo-botta",
+      "type_unite": "person",
+      "name": "Giacomo Bottà",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S64"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-giada-iovane",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-giada-iovane — Giada Iovane",
+    "data": {
+      "id": "PERSON-giada-iovane",
+      "type_unite": "person",
+      "name": "Giada Iovane",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-giovanni-maria-riccio",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-giovanni-maria-riccio — Giovanni Maria Riccio",
+    "data": {
+      "id": "PERSON-giovanni-maria-riccio",
+      "type_unite": "person",
+      "name": "Giovanni Maria Riccio",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-ian-jeffrey",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-ian-jeffrey — Ian Jeffrey",
+    "data": {
+      "id": "PERSON-ian-jeffrey",
+      "type_unite": "person",
+      "name": "Ian Jeffrey",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S63"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-j-ruben-valdes-miyares",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-j-ruben-valdes-miyares — J. Rubén Valdés Miyares",
+    "data": {
+      "id": "PERSON-j-ruben-valdes-miyares",
+      "type_unite": "person",
+      "name": "J. Rubén Valdés Miyares",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S80"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jennifer-otter-bickerdike",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-jennifer-otter-bickerdike — Jennifer Otter Bickerdike",
+    "data": {
+      "id": "PERSON-jennifer-otter-bickerdike",
+      "type_unite": "person",
+      "name": "Jennifer Otter Bickerdike",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S87"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-john-s-greenwood",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-john-s-greenwood — John S. Greenwood",
+    "data": {
+      "id": "PERSON-john-s-greenwood",
+      "type_unite": "person",
+      "name": "John S. Greenwood",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S83"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jon-wozencroft",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-jon-wozencroft — Jon Wozencroft",
+    "data": {
+      "id": "PERSON-jon-wozencroft",
+      "type_unite": "person",
+      "name": "Jon Wozencroft",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kieran-cashell",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-kieran-cashell — Kieran Cashell",
+    "data": {
+      "id": "PERSON-kieran-cashell",
+      "type_unite": "person",
+      "name": "Kieran Cashell",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S88"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kodwo-eshun",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-kodwo-eshun — Kodwo Eshun",
+    "data": {
+      "id": "PERSON-kodwo-eshun",
+      "type_unite": "person",
+      "name": "Kodwo Eshun",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S26"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-loic-riom",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-loic-riom — Loïc Riom",
+    "data": {
+      "id": "PERSON-loic-riom",
+      "type_unite": "person",
+      "name": "Loïc Riom",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S27"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-marco-broll",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-marco-broll — Marco Broll",
+    "data": {
+      "id": "PERSON-marco-broll",
+      "type_unite": "person",
+      "name": "Marco Broll",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S68"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mark-johnson",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-mark-johnson — Mark Johnson",
+    "data": {
+      "id": "PERSON-mark-johnson",
+      "type_unite": "person",
+      "name": "Mark Johnson",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-martin-j-power",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-martin-j-power — Martin J. Power",
+    "data": {
+      "id": "PERSON-martin-j-power",
+      "type_unite": "person",
+      "name": "Martin J. Power",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mike-west",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-mike-west — Mike West",
+    "data": {
+      "id": "PERSON-mike-west",
+      "type_unite": "person",
+      "name": "Mike West",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S47"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-nicholas-wood",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-nicholas-wood — Nicholas Wood",
+    "data": {
+      "id": "PERSON-nicholas-wood",
+      "type_unite": "person",
+      "name": "Nicholas Wood",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S12"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-paul-tarpey",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-paul-tarpey — Paul Tarpey",
+    "data": {
+      "id": "PERSON-paul-tarpey",
+      "type_unite": "person",
+      "name": "Paul Tarpey",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S83"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-robin-parmar",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-robin-parmar — Robin Parmar",
+    "data": {
+      "id": "PERSON-robin-parmar",
+      "type_unite": "person",
+      "name": "Robin Parmar",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S82"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-sara-martinez",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-sara-martinez — Sara Martínez",
+    "data": {
+      "id": "PERSON-sara-martinez",
+      "type_unite": "person",
+      "name": "Sara Martínez",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S65"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-simon-frith",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-simon-frith — Simon Frith",
+    "data": {
+      "id": "PERSON-simon-frith",
+      "type_unite": "person",
+      "name": "Simon Frith",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S30"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-thomson-prentice",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-thomson-prentice — Thomson Prentice",
+    "data": {
+      "id": "PERSON-thomson-prentice",
+      "type_unite": "person",
+      "name": "Thomson Prentice",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S12"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tiffany-naiman",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-tiffany-naiman — Tiffany Naiman",
+    "data": {
+      "id": "PERSON-tiffany-naiman",
+      "type_unite": "person",
+      "name": "Tiffany Naiman",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S67"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-uwe-schutte",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-uwe-schutte — Uwe Schütte",
+    "data": {
+      "id": "PERSON-uwe-schutte",
+      "type_unite": "person",
+      "name": "Uwe Schütte",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S66"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-walter-cullen",
+    "file": "registers/people/00_authors_canonical.md",
+    "heading": "PERSON-walter-cullen — Walter Cullen",
+    "data": {
+      "id": "PERSON-walter-cullen",
+      "type_unite": "person",
+      "name": "Walter Cullen",
+      "categorie": "auteur_secondaire",
+      "origine": "auteur_source",
+      "role": [
+        "auteur"
+      ],
+      "sources": [
+        "S81"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERSON-abby-fuoto",
     "file": "registers/people/00_canonical_people.md",
     "heading": "PERSON-abby-fuoto — Abby Fuoto",
