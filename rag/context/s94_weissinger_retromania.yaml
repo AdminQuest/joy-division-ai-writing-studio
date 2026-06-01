@@ -1,0 +1,36 @@
+id: RAG-S94-WEISSINGER-RETROMANIA
+source_id: S94
+source_label: "S94 — Weissinger, Retromania (Book Review), JPMS, 2012"
+source_part: "sources/s94_weissinger_retromania/source_atomisation_01.md"
+status: integrated
+passage_atomise: "James Weissinger, « Retromania: Pop Culture's Addiction to Its Own Past (Book Review) », Journal of Popular Music Studies, vol. 24, n° 2, 2012, p. 247-250."
+atoms:
+  - S94-A001
+  - S94-A002
+  - S94-A003
+  - S94-A004
+  - S94-A005
+  - S94-A006
+  - S94-A007
+axes:
+  - "Reynolds comme modernist-minded post-punk"
+  - "future-rush (citation directe)"
+  - "critique opposition analogue/numérique"
+  - "post-punk DIY et limitation créative"
+  - "échec productif comme défense de la rétromanie"
+  - "sélectivité Reynolds sur grime/dubstep"
+usage_prioritaire:
+  - "Chapitre 7"
+  - "Chapitre 14"
+  - "Chapitre 11"
+prudences:
+  - "Joy Division non mentionné nominalement dans S94."
+  - "Source secondaire au carré : Weissinger analyse Reynolds qui analyse le post-punk."
+  - "Ton ironique et autobiographique — ne pas traiter comme analyse neutre."
+  - "L'échec productif est la thèse de Weissinger, pas de Reynolds."
+queries_rag:
+  - "S94 Weissinger Retromania review JPMS modernist post-punk future-rush"
+  - "S94 Weissinger analogue numérique authenticité Ableton Live tweaking"
+  - "S94 Weissinger Billy Childish limitation créative Prinzhorn Dance School Gang of Four"
+  - "S94 Weissinger échec productif Scritti Politti rétromanie appropriation"
+  - "S94 Weissinger grime dubstep donk sélectivité Reynolds classe ouvrière"
