@@ -84,6 +84,11 @@
     "note": {
       "type": "string",
       "description": "Note de canonicalisation (optionnelle ; éclatements, prudences)."
+    },
+    "origine": {
+      "type": "string",
+      "description": "Provenance de l'identité (étape 9, câblage). `auteur_source` = PERSON- né d'une attribution de citation, sans backing PERS-* (same_as vide autorisé).",
+      "enum": ["auteur_source"]
     }
   }
 }

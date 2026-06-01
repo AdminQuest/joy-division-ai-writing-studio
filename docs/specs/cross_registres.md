@@ -77,6 +77,8 @@ liens:
 | `a_pour_auteur` | SONG → PERSON | 1..n | `auteur_de` | ét. 8 |
 | `edite_par` | SONG/ORG → ORG | 0..1 | `edite` | ét. 9 |
 | `attribuee_a` | QUOTE → PERSON | 0..1 | `cite` | ét. 7 |
+| `a_pour_auteur_source` | QUOTE → PERSON | 0..n | `auteur_source_de` | ét. 9 (câblage) |
+| `rapportee_par` | QUOTE → PERSON | 0..n | `rapporteur_de` | ét. 9 (câblage) |
 | `porte_sur` | QUOTE → (toute classe) | 0..n | `evoque_par` | ét. 7 |
 | `associe_a` | PERSON → PERSON/PLACE | 0..n | `associe_a` *(symétrique)* | ét. 8 |
 
@@ -88,6 +90,15 @@ liens:
 
 > **`a_pour_lieu`**
 > Sémantique : localisation d'un concert ou d'une session. Source : CONCERT/SESSION. Cible : PLACE. Cardinalité : 1. Inverse : `accueille`. Qualificateurs : `prudence_methodologique`. Refonte d'entrée : 10.
+
+> **`attribuee_a`** *(câblé en ét. 9, câblage des attributions)*
+> Sémantique : le **locuteur** d'une citation (qui prononce les mots). Pour une citation en narration d'auteur (locuteur « anonyme »), le locuteur réel est l'auteur de la source ; l'arête pointe alors vers le `PERSON-` auteur. Source : QUOTE. Cible : PERSON. Cardinalité : 0..1. Sens : portée par la citation (contingente). Inverse : `cite`. Refonte d'entrée : 7 (définition) / 9 (câblage).
+
+> **`a_pour_auteur_source`** *(extension §4.3, ét. 9 câblage)*
+> Sémantique : l'**auteur de la source** d'où la citation est tirée (co-auteurs multiples admis). Distinct du locuteur : un mémorialiste peut être auteur-source sans être le locuteur cité. Source : QUOTE. Cible : PERSON. Cardinalité : 0..n. Sens : portée par la citation. Inverse : `auteur_source_de`. Refonte d'entrée : 9 (câblage des attributions).
+
+> **`rapportee_par`** *(extension §4.3, ét. 9 câblage)*
+> Sémantique : le **rapporteur** intermédiaire d'une parole (« cité par », interview transmise). Source : QUOTE. Cible : PERSON. Cardinalité : 0..n. Sens : portée par la citation. Inverse : `rapporteur_de`. Refonte d'entrée : 9 (câblage des attributions).
 
 **4.3. Extension gouvernée.** Une refonte **peut ajouter** des prédicats et des lignes de matrice, sous conditions : ajout additif (jamais de renommage) ; déclaration complète (source-type, cible-type, cardinalité, sens, inverse) ; consignation **dans le présent document** ; aucun chevauchement sémantique avec un prédicat existant. Le vocabulaire reste fermé : tout prédicat employé dans les données figure ici.
 
@@ -126,7 +137,8 @@ Cette spécification érige `same_as` — primitive d'équivalence née d'une n�
 
 ### Points d'extension balisés (à compléter par les refontes)
 
-- [ ] **Étape 7 (citations)** : fiches `attribuee_a`, `porte_sur` ; cible-types admises de `porte_sur`.
+- [x] **Étape 7 (citations)** : fiches `attribuee_a`, `porte_sur` ; cible-types admises de `porte_sur`. *(`attribuee_a` câblé en ét. 9 ; `porte_sur` reste à câbler.)*
+- [x] **Étape 9 (câblage des attributions)** : ajout additif des prédicats `a_pour_auteur_source` et `rapportee_par` (QUOTE → PERSON, 0..n) ; câblage `citation → PERSON-` des rôles `locuteur`/`auteur_source`/`rapporteur` (`tools/build_attribution_edges.py`, `registers/relations/attribution_edges.json`).
 - [ ] **Étape 8 (acteurs)** : fiches `a_pour_auteur`, `associe_a` ; direction canonique de `associe_a` PERSON↔PERSON.
 - [ ] **Étape 9 (organisations)** : fiches `membre_de`, `edite_par` ; hiérarchies inter-organisations éventuelles.
 - [ ] **Étape 10 (concerts/sessions)** : fiches `a_pour_lieu`, `a_pour_date`, `a_pour_interprete`, `a_pour_morceau`, `a_pour_organisateur` ; qualificateurs de setlist (ordre, rappel).
