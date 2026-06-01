@@ -6,8 +6,8 @@
 (registers/, sources/, apps/), exécuter AVANT tout push :
 
     python tools/build_all.py
-    git add exports/generated/
-    git commit -m "chore(generated): régénération exports [session]"
+    git add registers/ exports/generated/ chapters/*/document_maitre.md chapters/master_docs.json
+    git commit -m "chore(generated): régénération artefacts [session]"
 
 Le check `check-generated-sync` doit passer à vert avant toute PR.
 Ne jamais pousser sans avoir régénéré les exports.
