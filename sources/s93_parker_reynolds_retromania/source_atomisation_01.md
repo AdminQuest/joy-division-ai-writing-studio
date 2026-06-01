@@ -39,7 +39,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: etabli
@@ -86,7 +86,7 @@ chapitres:
   - Chapitre 1
   - Chapitre 3
   - Chapitre 7
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: true
 stabilite: etabli
@@ -141,7 +141,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: etabli
@@ -185,7 +185,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: etabli
@@ -227,7 +227,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: etabli
@@ -270,7 +270,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: etabli
@@ -319,7 +319,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: probable
@@ -358,7 +358,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: probable
@@ -399,7 +399,7 @@ chapitres:
   - Chapitre 1
   - Chapitre 3
   - Chapitre 7
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: true
 stabilite: etabli
@@ -438,7 +438,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: moyenne
 citation_directe: false
 stabilite: probable
@@ -483,7 +483,7 @@ concepts:
 chapitres:
   - Chapitre 7
   - Chapitre 14
-statut: brouillon
+statut: a_verifier
 fiabilite: forte
 citation_directe: false
 stabilite: etabli

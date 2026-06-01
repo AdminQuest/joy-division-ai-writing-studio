@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T13:09:05",
+  "generated_at": "2026-06-01T13:38:42",
   "status": "warning",
   "summary": {
     "records_total": 8426,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 17
     },
-    "diagnostics_total": 28824,
+    "diagnostics_total": 28813,
     "errors": 0,
-    "warnings": 28824,
+    "warnings": 28813,
     "sources_declared_in_registre_json": 96,
     "sources_used_in_records": 81,
     "sources_exported": 81,
@@ -140001,12 +140001,6 @@
     {
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
-      "record_id": "S93-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Invalid value for type_unite: qualification_source",
       "record_id": "S93-A001"
     },
@@ -140061,12 +140055,6 @@
     {
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
-      "record_id": "S93-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Field must be an object/dict: stabilite",
       "record_id": "S93-A002"
     },
@@ -140110,12 +140098,6 @@
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S93-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
       "record_id": "S93-A003"
     },
     {
@@ -140176,12 +140158,6 @@
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S93-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
       "record_id": "S93-A004"
     },
     {
@@ -140241,12 +140217,6 @@
     {
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
-      "record_id": "S93-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Field must be an object/dict: stabilite",
       "record_id": "S93-A005"
     },
@@ -140290,12 +140260,6 @@
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S93-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
       "record_id": "S93-A006"
     },
     {
@@ -140361,12 +140325,6 @@
     {
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
-      "record_id": "S93-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Invalid value for type_unite: concept_theorique",
       "record_id": "S93-A007"
     },
@@ -140416,12 +140374,6 @@
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S93-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
       "record_id": "S93-A008"
     },
     {
@@ -140487,12 +140439,6 @@
     {
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
-      "record_id": "S93-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Field must be an object/dict: stabilite",
       "record_id": "S93-A009"
     },
@@ -140542,12 +140488,6 @@
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S93-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
       "record_id": "S93-A010"
     },
     {
@@ -140602,12 +140542,6 @@
       "level": "warning",
       "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S93-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/s93_parker_reynolds_retromania/source_atomisation_01.md",
-      "message": "Invalid value for statut: brouillon",
       "record_id": "S93-A011"
     },
     {
