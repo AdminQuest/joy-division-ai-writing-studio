@@ -1,0 +1,34 @@
+name: Mise à jour STATUS.md
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installer dépendances
+        run: pip install jsonschema
+
+      - name: Générer STATUS.md
+        run: python tools/generate_status.py
+
+      - name: Commiter STATUS.md si modifié
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add STATUS.md
+          git diff --staged --quiet || git commit -m "chore: mise à jour STATUS.md [skip ci]"
+          git push
