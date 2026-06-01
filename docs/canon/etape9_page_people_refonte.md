@@ -106,5 +106,4 @@ sur « Voir plus`) à parité avec song-register.
 
 ## 7. Lien de la PR
 
-<!-- PR_LINK -->
-_À compléter à l'ouverture de la PR `claude/etape9-page-people-refonte`._
+Pull request : **[https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/49](https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/49)** (branche `claude/etape9-page-people-refonte` → `main`). Revue `@codex review` déclenchée à l'ouverture. **Ne pas merger** (le merge reste gaté).
