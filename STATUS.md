@@ -1,5 +1,5 @@
 # Status — Joy Division AI Writing Studio
-> Genere automatiquement le 2026-06-01 09:04 UTC — ne pas editer manuellement.
+> Genere automatiquement le 2026-06-01 11:45 UTC — ne pas editer manuellement.
 
 ## Registres
 
@@ -43,6 +43,6 @@ Step 12 — Cross-registres profond
 ## Metadata
 
 - Repo : joy-division-ai-writing-studio
-- Branche : claude/status-autogen-public
-- Dernier commit : 5b26d0d
+- Branche : main
+- Dernier commit : 936ad14
 - Genere par : tools/generate_status.py
