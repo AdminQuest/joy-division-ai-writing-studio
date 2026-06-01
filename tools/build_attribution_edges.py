@@ -110,16 +110,35 @@ def split_components(s: str) -> List[str]:
     return out
 
 
+CANON_MD = ROOT / "registers" / "people" / "00_canonical_people.md"
+_YAML_BLOCK = re.compile(r"```yaml\s*(.*?)\s*```", re.S)
+
+
 def load_canonical_index() -> Tuple[Dict[str, str], set]:
-    raw = json.loads(PEOPLE_JSON.read_text(encoding="utf-8"))
+    """Index de resolution = UNIQUEMENT la couche canonique gelee de #47, lue
+    directement depuis registers/people/00_canonical_people.md (166 PERSON-).
+
+    DETERMINISME : on n'utilise PAS exports/generated/people.json, qui accumule
+    apres un build les PERSON- auteurs-sources crees ici. Si on resolvait contre
+    people.json, un 2e cycle verrait ces auteurs deja resolus, en creerait 0, et
+    REECRIRAIT 00_authors_canonical.md a vide (oscillation 38<->0, aretes
+    pendantes). Resoudre contre le seul registre #47 fige rend l'ensemble des 38
+    auteurs crees stable et le generateur strictement idempotent.
+    """
+    import yaml  # dependance deja requise par le pipeline
     idx: Dict[str, str] = {}
     person_ids = set()
-    for rec in raw:
-        pid = rec.get("id", "")
+    for block in _YAML_BLOCK.findall(CANON_MD.read_text(encoding="utf-8")):
+        try:
+            d = yaml.safe_load(block)
+        except yaml.YAMLError:
+            continue
+        if not isinstance(d, dict):
+            continue
+        pid = d.get("id", "")
         if not str(pid).startswith("PERSON-"):
             continue
         person_ids.add(pid)
-        d = rec.get("data", {})
         idx.setdefault(norm(d.get("name", "")), pid)
         for a in d.get("alt_names", []) or []:
             idx.setdefault(norm(a), pid)
