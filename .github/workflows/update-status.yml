@@ -33,7 +33,7 @@ jobs:
           git checkout -B status/auto-update
           git add STATUS.md
           git diff --staged --quiet && echo "Aucun changement" && exit 0
-          git commit -m "chore: mise à jour STATUS.md [skip ci]"
+          git commit -m "chore: mise à jour STATUS.md"
           git push --force origin status/auto-update
 
       - name: Créer ou mettre à jour la PR
