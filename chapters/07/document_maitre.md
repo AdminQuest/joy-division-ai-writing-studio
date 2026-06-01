@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T00:31:35"
+generated_at: "2026-06-01T13:09:05"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 166 |
+| Atomes | 177 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 20 |
 | Événements chronologiques | 17 |
 | Personnes | 23 |
 | Chansons | 18 |
-| Sources mobilisées | 25 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -59,6 +59,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 3 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 5 | 3 |
+| S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 11 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -442,32 +443,38 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 - Martin Hannett (15)
 - martin hannett (11)
+- Simon Reynolds (9)
+- post-punk (9)
 - unknown pleasures (7)
 - closer (5)
 - prudence historiographique (5)
+- Rip It Up and Start Again (5)
 - peter saville (4)
 - love will tear us apart (4)
 - Peter Saville (4)
 - Closer (4)
 - Unknown Pleasures (4)
+- Throbbing Gristle (4)
 - production (4)
 - espace sonore (4)
 - dub (4)
 - factory records (3)
 - digital (3)
 - pochette (3)
+- Joy Division (3)
 - capitalist realism (3)
 - Ian Curtis (3)
 - pulsar (3)
 - industrial music (3)
-- Throbbing Gristle (3)
 - sonic hauntology (3)
 - studio (3)
 - basse (3)
 - batterie (3)
-- post-punk (3)
 - son live (3)
 - architecture sonore (3)
+- Retromania (3)
+- historiographie (3)
+- futurisme (3)
 - factory (2)
 - production sonore (2)
 - répétition (2)
@@ -477,7 +484,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - réception interne (2)
 - bernard sumner (2)
 - design funéraire (2)
-- Joy Division (2)
+- nostalgie (2)
 - source secondaire critique (2)
 - distance (2)
 - froideur (2)
@@ -487,6 +494,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - novelty (2)
 - postindustrial cityscapes (2)
 - spiritual wasteland (2)
+- hauntology (2)
+- Derrida (2)
+- Mark Fisher (2)
 - no future (2)
 - dyschronia (2)
 - Dead Souls (2)
@@ -502,6 +512,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Buzzcocks (2)
 - producteur catalyseur (2)
 - réception corporelle (2)
+- spectralité (2)
 - anti-rock (2)
 - funk (2)
 - sheffield (2)
@@ -509,17 +520,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - throbbing gristle (2)
 - death factory (2)
 - bruit (2)
-- survivance corporelle (2)
-- filiation oblique (2)
-- seuil sonore (2)
-- centre/périphérie (1)
-- géographie du récit (1)
-- post-punk comme après-coup productif (1)
-- géographie du post-punk anglais (1)
-- focal place institutionnel (1)
-- structure rhizomatique (1)
-- cartographie non linéaire (1)
-- circulation globale (1)
+- temporalité (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -655,9 +656,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Type | Nombre |
 |---|---|
-| analyse | 19 |
+| analyse | 23 |
 | source_part | 6 |
 | production | 6 |
+| concept_theorique | 6 |
 | contrepoint | 6 |
 | non qualifié | 6 |
 | scene_fondatrice | 5 |
@@ -675,7 +677,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | analyse_conceptuelle | 2 |
 | analyse_pochette | 2 |
 | relation_esthetique | 2 |
-| concept_theorique | 2 |
 | temporalite_culturelle | 2 |
 | lecture_chanson | 2 |
 | contexte_technique | 2 |
@@ -683,6 +684,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | fait | 2 |
 | transition | 2 |
 | motif_structurant | 2 |
+| critique_historiographique | 2 |
 | analyse_oeuvre_intertextuelle | 2 |
 | rupture_esthetique | 1 |
 | cartographie_scene | 1 |
@@ -736,6 +738,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | lecture_discographique | 1 |
 | contexte | 1 |
 | synthese | 1 |
+| qualification_source | 1 |
 | cadre_theorique | 1 |
 | analyse_oeuvre_poetique | 1 |
 | atome_pont_document_maitre | 1 |
@@ -754,10 +757,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | non qualifiée | 73 |
 | critique | 61 |
-| majeure | 19 |
+| majeure | 23 |
+| secondaire | 9 |
 | majeur | 7 |
 | utile | 3 |
-| secondaire | 2 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T00:31:35"
+generated_at: "2026-06-01T13:09:05"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-06-01T00:31:35"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 308 |
+| Atomes | 310 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 38 |
 | Événements chronologiques | 15 |
 | Personnes | 24 |
 | Chansons | 1 |
-| Sources mobilisées | 46 |
+| Sources mobilisées | 47 |
 
 ## 4. Sources mobilisées
 
@@ -81,6 +81,7 @@ generated_at: "2026-06-01T00:31:35"
 | S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 0 | 3 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 10 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
+| S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -472,6 +473,7 @@ generated_at: "2026-06-01T00:31:35"
 - Thatcherism (5)
 - James Anderton (5)
 - Ian Curtis (5)
+- post-punk (5)
 - no future (4)
 - Macclesfield (4)
 - Lesser Free Trade Hall (4)
@@ -485,6 +487,7 @@ generated_at: "2026-06-01T00:31:35"
 - slum clearance (3)
 - prudence historiographique (3)
 - imaginative historicism (3)
+- Joy Division (3)
 - postindustrial cityscapes (3)
 - mémoire culturelle (3)
 - Factory Records (3)
@@ -492,7 +495,6 @@ generated_at: "2026-06-01T00:31:35"
 - Ian Wood (3)
 - NME (3)
 - régénération urbaine (3)
-- post-punk (3)
 - scène mancunienne (3)
 - méthode historiographique (2)
 - post-industrialisme (2)
@@ -522,8 +524,8 @@ generated_at: "2026-06-01T00:31:35"
 - urban studies (2)
 - David Harvey (2)
 - source critique (2)
-- Joy Division (2)
 - industrial music (2)
+- Throbbing Gristle (2)
 - spiritual wasteland (2)
 - capitalist realism (2)
 - dyschronia (2)
@@ -541,7 +543,6 @@ generated_at: "2026-06-01T00:31:35"
 - relogement (2)
 - ordre social local (2)
 - accountability (2)
-- Tactical Aid Group (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -680,7 +681,7 @@ generated_at: "2026-06-01T00:31:35"
 | prudence_methodologique | 17 |
 | concept_structurant | 16 |
 | source_part | 14 |
-| analyse | 10 |
+| analyse | 12 |
 | concept | 10 |
 | contexte | 8 |
 | sociologie | 7 |
@@ -852,10 +853,10 @@ generated_at: "2026-06-01T00:31:35"
 |---|---|
 | non qualifiée | 157 |
 | critique | 69 |
-| majeure | 60 |
+| majeure | 61 |
 | utile | 12 |
 | majeur | 3 |
-| secondaire | 1 |
+| secondaire | 2 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour le chapitre 1 | 1 |
