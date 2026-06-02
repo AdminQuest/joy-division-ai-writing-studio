@@ -635,7 +635,7 @@ def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
                 else:
                     seen_ids[record_id] = rel(path)
             records.append(ParsedRecord(kind=kind, id=record_id, file=rel(path), heading=heading, data=data))
-    return records, diagnostics
+    return synthesize_declared_source_records(records), diagnostics
 
 def records_by_kind(records: List[ParsedRecord], kind: str) -> List[ParsedRecord]:
     return [record for record in records if record.kind == kind]
@@ -760,6 +760,52 @@ def source_ids_from_records(records: List[ParsedRecord]) -> List[str]:
                 if isinstance(source, str) and re.match(r"^S\d+$", source):
                     used.add(normalize_identifier(source))
     return sorted(used)
+
+def synthesize_declared_source_records(records: List[ParsedRecord]) -> List[ParsedRecord]:
+    declared = {
+        source_id: entry
+        for source_id, entry in source_ids_from_registry().items()
+        if re.fullmatch(r"S\d+", source_id)
+    }
+    used_ids = set(source_ids_from_records(records))
+    parsed_source_ids = {
+        normalize_identifier(record.id)
+        for record in records
+        if record.kind == "source" and re.fullmatch(r"S\d+", record.id)
+    }
+    missing_ids = sorted((used_ids & set(declared.keys())) - parsed_source_ids)
+    if not missing_ids:
+        return records
+
+    synthesized: List[ParsedRecord] = []
+    for source_id in missing_ids:
+        entry = declared[source_id]
+        auteur = entry.get("auteur", "Inconnu")
+        titre = entry.get("titre", source_id)
+        annee = entry.get("annee", "")
+        data = {
+            "id": source_id,
+            "source_id": source_id,
+            "type_unite": "source",
+            "source_label": entry.get("source_label", source_id),
+            "source_short_title": f"{auteur}, {titre}, {annee}",
+            "auteur": auteur,
+            "titre": titre,
+            "annee": annee,
+            "source_year": annee,
+            "statut": entry.get("statut", ""),
+            "usage": entry.get("usage", ""),
+        }
+        synthesized.append(
+            ParsedRecord(
+                "source",
+                source_id,
+                rel(SOURCE_REGISTRY_PATH),
+                f"{source_id} — source registry declaration",
+                data,
+            )
+        )
+    return [*records, *synthesized]
 
 def weak_source_labels(sources: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     weak: List[Dict[str, Any]] = []
