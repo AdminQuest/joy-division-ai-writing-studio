@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "generated_from": [
+    "exports/generated/index_by_id.json",
+    "exports/generated/attribution_edges.json",
+    "exports/generated/chronology.json",
+    "exports/generated/atoms.json"
+  ],
+  "edges": [
+    {
+      "edge_id": "EDGE-000001",
+      "source_kind": "legacy_chronology",
+      "source_id": "CHR-1976-001",
+      "target_kind": "event",
+      "target_id": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER",
+      "relation_type": "same_as",
+      "evidence_refs": [
+        "CHR-1976-001"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/chronology.json"
+    },
+    {
+      "edge_id": "EDGE-000002",
+      "source_kind": "quote",
+      "source_id": "S26-Q002",
+      "target_kind": "person",
+      "target_id": "PERSON-mark-fisher",
+      "relation_type": "attributed_to",
+      "evidence_refs": [
+        "S26-Q002"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/attribution_edges.json"
+    },
+    {
+      "edge_id": "EDGE-000003",
+      "source_kind": "quote",
+      "source_id": "S26-Q002",
+      "target_kind": "source",
+      "target_id": "S26",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S26-Q002"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/quotes.json"
+    },
+    {
+      "edge_id": "EDGE-000004",
+      "source_kind": "atom",
+      "source_id": "S83-A010",
+      "target_kind": "place",
+      "target_id": "PLACE-S83-001",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "S83-A010"
+      ],
+      "confidence": "medium",
+      "derived_from": "exports/generated/atoms.json"
+    }
+  ]
+}
