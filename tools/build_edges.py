@@ -137,9 +137,6 @@ def iter_attributed_to_edges(index: dict[str, Any], attribution: dict[str, Any])
             exclusions["invalid_attribution_row"] += 1
             continue
         source_id = row.get("citation")
-        row_flags = row.get("flags") or []
-        if not isinstance(row_flags, list):
-            row_flags = []
 
         links = row.get("liens") or []
         if not isinstance(links, list):
@@ -158,7 +155,7 @@ def iter_attributed_to_edges(index: dict[str, Any], attribution: dict[str, Any])
             link_flags = link.get("flags") or []
             if not isinstance(link_flags, list):
                 link_flags = []
-            flags = sorted({flag for flag in [*row_flags, *link_flags] if isinstance(flag, str)})
+            flags = sorted({flag for flag in link_flags if isinstance(flag, str)})
             if flags:
                 exclusions[f"flagged_{'_'.join(flags)}"] += 1
                 continue
