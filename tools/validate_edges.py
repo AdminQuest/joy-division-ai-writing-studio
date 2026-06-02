@@ -157,15 +157,14 @@ def validate_endpoint(
             errors.append(f"{edge_label}: {role}_id must be a string")
         return errors
 
-    if not id_matches_kind(kind, identifier):
-        errors.append(f"{edge_label}: {role}_id {identifier!r} does not match kind {kind!r}")
-
     record = index.get(identifier)
     if record is None:
         errors.append(f"{edge_label}: {role}_id {identifier!r} is absent from index_by_id.json")
         return errors
 
     index_kind = indexed_graph_kind(identifier, record)
+    if kind != "atom" and not id_matches_kind(kind, identifier):
+        errors.append(f"{edge_label}: {role}_id {identifier!r} does not match kind {kind!r}")
     if index_kind != kind:
         errors.append(
             f"{edge_label}: {role}_kind {kind!r} does not match index kind "
