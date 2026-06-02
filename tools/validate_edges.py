@@ -161,9 +161,13 @@ def schema_fallback(bundle: Any) -> list[str]:
             if key in edge and not isinstance(edge[key], str):
                 errors.append(f"schema {loc}.{key}: expected string")
         evidence = edge.get("evidence_refs")
-        if not isinstance(evidence, list) or not evidence or not all(isinstance(v, str) and v for v in evidence):
+        evidence_is_string_list = (
+            isinstance(evidence, list)
+            and all(isinstance(v, str) and v for v in evidence)
+        )
+        if not evidence_is_string_list:
             errors.append(f"schema {loc}.evidence_refs: expected non-empty list of strings")
-        if isinstance(evidence, list) and len(set(evidence)) != len(evidence):
+        if evidence_is_string_list and len(set(evidence)) != len(evidence):
             errors.append(f"schema {loc}.evidence_refs: duplicate values")
     return errors
 
@@ -176,6 +180,7 @@ def id_matches_kind(kind: str, identifier: str) -> bool:
 def validate_edge_semantics(edge: dict[str, Any], index_ids: set[str]) -> list[str]:
     errors: list[str] = []
     edge_id = edge.get("edge_id", "<unknown>")
+    edge_label = edge_id if isinstance(edge_id, str) else "<invalid edge_id>"
     source_kind = edge.get("source_kind")
     target_kind = edge.get("target_kind")
     source_id = edge.get("source_id")
@@ -184,44 +189,94 @@ def validate_edge_semantics(edge: dict[str, Any], index_ids: set[str]) -> list[s
 
     if isinstance(edge_id, str) and not EDGE_ID.match(edge_id):
         errors.append(f"{edge_id}: edge_id must match EDGE-000000")
-    if source_kind not in KINDS:
-        errors.append(f"{edge_id}: unsupported source_kind {source_kind!r}")
-    if target_kind not in KINDS:
-        errors.append(f"{edge_id}: unsupported target_kind {target_kind!r}")
-    if relation_type not in RELATION_TYPES:
-        errors.append(f"{edge_id}: unsupported relation_type {relation_type!r}")
-    if edge.get("confidence") not in CONFIDENCE:
-        errors.append(f"{edge_id}: unsupported confidence {edge.get('confidence')!r}")
+    if isinstance(source_kind, str):
+        if source_kind not in KINDS:
+            errors.append(f"{edge_label}: unsupported source_kind {source_kind!r}")
+    else:
+        errors.append(f"{edge_label}: source_kind must be a string")
+    if isinstance(target_kind, str):
+        if target_kind not in KINDS:
+            errors.append(f"{edge_label}: unsupported target_kind {target_kind!r}")
+    else:
+        errors.append(f"{edge_label}: target_kind must be a string")
+    if isinstance(relation_type, str):
+        if relation_type not in RELATION_TYPES:
+            errors.append(f"{edge_label}: unsupported relation_type {relation_type!r}")
+    else:
+        errors.append(f"{edge_label}: relation_type must be a string")
+    confidence = edge.get("confidence")
+    if isinstance(confidence, str):
+        if confidence not in CONFIDENCE:
+            errors.append(f"{edge_label}: unsupported confidence {confidence!r}")
+    else:
+        errors.append(f"{edge_label}: confidence must be a string")
 
     for role, kind, identifier in (
         ("source", source_kind, source_id),
         ("target", target_kind, target_id),
     ):
         if not isinstance(kind, str) or not isinstance(identifier, str):
+            if not isinstance(identifier, str):
+                errors.append(f"{edge_label}: {role}_id must be a string")
             continue
         if not id_matches_kind(kind, identifier):
-            errors.append(f"{edge_id}: {role}_id {identifier!r} does not match kind {kind!r}")
+            errors.append(f"{edge_label}: {role}_id {identifier!r} does not match kind {kind!r}")
         if identifier not in index_ids:
-            errors.append(f"{edge_id}: {role}_id {identifier!r} is absent from index_by_id.json")
+            errors.append(f"{edge_label}: {role}_id {identifier!r} is absent from index_by_id.json")
 
     if isinstance(relation_type, str) and isinstance(source_kind, str) and isinstance(target_kind, str):
         allowed_pairs = RELATION_MATRIX.get(relation_type, set())
         if (source_kind, target_kind) not in allowed_pairs:
             errors.append(
-                f"{edge_id}: relation {relation_type!r} does not allow "
+                f"{edge_label}: relation {relation_type!r} does not allow "
                 f"{source_kind!r} -> {target_kind!r}"
             )
 
     if relation_type != "same_as" and source_id == target_id:
-        errors.append(f"{edge_id}: reflexive edge is only allowed for same_as")
+        errors.append(f"{edge_label}: reflexive edge is only allowed for same_as")
 
-    for ref in edge.get("evidence_refs", []):
-        if ref not in index_ids:
-            errors.append(f"{edge_id}: evidence_ref {ref!r} is absent from index_by_id.json")
+    evidence_refs = edge.get("evidence_refs")
+    if isinstance(evidence_refs, list):
+        for ref in evidence_refs:
+            if not isinstance(ref, str):
+                errors.append(f"{edge_label}: evidence_ref must be a string")
+                continue
+            if ref not in index_ids:
+                errors.append(f"{edge_label}: evidence_ref {ref!r} is absent from index_by_id.json")
 
     derived_from = edge.get("derived_from")
     if isinstance(derived_from, str) and derived_from != "manual" and not (ROOT / derived_from).exists():
-        errors.append(f"{edge_id}: derived_from {derived_from!r} does not exist")
+        errors.append(f"{edge_label}: derived_from {derived_from!r} does not exist")
+    return errors
+
+
+def validate_edges_semantics(bundle: Any, index_ids: set[str]) -> list[str]:
+    errors: list[str] = []
+    edge_ids: set[str] = set()
+    normalized_edges: set[tuple[str, str, str]] = set()
+    edges = bundle.get("edges", []) if isinstance(bundle, dict) else []
+    if not isinstance(edges, list):
+        return errors
+
+    for i, edge in enumerate(edges):
+        if not isinstance(edge, dict):
+            continue
+        edge_id = edge.get("edge_id")
+        if isinstance(edge_id, str):
+            if edge_id in edge_ids:
+                errors.append(f"{edge_id}: duplicate edge_id")
+            edge_ids.add(edge_id)
+        else:
+            errors.append(f"edges[{i}]: edge_id must be a string for duplicate checks")
+
+        signature = (edge.get("source_id"), edge.get("relation_type"), edge.get("target_id"))
+        if all(isinstance(value, str) for value in signature):
+            if signature in normalized_edges:
+                label = edge_id if isinstance(edge_id, str) else f"edges[{i}]"
+                errors.append(f"{label}: duplicate normalized edge {signature}")
+            normalized_edges.add(signature)
+
+        errors.extend(validate_edge_semantics(edge, index_ids))
     return errors
 
 
@@ -235,22 +290,8 @@ def main() -> int:
     errors.extend(validate_with_jsonschema(schema, bundle))
     errors.extend(schema_fallback(bundle))
 
-    edge_ids: set[str] = set()
-    normalized_edges: set[tuple[str, str, str]] = set()
     edges = bundle.get("edges", []) if isinstance(bundle, dict) else []
-    if isinstance(edges, list):
-        for edge in edges:
-            if not isinstance(edge, dict):
-                continue
-            edge_id = edge.get("edge_id")
-            if edge_id in edge_ids:
-                errors.append(f"{edge_id}: duplicate edge_id")
-            edge_ids.add(edge_id)
-            signature = (edge.get("source_id"), edge.get("relation_type"), edge.get("target_id"))
-            if signature in normalized_edges:
-                errors.append(f"{edge_id}: duplicate normalized edge {signature}")
-            normalized_edges.add(signature)
-            errors.extend(validate_edge_semantics(edge, index_ids))
+    errors.extend(validate_edges_semantics(bundle, index_ids))
 
     print("Validation C1 relation edges")
     print("-" * 32)
