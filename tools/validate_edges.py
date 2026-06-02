@@ -83,7 +83,10 @@ RELATION_MATRIX = {
         ("place", "source"),
         ("song", "source"),
     },
-    "indexed_by": {("atom", "concept")},
+    "indexed_by": {
+        ("atom", "concept"),
+        ("atom", "motif"),
+    },
     "located_at": {
         ("atom", "place"),
         ("atom", "unknown"),

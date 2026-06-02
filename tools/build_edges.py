@@ -7,7 +7,8 @@ attributed_to edges. C1 lot 2B-2 adds deterministic quote -> source documented_b
 edges. C1 lot 3A adds a reduced set of deterministic atom -> source
 documented_by edges when the atom brings new graph connectivity. C1 lot 4A
 adds deterministic atom -> concept indexed_by edges for atoms already present in
-the graph.
+the graph. C1 lot 4B adds deterministic atom -> motif indexed_by edges for
+atoms already present in the graph.
 """
 from __future__ import annotations
 
@@ -112,6 +113,20 @@ ATOM_CONCEPT_REF_FIELDS = {
     "concepts",
     "concepts_derives",
     "related_concepts",
+}
+
+MOTIF_ATOM_FIELDS = {
+    "related_atoms",
+    "atoms",
+    "atomes",
+    "atomes_lies",
+    "atomes_associes",
+}
+
+ATOM_MOTIF_REF_FIELDS = {
+    "motifs",
+    "related_motifs",
+    "motifs_associes",
 }
 
 
@@ -679,6 +694,100 @@ def iter_atom_concept_edges(
     return edges, exclusions
 
 
+def iter_atom_motif_edges(
+    index: dict[str, Any],
+    atoms: list[dict[str, Any]],
+    existing_atom_ids: set[str],
+) -> tuple[list[dict[str, Any]], Counter[str]]:
+    edges: list[dict[str, Any]] = []
+    exclusions: Counter[str] = Counter()
+    seen: set[tuple[str, str, str]] = set()
+
+    atom_ids = indexed_atom_ids(index)
+    motif_ids = {
+        identifier
+        for identifier, record in index.items()
+        if isinstance(identifier, str) and graph_kind(identifier, index) == "motif"
+    }
+
+    def add_candidate(atom_id: str, motif_id: str, derived_from: str) -> None:
+        if atom_id not in atom_ids:
+            exclusions["missing_atom_endpoint"] += 1
+            return
+        if atom_id not in existing_atom_ids:
+            exclusions["atom_not_in_graph"] += 1
+            return
+        if motif_id not in motif_ids:
+            exclusions["missing_motif_endpoint"] += 1
+            return
+
+        signature = (atom_id, "indexed_by", motif_id)
+        if signature in seen:
+            exclusions["duplicate_signature"] += 1
+            return
+        seen.add(signature)
+
+        edges.append(
+            {
+                "source_kind": "atom",
+                "source_id": atom_id,
+                "target_kind": "motif",
+                "target_id": motif_id,
+                "relation_type": "indexed_by",
+                "evidence_refs": [atom_id],
+                "confidence": "high",
+                "derived_from": derived_from,
+            }
+        )
+
+    for motif_id, record in index.items():
+        if graph_kind(motif_id, index) != "motif":
+            continue
+        if not isinstance(record, dict):
+            exclusions["invalid_motif_record"] += 1
+            continue
+        data = record.get("data", {})
+        if not isinstance(data, dict):
+            exclusions["invalid_motif_data"] += 1
+            continue
+
+        derived_from = record.get("file")
+        if not isinstance(derived_from, str) or not derived_from:
+            derived_from = "exports/generated/index_by_id.json"
+
+        for field in MOTIF_ATOM_FIELDS:
+            for atom_id in collect_known_refs(data.get(field), atom_ids):
+                add_candidate(atom_id, motif_id, derived_from)
+        for atom_id in collect_known_refs(data.get("relations"), atom_ids):
+            add_candidate(atom_id, motif_id, derived_from)
+
+    for atom in atoms:
+        if not isinstance(atom, dict):
+            exclusions["invalid_atom_record"] += 1
+            continue
+        atom_id = atom.get("id")
+        if not isinstance(atom_id, str):
+            exclusions["invalid_atom_id"] += 1
+            continue
+        data = atom.get("data", {})
+        if not isinstance(data, dict):
+            exclusions["invalid_atom_data"] += 1
+            continue
+
+        for field in ATOM_MOTIF_REF_FIELDS:
+            for motif_id in collect_known_refs(data.get(field), motif_ids):
+                add_candidate(atom_id, motif_id, "exports/generated/atoms.json")
+
+    edges.sort(
+        key=lambda edge: (
+            edge["source_id"],
+            edge["target_id"],
+            edge["derived_from"],
+        )
+    )
+    return edges, exclusions
+
+
 def write_edges(edges: list[dict[str, Any]]) -> None:
     ordered_edges = []
     for i, edge in enumerate(edges, start=1):
@@ -729,7 +838,13 @@ def main(argv: Optional[list[str]] = None) -> int:
         atoms,
         graph_atom_ids(base_edges),
     )
-    edges = [*base_edges, *atom_concept_edges]
+    concept_graph_edges = [*base_edges, *atom_concept_edges]
+    atom_motif_edges, atom_motif_exclusions = iter_atom_motif_edges(
+        index,
+        atoms,
+        graph_atom_ids(concept_graph_edges),
+    )
+    edges = [*concept_graph_edges, *atom_motif_edges]
     write_edges(edges)
 
     if not args.quiet:
@@ -747,6 +862,8 @@ def main(argv: Optional[list[str]] = None) -> int:
             print(f"excluded.atom_documented_by.{key}={count}")
         for key, count in sorted(atom_concept_exclusions.items()):
             print(f"excluded.atom_indexed_by.{key}={count}")
+        for key, count in sorted(atom_motif_exclusions.items()):
+            print(f"excluded.atom_motif_indexed_by.{key}={count}")
     return 0
 
 
