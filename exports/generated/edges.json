@@ -45338,6 +45338,1332 @@
       ],
       "confidence": "high",
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003488",
+      "source_kind": "atom",
+      "source_id": "S09-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-S09-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S09-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
+    },
+    {
+      "edge_id": "EDGE-003489",
+      "source_kind": "atom",
+      "source_id": "S09-A005",
+      "target_kind": "myth",
+      "target_id": "MYTH-S09-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S09-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
+    },
+    {
+      "edge_id": "EDGE-003490",
+      "source_kind": "atom",
+      "source_id": "S13-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-S13-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003491",
+      "source_kind": "atom",
+      "source_id": "S13-A003",
+      "target_kind": "myth",
+      "target_id": "MYTH-S13-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003492",
+      "source_kind": "atom",
+      "source_id": "S13-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-S13-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003493",
+      "source_kind": "atom",
+      "source_id": "S13-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-S13-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003494",
+      "source_kind": "atom",
+      "source_id": "S13-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-S13-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003495",
+      "source_kind": "atom",
+      "source_id": "S13-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-S13-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003496",
+      "source_kind": "atom",
+      "source_id": "S14-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-S14-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003497",
+      "source_kind": "atom",
+      "source_id": "S14-A007",
+      "target_kind": "myth",
+      "target_id": "MYTH-S14-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003498",
+      "source_kind": "atom",
+      "source_id": "S14-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-S14-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003499",
+      "source_kind": "atom",
+      "source_id": "S21-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-archive_numerique_neutre",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003500",
+      "source_kind": "atom",
+      "source_id": "S21-A005",
+      "target_kind": "myth",
+      "target_id": "MYTH-scene_post_punk_deja_canonisee",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003501",
+      "source_kind": "atom",
+      "source_id": "S21-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-City_Fun_simplement_anti_Factory",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003502",
+      "source_kind": "atom",
+      "source_id": "S21-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-archive_numerique_neutre",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003503",
+      "source_kind": "atom",
+      "source_id": "S22-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-S22-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003504",
+      "source_kind": "atom",
+      "source_id": "S22-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-S22-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003505",
+      "source_kind": "atom",
+      "source_id": "S26-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003506",
+      "source_kind": "atom",
+      "source_id": "S26-A007",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003507",
+      "source_kind": "atom",
+      "source_id": "S26-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003508",
+      "source_kind": "atom",
+      "source_id": "S26-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003509",
+      "source_kind": "atom",
+      "source_id": "S26-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003510",
+      "source_kind": "atom",
+      "source_id": "S26-A014",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A014"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003511",
+      "source_kind": "atom",
+      "source_id": "S26-A015",
+      "target_kind": "myth",
+      "target_id": "MYTH-S26-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003512",
+      "source_kind": "atom",
+      "source_id": "S27-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-S27-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S27-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
+    },
+    {
+      "edge_id": "EDGE-003513",
+      "source_kind": "atom",
+      "source_id": "S27-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-S27-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S27-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
+    },
+    {
+      "edge_id": "EDGE-003514",
+      "source_kind": "atom",
+      "source_id": "S27-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-S27-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S27-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
+    },
+    {
+      "edge_id": "EDGE-003515",
+      "source_kind": "atom",
+      "source_id": "S29-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-S29-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S29-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003516",
+      "source_kind": "atom",
+      "source_id": "S29-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-S29-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S29-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003517",
+      "source_kind": "atom",
+      "source_id": "S29-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-S29-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S29-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003518",
+      "source_kind": "atom",
+      "source_id": "S29-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-S29-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S29-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003519",
+      "source_kind": "atom",
+      "source_id": "S34-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-S34-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003520",
+      "source_kind": "atom",
+      "source_id": "S34-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-S34-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003521",
+      "source_kind": "atom",
+      "source_id": "S34-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-S34-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003522",
+      "source_kind": "atom",
+      "source_id": "S34-A007",
+      "target_kind": "myth",
+      "target_id": "MYTH-S34-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003523",
+      "source_kind": "atom",
+      "source_id": "S34-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-S34-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003524",
+      "source_kind": "atom",
+      "source_id": "S34-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-S34-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003525",
+      "source_kind": "atom",
+      "source_id": "S49-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-danse_curtis_purement_epileptique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003526",
+      "source_kind": "atom",
+      "source_id": "S49-A007",
+      "target_kind": "myth",
+      "target_id": "MYTH-danse_curtis_purement_epileptique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003527",
+      "source_kind": "atom",
+      "source_id": "S49-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-danse_curtis_purement_epileptique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003528",
+      "source_kind": "atom",
+      "source_id": "S49-A012",
+      "target_kind": "myth",
+      "target_id": "MYTH-curtis_sacrifice_legendaire",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003529",
+      "source_kind": "atom",
+      "source_id": "S49-A017",
+      "target_kind": "myth",
+      "target_id": "MYTH-curtis_sacrifice_legendaire",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003530",
+      "source_kind": "atom",
+      "source_id": "S50-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-reimagined_archive_origine",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003531",
+      "source_kind": "atom",
+      "source_id": "S50-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-reimagined_archive_origine",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003532",
+      "source_kind": "atom",
+      "source_id": "S50-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-fans_passifs_heritage",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003533",
+      "source_kind": "atom",
+      "source_id": "S50-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-toute_reinterpretation_est_trahison",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003534",
+      "source_kind": "atom",
+      "source_id": "S50-A012",
+      "target_kind": "myth",
+      "target_id": "MYTH-toute_reinterpretation_est_trahison",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003535",
+      "source_kind": "atom",
+      "source_id": "S50-A014",
+      "target_kind": "myth",
+      "target_id": "MYTH-toute_reinterpretation_est_trahison",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A014"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003536",
+      "source_kind": "atom",
+      "source_id": "S50-A015",
+      "target_kind": "myth",
+      "target_id": "MYTH-toute_reinterpretation_est_trahison",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003537",
+      "source_kind": "atom",
+      "source_id": "S50-A018",
+      "target_kind": "myth",
+      "target_id": "MYTH-fans_passifs_heritage",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A018"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003538",
+      "source_kind": "atom",
+      "source_id": "S51-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-image_lofi_preuve_brute",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003539",
+      "source_kind": "atom",
+      "source_id": "S51-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-image_lofi_preuve_brute",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003540",
+      "source_kind": "atom",
+      "source_id": "S51-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-image_lofi_preuve_brute",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003541",
+      "source_kind": "atom",
+      "source_id": "S51-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-haute_definition_superiorite",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003542",
+      "source_kind": "atom",
+      "source_id": "S51-A007",
+      "target_kind": "myth",
+      "target_id": "MYTH-lofi_simple_nostalgie",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003543",
+      "source_kind": "atom",
+      "source_id": "S51-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-lofi_simple_nostalgie",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003544",
+      "source_kind": "atom",
+      "source_id": "S51-A015",
+      "target_kind": "myth",
+      "target_id": "MYTH-haute_definition_superiorite",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003545",
+      "source_kind": "atom",
+      "source_id": "S52-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-Control_verite_definitive",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003546",
+      "source_kind": "atom",
+      "source_id": "S52-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-Control_verite_definitive",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003547",
+      "source_kind": "atom",
+      "source_id": "S52-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-Curtis_purement_romantique_timide",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003548",
+      "source_kind": "atom",
+      "source_id": "S52-A012",
+      "target_kind": "myth",
+      "target_id": "MYTH-Curtis_purement_romantique_timide",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003549",
+      "source_kind": "atom",
+      "source_id": "S52-A014",
+      "target_kind": "myth",
+      "target_id": "MYTH-danse_comme_simple_symptome",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A014"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003550",
+      "source_kind": "atom",
+      "source_id": "S53-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-mythe_comme_preuve",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003551",
+      "source_kind": "atom",
+      "source_id": "S53-A003",
+      "target_kind": "myth",
+      "target_id": "MYTH-manchester_cause_mecanique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003552",
+      "source_kind": "atom",
+      "source_id": "S53-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-manchester_cause_mecanique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003553",
+      "source_kind": "atom",
+      "source_id": "S53-A005",
+      "target_kind": "myth",
+      "target_id": "MYTH-mythe_comme_preuve",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003554",
+      "source_kind": "atom",
+      "source_id": "S53-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-massification_comme_perte_pure",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003555",
+      "source_kind": "atom",
+      "source_id": "S53-A015",
+      "target_kind": "myth",
+      "target_id": "MYTH-curtis_sacre_par_le_mythe",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003556",
+      "source_kind": "atom",
+      "source_id": "S54-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-Burroughs_Ballard_cause_unique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S54-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s54_gnocchi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003557",
+      "source_kind": "atom",
+      "source_id": "S54-A006",
+      "target_kind": "myth",
+      "target_id": "MYTH-Interzone_reference_decorative",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S54-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s54_gnocchi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003558",
+      "source_kind": "atom",
+      "source_id": "S55-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-reference_critique_egale_influence",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003559",
+      "source_kind": "atom",
+      "source_id": "S55-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-reference_critique_egale_influence",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003560",
+      "source_kind": "atom",
+      "source_id": "S55-A005",
+      "target_kind": "myth",
+      "target_id": "MYTH-reference_critique_egale_influence",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003561",
+      "source_kind": "atom",
+      "source_id": "S55-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-joydivisionien_explique_tout",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003562",
+      "source_kind": "atom",
+      "source_id": "S55-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-reference_critique_egale_influence",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003563",
+      "source_kind": "atom",
+      "source_id": "S55-A012",
+      "target_kind": "myth",
+      "target_id": "MYTH-joydivisionien_explique_tout",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003564",
+      "source_kind": "atom",
+      "source_id": "S55-A012",
+      "target_kind": "myth",
+      "target_id": "MYTH-sacralisation_a_reprendre",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003565",
+      "source_kind": "atom",
+      "source_id": "S56-A003",
+      "target_kind": "myth",
+      "target_id": "MYTH-fin_tragique_explique_le_mythe",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003566",
+      "source_kind": "atom",
+      "source_id": "S56-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-fin_tragique_explique_le_mythe",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003567",
+      "source_kind": "atom",
+      "source_id": "S56-A007",
+      "target_kind": "myth",
+      "target_id": "MYTH-curtis_simple_parolier",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003568",
+      "source_kind": "atom",
+      "source_id": "S56-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-influence_litteraire_totale",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003569",
+      "source_kind": "atom",
+      "source_id": "S56-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-influence_litteraire_totale",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003570",
+      "source_kind": "atom",
+      "source_id": "S56-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-influence_litteraire_totale",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003571",
+      "source_kind": "atom",
+      "source_id": "S56-A014",
+      "target_kind": "myth",
+      "target_id": "MYTH-curtis_simple_parolier",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A014"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003572",
+      "source_kind": "atom",
+      "source_id": "S56-A019",
+      "target_kind": "myth",
+      "target_id": "MYTH-curtis_simple_parolier",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A019"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003573",
+      "source_kind": "atom",
+      "source_id": "S75-A009",
+      "target_kind": "myth",
+      "target_id": "MYTH-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003574",
+      "source_kind": "atom",
+      "source_id": "S75-A010",
+      "target_kind": "myth",
+      "target_id": "MYTH-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003575",
+      "source_kind": "atom",
+      "source_id": "S75-A012",
+      "target_kind": "myth",
+      "target_id": "MYTH-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003576",
+      "source_kind": "atom",
+      "source_id": "S75-A013",
+      "target_kind": "myth",
+      "target_id": "MYTH-007",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A013"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003577",
+      "source_kind": "atom",
+      "source_id": "S75-A015",
+      "target_kind": "myth",
+      "target_id": "MYTH-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003578",
+      "source_kind": "atom",
+      "source_id": "S75-A016",
+      "target_kind": "myth",
+      "target_id": "MYTH-007",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A016"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003579",
+      "source_kind": "atom",
+      "source_id": "S75-A017",
+      "target_kind": "myth",
+      "target_id": "MYTH-007",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003580",
+      "source_kind": "atom",
+      "source_id": "S75-A017",
+      "target_kind": "myth",
+      "target_id": "MYTH-008",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003581",
+      "source_kind": "atom",
+      "source_id": "S75-A018",
+      "target_kind": "myth",
+      "target_id": "MYTH-007",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A018"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/myths/master_myths.md"
+    },
+    {
+      "edge_id": "EDGE-003582",
+      "source_kind": "atom",
+      "source_id": "S77-A002",
+      "target_kind": "myth",
+      "target_id": "MYTH-DIY_simple_technique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003583",
+      "source_kind": "atom",
+      "source_id": "S77-A003",
+      "target_kind": "myth",
+      "target_id": "MYTH-Manchester_exception_absolue",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003584",
+      "source_kind": "atom",
+      "source_id": "S77-A011",
+      "target_kind": "myth",
+      "target_id": "MYTH-fanzines_seulement_musicaux",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003585",
+      "source_kind": "atom",
+      "source_id": "S77-A015",
+      "target_kind": "myth",
+      "target_id": "MYTH-fanzines_seulement_musicaux",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003586",
+      "source_kind": "atom",
+      "source_id": "S78-A001",
+      "target_kind": "myth",
+      "target_id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003587",
+      "source_kind": "atom",
+      "source_id": "S78-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-Joy_Division_psychogeographie_intentionnelle",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003588",
+      "source_kind": "atom",
+      "source_id": "S78-A020",
+      "target_kind": "myth",
+      "target_id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A020"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003589",
+      "source_kind": "atom",
+      "source_id": "S78-A020",
+      "target_kind": "myth",
+      "target_id": "MYTH-ville_comme_essence_musicale",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A020"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
     }
   ]
 }

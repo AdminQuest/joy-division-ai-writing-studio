@@ -86,6 +86,7 @@ RELATION_MATRIX = {
     "indexed_by": {
         ("atom", "concept"),
         ("atom", "motif"),
+        ("atom", "myth"),
     },
     "located_at": {
         ("atom", "place"),
