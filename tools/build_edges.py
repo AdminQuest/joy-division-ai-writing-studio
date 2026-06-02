@@ -5,7 +5,9 @@ C1 lot 2A generates all stable and currently validatable same_as edges from the
 canonical identifier index. C1 lot 2B-1 adds deterministic quote -> person
 attributed_to edges. C1 lot 2B-2 adds deterministic quote -> source documented_by
 edges. C1 lot 3A adds a reduced set of deterministic atom -> source
-documented_by edges when the atom brings new graph connectivity.
+documented_by edges when the atom brings new graph connectivity. C1 lot 4A
+adds deterministic atom -> concept indexed_by edges for atoms already present in
+the graph.
 """
 from __future__ import annotations
 
@@ -96,6 +98,20 @@ ATOM_QUOTE_REF_FIELDS = {
     "liens_citations",
     "citation_ids",
     "quotes",
+}
+
+CONCEPT_ATOM_FIELDS = {
+    "related_atoms",
+    "atoms",
+    "atomes",
+    "atomes_lies",
+    "atomes_associes",
+}
+
+ATOM_CONCEPT_REF_FIELDS = {
+    "concepts",
+    "concepts_derives",
+    "related_concepts",
 }
 
 
@@ -559,6 +575,110 @@ def iter_atom_source_edges(
     return edges, exclusions
 
 
+def graph_atom_ids(edges: list[dict[str, Any]]) -> set[str]:
+    atom_ids: set[str] = set()
+    for edge in edges:
+        if edge.get("source_kind") == "atom" and isinstance(edge.get("source_id"), str):
+            atom_ids.add(edge["source_id"])
+        if edge.get("target_kind") == "atom" and isinstance(edge.get("target_id"), str):
+            atom_ids.add(edge["target_id"])
+    return atom_ids
+
+
+def iter_atom_concept_edges(
+    index: dict[str, Any],
+    atoms: list[dict[str, Any]],
+    existing_atom_ids: set[str],
+) -> tuple[list[dict[str, Any]], Counter[str]]:
+    edges: list[dict[str, Any]] = []
+    exclusions: Counter[str] = Counter()
+    seen: set[tuple[str, str, str]] = set()
+
+    atom_ids = indexed_atom_ids(index)
+    concept_ids = {
+        identifier
+        for identifier, record in index.items()
+        if isinstance(identifier, str) and graph_kind(identifier, index) == "concept"
+    }
+
+    def add_candidate(atom_id: str, concept_id: str, derived_from: str) -> None:
+        if atom_id not in atom_ids:
+            exclusions["missing_atom_endpoint"] += 1
+            return
+        if atom_id not in existing_atom_ids:
+            exclusions["atom_not_in_graph"] += 1
+            return
+        if concept_id not in concept_ids:
+            exclusions["missing_concept_endpoint"] += 1
+            return
+
+        signature = (atom_id, "indexed_by", concept_id)
+        if signature in seen:
+            exclusions["duplicate_signature"] += 1
+            return
+        seen.add(signature)
+
+        edges.append(
+            {
+                "source_kind": "atom",
+                "source_id": atom_id,
+                "target_kind": "concept",
+                "target_id": concept_id,
+                "relation_type": "indexed_by",
+                "evidence_refs": [atom_id],
+                "confidence": "high",
+                "derived_from": derived_from,
+            }
+        )
+
+    for concept_id, record in index.items():
+        if graph_kind(concept_id, index) != "concept":
+            continue
+        if not isinstance(record, dict):
+            exclusions["invalid_concept_record"] += 1
+            continue
+        data = record.get("data", {})
+        if not isinstance(data, dict):
+            exclusions["invalid_concept_data"] += 1
+            continue
+
+        derived_from = record.get("file")
+        if not isinstance(derived_from, str) or not derived_from:
+            derived_from = "exports/generated/index_by_id.json"
+
+        for field in CONCEPT_ATOM_FIELDS:
+            for atom_id in collect_known_refs(data.get(field), atom_ids):
+                add_candidate(atom_id, concept_id, derived_from)
+        for atom_id in collect_known_refs(data.get("relations"), atom_ids):
+            add_candidate(atom_id, concept_id, derived_from)
+
+    for atom in atoms:
+        if not isinstance(atom, dict):
+            exclusions["invalid_atom_record"] += 1
+            continue
+        atom_id = atom.get("id")
+        if not isinstance(atom_id, str):
+            exclusions["invalid_atom_id"] += 1
+            continue
+        data = atom.get("data", {})
+        if not isinstance(data, dict):
+            exclusions["invalid_atom_data"] += 1
+            continue
+
+        for field in ATOM_CONCEPT_REF_FIELDS:
+            for concept_id in collect_known_refs(data.get(field), concept_ids):
+                add_candidate(atom_id, concept_id, "exports/generated/atoms.json")
+
+    edges.sort(
+        key=lambda edge: (
+            edge["source_id"],
+            edge["target_id"],
+            edge["derived_from"],
+        )
+    )
+    return edges, exclusions
+
+
 def write_edges(edges: list[dict[str, Any]]) -> None:
     ordered_edges = []
     for i, edge in enumerate(edges, start=1):
@@ -603,7 +723,13 @@ def main(argv: Optional[list[str]] = None) -> int:
     attributed_to_edges, attributed_to_exclusions = iter_attributed_to_edges(index, attribution)
     quote_source_edges, quote_source_exclusions = iter_quote_source_edges(index)
     atom_source_edges, atom_source_exclusions = iter_atom_source_edges(index, atoms, quotes)
-    edges = [*same_as_edges, *attributed_to_edges, *quote_source_edges, *atom_source_edges]
+    base_edges = [*same_as_edges, *attributed_to_edges, *quote_source_edges, *atom_source_edges]
+    atom_concept_edges, atom_concept_exclusions = iter_atom_concept_edges(
+        index,
+        atoms,
+        graph_atom_ids(base_edges),
+    )
+    edges = [*base_edges, *atom_concept_edges]
     write_edges(edges)
 
     if not args.quiet:
@@ -619,6 +745,8 @@ def main(argv: Optional[list[str]] = None) -> int:
             print(f"excluded.documented_by.{key}={count}")
         for key, count in sorted(atom_source_exclusions.items()):
             print(f"excluded.atom_documented_by.{key}={count}")
+        for key, count in sorted(atom_concept_exclusions.items()):
+            print(f"excluded.atom_indexed_by.{key}={count}")
     return 0
 
 

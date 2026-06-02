@@ -41,7 +41,7 @@ KINDS = {
     "metadata",
     "unknown",
 }
-RELATION_TYPES = {"same_as", "attributed_to", "documented_by", "located_at"}
+RELATION_TYPES = {"same_as", "attributed_to", "documented_by", "indexed_by", "located_at"}
 CONFIDENCE = {"high", "medium", "low", "unknown"}
 EDGE_ID = re.compile(r"^EDGE-[0-9]{6}$")
 
@@ -83,6 +83,7 @@ RELATION_MATRIX = {
         ("place", "source"),
         ("song", "source"),
     },
+    "indexed_by": {("atom", "concept")},
     "located_at": {
         ("atom", "place"),
         ("atom", "unknown"),
