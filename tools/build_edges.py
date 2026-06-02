@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Generate the C1 edge graph.
 
-C1 lot 2A intentionally generates only deterministic same_as edges from the
-canonical identifier index. Quote/source/person, atom/source, places, and
-interpretive relations remain out of scope.
+C1 lot 2A intentionally generates all stable and currently validatable same_as
+edges from the canonical identifier index. The retained perimeter includes the
+arbitrated JD-CONCERT-* -> CONCERT-* reconciliation as legacy_concert -> concert
+so that the concert identity closure is not lost. Quote/source/person,
+atom/source, places, and interpretive relations remain out of scope.
 """
 from __future__ import annotations
 
@@ -21,6 +23,8 @@ ALLOWED_SAME_AS = {
     ("legacy_person", "person"),
     ("legacy_chronology", "event"),
     ("legacy_chronology", "concert"),
+    # Kept after review arbitration: JD-CONCERT-* is a legacy concert endpoint,
+    # while CONCERT-* is the canonical concert endpoint.
     ("legacy_concert", "concert"),
 }
 
