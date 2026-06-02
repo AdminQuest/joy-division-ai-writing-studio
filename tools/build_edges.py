@@ -2,14 +2,15 @@
 """Generate the C1 edge graph.
 
 C1 lot 2A generates all stable and currently validatable same_as edges from the
-canonical identifier index. C1 lot 2B-1 adds only deterministic quote -> person
-attributed_to edges. Quote -> source, atom/source, places, and interpretive
-relations remain out of scope.
+canonical identifier index. C1 lot 2B-1 adds deterministic quote -> person
+attributed_to edges. C1 lot 2B-2 adds deterministic quote -> source documented_by
+edges. Atom/source, places, and interpretive relations remain out of scope.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any, Optional
@@ -206,6 +207,68 @@ def iter_attributed_to_edges(index: dict[str, Any], attribution: dict[str, Any])
     return edges, exclusions
 
 
+def quote_source_id(quote_id: str, data: dict[str, Any]) -> Optional[str]:
+    declared_source_id = data.get("source_id")
+    if isinstance(declared_source_id, str):
+        return declared_source_id
+
+    match = re.search(r"S\d+", quote_id)
+    return match.group(0) if match else None
+
+
+def iter_quote_source_edges(index: dict[str, Any]) -> tuple[list[dict[str, Any]], Counter[str]]:
+    edges: list[dict[str, Any]] = []
+    exclusions: Counter[str] = Counter()
+    seen: set[tuple[str, str, str]] = set()
+
+    for quote_id, record in index.items():
+        if graph_kind(quote_id, index) != "quote":
+            continue
+        if not isinstance(record, dict):
+            exclusions["invalid_quote_record"] += 1
+            continue
+
+        data = record.get("data", {})
+        if not isinstance(data, dict):
+            data = {}
+
+        source_id = quote_source_id(quote_id, data)
+        if not isinstance(source_id, str) or source_id not in index:
+            exclusions["missing_source_endpoint"] += 1
+            continue
+        if graph_kind(source_id, index) != "source":
+            exclusions[f"unsupported_source_kind_{graph_kind(source_id, index)}"] += 1
+            continue
+
+        signature = (quote_id, "documented_by", source_id)
+        if signature in seen:
+            exclusions["duplicate_signature"] += 1
+            continue
+        seen.add(signature)
+
+        edges.append(
+            {
+                "source_kind": "quote",
+                "source_id": quote_id,
+                "target_kind": "source",
+                "target_id": source_id,
+                "relation_type": "documented_by",
+                "evidence_refs": [quote_id],
+                "confidence": "high",
+                "derived_from": "exports/generated/index_by_id.json",
+            }
+        )
+
+    edges.sort(
+        key=lambda edge: (
+            edge["source_id"],
+            edge["target_id"],
+            edge["derived_from"],
+        )
+    )
+    return edges, exclusions
+
+
 def write_edges(edges: list[dict[str, Any]]) -> None:
     ordered_edges = []
     for i, edge in enumerate(edges, start=1):
@@ -243,7 +306,8 @@ def main(argv: Optional[list[str]] = None) -> int:
     attribution = load_attribution_edges()
     same_as_edges, same_as_exclusions = iter_same_as_edges(index)
     attributed_to_edges, attributed_to_exclusions = iter_attributed_to_edges(index, attribution)
-    edges = [*same_as_edges, *attributed_to_edges]
+    quote_source_edges, quote_source_exclusions = iter_quote_source_edges(index)
+    edges = [*same_as_edges, *attributed_to_edges, *quote_source_edges]
     write_edges(edges)
 
     if not args.quiet:
@@ -255,6 +319,8 @@ def main(argv: Optional[list[str]] = None) -> int:
             print(f"excluded.same_as.{key}={count}")
         for key, count in sorted(attributed_to_exclusions.items()):
             print(f"excluded.attributed_to.{key}={count}")
+        for key, count in sorted(quote_source_exclusions.items()):
+            print(f"excluded.documented_by.{key}={count}")
     return 0
 
 
