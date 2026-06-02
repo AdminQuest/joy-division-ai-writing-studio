@@ -46,7 +46,16 @@ function normalizeChapter(c) {
  * type filter. Atom-level type_unite values are intentionally excluded.
  */
 const TYPE_LABELS = { concept: 'Concept', motif: 'Motif', myth: 'Mythe', mythe: 'Mythe' };
+const URL_TYPE_ALIASES = { concept: 'concept', motif: 'motif', myth: 'myth', mythe: 'myth' };
 function typeLabel(t) { return TYPE_LABELS[T(t).toLowerCase()] || T(t); }
+function initialTypeFilter() {
+  try {
+    const raw = new URLSearchParams(window.location.search).get('type');
+    return URL_TYPE_ALIASES[T(raw).toLowerCase()] || '';
+  } catch (_) {
+    return '';
+  }
+}
 
 /**
  * Resolve the display name for a concept/motif/myth record.
@@ -75,7 +84,13 @@ async function loadConcepts() {
     const atoms = await DynamicRegisters.loadRecords({ prefixes: ['sources/', 'registers/'], kinds: ['atom'] });
     concepts = buildConcepts(explicit, atoms);
     hydrateFilters(concepts);
-    render(concepts);
+    const requestedType = initialTypeFilter();
+    if (requestedType && [...typeFilter.options].some(option => option.value === requestedType)) {
+      typeFilter.value = requestedType;
+      applyFilters();
+    } else {
+      render(concepts);
+    }
     statusCard.textContent = concepts.length + ' concept(s) chargé(s) depuis les fichiers Markdown spécialisés et les atomes';
   } catch (err) {
     console.error(err);
