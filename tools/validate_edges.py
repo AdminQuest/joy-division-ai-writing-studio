@@ -18,19 +18,6 @@ SCHEMA_PATH = ROOT / "schemas" / "edge.schema.json"
 EDGES_PATH = ROOT / "exports" / "generated" / "edges.json"
 INDEX_PATH = ROOT / "exports" / "generated" / "index_by_id.json"
 
-REQUIRED_ROOT = {"schema_version", "generated_from", "edges"}
-REQUIRED_EDGE = {
-    "edge_id",
-    "source_kind",
-    "source_id",
-    "target_kind",
-    "target_id",
-    "relation_type",
-    "evidence_refs",
-    "confidence",
-    "derived_from",
-}
-ALLOWED_EDGE = REQUIRED_EDGE | {"qualifiers", "status"}
 KINDS = {
     "atom",
     "source",
@@ -112,64 +99,22 @@ def load_json(path: Path) -> Any:
         raise SystemExit(f"Invalid JSON in {path.relative_to(ROOT)}: {exc}")
 
 
-def validate_with_jsonschema(schema: dict[str, Any], bundle: dict[str, Any]) -> list[str]:
+def validate_schema(schema: dict[str, Any], bundle: dict[str, Any]) -> list[str]:
     try:
         from jsonschema import Draft202012Validator
-    except ImportError:
-        return []
+    except ImportError as exc:
+        raise SystemExit(
+            "Missing required dependency: jsonschema. "
+            "Install dependencies with `python3 -m pip install -r requirements.txt`."
+        ) from exc
+
+    Draft202012Validator.check_schema(schema)
     validator = Draft202012Validator(schema)
     messages = []
     for error in sorted(validator.iter_errors(bundle), key=lambda e: list(e.path)):
         path = ".".join(str(part) for part in error.path) or "<root>"
         messages.append(f"schema {path}: {error.message}")
     return messages
-
-
-def schema_fallback(bundle: Any) -> list[str]:
-    errors: list[str] = []
-    if not isinstance(bundle, dict):
-        return ["schema <root>: root must be an object"]
-    extra_root = set(bundle) - REQUIRED_ROOT
-    missing_root = REQUIRED_ROOT - set(bundle)
-    if extra_root:
-        errors.append(f"schema <root>: unexpected keys {sorted(extra_root)}")
-    if missing_root:
-        errors.append(f"schema <root>: missing keys {sorted(missing_root)}")
-    if bundle.get("schema_version") != "1.0.0":
-        errors.append("schema schema_version: expected '1.0.0'")
-    generated_from = bundle.get("generated_from")
-    if not isinstance(generated_from, list) or not generated_from or not all(isinstance(v, str) and v for v in generated_from):
-        errors.append("schema generated_from: expected non-empty list of strings")
-    edges = bundle.get("edges")
-    if not isinstance(edges, list):
-        errors.append("schema edges: expected list")
-        return errors
-    if len(edges) > 9:
-        errors.append("schema edges: expected fewer than 10 edges")
-    for i, edge in enumerate(edges):
-        loc = f"edges[{i}]"
-        if not isinstance(edge, dict):
-            errors.append(f"schema {loc}: expected object")
-            continue
-        missing = REQUIRED_EDGE - set(edge)
-        extra = set(edge) - ALLOWED_EDGE
-        if missing:
-            errors.append(f"schema {loc}: missing keys {sorted(missing)}")
-        if extra:
-            errors.append(f"schema {loc}: unexpected keys {sorted(extra)}")
-        for key in ("edge_id", "source_kind", "source_id", "target_kind", "target_id", "relation_type", "confidence", "derived_from"):
-            if key in edge and not isinstance(edge[key], str):
-                errors.append(f"schema {loc}.{key}: expected string")
-        evidence = edge.get("evidence_refs")
-        evidence_is_string_list = (
-            isinstance(evidence, list)
-            and all(isinstance(v, str) and v for v in evidence)
-        )
-        if not evidence_is_string_list:
-            errors.append(f"schema {loc}.evidence_refs: expected non-empty list of strings")
-        if evidence_is_string_list and len(set(evidence)) != len(evidence):
-            errors.append(f"schema {loc}.evidence_refs: duplicate values")
-    return errors
 
 
 def id_matches_kind(kind: str, identifier: str) -> bool:
@@ -287,8 +232,7 @@ def main() -> int:
     index_ids = set(index)
 
     errors = []
-    errors.extend(validate_with_jsonschema(schema, bundle))
-    errors.extend(schema_fallback(bundle))
+    errors.extend(validate_schema(schema, bundle))
 
     edges = bundle.get("edges", []) if isinstance(bundle, dict) else []
     errors.extend(validate_edges_semantics(bundle, index_ids))
