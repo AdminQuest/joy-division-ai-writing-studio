@@ -24,6 +24,7 @@ KINDS = {
     "quote",
     "legacy_person",
     "legacy_chronology",
+    "legacy_concert",
     "person",
     "place",
     "organization",
@@ -50,12 +51,13 @@ KIND_PATTERNS = {
     "quote": re.compile(r"^(?:S\d+-Q\d+|S\d+-CIT-\d+|CIT-S\d+-\d+)$"),
     "legacy_person": re.compile(r"^PERS-[A-Za-z0-9-]+(?:#[a-z0-9-]+)?$"),
     "legacy_chronology": re.compile(r"^(?:CHR|CHRON)-[A-Za-z0-9-]+$"),
+    "legacy_concert": re.compile(r"^JD-CONCERT-[A-Za-z0-9-]+$"),
     "person": re.compile(r"^PERSON-[A-Za-z0-9-]+$"),
     "place": re.compile(r"^PLACE-[A-Za-z0-9-]+$"),
     "organization": re.compile(r"^ORG-[A-Za-z0-9-]+$"),
     "image": re.compile(r"^IMAGE-[A-Za-z0-9-]+$"),
     "event": re.compile(r"^EVENT-[A-Za-z0-9-]+$"),
-    "concert": re.compile(r"^(?:CONCERT|JD-CONCERT)-[A-Za-z0-9-]+$"),
+    "concert": re.compile(r"^CONCERT-[A-Za-z0-9-]+$"),
     "session": re.compile(r"^SESSION-[A-Za-z0-9-]+$"),
     "song": re.compile(r"^(?:JD-SONG-\d{3}|SONG-[A-Za-z0-9-]+)$"),
     "concept": re.compile(r"^CONCEPT-[A-Za-z0-9_-]+$"),
@@ -69,6 +71,7 @@ RELATION_MATRIX = {
         ("legacy_person", "person"),
         ("legacy_chronology", "event"),
         ("legacy_chronology", "concert"),
+        ("legacy_concert", "concert"),
     },
     "attributed_to": {("quote", "person")},
     "documented_by": {
@@ -131,6 +134,8 @@ def indexed_graph_kind(identifier: str, record: Any) -> Optional[str]:
         return None
     if identifier.startswith("PERS-"):
         return "legacy_person"
+    if identifier.startswith("JD-CONCERT-"):
+        return "legacy_concert"
     if raw_kind == "chronology":
         if identifier.startswith("EVENT-"):
             return "event"
