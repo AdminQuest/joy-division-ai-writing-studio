@@ -91,6 +91,13 @@ ENTITY_SIGNAL_FIELDS = {
     "label",
 }
 
+ATOM_QUOTE_REF_FIELDS = {
+    "related_quotes",
+    "liens_citations",
+    "citation_ids",
+    "quotes",
+}
+
 
 def load_index() -> dict[str, Any]:
     return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
@@ -155,6 +162,20 @@ def collect_atom_refs(value: Any, atom_ids: set[str]) -> set[str]:
     return refs
 
 
+def collect_known_refs(value: Any, known_ids: set[str]) -> set[str]:
+    refs: set[str] = set()
+    if isinstance(value, str):
+        if value in known_ids:
+            refs.add(value)
+    elif isinstance(value, list):
+        for item in value:
+            refs.update(collect_known_refs(item, known_ids))
+    elif isinstance(value, dict):
+        for item in value.values():
+            refs.update(collect_known_refs(item, known_ids))
+    return refs
+
+
 def indexed_atom_ids(index: dict[str, Any]) -> set[str]:
     return {
         identifier
@@ -198,6 +219,21 @@ def quote_refs_by_atom(quotes: list[dict[str, Any]], atom_ids: set[str]) -> dict
             continue
         for atom_id in collect_atom_refs(data, atom_ids):
             refs.setdefault(atom_id, set()).add(quote_id)
+    return refs
+
+
+def atom_declared_quote_refs_by_atom(atoms: list[dict[str, Any]], quote_ids: set[str]) -> dict[str, set[str]]:
+    refs: dict[str, set[str]] = {}
+    for atom in atoms:
+        atom_id = atom.get("id")
+        if not isinstance(atom_id, str):
+            continue
+        data = atom.get("data", {})
+        if not isinstance(data, dict):
+            continue
+        for field in ATOM_QUOTE_REF_FIELDS:
+            for quote_id in collect_known_refs(data.get(field), quote_ids):
+                refs.setdefault(atom_id, set()).add(quote_id)
     return refs
 
 
@@ -445,6 +481,10 @@ def iter_atom_source_edges(
     atom_ids = indexed_atom_ids(index)
     master_atom_ids = document_master_atom_ids(atom_ids)
     quote_refs = quote_refs_by_atom(quotes, atom_ids)
+    quote_ids = {quote.get("id") for quote in quotes if isinstance(quote.get("id"), str)}
+    for atom_id, quote_ids_for_atom in atom_declared_quote_refs_by_atom(atoms, quote_ids).items():
+        if atom_id in atom_ids:
+            quote_refs.setdefault(atom_id, set()).update(quote_ids_for_atom)
     cited_atom_ids = set(quote_refs)
     quotes_by_id = {quote.get("id"): quote for quote in quotes if isinstance(quote.get("id"), str)}
 
