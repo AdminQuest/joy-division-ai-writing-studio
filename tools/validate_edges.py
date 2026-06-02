@@ -129,6 +129,8 @@ def indexed_graph_kind(identifier: str, record: Any) -> Optional[str]:
     raw_kind = record.get("kind")
     if not isinstance(raw_kind, str):
         return None
+    if identifier.startswith("PERS-"):
+        return "legacy_person"
     if raw_kind == "chronology":
         if identifier.startswith("EVENT-"):
             return "event"
