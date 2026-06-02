@@ -4,7 +4,8 @@
 C1 lot 2A generates all stable and currently validatable same_as edges from the
 canonical identifier index. C1 lot 2B-1 adds deterministic quote -> person
 attributed_to edges. C1 lot 2B-2 adds deterministic quote -> source documented_by
-edges. Atom/source, places, and interpretive relations remain out of scope.
+edges. C1 lot 3A adds a reduced set of deterministic atom -> source
+documented_by edges when the atom brings new graph connectivity.
 """
 from __future__ import annotations
 
@@ -18,7 +19,11 @@ from typing import Any, Optional
 ROOT = Path(__file__).resolve().parent.parent
 INDEX_PATH = ROOT / "exports" / "generated" / "index_by_id.json"
 ATTRIBUTION_PATH = ROOT / "exports" / "generated" / "attribution_edges.json"
+ATOMS_PATH = ROOT / "exports" / "generated" / "atoms.json"
+QUOTES_PATH = ROOT / "exports" / "generated" / "quotes.json"
 EDGES_PATH = ROOT / "exports" / "generated" / "edges.json"
+CHAPTERS_PATH = ROOT / "chapters"
+ATOM_REF_PATTERN = re.compile(r"(?<![A-Z0-9_-])S\d+(?:-A\d+|-\d{3}|-PART-[A-Z0-9_-]+)(?![A-Z0-9_-])")
 
 ALLOWED_SAME_AS = {
     ("legacy_person", "person"),
@@ -29,6 +34,63 @@ ALLOWED_SAME_AS = {
     ("legacy_concert", "concert"),
 }
 
+CONCEPTUAL_SIGNAL_FIELDS = {
+    "concepts",
+    "concepts_derives",
+    "motifs",
+    "mythes",
+    "myths",
+    "related_concepts",
+    "related_motifs",
+    "related_myths",
+}
+
+CITATION_SIGNAL_FIELDS = {
+    "citation",
+    "citation_directe",
+    "citation_courte",
+    "citation_originale",
+    "passage",
+    "passage_atomise",
+    "texte",
+    "liens_citations",
+    "related_quotes",
+    "citation_ids",
+    "quotes",
+}
+
+FORMAL_SIGNAL_FIELDS = {
+    "relations",
+    "related_atoms",
+    "atomes_lies",
+    "liens_interchapitres",
+    "related_sources",
+}
+
+ENTITY_SIGNAL_FIELDS = {
+    "related_people",
+    "associated_people",
+    "personnes",
+    "personne",
+    "locuteurs",
+    "related_places",
+    "lieux",
+    "lieu",
+    "location",
+    "related_events",
+    "evenements",
+    "events",
+    "related_songs",
+    "song_id",
+    "canonical_song",
+    "related_organizations",
+    "related_organisations",
+    "organisations",
+    "orgs",
+    "studio",
+    "label",
+}
+
 
 def load_index() -> dict[str, Any]:
     return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
@@ -36,6 +98,14 @@ def load_index() -> dict[str, Any]:
 
 def load_attribution_edges() -> dict[str, Any]:
     return json.loads(ATTRIBUTION_PATH.read_text(encoding="utf-8"))
+
+
+def load_atoms() -> list[dict[str, Any]]:
+    return json.loads(ATOMS_PATH.read_text(encoding="utf-8"))
+
+
+def load_quotes() -> list[dict[str, Any]]:
+    return json.loads(QUOTES_PATH.read_text(encoding="utf-8"))
 
 
 def graph_kind(identifier: str, index: dict[str, Any]) -> Optional[str]:
@@ -51,6 +121,79 @@ def graph_kind(identifier: str, index: dict[str, Any]) -> Optional[str]:
         if identifier.startswith(("CHR-", "CHRON-")):
             return "legacy_chronology"
     return raw_kind if isinstance(raw_kind, str) else None
+
+
+def non_empty(value: Any) -> bool:
+    if value is None or value is False:
+        return False
+    if isinstance(value, str):
+        return bool(value.strip()) and value.strip().lower() not in {"aucune", "none", "null"}
+    if isinstance(value, (list, dict)):
+        return bool(value)
+    return True
+
+
+def has_any_field(data: dict[str, Any], fields: set[str]) -> bool:
+    return any(non_empty(data.get(field)) for field in fields)
+
+
+def collect_atom_refs(value: Any, atom_ids: set[str]) -> set[str]:
+    refs: set[str] = set()
+    if isinstance(value, str):
+        if value in atom_ids:
+            refs.add(value)
+        for match in ATOM_REF_PATTERN.finditer(value):
+            ref = match.group(0)
+            if ref in atom_ids:
+                refs.add(ref)
+    elif isinstance(value, list):
+        for item in value:
+            refs.update(collect_atom_refs(item, atom_ids))
+    elif isinstance(value, dict):
+        for item in value.values():
+            refs.update(collect_atom_refs(item, atom_ids))
+    return refs
+
+
+def document_master_atom_ids(atom_ids: set[str]) -> set[str]:
+    refs: set[str] = set()
+    for path in sorted(CHAPTERS_PATH.glob("*/document_maitre.md")):
+        text = path.read_text(encoding="utf-8")
+        for match in ATOM_REF_PATTERN.finditer(text):
+            ref = match.group(0)
+            if ref in atom_ids:
+                refs.add(ref)
+    return refs
+
+
+def quote_refs_by_atom(quotes: list[dict[str, Any]], atom_ids: set[str]) -> dict[str, set[str]]:
+    refs: dict[str, set[str]] = {}
+    for quote in quotes:
+        quote_id = quote.get("id")
+        if not isinstance(quote_id, str):
+            continue
+        data = quote.get("data", {})
+        if not isinstance(data, dict):
+            continue
+        for atom_id in collect_atom_refs(data, atom_ids):
+            refs.setdefault(atom_id, set()).add(quote_id)
+    return refs
+
+
+def relational_score(atom: dict[str, Any], master_atom_ids: set[str], cited_atom_ids: set[str]) -> int:
+    atom_id = atom.get("id")
+    data = atom.get("data", {})
+    if not isinstance(atom_id, str) or not isinstance(data, dict):
+        return 0
+
+    signals = [
+        atom_id in master_atom_ids,
+        has_any_field(data, CONCEPTUAL_SIGNAL_FIELDS),
+        atom_id in cited_atom_ids or has_any_field(data, CITATION_SIGNAL_FIELDS),
+        has_any_field(data, FORMAL_SIGNAL_FIELDS),
+        has_any_field(data, ENTITY_SIGNAL_FIELDS),
+    ]
+    return sum(1 for signal in signals if signal)
 
 
 def iter_same_as_edges(index: dict[str, Any]) -> tuple[list[dict[str, Any]], Counter[str]]:
@@ -269,6 +412,92 @@ def iter_quote_source_edges(index: dict[str, Any]) -> tuple[list[dict[str, Any]]
     return edges, exclusions
 
 
+def iter_atom_source_edges(
+    index: dict[str, Any],
+    atoms: list[dict[str, Any]],
+    quotes: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], Counter[str]]:
+    edges: list[dict[str, Any]] = []
+    exclusions: Counter[str] = Counter()
+    seen: set[tuple[str, str, str]] = set()
+
+    atom_ids = {atom.get("id") for atom in atoms if isinstance(atom.get("id"), str)}
+    master_atom_ids = document_master_atom_ids(atom_ids)
+    quote_refs = quote_refs_by_atom(quotes, atom_ids)
+    cited_atom_ids = set(quote_refs)
+    quotes_by_id = {quote.get("id"): quote for quote in quotes if isinstance(quote.get("id"), str)}
+
+    for atom in atoms:
+        if not isinstance(atom, dict):
+            exclusions["invalid_atom_record"] += 1
+            continue
+        atom_id = atom.get("id")
+        if not isinstance(atom_id, str):
+            exclusions["invalid_atom_id"] += 1
+            continue
+
+        data = atom.get("data", {})
+        if not isinstance(data, dict):
+            exclusions["invalid_atom_data"] += 1
+            continue
+
+        source_id = data.get("source_id")
+        if not isinstance(source_id, str) or source_id not in index:
+            exclusions["missing_source_endpoint"] += 1
+            continue
+        if graph_kind(source_id, index) != "source":
+            exclusions[f"unsupported_source_kind_{graph_kind(source_id, index)}"] += 1
+            continue
+        if graph_kind(atom_id, index) != "atom":
+            exclusions[f"unsupported_atom_kind_{graph_kind(atom_id, index)}"] += 1
+            continue
+
+        score = relational_score(atom, master_atom_ids, cited_atom_ids)
+        if score < 3:
+            exclusions[f"score_{score}"] += 1
+            continue
+
+        already_documented_by_quote = False
+        for quote_id in quote_refs.get(atom_id, set()):
+            quote = quotes_by_id.get(quote_id, {})
+            quote_data = quote.get("data", {}) if isinstance(quote, dict) else {}
+            quote_source_id = quote_data.get("source_id") if isinstance(quote_data, dict) else None
+            if quote_source_id == source_id and graph_kind(source_id, index) == "source":
+                already_documented_by_quote = True
+                break
+        if already_documented_by_quote:
+            exclusions["already_documented_by_quote_source"] += 1
+            continue
+
+        signature = (atom_id, "documented_by", source_id)
+        if signature in seen:
+            exclusions["duplicate_signature"] += 1
+            continue
+        seen.add(signature)
+
+        edges.append(
+            {
+                "source_kind": "atom",
+                "source_id": atom_id,
+                "target_kind": "source",
+                "target_id": source_id,
+                "relation_type": "documented_by",
+                "evidence_refs": [atom_id],
+                "confidence": "high",
+                "derived_from": "exports/generated/atoms.json",
+            }
+        )
+
+    edges.sort(
+        key=lambda edge: (
+            edge["source_id"],
+            edge["target_id"],
+            edge["derived_from"],
+        )
+    )
+    return edges, exclusions
+
+
 def write_edges(edges: list[dict[str, Any]]) -> None:
     ordered_edges = []
     for i, edge in enumerate(edges, start=1):
@@ -291,6 +520,9 @@ def write_edges(edges: list[dict[str, Any]]) -> None:
         "generated_from": [
             "exports/generated/index_by_id.json",
             "exports/generated/attribution_edges.json",
+            "exports/generated/atoms.json",
+            "exports/generated/quotes.json",
+            "chapters/*/document_maitre.md",
         ],
         "edges": ordered_edges,
     }
@@ -304,10 +536,13 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     index = load_index()
     attribution = load_attribution_edges()
+    atoms = load_atoms()
+    quotes = load_quotes()
     same_as_edges, same_as_exclusions = iter_same_as_edges(index)
     attributed_to_edges, attributed_to_exclusions = iter_attributed_to_edges(index, attribution)
     quote_source_edges, quote_source_exclusions = iter_quote_source_edges(index)
-    edges = [*same_as_edges, *attributed_to_edges, *quote_source_edges]
+    atom_source_edges, atom_source_exclusions = iter_atom_source_edges(index, atoms, quotes)
+    edges = [*same_as_edges, *attributed_to_edges, *quote_source_edges, *atom_source_edges]
     write_edges(edges)
 
     if not args.quiet:
@@ -321,6 +556,8 @@ def main(argv: Optional[list[str]] = None) -> int:
             print(f"excluded.attributed_to.{key}={count}")
         for key, count in sorted(quote_source_exclusions.items()):
             print(f"excluded.documented_by.{key}={count}")
+        for key, count in sorted(atom_source_exclusions.items()):
+            print(f"excluded.atom_documented_by.{key}={count}")
     return 0
 
 
