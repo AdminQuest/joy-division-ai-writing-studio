@@ -11,7 +11,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = ROOT / "schemas" / "edge.schema.json"
@@ -82,6 +82,7 @@ RELATION_MATRIX = {
     },
     "located_at": {
         ("atom", "place"),
+        ("atom", "unknown"),
         ("event", "place"),
         ("concert", "place"),
         ("session", "place"),
@@ -122,7 +123,51 @@ def id_matches_kind(kind: str, identifier: str) -> bool:
     return True if pattern is None else bool(pattern.match(identifier))
 
 
-def validate_edge_semantics(edge: dict[str, Any], index_ids: set[str]) -> list[str]:
+def indexed_graph_kind(identifier: str, record: Any) -> Optional[str]:
+    if not isinstance(record, dict):
+        return None
+    raw_kind = record.get("kind")
+    if not isinstance(raw_kind, str):
+        return None
+    if raw_kind == "chronology":
+        if identifier.startswith("EVENT-"):
+            return "event"
+        if identifier.startswith(("CHR-", "CHRON-")):
+            return "legacy_chronology"
+    return raw_kind
+
+
+def validate_endpoint(
+    edge_label: str,
+    role: str,
+    kind: Any,
+    identifier: Any,
+    index: dict[str, Any],
+) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(kind, str) or not isinstance(identifier, str):
+        if not isinstance(identifier, str):
+            errors.append(f"{edge_label}: {role}_id must be a string")
+        return errors
+
+    if not id_matches_kind(kind, identifier):
+        errors.append(f"{edge_label}: {role}_id {identifier!r} does not match kind {kind!r}")
+
+    record = index.get(identifier)
+    if record is None:
+        errors.append(f"{edge_label}: {role}_id {identifier!r} is absent from index_by_id.json")
+        return errors
+
+    index_kind = indexed_graph_kind(identifier, record)
+    if index_kind != kind:
+        errors.append(
+            f"{edge_label}: {role}_kind {kind!r} does not match index kind "
+            f"{index_kind!r} for {identifier!r}"
+        )
+    return errors
+
+
+def validate_edge_semantics(edge: dict[str, Any], index: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     edge_id = edge.get("edge_id", "<unknown>")
     edge_label = edge_id if isinstance(edge_id, str) else "<invalid edge_id>"
@@ -160,14 +205,7 @@ def validate_edge_semantics(edge: dict[str, Any], index_ids: set[str]) -> list[s
         ("source", source_kind, source_id),
         ("target", target_kind, target_id),
     ):
-        if not isinstance(kind, str) or not isinstance(identifier, str):
-            if not isinstance(identifier, str):
-                errors.append(f"{edge_label}: {role}_id must be a string")
-            continue
-        if not id_matches_kind(kind, identifier):
-            errors.append(f"{edge_label}: {role}_id {identifier!r} does not match kind {kind!r}")
-        if identifier not in index_ids:
-            errors.append(f"{edge_label}: {role}_id {identifier!r} is absent from index_by_id.json")
+        errors.extend(validate_endpoint(edge_label, role, kind, identifier, index))
 
     if isinstance(relation_type, str) and isinstance(source_kind, str) and isinstance(target_kind, str):
         allowed_pairs = RELATION_MATRIX.get(relation_type, set())
@@ -186,7 +224,7 @@ def validate_edge_semantics(edge: dict[str, Any], index_ids: set[str]) -> list[s
             if not isinstance(ref, str):
                 errors.append(f"{edge_label}: evidence_ref must be a string")
                 continue
-            if ref not in index_ids:
+            if ref not in index:
                 errors.append(f"{edge_label}: evidence_ref {ref!r} is absent from index_by_id.json")
 
     derived_from = edge.get("derived_from")
@@ -195,7 +233,7 @@ def validate_edge_semantics(edge: dict[str, Any], index_ids: set[str]) -> list[s
     return errors
 
 
-def validate_edges_semantics(bundle: Any, index_ids: set[str]) -> list[str]:
+def validate_edges_semantics(bundle: Any, index: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     edge_ids: set[str] = set()
     normalized_edges: set[tuple[str, str, str]] = set()
@@ -221,7 +259,7 @@ def validate_edges_semantics(bundle: Any, index_ids: set[str]) -> list[str]:
                 errors.append(f"{label}: duplicate normalized edge {signature}")
             normalized_edges.add(signature)
 
-        errors.extend(validate_edge_semantics(edge, index_ids))
+        errors.extend(validate_edge_semantics(edge, index))
     return errors
 
 
@@ -229,13 +267,14 @@ def main() -> int:
     schema = load_json(SCHEMA_PATH)
     bundle = load_json(EDGES_PATH)
     index = load_json(INDEX_PATH)
-    index_ids = set(index)
+    if not isinstance(index, dict):
+        raise SystemExit(f"{INDEX_PATH.relative_to(ROOT)} must contain a JSON object")
 
     errors = []
     errors.extend(validate_schema(schema, bundle))
 
     edges = bundle.get("edges", []) if isinstance(bundle, dict) else []
-    errors.extend(validate_edges_semantics(bundle, index_ids))
+    errors.extend(validate_edges_semantics(bundle, index))
 
     print("Validation C1 relation edges")
     print("-" * 32)
