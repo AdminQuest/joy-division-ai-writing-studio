@@ -68,3 +68,4 @@ jobs:
           python tools/validate_quotes.py
           python tools/validate_people.py --check-drift
           python tools/validate_attribution.py --check-drift
+          python3 tools/validate_edges.py
