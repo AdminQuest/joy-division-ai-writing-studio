@@ -4,11 +4,12 @@
 Runs, in order:
 
   1. ``build_registers.py --strict``   atoms/quotes/... -> registers/ + exports/generated/
-  2. ``build_master_docs.py``          exports -> chapters/XX/document_maitre.md,
+  2. ``build_edges.py``                index_by_id -> exports/generated/edges.json
+  3. ``build_master_docs.py``          exports -> chapters/XX/document_maitre.md,
                                         chapters/master_docs.json,
                                         exports/generated/master_docs_index.json
-  3. ``audit_repo.py``                 exports -> exports/generated/audit_repo.{json,md,csv}
-  4. ``inject_chapter_source_notes.py``  ONLY with --with-source-notes (OFF by
+  4. ``audit_repo.py``                 exports -> exports/generated/audit_repo.{json,md,csv}
+  5. ``inject_chapter_source_notes.py``  ONLY with --with-source-notes (OFF by
                                         default, to reproduce the committed legacy
                                         layout: the injected section is out of scope
                                         for the public atomisation pass).
@@ -58,6 +59,7 @@ def run(
         # partie du contrat de reproductibilité vérifié par la sentinelle.
         [sys.executable, "tools/build_attribution_edges.py"],
         [sys.executable, "tools/build_registers.py"] + (["--strict"] if strict else []),
+        [sys.executable, "tools/build_edges.py"] + (["--quiet"] if quiet else []),
         [sys.executable, "tools/build_master_docs.py"],
         # Regenerate the audit artifacts too, so audit_repo.{json,md,csv} can never
         # drift from the committed atoms (no --fail-on-error: build_all *produces*
