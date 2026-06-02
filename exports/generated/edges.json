@@ -43518,6 +43518,1826 @@
       ],
       "confidence": "high",
       "derived_from": "sources/savage_englands_dreaming/registres_structurants_s89.md"
+    },
+    {
+      "edge_id": "EDGE-003348",
+      "source_kind": "atom",
+      "source_id": "S09-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S09-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S09-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
+    },
+    {
+      "edge_id": "EDGE-003349",
+      "source_kind": "atom",
+      "source_id": "S09-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S09-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S09-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
+    },
+    {
+      "edge_id": "EDGE-003350",
+      "source_kind": "atom",
+      "source_id": "S09-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S09-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S09-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
+    },
+    {
+      "edge_id": "EDGE-003351",
+      "source_kind": "atom",
+      "source_id": "S13-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003352",
+      "source_kind": "atom",
+      "source_id": "S13-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003353",
+      "source_kind": "atom",
+      "source_id": "S13-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003354",
+      "source_kind": "atom",
+      "source_id": "S13-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003355",
+      "source_kind": "atom",
+      "source_id": "S13-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003356",
+      "source_kind": "atom",
+      "source_id": "S13-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003357",
+      "source_kind": "atom",
+      "source_id": "S13-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003358",
+      "source_kind": "atom",
+      "source_id": "S13-A007",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003359",
+      "source_kind": "atom",
+      "source_id": "S13-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003360",
+      "source_kind": "atom",
+      "source_id": "S13-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S13-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S13-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
+    },
+    {
+      "edge_id": "EDGE-003361",
+      "source_kind": "atom",
+      "source_id": "S14-A001",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003362",
+      "source_kind": "atom",
+      "source_id": "S14-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003363",
+      "source_kind": "atom",
+      "source_id": "S14-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003364",
+      "source_kind": "atom",
+      "source_id": "S14-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003365",
+      "source_kind": "atom",
+      "source_id": "S14-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003366",
+      "source_kind": "atom",
+      "source_id": "S14-A007",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003367",
+      "source_kind": "atom",
+      "source_id": "S14-A008",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S14-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S14-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
+    },
+    {
+      "edge_id": "EDGE-003368",
+      "source_kind": "atom",
+      "source_id": "S15-A007",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003369",
+      "source_kind": "atom",
+      "source_id": "S15-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003370",
+      "source_kind": "atom",
+      "source_id": "S15-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003371",
+      "source_kind": "atom",
+      "source_id": "S15-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003372",
+      "source_kind": "atom",
+      "source_id": "S15-A011",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003373",
+      "source_kind": "atom",
+      "source_id": "S15-A012",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003374",
+      "source_kind": "atom",
+      "source_id": "S15-A012",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003375",
+      "source_kind": "atom",
+      "source_id": "S15-A014",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S15-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S15-A014"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+    },
+    {
+      "edge_id": "EDGE-003376",
+      "source_kind": "atom",
+      "source_id": "S21-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-graphisme_pauvre_fanzine",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003377",
+      "source_kind": "atom",
+      "source_id": "S21-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-scene_au_ras_du_sol",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003378",
+      "source_kind": "atom",
+      "source_id": "S21-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-scene_au_ras_du_sol",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003379",
+      "source_kind": "atom",
+      "source_id": "S21-A007",
+      "target_kind": "motif",
+      "target_id": "MOTIF-rire_oppositionnel",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003380",
+      "source_kind": "atom",
+      "source_id": "S21-A008",
+      "target_kind": "motif",
+      "target_id": "MOTIF-rire_oppositionnel",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003381",
+      "source_kind": "atom",
+      "source_id": "S21-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-archive_de_contre_culture",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S21-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003382",
+      "source_kind": "atom",
+      "source_id": "S22-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S22-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003383",
+      "source_kind": "atom",
+      "source_id": "S22-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S22-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003384",
+      "source_kind": "atom",
+      "source_id": "S22-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S22-003",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003385",
+      "source_kind": "atom",
+      "source_id": "S22-A008",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S22-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003386",
+      "source_kind": "atom",
+      "source_id": "S22-A011",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S22-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S22-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
+    },
+    {
+      "edge_id": "EDGE-003387",
+      "source_kind": "atom",
+      "source_id": "S26-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S26-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003388",
+      "source_kind": "atom",
+      "source_id": "S26-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S26-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003389",
+      "source_kind": "atom",
+      "source_id": "S26-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S26-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003390",
+      "source_kind": "atom",
+      "source_id": "S26-A011",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S26-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003391",
+      "source_kind": "atom",
+      "source_id": "S26-A013",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S26-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A013"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003392",
+      "source_kind": "atom",
+      "source_id": "S26-A015",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S26-007",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S26-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
+    },
+    {
+      "edge_id": "EDGE-003393",
+      "source_kind": "atom",
+      "source_id": "S27-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S27-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S27-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
+    },
+    {
+      "edge_id": "EDGE-003394",
+      "source_kind": "atom",
+      "source_id": "S34-A001",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S34-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003395",
+      "source_kind": "atom",
+      "source_id": "S34-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S34-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003396",
+      "source_kind": "atom",
+      "source_id": "S34-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S34-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003397",
+      "source_kind": "atom",
+      "source_id": "S34-A011",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S34-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003398",
+      "source_kind": "atom",
+      "source_id": "S34-A012",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S34-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S34-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
+    },
+    {
+      "edge_id": "EDGE-003399",
+      "source_kind": "atom",
+      "source_id": "S35-A036",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-015",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A036"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003400",
+      "source_kind": "atom",
+      "source_id": "S35-A039",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-012",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A039"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003401",
+      "source_kind": "atom",
+      "source_id": "S35-A040",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-014",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A040"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003402",
+      "source_kind": "atom",
+      "source_id": "S35-A041",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-012",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A041"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003403",
+      "source_kind": "atom",
+      "source_id": "S35-A042",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-011",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A042"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003404",
+      "source_kind": "atom",
+      "source_id": "S35-A043",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-013",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A043"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003405",
+      "source_kind": "atom",
+      "source_id": "S35-A047",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-015",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A047"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
+    },
+    {
+      "edge_id": "EDGE-003406",
+      "source_kind": "atom",
+      "source_id": "S35-A049",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-016",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A049"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003407",
+      "source_kind": "atom",
+      "source_id": "S35-A057",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-017",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A057"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003408",
+      "source_kind": "atom",
+      "source_id": "S35-A058",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-017",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A058"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003409",
+      "source_kind": "atom",
+      "source_id": "S35-A059",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-018",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A059"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003410",
+      "source_kind": "atom",
+      "source_id": "S35-A060",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-019",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A060"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003411",
+      "source_kind": "atom",
+      "source_id": "S35-A061",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-018",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A061"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003412",
+      "source_kind": "atom",
+      "source_id": "S35-A063",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-020",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A063"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003413",
+      "source_kind": "atom",
+      "source_id": "S35-A064",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-021",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A064"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003414",
+      "source_kind": "atom",
+      "source_id": "S35-A065",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-021",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A065"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
+    },
+    {
+      "edge_id": "EDGE-003415",
+      "source_kind": "atom",
+      "source_id": "S35-A066",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-022",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A066"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003416",
+      "source_kind": "atom",
+      "source_id": "S35-A067",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-022",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A067"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003417",
+      "source_kind": "atom",
+      "source_id": "S35-A069",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-023",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A069"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003418",
+      "source_kind": "atom",
+      "source_id": "S35-A071",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-024",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A071"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003419",
+      "source_kind": "atom",
+      "source_id": "S35-A072",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-025",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A072"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003420",
+      "source_kind": "atom",
+      "source_id": "S35-A073",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-026",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A073"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003421",
+      "source_kind": "atom",
+      "source_id": "S35-A075",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-027",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A075"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003422",
+      "source_kind": "atom",
+      "source_id": "S35-A076",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-028",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A076"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003423",
+      "source_kind": "atom",
+      "source_id": "S35-A078",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-028",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A078"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003424",
+      "source_kind": "atom",
+      "source_id": "S35-A079",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-029",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A079"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003425",
+      "source_kind": "atom",
+      "source_id": "S35-A081",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-029",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A081"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003426",
+      "source_kind": "atom",
+      "source_id": "S35-A082",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-028",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A082"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003427",
+      "source_kind": "atom",
+      "source_id": "S35-A082",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-030",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A082"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003428",
+      "source_kind": "atom",
+      "source_id": "S35-A084",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-030",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A084"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003429",
+      "source_kind": "atom",
+      "source_id": "S35-A085",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S35-028",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S35-A085"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
+    },
+    {
+      "edge_id": "EDGE-003430",
+      "source_kind": "atom",
+      "source_id": "S45-A024",
+      "target_kind": "motif",
+      "target_id": "MOTIF-011",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S45-A024"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s45_curtis_motifs_1976_1977.md"
+    },
+    {
+      "edge_id": "EDGE-003431",
+      "source_kind": "atom",
+      "source_id": "S45-A025",
+      "target_kind": "motif",
+      "target_id": "MOTIF-012",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S45-A025"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s45_curtis_motifs_1976_1977.md"
+    },
+    {
+      "edge_id": "EDGE-003432",
+      "source_kind": "atom",
+      "source_id": "S45-A030",
+      "target_kind": "motif",
+      "target_id": "MOTIF-012",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S45-A030"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/s45_curtis_motifs_1976_1977.md"
+    },
+    {
+      "edge_id": "EDGE-003433",
+      "source_kind": "atom",
+      "source_id": "S49-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-poids_de_soi_meme",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003434",
+      "source_kind": "atom",
+      "source_id": "S49-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-danse_existentielle",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003435",
+      "source_kind": "atom",
+      "source_id": "S49-A007",
+      "target_kind": "motif",
+      "target_id": "MOTIF-danse_existentielle",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003436",
+      "source_kind": "atom",
+      "source_id": "S49-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-danse_existentielle",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003437",
+      "source_kind": "atom",
+      "source_id": "S49-A017",
+      "target_kind": "motif",
+      "target_id": "MOTIF-poids_de_soi_meme",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S49-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s49_farci_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003438",
+      "source_kind": "atom",
+      "source_id": "S50-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-reimagination_imaginaire",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003439",
+      "source_kind": "atom",
+      "source_id": "S50-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-reception_fan_normative",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003440",
+      "source_kind": "atom",
+      "source_id": "S50-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-reimagination_imaginaire",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003441",
+      "source_kind": "atom",
+      "source_id": "S50-A015",
+      "target_kind": "motif",
+      "target_id": "MOTIF-normalisation_de_licone",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003442",
+      "source_kind": "atom",
+      "source_id": "S50-A017",
+      "target_kind": "motif",
+      "target_id": "MOTIF-normalisation_de_licone",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003443",
+      "source_kind": "atom",
+      "source_id": "S50-A018",
+      "target_kind": "motif",
+      "target_id": "MOTIF-reception_fan_normative",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A018"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003444",
+      "source_kind": "atom",
+      "source_id": "S50-A019",
+      "target_kind": "motif",
+      "target_id": "MOTIF-reimagination_imaginaire",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S50-A019"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003445",
+      "source_kind": "atom",
+      "source_id": "S51-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-corps_spectral_lofi",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003446",
+      "source_kind": "atom",
+      "source_id": "S51-A010",
+      "target_kind": "motif",
+      "target_id": "MOTIF-fade_away_survivance",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A010"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003447",
+      "source_kind": "atom",
+      "source_id": "S51-A015",
+      "target_kind": "motif",
+      "target_id": "MOTIF-fade_away_survivance",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S51-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s51_malvezzi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003448",
+      "source_kind": "atom",
+      "source_id": "S52-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-infrangimento_vetro",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003449",
+      "source_kind": "atom",
+      "source_id": "S52-A014",
+      "target_kind": "motif",
+      "target_id": "MOTIF-perte_de_controle_non_clinique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S52-A014"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s52_rabbito_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003450",
+      "source_kind": "atom",
+      "source_id": "S53-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-bain_emotionnel_symbolique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003451",
+      "source_kind": "atom",
+      "source_id": "S53-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-grisaille_creatrice",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003452",
+      "source_kind": "atom",
+      "source_id": "S53-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-grisaille_creatrice",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003453",
+      "source_kind": "atom",
+      "source_id": "S53-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-bain_emotionnel_symbolique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003454",
+      "source_kind": "atom",
+      "source_id": "S53-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-pulsar_totem_pop",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003455",
+      "source_kind": "atom",
+      "source_id": "S53-A015",
+      "target_kind": "motif",
+      "target_id": "MOTIF-curtis_totem_culturel",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S53-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s53_la_rocca_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003456",
+      "source_kind": "atom",
+      "source_id": "S54-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-repetition_controle",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S54-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s54_gnocchi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003457",
+      "source_kind": "atom",
+      "source_id": "S54-A008",
+      "target_kind": "motif",
+      "target_id": "MOTIF-violence_mediatisee",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S54-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s54_gnocchi_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003458",
+      "source_kind": "atom",
+      "source_id": "S55-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-joydivisionien_comparatif",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003459",
+      "source_kind": "atom",
+      "source_id": "S55-A005",
+      "target_kind": "motif",
+      "target_id": "MOTIF-guide_a_come",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003460",
+      "source_kind": "atom",
+      "source_id": "S55-A011",
+      "target_kind": "motif",
+      "target_id": "MOTIF-joydivisionien_comparatif",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003461",
+      "source_kind": "atom",
+      "source_id": "S55-A012",
+      "target_kind": "motif",
+      "target_id": "MOTIF-guide_a_come",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S55-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s55_romania_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003462",
+      "source_kind": "atom",
+      "source_id": "S56-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-titre_comme_traduction_ideologique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003463",
+      "source_kind": "atom",
+      "source_id": "S56-A003",
+      "target_kind": "motif",
+      "target_id": "MOTIF-titre_comme_traduction_ideologique",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003464",
+      "source_kind": "atom",
+      "source_id": "S56-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-lumiere_contre_noirceur",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003465",
+      "source_kind": "atom",
+      "source_id": "S56-A015",
+      "target_kind": "motif",
+      "target_id": "MOTIF-duel_pronominal",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003466",
+      "source_kind": "atom",
+      "source_id": "S56-A016",
+      "target_kind": "motif",
+      "target_id": "MOTIF-duel_pronominal",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A016"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003467",
+      "source_kind": "atom",
+      "source_id": "S56-A017",
+      "target_kind": "motif",
+      "target_id": "MOTIF-duel_pronominal",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S56-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s56_barone_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003468",
+      "source_kind": "atom",
+      "source_id": "S67-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S67-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S67-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s67_lonely_place_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003469",
+      "source_kind": "atom",
+      "source_id": "S67-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S67-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S67-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s67_lonely_place_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003470",
+      "source_kind": "atom",
+      "source_id": "S75-A008",
+      "target_kind": "motif",
+      "target_id": "MOTIF-004",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003471",
+      "source_kind": "atom",
+      "source_id": "S75-A013",
+      "target_kind": "motif",
+      "target_id": "MOTIF-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A013"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003472",
+      "source_kind": "atom",
+      "source_id": "S75-A015",
+      "target_kind": "motif",
+      "target_id": "MOTIF-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A015"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003473",
+      "source_kind": "atom",
+      "source_id": "S75-A016",
+      "target_kind": "motif",
+      "target_id": "MOTIF-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A016"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003474",
+      "source_kind": "atom",
+      "source_id": "S75-A017",
+      "target_kind": "motif",
+      "target_id": "MOTIF-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003475",
+      "source_kind": "atom",
+      "source_id": "S75-A017",
+      "target_kind": "motif",
+      "target_id": "MOTIF-006",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A017"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003476",
+      "source_kind": "atom",
+      "source_id": "S75-A018",
+      "target_kind": "motif",
+      "target_id": "MOTIF-005",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S75-A018"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/motifs/master_motifs.md"
+    },
+    {
+      "edge_id": "EDGE-003477",
+      "source_kind": "atom",
+      "source_id": "S77-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-cut_and_paste_urgence",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003478",
+      "source_kind": "atom",
+      "source_id": "S77-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-do_it_yourself_print",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003479",
+      "source_kind": "atom",
+      "source_id": "S77-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-cut_and_paste_urgence",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003480",
+      "source_kind": "atom",
+      "source_id": "S77-A006",
+      "target_kind": "motif",
+      "target_id": "MOTIF-do_it_yourself_print",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003481",
+      "source_kind": "atom",
+      "source_id": "S77-A009",
+      "target_kind": "motif",
+      "target_id": "MOTIF-jeunesse_crise_media",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A009"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003482",
+      "source_kind": "atom",
+      "source_id": "S77-A012",
+      "target_kind": "motif",
+      "target_id": "MOTIF-city_fun_pont_s21_s22_s77",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S77-A012"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s77_worley_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003483",
+      "source_kind": "atom",
+      "source_id": "S78-A001",
+      "target_kind": "motif",
+      "target_id": "MOTIF-son_de_manchester",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003484",
+      "source_kind": "atom",
+      "source_id": "S78-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-manchester_cosmic",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003485",
+      "source_kind": "atom",
+      "source_id": "S78-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-son_de_manchester",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003486",
+      "source_kind": "atom",
+      "source_id": "S78-A011",
+      "target_kind": "motif",
+      "target_id": "MOTIF-dark_spaces_empty_places",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A011"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003487",
+      "source_kind": "atom",
+      "source_id": "S78-A020",
+      "target_kind": "motif",
+      "target_id": "MOTIF-son_de_manchester",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S78-A020"
+      ],
+      "confidence": "high",
+      "derived_from": "registers/s78_nevarez_structuring_registers.md"
     }
   ]
 }
