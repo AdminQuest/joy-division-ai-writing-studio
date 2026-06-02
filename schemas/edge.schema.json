@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AdminQuest/joy-division-ai-writing-studio/schemas/edge.schema.json",
+  "title": "C1 edge graph seed",
+  "description": "Minimal schema for the C1 relation graph seed. Endpoints are raw graph node identifiers; identity resolution is performed by validators and must not rewrite stored endpoints.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_from",
+    "edges"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.0\\.0$"
+    },
+    "generated_from": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "edges": {
+      "type": "array",
+      "maxItems": 9,
+      "items": {
+        "$ref": "#/$defs/edge"
+      }
+    }
+  },
+  "$defs": {
+    "kind": {
+      "type": "string",
+      "enum": [
+        "atom",
+        "source",
+        "quote",
+        "legacy_person",
+        "legacy_chronology",
+        "person",
+        "place",
+        "organization",
+        "image",
+        "event",
+        "concert",
+        "session",
+        "song",
+        "concept",
+        "motif",
+        "myth",
+        "relation",
+        "chapter",
+        "metadata",
+        "unknown"
+      ]
+    },
+    "relation_type": {
+      "type": "string",
+      "enum": [
+        "same_as",
+        "attributed_to",
+        "documented_by",
+        "located_at"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "edge_id",
+        "source_kind",
+        "source_id",
+        "target_kind",
+        "target_id",
+        "relation_type",
+        "evidence_refs",
+        "confidence",
+        "derived_from"
+      ],
+      "properties": {
+        "edge_id": {
+          "type": "string",
+          "pattern": "^EDGE-[0-9]{6}$"
+        },
+        "source_kind": {
+          "$ref": "#/$defs/kind"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_kind": {
+          "$ref": "#/$defs/kind"
+        },
+        "target_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation_type": {
+          "$ref": "#/$defs/relation_type"
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "derived_from": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualifiers": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "legacy",
+            "needs_review",
+            "tolerated"
+          ]
+        }
+      }
+    }
+  }
+}
