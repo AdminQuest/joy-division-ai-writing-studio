@@ -155,14 +155,35 @@ def collect_atom_refs(value: Any, atom_ids: set[str]) -> set[str]:
     return refs
 
 
+def indexed_atom_ids(index: dict[str, Any]) -> set[str]:
+    return {
+        identifier
+        for identifier, record in index.items()
+        if isinstance(identifier, str) and graph_kind(identifier, index) == "atom"
+    }
+
+
+def text_contains_identifier(text: str, identifier: str) -> bool:
+    start = 0
+    while True:
+        index = text.find(identifier, start)
+        if index == -1:
+            return False
+        before = text[index - 1] if index > 0 else ""
+        after_index = index + len(identifier)
+        after = text[after_index] if after_index < len(text) else ""
+        if before not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-" and after not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-":
+            return True
+        start = index + len(identifier)
+
+
 def document_master_atom_ids(atom_ids: set[str]) -> set[str]:
     refs: set[str] = set()
     for path in sorted(CHAPTERS_PATH.glob("*/document_maitre.md")):
         text = path.read_text(encoding="utf-8")
-        for match in ATOM_REF_PATTERN.finditer(text):
-            ref = match.group(0)
-            if ref in atom_ids:
-                refs.add(ref)
+        for atom_id in atom_ids:
+            if text_contains_identifier(text, atom_id):
+                refs.add(atom_id)
     return refs
 
 
@@ -421,7 +442,7 @@ def iter_atom_source_edges(
     exclusions: Counter[str] = Counter()
     seen: set[tuple[str, str, str]] = set()
 
-    atom_ids = {atom.get("id") for atom in atoms if isinstance(atom.get("id"), str)}
+    atom_ids = indexed_atom_ids(index)
     master_atom_ids = document_master_atom_ids(atom_ids)
     quote_refs = quote_refs_by_atom(quotes, atom_ids)
     cited_atom_ids = set(quote_refs)
