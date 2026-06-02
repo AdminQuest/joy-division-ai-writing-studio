@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T14:28:48",
+  "generated_at": "2026-06-02T09:44:06",
   "summary": {
-    "records_total": 8433,
+    "records_total": 8437,
     "records_by_kind": {
       "unknown": 1410,
-      "source": 120,
+      "source": 124,
       "metadata": 274,
       "atom": 2770,
       "quote": 962,
@@ -44,7 +44,7 @@
     "rules": 1,
     "session": 17,
     "song": 110,
-    "source": 120,
+    "source": 124,
     "template": 340,
     "unknown": 1410
   },
@@ -585,7 +585,8 @@
       "source": 1
     },
     "S74": {
-      "atom": 61
+      "atom": 61,
+      "source": 1
     },
     "S75": {
       "metadata": 1,
@@ -599,7 +600,8 @@
       "atom": 229,
       "chronology": 130,
       "person": 160,
-      "quote": 195
+      "quote": 195,
+      "source": 1
     },
     "S77": {
       "unknown": 32,
@@ -732,10 +734,12 @@
       "metadata": 1
     },
     "S93": {
-      "atom": 11
+      "atom": 11,
+      "source": 1
     },
     "S94": {
-      "atom": 7
+      "atom": 7,
+      "source": 1
     }
   },
   "records_by_chapter": {
@@ -13892,11 +13896,12 @@
         "auteur": "Mick Middles",
         "titre": "From Joy Division to New Order",
         "annee": "1996",
-        "records": 61,
+        "records": 62,
         "atoms": 61,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "data/registre.json",
           "sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996.md",
           "sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996_part3.md",
           "sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996_part4.md",
@@ -13944,11 +13949,12 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 714,
+        "records": 715,
         "atoms": 229,
         "quotes": 195,
         "chronology": 130,
         "files": [
+          "data/registre.json",
           "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
           "registers/chronology/s76_torn_apart_chronology_part_02.md",
@@ -14352,11 +14358,12 @@
         "auteur": "James Parker",
         "titre": "Simon Reynolds, Retromania and the Atemporality of Contemporary Pop",
         "annee": "2012",
-        "records": 11,
+        "records": 12,
         "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "data/registre.json",
           "sources/s93_parker_reynolds_retromania/source_atomisation_01.md"
         ]
       },
@@ -14366,11 +14373,12 @@
         "auteur": "James Weissinger",
         "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
         "annee": "2012",
-        "records": 7,
+        "records": 8,
         "atoms": 7,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "data/registre.json",
           "sources/s94_weissinger_retromania/source_atomisation_01.md"
         ]
       }

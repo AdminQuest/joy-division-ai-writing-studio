@@ -635,7 +635,7 @@ def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
                 else:
                     seen_ids[record_id] = rel(path)
             records.append(ParsedRecord(kind=kind, id=record_id, file=rel(path), heading=heading, data=data))
-    return records, diagnostics
+    return synthesize_declared_source_records(records), diagnostics
 
 def records_by_kind(records: List[ParsedRecord], kind: str) -> List[ParsedRecord]:
     return [record for record in records if record.kind == kind]
@@ -937,7 +937,6 @@ def write_diagnostics_markdown(path: Path, payload: Dict[str, Any]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) -> None:
-    records = synthesize_declared_source_records(records)
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     atoms = records_by_kind(records, "atom")
     quotes = records_by_kind(records, "quote")
