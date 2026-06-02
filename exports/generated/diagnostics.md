@@ -1,12 +1,12 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-06-01T14:28:48`
+Généré le : `2026-06-02T09:05:51`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 8433
+- Enregistrements : 8437
 - Erreurs : 0
 - Avertissements : 28876
 - Sources déclarées dans `data/registre.json` : 97
@@ -31,7 +31,7 @@ Statut : **warning**
 - rules : 1
 - session : 17
 - song : 110
-- source : 120
+- source : 124
 - template : 340
 - unknown : 1410
 
