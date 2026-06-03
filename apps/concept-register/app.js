@@ -65,8 +65,8 @@ const VIEW_LABELS = {
     singular: 'mythe',
     plural: 'mythes',
     exportName: 'joy_division_mythes_register.csv',
-    subtitle: 'Récits, idées reçues et constructions critiques à examiner avec prudence documentaire.',
-    note: 'Les mythes sont présentés comme des objets d’analyse, pas comme des conclusions automatiques.'
+    subtitle: 'Récits, simplifications et constructions mémorielles à examiner par les sources.',
+    note: 'Un mythe documente la construction d’un récit : il aide à comprendre comment une interprétation circule, se stabilise ou doit être nuancée.'
   }
 };
 
@@ -153,7 +153,7 @@ function normalizeChapter(value) {
 
 function normalizeIdValue(value) {
   if (!value) return '';
-  if (typeof value === 'object') return T(value.id || value.atom_id || value.source_id || value.target_id);
+  if (typeof value === 'object') return T(value.id || value.atom_id || value.source_id || value.target_id || value.cible || value.target);
   return T(value).trim();
 }
 
@@ -187,11 +187,11 @@ function publicLabel(recordOrId, preferredKind = '') {
   const record = typeof recordOrId === 'string' ? loadedIndex[recordOrId] : recordOrId;
   const id = typeof recordOrId === 'string' ? recordOrId : recordId(recordOrId);
   const data = (record && (record.data || {})) || {};
-  if (preferredKind === 'concept' || preferredKind === 'motif') {
+  if (preferredKind === 'concept' || preferredKind === 'motif' || preferredKind === 'myth') {
     return T(data.nom)
       || T(data.label)
       || T(data.name)
-      || T(preferredKind === 'motif' ? data.motif : data.concept)
+      || T(preferredKind === 'myth' ? data.mythe || data.myth : (preferredKind === 'motif' ? data.motif : data.concept))
       || T(data.titre)
       || cleanHeading(record && record.heading)
       || id;
@@ -202,6 +202,7 @@ function publicLabel(recordOrId, preferredKind = '') {
     || T(data.concept)
     || T(data.motif)
     || T(data.mythe)
+    || T(data.myth)
     || T(data.titre)
     || cleanHeading(record && record.heading)
     || id;
@@ -214,7 +215,7 @@ function definitionOf(record) {
 
 function summaryOf(record) {
   const data = record && (record.data || {});
-  return T(data.resume || data.résumé || data.synthese || data.usage_repo || data.statut || data.prudence);
+  return T(data.resume || data.résumé || data.synthese || data.deconstruction || data.position || data.description || data.usage_recommande || data.usage_repo || data.prudence || data.statut);
 }
 
 function sourceLabel(id) {
@@ -289,12 +290,18 @@ function buildIndexes(edges) {
 }
 
 function directAtomFieldKeys(kind) {
-  if (kind === 'motif') return ['atomes', 'atomes_lies', 'related_atoms', 'atoms', 'atomes_associes'];
+  if (kind === 'motif' || kind === 'myth') return ['atomes', 'atomes_lies', 'related_atoms', 'atoms', 'atomes_associes'];
   return ['atomes', 'atomes_lies', 'related_atoms'];
 }
 
 function directConceptFieldKeys(kind) {
   if (kind === 'motif') return ['concepts_associes', 'concepts', 'related_concepts'];
+  if (kind === 'myth') return ['concepts_lies', 'concepts', 'related_concepts'];
+  return [];
+}
+
+function directMotifFieldKeys(kind) {
+  if (kind === 'myth') return ['motifs_lies', 'motifs', 'related_motifs'];
   return [];
 }
 
@@ -333,8 +340,13 @@ function songFieldPairs(atomData) {
 function atomFieldKeys(kind) {
   if (kind === 'concept') return ['concepts', 'concepts_derives', 'related_concepts'];
   if (kind === 'motif') return ['motifs', 'motifs_derives', 'related_motifs'];
-  if (kind === 'myth') return ['mythes', 'mythes_derives', 'related_mythes', 'myths', 'myths_derives', 'related_myths'];
+  if (kind === 'myth') return ['mythes', 'mythes_derives', 'mythes_lies', 'related_mythes', 'myths', 'myths_derives', 'myths_lies', 'related_myths'];
   return [];
+}
+
+function relationTargets(data, targetKind) {
+  return U(A(data && data.relations).map(relation => normalizeIdValue(relation))
+    .filter(id => loadedIndex[id] && loadedIndex[id].kind === targetKind));
 }
 
 function atomReferenceKeys(kind, record) {
@@ -375,7 +387,7 @@ function buildAtomReferenceIndex(atoms) {
 }
 
 function buildProfiles(payload) {
-  const { concepts, motifs, atoms, quotes, sources, edges, index } = payload;
+  const { concepts, motifs, myths, atoms, quotes, sources, edges, index } = payload;
   loadedIndex = index || {};
   const edgeIndex = buildIndexes(edges);
   const atomReferenceIndex = buildAtomReferenceIndex(atoms);
@@ -412,11 +424,7 @@ function buildProfiles(payload) {
   const semanticRecords = [];
   concepts.forEach(record => semanticRecords.push({ kind: 'concept', record }));
   motifs.forEach(record => semanticRecords.push({ kind: 'motif', record }));
-  Object.values(index || {}).forEach(record => {
-    const kind = T(record && record.kind);
-    const id = recordId(record);
-    if (kind === 'myth' && id) semanticRecords.push({ kind, record });
-  });
+  myths.forEach(record => semanticRecords.push({ kind: 'myth', record }));
 
   const seen = new Set();
   return semanticRecords.map(({ kind, record }) => {
@@ -445,10 +453,18 @@ function buildProfile(context) {
   const data = record.data || {};
   const id = recordId(record);
   const directSources = listFromFields(data, ['sources', 'source_ids', 'source_id'], normalizeSourceId);
-  const directChapters = listFromFields(data, ['chapitres', 'usage_chapitres', 'chapters'], normalizeChapter);
+  const directChapters = listFromFields(data, ['chapitres', 'usage_chapitres', 'usage_livre', 'chapters'], normalizeChapter);
   const directAtoms = listFromFields(data, directAtomFieldKeys(kind));
-  const directConcepts = listFromFields(data, directConceptFieldKeys(kind))
+  const directConcepts = U([
+    ...listFromFields(data, directConceptFieldKeys(kind)),
+    ...relationTargets(data, 'concept')
+  ])
     .filter(conceptId => loadedIndex[conceptId] && loadedIndex[conceptId].kind === 'concept');
+  const directMotifs = U([
+    ...listFromFields(data, directMotifFieldKeys(kind)),
+    ...relationTargets(data, 'motif')
+  ])
+    .filter(motifId => loadedIndex[motifId] && loadedIndex[motifId].kind === 'motif');
   const graphAtoms = edgeIndex.targetAtoms.get(profileKey(kind, id)) || new Set();
   const atomFieldAtoms = new Set();
   atomReferenceKeys(kind, record).forEach(key => {
@@ -484,6 +500,9 @@ function buildProfile(context) {
   directConcepts.forEach(conceptId => {
     if (!conceptCounts.has(conceptId)) increment(conceptCounts, conceptId);
   });
+  directMotifs.forEach(motifId => {
+    if (!motifCounts.has(motifId)) increment(motifCounts, motifId);
+  });
 
   sourceIds.forEach(sourceId => {
     const graphQuotes = edgeIndex.sourceQuotes.get(sourceId) || new Set();
@@ -505,6 +524,8 @@ function buildProfile(context) {
     directAtoms.length > 0
     || directSources.length > 0
     || directChapters.length > 0
+    || directConcepts.length > 0
+    || directMotifs.length > 0
     || atomFieldAtoms.size > 0
   );
   const definition = definitionOf(record);
@@ -615,6 +636,13 @@ function renderCountBadges(profile, mode = 'list') {
       countBadge(profile.mythCounts.size, 'mythes')
     ].join('');
   }
+  if (profile.kind === 'myth') {
+    return [
+      ...common,
+      countBadge(profile.conceptCounts.size, 'concepts'),
+      countBadge(profile.motifCounts.size, 'motifs')
+    ].join('');
+  }
   const middle = mode === 'detail' ? [countBadge(profile.quotes.length, 'citations')] : [];
   return [
     ...common.slice(0, 2),
@@ -716,7 +744,7 @@ function renderQuotes(profile) {
 }
 
 function renderRepresentativeQuotes(profile) {
-  if (!profile.quotes.length) return emptyText('Aucune citation représentative retrouvée via les sources reliées à ce motif.');
+  if (!profile.quotes.length) return emptyText('Aucune citation représentative retrouvée via les sources reliées à cette entrée.');
   return renderQuotes(profile);
 }
 
@@ -796,6 +824,95 @@ function renderMotifDetail(profile) {
     + section('Chansons associées', renderSongs(profile), 'Chansons mentionnées par les atomes reliés, lorsque l’information existe dans les exports publics.');
 }
 
+function renderFieldParagraphs(values) {
+  const cleanValues = U(values.map(T).map(value => value.trim()).filter(Boolean));
+  if (!cleanValues.length) return '';
+  return cleanValues.map(value => '<p>' + esc(value) + '</p>').join('');
+}
+
+function renderFieldBadges(values) {
+  const cleanValues = U(values.flatMap(value => A(value)).map(normalizeIdValue).filter(Boolean));
+  if (!cleanValues.length) return '';
+  return '<div class="badge-grid">' + cleanValues.map(value => badge(value)).join('') + '</div>';
+}
+
+function renderMythFormulation(profile) {
+  const data = profile.record.data || {};
+  const formulation = T(data.mythe || data.myth || data.nom || data.label || data.definition || profile.label);
+  if (!formulation) return emptyText('Formulation publique non encore stabilisée dans les exports publics.');
+  return '<p>' + esc(formulation) + '</p>';
+}
+
+function renderMythSummary(profile) {
+  const data = profile.record.data || {};
+  const summary = T(data.deconstruction || data.position || data.description || data.resume || data.résumé || data.usage_recommande || data.prudence);
+  if (!summary) return emptyText('Aucun résumé éditorial distinct n’est disponible pour ce récit.');
+  return '<p>' + esc(summary) + '</p>';
+}
+
+function renderMythWhy(profile) {
+  const data = profile.record.data || {};
+  const blocks = [];
+  const factualCore = T(data.noyau_factuel).trim();
+  const construction = T(data.construction_mythique).trim();
+  const recommendedUse = T(data.usage_recommande).trim();
+  const repoFunction = renderFieldParagraphs(A(data.fonction_dans_repo));
+  const riskBadges = renderFieldBadges([
+    ...A(data.risque_interpretatif),
+    ...A(data.risques)
+  ]);
+
+  if (factualCore) blocks.push('<p><strong>Noyau factuel.</strong> ' + esc(factualCore) + '</p>');
+  if (construction) blocks.push('<p><strong>Construction mémorielle.</strong> ' + esc(construction) + '</p>');
+  if (repoFunction) blocks.push(repoFunction);
+  if (recommendedUse) blocks.push('<p><strong>Usage prudent.</strong> ' + esc(recommendedUse) + '</p>');
+  if (riskBadges) blocks.push(riskBadges);
+  if (!blocks.length) {
+    return emptyText('Les données publiques ne décrivent pas encore explicitement pourquoi ce récit s’est construit.');
+  }
+  return blocks.join('');
+}
+
+function renderMythProducingSources(profile) {
+  if (!profile.sourceIds.length) return emptyText('Aucune source associée dans le graphe public ou les fallbacks directs.');
+  return renderSources(profile);
+}
+
+function renderMythNuanceSources(profile) {
+  const data = profile.record.data || {};
+  const nuanceText = renderFieldParagraphs([
+    data.deconstruction,
+    data.position,
+    data.usage_recommande,
+    ...A(data.risque_interpretatif),
+    ...A(data.risques)
+  ]);
+  const nuanceRelations = A(data.relations).filter(relation => T(relation && relation.type).toLowerCase() === 'nuance');
+  const relationBadges = renderFieldBadges(nuanceRelations.map(relation => relation.cible || relation.target || relation.id));
+  if (!nuanceText && !relationBadges) {
+    return emptyText('Aucune source de nuance n’est encore typée publiquement pour ce récit. Les sources associées servent de matériau de contrôle.');
+  }
+  return nuanceText + relationBadges;
+}
+
+function renderMythCorrectingSources() {
+  return emptyText('Aucune source de contrepoint n’est encore typée publiquement pour ce récit. Le MVP ne déduit pas cette fonction depuis une simple association.');
+}
+
+function renderMythDetail(profile) {
+  return renderDetailHeader(profile)
+    + section('Formulation du mythe', renderMythFormulation(profile))
+    + section('Résumé éditorial', renderMythSummary(profile))
+    + section('Pourquoi ce mythe existe', renderMythWhy(profile), 'Le registre documente les récits, interprétations, simplifications, constructions mémorielles et téléologies.')
+    + section('Sources qui le produisent', renderMythProducingSources(profile), 'Dans le MVP, ces sources sont les sources associées au récit dans le graphe public ou les champs directs ; elles ne constituent pas un classement automatique.')
+    + section('Sources qui le nuancent', renderMythNuanceSources(profile), 'Nuances explicites déjà présentes dans les données publiques, sans verdict automatique.')
+    + section('Sources qui le corrigent', renderMythCorrectingSources(profile), 'Cette section reste prudente tant qu’aucune relation publique ne type explicitement un contrepoint documentaire.')
+    + section('Concepts associés', renderSemanticBadges(profile.conceptCounts, 'concept', 'Aucun concept associé par atome partagé ou champ direct.'), 'Notions analytiques qui aident à contrôler le récit.')
+    + section('Motifs associés', renderSemanticBadges(profile.motifCounts, 'motif', 'Aucun motif associé par atome partagé ou champ direct.'), 'Récurrences documentaires qui alimentent ou contextualisent le récit.')
+    + section('Citations représentatives', renderRepresentativeQuotes(profile), 'Extraits issus des sources associées ; ils ouvrent une piste de lecture sans constituer une preuve directe du récit.')
+    + section('Chapitres concernés', renderChapters(profile));
+}
+
 function renderChapters(profile) {
   if (!profile.chapters.length) return emptyText('Aucun chapitre concerné dans les exports publics actuels.');
   return '<div class="badge-grid">' + profile.chapters.map(chapter => badge(chapter)).join('') + '</div>';
@@ -810,6 +927,10 @@ function renderDetail() {
   activeId = profile.id;
   if (profile.kind === 'motif') {
     detailEl.innerHTML = renderMotifDetail(profile);
+    return;
+  }
+  if (profile.kind === 'myth') {
+    detailEl.innerHTML = renderMythDetail(profile);
     return;
   }
 
@@ -827,7 +948,7 @@ function renderDetail() {
 
 function exportCSV() {
   const labels = activeViewLabels(currentTypeFilter());
-  const headers = ['libelle', 'type', 'definition', 'atomes', 'sources', 'chapitres', 'motifs', 'mythes'];
+  const headers = ['libelle', 'type', 'definition', 'atomes', 'sources', 'chapitres', 'concepts', 'motifs', 'mythes'];
   const rows = filtered.map(profile => [
     profile.label,
     typeLabel(profile.kind),
@@ -835,6 +956,7 @@ function exportCSV() {
     profile.atomCount,
     profile.sourceIds.length,
     profile.chapters.length,
+    profile.conceptCounts.size,
     profile.motifCounts.size,
     profile.mythCounts.size
   ]);
@@ -849,9 +971,10 @@ function exportCSV() {
 
 async function loadConceptRegister() {
   try {
-    const [conceptRecords, motifRecords, atomRecords, quoteRecords, sourceRecords, edgePayload, index] = await Promise.all([
+    const [conceptRecords, motifRecords, mythRecords, atomRecords, quoteRecords, sourceRecords, edgePayload, index] = await Promise.all([
       loadGeneratedJSON('concepts.json'),
       loadGeneratedJSON('motifs.json'),
+      loadGeneratedJSON('myths.json'),
       loadGeneratedJSON('atoms.json'),
       loadGeneratedJSON('quotes.json'),
       loadGeneratedJSON('sources.json'),
@@ -861,6 +984,7 @@ async function loadConceptRegister() {
     profiles = buildProfiles({
       concepts: Array.isArray(conceptRecords) ? conceptRecords : [],
       motifs: Array.isArray(motifRecords) ? motifRecords : [],
+      myths: Array.isArray(mythRecords) ? mythRecords : [],
       atoms: Array.isArray(atomRecords) ? atomRecords : [],
       quotes: Array.isArray(quoteRecords) ? quoteRecords : [],
       sources: Array.isArray(sourceRecords) ? sourceRecords : [],
@@ -874,7 +998,7 @@ async function loadConceptRegister() {
     applyFilters();
   } catch (error) {
     console.error(error);
-    statusCard.textContent = 'Erreur de chargement du registre : ' + error.message;
+    statusCard.textContent = 'Chargement du registre impossible : ' + error.message;
     detailEl.innerHTML = '<p class="empty-state">Impossible de charger les exports publics.</p>';
   }
 }
