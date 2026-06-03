@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Registre des concepts, motifs et mythes — Joy Division</title>
-  <link rel="stylesheet" href="style.css?v=c2-6b-public-register">
+  <link rel="stylesheet" href="style.css?v=c2-4c-concept-mvp">
 </head>
 <body>
   <header class="hero">
     <div class="hero-inner">
       <h1 id="register-title">Registre des concepts, motifs et mythes</h1>
-      <p class="subtitle" id="register-subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés et les atomes.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
+      <p class="subtitle" id="register-subtitle">Une entrée publique pour comprendre comment plusieurs sources pensent le même objet.</p>
+      <p class="back"><a href="../../">Retour au portail</a></p>
     </div>
   </header>
 
@@ -47,7 +47,7 @@
       </div>
 
       <p class="note" id="register-note">
-        Ce registre lit directement les fichiers <code>registers/concepts/*.md</code>, <code>registers/myths/*.md</code>, <code>registers/motifs/*.md</code> et les concepts déclarés dans les atomes.
+        Les fiches privilégient les sources, citations, points documentaires et relations utiles à la lecture du livre.
       </p>
     </section>
 
@@ -56,10 +56,15 @@
         <h2 id="results-title">Concepts, motifs et mythes</h2>
         <div id="results-meta"></div>
       </div>
-      <div id="concepts-list" class="concepts-list"></div>
+      <div class="concept-workspace">
+        <div id="concepts-list" class="concepts-list" aria-label="Liste des entrées"></div>
+        <article id="concept-detail" class="concept-detail" aria-live="polite">
+          <p class="empty-state">Choisissez une entrée dans la liste.</p>
+        </article>
+      </div>
     </section>
   </main>
 
-  <script src="app.js?v=c2-6b-static-data"></script>
+  <script src="app.js?v=c2-4c-concept-mvp"></script>
 </body>
 </html>
