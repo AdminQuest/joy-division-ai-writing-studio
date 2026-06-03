@@ -18,10 +18,13 @@ let sourceLabels = {};
 let dedicatedType = '';
 let renderedItems = [];
 
-const T = v => DynamicRegisters.text(v);
-const A = v => DynamicRegisters.array(v);
-const U = v => DynamicRegisters.uniq(v);
-const sourceIds = item => DynamicRegisters.sourceIds(item);
+const T = v => v === null || v === undefined ? '' : String(v);
+const A = v => Array.isArray(v) ? v : (v ? [v] : []);
+const U = values => [...new Set(values.map(T).filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+const sourceIds = item => {
+  const d = item.data || item;
+  return A(d.sources || d.source_id).map(normalizeSourceId).filter(Boolean);
+};
 const sourceLabel = id => sourceLabels[id] || id || '';
 
 // --- Helpers ---
@@ -30,6 +33,10 @@ const sourceLabel = id => sourceLabels[id] || id || '';
  * Extracts the canonical source ID (e.g. "S82") from a raw value that
  * might be a full label like "S82 — Parmar, Joy Division in Space, 2018".
  */
+function normalizeSourceId(id) {
+  return id === 'S-BROLL-JOY-001' ? 'S68' : T(id);
+}
+
 function extractSourceId(s) {
   const str = T(s);
   const m = /^(S\d+)\b/.exec(str);
@@ -158,11 +165,47 @@ function extractDefinition(d) {
 
 const chaptersOf = d => A(d.chapitres || d.chapters).map(normalizeChapter);
 
+function generatedUrl(file) {
+  return new URL('../../exports/generated/' + file, window.location.href);
+}
+
+async function loadGeneratedJSON(file, fallback) {
+  const response = await fetch(generatedUrl(file), { cache: 'no-store' });
+  if (!response.ok) {
+    if (fallback !== undefined) return fallback;
+    throw new Error('Export statique ' + file + ' ' + response.status);
+  }
+  return response.json();
+}
+
+async function loadStaticSourceLabels() {
+  const labels = {};
+  const [sources, sourceRecords] = await Promise.all([
+    loadGeneratedJSON('sources.json', []),
+    loadGeneratedJSON('source_records.json', [])
+  ]);
+  sources.forEach(entry => {
+    const id = normalizeSourceId(entry.source_id || entry.id);
+    if (id) labels[id] = entry.source_label || labels[id] || id;
+  });
+  sourceRecords.forEach(record => {
+    const data = record.data || {};
+    const id = normalizeSourceId(data.source_id || data.id || record.id);
+    if (id) labels[id] = data.source_label || labels[id] || id;
+  });
+  return labels;
+}
+
 async function loadConcepts() {
   try {
-    sourceLabels = await DynamicRegisters.sourceLabels();
-    const explicit = await DynamicRegisters.loadRecords({ prefixes: ['registers/concepts/', 'registers/myths/', 'registers/motifs/', 'registers/'], kinds: ['concept', 'myth', 'motif'] });
-    const atoms = await DynamicRegisters.loadRecords({ prefixes: ['sources/', 'registers/'], kinds: ['atom'] });
+    sourceLabels = await loadStaticSourceLabels();
+    const [conceptRecords, motifRecords, mythRecords, atoms] = await Promise.all([
+      loadGeneratedJSON('concepts.json'),
+      loadGeneratedJSON('motifs.json'),
+      loadGeneratedJSON('myths.json'),
+      loadGeneratedJSON('atoms.json')
+    ]);
+    const explicit = [...conceptRecords, ...motifRecords, ...mythRecords];
     concepts = buildConcepts(explicit, atoms);
     hydrateFilters(concepts);
     const requestedType = initialTypeFilter();
@@ -203,7 +246,7 @@ function buildConcepts(explicitRecords, atoms) {
     // Normalise sources: accept source_id, sources, or source_ids
     const srcs = A(d.sources || d.source_ids || d.source_id);
     srcs.map(extractSourceId).filter(Boolean).forEach(s => entry.sources.add(s));
-    // Also try sourceIds() from DynamicRegisters
+    // Also try normalized source IDs from the exported record payload.
     sourceIds(record).map(extractSourceId).filter(Boolean).forEach(s => entry.sources.add(s));
     chaptersOf(d).forEach(c => entry.chapters.add(c));
     // Only record document-level types (concept / motif / myth), not atom type_unite
