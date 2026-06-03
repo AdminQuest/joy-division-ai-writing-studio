@@ -1,6 +1,6 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-06-02T09:05:51`
+Généré le : `2026-06-03T19:53:10`
 
 Statut : **warning**
 
@@ -46,10 +46,10 @@ Aucune.
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — statut : verifie
 - S03 — Demographia, England Largest Cities, s.d. — statut : a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — statut : verifie
-- S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — statut : a_consolider
+- S18 — Fédida, Manchester : L'éveil d'une scène musicale, 2021 — statut : a_consolider
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — statut : a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — statut : a_consolider
-- S25 — Factory Records, philosophie d’indépendance, 1978–1992 — statut : a_consolider
+- S25 — Factory Records, philosophie d'indépendance, 1978–1992 — statut : a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — statut : a_consolider
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — statut : a_consolider
 - S33 — Can, Tago Mago, 1971 — statut : a_consolider
