@@ -377,7 +377,36 @@
 <section id="panel-tools" class="panel theme-tools" role="tabpanel" aria-labelledby="tab-tools" data-panel="tools" hidden>
 <div class="cards-grid">
 
-<!-- 1. Documents maîtres -->
+<!-- 1. Studio du manuscrit -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-manuscript-studio">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V4a2 2 0 0 1 2-2h10l4 4v13.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M16 2v6h6"/><path d="M8 10h8"/><path d="M8 14h8"/><path d="M8 18h5"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Studio du manuscrit</h3>
+      <p class="card-summary">Piloter l'écriture chapitre par chapitre : document maître, profil, audit léger et chaînes argumentatives.</p>
+      <span class="card-counter">accès token GitHub</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-manuscript-studio" hidden>
+      <ul>
+        <li>outil auteur sous token GitHub</li>
+        <li>profil synthétique par chapitre</li>
+        <li>alertes rédactionnelles sobres</li>
+        <li>chaînes source, citation, concept, motif ou mythe</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/manuscript-studio/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+<!-- 2. Documents maîtres -->
 <article class="card card-external">
   <span class="card-external-badge" aria-label="Lien externe">
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
@@ -388,7 +417,7 @@
     </span>
     <div class="card-body">
       <h3 class="card-title">Documents maîtres</h3>
-      <p class="card-summary">Consultation pleine page des documents maîtres générés automatiquement depuis les atomes, citations et registres consolidés.</p>
+      <p class="card-summary">Consultation documentaire des documents maîtres générés depuis les atomes, citations et registres consolidés.</p>
     </div>
     <span class="card-chevron" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
@@ -403,34 +432,6 @@
     </div>
   </button>
   <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/master-docs/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
-</article>
-
-<!-- 2. Éditeur de Songbook -->
-<article class="card card-external">
-  <span class="card-external-badge" aria-label="Lien externe">
-    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-  </span>
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-songbook">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M16 12h2"/><path d="M16 8h2"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 12h2"/><path d="M6 8h2"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Éditeur de Songbook</h3>
-      <p class="card-summary">Interface locale d'édition des dossiers chansons : paroles, sessions, notes éditoriales, variantes et sources.</p>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-songbook" hidden>
-      <ul>
-        <li>dossier chanson complet</li>
-        <li>édition locale</li>
-        <li>notes éditoriales</li>
-        <li>synchronisation repo privé</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/local-songbook-editor/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
 </article>
 
 <!-- 3. Tableau de bord du corpus -->
@@ -461,35 +462,7 @@
   <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/corpus-dashboard/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
 </article>
 
-<!-- 4. Prompt Studio -->
-<article class="card card-external">
-  <span class="card-external-badge" aria-label="Lien externe">
-    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-  </span>
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-prompt">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"/><path d="m14 7 3 3"/><path d="M5 6v4"/><path d="M19 14v4"/><path d="M10 2v2"/><path d="M7 8H3"/><path d="M21 16h-4"/><path d="M11 3H9"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Prompt Studio</h3>
-      <p class="card-summary">Atelier de création de prompts contraints pour l'écriture du livre.</p>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-prompt" hidden>
-      <ul>
-        <li>prompts</li>
-        <li>structuration</li>
-        <li>production</li>
-        <li>contrôle</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/prompt-studio/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
-</article>
-
-<!-- 5. RAG Studio -->
+<!-- 4. RAG Studio -->
 <article class="card">
   <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-rag">
     <span class="card-icon" aria-hidden="true">
@@ -497,7 +470,7 @@
     </span>
     <div class="card-body">
       <h3 class="card-title">RAG Studio</h3>
-      <p class="card-summary">Interface documentaire pour interroger les atomes, citations, chansons, personnes, lieux et événements.</p>
+      <p class="card-summary">Explorer le corpus, filtrer les résultats et préparer un dossier documentaire.</p>
     </div>
     <span class="card-chevron" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
