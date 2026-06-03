@@ -102,11 +102,11 @@ function sourceYear(source, records) {
 }
 
 function atomizationStatus(profile) {
-  if (profile.atomCount && profile.quoteCount) return 'atomisée avec citations';
-  if (profile.atomCount) return 'atomisée';
-  if (profile.quoteCount) return 'citée sans atomes';
-  if (profile.recordCount) return 'référencée';
-  return 'non atomisée';
+  if (profile.atomCount && profile.quoteCount) return 'source analysée et citée';
+  if (profile.atomCount) return 'source analysée';
+  if (profile.quoteCount) return 'source citée sans points structurants';
+  if (profile.recordCount) return 'source référencée';
+  return 'source non analysée';
 }
 
 function importanceRank(atom) {
@@ -300,8 +300,10 @@ function applyFilters() {
   renderDetail();
 }
 
-function badge(label, className = '') {
-  return '<span class="badge' + (className ? ' ' + className : '') + '">' + esc(label) + '</span>';
+function badge(label, className = '', href = '') {
+  const classAttr = 'badge' + (className ? ' ' + className : '');
+  if (href) return '<a class="' + classAttr + '" href="' + esc(href) + '">' + esc(label) + '</a>';
+  return '<span class="' + classAttr + '">' + esc(label) + '</span>';
 }
 
 function countBadge(value, label) {
@@ -321,8 +323,8 @@ function renderList() {
       + '<span class="source-row__title">' + esc(profile.title) + '</span>'
       + '<span class="source-row__author">' + esc(profile.author) + '</span>'
       + '<span class="source-row__counts">'
-      + countBadge(profile.quoteCount, 'cit.')
-      + countBadge(profile.atomCount, 'atomes')
+      + countBadge(profile.quoteCount, 'citations')
+      + countBadge(profile.atomCount, 'points')
       + countBadge(profile.graph.concepts.size, 'concepts')
       + countBadge(profile.graph.motifs.size, 'motifs')
       + countBadge(profile.graph.myths.size, 'mythes')
@@ -357,27 +359,32 @@ function countCard(value, label) {
 function graphCoverage(profile) {
   const direct = [];
   if (profile.graph.quoteEdges) direct.push(profile.graph.quoteEdges + ' citation(s) reliée(s)');
-  if (profile.graph.atomEdges) direct.push(profile.graph.atomEdges + ' atome(s) relié(s)');
+  if (profile.graph.atomEdges) direct.push(profile.graph.atomEdges + ' point(s) documentaire(s) relié(s)');
   if (profile.graph.concepts.size || profile.graph.motifs.size || profile.graph.myths.size) {
-    direct.push('liens sémantiques disponibles');
+    direct.push('thèmes et récits associés dans le graphe public');
   }
-  return direct.length ? direct.join(' · ') : 'source non encore reliée par le graphe public';
+  return direct.length ? direct.join(' · ') : 'source non encore reliée par le graphe public actuel';
 }
 
-function section(title, html) {
-  return '<section class="source-section"><h3>' + esc(title) + '</h3>' + html + '</section>';
+function section(title, html, help = '') {
+  return '<section class="source-section"><h3>' + esc(title) + '</h3>'
+    + (help ? '<p class="source-section__help">' + esc(help) + '</p>' : '')
+    + html
+    + '</section>';
 }
 
 function renderQuotes(profile) {
   const quotes = profile.quotes.slice().sort((a, b) => T(a.id).localeCompare(T(b.id), undefined, { numeric: true })).slice(0, 8);
-  if (!quotes.length) return '<p class="source-note">Aucune citation publique associée à cette source.</p>';
+  if (!quotes.length) return '<p class="source-note">Aucune citation publique n’est associée à cette source dans les exports actuels.</p>';
   const items = quotes.map(quote => {
     const data = quote.data || {};
     const text = T(data.texte || data.citation_originale || data.citation || '(non transcrit)');
     const meta = [quote.id, data.locuteur, data.type, data.page_pdf ? 'p. ' + data.page_pdf : '', data.statut_verification].filter(Boolean).join(' · ');
     return '<li class="source-item"><p class="source-item__title">' + esc(meta) + '</p><blockquote>' + esc(text) + '</blockquote></li>';
   }).join('');
-  const more = profile.quotes.length > quotes.length ? '<p class="source-more">+' + (profile.quotes.length - quotes.length) + ' citation(s) supplémentaires dans les données.</p>' : '';
+  const more = profile.quotes.length > quotes.length
+    ? '<p class="source-more">Extrait public : ' + quotes.length + ' citation(s) affichée(s) sur ' + profile.quotes.length + '. Les autres citations restent disponibles dans les exports publics.</p>'
+    : '';
   return '<ul class="source-list">' + items + '</ul>' + more;
 }
 
@@ -385,7 +392,7 @@ function renderAtoms(profile) {
   const atoms = profile.atoms.slice()
     .sort((a, b) => importanceRank(a) - importanceRank(b) || T(a.id).localeCompare(T(b.id), undefined, { numeric: true }))
     .slice(0, 10);
-  if (!atoms.length) return '<p class="source-note">Aucun atome public associé à cette source.</p>';
+  if (!atoms.length) return '<p class="source-note">Aucun point documentaire structurant public n’est associé à cette source dans les exports actuels.</p>';
   const items = atoms.map(atom => {
     const data = atom.data || {};
     const title = T(data.titre || atom.heading || atom.id);
@@ -394,14 +401,23 @@ function renderAtoms(profile) {
     const meta = [atom.id, importance, proof].filter(Boolean).join(' · ');
     return '<li class="source-item"><p class="source-item__title">' + esc(title) + '</p><p class="source-item__text">' + esc(meta) + '</p></li>';
   }).join('');
-  const more = profile.atoms.length > atoms.length ? '<p class="source-more">+' + (profile.atoms.length - atoms.length) + ' atome(s) supplémentaires dans les données.</p>' : '';
+  const more = profile.atoms.length > atoms.length
+    ? '<p class="source-more">Extrait public : ' + atoms.length + ' point(s) affiché(s) sur ' + profile.atoms.length + '. Les autres points documentaires restent disponibles dans les exports publics.</p>'
+    : '';
   return '<ul class="source-list">' + items + '</ul>' + more;
 }
 
-function renderTopGraph(profile, bucket, emptyText) {
+function semanticHref(kind) {
+  if (kind === 'concept') return '../concept-register/?type=concept';
+  if (kind === 'motif') return '../concept-register/?type=motif';
+  if (kind === 'myth') return '../concept-register/?type=myth';
+  return '';
+}
+
+function renderTopGraph(profile, bucket, emptyText, kind = '') {
   const entries = topEntries(bucket, 12);
   if (!entries.length) return '<p class="source-note">' + esc(emptyText) + '</p>';
-  return '<div class="badges">' + entries.map(([id, count]) => badge(recordLabel(profile.index, id) + ' (' + count + ')')).join('') + '</div>';
+  return '<div class="badges">' + entries.map(([id, count]) => badge(recordLabel(profile.index, id) + ' (' + count + ')', kind ? 'badge--link' : '', semanticHref(kind))).join('') + '</div>';
 }
 
 function renderChapters(profile) {
@@ -434,25 +450,25 @@ function renderDetail() {
     + '<p class="source-detail__meta">' + esc([profile.author, profile.year, profile.atomization].filter(Boolean).join(' · ')) + '</p>'
     + '<div class="source-counts">'
     + countCard(profile.quoteCount, 'citations')
-    + countCard(profile.atomCount, 'atomes')
+    + countCard(profile.atomCount, 'points documentaires')
     + countCard(profile.graph.concepts.size, 'concepts')
     + countCard(profile.graph.motifs.size, 'motifs')
     + countCard(profile.graph.myths.size, 'mythes')
     + '</div>'
     + '</div>'
     + section('Notice bibliographique', bibliography)
-    + section('Statut d’atomisation', '<p>' + esc(profile.atomization) + '</p><p class="source-item__text">' + esc(graphCoverage(profile)) + '</p>')
-    + section('Citations associées', renderQuotes(profile))
-    + section('Atomes structurants', renderAtoms(profile))
-    + section('Concepts associés', renderTopGraph(profile, profile.graph.concepts, 'Aucun concept relié par le graphe public pour cette source.'))
-    + section('Motifs associés', renderTopGraph(profile, profile.graph.motifs, 'Aucun motif relié par le graphe public pour cette source.'))
-    + section('Mythes associés', renderTopGraph(profile, profile.graph.myths, 'Aucun mythe relié par le graphe public pour cette source.'))
+    + section('État d’analyse de la source', '<p>' + esc(profile.atomization) + '</p><p class="source-item__text">' + esc(graphCoverage(profile)) + '</p>')
+    + section('Citations associées', renderQuotes(profile), 'Extrait des citations publiques reliées à cette source.')
+    + section('Points documentaires structurants', renderAtoms(profile), 'Points d’analyse publics extraits de la source et utiles pour le manuscrit.')
+    + section('Concepts associés', renderTopGraph(profile, profile.graph.concepts, 'Aucun concept n’est relié à cette source dans le graphe public actuel. Cela ne signifie pas que la source est sans intérêt.', 'concept'), 'Notions analytiques reliées aux points documentaires de cette source.')
+    + section('Motifs associés', renderTopGraph(profile, profile.graph.motifs, 'Aucun motif n’est relié à cette source dans le graphe public actuel. Cela reflète l’état du graphe, pas la valeur de la source.', 'motif'), 'Éléments récurrents, scènes ou formes qui traversent le corpus.')
+    + section('Mythes associés', renderTopGraph(profile, profile.graph.myths, 'Aucun mythe n’est relié à cette source dans le graphe public actuel. Cela ne préjuge pas de son importance documentaire.', 'myth'), 'Récits ou idées reçues à examiner de manière critique.')
     + section('Personnes les plus citées', renderTopGraph(profile, profile.graph.people, 'Aucune personne attribuée via les citations de cette source.'))
     + section('Chapitres concernés', renderChapters(profile));
 }
 
 function exportCSV() {
-  const headers = ['source_id', 'titre', 'auteur', 'annee', 'statut_atomisation', 'citations', 'atomes', 'concepts', 'motifs', 'mythes', 'chapitres'];
+  const headers = ['source_id', 'titre', 'auteur', 'annee', 'etat_analyse', 'citations', 'points_documentaires', 'concepts', 'motifs', 'mythes', 'chapitres'];
   const rows = filtered.map(profile => [
     profile.id,
     profile.title,

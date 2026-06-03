@@ -361,6 +361,13 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.source-section .source-section__help {
+  max-width: 76ch;
+  margin: -2px 0 10px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
 .source-section p {
   margin: 0 0 8px;
 }
@@ -441,11 +448,17 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 600;
   overflow-wrap: anywhere;
+  text-decoration: none;
 }
 
 .badge--muted {
   background: #f3f4f6;
   color: var(--text-muted);
+}
+
+.badge--link:hover {
+  background: rgba(76, 110, 122, .16);
+  color: #34515a;
 }
 
 .source-note {
