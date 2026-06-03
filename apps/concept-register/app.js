@@ -4,6 +4,7 @@ const statusCard = document.getElementById('status-card');
 const searchInput = document.getElementById('search');
 const sourceFilter = document.getElementById('source-filter');
 const chapterFilter = document.getElementById('chapter-filter');
+const typeField = document.getElementById('type-field');
 const typeFilter = document.getElementById('type-filter');
 const resetButton = document.getElementById('reset-filters');
 const downloadButton = document.getElementById('download-csv');
@@ -14,6 +15,8 @@ const resultsTitle = document.getElementById('results-title');
 
 let concepts = [];
 let sourceLabels = {};
+let dedicatedType = '';
+let renderedItems = [];
 
 const T = v => DynamicRegisters.text(v);
 const A = v => DynamicRegisters.array(v);
@@ -58,6 +61,9 @@ const VIEW_LABELS = {
     documentTitle: 'Registre des concepts, motifs et mythes — Joy Division',
     title: 'Registre des concepts, motifs et mythes',
     resultsTitle: 'Concepts, motifs et mythes',
+    singular: 'entrée',
+    plural: 'entrées',
+    exportName: 'joy_division_concepts_motifs_mythes_register.csv',
     subtitle: 'Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés et les atomes.',
     note: 'Ce registre lit directement les fichiers <code>registers/concepts/*.md</code>, <code>registers/myths/*.md</code>, <code>registers/motifs/*.md</code> et les concepts, motifs ou mythes déclarés dans les atomes.'
   },
@@ -65,6 +71,9 @@ const VIEW_LABELS = {
     documentTitle: 'Registre des concepts — Joy Division',
     title: 'Registre des concepts',
     resultsTitle: 'Concepts',
+    singular: 'concept',
+    plural: 'concepts',
+    exportName: 'joy_division_concepts_register.csv',
     subtitle: 'Vue documentaire dynamique des notions critiques reconstruites depuis les registres spécialisés et les atomes.',
     note: 'Cette vue affiche les entrées de type <code>concept</code> issues des données existantes du registre structurant.'
   },
@@ -72,6 +81,9 @@ const VIEW_LABELS = {
     documentTitle: 'Registre des motifs — Joy Division',
     title: 'Registre des motifs',
     resultsTitle: 'Motifs',
+    singular: 'motif',
+    plural: 'motifs',
+    exportName: 'joy_division_motifs_register.csv',
     subtitle: 'Vue documentaire dynamique des motifs récurrents, chaînes argumentatives et formes transversales du corpus.',
     note: 'Cette vue affiche les entrées de type <code>motif</code> issues des données existantes du registre structurant.'
   },
@@ -79,6 +91,9 @@ const VIEW_LABELS = {
     documentTitle: 'Registre des mythes — Joy Division',
     title: 'Registre des mythes',
     resultsTitle: 'Mythes',
+    singular: 'mythe',
+    plural: 'mythes',
+    exportName: 'joy_division_mythes_register.csv',
     subtitle: 'Vue documentaire dynamique des récits à déconstruire, nuancer ou documenter avec prudence historiographique.',
     note: 'Cette vue affiche les entrées de type <code>myth</code> issues des données existantes du registre structurant.'
   }
@@ -90,12 +105,28 @@ function activeViewLabels(type) {
 
 function updateViewLabels(type) {
   const labels = activeViewLabels(type);
+  const view = URL_TYPE_ALIASES[T(type).toLowerCase()] || 'all';
   document.title = labels.documentTitle;
+  document.body.dataset.registerView = view;
   if (registerTitle) registerTitle.textContent = labels.title;
   if (registerSubtitle) registerSubtitle.textContent = labels.subtitle;
   if (resultsTitle) resultsTitle.textContent = labels.resultsTitle;
   if (registerNote) registerNote.innerHTML = labels.note;
   return labels;
+}
+
+function configureDedicatedMode(type) {
+  dedicatedType = type || '';
+  if (typeField) {
+    if (dedicatedType) {
+      typeField.hidden = true;
+    } else {
+      typeField.removeAttribute('hidden');
+    }
+  }
+  if (typeFilter) {
+    typeFilter.disabled = !!dedicatedType;
+  }
 }
 
 function initialTypeFilter() {
@@ -136,13 +167,14 @@ async function loadConcepts() {
     hydrateFilters(concepts);
     const requestedType = initialTypeFilter();
     if (requestedType && [...typeFilter.options].some(option => option.value === requestedType)) {
+      configureDedicatedMode(requestedType);
       typeFilter.value = requestedType;
       applyFilters();
     } else {
+      configureDedicatedMode('');
       updateViewLabels('');
       render(concepts);
     }
-    statusCard.textContent = concepts.length + ' entrée(s) chargée(s) depuis les fichiers Markdown spécialisés et les atomes';
   } catch (err) {
     console.error(err);
     statusCard.textContent = 'Erreur de chargement dynamique du registre : ' + err.message;
@@ -240,8 +272,12 @@ function badges(values, labeler = v => v) {
   return [...values].map(x => '<span class="badge">' + labeler(x) + '</span>').join('');
 }
 function render(items) {
+  renderedItems = items;
+  const labels = activeViewLabels(typeFilter.value);
   conceptsList.innerHTML = '';
-  resultsMeta.textContent = items.length + ' résultat(s)';
+  const noun = items.length > 1 ? labels.plural : labels.singular;
+  resultsMeta.textContent = items.length + ' ' + noun;
+  statusCard.textContent = items.length + ' ' + noun + ' dans cette vue';
   items.forEach(c => {
     const card = document.createElement('article');
     card.className = 'concept-card';
@@ -292,7 +328,8 @@ function applyFilters() {
   render(filtered);
 }
 function exportCSV() {
-  const rows = concepts.map(c => ({
+  const labels = activeViewLabels(typeFilter.value);
+  const rows = renderedItems.map(c => ({
     concept: c.concept,
     occurrences: c.occurrences,
     sources: [...c.sources].map(sourceLabel).join('; '),
@@ -304,11 +341,17 @@ function exportCSV() {
   const blob = new Blob([header + '\n' + body], { type: 'text/csv;charset=utf-8;' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'joy_division_concepts_register_dynamic.csv';
+  a.download = labels.exportName;
   a.click();
   URL.revokeObjectURL(a.href);
 }
 [searchInput, sourceFilter, chapterFilter, typeFilter].forEach(el => el.addEventListener('input', applyFilters));
-resetButton.addEventListener('click', () => { searchInput.value=''; sourceFilter.value=''; chapterFilter.value=''; typeFilter.value=''; updateViewLabels(''); render(concepts); });
+resetButton.addEventListener('click', () => {
+  searchInput.value = '';
+  sourceFilter.value = '';
+  chapterFilter.value = '';
+  typeFilter.value = dedicatedType;
+  applyFilters();
+});
 downloadButton.addEventListener('click', exportCSV);
 loadConcepts();

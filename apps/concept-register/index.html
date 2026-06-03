@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Registre des concepts, motifs et mythes — Joy Division</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=c2-6b-public-register">
 </head>
 <body>
   <header class="hero">
@@ -35,7 +35,7 @@
           <select id="chapter-filter"><option value="">Tous</option></select>
         </div>
 
-        <div class="field">
+        <div class="field" id="type-field">
           <label for="type-filter">Type documentaire</label>
           <select id="type-filter"><option value="">Tous</option></select>
         </div>
@@ -63,6 +63,6 @@
   <!-- Loader partagé : bumper ?v= à CHAQUE modification de apps/lib/dynamic-registers.js
        (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). -->
   <script src="../lib/dynamic-registers.js?v=7c"></script>
-  <script src="app.js?v=c2-6b-labels"></script>
+  <script src="app.js?v=c2-6b-dedicated"></script>
 </body>
 </html>
