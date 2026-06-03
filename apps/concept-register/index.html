@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Registre des concepts — Joy Division</title>
+  <title>Registre des concepts, motifs et mythes — Joy Division</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
     <div class="hero-inner">
-      <h1>Registre des concepts</h1>
-      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés et les atomes.</p>
+      <h1 id="register-title">Registre des concepts, motifs et mythes</h1>
+      <p class="subtitle" id="register-subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés et les atomes.</p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
   </header>
 
   <main class="layout">
     <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement des concepts…</div>
+      <div class="status-card" id="status-card">Chargement du registre…</div>
 
       <div class="filters">
         <div class="field">
@@ -46,14 +46,14 @@
         <button id="download-csv" type="button">Exporter CSV</button>
       </div>
 
-      <p class="note">
+      <p class="note" id="register-note">
         Ce registre lit directement les fichiers <code>registers/concepts/*.md</code>, <code>registers/myths/*.md</code>, <code>registers/motifs/*.md</code> et les concepts déclarés dans les atomes.
       </p>
     </section>
 
     <section class="register-panel">
       <div class="results-header">
-        <h2>Concepts</h2>
+        <h2 id="results-title">Concepts, motifs et mythes</h2>
         <div id="results-meta"></div>
       </div>
       <div id="concepts-list" class="concepts-list"></div>
@@ -63,6 +63,6 @@
   <!-- Loader partagé : bumper ?v= à CHAQUE modification de apps/lib/dynamic-registers.js
        (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). -->
   <script src="../lib/dynamic-registers.js?v=7c"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=c2-6b-labels"></script>
 </body>
 </html>

@@ -7,6 +7,10 @@ const chapterFilter = document.getElementById('chapter-filter');
 const typeFilter = document.getElementById('type-filter');
 const resetButton = document.getElementById('reset-filters');
 const downloadButton = document.getElementById('download-csv');
+const registerTitle = document.getElementById('register-title');
+const registerSubtitle = document.getElementById('register-subtitle');
+const registerNote = document.getElementById('register-note');
+const resultsTitle = document.getElementById('results-title');
 
 let concepts = [];
 let sourceLabels = {};
@@ -48,6 +52,52 @@ function normalizeChapter(c) {
 const TYPE_LABELS = { concept: 'Concept', motif: 'Motif', myth: 'Mythe', mythe: 'Mythe' };
 const URL_TYPE_ALIASES = { concept: 'concept', motif: 'motif', myth: 'myth', mythe: 'myth' };
 function typeLabel(t) { return TYPE_LABELS[T(t).toLowerCase()] || T(t); }
+
+const VIEW_LABELS = {
+  all: {
+    documentTitle: 'Registre des concepts, motifs et mythes — Joy Division',
+    title: 'Registre des concepts, motifs et mythes',
+    resultsTitle: 'Concepts, motifs et mythes',
+    subtitle: 'Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés et les atomes.',
+    note: 'Ce registre lit directement les fichiers <code>registers/concepts/*.md</code>, <code>registers/myths/*.md</code>, <code>registers/motifs/*.md</code> et les concepts, motifs ou mythes déclarés dans les atomes.'
+  },
+  concept: {
+    documentTitle: 'Registre des concepts — Joy Division',
+    title: 'Registre des concepts',
+    resultsTitle: 'Concepts',
+    subtitle: 'Vue documentaire dynamique des notions critiques reconstruites depuis les registres spécialisés et les atomes.',
+    note: 'Cette vue affiche les entrées de type <code>concept</code> issues des données existantes du registre structurant.'
+  },
+  motif: {
+    documentTitle: 'Registre des motifs — Joy Division',
+    title: 'Registre des motifs',
+    resultsTitle: 'Motifs',
+    subtitle: 'Vue documentaire dynamique des motifs récurrents, chaînes argumentatives et formes transversales du corpus.',
+    note: 'Cette vue affiche les entrées de type <code>motif</code> issues des données existantes du registre structurant.'
+  },
+  myth: {
+    documentTitle: 'Registre des mythes — Joy Division',
+    title: 'Registre des mythes',
+    resultsTitle: 'Mythes',
+    subtitle: 'Vue documentaire dynamique des récits à déconstruire, nuancer ou documenter avec prudence historiographique.',
+    note: 'Cette vue affiche les entrées de type <code>myth</code> issues des données existantes du registre structurant.'
+  }
+};
+
+function activeViewLabels(type) {
+  return VIEW_LABELS[URL_TYPE_ALIASES[T(type).toLowerCase()]] || VIEW_LABELS.all;
+}
+
+function updateViewLabels(type) {
+  const labels = activeViewLabels(type);
+  document.title = labels.documentTitle;
+  if (registerTitle) registerTitle.textContent = labels.title;
+  if (registerSubtitle) registerSubtitle.textContent = labels.subtitle;
+  if (resultsTitle) resultsTitle.textContent = labels.resultsTitle;
+  if (registerNote) registerNote.innerHTML = labels.note;
+  return labels;
+}
+
 function initialTypeFilter() {
   try {
     const raw = new URLSearchParams(window.location.search).get('type');
@@ -89,12 +139,13 @@ async function loadConcepts() {
       typeFilter.value = requestedType;
       applyFilters();
     } else {
+      updateViewLabels('');
       render(concepts);
     }
-    statusCard.textContent = concepts.length + ' concept(s) chargé(s) depuis les fichiers Markdown spécialisés et les atomes';
+    statusCard.textContent = concepts.length + ' entrée(s) chargée(s) depuis les fichiers Markdown spécialisés et les atomes';
   } catch (err) {
     console.error(err);
-    statusCard.textContent = 'Erreur de chargement dynamique du registre des concepts : ' + err.message;
+    statusCard.textContent = 'Erreur de chargement dynamique du registre : ' + err.message;
   }
 }
 
@@ -219,6 +270,7 @@ function render(items) {
   });
 }
 function applyFilters() {
+  updateViewLabels(typeFilter.value);
   const q = searchInput.value.toLowerCase();
   const filtered = concepts.filter(c => {
     const haystack = [
@@ -257,6 +309,6 @@ function exportCSV() {
   URL.revokeObjectURL(a.href);
 }
 [searchInput, sourceFilter, chapterFilter, typeFilter].forEach(el => el.addEventListener('input', applyFilters));
-resetButton.addEventListener('click', () => { searchInput.value=''; sourceFilter.value=''; chapterFilter.value=''; typeFilter.value=''; render(concepts); });
+resetButton.addEventListener('click', () => { searchInput.value=''; sourceFilter.value=''; chapterFilter.value=''; typeFilter.value=''; updateViewLabels(''); render(concepts); });
 downloadButton.addEventListener('click', exportCSV);
 loadConcepts();
