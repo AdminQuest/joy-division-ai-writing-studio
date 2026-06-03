@@ -285,9 +285,9 @@ function buildIndexes(edges) {
 }
 
 function atomFieldKeys(kind) {
-  if (kind === 'concept') return ['concepts'];
-  if (kind === 'motif') return ['motifs'];
-  if (kind === 'myth') return ['mythes', 'myths'];
+  if (kind === 'concept') return ['concepts', 'concepts_derives', 'related_concepts'];
+  if (kind === 'motif') return ['motifs', 'motifs_derives', 'related_motifs'];
+  if (kind === 'myth') return ['mythes', 'mythes_derives', 'related_mythes', 'myths', 'myths_derives', 'related_myths'];
   return [];
 }
 
