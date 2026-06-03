@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T14:28:48"
+generated_at: "2026-06-02T20:35:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -723,20 +723,20 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | controverse | 6 |
 | non qualifié | 6 |
 | motif_lyrique | 5 |
+| citation_clef | 5 |
+| reception | 5 |
 | song | 5 |
 | motif_structurant | 4 |
 | noeud_critique | 4 |
 | lyrics_reference | 4 |
 | tension_documentaire | 4 |
 | concept | 4 |
-| reception | 4 |
 | position_critique | 3 |
 | temoignage_indirect | 3 |
 | cadrage_theorique | 3 |
 | interpretation | 3 |
 | intertextualite | 3 |
 | contexte_biographique | 3 |
-| citation_repere | 3 |
 | lecture_litteraire | 2 |
 | registre_influences | 2 |
 | rapprochement_litteraire_prudent | 2 |
@@ -751,7 +751,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | cadre_analytique | 2 |
 | relation_interne_source | 2 |
 | genese_chanson | 2 |
-| citation_clef | 2 |
 | relation_conjugale | 2 |
 | domesticité | 2 |
 | lecture_generationnelle | 2 |
@@ -870,7 +869,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse_culturelle | 1 |
 | evolution_esthetique | 1 |
 | culture_musicale | 1 |
-| acteur_critique | 1 |
 | philosophie_du_temps | 1 |
 | recension_contemporaine | 1 |
 | analyse_historique | 1 |
@@ -902,11 +900,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | critique | 168 |
-| non qualifiée | 122 |
-| majeure | 77 |
+| non qualifiée | 118 |
+| majeure | 78 |
 | majeur | 13 |
 | utile | 7 |
 | secondaire | 3 |
+| modérée | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

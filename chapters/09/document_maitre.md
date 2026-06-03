@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T14:28:48"
+generated_at: "2026-06-02T20:35:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -23,7 +23,7 @@ generated_at: "2026-06-01T14:28:48"
 | Indicateur | Valeur |
 |---|---|
 | Atomes | 220 |
-| Atomes critiques / majeurs | 37 |
+| Atomes critiques / majeurs | 43 |
 | Citations | 13 |
 | Événements chronologiques | 3 |
 | Personnes | 14 |
@@ -71,6 +71,10 @@ generated_at: "2026-06-01T14:28:48"
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `texte_editorial` ; importance : `critique` ; preuve : `texte_editorial_Factory_compilation`.
 - **S47-071** — S47-071 — Birmingham University, 2 mai 1980 : dernier concert  
   Source : S47 — West, Joy Division, 1984 ; type : `concert` ; importance : `critique` ; preuve : `fait_documente`.
+- **S47-169** — S47-169 — Birmingham High Hall comme clôture scénique  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `critique` ; preuve : `fait_documentaire`.
+- **S47-171** — S47-171 — Rob Gretton : manager comme membre non musicien  
+  Source : S47 — West, Joy Division, 1984 ; type : `biographie` ; importance : `critique` ; preuve : `lecture_interpretative`.
 - **S50-A004** — S50-A004 — Liberté créative, bas budget et géographie globale des images  
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `dispositif_creation` ; importance : `critique` ; preuve : `synthese_critique`.
 - **S50-A010** — S50-A010 — Détacher *Unknown Pleasures* de Manchester : universalisation ou déracinement  
@@ -121,6 +125,14 @@ generated_at: "2026-06-01T14:28:48"
   Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `majeure` ; preuve : `fait_secondaire`.
 - **S47-098** — S47-098 — Les archives live existent en quantité importante  
   Source : S47 — West, Joy Division, 1984 ; type : `archive` ; importance : `majeure` ; preuve : `fait_secondaire`.
+- **S47-162** — S47-162 — Manchester comme scène d’apprentissage collectif  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeure` ; preuve : `lecture_interpretative`.
+- **S47-163** — S47-163 — Electric Circus comme matrice et archive  
+  Source : S47 — West, Joy Division, 1984 ; type : `archive` ; importance : `majeure` ; preuve : `fait_documentaire`.
+- **S47-164** — S47-164 — Rafters comme lieu de bascule managériale  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeure` ; preuve : `fait_documentaire`.
+- **S47-183** — S47-183 — Chronologie condensée 1979  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeure` ; preuve : `fait_documentaire`.
 - **S55-A006** — S55-A006 — Composante existentielle : malaise, solitude, aliénation, obscurité  
   Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `motif_structurant` ; importance : `majeure` ; preuve : `axe_thematique_S55`.
 - **S55-A010** — S55-A010 — Gemmation et greffe : deux directions de l’héritage critique Joy Division  
@@ -432,12 +444,13 @@ generated_at: "2026-06-01T14:28:48"
 
 ### 12.1. Motifs dominants
 
+- Manchester (4)
 - here_are_the_young_men (4)
-- Manchester (3)
 - buzzcocks (3)
 - transmission (3)
 - ian_curtis (3)
 - still (3)
+- Rafters (3)
 - scènes locales (2)
 - electric_circus (2)
 - paul_morley (2)
@@ -451,8 +464,9 @@ generated_at: "2026-06-01T14:28:48"
 - bootlegs (2)
 - moonlight_club (2)
 - birmingham_university (2)
+- dernier_concert (2)
 - Factory_video (2)
-- Rafters (2)
+- management (2)
 - prudence (2)
 - triangulation du Nord (1)
 - autonomie périphérique (1)
@@ -470,8 +484,6 @@ generated_at: "2026-06-01T14:28:48"
 - Berlin (1)
 - Guerre froide (1)
 - Teufelsberg (1)
-- Mauerpark (1)
-- warsaw (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -514,16 +526,16 @@ generated_at: "2026-06-01T14:28:48"
 
 | Type | Nombre |
 |---|---|
-| fait | 14 |
+| fait | 18 |
 | concert | 11 |
 | reception | 9 |
 | production | 9 |
 | sociologie | 8 |
 | chronologie | 6 |
+| archive | 6 |
 | evenement | 6 |
 | interpretation | 6 |
 | relation | 5 |
-| archive | 5 |
 | contexte_scene | 5 |
 | analyse | 4 |
 | anecdote_significative | 4 |
@@ -531,7 +543,6 @@ generated_at: "2026-06-01T14:28:48"
 | concept_structurant | 4 |
 | evenement_live | 3 |
 | fait_sensible | 3 |
-| acteur | 3 |
 | industrie_musicale | 3 |
 | management | 3 |
 | non qualifié | 3 |
@@ -544,10 +555,11 @@ generated_at: "2026-06-01T14:28:48"
 | chronologie_live | 2 |
 | concept_transversal | 2 |
 | lieu | 2 |
+| acteur | 2 |
 | chronologie_tournee | 2 |
 | concert_incident | 2 |
 | synthese_usage_livre | 2 |
-| lieu_scene | 2 |
+| biographie | 2 |
 | infrastructure | 2 |
 | scene_fondatrice | 2 |
 | cartographie_relationnelle | 1 |
@@ -600,11 +612,6 @@ generated_at: "2026-06-01T14:28:48"
 | reseau_acteurs | 1 |
 | voix_acteurs | 1 |
 | culture_musicale | 1 |
-| lieu_archive | 1 |
-| lieu_bascule | 1 |
-| lieu_terminal | 1 |
-| acteur_scene | 1 |
-| micro_chronologie | 1 |
 | temoignage_autobiographique | 1 |
 | temoignage_retrospectif | 1 |
 | texte_editorial | 1 |
@@ -613,6 +620,7 @@ generated_at: "2026-06-01T14:28:48"
 | lecture_discographique | 1 |
 | contrepoint | 1 |
 | methode | 1 |
+| lieu_scene | 1 |
 | fonction_symbolique | 1 |
 | motif_structurant | 1 |
 | modele_heritage | 1 |
@@ -627,13 +635,14 @@ generated_at: "2026-06-01T14:28:48"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 162 |
-| critique | 23 |
-| majeure | 13 |
+| non qualifiée | 155 |
+| critique | 25 |
+| majeure | 17 |
 | majeur | 12 |
 | secondaire | 6 |
 | utile | 2 |
 | haute | 2 |
+| modérée | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

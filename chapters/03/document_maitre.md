@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T14:28:48"
+generated_at: "2026-06-02T20:35:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -589,19 +589,20 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ### 12.1. Motifs dominants
 
+- Hannett (11)
 - Unknown Pleasures (10)
-- Hannett (9)
 - Martin Hannett (9)
 - Strawberry Studios (8)
 - Shadowplay (7)
+- Digital (7)
 - Transmission (7)
 - Interzone (6)
-- Digital (6)
+- Atmosphere (6)
 - seuil (5)
 - RCA (5)
 - Glass (5)
 - Britannia Row (5)
-- Atmosphere (5)
+- studio (5)
 - martin_hannett (4)
 - radio (4)
 - Stephen Morris (4)
@@ -621,14 +622,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ian Curtis (3)
 - Atrocity Exhibition (3)
 - Kraftwerk (3)
+- 1979 (3)
 - John Peel (3)
 - synthétiseurs (3)
+- Unknown_Pleasures (3)
 - anti-virtuosité (3)
-- studio (3)
 - écoute (3)
 - scène (2)
-- Novelty (2)
-- basse (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -720,11 +720,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | non qualifié | 40 |
-| production | 24 |
+| production | 26 |
 | session_studio | 17 |
 | analyse | 13 |
+| fait | 11 |
 | analyse_morceau | 11 |
-| fait | 10 |
 | lecture_musicale | 10 |
 | processus_creatif | 9 |
 | concept | 9 |
@@ -732,12 +732,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session | 7 |
 | analyse_chanson | 6 |
 | document_historique | 5 |
-| lieu_studio | 5 |
+| lecture | 5 |
 | apprentissage_instrumental | 5 |
 | prudence_methodologique | 4 |
 | concept_structurant | 4 |
 | analyse_conceptuelle | 4 |
-| lecture | 4 |
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
@@ -749,6 +748,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | evenement | 3 |
 | interpretation | 3 |
 | contexte_technique | 3 |
+| lieu_studio | 3 |
 | interpretation_studio | 3 |
 | analyse_morceau_studio | 3 |
 | reception_presse | 3 |
@@ -757,6 +757,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse_musicologique | 3 |
 | release_or_session | 3 |
 | song_session | 3 |
+| biographie | 2 |
 | scene_fondatrice | 2 |
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
@@ -774,7 +775,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | interpretation_esthetique | 2 |
 | theorie_voix | 2 |
 | scene_repetition | 2 |
-| citation_repere | 2 |
+| citation_clef | 2 |
 | analyse_historique | 2 |
 | recension_contemporaine | 2 |
 | contexte_biographique | 2 |
@@ -791,7 +792,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | song | 2 |
 | album | 2 |
 | rupture_esthetique | 1 |
-| biographie | 1 |
 | evenement_crise | 1 |
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
@@ -886,9 +886,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | evolution_esthetique | 1 |
 | analyse_developpement | 1 |
 | mythe | 1 |
-| acteur | 1 |
-| micro_chronologie | 1 |
-| idee_directrice | 1 |
 | probleme_esthetique | 1 |
 | analyse_contextuelle | 1 |
 | reflexion_critique_autobiographique | 1 |
@@ -944,9 +941,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 202 |
-| critique | 151 |
-| majeure | 65 |
+| non qualifiée | 195 |
+| critique | 153 |
+| majeure | 70 |
 | utile | 17 |
 | majeur | 15 |
 | secondaire | 4 |

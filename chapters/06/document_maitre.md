@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T14:28:48"
+generated_at: "2026-06-02T20:35:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -619,13 +619,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - still (11)
 - Rafters (9)
 - Transmission (9)
-- Digital (7)
+- studio (8)
+- Digital (8)
 - Buzzcocks tour (7)
 - closer (7)
 - Ian Curtis (7)
 - John Peel (7)
+- Closer (7)
 - Gretton (6)
-- studio (6)
 - Rainbow Theatre (6)
 - Electric Circus (6)
 - Terry Mason (6)
@@ -639,8 +640,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Strawberry Studios (5)
 - Kraftwerk (5)
 - She’s Lost Control (5)
-- Closer (5)
+- radio (5)
 - Love Will Tear Us Apart (5)
+- Atmosphere (5)
 - Wilson (4)
 - contrôle (4)
 - synthétiseur (4)
@@ -648,8 +650,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - télévision (4)
 - Band on the Wall (4)
 - Shadowplay (4)
-- Bernard Sumner (4)
-- Buzzcocks (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -741,8 +741,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Type | Nombre |
 |---|---|
 | non qualifié | 32 |
-| production | 19 |
-| fait | 11 |
+| production | 22 |
+| fait | 13 |
 | reception_live | 9 |
 | archive | 9 |
 | analyse | 9 |
@@ -751,10 +751,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_fondatrice | 7 |
 | lecture_chanson | 7 |
 | lecture_musicale | 7 |
+| biographie | 6 |
 | session | 6 |
 | concert | 6 |
 | concept_structurant | 5 |
-| biographie | 5 |
 | manuscript_materiality | 5 |
 | songbook_instruction | 5 |
 | objet_discographique | 5 |
@@ -773,6 +773,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception | 4 |
 | analyse_oeuvre_intertextuelle | 4 |
 | analyse_album | 3 |
+| lecture | 3 |
 | evenement_audiovisuel | 3 |
 | motif_lyrique | 3 |
 | tension_management | 3 |
@@ -791,7 +792,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | cadre_analytique | 3 |
 | analyse_critique | 3 |
 | release_or_session | 3 |
-| lecture | 2 |
 | lacune_documentaire | 2 |
 | lyrics_reference | 2 |
 | infrastructure_scene | 2 |
@@ -818,8 +818,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_repetition | 2 |
 | lecture_album | 2 |
 | objet_visuel | 2 |
-| lieu_studio | 2 |
-| micro_chronologie | 2 |
 | acteur_mediation | 2 |
 | temoignage | 2 |
 | source_part | 2 |
@@ -1007,9 +1005,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_vie_studio | 1 |
 | controverse_studio | 1 |
 | culture_musicale | 1 |
-| lieu_radio | 1 |
-| acteur_media | 1 |
-| idee_directrice | 1 |
 | texte_poetique_analytique | 1 |
 | mediation_label | 1 |
 | album_production | 1 |
@@ -1051,9 +1046,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 278 |
-| non qualifiée | 143 |
-| majeure | 71 |
+| critique | 281 |
+| non qualifiée | 136 |
+| majeure | 75 |
 | majeur | 57 |
 | secondaire | 12 |
 | mineur | 4 |

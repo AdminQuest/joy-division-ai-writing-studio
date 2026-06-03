@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T14:28:48"
+generated_at: "2026-06-02T20:35:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -594,11 +594,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Annik Honoré (23)
 - fatigue (14)
 - Deborah Curtis (13)
+- Closer (11)
 - Tony Wilson (11)
 - Ian Curtis (11)
 - épilepsie (10)
 - ian_curtis (10)
-- Closer (9)
 - Rob Gretton (9)
 - Natalie Curtis (9)
 - She’s Lost Control (8)
@@ -614,6 +614,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
+- Curtis (5)
 - Atmosphere (5)
 - epilepsy (5)
 - handicap (4)
@@ -630,7 +631,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - honte (4)
 - Transmission (4)
 - corps (4)
-- Curtis (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -723,20 +723,21 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifié | 19 |
 | concept_structurant | 15 |
-| prudence_methodologique | 9 |
+| prudence_methodologique | 11 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
-| reception | 6 |
+| reception | 7 |
+| biographie | 5 |
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
 | analyse_chanson | 4 |
-| biographie | 4 |
 | scene_domestique | 4 |
 | evenement_medical_live | 4 |
 | tension_biographique | 4 |
 | live_set_context | 4 |
 | motif_structurant | 3 |
+| lecture | 3 |
 | analyse_album | 3 |
 | tension_medicale | 3 |
 | evenement_medical | 3 |
@@ -745,12 +746,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | analyse_clinique | 3 |
 | lecture_textuelle | 3 |
 | memoire | 3 |
+| analyse | 3 |
 | mythe | 3 |
 | demythification | 3 |
 | evenement_biographique | 3 |
 | intertextualite | 3 |
 | controverse_biographique | 3 |
 | scene_medicale_live | 3 |
+| production | 3 |
 | concert | 3 |
 | analyse_musicologique | 3 |
 | song_session | 3 |
@@ -763,6 +766,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_relationnelle | 2 |
 | tension_psychiatrique | 2 |
 | tension_management_sante | 2 |
+| citation_clef | 2 |
 | santé | 2 |
 | cadre_theorique | 2 |
 | conclusion_analytique | 2 |
@@ -771,7 +775,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance | 2 |
 | cadrage_theorique | 2 |
 | lecture_chansons | 2 |
-| analyse | 2 |
 | interpretation_retrospective | 2 |
 | processus_creatif_chanson | 2 |
 | transition_posthume | 2 |
@@ -789,13 +792,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_intime | 2 |
 | bascule_tournee | 2 |
 | lettre_intime | 2 |
-| production | 2 |
-| idee_directrice | 2 |
+| fait | 2 |
 | temoignage_autobiographique | 2 |
 | fait_biographique_prudent | 2 |
 | scene_fondatrice | 2 |
 | mythe_reception | 1 |
-| lecture | 1 |
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
@@ -827,7 +828,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
 | biographie_culturelle | 1 |
-| citation_clef | 1 |
 | peur | 1 |
 | trauma | 1 |
 | cadre_methodologique | 1 |
@@ -947,15 +947,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
 | interpretation_historique | 1 |
-| lieu_studio | 1 |
-| lieu_terminal | 1 |
-| acteur_media | 1 |
-| acteur_critique | 1 |
-| micro_chronologie | 1 |
-| citation_repere | 1 |
-| vigilance_erreur | 1 |
-| vigilance_interpretative | 1 |
-| synthese_critique | 1 |
 | analyse_historique | 1 |
 | texte_editorial_contemporain | 1 |
 | texte_litteraire | 1 |
@@ -1008,13 +999,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 271 |
-| non qualifiée | 100 |
-| majeure | 46 |
+| critique | 279 |
+| non qualifiée | 89 |
+| majeure | 47 |
 | majeur | 13 |
 | secondaire | 5 |
 | utile | 4 |
 | haute | 4 |
+| modérée | 2 |
 | moyenne | 1 |
 | majeure pour la prudence méthodologique | 1 |
 | majeure pour la prudence santé | 1 |

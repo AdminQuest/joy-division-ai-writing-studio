@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T14:28:48"
+generated_at: "2026-06-02T20:35:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -164,6 +164,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S47 — West, Joy Division, 1984 ; type : `esthétique` ; importance : `critique` ; preuve : `fait_documente`.
 - **S47-120** — S47-120 — *Licht und Blindheit* : tirage limité à 1 578 exemplaires  
   Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `critique` ; preuve : `fait_documente`.
+- **S47-170** — S47-170 — Tony Wilson : de présentateur à architecte d’écosystème  
+  Source : S47 — West, Joy Division, 1984 ; type : `biographie` ; importance : `critique` ; preuve : `lecture_interpretative`.
+- **S47-171** — S47-171 — Rob Gretton : manager comme membre non musicien  
+  Source : S47 — West, Joy Division, 1984 ; type : `biographie` ; importance : `critique` ; preuve : `lecture_interpretative`.
+- **S47-172** — S47-172 — Martin Hannett : du producteur au cinquième membre  
+  Source : S47 — West, Joy Division, 1984 ; type : `biographie` ; importance : `critique` ; preuve : `lecture_interpretative`.
 - **S48-A001** — S48-A001 — S48 comme source graphique secondaire, non source de crédit définitif  
   Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 - **S48-A003** — S48-A003 — *An Ideal for Living* : tambour hitlérien, nom et polémique initiale  
@@ -186,12 +192,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `tension_visuelle` ; importance : `critique` ; preuve : `tension_critique`.
 - **S51-A015** — S51-A015 — L’image pauvre comme puissance mémorielle  
   Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `synthese_argumentative` ; importance : `critique` ; preuve : `synthese_critique`.
-- **S53-A001** — S53-A001 — S53 comme source sur l’incarnation mythique, non comme source factuelle primaire  
-  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
-- **S53-A005** — S53-A005 — Image, mythe et narratologie du monde quotidien  
-  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_critique_central`.
-- **S53-A006** — S53-A006 — *Unknown Pleasures* comme icône émotionnelle partagée  
-  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `image_symbolique` ; importance : `critique` ; preuve : `interpretation_visuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -590,44 +590,44 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Rob Gretton (11)
 - Kevin Cummins (7)
+- Factory (6)
 - fatigue (6)
 - An Ideal for Living (6)
 - factory (6)
+- studio (5)
 - Rabid Records (5)
 - DIY (4)
 - Shadowplay (4)
+- télévision (4)
 - Rock Against Racism (4)
 - Peter Saville (4)
 - Tony Wilson (4)
 - Terry Mason (4)
+- Rafters (4)
 - Sister Ray (4)
 - unknown_pleasures (4)
 - peter_saville (4)
-- Factory (3)
 - prudence (3)
-- studio (3)
 - répétition (3)
+- Digital (3)
 - provocation (3)
 - Electric Circus (3)
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
-- télévision (3)
+- Hannett (3)
 - Warsaw (3)
 - Tosh Ryan (3)
 - pulsar (3)
 - image pauvre (3)
 - An Ideal For Living (3)
 - Paul Morley (3)
-- Rafters (3)
 - RCA (3)
 - John Anderson (3)
 - Band On The Wall (3)
 - A Certain Ratio (3)
 - Moonlight Club (3)
 - transmission (3)
-- atmosphere (3)
-- Saville (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -719,17 +719,18 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | manuscript_materiality | 22 |
-| production | 18 |
+| production | 20 |
 | non qualifié | 14 |
 | analyse_morceau | 10 |
 | objet_discographique | 9 |
+| fait | 9 |
 | concept | 8 |
+| reception | 8 |
 | discographie | 8 |
 | concept_structurant | 7 |
 | analyse_editoriale | 7 |
-| reception | 7 |
 | analyse | 7 |
-| fait | 6 |
+| biographie | 5 |
 | objet_audiovisuel | 5 |
 | concert | 5 |
 | analyse_chanson | 5 |
@@ -754,8 +755,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | television | 3 |
 | image_symbolique | 3 |
 | sociologie | 3 |
-| acteur | 3 |
-| biographie | 2 |
 | analyse_studio | 2 |
 | reception_interne | 2 |
 | temoignage_indirect | 2 |
@@ -778,8 +777,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concert_archive | 2 |
 | culture_musicale | 2 |
 | archive | 2 |
-| lieu_studio | 2 |
-| micro_chronologie | 2 |
 | analyse_critique | 2 |
 | song_or_cover | 2 |
 | institution_scene | 1 |
@@ -920,9 +917,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | contexte_live | 1 |
 | gouvernance | 1 |
 | esthétique | 1 |
-| lieu_bascule | 1 |
-| acteurs_objet | 1 |
-| citation_repere | 1 |
+| citation_clef | 1 |
 | concept_urbain_culturel | 1 |
 | prefiguration_institutionnelle | 1 |
 | analyse_historique | 1 |
@@ -950,13 +945,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 174 |
-| critique | 151 |
-| majeure | 73 |
+| non qualifiée | 164 |
+| critique | 154 |
+| majeure | 78 |
 | utile | 12 |
 | majeur | 9 |
 | secondaire | 7 |
 | haute | 3 |
+| modérée | 2 |
 | mineur | 1 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
