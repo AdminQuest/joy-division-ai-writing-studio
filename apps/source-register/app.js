@@ -76,6 +76,7 @@ function recordLabel(index, id) {
   const data = record.data || {};
   return T(data.name)
     || T(data.label)
+    || T(data.nom)
     || T(data.concept)
     || T(data.motif)
     || T(data.mythe)
