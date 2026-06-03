@@ -15,7 +15,7 @@
 | Total enregistrements (toutes types) | **8 437** |
 | Erreurs bloquantes (audit) | **0** ✅ |
 | Avertissements (audit) | 28 876 |
-| Dette migration v2 (atomes incomplets) | 2 643 / 2 770 |
+| Dette migration v2 (atomes incomplets) | 2 530 / 2 770 |
 
 ### Répartition des enregistrements par type
 
@@ -249,7 +249,7 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 | YAML parse errors | **0** | -1 (corrigé master_concepts.md) |
 | Avertissements | 28 876 | -1 071 (était 29 947) |
 | unknown_yaml_blocks | 1 410 | -71 (était 1 481) |
-| v2 migration debt | 2 643 atomes | non démarrée (stratégique) |
+| v2 migration debt | 2 530 atomes | -113 (était 2 643) |
 
 ---
 
@@ -257,7 +257,7 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 - **Pagination non déclarée** : les sources sans champ `pages_atomisees` dans `source.md` affichent "pag. NR". Des atomes existent mais la couverture est incalculable.
 - **Chapitres v2** : la colonne "Chap. v2" ne compte que les atomes déclarant explicitement un champ `chapitres:` (format v2). Les atomes v1 affichent "—".
-- **Dette migration v2** : 2 643 atomes sur 2 716 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
+- **Dette migration v2** : 2 530 atomes sur 2 770 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
 - **REGISTRY** : identifiant interne de référence pour les chansons, ajouté au registre le 26/05/2026.
 
 ---
