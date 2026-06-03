@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
+  <title>Registre des sources — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="sources-hero">
+    <div class="sources-hero__inner">
+      <a class="sources-back" href="../../">← Retour au portail</a>
+      <h1>Registre des sources</h1>
+      <p class="sources-hero__subtitle">Fiches documentaires construites depuis les exports publics : notices, citations, atomes, chapitres et premiers liens du graphe.</p>
+    </div>
+  </header>
+
+  <main class="sources-layout">
+    <section class="sources-toolbar" aria-label="Filtres et recherche">
+      <div class="sources-status" id="status">Chargement du registre des sources…</div>
+
+      <div class="sources-filters">
+        <div class="sources-field sources-field--search">
+          <label for="search">Recherche</label>
+          <input id="search" type="search" placeholder="Auteur, titre, S76, Factory, Curtis…" autocomplete="off">
+        </div>
+
+        <div class="sources-field">
+          <label for="year-filter">Année</label>
+          <select id="year-filter"><option value="">Toutes</option></select>
+        </div>
+
+        <div class="sources-field">
+          <label for="status-filter">Statut</label>
+          <select id="status-filter"><option value="">Tous</option></select>
+        </div>
+
+        <div class="sources-field">
+          <label for="density-filter">Densité</label>
+          <select id="density-filter">
+            <option value="">Toutes</option>
+            <option value="quotes">Avec citations</option>
+            <option value="atoms">Avec atomes</option>
+            <option value="semantic">Avec liens sémantiques</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="sources-actions">
+        <button id="reset-filters" type="button">Réinitialiser</button>
+        <button id="download-csv" type="button">Exporter CSV</button>
+        <span id="results-meta" class="sources-meta"></span>
+      </div>
+    </section>
+
+    <section class="sources-content" aria-live="polite">
+      <div class="sources-list-wrap">
+        <div class="sources-section-header">
+          <h2>Sources</h2>
+          <p id="list-note">Sélectionner une source pour ouvrir sa fiche.</p>
+        </div>
+        <div id="sources-list" class="sources-list"></div>
+      </div>
+
+      <article id="source-detail" class="source-detail">
+        <p class="source-detail__empty">Choisissez une source dans la liste.</p>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
