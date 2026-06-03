@@ -112,6 +112,10 @@ function configureDedicatedMode(type) {
   if (typeFilter) typeFilter.disabled = !!dedicatedType;
 }
 
+function currentTypeFilter() {
+  return dedicatedType || typeFilter.value;
+}
+
 function initialTypeFilter() {
   try {
     const raw = new URLSearchParams(window.location.search).get('type');
@@ -505,18 +509,20 @@ function hydrateFilters() {
 }
 
 function matches(profile) {
+  const type = currentTypeFilter();
   const query = searchInput.value.trim().toLowerCase();
   if (query && !profile.searchText.includes(query)) return false;
   if (sourceFilter.value && !profile.sourceIds.includes(sourceFilter.value)) return false;
   if (chapterFilter.value && !profile.chapters.includes(chapterFilter.value)) return false;
-  if (typeFilter.value && profile.kind !== typeFilter.value) return false;
+  if (type && profile.kind !== type) return false;
   return true;
 }
 
 function applyFilters() {
-  updateViewLabels(typeFilter.value);
+  const type = currentTypeFilter();
+  updateViewLabels(type);
   filtered = profiles.filter(matches);
-  if (!filtered.some(profile => profile.id === activeId && profile.kind === activeKind())) {
+  if (!filtered.some(profile => profile.id === activeId && (!type || profile.kind === type))) {
     activeId = filtered[0] ? filtered[0].id : '';
   }
   renderList();
@@ -524,8 +530,9 @@ function applyFilters() {
 }
 
 function activeKind() {
-  const active = profiles.find(profile => profile.id === activeId && (!typeFilter.value || profile.kind === typeFilter.value));
-  return active ? active.kind : typeFilter.value;
+  const type = currentTypeFilter();
+  const active = profiles.find(profile => profile.id === activeId && (!type || profile.kind === type));
+  return active ? active.kind : type;
 }
 
 function countBadge(value, label) {
@@ -538,12 +545,15 @@ function badge(label, href = '') {
 }
 
 function renderList() {
-  const labels = activeViewLabels(typeFilter.value);
+  const type = currentTypeFilter();
+  const labels = activeViewLabels(type);
+  const scopedTotal = type ? profiles.filter(profile => profile.kind === type).length : profiles.length;
   const noun = filtered.length > 1 ? labels.plural : labels.singular;
   resultsMeta.textContent = filtered.length + ' ' + noun;
-  statusCard.textContent = profiles.length + ' entrée' + (profiles.length > 1 ? 's' : '')
-    + ' chargée' + (profiles.length > 1 ? 's' : '')
-    + ' depuis les exports publics.';
+  statusCard.textContent = scopedTotal + ' ' + (scopedTotal > 1 ? labels.plural : labels.singular)
+    + ' disponible' + (scopedTotal > 1 ? 's' : '')
+    + ' depuis les exports publics'
+    + (filtered.length === scopedTotal ? '.' : ' ; ' + filtered.length + ' affiché' + (filtered.length > 1 ? 's' : '') + '.');
 
   if (!filtered.length) {
     listEl.innerHTML = '<p class="empty-state">Aucun résultat pour ces filtres.</p>';
@@ -569,7 +579,8 @@ function renderList() {
 }
 
 function findActiveProfile() {
-  return profiles.find(profile => profile.id === activeId && (!typeFilter.value || profile.kind === typeFilter.value))
+  const type = currentTypeFilter();
+  return profiles.find(profile => profile.id === activeId && (!type || profile.kind === type))
     || filtered[0]
     || null;
 }
@@ -701,7 +712,7 @@ function renderDetail() {
 }
 
 function exportCSV() {
-  const labels = activeViewLabels(typeFilter.value);
+  const labels = activeViewLabels(currentTypeFilter());
   const headers = ['libelle', 'type', 'definition', 'atomes', 'sources', 'chapitres', 'motifs', 'mythes'];
   const rows = filtered.map(profile => [
     profile.label,
@@ -742,8 +753,8 @@ async function loadConceptRegister() {
     });
     const requestedType = initialTypeFilter();
     configureDedicatedMode(requestedType);
-    typeFilter.value = requestedType;
     hydrateFilters();
+    typeFilter.value = requestedType;
     applyFilters();
   } catch (error) {
     console.error(error);
