@@ -153,6 +153,16 @@ function normalizeIdValue(value) {
   return T(value).trim();
 }
 
+function normalizeLookupValue(value) {
+  return T(value)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 function listFromFields(data, keys, normalizer = value => T(value).trim()) {
   const values = [];
   keys.forEach(key => {
@@ -238,18 +248,18 @@ function typeLabel(type) {
   return TYPE_LABELS[T(type).toLowerCase()] || T(type);
 }
 
+function addToMapSet(map, key, value) {
+  if (!key || !value) return;
+  if (!map.has(key)) map.set(key, new Set());
+  map.get(key).add(value);
+}
+
 function buildIndexes(edges) {
   const targetAtoms = new Map();
   const atomSources = new Map();
   const atomTargets = new Map();
   const sourceQuotes = new Map();
   const quotePeople = new Map();
-
-  function addToMapSet(map, key, value) {
-    if (!key || !value) return;
-    if (!map.has(key)) map.set(key, new Set());
-    map.get(key).add(value);
-  }
 
   edges.forEach(edge => {
     if (edge.relation_type === 'indexed_by' && edge.source_kind === 'atom') {
@@ -274,10 +284,55 @@ function buildIndexes(edges) {
   return { targetAtoms, atomSources, atomTargets, sourceQuotes, quotePeople };
 }
 
+function atomFieldKeys(kind) {
+  if (kind === 'concept') return ['concepts'];
+  if (kind === 'motif') return ['motifs'];
+  if (kind === 'myth') return ['mythes', 'myths'];
+  return [];
+}
+
+function atomReferenceKeys(kind, record) {
+  const id = recordId(record);
+  const label = publicLabel(record, kind);
+  return U([
+    id,
+    label,
+    normalizeLookupValue(id),
+    normalizeLookupValue(label)
+  ]);
+}
+
+function buildAtomReferenceIndex(atoms) {
+  const referenceIndex = {
+    concept: new Map(),
+    motif: new Map(),
+    myth: new Map()
+  };
+
+  atoms.forEach(atom => {
+    const atomId = recordId(atom);
+    if (!atomId) return;
+    const data = atom.data || {};
+    ['concept', 'motif', 'myth'].forEach(kind => {
+      atomFieldKeys(kind).forEach(field => {
+        A(data[field]).forEach(rawValue => {
+          const value = normalizeIdValue(rawValue);
+          if (!value) return;
+          addToMapSet(referenceIndex[kind], value, atomId);
+          addToMapSet(referenceIndex[kind], normalizeLookupValue(value), atomId);
+        });
+      });
+    });
+  });
+
+  return referenceIndex;
+}
+
 function buildProfiles(payload) {
   const { concepts, atoms, quotes, sources, edges, index } = payload;
   loadedIndex = index || {};
   const edgeIndex = buildIndexes(edges);
+  const atomReferenceIndex = buildAtomReferenceIndex(atoms);
   const atomById = new Map();
   const quoteById = new Map();
   const quoteSourceFallback = new Map();
@@ -329,7 +384,8 @@ function buildProfiles(payload) {
       atomById,
       quoteById,
       quoteSourceFallback,
-      edgeIndex
+      edgeIndex,
+      atomReferenceIndex
     });
   }).filter(Boolean).sort((a, b) => {
     if (a.kind !== b.kind) return a.kind.localeCompare(b.kind);
@@ -338,14 +394,19 @@ function buildProfiles(payload) {
 }
 
 function buildProfile(context) {
-  const { kind, record, atomById, quoteById, quoteSourceFallback, edgeIndex } = context;
+  const { kind, record, atomById, quoteById, quoteSourceFallback, edgeIndex, atomReferenceIndex } = context;
   const data = record.data || {};
   const id = recordId(record);
   const directSources = listFromFields(data, ['sources', 'source_ids', 'source_id'], normalizeSourceId);
   const directChapters = listFromFields(data, ['chapitres', 'usage_chapitres'], normalizeChapter);
   const directAtoms = listFromFields(data, ['atomes', 'atomes_lies', 'related_atoms']);
   const graphAtoms = edgeIndex.targetAtoms.get(profileKey(kind, id)) || new Set();
-  const atomIds = new Set([...graphAtoms, ...directAtoms].filter(atomId => atomById.has(atomId)));
+  const atomFieldAtoms = new Set();
+  atomReferenceKeys(kind, record).forEach(key => {
+    const refs = atomReferenceIndex[kind] && atomReferenceIndex[kind].get(key);
+    if (refs) refs.forEach(atomId => atomFieldAtoms.add(atomId));
+  });
+  const atomIds = new Set([...graphAtoms, ...directAtoms, ...atomFieldAtoms].filter(atomId => atomById.has(atomId)));
   const sourceIds = new Set(directSources);
   const chapters = new Set(directChapters);
   const motifCounts = makeCountMap();
