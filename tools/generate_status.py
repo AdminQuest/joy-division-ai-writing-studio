@@ -299,9 +299,14 @@ def generate() -> str:
     lines.append("## Metadata")
     lines.append("")
     lines.append("- Repo : joy-division-ai-writing-studio")
-    lines.append(f"- Branche : {branch}")
-    lines.append(f"- Dernier commit : {sha}")
+    lines.append(f"- Branche source du snapshot : {branch}")
+    lines.append(f"- Commit source du snapshot : {sha}")
     lines.append(f"- Genere par : tools/generate_status.py")
+    lines.append(
+        "- Note : le commit source est le HEAD utilise au moment de la "
+        "generation ; le commit qui inclut STATUS.md est necessairement "
+        "posterieur si le snapshot est committe."
+    )
     lines.append("")
 
     return "\n".join(lines)

@@ -65,6 +65,8 @@ git status
 
 `tools/check_generated_sync.py` ne couvre pas necessairement STATUS.md. La fraicheur de STATUS.md est donc assuree par l'execution explicite de `tools/generate_status.py` et par le commit du snapshot regenere lorsque celui-ci differe.
 
+STATUS.md est un snapshot genere. Il doit etre regenere immediatement avant son commit lorsque la roadmap, les audits ou les artefacts de pilotage changent. Les metadonnees de branche et de commit indiquent le HEAD source utilise par `tools/generate_status.py` au moment de produire le snapshot. Le commit qui inclut STATUS.md peut etre posterieur, car un fichier ne peut pas contenir le SHA du commit qui depend lui-meme de ce fichier.
+
 ## Vue d'ensemble
 
 | Milestone | Statut | Priorite | Intention |
