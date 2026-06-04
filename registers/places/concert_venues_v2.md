@@ -68,14 +68,6 @@ places:
       - S41
     usage: "Club de Manchester ; concert Rock Against Racism de Joy Division."
   - id: PLACE-PIPERS-CYPRUS-TAVERN
-    lat: 53.48040
-    lng: -2.23960
-    geo_precision: rue
-    geo_source: "Piper’s, Spring Gardens, Manchester ; correction : pas le Cyprus Tavern"
-    source_url: "https://joydiv.org/c191077.htm"
-    note_geo: "Joy Division Central signale explicitement la confusion avec Cyprus Tavern."
-    prudence_methodologique: >-
-      Géolocalisation C3A-6B — Piper’s, Spring Gardens, Manchester ; correction : pas le Cyprus Tavern. Source : https://joydiv.org/c191077.htm. Joy Division Central signale explicitement la confusion avec Cyprus Tavern.
     label: "Pipers (Cyprus Tavern)"
     type: salle
     type_detail: club

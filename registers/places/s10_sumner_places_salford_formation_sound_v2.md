@@ -199,12 +199,6 @@ places:
     usage_s10: "Lieu de répétition central, proche du futur Haçienda, associé à Gretton et aux photographies de Curtis."
 
   - id: PLACE-GREENDOW-COMMERCIALS-STUDIO
-    lat: 53.47938
-    lng: -2.24773
-    geo_precision: exacte
-    geo_source: "Arrow Studios, 6 Jackson’s Row, Manchester ; studio Greendow"
-    source_url: "https://www.joydiv.org/places.htm"
-    note_geo: "sessions RCA."
     prudence_methodologique: >-
       Arrow Studios / Greendow Commercials (sessions RCA). Source :
       https://www.discogs.com/label/309893. Coordonnée inconnue : aucune adresse
