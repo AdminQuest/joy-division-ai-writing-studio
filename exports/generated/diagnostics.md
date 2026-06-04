@@ -1,14 +1,14 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-06-02T09:05:51`
+Généré le : `2026-06-04T01:53:46`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 8437
+- Enregistrements : 8634
 - Erreurs : 0
-- Avertissements : 28876
+- Avertissements : 28870
 - Sources déclarées dans `data/registre.json` : 97
 - Sources utilisées dans les enregistrements : 82
 - Sources exportées : 82
@@ -26,14 +26,15 @@ Statut : **warning**
 - motif : 427
 - myth : 102
 - person : 509
+- place : 215
 - quote : 962
 - quote_batch : 1
 - rules : 1
 - session : 17
 - song : 110
 - source : 124
-- template : 340
-- unknown : 1410
+- template : 328
+- unknown : 1404
 
 ## Sources utilisées mais absentes du registre
 
@@ -163,4 +164,4 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: stabilite
-- … 28776 problèmes supplémentaires dans `diagnostics.json`.
+- … 28770 problèmes supplémentaires dans `diagnostics.json`.
