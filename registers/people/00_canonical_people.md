@@ -2684,12 +2684,12 @@ categorie: industrie
 role:
   - photographe
 sources:
-  - IMAGE-I-0004
+  - S46
 same_as: []
 alt_names: []
 categorie_a_arbitrer: false
 a_arbitrer: false
-note: "Identite ajoutee depuis le registre iconographique pour une photographie attribuee a Pennie Smith ; aucun PERS-* source existant au moment de l'ajout."
+note: "S46 documente Pennie Smith parmi les photographes credits. L'attribution de la photographie canonique et son URL de consultation sont portees par le registre images ; aucun PERS-* source existant au moment de l'ajout."
 ```
 
 ## PERSON-penny-rimbaud — Penny Rimbaud

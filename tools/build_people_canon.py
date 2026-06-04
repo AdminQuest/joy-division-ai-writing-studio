@@ -148,12 +148,12 @@ ADDITIONAL_CANONICAL_PERSONS = [
         "name": "Pennie Smith",
         "categorie": "industrie",
         "role": ["photographe"],
-        "sources": ["IMAGE-I-0004"],
+        "sources": ["S46"],
         "same_as": [],
         "alt_names": [],
         "categorie_a_arbitrer": False,
         "a_arbitrer": False,
-        "note": "Identite ajoutee depuis le registre iconographique pour une photographie attribuee a Pennie Smith ; aucun PERS-* source existant au moment de l'ajout.",
+        "note": "S46 documente Pennie Smith parmi les photographes credits. L'attribution de la photographie canonique et son URL de consultation sont portees par le registre images ; aucun PERS-* source existant au moment de l'ajout.",
     }
 ]
 # Dave Pils (composante de PERS-S76-064) est rabattu sur le PERSON- de PERS-S76-077.
