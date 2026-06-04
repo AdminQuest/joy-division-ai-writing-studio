@@ -40,6 +40,11 @@ VALID_RIGHTS_STATUSES = {"known", "unknown", "restricted"}
 
 IMAGE_ID_RE = re.compile(r"^(IMAGE-(S|I)-[0-9]{4}|IMAGE-FB-[0-9]+)$")
 SESSION_ID_RE = re.compile(r"^IMAGE-S-[0-9]{4}$")
+IMAGE_LEVEL_ID_RE = {
+    "session": re.compile(r"^IMAGE-S-[0-9]{4}$"),
+    "image": re.compile(r"^IMAGE-I-[0-9]{4}$"),
+    "image_reference": re.compile(r"^IMAGE-FB-[0-9]+$"),
+}
 PERSON_RE = re.compile(r"^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$")
 DATE_DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATE_MONTH_RE = re.compile(r"^\d{4}-\d{2}$")
@@ -71,6 +76,10 @@ def validate_entry(entry: dict, idx: int, session_ids: set[str]) -> list[str]:
     level = entry.get("level")
     if level and level not in VALID_LEVELS:
         errors.append(f"[INV1] {iid}: invalid level '{level}'")
+    elif level:
+        expected_id_re = IMAGE_LEVEL_ID_RE[level]
+        if "image_id" in entry and not expected_id_re.match(str(entry["image_id"])):
+            errors.append(f"[INV1] {iid}: level='{level}' has incompatible image_id '{entry['image_id']}'")
 
     if not entry.get("canonical_name"):
         errors.append(f"[INV1] {iid}: canonical_name is empty")

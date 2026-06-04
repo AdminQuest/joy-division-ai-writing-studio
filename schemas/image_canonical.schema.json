@@ -156,10 +156,40 @@
       "format": "date"
     }
   },
-  "if": {
-    "properties": { "level": { "const": "image" } }
-  },
-  "then": {
-    "required": ["session_ref"]
-  }
+  "allOf": [
+    {
+      "if": {
+        "properties": { "level": { "const": "session" } },
+        "required": ["level"]
+      },
+      "then": {
+        "properties": {
+          "image_id": { "pattern": "^IMAGE-S-[0-9]{4}$" }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "level": { "const": "image" } },
+        "required": ["level"]
+      },
+      "then": {
+        "required": ["session_ref"],
+        "properties": {
+          "image_id": { "pattern": "^IMAGE-I-[0-9]{4}$" }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "level": { "const": "image_reference" } },
+        "required": ["level"]
+      },
+      "then": {
+        "properties": {
+          "image_id": { "pattern": "^IMAGE-FB-[0-9]+$" }
+        }
+      }
+    }
+  ]
 }
