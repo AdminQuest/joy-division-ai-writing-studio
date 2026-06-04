@@ -815,6 +815,9 @@ PLACE_SCHEMA_SCALAR_FIELDS = {
     "lat",
     "lng",
     "geo_precision",
+    "geo_source",
+    "source_url",
+    "note_geo",
     "same_as",
     "prudence_methodologique",
     "pages_pdf",
@@ -829,6 +832,9 @@ PLACE_ALTERNATE_FIELD_NAMES = {
     "type_detail": "alternate_type_details",
     "source_id": "alternate_source_ids",
     "geo_precision": "alternate_geo_precisions",
+    "geo_source": "alternate_geo_sources",
+    "source_url": "alternate_source_urls",
+    "note_geo": "alternate_notes_geo",
     "pages_pdf": "alternate_pages_pdf",
     "pages_livre": "alternate_pages_livre",
     "statut": "alternate_statuts",
@@ -930,7 +936,7 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
             if usage in distinct_usages
         )
 
-    for key in ("lat", "lng", "geo_precision"):
+    for key in ("lat", "lng", "geo_precision", "geo_source", "source_url", "note_geo"):
         merge_place_scalar_field(data, group, key)
 
     for key in ("atoms", "song_ids", "reference_croisee"):
@@ -963,7 +969,8 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
         "source_label", "alternate_source_labels", "source_short_title", "source_year",
         "source_titre", "auteur", "titre", "source_refs",
         "chapters", "chapitres", "aliases", "alternate_labels", "source_files", "usage",
-        "lat", "lng", "geo_precision", "atoms", "song_ids", "reference_croisee",
+        "lat", "lng", "geo_precision", "geo_source", "source_url", "note_geo",
+        "atoms", "song_ids", "reference_croisee",
         "same_as", "prudence", "prudence_methodologique",
         "methodological_warnings", "notes",
     }

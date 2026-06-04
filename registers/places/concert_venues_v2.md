@@ -21,6 +21,14 @@ statut: integration_directe
 ```yaml
 places:
   - id: PLACE-RUSSELL-CLUB
+    lat: 53.46770
+    lng: -2.25610
+    geo_precision: rue
+    geo_source: "Russell Club / Factory, Royce Road, Hulme"
+    source_url: "https://en.wikipedia.org/wiki/Factory_Records"
+    note_geo: "club démoli ; situé près de Royce Road / Clayburn Street selon sources."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Russell Club / Factory, Royce Road, Hulme. Source : https://en.wikipedia.org/wiki/Factory_Records. club démoli ; situé près de Royce Road / Clayburn Street selon sources.
     label: "Russell Club (The Factory)"
     type: salle
     type_detail: club
@@ -29,6 +37,14 @@ places:
       - S45
     usage: "Club de Royce Road, Hulme ; siège des soirées « The Factory » (Wilson/Erasmus) et venue récurrent de Joy Division."
   - id: PLACE-BAND-ON-THE-WALL
+    lat: 53.48514
+    lng: -2.23488
+    geo_precision: exacte
+    geo_source: "Band on the Wall, 25 Swan Street, Manchester"
+    source_url: "https://bandonthewall.org/"
+    note_geo: "salle toujours existante."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Band on the Wall, 25 Swan Street, Manchester. Source : https://bandonthewall.org/. salle toujours existante.
     label: "Band on the Wall"
     type: salle
     type_detail: salle_concert
@@ -37,6 +53,14 @@ places:
       - S76
     usage: "Salle de Swan Street, Manchester ; concert de Joy Division (deal Factory annoncé)."
   - id: PLACE-KELLYS-MANCHESTER
+    lat: 53.49120
+    lng: -2.24010
+    geo_precision: rue
+    geo_source: "Kelly’s, Amber Street, Manchester"
+    source_url: "https://www.mdmarchive.co.uk/tag/7070/Kelly%27s"
+    note_geo: "club disparu ; localisation au niveau d’Amber Street."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Kelly’s, Amber Street, Manchester. Source : https://www.mdmarchive.co.uk/tag/7070/Kelly%27s. club disparu ; localisation au niveau d’Amber Street.
     label: "Kelly's"
     type: salle
     type_detail: club
@@ -44,6 +68,14 @@ places:
       - S41
     usage: "Club de Manchester ; concert Rock Against Racism de Joy Division."
   - id: PLACE-PIPERS-CYPRUS-TAVERN
+    lat: 53.48040
+    lng: -2.23960
+    geo_precision: rue
+    geo_source: "Piper’s, Spring Gardens, Manchester ; correction : pas le Cyprus Tavern"
+    source_url: "https://joydiv.org/c191077.htm"
+    note_geo: "Joy Division Central signale explicitement la confusion avec Cyprus Tavern."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Piper’s, Spring Gardens, Manchester ; correction : pas le Cyprus Tavern. Source : https://joydiv.org/c191077.htm. Joy Division Central signale explicitement la confusion avec Cyprus Tavern.
     label: "Pipers (Cyprus Tavern)"
     type: salle
     type_detail: club
@@ -51,6 +83,14 @@ places:
       - S76
     usage: "Soirée « Pipers » au Cyprus Tavern, Princess Street, Manchester ; concert de Warsaw. Distinct du club « Pips » (PLACE-PIPS)."
   - id: PLACE-MANCHESTER-APOLLO
+    lat: 53.46918
+    lng: -2.22285
+    geo_precision: exacte
+    geo_source: "Manchester Apollo, Stockport Road, Ardwick"
+    source_url: "https://www.o2apollomanchester.co.uk/"
+    note_geo: "salle toujours existante."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Manchester Apollo, Stockport Road, Ardwick. Source : https://www.o2apollomanchester.co.uk/. salle toujours existante.
     label: "Manchester Apollo"
     type: salle
     type_detail: salle_concert
@@ -58,6 +98,14 @@ places:
       - S76
     usage: "Grande salle de Manchester ; concert de Joy Division (tournée nationale 1979)."
   - id: PLACE-OLDHAM-TOWER-CLUB
+    lat: 53.54090
+    lng: -2.11130
+    geo_precision: site
+    geo_source: "Tower Club, Oldham"
+    source_url: "https://www.joydiv.org/concerts.htm"
+    note_geo: "adresse précise à confirmer."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Tower Club, Oldham. Source : https://www.joydiv.org/concerts.htm. adresse précise à confirmer.
     label: "Oldham Tower Club"
     type: salle
     type_detail: club
@@ -73,6 +121,14 @@ places:
       - S45
     usage: "Club d'Altrincham ; concert de Joy Division."
   - id: PLACE-BOWDON-VALE-YOUTH-CLUB
+    lat: 53.38130
+    lng: -2.36220
+    geo_precision: quartier
+    geo_source: "Bowdon Vale Youth Club, Bowdon, Altrincham"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "adresse exacte non stabilisée."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Bowdon Vale Youth Club, Bowdon, Altrincham. Source : https://www.joydiv.org/places.htm. adresse exacte non stabilisée.
     label: "Bowdon Vale Youth Club"
     type: salle
     type_detail: youth_club
@@ -94,6 +150,12 @@ places:
       255 Oldham Road M4 ; aussi Factory II / New Electric Circus ;
       demoli. Source: joydiv.org/places.htm
   - id: PLACE-SALFORD-TECHNICAL-COLLEGE
+    lat: 53.48410
+    lng: -2.27330
+    geo_precision: site
+    geo_source: "Salford Technical College"
+    source_url: "https://www.joydiv.org/concerts.htm"
+    note_geo: "établissement à vérifier avec archives locales."
     label: "Salford Technical College"
     type: education
     type_detail: college_technique
@@ -134,6 +196,14 @@ places:
       VARIANTE DE NOM (un seul lieu) : « Swinging Apple » (S41) / « Spinning Apple » (S76) —
       orthographe à trancher à la curation ; non dédoublé.
   - id: PLACE-LIVERPOOL-EMPIRE
+    lat: 53.40854
+    lng: -2.97841
+    geo_precision: exacte
+    geo_source: "Liverpool Empire Theatre, Lime Street, Liverpool"
+    source_url: "https://www.atgtickets.com/venues/liverpool-empire/"
+    note_geo: "théâtre toujours existant."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Liverpool Empire Theatre, Lime Street, Liverpool. Source : https://www.atgtickets.com/venues/liverpool-empire/. théâtre toujours existant.
     label: "Liverpool Empire"
     type: salle
     type_detail: salle_spectacle
@@ -155,6 +225,14 @@ places:
     prudence_methodologique: >-
       Swinegate, Leeds ; ancien depot de tramway ; demoli 1989. Source: en.wikipedia.org/wiki/Queens_Hall,_Leeds
   - id: PLACE-LEEDS-UNIVERSITY
+    lat: 53.80670
+    lng: -1.55500
+    geo_precision: campus
+    geo_source: "University of Leeds"
+    source_url: "https://www.leeds.ac.uk/campus"
+    note_geo: "campus, salle exacte à préciser selon date."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — University of Leeds. Source : https://www.leeds.ac.uk/campus. campus, salle exacte à préciser selon date.
     label: "Leeds University"
     type: education
     type_detail: universite
@@ -169,6 +247,14 @@ places:
       - S41
     usage: "Club de Leeds ; concert de Joy Division avec la Durutti Column."
   - id: PLACE-FAN-CLUB-LEEDS
+    lat: 53.79840
+    lng: -1.54390
+    geo_precision: site
+    geo_source: "The Fan Club / Brannigan’s, Leeds"
+    source_url: "https://www.joydiv.org/concerts.htm"
+    note_geo: "salle disparue ; localisation fine à vérifier."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — The Fan Club / Brannigan’s, Leeds. Source : https://www.joydiv.org/concerts.htm. salle disparue ; localisation fine à vérifier.
     label: "F Club (Brannigan's), Leeds"
     type: salle
     type_detail: club
@@ -176,6 +262,14 @@ places:
       - S41
     usage: "Le « F Club » au Brannigan's, Leeds ; concert de Joy Division."
   - id: PLACE-ROCK-GARDEN-MIDDLESBROUGH
+    lat: 54.57630
+    lng: -1.23540
+    geo_precision: site
+    geo_source: "Rock Garden, Middlesbrough"
+    source_url: "https://www.joydiv.org/concerts.htm"
+    note_geo: "localisation fine à confirmer."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Rock Garden, Middlesbrough. Source : https://www.joydiv.org/concerts.htm. localisation fine à confirmer.
     label: "Rock Garden, Middlesbrough"
     type: salle
     type_detail: club
@@ -191,6 +285,14 @@ places:
       - S76
     usage: "Annexe du Town Hall de Newcastle ; concert de Warsaw avec Penetration."
   - id: PLACE-CAIRD-HALL-DUNDEE
+    lat: 56.45961
+    lng: -2.97055
+    geo_precision: exacte
+    geo_source: "Caird Hall, City Square, Dundee"
+    source_url: "https://www.leisureandculturedundee.com/culture/caird-hall"
+    note_geo: "salle municipale stable."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Caird Hall, City Square, Dundee. Source : https://www.leisureandculturedundee.com/culture/caird-hall. salle municipale stable.
     label: "Caird Hall, Dundee"
     type: salle
     type_detail: salle_spectacle
@@ -224,6 +326,14 @@ places:
     prudence_methodologique: >-
       St Johns Place, off Church Street, Preston ; anciennement Raiders ; concert 28 fev 1980. Source: blogpreston.co.uk
   - id: PLACE-WINTER-GARDENS-MALVERN
+    lat: 52.11125
+    lng: -2.33037
+    geo_precision: exacte
+    geo_source: "Winter Gardens, Malvern"
+    source_url: "https://www.malvern-theatres.co.uk/"
+    note_geo: "complexe culturel stabilisé."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Winter Gardens, Malvern. Source : https://www.malvern-theatres.co.uk/. complexe culturel stabilisé.
     label: "Winter Gardens, Malvern"
     type: salle
     type_detail: salle_spectacle
@@ -259,6 +369,14 @@ places:
       (S41) désignent le même complexe — non dédoublé.
       Coordonnees: Market Street, Bury ; Derby Hall / The Met ; concert chaotique 8 avril 1980. Source: themet.org.uk
   - id: PLACE-AJANTA-THEATRE-DERBY
+    lat: 52.91890
+    lng: -1.47690
+    geo_precision: site
+    geo_source: "Ajanta Theatre / Ajanta Cinema, Derby"
+    source_url: "https://www.joydiv.org/c190480.htm"
+    note_geo: "ancien cinéma ; localisation fine à confirmer par plan historique."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Ajanta Theatre / Ajanta Cinema, Derby. Source : https://www.joydiv.org/c190480.htm. ancien cinéma ; localisation fine à confirmer par plan historique.
     label: "Ajanta Theatre, Derby"
     type: salle
     type_detail: salle_spectacle
@@ -306,6 +424,12 @@ places:
     prudence_methodologique: >-
       Railway Hotel, 100 West End Lane, West Hampstead NW6 ; Sister Ray publie sur Still. Source: pubwiki.co.uk
   - id: PLACE-YMCA-LONDON
+    lat: 51.50940
+    lng: -0.13110
+    geo_precision: site
+    geo_source: "YMCA London"
+    source_url: "https://www.joydiv.org/concerts.htm"
+    note_geo: "adresse précise à établir selon l’événement."
     label: "YMCA, London"
     type: salle
     type_detail: salle_polyvalente
@@ -318,6 +442,14 @@ places:
       désigner UN ou DEUX lieux distincts — regroupé provisoirement sous un seul PLACE- ; à
       scinder à la curation si confirmé distinct.
   - id: PLACE-BRUNEL-UNIVERSITY
+    lat: 51.53285
+    lng: -0.47275
+    geo_precision: campus
+    geo_source: "Brunel University, Uxbridge"
+    source_url: "https://www.brunel.ac.uk/about/campus"
+    note_geo: "concert du 15 novembre 1978 listé."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Brunel University, Uxbridge. Source : https://www.brunel.ac.uk/about/campus. concert du 15 novembre 1978 listé.
     label: "Brunel University, Uxbridge"
     type: education
     type_detail: universite
@@ -339,6 +471,14 @@ places:
       - S76
     usage: "Salle sous l'autoroute (Ladbroke Grove), Londres ; concert de Joy Division le lendemain de la naissance de Natalie."
   - id: PLACE-HIGH-WYCOMBE-TOWN-HALL
+    lat: 51.62861
+    lng: -0.74902
+    geo_precision: exacte
+    geo_source: "High Wycombe Town Hall, Queen Victoria Road"
+    source_url: "https://www.wycombe.gov.uk/"
+    note_geo: "salle municipale."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — High Wycombe Town Hall, Queen Victoria Road. Source : https://www.wycombe.gov.uk/. salle municipale.
     label: "High Wycombe Town Hall"
     type: salle
     type_detail: salle_municipale
@@ -346,6 +486,14 @@ places:
       - S76
     usage: "Town Hall de High Wycombe ; concert de Joy Division avec Killing Joke."
   - id: PLACE-LOCARNO-BRISTOL
+    lat: 51.45720
+    lng: -2.59280
+    geo_precision: site
+    geo_source: "Locarno, Bristol"
+    source_url: "https://www.joydiv.org/concerts.htm"
+    note_geo: "salle disparue ; localisation fine à vérifier."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Locarno, Bristol. Source : https://www.joydiv.org/concerts.htm. salle disparue ; localisation fine à vérifier.
     label: "Locarno, Bristol"
     type: salle
     type_detail: salle_concert

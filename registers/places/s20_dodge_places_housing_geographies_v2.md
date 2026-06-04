@@ -29,6 +29,14 @@ places:
     prudence: "À traiter comme lieu social et sanitaire, non comme simple motif noir."
 
   - id: PLACE-ANGEL-MEADOW
+    lat: 53.49020
+    lng: -2.23870
+    geo_precision: quartier
+    geo_source: "Angel Meadow, Manchester"
+    source_url: "https://en.wikipedia.org/wiki/Angel_Meadow"
+    note_geo: "quartier historique ; pas une salle."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Angel Meadow, Manchester. Source : https://en.wikipedia.org/wiki/Angel_Meadow. quartier historique ; pas une salle.
     label: "Angel Meadow"
     type: quartier
     type_detail: quartier_taudis_victorien
@@ -127,6 +135,15 @@ places:
     usage: "Nom péjoratif du Wellington Street estate, emblématique de l'échec des deck-access estates."
 
   - id: PLACE-WELLINGTON-STREET-ESTATE
+    lat: 53.47430
+    lng: -2.20070
+    geo_precision: quartier
+    geo_source: "Wellington Street Estate / « Fort Beswick », Beswick, Manchester"
+    source_url: "https://personalpages.manchester.ac.uk/staff/m.dodge/Fort-Beswick-Been-Gone-and-Forgotten.pdf"
+    reference_croisee: ["wikidata:Q4897126"]
+    note_geo: "coordonnée de secteur, non bloc exact."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Wellington Street Estate / « Fort Beswick », Beswick, Manchester. Source : https://personalpages.manchester.ac.uk/staff/m.dodge/Fort-Beswick-Been-Gone-and-Forgotten.pdf. coordonnée de secteur, non bloc exact.
     label: "Wellington Street estate"
     type: habitat
     type_detail: deck_access_estate

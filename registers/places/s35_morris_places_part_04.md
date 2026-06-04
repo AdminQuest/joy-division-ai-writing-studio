@@ -13,6 +13,14 @@ passage_atomise: "PDF p. 75-102"
 ```yaml
 places:
   - id: PLACE-IVY-LANE
+    lat: 53.25800
+    lng: -2.12650
+    geo_precision: rue
+    geo_source: "Ivy Lane, Macclesfield"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "rue, pas bâtiment."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Ivy Lane, Macclesfield. Source : https://www.joydiv.org/places.htm. rue, pas bâtiment.
     label: "Ivy Lane"
     type: habitat
     type_detail: domicile_adolescent
@@ -107,6 +115,14 @@ places:
     chapitres: [Chapitre 8, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-RARE-RECORDS
+    lat: 53.48018
+    lng: -2.24714
+    geo_precision: exacte
+    geo_source: "Rare Records, 36 John Dalton Street, Manchester"
+    source_url: "https://www.enkiri.com/joy/members/rare_records.html"
+    note_geo: "Ian Curtis y travailla."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Rare Records, 36 John Dalton Street, Manchester. Source : https://www.enkiri.com/joy/members/rare_records.html. Ian Curtis y travailla.
     label: "Rare Records"
     type: commerce
     type_detail: disquaire
@@ -202,6 +218,14 @@ places:
     chapitres: [Chapitre 8, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-BOOTLE-STREET
+    lat: 53.47815
+    lng: -2.24756
+    geo_precision: rue
+    geo_source: "Bootle Street, Manchester"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "rue, pas bâtiment."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Bootle Street, Manchester. Source : https://www.joydiv.org/places.htm. rue, pas bâtiment.
     label: "Bootle Street"
     type: pouvoir
     type_detail: commissariat
