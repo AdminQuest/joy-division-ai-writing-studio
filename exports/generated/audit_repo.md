@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-04T14:37:39`
+Généré le : `2026-06-04T14:52:04`
 
 ## 1. Verdict
 

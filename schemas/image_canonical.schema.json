@@ -149,7 +149,12 @@
       "then": {
         "required": ["session_ref"],
         "properties": {
-          "image_id": { "pattern": "^IMAGE-I-[0-9]{4}$" }
+          "image_id": { "pattern": "^IMAGE-I-[0-9]{4}$" },
+          "session_ref": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^IMAGE-S-[0-9]{4}$"
+          }
         }
       }
     }

@@ -7,8 +7,8 @@ Invariants (severity ERROR unless noted):
   INV1 -- uniqueness: image_id unique across the register.
   INV1b -- level/id coherence: level="session" uses IMAGE-S-NNNN and
            level="image" uses IMAGE-I-NNNN.
-  INV2 -- session_ref: every non-null level="image" session_ref points
-          to an existing level="session" entry in the same file.
+  INV2 -- session_ref: every level="image" entry has a non-null session_ref
+          pointing to an existing level="session" entry in the same file.
   INV3 -- photographer: photographer field references a PERSON- identifier.
   INV4 -- date format: date respects ISO 8601 when date_precision is
           "day" (YYYY-MM-DD) or "month" (YYYY-MM).
@@ -98,7 +98,9 @@ def validate_entry(entry: dict, idx: int, session_ids: set[str]) -> list[str]:
     # INV2 -- session_ref validity
     if level == "image":
         sr = entry.get("session_ref")
-        if sr:
+        if not sr:
+            errors.append(f"[INV2] {iid}: level='image' requires a non-null session_ref")
+        else:
             if not SESSION_ID_RE.match(str(sr)):
                 errors.append(f"[INV2] {iid}: session_ref '{sr}' does not match IMAGE-S-NNNN pattern")
             elif sr not in session_ids:
