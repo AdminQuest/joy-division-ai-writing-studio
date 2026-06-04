@@ -299,9 +299,17 @@ def generate() -> str:
     lines.append("## Metadata")
     lines.append("")
     lines.append("- Repo : joy-division-ai-writing-studio")
-    lines.append(f"- Branche : {branch}")
-    lines.append(f"- Dernier commit : {sha}")
+    lines.append(f"- Branche du snapshot : {branch}")
+    lines.append(f"- Reference git observee avant generation : {sha}")
     lines.append(f"- Genere par : tools/generate_status.py")
+    lines.append(
+        "- Statut : snapshot genere avant commit ; le commit contenant ce "
+        "fichier peut donc etre posterieur."
+    )
+    lines.append(
+        "- Note : cette reference designe l'etat lu par le generateur, "
+        "non le commit final contenant STATUS.md."
+    )
     lines.append("")
 
     return "\n".join(lines)
