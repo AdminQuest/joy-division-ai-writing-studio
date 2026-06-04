@@ -126,7 +126,9 @@ def validate_entry(entry: dict, idx: int, session_ids: set[str]) -> list[str]:
 
     # INV3 -- photographer PERSON- cross-check
     photographer = entry.get("photographer")
-    if photographer and not PERSON_RE.match(str(photographer)):
+    if level in {"session", "image"} and not photographer:
+        errors.append(f"[INV3] {iid}: level='{level}' requires a non-null photographer")
+    if photographer is not None and not PERSON_RE.match(str(photographer)):
         errors.append(f"[INV3] {iid}: photographer '{photographer}' does not match PERSON- pattern")
 
     # INV4 -- date format vs precision

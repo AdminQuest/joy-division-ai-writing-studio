@@ -163,8 +163,13 @@
         "required": ["level"]
       },
       "then": {
+        "required": ["photographer"],
         "properties": {
-          "image_id": { "pattern": "^IMAGE-S-[0-9]{4}$" }
+          "image_id": { "pattern": "^IMAGE-S-[0-9]{4}$" },
+          "photographer": {
+            "type": "string",
+            "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
         }
       }
     },
@@ -174,9 +179,13 @@
         "required": ["level"]
       },
       "then": {
-        "required": ["session_ref"],
+        "required": ["session_ref", "photographer"],
         "properties": {
-          "image_id": { "pattern": "^IMAGE-I-[0-9]{4}$" }
+          "image_id": { "pattern": "^IMAGE-I-[0-9]{4}$" },
+          "photographer": {
+            "type": "string",
+            "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
         }
       }
     },
@@ -187,7 +196,11 @@
       },
       "then": {
         "properties": {
-          "image_id": { "pattern": "^IMAGE-FB-[0-9]+$" }
+          "image_id": { "pattern": "^IMAGE-FB-[0-9]+$" },
+          "photographer": {
+            "type": ["string", "null"],
+            "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
         }
       }
     }
