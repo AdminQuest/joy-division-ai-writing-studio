@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
+  <title>Registre des sessions et répétitions — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sessions-app">
+    <header class="sessions-hero" id="list-hero">
+      <div class="sessions-hero__inner">
+        <a class="sessions-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre des sessions et répétitions</h1>
+        <p class="sessions-hero__subtitle">Répétitions, démos, sessions studio, radio et télévision documentées pour suivre la fabrication du son Joy Division.</p>
+      </div>
+    </header>
+
+    <main class="sessions-layout" id="list-view">
+      <section class="sessions-toolbar" aria-label="Filtres et recherche">
+        <div class="sessions-toolbar__filters">
+          <div class="sessions-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Pennine, Peel, Closer, Love Will Tear Us Apart…" autocomplete="off">
+          </div>
+          <div class="sessions-field">
+            <label for="type-filter">Type</label>
+            <select id="type-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="sessions-field">
+            <label for="status-filter">Statut documentaire</label>
+            <select id="status-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="sessions-field">
+            <label for="place-filter">Lieu</label>
+            <select id="place-filter"><option value="">Tous</option></select>
+          </div>
+        </div>
+        <div class="sessions-toolbar__actions">
+          <button id="reset-filters" class="sessions-btn" type="button">Réinitialiser</button>
+          <button id="download-csv" class="sessions-btn sessions-btn--primary" type="button">Exporter CSV</button>
+          <span class="sessions-toolbar__meta" id="results-meta"></span>
+        </div>
+      </section>
+
+      <div id="sessions-status" class="sessions-status">Chargement du registre sessions…</div>
+      <div id="sessions-sections"></div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
