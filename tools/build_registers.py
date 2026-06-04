@@ -730,6 +730,25 @@ def source_ids_from_place(record: ParsedRecord) -> List[str]:
     values.extend(mergeable_values(data.get("source_ids")))
     return [normalize_identifier(str(value)) for value in values if str(value).strip()]
 
+def source_refs_from_place(record: ParsedRecord) -> List[Dict[str, str]]:
+    refs: List[Dict[str, str]] = []
+    for source_id in source_ids_from_place(record):
+        label = label_for_source(source_id, record.data)
+        ref = {"source_id": source_id}
+        if label.get("label") and label["label"] != source_id:
+            ref["source_label"] = label["label"]
+        auteur = label.get("auteur", "")
+        titre = label.get("titre", "")
+        annee = label.get("annee", "")
+        short_title = f"{auteur}, {titre}, {annee}".strip(", ")
+        if (auteur and auteur != "Inconnu") or (titre and titre != source_id) or annee:
+            ref["source_short_title"] = short_title
+        if annee:
+            ref["source_year"] = annee
+        if len(ref) > 1:
+            refs.append(ref)
+    return refs
+
 def same_as_targets_from_place(record: ParsedRecord) -> List[str]:
     return [str(value) for value in mergeable_values((record.data or {}).get("same_as")) if str(value).strip()]
 
@@ -870,6 +889,12 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
     if sources:
         data["sources"] = sources
 
+    source_refs = unique_values(ref for record in group for ref in source_refs_from_place(record))
+    if len(group) > 1 and source_refs:
+        data["source_refs"] = source_refs
+    else:
+        data.pop("source_refs", None)
+
     chapters = unique_values(
         chapter
         for record in group
@@ -936,7 +961,7 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
     handled = {
         "id", "label", "nom", "name", "sources", "source_id", "source_ids",
         "source_label", "alternate_source_labels", "source_short_title", "source_year",
-        "source_titre", "auteur", "titre",
+        "source_titre", "auteur", "titre", "source_refs",
         "chapters", "chapitres", "aliases", "alternate_labels", "source_files", "usage",
         "lat", "lng", "geo_precision", "atoms", "song_ids", "reference_croisee",
         "same_as", "prudence", "prudence_methodologique",
