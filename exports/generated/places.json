@@ -1,0 +1,4141 @@
+[
+  {
+    "kind": "place",
+    "id": "PLACE-ACTIONSPACE-LONDON",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ACTIONSPACE-LONDON",
+      "label": "Actionspace, London",
+      "type": "salle",
+      "type_detail": "espace_alternatif",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ALBERT-HALL-STIRLING",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ALBERT-HALL-STIRLING",
+      "label": "Albert Hall, Stirling",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 56.11815,
+      "lng": -3.94186,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "24 Dumbarton Road ; Historic Environment Scotland LB41099. Source: trove.scot"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ASSEMBLY-ROOMS-DERBY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ASSEMBLY-ROOMS-DERBY",
+      "label": "Assembly Rooms, Derby",
+      "type": "salle",
+      "type_detail": "salle_municipale",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 52.92331,
+      "lng": -1.47619,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "batiment demoli/transforme ; localisation historique fiable. Source: commons.wikimedia.org"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ASTORIA-EDINBURGH",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ASTORIA-EDINBURGH",
+      "label": "The Astoria, Edinburgh",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BANGOR-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-BANGOR-UNIVERSITY",
+      "label": "Bangor University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.2289,
+      "lng": -4.1269,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "campus historique, pas d'une salle precise. Source: bangor.ac.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BIRMINGHAM-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-BIRMINGHAM-UNIVERSITY",
+      "label": "University of Birmingham (High Hall)",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 52.45029,
+      "lng": -1.93,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "High Hall devenu Chamberlain Hall ; coordonnee calee sur The Vale. Source: enkiri.com"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+      "label": "Bolton Institute of Technology",
+      "type": "education",
+      "type_detail": "institut_technique",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BRADFORD-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-BRADFORD-UNIVERSITY",
+      "label": "Bradford University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.79147,
+      "lng": -1.76607,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "coordonnee du campus central/Richmond Building. Source: bradford.ac.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CAPITOL-ABERDEEN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-CAPITOL-ABERDEEN",
+      "label": "Capitol, Aberdeen",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CARDIFF-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-CARDIFF-UNIVERSITY",
+      "label": "Cardiff University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 51.48839,
+      "lng": -3.1775,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Cardiff Students' Union, Park Place / Senghennydd Road. Source: cardiff.ac.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CITY-HALL-CORK",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-CITY-HALL-CORK",
+      "label": "City Hall, Cork",
+      "type": "salle",
+      "type_detail": "salle_municipale",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CITY-HALL-HULL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-CITY-HALL-HULL",
+      "label": "City Hall, Hull",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.74368,
+      "lng": -0.33979,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "batiment liste, Queen Victoria Square, HU1 3RQ. Source: historicengland.org.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CIVIC-HALL-GUILDFORD",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-CIVIC-HALL-GUILDFORD",
+      "label": "Civic Hall, Guildford",
+      "type": "salle",
+      "type_detail": "salle_municipale",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 51.23946,
+      "lng": -0.56491,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "ancien batiment demoli ; coordonnee du site historique/G Live. Source: setlist.fm"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CLUB-VERA-GRONINGEN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-CLUB-VERA-GRONINGEN",
+      "label": "Club Vera, Groningen",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.21703,
+      "lng": 6.57011,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Oosterstraat 44, Groningen ; salle existante. Source: visitgroningen.nl",
+      "reference_croisee": [
+        "wikidata:Q17389445"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-COATHAM-BOWL-REDCAR",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-COATHAM-BOWL-REDCAR",
+      "label": "Coatham Bowl, Redcar",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 54.62083,
+      "lng": -1.08083,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "batiment demoli 2014 ; coordonnee approximative secteur Majuba Road. Source: redcar-cleveland.gov.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-COLSTON-HALL-BRISTOL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-COLSTON-HALL-BRISTOL",
+      "label": "Colston Hall, Bristol",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 51.454,
+      "lng": -2.598,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "renommee Bristol Beacon. Source: historicengland.org.uk",
+      "reference_croisee": [
+        "wikidata:Q5149374"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-DE-MONTFORT-HALL-LEICESTER",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-DE-MONTFORT-HALL-LEICESTER",
+      "label": "De Montfort Hall, Leicester",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 52.6243,
+      "lng": -1.1216,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "batiment stable, Granville Road, LE1 7RU. Source: demontforthall.co.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-DOORNROOSJE-NIJMEGEN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-DOORNROOSJE-NIJMEGEN",
+      "label": "Doornroosje, Nijmegen",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 51.83095,
+      "lng": 5.86025,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "emplacement d'epoque, Groenewoudseweg 322 ; demenage en 2014. Source: podiuminfo.nl",
+      "reference_croisee": [
+        "wikidata:Q2180529"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GOOD-MOOD-HALIFAX",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-GOOD-MOOD-HALIFAX",
+      "label": "Good Mood, Halifax",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-IMPERIAL-HOTEL-BLACKPOOL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-IMPERIAL-HOTEL-BLACKPOOL",
+      "label": "Imperial Hotel, Blackpool",
+      "type": "salle",
+      "type_detail": "salle_hotel",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.827301,
+      "lng": -3.054586,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "North Promenade FY1 2HB ; hotel toujours existant. Source: imperialhotelblackpool.co.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-KANT-KINO-BERLIN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-KANT-KINO-BERLIN",
+      "label": "Kant Kino, Berlin",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 52.5069,
+      "lng": 13.30834,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Kantstrasse 54, 10627 Berlin ; salle existante. Source: yorck.de",
+      "reference_croisee": [
+        "wikidata:Q42297621"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-KING-GEORGES-HALL-BLACKBURN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-KING-GEORGES-HALL-BLACKBURN",
+      "label": "King George's Hall, Blackburn",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.74893,
+      "lng": -2.48597,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Regroupe les graphies « King George's Hall » et « King Georges Hall » (même lieu). Coordonnees: \"batiment stable, Northgate, BB2 1AA. Source: visitlancashire.com\""
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-KING-KONG-ANTWERPEN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-KING-KONG-ANTWERPEN",
+      "label": "King Kong, Antwerp",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LANCASTER-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-LANCASTER-UNIVERSITY",
+      "label": "Lancaster University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 54.00617,
+      "lng": -2.78466,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "campus Bailrigg, pas d'une salle precise. Source: lancaster.ac.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LANTAREN-ROTTERDAM",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-LANTAREN-ROTTERDAM",
+      "label": "Lantaren, Rotterdam",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LEIGH-FESTIVAL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-LEIGH-FESTIVAL",
+      "label": "Leigh Open Air Festival (Zoo/Factory)",
+      "type": "salle",
+      "type_detail": "festival",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LIMIT-CLUB-SHEFFIELD",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-LIMIT-CLUB-SHEFFIELD",
+      "label": "Limit Club, Sheffield",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LOUGHBOROUGH-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-LOUGHBOROUGH-UNIVERSITY",
+      "label": "Loughborough University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 52.7648,
+      "lng": -1.228,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "campus etendu ; point central acceptable. Source: lboro.ac.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LYCEUM-LONDON",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-LYCEUM-LONDON",
+      "label": "The Lyceum, London",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 51.51154,
+      "lng": -0.12008,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "21 Wellington Street ; batiment stable. Source: latlong.net"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MANCHESTER-POLYTECHNIC",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-MANCHESTER-POLYTECHNIC",
+      "label": "Manchester Polytechnic",
+      "type": "education",
+      "type_detail": "polytechnique",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "lat": 53.47053,
+      "lng": -2.23872,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "ancien Manchester Polytechnic ; campus All Saints. Source: mmu.ac.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-METRO-PLYMOUTH",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-METRO-PLYMOUTH",
+      "label": "Metro, Plymouth",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MOUNTFORD-HALL-LIVERPOOL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-MOUNTFORD-HALL-LIVERPOOL",
+      "label": "Mountford Hall (Liverpool University)",
+      "type": "salle",
+      "type_detail": "salle_universitaire",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NEW-THEATRE-OXFORD",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-NEW-THEATRE-OXFORD",
+      "label": "New Theatre, Oxford",
+      "type": "salle",
+      "type_detail": "theatre",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NEWCASTLE-CITY-HALL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-NEWCASTLE-CITY-HALL",
+      "label": "Newcastle City Hall",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NEWCASTLE-GUILDHALL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-NEWCASTLE-GUILDHALL",
+      "label": "Newcastle Guildhall",
+      "type": "salle",
+      "type_detail": "salle_municipale",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org).",
+      "prudence_methodologique": "Regroupe les graphies joydiv « Guild Hall » et « Guildhall » (même lieu)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ODEON-BIRMINGHAM",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ODEON-BIRMINGHAM",
+      "label": "Odeon, Birmingham",
+      "type": "salle",
+      "type_detail": "cinema_salle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ODEON-CANTERBURY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ODEON-CANTERBURY",
+      "label": "Odeon, Canterbury",
+      "type": "salle",
+      "type_detail": "cinema_salle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ODEON-EDINBURGH",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ODEON-EDINBURGH",
+      "label": "Odeon, Edinburgh",
+      "type": "salle",
+      "type_detail": "cinema_salle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-OLYMPIA-DUBLIN",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-OLYMPIA-DUBLIN",
+      "label": "Olympia Theatre, Dublin",
+      "type": "salle",
+      "type_detail": "theatre",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PAARD-VAN-TROJE-THE-HAGUE",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-PAARD-VAN-TROJE-THE-HAGUE",
+      "label": "Paard van Troje, The Hague",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PAVILION-HEMEL-HEMPSTEAD",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-PAVILION-HEMEL-HEMPSTEAD",
+      "label": "Pavilion, Hemel Hempstead",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PLAYHOUSE-THEATRE-NOTTINGHAM",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-PLAYHOUSE-THEATRE-NOTTINGHAM",
+      "label": "Playhouse Theatre, Nottingham",
+      "type": "salle",
+      "type_detail": "theatre",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-REVOLUTION-CLUB-YORK",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-REVOLUTION-CLUB-YORK",
+      "label": "Revolution Club, York",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ROMULUS-CLUB-BIRMINGHAM",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ROMULUS-CLUB-BIRMINGHAM",
+      "label": "Romulus Club, Birmingham",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ROYALTY-THEATRE-LONDON",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ROYALTY-THEATRE-LONDON",
+      "label": "Royalty Theatre, London",
+      "type": "salle",
+      "type_detail": "theatre",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SCALA-CINEMA-LONDON",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-SCALA-CINEMA-LONDON",
+      "label": "Scala Cinema, London",
+      "type": "salle",
+      "type_detail": "cinema_salle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SHEFFIELD-POLYTECHNIC",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-SHEFFIELD-POLYTECHNIC",
+      "label": "Sheffield Polytechnic",
+      "type": "education",
+      "type_detail": "polytechnique",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SOPHIA-GARDENS-CARDIFF",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-SOPHIA-GARDENS-CARDIFF",
+      "label": "Sophia Gardens Pavilion, Cardiff",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SOUTHAMPTON-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-SOUTHAMPTON-UNIVERSITY",
+      "label": "Southampton University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ST-ANDREWS-UNIVERSITY",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ST-ANDREWS-UNIVERSITY",
+      "label": "St Andrews University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ST-GEORGES-HALL-BRADFORD",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ST-GEORGES-HALL-BRADFORD",
+      "label": "St George's Hall, Bradford",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-STOCKPORT-COLLEGE",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-STOCKPORT-COLLEGE",
+      "label": "Stockport College of Technology",
+      "type": "education",
+      "type_detail": "college_technique",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-THE-VENUE-MANCHESTER",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-THE-VENUE-MANCHESTER",
+      "label": "The Venue, Manchester",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TIFFANYS-LEICESTER",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-TIFFANYS-LEICESTER",
+      "label": "Tiffany's, Leicester",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TOP-RANK-READING",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-TOP-RANK-READING",
+      "label": "Top Rank, Reading",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TOP-RANK-SHEFFIELD",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-TOP-RANK-SHEFFIELD",
+      "label": "Top Rank, Sheffield",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TRINITY-HALL-BRISTOL",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-TRINITY-HALL-BRISTOL",
+      "label": "Trinity Hall, Bristol",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ULSTER-HALL-BELFAST",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-ULSTER-HALL-BELFAST",
+      "label": "Ulster Hall, Belfast",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-UNIVERSITY-OF-KENT",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-UNIVERSITY-OF-KENT",
+      "label": "University of Kent, Canterbury",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-UNIVERSITY-OF-LONDON-UNION",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-UNIVERSITY-OF-LONDON-UNION",
+      "label": "University of London Union (ULU)",
+      "type": "education",
+      "type_detail": "union_etudiante",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WEST-RUNTON-PAVILION",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-WEST-RUNTON-PAVILION",
+      "label": "West Runton Pavilion",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WYTHENSHAWE-COLLEGE",
+    "file": "registers/places/concert_venues_7abis.md",
+    "heading": "Lieux de concerts (suite) — venues joydiv débloqués (étape 7a-bis)",
+    "data": {
+      "id": "PLACE-WYTHENSHAWE-COLLEGE",
+      "label": "Wythenshawe College, Manchester",
+      "type": "education",
+      "type_detail": "college",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue de concert de Joy Division (source joydiv.org)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-9-30-CLUB-WASHINGTON",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-9-30-CLUB-WASHINGTON",
+      "label": "9:30 Club, Washington D.C.",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+      "label": "American Indian Center, San Francisco",
+      "type": "salle",
+      "type_detail": "salle_polyvalente",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BOOKIES-DETROIT",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-BOOKIES-DETROIT",
+      "label": "Bookie's Club 870, Detroit",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-DUFFYS-MINNEAPOLIS",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-DUFFYS-MINNEAPOLIS",
+      "label": "Duffy's, Minneapolis",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-FLIPPERS-LOS-ANGELES",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-FLIPPERS-LOS-ANGELES",
+      "label": "Flipper's, Los Angeles",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HURRAH-NEW-YORK",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-HURRAH-NEW-YORK",
+      "label": "Hurrah, New York",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MACHINISTS-HALL-NEW-YORK",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-MACHINISTS-HALL-NEW-YORK",
+      "label": "Machinist's Hall, New York",
+      "type": "salle",
+      "type_detail": "salle_polyvalente",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MERLYNS-MADISON",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-MERLYNS-MADISON",
+      "label": "Merlyn's, Madison",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-STARWOOD-LOS-ANGELES",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-STARWOOD-LOS-ANGELES",
+      "label": "The Starwood, Los Angeles",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-THE-EDGE-TORONTO",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-THE-EDGE-TORONTO",
+      "label": "The Edge, Toronto",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-THE-UNDERGROUND-BOSTON",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-THE-UNDERGROUND-BOSTON",
+      "label": "The Underground, Boston",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TIER-3-NEW-YORK",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-TIER-3-NEW-YORK",
+      "label": "Tier 3, New York",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TUTS-CHICAGO",
+    "file": "registers/places/concert_venues_7b2.md",
+    "heading": "Lieux de concerts (suite) — tournée US-Canada annulée (étape 7b-2)",
+    "data": {
+      "id": "PLACE-TUTS-CHICAGO",
+      "label": "Tuts, Chicago",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Venue programmé de la tournée US-Canada (mai-juin 1980), annulée ; concert non tenu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-RUSSELL-CLUB",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-RUSSELL-CLUB",
+      "label": "Russell Club (The Factory)",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "usage": "Club de Royce Road, Hulme ; siège des soirées « The Factory » (Wilson/Erasmus) et venue récurrent de Joy Division."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BAND-ON-THE-WALL",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-BAND-ON-THE-WALL",
+      "label": "Band on the Wall",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Salle de Swan Street, Manchester ; concert de Joy Division (deal Factory annoncé)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-KELLYS-MANCHESTER",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-KELLYS-MANCHESTER",
+      "label": "Kelly's",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Club de Manchester ; concert Rock Against Racism de Joy Division."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PIPERS-CYPRUS-TAVERN",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-PIPERS-CYPRUS-TAVERN",
+      "label": "Pipers (Cyprus Tavern)",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Soirée « Pipers » au Cyprus Tavern, Princess Street, Manchester ; concert de Warsaw. Distinct du club « Pips » (PLACE-PIPS)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MANCHESTER-APOLLO",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-MANCHESTER-APOLLO",
+      "label": "Manchester Apollo",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Grande salle de Manchester ; concert de Joy Division (tournée nationale 1979)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-OLDHAM-TOWER-CLUB",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-OLDHAM-TOWER-CLUB",
+      "label": "Oldham Tower Club",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Tower Club d'Oldham ; concert de Warsaw/Joy Division devant un public quasi nul."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CHECK-INN-ALTRINCHAM",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-CHECK-INN-ALTRINCHAM",
+      "label": "Check Inn, Altrincham",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "usage": "Club d'Altrincham ; concert de Joy Division."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+      "label": "Bowdon Vale Youth Club",
+      "type": "salle",
+      "type_detail": "youth_club",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Youth club de la région d'Altrincham ; concert filmé par Malcolm Whitehead (« She's Lost Control »)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NEW-OSBOURNE-CLUB",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-NEW-OSBOURNE-CLUB",
+      "label": "New Osbourne Club",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S45"
+      ],
+      "usage": "Club de Manchester ; concert bénéfice *City Fun*.",
+      "lat": 53.4869,
+      "lng": -2.2239,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "255 Oldham Road M4 ; aussi Factory II / New Electric Circus ; demoli. Source: joydiv.org/places.htm"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+      "label": "Salford Technical College",
+      "type": "education",
+      "type_detail": "college_technique",
+      "sources": [
+        "S41",
+        "S76",
+        "S83"
+      ],
+      "usage": "Établissement de Salford ; concert de Warsaw (avec Drones / Slaughter & The Dogs / V2).",
+      "prudence_methodologique": "Canonique sémantique de l'institution technique de Salford. Réconciliation (étape 7b-1) : PLACE-S83-004 (« Salford Technical School », facette S83 / rencontre Hannett 1977) porte désormais same_as vers ce canonique ; la mention joydiv « Salford College of Technology » désigne le même établissement. Variance de nom (School / College) conservée, statut S83 a_verifier inchangé. | Réconcilié (étape 7b-1) vers le canonique sémantique PLACE-SALFORD-TECHNICAL-COLLEGE : même institution d'enseignement technique de Salford où Warsaw joue en octobre 1977 (joydiv : « Salford College of Technology ») et où Hannett rencontre le groupe en 1977. Variance de nom conservée (« School » côté S83 / « College » côté venue), statut a_verifier inchangé.",
+      "alternate_labels": [
+        "Salford Technical School"
+      ],
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 3"
+      ],
+      "aliases": [
+        "PLACE-S83-004"
+      ],
+      "source_files": [
+        "registers/places/concert_venues_v2.md",
+        "registers/s83_hannett_architecture_specialized_registers.md"
+      ],
+      "pages_livre": "155, 169",
+      "pages_pdf": "186, 201",
+      "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+      "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+      "source_year": "2018",
+      "statut": "a_verifier — note 1 du chapitre, via Reynolds 2008",
+      "alternate_type_details": [
+        "lieu_historique_rencontre"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ERICS-LIVERPOOL",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ERICS-LIVERPOOL",
+      "label": "Eric's",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Club emblématique de Mathew Street, Liverpool ; concerts de Joy Division (dont avec les Rich Kids).",
+      "lat": 53.40654,
+      "lng": -2.98753,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Mathew Street, Liverpool L2 ; club ferme 1980. Source: en.wikipedia.org/wiki/Eric%27s_Club",
+      "reference_croisee": [
+        "wikidata:Q5388790"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SWINGING-APPLE-LIVERPOOL",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-SWINGING-APPLE-LIVERPOOL",
+      "label": "Swinging Apple, Liverpool",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Club de Liverpool ; dernier concert sous le nom Warsaw (réveillon 1977).",
+      "prudence_methodologique": "VARIANTE DE NOM (un seul lieu) : « Swinging Apple » (S41) / « Spinning Apple » (S76) — orthographe à trancher à la curation ; non dédoublé."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LIVERPOOL-EMPIRE",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-LIVERPOOL-EMPIRE",
+      "label": "Liverpool Empire",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Théâtre de Liverpool ; concert de Lou Reed (1973) auquel assiste Ian Curtis — venue de concert d'un autre artiste, conservé comme lieu."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-QUEENS-HALL-LEEDS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-QUEENS-HALL-LEEDS",
+      "label": "Queen's Hall, Leeds",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S41",
+        "S45",
+        "S76"
+      ],
+      "usage": "Grande halle de Leeds ; hôte du Futurama Festival 1979 où joue Joy Division.",
+      "lat": 53.794,
+      "lng": -1.5436,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Swinegate, Leeds ; ancien depot de tramway ; demoli 1989. Source: en.wikipedia.org/wiki/Queens_Hall,_Leeds"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LEEDS-UNIVERSITY",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-LEEDS-UNIVERSITY",
+      "label": "Leeds University",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Université de Leeds ; concert de Joy Division (tournée Buzzcocks)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ROOTS-CLUB-LEEDS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ROOTS-CLUB-LEEDS",
+      "label": "Roots Club, Leeds",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Club de Leeds ; concert de Joy Division avec la Durutti Column."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-FAN-CLUB-LEEDS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-FAN-CLUB-LEEDS",
+      "label": "F Club (Brannigan's), Leeds",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Le « F Club » au Brannigan's, Leeds ; concert de Joy Division."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+      "label": "Rock Garden, Middlesbrough",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Club de Middlesbrough ; concert de Warsaw promu par Bob Last."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NEWCASTLE-TOWN-HALL",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-NEWCASTLE-TOWN-HALL",
+      "label": "Newcastle Town Hall (annexe)",
+      "type": "salle",
+      "type_detail": "salle_municipale",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Annexe du Town Hall de Newcastle ; concert de Warsaw avec Penetration."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CAIRD-HALL-DUNDEE",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-CAIRD-HALL-DUNDEE",
+      "label": "Caird Hall, Dundee",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Salle de Dundee ; concert de Joy Division (tournée Buzzcocks) où Ian s'effondre."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ROYAL-STANDARD-BRADFORD",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ROYAL-STANDARD-BRADFORD",
+      "label": "Royal Standard, Bradford",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Pub-venue de Bradford ; concert de Joy Division."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-COACH-HOUSE-HUDDERSFIELD",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-COACH-HOUSE-HUDDERSFIELD",
+      "label": "Coach House, Huddersfield",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Salle de Huddersfield ; concert de Joy Division devant un public minuscule."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WAREHOUSE-PRESTON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-WAREHOUSE-PRESTON",
+      "label": "The Warehouse, Preston",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Club de Preston ; concert de Joy Division avec Section 25. Distinct de PLACE-WAREHOUSE-CHICAGO.",
+      "lat": 53.75918,
+      "lng": -2.69928,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "St Johns Place, off Church Street, Preston ; anciennement Raiders ; concert 28 fev 1980. Source: blogpreston.co.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WINTER-GARDENS-MALVERN",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-WINTER-GARDENS-MALVERN",
+      "label": "Winter Gardens, Malvern",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Salle de Malvern ; concert de Joy Division."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-THE-SQUAT-MANCHESTER",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-THE-SQUAT-MANCHESTER",
+      "label": "The Squat, Manchester",
+      "type": "salle",
+      "type_detail": "lieu_alternatif",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Bâtiment universitaire désaffecté (Devas Street, Manchester) occupé ; plusieurs concerts de Warsaw (Stuff the Jubilee, Time's Up).",
+      "lat": 53.46485,
+      "lng": -2.2329,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "Devas Street M15 ; batiment demoli, Devas Street disparue, approxime pres Manchester Academy. Source: mdmarchive.co.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-DERBY-HALL-BURY",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-DERBY-HALL-BURY",
+      "label": "Derby Hall, Bury",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "usage": "Salle du complexe municipal de Bury ; avant-dernier concert (8 avril 1980), Curtis très affaibli.",
+      "lat": 53.59286,
+      "lng": -2.29641,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "VARIANTE DE NOM (un seul lieu) : « Derby Hall, Bury » (S75/S76) et « Bury Town Hall » (S41) désignent le même complexe — non dédoublé. Coordonnees: \"Market Street, Bury ; Derby Hall / The Met ; concert chaotique 8 avril 1980. Source: themet.org.uk\""
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-AJANTA-THEATRE-DERBY",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-AJANTA-THEATRE-DERBY",
+      "label": "Ajanta Theatre, Derby",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Cinéma-théâtre de Derby ; avant-dernier concert de Joy Division (19 avril 1980)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-RAINBOW-THEATRE-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-RAINBOW-THEATRE-LONDON",
+      "label": "Rainbow Theatre, London",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "usage": "Salle de Finsbury Park, Londres ; concerts de Joy Division (dont la crise de Curtis sous stroboscopes, 4 avril 1980).",
+      "lat": 51.56419,
+      "lng": -0.10607,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "232-238 Seven Sisters Road, Finsbury Park N4 ; batiment classe, aujourd'hui UCKG. Source: historicengland.org.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ELECTRIC-BALLROOM-CAMDEN",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ELECTRIC-BALLROOM-CAMDEN",
+      "label": "Electric Ballroom, Camden",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Salle de Camden, Londres ; concerts de Joy Division.",
+      "lat": 51.54174,
+      "lng": -0.14247,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Camden High Street NW1 ; salle toujours active. Source: electricballroom.co.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MOONLIGHT-CLUB-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-MOONLIGHT-CLUB-LONDON",
+      "label": "Moonlight Club, West Hampstead",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Club de West Hampstead, Londres ; mini-résidence de Joy Division (avril 1980).",
+      "lat": 51.54638,
+      "lng": -0.19114,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Railway Hotel, 100 West End Lane, West Hampstead NW6 ; Sister Ray publie sur Still. Source: pubwiki.co.uk"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-YMCA-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-YMCA-LONDON",
+      "label": "YMCA, London",
+      "type": "salle",
+      "type_detail": "salle_polyvalente",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Centre YMCA de Londres ; concerts de Joy Division.",
+      "prudence_methodologique": "DÉSAMBIGUÏSATION INCERTAINE (non tranchée) : les mentions « YMCA Prince of Wales Conference Centre » (2 août 1979) et « YMCA, Tottenham Court Road » (1979) pourraient désigner UN ou DEUX lieux distincts — regroupé provisoirement sous un seul PLACE- ; à scinder à la curation si confirmé distinct."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BRUNEL-UNIVERSITY",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-BRUNEL-UNIVERSITY",
+      "label": "Brunel University, Uxbridge",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Université de Brunel, Uxbridge ; concert de Joy Division interrompu (crachats / coupure)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WALTHAMSTOW-YOUTH-CLUB",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-WALTHAMSTOW-YOUTH-CLUB",
+      "label": "Walthamstow Youth Club",
+      "type": "salle",
+      "type_detail": "youth_club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Youth club de Walthamstow, Londres ; concert de Joy Division (interview d'Annik Honoré après)."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ACKLAM-HALL-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ACKLAM-HALL-LONDON",
+      "label": "Acklam Hall, London",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Salle sous l'autoroute (Ladbroke Grove), Londres ; concert de Joy Division le lendemain de la naissance de Natalie."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HIGH-WYCOMBE-TOWN-HALL",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-HIGH-WYCOMBE-TOWN-HALL",
+      "label": "High Wycombe Town Hall",
+      "type": "salle",
+      "type_detail": "salle_municipale",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Town Hall de High Wycombe ; concert de Joy Division avec Killing Joke."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LOCARNO-BRISTOL",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-LOCARNO-BRISTOL",
+      "label": "Locarno, Bristol",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Salle de Bristol ; Joy Division fait la balance mais ne joue pas (éjection) — concert non tenu, lieu conservé."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HOPE-AND-ANCHOR-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-HOPE-AND-ANCHOR-LONDON",
+      "label": "Hope & Anchor, Islington",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S10",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "usage": "Pub-venue d'Islington, Londres ; premier concert londonien (27 déc. 1978), suivi de la première crise de Curtis. Composante GIG des bundles a_scinder.",
+      "lat": 51.54334,
+      "lng": -0.10348,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "207 Upper Street, Islington N1 1RL ; premiere apparition londonienne JD 27 dec 1978. Source: hopeandanchor.info",
+      "reference_croisee": [
+        "wikidata:Q15225054"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NASHVILLE-ROOMS-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-NASHVILLE-ROOMS-LONDON",
+      "label": "Nashville Rooms, London",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Pub-venue de West Kensington, Londres ; concert (13 août 1979) où Annik Honoré voit le groupe. Composante GIG des bundles a_scinder.",
+      "lat": 51.49084,
+      "lng": -0.20671,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "171 North End Road, West Kensington W14 ; devenu Famous Three Kings. Source: discogs.com"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MARQUEE-LONDON",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-MARQUEE-LONDON",
+      "label": "Marquee Club, London",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41"
+      ],
+      "usage": "Club de Wardour Street, Londres ; concert de Joy Division en support de The Cure (4 mars 1979). Composante GIG d'un bundle a_scinder.",
+      "lat": 51.51319,
+      "lng": -0.13381,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "90 Wardour Street, Soho W1 ; site historique 1964-1988, ferme puis deplace. Source: en.wikipedia.org/wiki/Marquee_Club"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PLAN-K-BRUSSELS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-PLAN-K-BRUSSELS",
+      "label": "Plan K, Brussels",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "usage": "Espace culturel de Bruxelles ; concerts de Joy Division avec Cabaret Voltaire.",
+      "lat": 50.8493,
+      "lng": 4.3417,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "21 rue de Manchester, Bruxelles / La Raffinerie ; concerts 16 oct 1979 et 17 jan 1980. Source: enkiri.com"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LES-BAINS-DOUCHES-PARIS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-LES-BAINS-DOUCHES-PARIS",
+      "label": "Les Bains Douches, Paris",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "usage": "Club parisien ; concert de Joy Division (longue setlist).",
+      "lat": 48.86406,
+      "lng": 2.35208,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "7 rue du Bourg-l'Abbe, Paris 3e ; concert 18 dec 1979 ; lieu reconverti. Source: lesbains-paris.com"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PARADISO-AMSTERDAM",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-PARADISO-AMSTERDAM",
+      "label": "Paradiso, Amsterdam",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Salle d'Amsterdam ; concert de la tournée européenne (janvier 1980).",
+      "lat": 52.36215,
+      "lng": 4.88381,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Weteringschans 6-8, Amsterdam ; ancienne eglise ; concert 11 jan 1980. Source: paradiso.nl"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BASEMENT-COLOGNE",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-BASEMENT-COLOGNE",
+      "label": "Basement, Cologne",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Club underground de Cologne ; concert de la tournée européenne.",
+      "lat": 50.9407,
+      "lng": 6.9367,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Christuskirche, Herwarthstrasse, Koln ; salle en sous-sol de l'eglise ; concert 15 jan 1980. Source: christuskirche-koeln.de"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-EFFENAAR-EINDHOVEN",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-EFFENAAR-EINDHOVEN",
+      "label": "Effenaar, Eindhoven",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S76"
+      ],
+      "usage": "Salle d'Eindhoven ; concert avec Minny Pops (tournée européenne).",
+      "lat": 51.44135,
+      "lng": 5.48186,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Dommelstraat 2, Eindhoven ; ancien site reconstruit 2005 ; concert 18 jan 1980. Source: cvent.com"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CENTRAL-SOUND-STUDIOS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-CENTRAL-SOUND-STUDIOS",
+      "label": "Central Sound Studios",
+      "type": "studio",
+      "type_detail": "studio_enregistrement",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "91 St James Street, Manchester M1 ; premiere tentative enregistrement Transmission.",
+      "lat": 53.48057,
+      "lng": -2.23558,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "91 St James Street M1 ; premiere tentative enregistrement Transmission. Source: joydiv.org/places.htm"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SUNLEY-BUILDING",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-SUNLEY-BUILDING",
+      "label": "Sunley Building / Piccadilly Plaza",
+      "type": "commerce",
+      "type_detail": "immeuble_bureau",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Piccadilly Plaza, Manchester M1 ; Ian Curtis travaillait pour Manpower Services Commission.",
+      "lat": 53.47778,
+      "lng": -2.23066,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Piccadilly Plaza M1 ; Ian Curtis travaillait pour Manpower Services Commission. Source: en.wikipedia.org/wiki/Piccadilly_Plaza",
+      "reference_croisee": [
+        "wikidata:Q7194615"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ST-THOMAS-CHURCH-HENBURY",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-ST-THOMAS-CHURCH-HENBURY",
+      "label": "St Thomas's Church, Henbury",
+      "type": "lieu_memoire",
+      "type_detail": "eglise",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Henbury, near Macclesfield ; mariage Ian et Deborah Curtis 23 aout 1975.",
+      "lat": 53.27059,
+      "lng": -2.17243,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Henbury, near Macclesfield ; mariage Ian et Deborah Curtis 23 aout 1975. Source: achurchnearyou.com/church/12824/"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MAIDA-VALE-STUDIOS",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-MAIDA-VALE-STUDIOS",
+      "label": "Maida Vale Studios",
+      "type": "studio",
+      "type_detail": "studio_bbc",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Delaware Road, London W9 ; sessions John Peel Joy Division.",
+      "lat": 51.52969,
+      "lng": -0.19149,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Delaware Road, London W9 ; sessions John Peel Joy Division. Source: en.wikipedia.org/wiki/Maida_Vale_Studios",
+      "reference_croisee": [
+        "wikidata:Q1807293"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CIMITERO-STAGLIENO-GENOVA",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACE-CIMITERO-STAGLIENO-GENOVA",
+      "label": "Cimitero Monumentale di Staglieno",
+      "type": "lieu_memoire",
+      "type_detail": "cimetiere",
+      "sources": [
+        "joydiv"
+      ],
+      "usage": "Piazzale Resasco, Genova ; source iconographique pochettes Closer et Love Will Tear Us Apart.",
+      "lat": 44.43007,
+      "lng": 8.95058,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Piazzale Resasco, Genova ; source iconographique pochettes Closer et Love Will Tear Us Apart. Source: staglieno.comune.genova.it",
+      "reference_croisee": [
+        "findagrave:1980114"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MANCHESTER",
+    "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+    "heading": "Lieux",
+    "data": {
+      "id": "PLACE-MANCHESTER",
+      "label": "Manchester",
+      "type": "ville",
+      "type_detail": "ville",
+      "sources": [
+        "S13",
+        "S35",
+        "S02-A003"
+      ],
+      "usage": "Selon S13 : ville post-industrielle, scène punk/post-punk/rave, matrice critique du passage. | Selon S35 : Horizon d’événement, de concerts et de sortie de Macclesfield. | Selon S02 : Échelle municipale à distinguer de Greater Manchester et de l'aire urbaine.",
+      "_legacy_format": "s13-lieux",
+      "alternate_labels": [
+        "City of Manchester"
+      ],
+      "aliases": [
+        "PLACE-MANCHESTER-CITY"
+      ],
+      "source_files": [
+        "registers/specialized/s13_tomeo_interzone_rave_era.md",
+        "registers/places/s35_morris_places_part_03.md",
+        "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md"
+      ],
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "geo_precision": "ville",
+      "atoms": [
+        "S35-A041",
+        "S35-A042",
+        "S35-A043"
+      ],
+      "reference_croisee": [
+        "wikidata:Q18125"
+      ],
+      "prudence": "Ne pas lui attribuer mécaniquement les données de la conurbation ou de la région urbaine.",
+      "alternate_legacy_formats": [
+        "s35-lieux-role"
+      ],
+      "alternate_type_details": [
+        "municipalite"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GREATER-MANCHESTER",
+    "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+    "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
+    "data": {
+      "id": "PLACE-GREATER-MANCHESTER",
+      "label": "Greater Manchester",
+      "type": "ville",
+      "type_detail": "comte_metropolitain",
+      "sources": [
+        "S05-A002",
+        "S05-A013",
+        "S02-A003"
+      ],
+      "usage_s05": "Échelle institutionnelle de Greater Manchester Police et de la reproduction d’un ordre social local.",
+      "source_files": [
+        "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+        "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md"
+      ],
+      "usage": "Selon S05 : Échelle institutionnelle de Greater Manchester Police et de la reproduction d’un ordre social local. | Selon S02 : Échelle métropolitaine utile pour comprendre la recomposition de Manchester au-delà de son centre municipal.",
+      "lat": 53.59,
+      "lng": -2.3,
+      "geo_precision": "region",
+      "prudence": "Préciser l'échelle lorsque les données portent sur population, emplois ou politiques urbaines.",
+      "prudence_methodologique": "Comté métropolitain — coordonnée = centroïde approximatif, non un point."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HULME",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-HULME",
+      "label": "Hulme",
+      "type": "quartier",
+      "type_detail": "quartier_inner_city",
+      "sources": [
+        "S20-A008",
+        "S20-A010",
+        "S06",
+        "S06-A001",
+        "S06-A003",
+        "S06-A012",
+        "S02-A008"
+      ],
+      "usage": "Selon S20 : Quartier central dans les politiques de dédensification, clearance et urban renewal. | Selon S06 : Quartier analysé comme inner-city estate, espace vécu et espace discursif. | Selon S02 : Quartier emblématique des expérimentations urbaines, des limites du logement moderniste et des politiques de renouvellement.",
+      "prudence": "Croiser S20 avec S06 pour l'expérience vécue de Hulme. | Ne pas réduire Hulme à un décor de ruine moderniste. | Croiser S02 avec S06 et les sources spécialisées sur Hulme.",
+      "source_files": [
+        "registers/places/s20_dodge_places_housing_geographies_v2.md",
+        "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+        "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md"
+      ],
+      "lat": 53.464,
+      "lng": -2.247,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q3051137"
+      ],
+      "alternate_type_details": [
+        "quartier"
+      ],
+      "usage_s06": "Quartier analysé comme inner-city estate, espace vécu et espace discursif."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MANCHESTER-CENTRE",
+    "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
+    "heading": "S02 — Compléments au registre des lieux — Manchester, Greater Manchester, Hulme",
+    "data": {
+      "id": "PLACE-MANCHESTER-CENTRE",
+      "lat": 53.4794,
+      "lng": -2.2453,
+      "geo_precision": "quartier",
+      "label": "Centre-ville de Manchester",
+      "type": "ville",
+      "type_detail": "centralite_urbaine",
+      "sources": [
+        "S02-A005",
+        "S02-A006",
+        "S02-A007"
+      ],
+      "usage": "Espace de reconstruction, marketing territorial et recomposition après la crise urbaine et l'attentat de 1996.",
+      "prudence": "Ne pas confondre renaissance du centre et transformation sociale homogène de toute la ville."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HYDE",
+    "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+    "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
+    "data": {
+      "id": "PLACE-HYDE",
+      "lat": 53.451,
+      "lng": -2.081,
+      "geo_precision": "ville",
+      "label": "Hyde",
+      "type": "ville",
+      "type_detail": "ville_greater_manchester",
+      "sources": [
+        "S05-A005"
+      ],
+      "usage_s05": "Lieu de mobilisation du National Front en 1977 et de policing antifasciste.",
+      "usage": "Lieu de mobilisation du National Front en 1977 et de policing antifasciste."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BOLTON",
+    "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+    "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
+    "data": {
+      "id": "PLACE-BOLTON",
+      "lat": 53.578,
+      "lng": -2.429,
+      "geo_precision": "ville",
+      "label": "Bolton",
+      "type": "ville",
+      "type_detail": "ville_greater_manchester",
+      "sources": [
+        "S05-A005"
+      ],
+      "usage_s05": "Lieu de confrontation National Front / antifascistes en 1978.",
+      "usage": "Lieu de confrontation National Front / antifascistes en 1978."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MOSS-SIDE",
+    "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+    "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
+    "data": {
+      "id": "PLACE-MOSS-SIDE",
+      "label": "Moss Side",
+      "type": "quartier",
+      "type_detail": "quartier_inner_city",
+      "sources": [
+        "S06-A004",
+        "S05-A006"
+      ],
+      "usage_s06": "Quartier voisin souvent amalgamé à Hulme par la presse dans les récits du Bronx of Britain.",
+      "prudence": "Ne pas confondre Hulme et Moss Side malgré les amalgames médiatiques. | Croiser avec sources locales si usage factuel détaillé.",
+      "source_files": [
+        "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+        "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md"
+      ],
+      "usage": "Selon S06 : Quartier voisin souvent amalgamé à Hulme par la presse dans les récits du Bronx of Britain. | Selon S05 : Espace central des tensions racialisées entre GMP et communautés afro-caribéennes, notamment en 1981.",
+      "lat": 53.453,
+      "lng": -2.249,
+      "geo_precision": "quartier",
+      "usage_s05": "Espace central des tensions racialisées entre GMP et communautés afro-caribéennes, notamment en 1981."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-UNIVERSITY-OF-MANCHESTER",
+    "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+    "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
+    "data": {
+      "id": "PLACE-UNIVERSITY-OF-MANCHESTER",
+      "lat": 53.4668,
+      "lng": -2.2339,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q230899"
+      ],
+      "label": "University of Manchester",
+      "type": "education",
+      "type_detail": "universite",
+      "sources": [
+        "S05-A007"
+      ],
+      "usage_s05": "Lieu de la Battle of Brittan en 1985.",
+      "usage": "Lieu de la Battle of Brittan en 1985."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ORDSALL",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-ORDSALL",
+      "label": "Ordsall",
+      "type": "quartier",
+      "type_detail": "quartier_salford",
+      "sources": [
+        "S10-A005",
+        "S05-A009"
+      ],
+      "usage_s10": "Lieu de la scène nocturne des lampadaires au sodium que Sumner associe au son de Joy Division.",
+      "source_files": [
+        "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+        "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md"
+      ],
+      "usage": "Selon S10 : Lieu de la scène nocturne des lampadaires au sodium que Sumner associe au son de Joy Division. | Selon S05 : Lieu de l’émeute de 1992, articulant désindustrialisation, policing lourd, gentrification et réputation de no-go area.",
+      "lat": 53.474,
+      "lng": -2.272,
+      "geo_precision": "quartier",
+      "usage_s05": "Lieu de l’émeute de 1992, articulant désindustrialisation, policing lourd, gentrification et réputation de no-go area."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-OLDHAM",
+    "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+    "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
+    "data": {
+      "id": "PLACE-OLDHAM",
+      "lat": 53.5409,
+      "lng": -2.1183,
+      "geo_precision": "ville",
+      "label": "Oldham",
+      "type": "ville",
+      "type_detail": "ville_greater_manchester",
+      "sources": [
+        "S05-A010"
+      ],
+      "usage_s05": "Lieu des émeutes de 2001, de racialisation du désordre et de discours de community cohesion.",
+      "usage": "Lieu des émeutes de 2001, de racialisation du désordre et de discours de community cohesion."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BARTON-MOSS",
+    "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+    "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
+    "data": {
+      "id": "PLACE-BARTON-MOSS",
+      "label": "Barton Moss",
+      "type": "lieu_memoire",
+      "type_detail": "site_protestation",
+      "sources": [
+        "S05-A012"
+      ],
+      "usage_s05": "Site des protestations anti-fracking, cas contemporain de policing d’un conflit environnemental et économique.",
+      "usage": "Site des protestations anti-fracking, cas contemporain de policing d’un conflit environnemental et économique."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HULME-CRESCENTS",
+    "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+    "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
+    "data": {
+      "id": "PLACE-HULME-CRESCENTS",
+      "lat": 53.461,
+      "lng": -2.252,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "Ensemble démoli (1991-1995) ; coordonnée du secteur, non d'un bâtiment.",
+      "label": "Hulme Crescents",
+      "type": "habitat",
+      "type_detail": "estate_moderniste",
+      "sources": [
+        "S06-A002",
+        "S06-A005",
+        "S83"
+      ],
+      "usage_s06": "Ensemble de logements multi-storey et deck-access associé à démolition, stigmate et redevelopment.",
+      "prudence": "Distinguer forme bâtie, discours médiatique et vécu des habitants.",
+      "chapters": [
+        "Chapitre 1"
+      ],
+      "aliases": [
+        "PLACE-S83-002"
+      ],
+      "source_files": [
+        "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+        "registers/s83_hannett_architecture_specialized_registers.md"
+      ],
+      "usage": "Ensemble de logements multi-storey et deck-access associé à démolition, stigmate et redevelopment.",
+      "pages_livre": "159–161",
+      "pages_pdf": "190–192",
+      "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+      "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+      "source_year": "2018",
+      "statut": "verifie",
+      "alternate_type_details": [
+        "cité_habitation_post_guerre"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SALE",
+    "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+    "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
+    "data": {
+      "id": "PLACE-SALE",
+      "lat": 53.424,
+      "lng": -2.322,
+      "geo_precision": "ville",
+      "label": "Sale",
+      "type": "habitat",
+      "type_detail": "suburb",
+      "sources": [
+        "S06-A007"
+      ],
+      "usage_s06": "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme.",
+      "usage": "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ALTRINCHAM",
+    "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+    "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
+    "data": {
+      "id": "PLACE-ALTRINCHAM",
+      "lat": 53.387,
+      "lng": -2.349,
+      "geo_precision": "ville",
+      "label": "Altrincham",
+      "type": "habitat",
+      "type_detail": "suburb",
+      "sources": [
+        "S06-A007"
+      ],
+      "usage_s06": "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme.",
+      "usage": "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WALES-SEASIDE-TOWN",
+    "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+    "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
+    "data": {
+      "id": "PLACE-WALES-SEASIDE-TOWN",
+      "label": "Ville balnéaire galloise non nommée",
+      "type": "lieu_memoire",
+      "type_detail": "lieu_temoignage",
+      "sources": [
+        "S06-A009"
+      ],
+      "usage_s06": "Lieu extérieur à Hulme où Stephanie et Alison perçoivent plus nettement le racisme vécu par leurs pairs.",
+      "prudence": "Lieu non nommé ; ne pas le suridentifier.",
+      "usage": "Lieu extérieur à Hulme où Stephanie et Alison perçoivent plus nettement le racisme vécu par leurs pairs."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BRITANNIA-ROW-STUDIOS",
+    "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
+    "data": {
+      "id": "PLACE-BRITANNIA-ROW-STUDIOS",
+      "lat": 51.5392,
+      "lng": -0.0972,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q4970934"
+      ],
+      "label": "Britannia Row Studios",
+      "type": "studio",
+      "type_detail": "studio",
+      "sources": [
+        "S10-A029",
+        "S10-A030"
+      ],
+      "usage_s10": "Lieu d’enregistrement de Closer, associé au déplacement hors Manchester et à l’intensification sonore.",
+      "usage": "Lieu d’enregistrement de Closer, associé au déplacement hors Manchester et à l’intensification sonore."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CARGO-STUDIOS",
+    "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
+    "data": {
+      "id": "PLACE-CARGO-STUDIOS",
+      "lat": 53.617,
+      "lng": -2.156,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Kenion Street, Rochdale ; studio fermé.",
+      "label": "Cargo Studios",
+      "type": "studio",
+      "type_detail": "studio",
+      "sources": [
+        "S10-A028"
+      ],
+      "usage_s10": "Studio associé à la phase Atmosphere / Dead Souls et aux extensions spectrales du son.",
+      "usage": "Studio associé à la phase Atmosphere / Dead Souls et aux extensions spectrales du son."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GRAVEYARD-STUDIO",
+    "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
+    "data": {
+      "id": "PLACE-GRAVEYARD-STUDIO",
+      "lat": 53.53,
+      "lng": -2.286,
+      "geo_precision": "quartier",
+      "prudence_methodologique": "Graveyard Studios, Prestwich. Source : https://prestwich.org.uk/history/places/graveyardstudios.html. Sources contradictoires sur l'emplacement exact.",
+      "label": "Graveyard Studio",
+      "type": "studio",
+      "type_detail": "lieu_repetition",
+      "sources": [
+        "S10-A031"
+      ],
+      "usage_s10": "Lieu des répétitions tardives associées à Ceremony et In a Lonely Place dans la transition Joy Division / New Order.",
+      "usage": "Lieu des répétitions tardives associées à Ceremony et In a Lonely Place dans la transition Joy Division / New Order."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BOURNEMOUTH",
+    "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
+    "data": {
+      "id": "PLACE-BOURNEMOUTH",
+      "lat": 50.72,
+      "lng": -1.88,
+      "geo_precision": "ville",
+      "label": "Bournemouth",
+      "type": "lieu_memoire",
+      "type_detail": "lieu_projection",
+      "sources": [
+        "S10-A030"
+      ],
+      "usage_s10": "Lieu fantasmé d’un retrait de Curtis et d’un projet de bookshop, selon le récit rétrospectif de Sumner.",
+      "usage": "Lieu fantasmé d’un retrait de Curtis et d’un projet de bookshop, selon le récit rétrospectif de Sumner."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MANCHESTER-GLOBAL-MEMORY",
+    "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
+    "data": {
+      "id": "PLACE-MANCHESTER-GLOBAL-MEMORY",
+      "label": "Manchester / réception mondiale",
+      "type": "lieu_memoire",
+      "type_detail": "lieu_symbolique",
+      "sources": [
+        "S10-A036"
+      ],
+      "usage_s10": "Point de départ local de la mémoire mondiale de Joy Division / New Order.",
+      "usage": "Point de départ local de la mémoire mondiale de Joy Division / New Order."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ALFRED-STREET",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-ALFRED-STREET",
+      "label": "Alfred Street",
+      "type": "quartier",
+      "type_detail": "rue_ouvriere",
+      "sources": [
+        "S10-A001",
+        "S10-A004"
+      ],
+      "usage_s10": "Rue d'enfance de Bernard Sumner à Lower Broughton ; communauté ouvrière détruite par clearance.",
+      "prudence": "Ne pas idéaliser la communauté ; intégrer violence, pauvreté, toxicité industrielle et destruction.",
+      "usage": "Rue d'enfance de Bernard Sumner à Lower Broughton ; communauté ouvrière détruite par clearance."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LOWER-BROUGHTON",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-LOWER-BROUGHTON",
+      "label": "Lower Broughton",
+      "type": "quartier",
+      "type_detail": "quartier_salford",
+      "sources": [
+        "S10-A001",
+        "S10-A002"
+      ],
+      "usage_s10": "Quartier d'enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière.",
+      "usage": "Quartier d'enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WHEATHILL-CHEMICAL-WORKS",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-WHEATHILL-CHEMICAL-WORKS",
+      "lat": 53.499,
+      "lng": -2.26,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Mention dans l'autobiographie de B. Sumner (Chapter and Verse). Source : barnesandnoble.com/w/chapter-and-verse-bernard-sumner. Localisation approximative autour d'Alfred Street, Lower Broughton.",
+      "label": "Wheathill Chemical Works",
+      "type": "industrie",
+      "type_detail": "site_industriel",
+      "sources": [
+        "S10-A002"
+      ],
+      "usage_s10": "Usine chimique au bout d'Alfred Street, mémorisée par Sumner comme source d'odeurs et de toxicité.",
+      "usage": "Usine chimique au bout d'Alfred Street, mémorisée par Sumner comme source d'odeurs et de toxicité."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GREENGATE",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-GREENGATE",
+      "lat": 53.4843,
+      "lng": -2.25238,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q5604052"
+      ],
+      "prudence_methodologique": "Quartier historique de Salford au bord de l'Irwell ; tours de relogement en grande partie démolies depuis. Coordonnée = centroïde de l'aire Greengate (Wikidata P625 Q5604052).",
+      "label": "Greengate",
+      "type": "habitat",
+      "type_detail": "tower_block_relogement",
+      "sources": [
+        "S10-A003"
+      ],
+      "usage_s10": "Lieu du relogement familial de Sumner en tower block ; confort matériel mais perte de rue et de communauté.",
+      "usage": "Lieu du relogement familial de Sumner en tower block ; confort matériel mais perte de rue et de communauté."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SALFORD-GRAMMAR-SCHOOL",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-SALFORD-GRAMMAR-SCHOOL",
+      "lat": 53.488,
+      "lng": -2.298,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Établissement nommé = bâtiment (granularité rue) ; coordonnée approximative à l'échelle de Salford, bâtiment précis non confirmé.",
+      "label": "Salford Grammar School",
+      "type": "education",
+      "type_detail": "ecole",
+      "sources": [
+        "S10-A007"
+      ],
+      "usage_s10": "Lieu de rencontre de Bernard Sumner, Peter Hook, Terry Mason et autres membres de leur sociabilité adolescente.",
+      "usage": "Lieu de rencontre de Bernard Sumner, Peter Hook, Terry Mason et autres membres de leur sociabilité adolescente."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-NORTH-SALFORD-YOUTH-CLUB",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-NORTH-SALFORD-YOUTH-CLUB",
+      "lat": 53.504,
+      "lng": -2.2567,
+      "geo_precision": "rue",
+      "prudence_methodologique": "North Salford Civic Youth Centre, Devonshire Street, Higher Broughton. Source : cylex-uk (north-salford-civic-youth-centre-14520351). Adresse postale ; bâtiment historique non confirmé.",
+      "label": "North Salford Youth Club",
+      "type": "salle",
+      "type_detail": "youth_club",
+      "sources": [
+        "S10-A008"
+      ],
+      "usage_s10": "Lieu d'exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath.",
+      "usage": "Lieu d'exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LESSER-FREE-TRADE-HALL",
+    "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+    "heading": "Lieux",
+    "data": {
+      "id": "PLACE-LESSER-FREE-TRADE-HALL",
+      "label": "Lesser Free Trade Hall",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S13",
+        "S10-A010"
+      ],
+      "usage": "Selon S13 : seuil punk de 1976, mentionné comme origine de la séquence culturelle mancunienne. | Selon S10 : Lieu du concert des Sex Pistols du 4 juin 1976, décisif mais non miraculeux selon Sumner.",
+      "_legacy_format": "s13-lieux",
+      "source_files": [
+        "registers/specialized/s13_tomeo_interzone_rave_era.md",
+        "registers/places/s10_sumner_places_salford_formation_sound_v2.md"
+      ],
+      "lat": 53.4779,
+      "lng": -2.247,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Petite salle AU SEIN du Free Trade Hall — distincte du grand hall (PLACE-FREE-TRADE-HALL) ; même bâtiment, point partagé.",
+      "usage_s10": "Lieu du concert des Sex Pistols du 4 juin 1976, décisif mais non miraculeux selon Sumner."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-VIRGIN-RECORDS-LEVER-STREET",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-VIRGIN-RECORDS-LEVER-STREET",
+      "label": "Virgin Records, Lever Street",
+      "type": "commerce",
+      "type_detail": "disquaire_hub_punk",
+      "sources": [
+        "S10-A013"
+      ],
+      "usage_s10": "Lieu où Sumner et Hook déposent l'annonce pour recruter un chanteur.",
+      "usage": "Lieu où Sumner et Hook déposent l'annonce pour recruter un chanteur."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GREY-MARE",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-GREY-MARE",
+      "lat": 53.48198,
+      "lng": -2.30548,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Grey Mare, 386-388 Eccles New Road, Weaste, Salford. Source : https://camra.org.uk/pubs/grey-mare-weaste-170889. Ancien pub réaffecté.",
+      "label": "Grey Mare",
+      "type": "studio",
+      "type_detail": "lieu_repetition",
+      "sources": [
+        "S10-A014"
+      ],
+      "usage_s10": "Salle de répétition au-dessus d'un pub de Weaste, associée aux débuts avec Curtis.",
+      "usage": "Salle de répétition au-dessus d'un pub de Weaste, associée aux débuts avec Curtis."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ELECTRIC-CIRCUS",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-ELECTRIC-CIRCUS",
+      "lat": 53.493,
+      "lng": -2.221,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Collyhurst ; salle fermée en 1977, démolie.",
+      "label": "Electric Circus",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S10-A015"
+      ],
+      "usage_s10": "Lieu du premier concert de Warsaw / Stiff Kittens le 29 mai 1977.",
+      "usage": "Lieu du premier concert de Warsaw / Stiff Kittens le 29 mai 1977."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-RAFTERS-MANCHESTER",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-RAFTERS-MANCHESTER",
+      "lat": 53.475,
+      "lng": -2.2408,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "Rafters, 65 Oxford Street, Manchester ; concert JD 14/04/1978. Source : https://en.wikipedia.org/wiki/Rafters_(nightclub). Bâtiment localisable précisément.",
+      "label": "Rafters",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S10-A016"
+      ],
+      "usage_s10": "Lieu du concert d'avril 1978 qui déclenche la rencontre avec Rob Gretton.",
+      "usage": "Lieu du concert d'avril 1978 qui déclenche la rencontre avec Rob Gretton."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-TJ-DAVIDSONS",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-TJ-DAVIDSONS",
+      "lat": 53.474,
+      "lng": -2.249,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.",
+      "label": "TJ Davidson's",
+      "type": "studio",
+      "type_detail": "lieu_repetition",
+      "sources": [
+        "S10-A016",
+        "S10-A017",
+        "S83",
+        "S41"
+      ],
+      "usage_s10": "Lieu de répétition central, proche du futur Haçienda, associé à Gretton et aux photographies de Curtis.",
+      "alternate_labels": [
+        "Little Peter Street — T.J. Davidson's studio",
+        "T. J. Davidson’s, Little Peter Street"
+      ],
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "aliases": [
+        "PLACE-S83-001",
+        "PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET"
+      ],
+      "source_files": [
+        "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+        "registers/s83_hannett_architecture_specialized_registers.md",
+        "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md"
+      ],
+      "usage": "Selon S10 : Lieu de répétition central, proche du futur Haçienda, associé à Gretton et aux photographies de Curtis. | Selon S41 : Lieu central de répétition, de cristallisation sonore, de photographies célèbres et de tournage de la vidéo de « Love Will Tear Us Apart ».",
+      "atoms": [
+        "S41-A053"
+      ],
+      "song_ids": [
+        "JD-SONG-035"
+      ],
+      "prudence": "Ne pas fétichiser le lieu comme cause autonome du son ; il agit comme environnement matériel et mémoriel.\n",
+      "pages_livre": "162",
+      "pages_pdf": "193",
+      "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+      "alternate_source_labels": [
+        "S41 — Hook, Unknown Pleasures, 2012"
+      ],
+      "source_short_title": [
+        "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+        "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012"
+      ],
+      "source_year": [
+        "2018",
+        "2012"
+      ],
+      "statut": "verifie",
+      "alternate_type_details": [
+        "studio_espace_industriel"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GREENDOW-COMMERCIALS-STUDIO",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-GREENDOW-COMMERCIALS-STUDIO",
+      "prudence_methodologique": "Arrow Studios / Greendow Commercials (sessions RCA). Source : https:\"//www.discogs.com/label/309893. Coordonnée inconnue : aucune adresse\" fiable.",
+      "label": "Greendow Commercials studio",
+      "type": "studio",
+      "type_detail": "studio",
+      "sources": [
+        "S10-A018"
+      ],
+      "usage_s10": "Studio commercial où se déroulent les sessions RCA / album avorté.",
+      "usage": "Studio commercial où se déroulent les sessions RCA / album avorté."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PENNINE-STUDIOS-OLDHAM",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-PENNINE-STUDIOS-OLDHAM",
+      "lat": 53.5395,
+      "lng": -2.1054,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Pennine Sound Studios, Ripponden Road, Oldham. Source : https://www.discogs.com/label/309892. Niveau voie ; n° exact non retrouvé.",
+      "label": "Pennine Studios, Oldham",
+      "type": "studio",
+      "type_detail": "studio",
+      "sources": [
+        "S10-A019"
+      ],
+      "usage_s10": "Studio de l'enregistrement d'An Ideal for Living.",
+      "usage": "Studio de l'enregistrement d'An Ideal for Living."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-STRAWBERRY-STUDIOS",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-STRAWBERRY-STUDIOS",
+      "lat": 53.4084,
+      "lng": -2.157,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q7622496"
+      ],
+      "prudence_methodologique": "Studio fermé en 1993 ; bâtiment conservé (Stockport).",
+      "label": "Strawberry Studios",
+      "type": "studio",
+      "type_detail": "studio",
+      "sources": [
+        "S10-A020",
+        "S10-A021"
+      ],
+      "usage_s10": "Studio de Stockport où Sumner découvre avec Hannett le studio comme instrument.",
+      "usage": "Studio de Stockport où Sumner découvre avec Hannett le studio comme instrument."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LUTON-HOSPITAL",
+    "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+    "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
+    "data": {
+      "id": "PLACE-LUTON-HOSPITAL",
+      "lat": 51.89382,
+      "lng": -0.4753,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q101277612"
+      ],
+      "label": "Hôpital de Luton",
+      "type": "sante",
+      "type_detail": "hopital",
+      "sources": [
+        "S10-A024"
+      ],
+      "usage_s10": "Lieu de prise en charge après la crise épileptique de Curtis au retour du Hope and Anchor.",
+      "usage": "Lieu de prise en charge après la crise épileptique de Curtis au retour du Hope and Anchor."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LITTLE-IRELAND",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-LITTLE-IRELAND",
+      "lat": 53.4731,
+      "lng": -2.2419,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q10567938"
+      ],
+      "prudence_methodologique": "Quartier ouvrier irlandais disparu, démoli au XIXe siècle. Coordonnée = centroïde de la zone historique au confluent Medlock/Oxford Road (Wikidata P625 Q10567938).",
+      "label": "Little Ireland",
+      "type": "quartier",
+      "type_detail": "quartier_taudis_victorien",
+      "sources": [
+        "S20-A002",
+        "S07"
+      ],
+      "usage": "Figure du logement ouvrier insalubre dans le Manchester industriel, située près du Medlock.",
+      "prudence": "À traiter comme lieu social et sanitaire, non comme simple motif noir."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ANGEL-MEADOW",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-ANGEL-MEADOW",
+      "label": "Angel Meadow",
+      "type": "quartier",
+      "type_detail": "quartier_taudis_victorien",
+      "sources": [
+        "S20-A002"
+      ],
+      "usage": "Lieu emblématique du taudis victorien mancunien, utile pour la profondeur historique de l'insalubrité urbaine."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-VICTORIA-PARK-MANCHESTER",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-VICTORIA-PARK-MANCHESTER",
+      "lat": 53.456,
+      "lng": -2.213,
+      "geo_precision": "quartier",
+      "label": "Victoria Park",
+      "type": "habitat",
+      "type_detail": "suburb_bourgeois",
+      "sources": [
+        "S20-A003"
+      ],
+      "usage": "Exemple de ségrégation résidentielle bourgeoise au XIXe siècle."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CHORLTONVILLE",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-CHORLTONVILLE",
+      "lat": 53.434,
+      "lng": -2.279,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q5105186"
+      ],
+      "label": "Chorltonville",
+      "type": "habitat",
+      "type_detail": "garden_suburb",
+      "sources": [
+        "S20-A006"
+      ],
+      "usage": "Exemple de solution garden suburb à portée sociale limitée."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WYTHENSHAWE",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-WYTHENSHAWE",
+      "lat": 53.392,
+      "lng": -2.264,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q3570246"
+      ],
+      "label": "Wythenshawe",
+      "type": "ville",
+      "type_detail": "ville_satellite",
+      "sources": [
+        "S20-A007",
+        "S20-A008"
+      ],
+      "usage": "Grand espace de relogement municipal, pensé comme ville satellite et solution à la surdensité des inner neighbourhoods.",
+      "prudence": "Ne pas présenter comme pur progrès : intégrer distance, équipements insuffisants et isolement."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HATTERSLEY",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-HATTERSLEY",
+      "lat": 53.444,
+      "lng": -2.043,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q3128340"
+      ],
+      "label": "Hattersley",
+      "type": "habitat",
+      "type_detail": "overspill_estate",
+      "sources": [
+        "S20-A009"
+      ],
+      "usage": "Grand estate périphérique illustrant le déplacement de la pauvreté et le désancrage social."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BESWICK",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-BESWICK",
+      "lat": 53.4743,
+      "lng": -2.20266,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q4897126"
+      ],
+      "label": "Beswick",
+      "type": "quartier",
+      "type_detail": "quartier_inner_city",
+      "sources": [
+        "S20-A010",
+        "S20-A011"
+      ],
+      "usage": "Quartier de clearance et d'expérimentation moderniste autour du Wellington Street estate."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-FORT-BESWICK",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-FORT-BESWICK",
+      "lat": 53.4743,
+      "lng": -2.2007,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q4897126"
+      ],
+      "prudence_methodologique": "Wellington Street Estate (Fort Beswick). Source : https://personalpages.manchester.ac.uk/staff/m.dodge/Fort-Beswick-Been-Gone-and-Forgotten.pdf. Coordonnée du secteur Beswick, pas du bloc précis.",
+      "label": "Fort Beswick",
+      "type": "habitat",
+      "type_detail": "estate_moderniste",
+      "sources": [
+        "S20-A011",
+        "S20-A013"
+      ],
+      "usage": "Nom péjoratif du Wellington Street estate, emblématique de l'échec des deck-access estates."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WELLINGTON-STREET-ESTATE",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-WELLINGTON-STREET-ESTATE",
+      "label": "Wellington Street estate",
+      "type": "habitat",
+      "type_detail": "deck_access_estate",
+      "sources": [
+        "S20-A011",
+        "S20-A013"
+      ],
+      "usage": "Cas détaillé d'urban renewal et de mégastructure à Beswick."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-STRETFORD-ROAD",
+    "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+    "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
+    "data": {
+      "id": "PLACE-STRETFORD-ROAD",
+      "label": "Stretford Road",
+      "type": "quartier",
+      "type_detail": "axe_urbain",
+      "sources": [
+        "S20-A010"
+      ],
+      "usage": "Axe associé à la renewal de Hulme et à l'effacement du tissu urbain ancien."
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-MACCLESFIELD",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-MACCLESFIELD",
+      "label": "Macclesfield",
+      "type": "ville",
+      "type_detail": "ville_provinciale",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Selon S35 : Espace d'étouffement, danger local, désir de rupture. | Selon S35 : Espace provincial à quitter ; matrice d’attente et de frustration.",
+      "atoms": [
+        "S35-A065",
+        "S35-A033",
+        "S35-A034",
+        "S35-A035",
+        "S35-A042"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_files": [
+        "registers/places/s35_morris_places_part_04.md",
+        "registers/places/s35_morris_places_part_03.md"
+      ],
+      "lat": 53.2581,
+      "lng": -2.1255,
+      "geo_precision": "ville",
+      "reference_croisee": [
+        "wikidata:Q659804"
+      ],
+      "alternate_legacy_formats": [
+        "s35-lieux-role"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-JODRELL-BANK",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-JODRELL-BANK",
+      "lat": 53.2367,
+      "lng": -2.3085,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q204686"
+      ],
+      "label": "Jodrell Bank",
+      "type": "science",
+      "type_detail": "radiotelescope",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Objet technique local ; imaginaire spatial et futuriste.",
+      "atoms": [
+        "S35-A034"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HOLMES-CHAPEL",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-HOLMES-CHAPEL",
+      "lat": 53.198,
+      "lng": -2.357,
+      "geo_precision": "ville",
+      "label": "Holmes Chapel",
+      "type": "ville",
+      "type_detail": "village_repere",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Repère géographique du trajet vers Jodrell Bank.",
+      "atoms": [
+        "S35-A034"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CHRIST-CHURCH-PRIMARY-SCHOOL",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-CHRIST-CHURCH-PRIMARY-SCHOOL",
+      "label": "Christ Church Primary School",
+      "type": "education",
+      "type_detail": "ecole_primaire",
+      "sources": [
+        "S35"
+      ],
+      "usage": "École primaire précédant l’eleven-plus.",
+      "atoms": [
+        "S35-A035"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-KINGS-SCHOOL",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-KINGS-SCHOOL",
+      "lat": 53.252,
+      "lng": -2.137,
+      "geo_precision": "exacte",
+      "prudence_methodologique": "King's School, Macclesfield.",
+      "label": "King’s School",
+      "type": "education",
+      "type_detail": "grammar_school",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Grammar school masculin ; discipline et apprentissage par friction.",
+      "atoms": [
+        "S35-A035",
+        "S35-A036"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BROKEN-CROSS-SECONDARY-MODERN",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-BROKEN-CROSS-SECONDARY-MODERN",
+      "label": "Broken Cross Secondary Modern",
+      "type": "education",
+      "type_detail": "secondary_modern",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Contrepoint scolaire dans le récit de l’eleven-plus.",
+      "atoms": [
+        "S35-A035"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HODGSONS",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-HODGSONS",
+      "prudence_methodologique": "Magasin de disques probable à Macclesfield. Coordonnée inconnue : aucune source de preuve suffisante.",
+      "label": "Hodgson’s",
+      "type": "commerce",
+      "type_detail": "magasin_disques",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Magasin de disques ; apprentissage matériel du vinyle.",
+      "atoms": [
+        "S35-A039"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-FREE-TRADE-HALL",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-FREE-TRADE-HALL",
+      "lat": 53.4779,
+      "lng": -2.247,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q5500433"
+      ],
+      "prudence_methodologique": "Reconverti en hôtel (façade conservée, Peter Street).",
+      "label": "Free Trade Hall",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Lieu des chocs live Hawkwind et Bowie.",
+      "atoms": [
+        "S35-A041",
+        "S35-A043"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LONDON",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-LONDON",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "geo_precision": "ville",
+      "reference_croisee": [
+        "wikidata:Q84"
+      ],
+      "label": "London",
+      "type": "ville",
+      "type_detail": "ville",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Horizon secondaire d’événement, comparé à Manchester.",
+      "atoms": [
+        "S35-A042"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BELLE-VUE",
+    "file": "registers/places/s35_morris_places_part_03.md",
+    "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
+    "data": {
+      "id": "PLACE-BELLE-VUE",
+      "lat": 53.461,
+      "lng": -2.18,
+      "geo_precision": "quartier",
+      "label": "Belle Vue",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Lieu du concert de The Who évoqué par Morris.",
+      "atoms": [
+        "S35-A047"
+      ],
+      "_legacy_format": "s35-lieux-role"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-IVY-LANE",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-IVY-LANE",
+      "label": "Ivy Lane",
+      "type": "habitat",
+      "type_detail": "domicile_adolescent",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Chambre, disques, batterie, repli adolescent.",
+      "atoms": [
+        "S35-A052",
+        "S35-A053"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-SOUTHPORT-FLORAL-HALL",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-SOUTHPORT-FLORAL-HALL",
+      "lat": 53.654,
+      "lng": -3.01,
+      "geo_precision": "exacte",
+      "label": "Southport Floral Hall",
+      "type": "salle",
+      "type_detail": "salle_spectacle",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Pacte paternel ; Basie et Dietrich.",
+      "atoms": [
+        "S35-A050"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PIPS",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-PIPS",
+      "lat": 53.4848,
+      "lng": -2.2446,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Pips Disco, 55 Fennel Street, Manchester. Source : https://www.joydiv.org/places.htm. Rue remodelée ; bâtiment disparu.",
+      "label": "Pips",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Sophistication glam ; contraste social avec le public rock.",
+      "atoms": [
+        "S35-A051"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-AUDENSHAW-GRAMMAR-SCHOOL",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-AUDENSHAW-GRAMMAR-SCHOOL",
+      "lat": 53.46669,
+      "lng": -2.1191,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "gias:136273"
+      ],
+      "prudence_methodologique": "Audenshaw School (ancien Audenshaw Grammar School), Hazel Street, Audenshaw. Source : get-information-schools.service.gov.uk/Establishments/Establishment/Details/136273. Établissement existant. (gias = Get Information About Schools, URN:136273.)",
+      "label": "Audenshaw Grammar School",
+      "type": "education",
+      "type_detail": "grammar_school",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Bannissement scolaire ; trajet vers Manchester.",
+      "atoms": [
+        "S35-A057"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-GUIDE-BRIDGE",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-GUIDE-BRIDGE",
+      "lat": 53.4744,
+      "lng": -2.1127,
+      "geo_precision": "quartier",
+      "reference_croisee": [
+        "wikidata:Q5615429"
+      ],
+      "label": "Guide Bridge",
+      "type": "infrastructure",
+      "type_detail": "seuil_ferroviaire",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Seuil ferroviaire vers l'auto-éducation mancunienne.",
+      "atoms": [
+        "S35-A057"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HOUSE-ON-THE-BORDERLAND",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-HOUSE-ON-THE-BORDERLAND",
+      "label": "House on the Borderland",
+      "type": "commerce",
+      "type_detail": "librairie",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Librairie de contre-savoirs ; science-fiction, occultisme, underground.",
+      "atoms": [
+        "S35-A058"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-PERCIVALS",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-PERCIVALS",
+      "label": "Percival's",
+      "type": "commerce",
+      "type_detail": "librairie",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Librairie ; Ballard, Burroughs, presse marginale.",
+      "atoms": [
+        "S35-A058"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BLACK-SEDAN",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-BLACK-SEDAN",
+      "label": "Black Sedan",
+      "type": "commerce",
+      "type_detail": "disquaire",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Disquaire / bootlegs ; rareté et déception matérielle.",
+      "atoms": [
+        "S35-A059"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-RARE-RECORDS",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-RARE-RECORDS",
+      "label": "Rare Records",
+      "type": "commerce",
+      "type_detail": "disquaire",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Disquaire ; non-rencontre mémorielle avec Curtis ; chasse au disque.",
+      "atoms": [
+        "S35-A061"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-ATWELL-AND-JENNERS-MILL",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-ATWELL-AND-JENNERS-MILL",
+      "lat": 53.257,
+      "lng": -2.1248,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Atwell & Jenner Ltd, Goodall Street Works, Macclesfield. Source : Cheshire Archives DRY/5/7 (catalogue.cheshirearchives.org.uk/records/DRY/5/7). Coordonnée de Goodall Street ; usine exacte à confirmer.",
+      "label": "Atwell and Jenner's mill",
+      "type": "industrie",
+      "type_detail": "usine_textile",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Travail textile ; rythme industriel vécu.",
+      "atoms": [
+        "S35-A060"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-STONEGROUND-MAYFLOWER",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-STONEGROUND-MAYFLOWER",
+      "lat": 53.461,
+      "lng": -2.182,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Stoneground / Mayflower Club, Birch Street, West Gorton (ancien cinéma Corona, démoli). Source : manchesterbeat.com/venues/venues-gorton/stoneground-mayflower-birch-st-gorton.",
+      "label": "Stoneground / Mayflower",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Lieu-palimpseste ; scène pré-punk et futur lieu Joy Division.",
+      "atoms": [
+        "S35-A062"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 13"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HARDROCK",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-HARDROCK",
+      "lat": 53.4598,
+      "lng": -2.2893,
+      "geo_precision": "rue",
+      "prudence_methodologique": "Hardrock, Greatstone Road, Stretford. Source : manchesterbeat.com/venues/stretford/hardrock-greatstone-road-stretford. Salle disparue.",
+      "label": "Hardrock",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Écoute live non segmentée ; Bowie, Genesis, Hawkwind, Lou Reed.",
+      "atoms": [
+        "S35-A062"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BUXTON",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-BUXTON",
+      "lat": 53.259,
+      "lng": -1.911,
+      "geo_precision": "ville",
+      "label": "Buxton",
+      "type": "ville",
+      "type_detail": "ville_provinciale",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Festival pluvieux ; anti-utopie contre-culturelle.",
+      "atoms": [
+        "S35-A063"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WHITE-CITY",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-WHITE-CITY",
+      "lat": 53.462,
+      "lng": -2.287,
+      "geo_precision": "rue",
+      "prudence_methodologique": "White City Stadium, Chester Road, Old Trafford. Source : https://en.wikipedia.org/wiki/White_City_Stadium_(Manchester). Coordonnée du complexe (corrigé de « site » → rue).",
+      "label": "White City",
+      "type": "salle",
+      "type_detail": "salle_concert",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Festival ; Children of God ; désillusion contre-culturelle.",
+      "atoms": [
+        "S35-A063"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-LEWISS",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-LEWISS",
+      "label": "Lewis's",
+      "type": "commerce",
+      "type_detail": "grand_magasin",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Grand magasin ; Great Vinyl Robbery.",
+      "atoms": [
+        "S35-A064"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-BOOTLE-STREET",
+    "file": "registers/places/s35_morris_places_part_04.md",
+    "heading": "Lieux structurants",
+    "data": {
+      "id": "PLACE-BOOTLE-STREET",
+      "label": "Bootle Street",
+      "type": "pouvoir",
+      "type_detail": "commissariat",
+      "sources": [
+        "S35"
+      ],
+      "usage": "Arrestation ; retour brutal au réel.",
+      "atoms": [
+        "S35-A064"
+      ],
+      "_legacy_format": "s35-lieux-fonction",
+      "chapters": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-S83-003",
+    "file": "registers/s83_hannett_architecture_specialized_registers.md",
+    "heading": "PLACE-S83-003 — Ferranti's manufacturing plant, Manchester",
+    "data": {
+      "id": "PLACE-S83-003",
+      "source_id": "S83",
+      "label": "Ferranti's manufacturing plant",
+      "type": "industrie",
+      "type_detail": "usine_manufacturiere",
+      "pages_pdf": "194",
+      "pages_livre": "163",
+      "statut": "verifie",
+      "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+      "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+      "source_year": "2018",
+      "sources": [
+        "S83"
+      ],
+      "chapters": [
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD",
+    "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+    "heading": "S41 — Chansons, concerts, lieux et objets — Timeline Two, de Warsaw à Joy Division",
+    "data": {
+      "id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD",
+      "source_id": "S41",
+      "label": "Swan pub, Eccles New Road, Salford",
+      "type": "studio",
+      "type_detail": "lieu_repetition",
+      "usage": "L’un des premiers lieux de répétition, réactivé des années plus tard comme lieu de mémoire brutale de Ian et Joy Division.",
+      "atoms": [
+        "S41-A057"
+      ],
+      "prudence": "Distinguer l’usage initial comme salle de répétition et le retour mémoriel postérieur.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012",
+      "sources": [
+        "S41"
+      ],
+      "chapters": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-HACIENDA",
+    "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+    "heading": "Lieux",
+    "data": {
+      "id": "PLACE-HACIENDA",
+      "lat": 53.4746,
+      "lng": -2.2503,
+      "geo_precision": "exacte",
+      "reference_croisee": [
+        "wikidata:Q1572261"
+      ],
+      "prudence_methodologique": "FAC 51 ; démolie en 2002, remplacée par des logements.",
+      "label": "Haçienda / FAC 51",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S13"
+      ],
+      "usage": "lieu de translation Factory / New Order / acid house.",
+      "_legacy_format": "s13-lieux"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-WAREHOUSE-CHICAGO",
+    "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+    "heading": "Lieux",
+    "data": {
+      "id": "PLACE-WAREHOUSE-CHICAGO",
+      "label": "Warehouse, Chicago",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": [
+        "S13"
+      ],
+      "usage": "repère de la house mobilisé par Tomeo.",
+      "prudence": "À vérifier si l’événement ou la date sont cités en rédaction finale.",
+      "_legacy_format": "s13-lieux"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-CHICAGO",
+    "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+    "heading": "Lieux",
+    "data": {
+      "id": "PLACE-CHICAGO",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "geo_precision": "ville",
+      "reference_croisee": [
+        "wikidata:Q1297"
+      ],
+      "label": "Chicago",
+      "type": "ville",
+      "type_detail": "ville",
+      "sources": [
+        "S13"
+      ],
+      "usage": "origine house dans l’argumentaire Tomeo.",
+      "_legacy_format": "s13-lieux"
+    }
+  },
+  {
+    "kind": "place",
+    "id": "PLACE-DETROIT",
+    "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+    "heading": "Lieux",
+    "data": {
+      "id": "PLACE-DETROIT",
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "geo_precision": "ville",
+      "reference_croisee": [
+        "wikidata:Q12439"
+      ],
+      "label": "Detroit",
+      "type": "ville",
+      "type_detail": "ville",
+      "sources": [
+        "S13"
+      ],
+      "usage": "horizon techno à ne pas effacer si l’on parle de rave era.",
+      "prudence": "Detroit n’est pas le centre de S13 mais doit servir de garde-fou contre l’anglocentrisme.",
+      "_legacy_format": "s13-lieux"
+    }
+  }
+]

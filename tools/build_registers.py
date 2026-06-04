@@ -270,6 +270,17 @@ def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]
                 continue
             if loaded.get("source_id") and not loaded.get("id"):
                 context_source_id = str(loaded["source_id"])
+            # First-level container blocks carrying a LIST OF OBJECTS are sets of
+            # sub-records, not one record. This keeps the generated exports aligned
+            # with the specialized validators/loaders for quotes and places.
+            place_container = rel(path).startswith("registers/") and isinstance(loaded.get("places"), list) and any(
+                isinstance(x, dict) for x in loaded["places"]
+            )
+            if place_container:
+                for item in loaded["places"]:
+                    if isinstance(item, dict) and not is_empty_template(item):
+                        blocks.append((enrich_source_label(item), heading))
+                continue
             # First-level quote container: a block shaped `quotes:` / `citations:`
             # carrying a LIST OF OBJECTS is a set of sub-records, not one record.
             # The top-level list form (`- id: …`) is already split below; this
@@ -277,9 +288,7 @@ def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]
             # as a single id-less dict and dropped as a template — the citations
             # blind spot (step 8a). The guard requires at least one object in the
             # list so a record's homonymous string-list field (e.g.
-            # `citations: [S12-A005]`) is not mistaken for a container. Scope is
-            # deliberately limited to quote-bearing keys; other container keys
-            # (people, places, chronology…) remain each register's own concern.
+            # `citations: [S12-A005]`) is not mistaken for a container.
             container_key = next(
                 (k for k in ("quotes", "citations")
                  if isinstance(loaded.get(k), list)
@@ -328,6 +337,8 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "concert"
     if record_id.startswith("JD-SESSION-"):
         return "session"
+    if record_id.startswith("PLACE-"):
+        return "place"
     # Étape 9 : identité canonique d'acteur PERSON-<slug>
     # (registers/people/00_canonical_people.md), réconciliant la couche
     # provisoire PERS-* par `same_as`. NB : "PERSON-…".startswith("PERS-") est
@@ -629,7 +640,7 @@ def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
             record_id = str(data.get("id") or data.get("song") or "")
             if not record_id:
                 record_id = f"NO_ID::{rel(path)}::{len(records) + 1}"
-            if kind not in {"source", "metadata", "template"}:
+            if kind not in {"source", "metadata", "template", "place"}:
                 if record_id in seen_ids:
                     diagnostics.append(Diagnostic("error", rel(path), f"Duplicate id also found in {seen_ids[record_id]}", record_id))
                 else:
@@ -674,7 +685,7 @@ def write_csv(path: Path, records: List[ParsedRecord], preferred_fields: List[st
                 extra_keys.append(key)
     fields += extra_keys
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for record in records:
             row = {"kind": record.kind, "id": record.id, "file": record.file, "heading": record.heading or ""}
@@ -682,6 +693,303 @@ def write_csv(path: Path, records: List[ParsedRecord], preferred_fields: List[st
                 if key not in row:
                     row[key] = flatten_value(record.data.get(key))
             writer.writerow(row)
+
+def mergeable_values(value: Any) -> List[Any]:
+    if value is None or value == "":
+        return []
+    if isinstance(value, list):
+        return [item for item in value if item is not None and item != ""]
+    return [value]
+
+def merge_key(value: Any) -> str:
+    return json.dumps(make_json_safe(value), ensure_ascii=False, sort_keys=True)
+
+def unique_values(values: Iterable[Any]) -> List[Any]:
+    seen = set()
+    unique: List[Any] = []
+    for value in values:
+        if value is None or value == "":
+            continue
+        key = merge_key(value)
+        if key not in seen:
+            seen.add(key)
+            unique.append(value)
+    return unique
+
+def first_non_empty(values: Iterable[Any]) -> Any:
+    for value in values:
+        if value is not None and value != "":
+            return value
+    return None
+
+def source_ids_from_place(record: ParsedRecord) -> List[str]:
+    data = record.data or {}
+    values: List[Any] = []
+    values.extend(mergeable_values(data.get("sources")))
+    values.extend(mergeable_values(data.get("source_id")))
+    values.extend(mergeable_values(data.get("source_ids")))
+    return [normalize_identifier(str(value)) for value in values if str(value).strip()]
+
+def same_as_targets_from_place(record: ParsedRecord) -> List[str]:
+    return [str(value) for value in mergeable_values((record.data or {}).get("same_as")) if str(value).strip()]
+
+def build_place_canonical_map(places: List[ParsedRecord]) -> Dict[str, str]:
+    known = {record.id for record in places}
+    edges: Dict[str, str] = {}
+    for record in places:
+        targets = same_as_targets_from_place(record)
+        if targets and targets[0] in known:
+            edges[record.id] = targets[0]
+
+    rep: Dict[str, str] = {}
+    for place_id in known:
+        seen = set()
+        current = place_id
+        while current in edges and current not in seen:
+            seen.add(current)
+            current = edges[current]
+        rep[place_id] = current
+    return rep
+
+def place_label(data: Dict[str, Any], fallback: str) -> str:
+    return str(data.get("label") or data.get("nom") or data.get("name") or fallback)
+
+def place_canonical_labels(data: Dict[str, Any], fallback: str) -> List[str]:
+    return unique_values([
+        data.get("label"),
+        data.get("nom"),
+        data.get("name"),
+        fallback,
+    ])
+
+def place_origin(record: ParsedRecord) -> str:
+    source_id = next(iter(source_ids_from_place(record)), "")
+    return source_id.split("-")[0] if source_id else ""
+
+def merged_scalar_or_list(values: Iterable[Any]) -> Any:
+    unique = unique_values(value for raw in values for value in mergeable_values(raw))
+    if not unique:
+        return None
+    return unique[0] if len(unique) == 1 else unique
+
+PLACE_SCHEMA_ARRAY_FIELDS = {
+    "sources",
+    "chapitres",
+    "atoms",
+    "song_ids",
+    "reference_croisee",
+}
+
+PLACE_SCHEMA_SCALAR_FIELDS = {
+    "id",
+    "label",
+    "type",
+    "type_detail",
+    "source_id",
+    "source_label",
+    "usage",
+    "usage_s02",
+    "usage_s05",
+    "usage_s06",
+    "usage_s10",
+    "usage_s20",
+    "prudence",
+    "lat",
+    "lng",
+    "geo_precision",
+    "same_as",
+    "prudence_methodologique",
+    "pages_pdf",
+    "pages_livre",
+    "statut",
+    "type_unite",
+    "_legacy_format",
+}
+
+PLACE_ALTERNATE_FIELD_NAMES = {
+    "type": "alternate_types",
+    "type_detail": "alternate_type_details",
+    "source_id": "alternate_source_ids",
+    "source_label": "alternate_source_labels",
+    "geo_precision": "alternate_geo_precisions",
+    "pages_pdf": "alternate_pages_pdf",
+    "pages_livre": "alternate_pages_livre",
+    "statut": "alternate_statuts",
+    "type_unite": "alternate_type_unites",
+    "_legacy_format": "alternate_legacy_formats",
+}
+
+def alternate_place_field(field: str) -> str:
+    return PLACE_ALTERNATE_FIELD_NAMES.get(field, f"alternate_{field}s")
+
+def merge_place_scalar_field(data: Dict[str, Any], group: List[ParsedRecord], field: str) -> None:
+    alternate_field = alternate_place_field(field)
+    values = unique_values(
+        value
+        for record in group
+        for value in mergeable_values(record.data.get(field))
+        + mergeable_values(record.data.get(alternate_field))
+    )
+    if not values:
+        data.pop(alternate_field, None)
+        return
+
+    canonical_value = first_non_empty(mergeable_values(group[0].data.get(field)))
+    primary = canonical_value if canonical_value is not None else values[0]
+    data[field] = primary
+
+    alternatives = [value for value in values if merge_key(value) != merge_key(primary)]
+    if alternatives:
+        data[alternate_field] = alternatives
+    else:
+        data.pop(alternate_field, None)
+
+def merge_place_array_field(data: Dict[str, Any], group: List[ParsedRecord], field: str) -> None:
+    values = unique_values(value for record in group for value in mergeable_values(record.data.get(field)))
+    if values:
+        data[field] = values
+
+def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
+    canonical = group[0]
+    data: Dict[str, Any] = dict(canonical.data)
+    canonical_id = canonical.id
+    data["id"] = canonical_id
+
+    canonical_labels = place_canonical_labels(canonical.data, canonical_id)
+    alternate_labels = unique_values(
+        label
+        for record in group
+        for label in mergeable_values(record.data.get("alternate_labels"))
+        + [place_label(record.data, record.id)]
+    )
+    alternate_labels = [label for label in alternate_labels if label not in canonical_labels]
+    if alternate_labels:
+        data["alternate_labels"] = alternate_labels
+    else:
+        data.pop("alternate_labels", None)
+
+    sources = unique_values(source for record in group for source in source_ids_from_place(record))
+    if sources:
+        data["sources"] = sources
+
+    chapters = unique_values(
+        chapter
+        for record in group
+        for chapter in mergeable_values(record.data.get("chapters") or record.data.get("chapitres"))
+    )
+    if chapters:
+        data["chapters"] = chapters
+        data.pop("chapitres", None)
+
+    aliases = unique_values(record.id for record in group if record.id != canonical_id)
+    if aliases:
+        data["aliases"] = aliases
+
+    source_files = unique_values(record.file for record in group)
+    if len(source_files) > 1:
+        data["source_files"] = source_files
+
+    usages = []
+    for record in group:
+        for key, value in (record.data or {}).items():
+            if key == "usage" or key.startswith("usage_"):
+                for usage in mergeable_values(value):
+                    usage_text = str(usage).strip()
+                    if usage_text:
+                        usages.append((place_origin(record), usage_text))
+    distinct_usages = unique_values(usage for _, usage in usages)
+    if len(distinct_usages) == 1:
+        data["usage"] = distinct_usages[0]
+    elif len(distinct_usages) > 1:
+        data["usage"] = " | ".join(
+            f"Selon {origin} : {usage}" if origin else usage
+            for origin, usage in usages
+            if usage in distinct_usages
+        )
+
+    for key in ("lat", "lng", "geo_precision"):
+        merge_place_scalar_field(data, group, key)
+
+    for key in ("atoms", "song_ids", "reference_croisee"):
+        merge_place_array_field(data, group, key)
+
+    same_as_values = unique_values(
+        value
+        for record in group
+        for value in mergeable_values(record.data.get("same_as"))
+    )
+    same_as_values = [value for value in same_as_values if value != canonical_id]
+    if len(same_as_values) == 1:
+        data["same_as"] = same_as_values[0]
+    elif len(same_as_values) > 1:
+        data["same_as"] = same_as_values[0]
+        data["alternate_same_as"] = same_as_values[1:]
+    else:
+        data.pop("same_as", None)
+        data.pop("alternate_same_as", None)
+
+    for key in ("prudence", "prudence_methodologique", "methodological_warnings", "notes"):
+        merged = unique_values(value for record in group for value in mergeable_values(record.data.get(key)))
+        if len(merged) == 1:
+            data[key] = merged[0]
+        elif len(merged) > 1:
+            data[key] = " | ".join(str(value) for value in merged)
+
+    handled = {
+        "id", "label", "nom", "name", "sources", "source_id", "source_ids",
+        "chapters", "chapitres", "aliases", "alternate_labels", "source_files", "usage",
+        "lat", "lng", "geo_precision", "atoms", "song_ids", "reference_croisee",
+        "same_as", "prudence", "prudence_methodologique",
+        "methodological_warnings", "notes",
+    }
+    for key in sorted({key for record in group for key in record.data.keys()} - handled):
+        if key in PLACE_SCHEMA_SCALAR_FIELDS:
+            merge_place_scalar_field(data, group, key)
+        elif key in PLACE_SCHEMA_ARRAY_FIELDS:
+            merge_place_array_field(data, group, key)
+        else:
+            merged = merged_scalar_or_list(record.data.get(key) for record in group)
+            if merged is not None:
+                data[key] = merged
+
+    return ParsedRecord(
+        kind="place",
+        id=canonical_id,
+        file=canonical.file,
+        heading=canonical.heading,
+        data=data,
+    )
+
+def merge_place_records(places: List[ParsedRecord]) -> List[ParsedRecord]:
+    rep = build_place_canonical_map(places)
+    groups: Dict[str, List[ParsedRecord]] = {}
+    order: List[str] = []
+    for record in places:
+        key = rep.get(record.id, record.id)
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        if key == record.id:
+            groups[key].insert(0, record)
+        else:
+            groups[key].append(record)
+    return [merge_place_group(groups[place_id]) for place_id in order]
+
+def records_with_merged_places(records: List[ParsedRecord], places: List[ParsedRecord]) -> List[ParsedRecord]:
+    rep = build_place_canonical_map(records_by_kind(records, "place"))
+    places_by_id = {record.id: record for record in places}
+    emitted_places = set()
+    exported: List[ParsedRecord] = []
+    for record in records:
+        if record.kind != "place":
+            exported.append(record)
+            continue
+        place_id = rep.get(record.id, record.id)
+        if place_id in emitted_places:
+            continue
+        exported.append(places_by_id[place_id])
+        emitted_places.add(place_id)
+    return exported
 
 def label_for_source(source_id: str, data: Dict[str, Any]) -> Dict[str, str]:
     ensure_source_labels_loaded()
@@ -953,6 +1261,9 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     templates = records_by_kind(records, "template")
     concerts = records_by_kind(records, "concert")
     sessions = records_by_kind(records, "session")
+    raw_places = records_by_kind(records, "place")
+    places = merge_place_records(raw_places)
+    export_records = records_with_merged_places(records, places)
     sources = build_source_registry(records)
     diagnostics_payload = build_diagnostics_payload(records, diagnostics, sources)
 
@@ -976,9 +1287,10 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_json(EXPORT_DIR / "templates.json", [asdict(r) for r in templates])
     write_json(EXPORT_DIR / "concerts.json", [asdict(r) for r in concerts])
     write_json(EXPORT_DIR / "sessions.json", [asdict(r) for r in sessions])
+    write_json(EXPORT_DIR / "places.json", [asdict(r) for r in places])
     write_json(EXPORT_DIR / "sources.json", sources)
-    write_json(EXPORT_DIR / "all_records.json", [asdict(record) for record in records])
-    write_json(EXPORT_DIR / "index_by_id.json", {record.id: asdict(record) for record in records})
+    write_json(EXPORT_DIR / "all_records.json", [asdict(record) for record in export_records])
+    write_json(EXPORT_DIR / "index_by_id.json", {record.id: asdict(record) for record in export_records})
     write_json(EXPORT_DIR / "diagnostics.json", diagnostics_payload)
     write_diagnostics_markdown(EXPORT_DIR / "diagnostics.md", diagnostics_payload)
 
@@ -1003,6 +1315,7 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_csv(EXPORT_DIR / "templates.csv", templates, ["id", "name", "role", "sources", "certainty", "date", "event", "type"])
     write_csv(EXPORT_DIR / "concerts.csv", concerts, ["date", "statut", "lieu", "ville", "pays", "ere", "source", "url_detail", "atomes_lies", "notes"])
     write_csv(EXPORT_DIR / "sessions.csv", sessions, ["numero", "label", "date", "studio", "ville", "producteur", "ere", "titres", "premiere_sortie_officielle", "source", "atomes_lies"])
+    write_csv(EXPORT_DIR / "places.csv", places, ["label", "type", "type_detail", "sources", "usage", "lat", "lng", "geo_precision", "prudence_methodologique", "same_as"])
     source_csv_records = [ParsedRecord("source", e["source_id"], "exports/generated/sources.json", None, e) for e in sources]
     write_csv(EXPORT_DIR / "sources.csv", source_csv_records, ["source_id", "source_label", "auteur", "titre", "annee", "records", "atoms", "quotes", "chronology", "files"])
     diagnostic_csv_records = [ParsedRecord("diagnostic", f"D{idx:04d}", "exports/generated/diagnostics.json", None, asdict(diag)) for idx, diag in enumerate(diagnostics, start=1)]

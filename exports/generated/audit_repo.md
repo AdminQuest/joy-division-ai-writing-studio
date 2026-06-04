@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-02T09:44:06`
+Généré le : `2026-06-03T19:53:10`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 1410 bloc(s) YAML ne sont pas classés.
+Le repo est techniquement exploitable, mais 1404 bloc(s) YAML ne sont pas classés.
 La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 8437
+- Enregistrements : 8634
 - Erreurs : 0
-- Avertissements : 28876
+- Avertissements : 28870
 - Sources déclarées : 97
 - Sources utilisées : 82
 - Sources exportées : 82
@@ -30,14 +30,15 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 | motif | 427 |
 | myth | 102 |
 | person | 509 |
+| place | 215 |
 | quote | 962 |
 | quote_batch | 1 |
 | rules | 1 |
 | session | 17 |
 | song | 110 |
 | source | 124 |
-| template | 340 |
-| unknown | 1410 |
+| template | 328 |
+| unknown | 1404 |
 
 ## 4. Catégories de problèmes
 
@@ -47,7 +48,7 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 | invalid_controlled_value | 2622 |
 | missing_required_field | 8046 |
 | schema_warning | 492 |
-| unknown_yaml_block | 1410 |
+| unknown_yaml_block | 1404 |
 | v2_migration_debt | 15560 |
 
 ## 5. Erreurs bloquantes
@@ -96,7 +97,7 @@ Aucune.
 - `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-013] : Unable to infer documentary kind
 - `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-014] : Unable to infer documentary kind
 - `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-015] : Unable to infer documentary kind
-- … 1370 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1364 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
