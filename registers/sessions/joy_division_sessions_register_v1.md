@@ -913,7 +913,6 @@ stabilisés.
       - PLACE-BRITANNIA-ROW-STUDIOS
     people:
       - PERSON-martin-hannett
-      - PERSON-pete-johnson
   notes: "Plage du 18 au 30 mars 1980. Session centrale de Closer, avec moyens londoniens accrus et ingénierie de Jon Caffery."
 
 - id: JD-SESSION-19800000-001
