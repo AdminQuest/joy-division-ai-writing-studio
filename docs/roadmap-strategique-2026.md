@@ -49,6 +49,20 @@ Pour les prochains jours, seules les actions suivantes sont autorisees :
 - ne pas fusionner les repos ;
 - ne pas refondre l'interface.
 
+## Commandes de controle de reference
+
+Les controles de reference distinguent la generation de STATUS.md et le controle global du pipeline.
+
+```bash
+python3 tools/generate_status.py
+python3 tools/build_all.py
+python3 tools/check_generated_sync.py
+python3 tools/audit_repo.py
+git status
+```
+
+`tools/generate_status.py` est le generateur direct de STATUS.md. `tools/build_all.py` reste le controle global du pipeline registres / documents maitres / exports / audits.
+
 ## Vue d'ensemble
 
 | Milestone | Statut | Priorite | Intention |
@@ -78,13 +92,13 @@ Un chantier peut se rattacher a plusieurs jalons selon sa phase : documentation,
 | Step 12 — cross-registres profond | en cours | M1 | Fiabilite inter-registres ; blocages pouvant preparer M2. |
 | Tracklists + cle etrangere song_id dans les releases | a faire | M1 | Structure et fiabilite du corpus releases. |
 | Deep-link par variante | a faire | M1 -> M2 | Pre-requis de fiabilite, puis surface d'usage ou d'ajout. |
-| Application registre-concerts | a faire | M0 (audit) -> point ouvert -> M2 (formulaire) | Les donnees relevent de M0/M1 ; l'application de consultation doit etre arbitree ; le futur formulaire releve de M2. |
+| Application registre-concerts | existant, a auditer | M0 + M1 -> M2 (formulaire) | L'application de consultation existe deja et doit etre inventoriee, auditee et documentee en M0 ; les donnees et liens concerts relevent de M1 ; seul le futur formulaire d'ajout releve de M2. |
 | Fiche personne avec deep-link ?id= | differe | M1 / M2 | Rattache a la passe 12b-2.c-extended ; fiabilite d'abord, ergonomie ensuite. |
 | Chantiers RAG / manuscript-studio | experimental | M4 | Roles a clarifier sans refonte immediate. |
 | Collection personnelle | actif | M0 + M3 + M5 | Inventaire en M0 ; integration au repo unique prive en M3 ; medias, objets et droits en M5. |
 | Migration Cloudflare Pages + Zero Trust | decide, non lance | M3 | Decision d'architecture ; migration ulterieure apres stabilisation M0/M1. |
 
-Le rattachement de l'application de consultation du registre concerts reste a arbitrer. Les donnees concerts relevent de M0/M1 ; le formulaire d'ajout releve de M2 ; l'application de consultation peut soit relever d'une couche applicative de M0, soit etre traitee comme chantier specifique a documenter.
+L'application de consultation du registre concerts appartient au perimetre des applications existantes a inventorier et a auditer ; elle ne doit pas etre recreee. Le point ouvert concerne uniquement les ameliorations futures et le formulaire d'ajout, qui relevent de M2.
 
 ## M0 — Stabilisation du socle
 
@@ -120,7 +134,8 @@ Le rattachement de l'application de consultation du registre concerts reste a ar
 
 M0 est termine si :
 
-- STATUS.md se regenere sans erreur via build_all.py avec le pathspec complet ;
+- STATUS.md se regenere sans erreur via tools/generate_status.py, puis les artefacts generes sont verifies par check-generated-sync ;
+- build_all.py reste le controle global du pipeline registres / documents maitres / exports / audits, mais il n'est pas presente comme le generateur direct de STATUS.md sauf s'il appelle explicitement tools/generate_status.py ;
 - check-generated-sync est au vert sur la derniere PR ;
 - l'inventaire des applications existantes est disponible et date ;
 - l'inventaire des registres canoniques est disponible, avec volumetrie ;
