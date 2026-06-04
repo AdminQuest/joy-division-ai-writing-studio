@@ -30,33 +30,332 @@
 <section id="panel-registers" class="panel theme-registers" role="tabpanel" aria-labelledby="tab-registers" data-panel="registers">
 <div class="cards-grid">
 
-<!-- 1. Chronologique -->
+<!-- 1. Sources -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-sources">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"/><path d="M8 7h8"/><path d="M8 11h7"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des sources</h3>
+      <p class="card-summary">Notices bibliographiques, citations, atomes, chapitres et premiers liens du graphe.</p>
+      <span class="card-counter">82 sources</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-sources" hidden>
+      <ul>
+        <li>notice bibliographique publique</li>
+        <li>citations, atomes et chapitres associés</li>
+        <li>liens concepts, motifs et mythes</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/source-register/">Ouvrir</a>
+</article>
+
+<!-- 2. Citations -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-quotes">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des citations</h3>
+      <p class="card-summary">Citations structurées du corpus, avec attribution, traduction et niveau de vérification.</p>
+      <span class="card-counter">962 citations</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-quotes" hidden>
+      <ul>
+        <li>citation originale et traduction</li>
+        <li>niveau de vérification</li>
+        <li>chapitres liés</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/quote-register/">Ouvrir</a>
+</article>
+
+<!-- 3. Concepts -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-concepts">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des concepts</h3>
+      <p class="card-summary">Notions critiques stabilisées et mobilisées par le corpus et les documents maîtres.</p>
+      <span class="card-counter">463 entrées</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-concepts" hidden>
+      <ul>
+        <li>registre public des notions</li>
+        <li>sources et chapitres associés</li>
+        <li>liens documentaires transversaux</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/concept-register/?type=concept">Ouvrir</a>
+</article>
+
+<!-- 4. Motifs -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-motifs">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M4 12h10"/><path d="M4 17h16"/><path d="M16 12h4"/><path d="m18 10 2 2-2 2"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des motifs</h3>
+      <p class="card-summary">Motifs récurrents, chaînes argumentatives et formes documentaires transversales.</p>
+      <span class="card-counter">427 entrées</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-motifs" hidden>
+      <ul>
+        <li>récurrences et scènes documentaires</li>
+        <li>sources et chapitres associés</li>
+        <li>liens vers concepts et mythes</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/concept-register/?type=motif">Ouvrir</a>
+</article>
+
+<!-- 5. Mythes -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-myths">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 8h2"/><path d="M16 8h2"/><path d="M6 12h2"/><path d="M16 12h2"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des mythes à déconstruire</h3>
+      <p class="card-summary">Récits à déconstruire, nuancer ou documenter avec prudence historiographique.</p>
+      <span class="card-counter">102 entrées</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-myths" hidden>
+      <ul>
+        <li>récits, simplifications et corrections</li>
+        <li>sources qui produisent ou nuancent</li>
+        <li>motifs et concepts associés</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/concept-register/?type=myth">Ouvrir</a>
+</article>
+
+<!-- 6. Chronologie -->
 <article class="card">
   <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-chrono">
     <span class="card-icon" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h5"/><path d="M17.5 17.5 16 16.3V14"/><circle cx="16" cy="16" r="6"/></svg>
     </span>
     <div class="card-body">
-      <h3 class="card-title">Registre chronologique</h3>
-      <p class="card-summary">Concerts, sessions, événements biographiques, transitions.</p>
-      <span class="card-counter">433 entrées</span>
+      <h3 class="card-title">Registre de la chronologie</h3>
+      <p class="card-summary">Événements, jalons, concerts migrés, sessions et transitions biographiques.</p>
+      <span class="card-counter">539 entrées</span>
     </div>
     <span class="card-chevron" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
     </span>
     <div class="card-details" id="d-chrono" hidden>
       <ul>
-        <li>timeline documentaire</li>
-        <li>filtres par année</li>
-        <li>lieux et acteurs</li>
-        <li>export CSV</li>
+        <li>frise documentaire</li>
+        <li>filtres par année et type</li>
+        <li>liens acteurs et lieux</li>
       </ul>
     </div>
   </button>
   <a class="card-cta" href="apps/chronology-register/">Ouvrir</a>
 </article>
 
-<!-- 2. Releases (externe) -->
+<!-- 7. Acteurs -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-people">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des acteurs</h3>
+      <p class="card-summary">Personnes, rôles, réseaux, citations attribuées et précautions documentaires.</p>
+      <span class="card-counter">204 acteurs canoniques</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-people" hidden>
+      <ul>
+        <li>personnes canoniques PERSON-*</li>
+        <li>facettes source, chapitre et catégorie</li>
+        <li>export CSV</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/people-register/">Ouvrir</a>
+</article>
+
+<!-- 8. Lieux -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-places">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des lieux</h3>
+      <p class="card-summary">Villes, quartiers, salles, studios, estates et lieux de mémoire du corpus.</p>
+      <span class="card-counter">202 lieux</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-places" hidden>
+      <ul>
+        <li>géographie documentaire</li>
+        <li>concerts associés et carte</li>
+        <li>prudences de géolocalisation</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/places-register/">Ouvrir</a>
+</article>
+
+<!-- 9. Chansons -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-songs">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des chansons</h3>
+      <p class="card-summary">Titres, variantes, sessions, lives, motifs et mentions atomisées.</p>
+      <span class="card-counter">110 titres</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-songs" hidden>
+      <ul>
+        <li>corpus Joy Division et Warsaw</li>
+        <li>variantes studio, radio et live</li>
+        <li>liens sources et chapitres</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/song-register/">Ouvrir</a>
+</article>
+
+<!-- 10. Sessions -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-sessions">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/><path d="M8 6v12"/><path d="M16 6v12"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des sessions et répétitions</h3>
+      <p class="card-summary">Répétitions, démos, studio, radio et télévision : la fabrication du son Joy Division.</p>
+      <span class="card-counter">26 sessions</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-sessions" hidden>
+      <ul>
+        <li>26 entrées JD-SESSION-*</li>
+        <li>exports sessions JSON et CSV</li>
+        <li>lieux, titres, producteurs et statuts</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/sessions-register/">Ouvrir</a>
+</article>
+
+<!-- 11. Concerts -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-concerts">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des concerts</h3>
+      <p class="card-summary">Concerts documentés Warsaw / Joy Division, lieux, dates, statuts et sources.</p>
+      <span class="card-counter">388 concerts</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-concerts" hidden>
+      <ul>
+        <li>identités canoniques dédoublonnées</li>
+        <li>lieux reliés au registre lieux</li>
+        <li>statut confirmé, prévu ou annulé</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/concerts-register/">Ouvrir</a>
+</article>
+
+<!-- 12. Organisations -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-orgs">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des organisations</h3>
+      <p class="card-summary">Groupes musicaux, labels, institutions, médias et équipes techniques.</p>
+      <span class="card-counter">8 organisations canoniques</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-orgs" hidden>
+      <ul>
+        <li>identités ORG-* gelées</li>
+        <li>catégories et liens externes</li>
+        <li>relation documentée à Joy Division</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/organizations-register/">Ouvrir</a>
+</article>
+
+<!-- 13. Iconographie -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-images">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des archives iconographiques</h3>
+      <p class="card-summary">Séances photographiques et clichés : photographes, contextes, lieux et usages.</p>
+      <span class="card-counter">6 séances, 3 images</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-images" hidden>
+      <ul>
+        <li>identités IMAGE-S / IMAGE-I</li>
+        <li>photographes, contextes et lieux</li>
+        <li>clichés iconiques documentés</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/images-register/">Ouvrir</a>
+</article>
+
+<!-- 14. Releases / archives externes -->
 <article class="card card-external">
   <span class="card-external-badge" aria-label="Lien externe">
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
@@ -66,8 +365,8 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M6 12c0-1.7.7-3.2 1.8-4.2"/><circle cx="12" cy="12" r="2"/><path d="M18 12c0 1.7-.7 3.2-1.8 4.2"/></svg>
     </span>
     <div class="card-body">
-      <h3 class="card-title">Registre des releases</h3>
-      <p class="card-summary">Catalogue des éditions officielles, pirates, bootlegs, vidéos, livres et matériel para-discographique.</p>
+      <h3 class="card-title">Registre des releases et archives discographiques</h3>
+      <p class="card-summary">Éditions officielles, pirates, bootlegs, vidéos, livres et matériel para-discographique.</p>
       <span class="card-counter">1669 variantes</span>
     </div>
     <span class="card-chevron" aria-hidden="true">
@@ -75,297 +374,13 @@
     </span>
     <div class="card-details" id="d-releases" hidden>
       <ul>
-        <li>7 catégories (officiel, pirate, bootleg, vidéo, coffret, livre, para)</li>
+        <li>officiel, pirate, bootleg, vidéo, coffret, livre</li>
         <li>couvertures Discogs</li>
         <li>mode éclaté / consolidé</li>
       </ul>
     </div>
   </button>
   <a class="card-cta" href="https://adminquest.github.io/joy-division-releases/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
-</article>
-
-<!-- 3. Concerts -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-concerts">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre des concerts</h3>
-      <p class="card-summary">Concerts documentés (Warsaw / Joy Division), lieux, dates et statut.</p>
-      <span class="card-counter">192 concerts</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-concerts" hidden>
-      <ul>
-        <li>identités canoniques dédoublonnées (same_as)</li>
-        <li>sections par année, statut confirmé / annulé</li>
-        <li>lieu relié au registre des lieux</li>
-        <li>traçabilité des membres · export CSV</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/concerts-register/">Ouvrir</a>
-</article>
-
-<!-- 4. Acteurs -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-people">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre des acteurs</h3>
-      <p class="card-summary">Personnes, rôles, réseaux, contradictions documentaires et précautions méthodologiques.</p>
-      <span class="card-counter">661 acteurs</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-people" hidden>
-      <ul>
-        <li>sources croisées</li>
-        <li>rôles et fonctions</li>
-        <li>événements liés</li>
-        <li>contradictions</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/people-register/">Ouvrir</a>
-</article>
-
-<!-- 5. Lieux -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-places">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre des lieux</h3>
-      <p class="card-summary">Villes, quartiers, salles, studios, estates, lieux de mémoire liés au corpus.</p>
-      <span class="card-counter">83 lieux</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-places" hidden>
-      <ul>
-        <li>géographie documentaire</li>
-        <li>types de lieux</li>
-        <li>sources et chapitres</li>
-        <li>prudences d'usage</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/places-register/">Ouvrir</a>
-</article>
-
-<!-- 6. Organisations -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-orgs">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre des organisations</h3>
-      <p class="card-summary">Registre canonique des entites collectives : groupes musicaux, labels, institutions, medias et equipes techniques.</p>
-      <span class="card-counter">8 organisations canoniques</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-orgs" hidden>
-      <ul>
-        <li>identites canoniques gelees (ORG-NNNN)</li>
-        <li>categories : groupe, label, institution, media, crew</li>
-        <li>liens Wikidata verifies</li>
-        <li>relation documentee a Joy Division</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/organizations-register/">Ouvrir</a>
-</article>
-
-<!-- 7. Iconographie -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-images">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre iconographique</h3>
-      <p class="card-summary">Seances photographiques et cliches iconiques : photographes, contextes, lieux et usages documentes.</p>
-      <span class="card-counter">6 seances, 3 images</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-images" hidden>
-      <ul>
-        <li>identites canoniques gelees (IMAGE-S / IMAGE-I)</li>
-        <li>deux niveaux : seances et images individuelles</li>
-        <li>photographes, contextes, lieux et evenements lies</li>
-        <li>cliches iconiques et usages documentes</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/images-register/">Ouvrir</a>
-</article>
-
-<!-- 8. Chansons -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-songs">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre des chansons</h3>
-      <p class="card-summary">Vue analytique des chansons : thèmes, motifs, production, live history, sources et chapitres liés.</p>
-      <span class="card-counter">51 titres</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-songs" hidden>
-      <ul>
-        <li>thèmes récurrents</li>
-        <li>présence et motifs</li>
-        <li>production</li>
-        <li>liens intertextuels</li>
-        <li>51 titres canoniques Joy Division et Warsaw, agrégeant variantes, démos, Peel/BBC, lives et mentions atomisées</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/song-register/">Ouvrir</a>
-</article>
-
-<!-- 9. Citations -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-quotes">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Registre des citations</h3>
-      <p class="card-summary">Vue documentaire dynamique construite automatiquement depuis les citations structurées du corpus.</p>
-      <span class="card-counter">909 citations</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-quotes" hidden>
-      <ul>
-        <li>citation originale</li>
-        <li>traduction éditoriale</li>
-        <li>niveau de vérification</li>
-        <li>chapitres liés</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/quote-register/">Ouvrir</a>
-</article>
-
-<!-- 10. Concepts -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-concepts">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Concepts</h3>
-      <p class="card-summary">Registre analytique des notions critiques mobilisées par le corpus et les documents maîtres.</p>
-      <span class="card-counter">463 entrées</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-concepts" hidden>
-      <ul>
-        <li>registre public 10</li>
-        <li>notions critiques stabilisées</li>
-        <li>sources, chapitres et occurrences documentaires</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/concept-register/?type=concept">Ouvrir</a>
-</article>
-
-<!-- 11. Motifs -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-motifs">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M4 12h10"/><path d="M4 17h16"/><path d="M16 12h4"/><path d="m18 10 2 2-2 2"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Motifs</h3>
-      <p class="card-summary">Registre des motifs récurrents, chaînes argumentatives et formes documentaires transversales.</p>
-      <span class="card-counter">446 entrées</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-motifs" hidden>
-      <ul>
-        <li>registre public 11</li>
-        <li>formes récurrentes et chaînes documentaires</li>
-        <li>sources, chapitres et occurrences documentaires</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/concept-register/?type=motif">Ouvrir</a>
-</article>
-
-<!-- 12. Mythes -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-myths">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 8h2"/><path d="M16 8h2"/><path d="M6 12h2"/><path d="M16 12h2"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Mythes</h3>
-      <p class="card-summary">Registre des récits à déconstruire, nuancer ou documenter avec prudence historiographique.</p>
-      <span class="card-counter">132 entrées</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-myths" hidden>
-      <ul>
-        <li>registre public 12</li>
-        <li>récits, simplifications et corrections critiques</li>
-        <li>sources, chapitres et occurrences documentaires</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/concept-register/?type=myth">Ouvrir</a>
-</article>
-
-<!-- 13. Sources -->
-<article class="card">
-  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-sources">
-    <span class="card-icon" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"/><path d="M8 7h8"/><path d="M8 11h7"/></svg>
-    </span>
-    <div class="card-body">
-      <h3 class="card-title">Sources</h3>
-      <p class="card-summary">Fiches bibliographiques reliant citations, atomes, chapitres et premiers liens sémantiques du graphe.</p>
-      <span class="card-counter">82 sources</span>
-    </div>
-    <span class="card-chevron" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-    </span>
-    <div class="card-details" id="d-sources" hidden>
-      <ul>
-        <li>notice bibliographique publique</li>
-        <li>citations et atomes associés</li>
-        <li>concepts, motifs et mythes via le graphe</li>
-        <li>chapitres concernés</li>
-      </ul>
-    </div>
-  </button>
-  <a class="card-cta" href="apps/source-register/">Ouvrir</a>
 </article>
 
 </div>
