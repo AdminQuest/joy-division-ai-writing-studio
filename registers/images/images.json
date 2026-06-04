@@ -246,5 +246,39 @@
     "drift_sentinel": "v1.0",
     "gate": "public",
     "last_verified": "2026-06-01"
+  },
+  {
+    "image_id": "IMAGE-FB-1569319381860297",
+    "level": "image_reference",
+    "session_ref": null,
+    "canonical_name": "Reference Facebook — image Joy Division non reproduite",
+    "photographer": null,
+    "date": "",
+    "date_precision": "unknown",
+    "place": null,
+    "event_ref": null,
+    "context": "other",
+    "subjects": [],
+    "usage": [
+      "consultation documentaire uniquement"
+    ],
+    "iconic": false,
+    "source_url": "https://www.facebook.com/photo/?fbid=1569319381860297&set=a.1495610270654058",
+    "source_platform": "Facebook",
+    "status": "reference_only",
+    "rights_status": "unknown",
+    "local_file": null,
+    "thumbnail": null,
+    "notes": "Image referencee depuis Facebook ; ne pas republier sans clarification des droits. La page source n'a pas permis d'etablir publiquement et sans ambiguite l'auteur, la date, le sujet, le lieu ou les personnes visibles. Aucune vignette n'est creee afin d'eviter une dependance a une URL Facebook instable.",
+    "sources": [
+      "https://www.facebook.com/photo/?fbid=1569319381860297&set=a.1495610270654058"
+    ],
+    "same_as": {
+      "wikidata": null
+    },
+    "identity_frozen": true,
+    "drift_sentinel": "v1.0",
+    "gate": "public",
+    "last_verified": "2026-06-04"
   }
 ]
