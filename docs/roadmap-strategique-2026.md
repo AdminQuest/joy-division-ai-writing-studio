@@ -63,6 +63,8 @@ git status
 
 `tools/generate_status.py` est le generateur direct de STATUS.md. `tools/build_all.py` reste le controle global du pipeline registres / documents maitres / exports / audits.
 
+`tools/check_generated_sync.py` ne couvre pas necessairement STATUS.md. La fraicheur de STATUS.md est donc assuree par l'execution explicite de `tools/generate_status.py` et par le commit du snapshot regenere lorsque celui-ci differe.
+
 ## Vue d'ensemble
 
 | Milestone | Statut | Priorite | Intention |
@@ -134,7 +136,8 @@ L'application de consultation du registre concerts appartient au perimetre des a
 
 M0 est termine si :
 
-- STATUS.md se regenere sans erreur via tools/generate_status.py, puis les artefacts generes sont verifies par check-generated-sync ;
+- STATUS.md se regenere sans erreur via tools/generate_status.py, puis le snapshot regenere est committe lorsqu'il differe ;
+- les artefacts generes couverts par la sentinelle sont verifies par check-generated-sync ;
 - build_all.py reste le controle global du pipeline registres / documents maitres / exports / audits, mais il n'est pas presente comme le generateur direct de STATUS.md sauf s'il appelle explicitement tools/generate_status.py ;
 - check-generated-sync est au vert sur la derniere PR ;
 - l'inventaire des applications existantes est disponible et date ;
