@@ -5,7 +5,8 @@
    (traçabilité). Données inchangées — lecture seule via DynamicRegisters.
    Reprend d'emblée les correctifs étape 6 : inferKind concert, dédoublonnage
    same_as, recherche indexant le TEXTE des membres repliés (labels + sources,
-   pas que les ids), normalisation isoDate (Date YAML cross-realm), repli label. */
+   pas que les ids), normalisation isoDate (Date YAML cross-realm), repli label.
+   Les lieux canoniques sont résolus depuis edges.json located_at. */
 
 const sectionsEl = document.getElementById('concerts-sections');
 const statusCard = document.getElementById('status-card');
@@ -19,6 +20,9 @@ const downloadButton = document.getElementById('download-csv');
 let records = [];          // tous les enregistrements kind 'concert'
 let display = [];          // identités canoniques CONCERT- (cartes affichables)
 let placeLabels = {};      // PLACE-id -> nom lisible
+let placesById = new Map();
+let placeByConcertId = new Map();
+let indexById = {};
 let sourceLabels = {};
 
 const T = v => DynamicRegisters.text(v);
@@ -71,6 +75,64 @@ const humanizeSlug = id => T(id).replace(/^PLACE-/, '').toLowerCase()
   .replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 const lieuName = d => { const id = T(d.lieu); if (!id) return ''; return placeLabels[id] || humanizeSlug(id); };
 
+const num = v => (typeof v === 'number' && isFinite(v)) ? v : (v !== '' && v != null && isFinite(Number(v)) ? Number(v) : null);
+const coords = d => {
+  const lat = num(d && d.lat);
+  const lng = num(d && d.lng);
+  return lat != null && lng != null ? [lat, lng] : null;
+};
+
+function placeIdForConcert(record) {
+  const edgePlaceId = placeByConcertId.get(T(record && record.id));
+  if (edgePlaceId) return edgePlaceId;
+  const direct = T(record && record.data && record.data.lieu);
+  return /^PLACE-/.test(direct) && placesById.has(direct) ? direct : '';
+}
+
+function placeLabel(place, id) {
+  const d = (place && place.data) || {};
+  return T(d.label || d.nom || d.name) || placeLabels[id] || humanizeSlug(id);
+}
+
+function placeHref(id) {
+  return '../places-register/#place-' + encodeURIComponent(T(id));
+}
+
+function placeMapHref(id) {
+  return '../places-register/?map=' + encodeURIComponent(T(id)) + '#place-' + encodeURIComponent(T(id));
+}
+
+function targetConcertIdFromHash() {
+  const raw = T(window.location.hash).replace(/^#/, '');
+  if (!raw) return '';
+  return decodeURIComponent(raw.replace(/^concert-/, ''));
+}
+
+function applyHashStatus() {
+  const targetId = targetConcertIdFromHash();
+  if (!targetId) return;
+  const target = display.find(r => T(r.id) === targetId);
+  if (!target) return;
+  statusState[statusOf(target.data || {})] = true;
+}
+
+function scrollToHashTarget() {
+  const raw = T(window.location.hash).replace(/^#/, '');
+  if (!raw) return;
+  const target = document.getElementById(raw);
+  if (target) setTimeout(() => target.scrollIntoView({ block: 'start' }), 0);
+}
+
+function generatedUrl(file) {
+  return new URL('../../exports/generated/' + file, window.location.href);
+}
+
+async function loadGeneratedJSON(file) {
+  const response = await fetch(generatedUrl(file), { cache: 'no-store' });
+  if (!response.ok) throw new Error('Export statique ' + file + ' ' + response.status);
+  return response.json();
+}
+
 // ── Précision honnête (miroir exact de la frise chronologie / carte lieux) ──
 function precisionBucket(d) {
   if (d.date_debut && d.date_fin) return 'intervalle';
@@ -110,29 +172,49 @@ function humanDate(iso) {
 // ── Chargement + résolution de la colonne vertébrale ────────────────────────
 async function loadConcerts() {
   try {
-    sourceLabels = await DynamicRegisters.sourceLabels();
-    // Lieux : on charge le registre des lieux pour afficher le NOM du PLACE-
-    // (le concert ne porte que la référence). Tolérant : si indisponible, repli
-    // sur le slug humanisé.
-    try {
-      const places = await DynamicRegisters.loadRecords({ prefixes: ['registers/places/'], kinds: ['place'] });
-      places.forEach(p => { placeLabels[T(p.id)] = T(p.data.label || p.data.nom || p.data.name) || T(p.id); });
-    } catch (e) { console.warn('Lieux indisponibles, repli sur le slug :', e && e.message); }
-
-    records = await DynamicRegisters.loadRecords({
-      prefixes: ['registers/concerts/'],
-      kinds: ['concert']
+    const [labels, placeRecords, concertRecords, edgePayload, index] = await Promise.all([
+      DynamicRegisters.sourceLabels(),
+      loadGeneratedJSON('places.json'),
+      loadGeneratedJSON('concerts.json'),
+      loadGeneratedJSON('edges.json'),
+      loadGeneratedJSON('index_by_id.json')
+    ]);
+    sourceLabels = labels;
+    indexById = index || {};
+    placesById = new Map((Array.isArray(placeRecords) ? placeRecords : [])
+      .filter(p => p && p.kind === 'place')
+      .map(p => [T(p.id), p]));
+    placeLabels = {};
+    placesById.forEach((place, id) => {
+      const d = place.data || {};
+      placeLabels[id] = T(d.label || d.nom || d.name) || id;
     });
+    buildConcertPlaceIndex(Array.isArray(edgePayload && edgePayload.edges) ? edgePayload.edges : []);
+    records = (Array.isArray(concertRecords) ? concertRecords : []).filter(r => r && r.kind === 'concert');
     resolveBackbone();
+    applyHashStatus();
     buildStatusControls();
     populateFilters();
     apply();
     const cancelled = display.filter(r => statusOf(r.data) === 'annulé').length;
-    statusCard.textContent = `${display.length} concerts canoniques (${display.length - cancelled} confirmés, ${cancelled} annulés) — identités dédoublonnées par réconciliation same_as ; membres joydiv + chronologie repliés en traçabilité.`;
+    const linked = display.filter(r => placeIdForConcert(r)).length;
+    statusCard.textContent = `${display.length} concerts canoniques (${display.length - cancelled} confirmés, ${cancelled} annulés) — ${linked} lieux canoniques résolus via edges.json located_at ; membres joydiv + chronologie repliés en traçabilité.`;
   } catch (error) {
     console.error(error);
     statusCard.textContent = 'Erreur lors du chargement du registre des concerts : ' + error.message;
   }
+}
+
+function buildConcertPlaceIndex(edges) {
+  placeByConcertId = new Map();
+  edges.forEach(edge => {
+    if (edge.relation_type !== 'located_at') return;
+    if (edge.source_kind !== 'concert' || edge.target_kind !== 'place') return;
+    const target = indexById[T(edge.target_id)];
+    if (!target || target.kind !== 'place') return;
+    if (!placesById.has(T(edge.target_id))) return;
+    placeByConcertId.set(T(edge.source_id), T(edge.target_id));
+  });
 }
 
 // Une carte par IDENTITÉ canonique CONCERT-. Tout membre legacy listé dans
@@ -228,7 +310,9 @@ function memberText(r) {
 }
 function haystack(r) {
   const d = r.data || {};
-  return [r.id, labelOf(r), lieuName(d), T(d.lieu), T(d.statut), T(d.nom_tournee), startDate(d), endDate(d),
+  const placeId = placeIdForConcert(r);
+  const place = placesById.get(placeId);
+  return [r.id, labelOf(r), placeLabel(place, placeId), lieuName(d), placeId, T(d.lieu), T(d.statut), T(d.nom_tournee), startDate(d), endDate(d),
     ...A(d.membres_reconcilies), ...memberText(r), ...sourceIds(r), ...sourceIds(r).map(sourceLabel)]
     .map(T).join(' ').toLowerCase();
 }
@@ -273,11 +357,17 @@ function card(r) {
   const dateText = (precisionBucket(d) === 'intervalle')
     ? `${humanDate(startDate(d))} → ${humanDate(endDate(d))}`
     : (meta.sigil || '') + humanDate(startDate(d));
-  const lieu = lieuName(d);
+  const placeId = placeIdForConcert(r);
+  const place = placesById.get(placeId);
+  const placeData = (place && place.data) || {};
+  const canonicalPlace = placeId ? placeLabel(place, placeId) : '';
+  const originalPlace = T(d.lieu);
+  const hasMap = !!coords(placeData);
   const tour = T(d.nom_tournee).trim();
 
   const el = document.createElement('article');
   el.className = 'song-card concert-card concert-card--' + (cancelled ? 'cancelled' : 'confirmed');
+  el.id = 'concert-' + T(r.id);
   el.innerHTML =
     `<div class="song-card__header">` +
       `<div class="song-card__heading">` +
@@ -291,7 +381,13 @@ function card(r) {
         (cancelled ? 'annulé' : 'confirmé') + `</span>` +
       (tour ? `<span class="song-badge song-badge--muted">${esc(tour)}</span>` : '') +
     `</div>` +
-    (lieu ? `<p class="song-card__line"><strong>Lieu</strong> · ${esc(lieu)}</p>` : '') +
+    (canonicalPlace ? `<div class="concert-place">` +
+      `<p class="song-card__line"><strong>Lieu canonique</strong> · ` +
+        `<a class="concert-place__link" href="${esc(placeHref(placeId))}">${esc(canonicalPlace)}</a> ` +
+        `<code>${esc(placeId)}</code></p>` +
+      (originalPlace && originalPlace !== placeId ? `<p class="concert-place__origin">Champ source : ${esc(originalPlace)}</p>` : '') +
+      (hasMap ? `<a class="concert-place__map" href="${esc(placeMapHref(placeId))}">Voir sur la carte</a>` : '') +
+    `</div>` : (originalPlace ? `<p class="song-card__line"><strong>Lieu</strong> · ${esc(lieuName(d))}</p>` : '')) +
     membersHtml(r) +
     `<div class="song-card__id"><code>${esc(r.id)}</code></div>`;
   return el;
@@ -322,6 +418,7 @@ function render(items) {
     frag.appendChild(section);
   });
   sectionsEl.appendChild(frag);
+  scrollToHashTarget();
 }
 
 // ── Export CSV ──────────────────────────────────────────────────────────────
@@ -329,7 +426,8 @@ function exportCSV() {
   const rows = [['id', 'date', 'date_fin', 'date_precision', 'statut', 'lieu', 'lieu_nom', 'label', 'nom_tournee', 'membres_reconcilies']];
   display.forEach(r => {
     const d = r.data || {};
-    rows.push([r.id, startDate(d), endDate(d), precisionBucket(d), statusOf(d), T(d.lieu), lieuName(d),
+    const placeId = placeIdForConcert(r);
+    rows.push([r.id, startDate(d), endDate(d), precisionBucket(d), statusOf(d), placeId || T(d.lieu), placeId ? placeLabel(placesById.get(placeId), placeId) : lieuName(d),
       labelOf(r), T(d.nom_tournee), A(d.membres_reconcilies).join(' | ')]);
   });
   const csv = rows.map(row => row.map(v => '"' + String(v || '').replace(/"/g, '""') + '"').join(',')).join('\n');

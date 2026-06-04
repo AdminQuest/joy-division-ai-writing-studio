@@ -162,6 +162,40 @@ code {
 .song-card__line { font-size: 14px; font-weight: 400; line-height: 1.6; color: var(--text-muted); margin: 10px 0 0; }
 .song-card__line strong { color: var(--text); font-weight: 600; }
 
+.concert-place {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.concert-place .song-card__line { margin-top: 0; }
+.concert-place__link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+.concert-place__link:hover { text-decoration: underline; }
+.concert-place__origin {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.concert-place__map {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 30px;
+  margin-top: 9px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-ctrl);
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.concert-place__map:hover { border-color: var(--accent); }
+
 /* ── Identifiant (discret, révélé au survol) ────────────── */
 .song-card__id { margin-top: 12px; opacity: 0; max-height: 0; overflow: hidden; transition: opacity var(--transition), max-height var(--transition); }
 .song-card:hover .song-card__id,
