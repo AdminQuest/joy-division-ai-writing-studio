@@ -4306,6 +4306,29 @@
   },
   {
     "kind": "person",
+    "id": "PERSON-pennie-smith",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-pennie-smith — Pennie Smith",
+    "data": {
+      "id": "PERSON-pennie-smith",
+      "type_unite": "person",
+      "name": "Pennie Smith",
+      "categorie": "industrie",
+      "role": [
+        "photographe"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false,
+      "note": "S46 documente Pennie Smith parmi les photographes credits. L'attribution de la photographie canonique et son URL de consultation sont portees par le registre images ; aucun PERS-* source existant au moment de l'ajout."
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERSON-penny-rimbaud",
     "file": "registers/people/00_canonical_people.md",
     "heading": "PERSON-penny-rimbaud — Penny Rimbaud",

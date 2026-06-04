@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/adminquest/joy-division-ai-writing-studio/schemas/image_canonical.schema.json",
   "title": "Registre canonique de l'iconographie — IMAGE-",
-  "description": "Schema JSON executable (Draft 2020-12, FormatChecker actif) de l'identite canonique d'une seance photographique, d'un cliche ou d'une reference externe non republiee (etape 11). Les niveaux sont discrimines par le champ `level`.",
+  "description": "Schema JSON executable (Draft 2020-12, FormatChecker actif) de l'identite canonique d'une seance photographique ou d'un cliche (etape 11). Deux niveaux coexistent : session (IMAGE-S-NNNN) et image (IMAGE-I-NNNN), discrimines par le champ `level`.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -23,13 +23,13 @@
   "properties": {
     "image_id": {
       "type": "string",
-      "description": "Identifiant canonique : IMAGE-S-NNNN (seance), IMAGE-I-NNNN (cliche) ou IMAGE-FB-NNNN (reference Facebook non republiee).",
-      "pattern": "^(IMAGE-(S|I)-[0-9]{4}|IMAGE-FB-[0-9]+)$"
+      "description": "Identifiant canonique : IMAGE-S-NNNN (seance) ou IMAGE-I-NNNN (cliche).",
+      "pattern": "^IMAGE-(S|I)-[0-9]{4}$"
     },
     "level": {
       "type": "string",
-      "description": "Niveau de l'entree : seance photographique, cliche individuel ou reference externe.",
-      "enum": ["session", "image", "image_reference"]
+      "description": "Niveau de l'entree : seance photographique ou cliche individuel.",
+      "enum": ["session", "image"]
     },
     "session_ref": {
       "type": ["string", "null"],
@@ -42,8 +42,8 @@
       "minLength": 1
     },
     "photographer": {
-      "type": ["string", "null"],
-      "description": "Identifiant PERSON- du photographe. Null pour une reference externe dont l'auteur n'est pas etabli.",
+      "type": "string",
+      "description": "Identifiant PERSON- du photographe.",
       "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
     },
     "date": {
@@ -53,7 +53,7 @@
     "date_precision": {
       "type": "string",
       "description": "Precision de la date.",
-      "enum": ["day", "month", "year", "approximate", "unknown"]
+      "enum": ["day", "month", "year", "approximate"]
     },
     "place": {
       "type": ["string", "null"],
@@ -81,33 +81,6 @@
       "type": "array",
       "description": "Usages connus du cliche (pochettes, presse, expositions).",
       "items": { "type": "string" }
-    },
-    "source_url": {
-      "type": ["string", "null"],
-      "description": "URL de la source externe lorsque l'image n'est pas copiee localement.",
-      "format": "uri"
-    },
-    "source_platform": {
-      "type": ["string", "null"],
-      "description": "Plateforme source de la reference externe."
-    },
-    "status": {
-      "type": ["string", "null"],
-      "description": "Statut documentaire de l'entree.",
-      "enum": ["canonical", "reference_only", null]
-    },
-    "rights_status": {
-      "type": ["string", "null"],
-      "description": "Statut des droits de reproduction.",
-      "enum": ["known", "unknown", "restricted", null]
-    },
-    "local_file": {
-      "type": ["string", "null"],
-      "description": "Chemin local si un fichier est autorise et versionne. Null pour les references externes."
-    },
-    "thumbnail": {
-      "type": ["string", "null"],
-      "description": "URL ou chemin de vignette stable si autorise. Null si la stabilite ou les droits ne sont pas etablis."
     },
     "iconic": {
       "type": "boolean",
@@ -163,13 +136,8 @@
         "required": ["level"]
       },
       "then": {
-        "required": ["photographer"],
         "properties": {
-          "image_id": { "pattern": "^IMAGE-S-[0-9]{4}$" },
-          "photographer": {
-            "type": "string",
-            "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
-          }
+          "image_id": { "pattern": "^IMAGE-S-[0-9]{4}$" }
         }
       }
     },
@@ -179,27 +147,13 @@
         "required": ["level"]
       },
       "then": {
-        "required": ["session_ref", "photographer"],
+        "required": ["session_ref"],
         "properties": {
           "image_id": { "pattern": "^IMAGE-I-[0-9]{4}$" },
-          "photographer": {
+          "session_ref": {
             "type": "string",
-            "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
-          }
-        }
-      }
-    },
-    {
-      "if": {
-        "properties": { "level": { "const": "image_reference" } },
-        "required": ["level"]
-      },
-      "then": {
-        "properties": {
-          "image_id": { "pattern": "^IMAGE-FB-[0-9]+$" },
-          "photographer": {
-            "type": ["string", "null"],
-            "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
+            "minLength": 1,
+            "pattern": "^IMAGE-S-[0-9]{4}$"
           }
         }
       }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-04T10:14:57",
+  "generated_at": "2026-06-04T15:01:29",
   "summary": {
-    "records_total": 8643,
+    "records_total": 8644,
     "records_by_kind": {
       "unknown": 1404,
       "source": 124,
@@ -14,7 +14,7 @@
       "chronology": 539,
       "template": 328,
       "concert": 388,
-      "person": 509,
+      "person": 510,
       "place": 215,
       "quote_batch": 1,
       "rules": 1,
@@ -39,7 +39,7 @@
     "metadata": 274,
     "motif": 427,
     "myth": 102,
-    "person": 509,
+    "person": 510,
     "place": 215,
     "quote": 962,
     "quote_batch": 1,
@@ -325,7 +325,7 @@
       "atom": 190,
       "quote": 5,
       "chronology": 16,
-      "person": 3
+      "person": 4
     },
     "S47": {
       "chronology": 20,
@@ -800,7 +800,7 @@
     ],
     [
       "registers/people/00_canonical_people.md",
-      166
+      167
     ],
     [
       "registers/concerts/concert_canonical_units.md",
@@ -13363,12 +13363,13 @@
         "auteur": "Mark Johnson ; David Lees ; Paul Morley ; Jon Wozencroft",
         "titre": "An Ideal for Living: An History of Joy Division",
         "annee": "1984",
-        "records": 215,
+        "records": 216,
         "atoms": 190,
         "quotes": 5,
         "chronology": 16,
         "files": [
           "registers/people/00_authors_canonical.md",
+          "registers/people/00_canonical_people.md",
           "sources/johnson_morley_an_ideal_for_living/source.md",
           "sources/johnson_morley_an_ideal_for_living/source_suite_02.md",
           "sources/johnson_morley_an_ideal_for_living/source_suite_03.md",
