@@ -46,6 +46,14 @@ places:
     atoms: [S35-A034]
     _legacy_format: s35-lieux-role
   - id: PLACE-CHRIST-CHURCH-PRIMARY-SCHOOL
+    lat: 53.25880
+    lng: -2.12210
+    geo_precision: site
+    geo_source: "Christ Church Primary School, Macclesfield"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "établissement lié à l’enfance de Ian Curtis ; adresse fine à confirmer."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Christ Church Primary School, Macclesfield. Source : https://www.joydiv.org/places.htm. établissement lié à l’enfance de Ian Curtis ; adresse fine à confirmer.
     label: "Christ Church Primary School"
     type: education
     type_detail: ecole_primaire
@@ -67,6 +75,14 @@ places:
     atoms: [S35-A035, S35-A036]
     _legacy_format: s35-lieux-role
   - id: PLACE-BROKEN-CROSS-SECONDARY-MODERN
+    lat: 53.25760
+    lng: -2.15500
+    geo_precision: quartier
+    geo_source: "Broken Cross, Macclesfield"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "établissement à confirmer par archives scolaires."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Broken Cross, Macclesfield. Source : https://www.joydiv.org/places.htm. établissement à confirmer par archives scolaires.
     label: "Broken Cross Secondary Modern"
     type: education
     type_detail: secondary_modern

@@ -11,6 +11,14 @@ statut: integration_directe
 ```yaml
 places:
   - id: PLACE-ALFRED-STREET
+    lat: 53.49900
+    lng: -2.26000
+    geo_precision: rue
+    geo_source: "Alfred Street, Lower Broughton, Salford"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "rue liée au secteur d’enfance de Bernard Sumner / Wheathill Chemical Works."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Alfred Street, Lower Broughton, Salford. Source : https://www.joydiv.org/places.htm. rue liée au secteur d’enfance de Bernard Sumner / Wheathill Chemical Works.
     label: "Alfred Street"
     type: quartier
     type_detail: rue_ouvriere
@@ -21,6 +29,14 @@ places:
     prudence: "Ne pas idéaliser la communauté ; intégrer violence, pauvreté, toxicité industrielle et destruction."
 
   - id: PLACE-LOWER-BROUGHTON
+    lat: 53.49900
+    lng: -2.26000
+    geo_precision: quartier
+    geo_source: "Lower Broughton, Salford"
+    source_url: "https://www.joydiv.org/places.htm"
+    note_geo: "quartier d’enfance de Bernard Sumner."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Lower Broughton, Salford. Source : https://www.joydiv.org/places.htm. quartier d’enfance de Bernard Sumner.
     label: "Lower Broughton"
     type: quartier
     type_detail: quartier_salford
@@ -111,6 +127,14 @@ places:
     usage_s10: "Lieu du concert des Sex Pistols du 4 juin 1976, décisif mais non miraculeux selon Sumner."
 
   - id: PLACE-VIRGIN-RECORDS-LEVER-STREET
+    lat: 53.48270
+    lng: -2.23570
+    geo_precision: rue
+    geo_source: "Virgin Records, Lever Street, Manchester"
+    source_url: "https://longlivevinyl.net/2020/08/21/johnny-marr-interview/"
+    note_geo: "disquaire important de la scène ; adresse exacte à confirmer."
+    prudence_methodologique: >-
+      Géolocalisation C3A-6B — Virgin Records, Lever Street, Manchester. Source : https://longlivevinyl.net/2020/08/21/johnny-marr-interview/. disquaire important de la scène ; adresse exacte à confirmer.
     label: "Virgin Records, Lever Street"
     type: commerce
     type_detail: disquaire_hub_punk
