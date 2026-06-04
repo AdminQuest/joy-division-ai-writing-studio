@@ -298,13 +298,6 @@ body {
   border-radius: 999px;
   padding: 3px 9px;
 }
-.img-tag--link {
-  color: var(--accent);
-  text-decoration: none;
-  max-width: 100%;
-  overflow-wrap: anywhere;
-}
-.img-tag--link:hover { text-decoration: underline; }
 
 .img-card__notes {
   margin-top: 14px;
