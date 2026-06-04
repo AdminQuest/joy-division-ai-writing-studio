@@ -2,16 +2,26 @@
   {
     "kind": "session",
     "id": "JD-SESSION-19770718-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19770718-001",
       "numero": 1,
       "label": "Warsaw demo",
       "date": "1977-07-18",
+      "type_session": "demo",
       "studio": "Pennine Sound Studios",
+      "lieu": "Pennine Sound Studios",
+      "place_id": "PLACE-PENNINE-STUDIOS-OLDHAM",
       "ville": "Oldham",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Steve Brotherdale"
+      ],
       "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
       "ere": "Warsaw",
       "titres": [
         "Inside the Line",
@@ -22,23 +32,170 @@
       ],
       "premiere_sortie_officielle": {},
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Première démo Warsaw. Tracks restées inédites officiellement à l'époque ; certaines réenregistrées plus tard."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "atomes_lies": [
+        "S41-A034",
+        "S41-A035"
+      ],
+      "relations": {
+        "chronology": [
+          "CHR-S41-1977-07-18-WARSAW-DEMO-PENNINE"
+        ],
+        "places": [
+          "PLACE-PENNINE-STUDIOS-OLDHAM"
+        ],
+        "people": [
+          "PERSON-ian-curtis",
+          "PERSON-bernard-sumner",
+          "PERSON-peter-hook"
+        ]
+      },
+      "notes": "Première démo Warsaw, enregistrée avec Steve Brotherdale à la batterie."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19770900-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19770900-001",
+      "numero": 2,
+      "label": "Répétition Warsaw août/septembre 1977",
+      "date": "1977-09-00",
+      "type_session": "rehearsal",
+      "studio": "Lieu non documenté",
+      "lieu": "Lieu non documenté",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
+      "ere": "Warsaw",
+      "titres": [
+        "Reaction",
+        "Inside the Line",
+        "Leaders of Men",
+        "Novelty",
+        "The Kill"
+      ],
+      "premiere_sortie_officielle": {},
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS"
+      ],
+      "urls": [
+        "https://www.joydiv.org/rehearsals.htm"
+      ],
+      "statut_documentaire": "probable",
+      "relations": {
+        "chronology": [
+          "EVENT-ARRIVEE-STEPHEN-MORRIS"
+        ],
+        "people": [
+          "PERSON-ian-curtis",
+          "PERSON-bernard-sumner",
+          "PERSON-peter-hook",
+          "PERSON-stephen-morris"
+        ]
+      },
+      "notes": "joydiv.org date cette bande de façon tentative à août/septembre 1977, avec le 14 septembre 1977 comme hypothèse la plus probable. Le lieu n'est pas stabilisé."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19771100-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19771100-001",
+      "numero": 3,
+      "label": "Répétition Warsaw T.J. Davidson's, automne 1977",
+      "date": "1977-11-00",
+      "type_session": "rehearsal",
+      "studio": "T.J. Davidson's Rehearsal Room",
+      "lieu": "T.J. Davidson's Rehearsal Room",
+      "place_id": "PLACE-TJ-DAVIDSONS",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
+      "ere": "Warsaw",
+      "titres": [
+        "At a Later Date",
+        "Ice Age",
+        "Inside the Line",
+        "Warsaw",
+        "Failures",
+        "No Love Lost"
+      ],
+      "premiere_sortie_officielle": {},
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/rehearsals.htm"
+      ],
+      "statut_documentaire": "probable",
+      "relations": {
+        "chronology": [
+          "EVENT-INSTALLATION-TJ-DAVIDSONS"
+        ],
+        "places": [
+          "PLACE-TJ-DAVIDSONS"
+        ],
+        "people": [
+          "PERSON-ian-curtis",
+          "PERSON-bernard-sumner",
+          "PERSON-peter-hook",
+          "PERSON-stephen-morris",
+          "PERSON-tony-davidson"
+        ]
+      },
+      "notes": "joydiv.org propose octobre/novembre 1977 et localise la bande comme supposée à T.J. Davidson's. Le statut reste probable."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19771200-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19771200-001",
-      "numero": 2,
+      "numero": 4,
       "label": "An Ideal for Living",
       "date": "1977-12-00",
+      "type_session": "demo",
       "studio": "Pennine Sound Studios",
+      "lieu": "Pennine Sound Studios",
+      "place_id": "PLACE-PENNINE-STUDIOS-OLDHAM",
       "ville": "Oldham",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
       "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
       "ere": "Warsaw",
       "titres": [
         "Warsaw",
@@ -49,27 +206,98 @@
       "premiere_sortie_officielle": {
         "titre": "An Ideal for Living",
         "format": "EP",
-        "label": "Enigma Records (auto-production)",
+        "label": "Enigma Records",
         "annee": "1978"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "EP auto-produit, sorti en juin 1978 — pochette Nazi-imagery controversée. Date précise du jour inconnue (décembre 1977)."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S45"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "places": [
+          "PLACE-PENNINE-STUDIOS-OLDHAM"
+        ]
+      },
+      "notes": "EP auto-produit, enregistré en décembre 1977. Le jour exact reste inconnu."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19780100-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19780100-001",
+      "numero": 5,
+      "label": "Répétition T.J. Davidson's — Pictures in My Mind",
+      "date": "1978-01-00",
+      "type_session": "rehearsal",
+      "studio": "T.J. Davidson's Rehearsal Room",
+      "lieu": "T.J. Davidson's Rehearsal Room",
+      "place_id": "PLACE-TJ-DAVIDSONS",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "Pictures in My Mind",
+        "Shadowplay"
+      ],
+      "premiere_sortie_officielle": {},
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/rehearsals.htm"
+      ],
+      "statut_documentaire": "probable",
+      "relations": {
+        "chronology": [
+          "EVENT-INSTALLATION-TJ-DAVIDSONS"
+        ],
+        "places": [
+          "PLACE-TJ-DAVIDSONS"
+        ]
+      },
+      "notes": "Répétition datée tentativement de janvier 1978 par joydiv.org. Elle documente le passage entre le répertoire Warsaw et Joy Division."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19780503-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19780503-001",
-      "numero": 3,
+      "numero": 6,
       "label": "RCA sessions (album inédit)",
       "date": "1978-05-03",
+      "type_session": "studio",
       "studio": "Arrow Studios",
+      "lieu": "Arrow Studios",
       "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
       "producteur": "John Anderson, Bob Auger, Richard Searling",
+      "ingenieur_son": "Bob Auger",
       "ere": "Joy Division",
       "titres": [
         "The Drawback",
@@ -86,29 +314,115 @@
       ],
       "premiere_sortie_officielle": {
         "titre": "Warsaw",
-        "format": "compilation (rétrospective)",
-        "label": "Movieplay Gold (publication contestée)",
+        "format": "compilation retrospective",
+        "label": "Movieplay Gold",
         "annee": "1994"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
       "chronologie_id": "CHR-1978-001",
-      "notes": "Plage de dates : 3-4 mai 1978. Album refusé par RCA ; rachat des bandes par le groupe. Publication ultérieure non autorisée par les ayants droit (compilation Warsaw 1994)."
+      "relations": {
+        "chronology": [
+          "EVENT-SESSIONS-RCA-ARROW-STUDIOS",
+          "CHR-1978-001"
+        ],
+        "people": [
+          "PERSON-john-anderson",
+          "PERSON-bob-auger",
+          "PERSON-richard-searling"
+        ]
+      },
+      "notes": "Sessions des 3-4 mai 1978 pour l'album RCA avorté. Publication ultérieure contestée par les ayants droit."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19780920-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19780920-001",
+      "numero": 7,
+      "label": "Granada Reports — Shadowplay",
+      "date": "1978-09-20",
+      "type_session": "television",
+      "studio": "Granada TV",
+      "lieu": "Granada TV",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Tony Wilson"
+      ],
+      "producteur": "Tony Wilson / Granada TV",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "Shadowplay"
+      ],
+      "premiere_sortie_officielle": {
+        "titre": "Substance",
+        "format": "video / compilation",
+        "label": "Factory",
+        "annee": "1988"
+      },
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S45"
+      ],
+      "urls": [
+        "https://www.joydiv.org/jdtv.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY"
+        ],
+        "people": [
+          "PERSON-tony-wilson"
+        ]
+      },
+      "notes": "Première apparition télévisée de Joy Division, présentée par Tony Wilson sur Granada Reports."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19781011-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19781011-001",
-      "numero": 4,
+      "numero": 8,
       "label": "A Factory Sample",
       "date": "1978-10-11",
+      "type_session": "studio",
       "studio": "Cargo Studios",
+      "lieu": "Cargo Studios",
+      "place_id": "PLACE-CARGO-STUDIOS",
       "ville": "Rochdale",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "Digital",
@@ -116,28 +430,57 @@
       ],
       "premiere_sortie_officielle": {
         "titre": "A Factory Sample",
-        "format": "EP double 7\"",
+        "format": "EP double 7 pouces",
         "label": "Factory Records (FAC 2)",
         "annee": "1978"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Première collaboration avec Martin Hannett — événement fondateur du « son Joy Division »."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO"
+        ],
+        "places": [
+          "PLACE-CARGO-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Première collaboration studio avec Martin Hannett."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19790131-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19790131-001",
-      "numero": 5,
+      "numero": 9,
       "label": "John Peel Session 1",
       "date": "1979-01-31",
+      "type_session": "radio",
       "studio": "BBC Studios Maida Vale",
+      "lieu": "BBC Studios Maida Vale",
+      "place_id": "PLACE-MAIDA-VALE-STUDIOS",
       "ville": "London",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
       "producteur": "Bob Sargeant",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "Exercise One",
@@ -147,28 +490,105 @@
       ],
       "premiere_sortie_officielle": {
         "titre": "The Peel Sessions",
-        "format": "EP 12\"",
+        "format": "EP 12 pouces",
         "label": "Strange Fruit Records",
         "annee": "1986"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Première Peel Session. Diffusion : 14 février 1979."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S75"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-PREMIERE-PEEL-SESSION"
+        ],
+        "places": [
+          "PLACE-MAIDA-VALE-STUDIOS"
+        ],
+        "people": [
+          "PERSON-john-peel"
+        ]
+      },
+      "notes": "Première Peel Session, diffusée le 14 février 1979."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19790300-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19790300-001",
+      "numero": 10,
+      "label": "Répétition dite Bedge tape",
+      "date": "1979-03-00",
+      "type_session": "rehearsal",
+      "studio": "Lieu incertain",
+      "lieu": "Band on the Wall ou Eric's selon cassette, mais probablement répétition",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "No Love Lost",
+        "Leaders of Men",
+        "Day of the Lords",
+        "Shadowplay",
+        "Ice Age",
+        "New Dawn Fades",
+        "Digital",
+        "Insight",
+        "The Kill",
+        "Transmission"
+      ],
+      "premiere_sortie_officielle": {},
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS"
+      ],
+      "urls": [
+        "https://www.joydiv.org/rehearsals.htm"
+      ],
+      "statut_documentaire": "conteste",
+      "relations": {},
+      "notes": "joydiv.org indique que la cassette porte une attribution live possible, mais que le contenu sonne comme une répétition. Aucun lieu canonique ne doit être créé sans validation."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19790304-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19790304-001",
-      "numero": 6,
+      "numero": 11,
       "label": "Genetic Demos",
       "date": "1979-03-04",
+      "type_session": "demo",
       "studio": "Eden Studios",
+      "lieu": "Eden Studios",
       "ville": "London",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Rushent"
+      ],
       "producteur": "Martin Rushent",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "Glass",
@@ -179,23 +599,47 @@
       ],
       "premiere_sortie_officielle": {},
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Démos pour Genetic Records (Martin Rushent) — projet d'album non concrétisé."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S75"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "people": [
+          "PERSON-martin-rushent"
+        ]
+      },
+      "notes": "Démos pour Genetic Records / Martin Rushent, sans concrétisation contractuelle."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19790400-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19790400-001",
-      "numero": 7,
+      "numero": 12,
       "label": "Unknown Pleasures sessions",
       "date": "1979-04-00",
+      "type_session": "studio",
       "studio": "Strawberry Studios",
+      "lieu": "Strawberry Studios",
+      "place_id": "PLACE-STRAWBERRY-STUDIOS",
       "ville": "Stockport",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "Disorder",
@@ -222,105 +666,325 @@
         "annee": "1979"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Session principale d'avril 1979. Mix de 10 titres pour l'album, 6 autres pour Earcom 2 et compilations ultérieures (Still). Date précise inconnue."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S10",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY"
+        ],
+        "places": [
+          "PLACE-STRAWBERRY-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Session principale d'avril 1979, avec prises album et titres destinés à des compilations ultérieures."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19790604-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19790604-001",
-      "numero": 8,
+      "numero": 13,
       "label": "Piccadilly Radio Session",
       "date": "1979-06-04",
+      "type_session": "radio",
       "studio": "Pennine Sound Studios",
+      "lieu": "Pennine Sound Studios",
+      "place_id": "PLACE-PENNINE-STUDIOS-OLDHAM",
       "ville": "Oldham",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
       "producteur": "Stuart James",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "These Days",
         "Candidate",
         "The Only Mistake",
-        "Chance (titre de travail pour Atmosphere)",
+        "Chance",
         "Atrocity Exhibition"
       ],
       "premiere_sortie_officielle": {},
       "source": "joydiv.org",
-      "atomes_lies": [],
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-SESSION-PICCADILLY-RADIO"
+        ],
+        "places": [
+          "PLACE-PENNINE-STUDIOS-OLDHAM"
+        ]
+      },
       "notes": "Session pour Piccadilly Radio Manchester. « Chance » est le titre de travail d'Atmosphere."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19790700-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19790700-001",
-      "numero": 9,
+      "numero": 14,
       "label": "Transmission sessions 1",
       "date": "1979-07-00",
+      "type_session": "studio",
       "studio": "Central Sound Studios",
+      "lieu": "Central Sound Studios",
+      "place_id": "PLACE-CENTRAL-SOUND-STUDIOS",
       "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
-        "Transmission (version non retenue)",
+        "Transmission",
         "Novelty",
         "Dead Souls",
         "Something Must Break"
       ],
       "premiere_sortie_officielle": {},
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Mi-juillet 1979. Première tentative d'enregistrement de Transmission, non retenue pour le single."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S75"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-SESSIONS-TRANSMISSION"
+        ],
+        "places": [
+          "PLACE-CENTRAL-SOUND-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Première tentative de juillet 1979 pour Transmission, non retenue pour le single."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19790719-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19790719-001",
+      "numero": 15,
+      "label": "What's On — She's Lost Control",
+      "date": "1979-07-19",
+      "type_session": "television",
+      "studio": "Granada TV",
+      "lieu": "Granada TV",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Granada TV",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "She's Lost Control"
+      ],
+      "premiere_sortie_officielle": {},
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41"
+      ],
+      "urls": [
+        "https://www.joydiv.org/jdtv.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL"
+        ]
+      },
+      "notes": "joydiv.org distingue la date d'archive Granada du 19 juillet 1979 et la page publique What's On du 20 juillet 1979. La performance est coupée par les crédits de fin."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19790728-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19790728-001",
-      "numero": 10,
+      "numero": 16,
       "label": "Transmission sessions 2",
       "date": "1979-07-28",
+      "type_session": "studio",
       "studio": "Strawberry Studios",
+      "lieu": "Strawberry Studios",
+      "place_id": "PLACE-STRAWBERRY-STUDIOS",
       "ville": "Stockport",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
-        "Transmission (version single)",
+        "Transmission",
         "Novelty"
       ],
       "premiere_sortie_officielle": {
         "titre": "Transmission",
-        "format": "single 7\"",
+        "format": "single 7 pouces",
         "label": "Factory Records (FAC 13)",
         "annee": "1979"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Plage : 28 juillet-4 août 1979. Version finale du single Transmission, face B Novelty."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S75"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-SESSIONS-TRANSMISSION"
+        ],
+        "places": [
+          "PLACE-STRAWBERRY-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Plage de travail du 28 juillet au 4 août 1979 ; version finale du single Transmission."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19790901-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19790901-001",
+      "numero": 17,
+      "label": "Something Else — BBC2",
+      "date": "1979-09-01",
+      "type_session": "television",
+      "studio": "BBC2 / Oxford Road",
+      "lieu": "BBC2 / Oxford Road",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Tony Wilson",
+        "Steve Harley"
+      ],
+      "producteur": "BBC2",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "She's Lost Control",
+        "Transmission"
+      ],
+      "premiere_sortie_officielle": {
+        "titre": "Substance",
+        "format": "video / compilation",
+        "label": "Factory",
+        "annee": "1988"
+      },
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S75",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/jdtv.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE",
+          "CHR-S76-1979-016"
+        ],
+        "people": [
+          "PERSON-tony-wilson",
+          "PERSON-stephen-morris"
+        ]
+      },
+      "notes": "Enregistré le 1er septembre 1979 et diffusé le 15 septembre 1979 selon joydiv.org et S76."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19791000-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19791000-001",
-      "numero": 11,
+      "numero": 18,
       "label": "Sordide Sentimental session",
       "date": "1979-10-00",
+      "type_session": "studio",
       "studio": "Cargo Studios",
+      "lieu": "Cargo Studios",
+      "place_id": "PLACE-CARGO-STUDIOS",
       "ville": "Rochdale",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "Atmosphere",
@@ -329,28 +993,105 @@
       ],
       "premiere_sortie_officielle": {
         "titre": "Licht und Blindheit",
-        "format": "single 7\"",
+        "format": "single 7 pouces",
         "label": "Sordide Sentimental (SS33002)",
         "annee": "1980"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Plage : octobre-novembre 1979. Single français limité à 1 578 exemplaires numérotés (label Sordide Sentimental, France)."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-SESSIONS-LICHT-UND-BLINDHEIT"
+        ],
+        "places": [
+          "PLACE-CARGO-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Plage octobre-novembre 1979 pour Atmosphere / Dead Souls, associée au single Sordide Sentimental."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19791100-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19791100-001",
+      "numero": 19,
+      "label": "Répétition T.J. Davidson's — From Night to Day / A Means to an End",
+      "date": "1979-11-00",
+      "type_session": "rehearsal",
+      "studio": "T.J. Davidson's Rehearsal Room",
+      "lieu": "T.J. Davidson's Rehearsal Room",
+      "place_id": "PLACE-TJ-DAVIDSONS",
+      "ville": "Manchester",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "Untitled / Instrumental jam",
+        "From Night to Day",
+        "A Means to an End"
+      ],
+      "premiere_sortie_officielle": {},
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/rehearsals.htm"
+      ],
+      "statut_documentaire": "probable",
+      "relations": {
+        "places": [
+          "PLACE-TJ-DAVIDSONS"
+        ]
+      },
+      "notes": "Répétition datée tentativement de novembre/décembre 1979, utile pour documenter l'émergence de A Means to an End."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19791126-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19791126-001",
-      "numero": 12,
+      "numero": 20,
       "label": "John Peel Session 2",
       "date": "1979-11-26",
+      "type_session": "radio",
       "studio": "BBC Studios Maida Vale",
+      "lieu": "BBC Studios Maida Vale",
+      "place_id": "PLACE-MAIDA-VALE-STUDIOS",
       "ville": "London",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
       "producteur": "Tony Wilson",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "The Sound of Music",
@@ -360,81 +1101,177 @@
       ],
       "premiere_sortie_officielle": {
         "titre": "The Peel Sessions",
-        "format": "EP 12\"",
+        "format": "EP 12 pouces",
         "label": "Strange Fruit Records",
         "annee": "1987"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Seconde Peel Session. Tony Wilson est ici le producteur BBC (homonyme du Factory). Diffusion : 10 décembre 1979."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-DEUXIEME-PEEL-SESSION"
+        ],
+        "places": [
+          "PLACE-MAIDA-VALE-STUDIOS"
+        ],
+        "people": [
+          "PERSON-john-peel"
+        ]
+      },
+      "notes": "Deuxième Peel Session, diffusée le 10 décembre 1979. Tony Wilson est le producteur BBC, homonyme du Tony Wilson Factory."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19800108-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19800108-001",
-      "numero": 13,
+      "numero": 21,
       "label": "Love Will Tear Us Apart session 1",
       "date": "1980-01-08",
+      "type_session": "studio",
       "studio": "Pennine Sound Studios",
+      "lieu": "Pennine Sound Studios",
+      "place_id": "PLACE-PENNINE-STUDIOS-OLDHAM",
       "ville": "Oldham",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "These Days",
         "The Sound of Music",
-        "Love Will Tear Us Apart (version rapide)"
+        "Love Will Tear Us Apart"
       ],
-      "premiere_sortie_officielle": {},
+      "premiere_sortie_officielle": {
+        "titre": "Love Will Tear Us Apart",
+        "format": "single",
+        "label": "Factory Records (FAC 23)",
+        "annee": "1980"
+      },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Première version de LWTUA — tempo rapide, non retenue pour la face A du single."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART"
+        ],
+        "places": [
+          "PLACE-PENNINE-STUDIOS-OLDHAM"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Version rapide de Love Will Tear Us Apart, non retenue comme face A."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19800300-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19800300-001",
-      "numero": 14,
+      "numero": 22,
       "label": "Love Will Tear Us Apart session 2",
       "date": "1980-03-00",
+      "type_session": "studio",
       "studio": "Strawberry Studios",
+      "lieu": "Strawberry Studios",
+      "place_id": "PLACE-STRAWBERRY-STUDIOS",
       "ville": "Stockport",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
-        "Love Will Tear Us Apart (version lente, face A du single)",
-        "She's Lost Control (ré-enregistrement)"
+        "Love Will Tear Us Apart",
+        "She's Lost Control"
       ],
       "premiere_sortie_officielle": {
         "titre": "Love Will Tear Us Apart",
-        "format": "single 7\"",
+        "format": "single",
         "label": "Factory Records (FAC 23)",
         "annee": "1980"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Mars 1980. Version définitive du single (sortie juin 1980, posthume)."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S41",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART"
+        ],
+        "places": [
+          "PLACE-STRAWBERRY-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Version définitive du single, sortie posthume en juin 1980."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19800318-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19800318-001",
-      "numero": 15,
+      "numero": 23,
       "label": "Closer sessions",
       "date": "1980-03-18",
+      "type_session": "studio",
       "studio": "Britannia Row Studios",
+      "lieu": "Britannia Row Studios",
+      "place_id": "PLACE-BRITANNIA-ROW-STUDIOS",
       "ville": "Islington London",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett",
+        "Jon Caffery"
+      ],
       "producteur": "Martin Hannett",
       "ingenieur_son": "Jon Caffery",
       "ere": "Joy Division",
@@ -451,7 +1288,7 @@
         "Komakino",
         "Incubation",
         "As You Said",
-        "Love Will Tear Us Apart (remixé)"
+        "Love Will Tear Us Apart"
       ],
       "premiere_sortie_officielle": {
         "titre": "Closer",
@@ -460,52 +1297,157 @@
         "annee": "1980"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Plage : 18-30 mars 1980. Album Closer sorti à titre posthume en juillet 1980. Studio appartenant à Pink Floyd."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S10",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "chronology": [
+          "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW"
+        ],
+        "places": [
+          "PLACE-BRITANNIA-ROW-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Plage du 18 au 30 mars 1980. Session centrale de Closer, avec moyens londoniens accrus et ingénierie de Jon Caffery."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19800000-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19800000-001",
-      "numero": 16,
-      "label": "Graveyard Studio (répétitions)",
+      "numero": 24,
+      "label": "Rehearsal room session / Graveyard Studio",
       "date": "1980-00-00",
-      "studio": "Graveyard Studio",
-      "ville": "Manchester",
+      "type_session": "rehearsal",
+      "studio": "Graveyard Studio / rehearsal room",
+      "lieu": "Graveyard Studio / rehearsal room",
+      "place_id": "PLACE-GRAVEYARD-STUDIO",
+      "ville": "Manchester / Prestwich",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
       "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
       "ere": "Joy Division",
       "titres": [
         "Ceremony",
-        "In a Lonely Place (tronqué)"
+        "In a Lonely Place"
       ],
-      "premiere_sortie_officielle": {},
+      "premiere_sortie_officielle": {
+        "titre": "Heart And Soul",
+        "format": "coffret",
+        "label": "London Records",
+        "annee": "1997"
+      },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Début 1980. Répétitions des deux derniers titres écrits par Ian Curtis ; repris ensuite par New Order. Date précise inconnue."
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S10",
+        "S88"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "conteste",
+      "relations": {
+        "places": [
+          "PLACE-GRAVEYARD-STUDIO"
+        ]
+      },
+      "notes": "joydiv.org conserve l'entrée pour complétude mais signale que l'attribution Graveyard / rehearsal room est discutée et que les prises peuvent provenir de répétitions distinctes."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-19800514-001",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
+    "data": {
+      "id": "JD-SESSION-19800514-001",
+      "numero": 25,
+      "label": "In a Lonely Place rehearsal takes",
+      "date": "1980-05-14",
+      "type_session": "rehearsal",
+      "studio": "Pinky's Rehearsal Room / attribution à confirmer",
+      "lieu": "Pinky's Rehearsal Room / attribution à confirmer",
+      "ville": "Salford",
+      "participants": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "producteur": "Inconnu",
+      "ingenieur_son": "Inconnu",
+      "ere": "Joy Division",
+      "titres": [
+        "In a Lonely Place"
+      ],
+      "premiere_sortie_officielle": {
+        "titre": "Ceremony / In A Lonely Place",
+        "format": "Record Store Day 12 pouces",
+        "label": "Rhino / Factory",
+        "annee": "2011"
+      },
+      "source": "joydiv.org",
+      "sources": [
+        "REGISTRY-SESSIONS",
+        "S88"
+      ],
+      "urls": [
+        "https://www.joydiv.org/rehearsals.htm"
+      ],
+      "statut_documentaire": "probable",
+      "relations": {},
+      "notes": "joydiv.org donne le 14 mai 1980 comme hypothèse la plus probable pour plusieurs prises de In a Lonely Place. Le lieu reste à confirmer ; aucune relation place n'est créée."
     }
   },
   {
     "kind": "session",
     "id": "JD-SESSION-19810000-001",
-    "file": "registers/sessions/00_canonical_sessions.md",
-    "heading": "Sessions (ordre chronologique)",
+    "file": "registers/sessions/joy_division_sessions_register_v1.md",
+    "heading": "Sessions",
     "data": {
       "id": "JD-SESSION-19810000-001",
-      "numero": 17,
+      "numero": 26,
       "label": "Still session",
       "date": "1981-00-00",
+      "type_session": "studio",
       "studio": "Britannia Row Studios",
+      "lieu": "Britannia Row Studios",
+      "place_id": "PLACE-BRITANNIA-ROW-STUDIOS",
       "ville": "Islington London",
+      "participants": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
       "producteur": "Martin Hannett",
-      "ere": "Joy Division",
+      "ingenieur_son": "Inconnu",
+      "ere": "Post-Joy Division",
       "titres": [
         "The Only Mistake",
         "Walked in Line",
-        "The Kill (reworked depuis Unknown Pleasures sessions)"
+        "The Kill"
       ],
       "premiere_sortie_officielle": {
         "titre": "Still",
@@ -514,8 +1456,22 @@
         "annee": "1981"
       },
       "source": "joydiv.org",
-      "atomes_lies": [],
-      "notes": "Session post-mortem (Curtis décédé en mai 1980). Reworking de bandes Unknown Pleasures pour le double album Still."
+      "sources": [
+        "REGISTRY-SESSIONS"
+      ],
+      "urls": [
+        "https://www.joydiv.org/sessions.htm"
+      ],
+      "statut_documentaire": "etabli",
+      "relations": {
+        "places": [
+          "PLACE-BRITANNIA-ROW-STUDIOS"
+        ],
+        "people": [
+          "PERSON-martin-hannett"
+        ]
+      },
+      "notes": "Session posthume de travail sur bandes pour Still. Elle est conservée car joydiv.org l'intègre au corpus des sessions."
     }
   }
 ]

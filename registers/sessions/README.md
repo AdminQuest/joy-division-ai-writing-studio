@@ -1,15 +1,17 @@
-# Registre des sessions studio — Joy Division / Warsaw
+# Registre des sessions / répétitions — Joy Division / Warsaw
 
 ## Fonction du registre
 
-Ce registre centralise les 17 sessions canoniques d'enregistrement de
-Joy Division (et Warsaw) : sessions studio, démos, Peel sessions, sessions
-radio, et la session Still de 1981 (post-mortem).
+Ce registre centralise les sessions et répétitions documentées de Joy Division
+(et Warsaw) : répétitions, démos, sessions studio, sessions radio, sessions
+télévisées et lieux de travail musical.
 
 Il sert à :
 - stabiliser les dates, studios et producteurs ;
+- documenter les lieux de travail sonore et de répétition ;
 - documenter la généalogie des prises (Transmission 1 vs 2, LWTUA 1 vs 2) ;
-- relier sessions, titres enregistrés, premières sorties officielles ;
+- relier sessions, titres travaillés, premières sorties officielles, personnes
+  et lieux ;
 - préparer les exports CSV/JSON (`exports/generated/sessions.{json,csv}`)
   et alimenter le moteur RAG ;
 - identifier les lacunes dans le registre chronologique maître.
@@ -21,11 +23,11 @@ Il sert à :
 | Champ | Valeur |
 |-------|--------|
 | ID source | `REGISTRY-SESSIONS` |
-| URL | https://joydiv.org/sessions.htm |
+| URL | https://joydiv.org/sessions.htm ; https://joydiv.org/rehearsals.htm ; https://joydiv.org/jdtv.htm |
 | Auteur | Tony Nuttall |
 | Statut | `reference_externe` |
 | Fiabilité | `haute` |
-| Date consultation | 27 mai 2026 |
+| Date consultation | 4 juin 2026 |
 
 ---
 
@@ -33,10 +35,13 @@ Il sert à :
 
 ```yaml
 - id: JD-SESSION-YYYYMMDD-NNN
-  numero: 1                # rang dans la chronologie canonique (1 à 17)
+  numero: 1                # rang dans la chronologie canonique
   label: "Warsaw demo"
   date: YYYY-MM-DD
+  type_session: demo       # rehearsal | demo | studio | radio | television
   studio: "Pennine Sound Studios"
+  lieu: "Pennine Sound Studios"
+  place_id: "PLACE-PENNINE-STUDIOS-OLDHAM"
   ville: "Oldham"
   producteur: "Inconnu"    # ou "Martin Hannett", etc.
   ere: "Warsaw"            # Warsaw | Joy Division
@@ -47,8 +52,12 @@ Il sert à :
     label: ""
     annee: ""
   source: joydiv.org
+  sources: []
+  urls: []
+  statut_documentaire: etabli # etabli | probable | conteste
   atomes_lies: []
   chronologie_id: ""       # CHR-XXXX-XXX si lié à master_chronology
+  relations: {}
   # optionnels :
   ingenieur_son: "Jon Caffery"
   statut_session: officiel
@@ -67,7 +76,8 @@ Il sert à :
 
 | Fichier | Contenu |
 |---------|---------|
-| `00_canonical_sessions.md` | Registre canonique complet (joydiv.org) — 17 sessions |
+| `joy_division_sessions_register_v1.md` | Registre actif C3A-9 — 26 sessions / répétitions |
+| `00_canonical_sessions.md` | Note legacy ; ne contient plus de records pour éviter les doublons |
 | `lacunes_chronologie.md` | À créer : sessions sans entrée dans master_chronology.md |
 
 Les fichiers de registre source-spécifiques suivent la convention :
@@ -85,9 +95,9 @@ documentation complète des champs et règles.
 
 ## Relations avec les autres registres
 
-- **Chronologie** : `registers/chronology/master_chronology.md` contient
-  l'entrée CHR-1978-001 pour les sessions RCA/Arrow (= session 3 du
-  registre canonique). À enrichir progressivement.
+- **Chronologie** : plusieurs événements canoniques existent déjà pour RCA,
+  Granada, Peel, Piccadilly, T.J. Davidson's, Unknown Pleasures, Transmission,
+  Closer et Love Will Tear Us Apart.
 - **Atomes** : S41 (Hook), S83 (Hannett — architecture sonore), S45 (Curtis),
   S35 (Morris), S84 (Cope) contiennent les mentions de sessions les plus
   riches.
