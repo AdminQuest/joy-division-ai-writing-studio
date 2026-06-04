@@ -9,7 +9,7 @@
 
 | Indicateur | Valeur |
 |------------|:------:|
-| `PERSON-` canoniques | 166 |
+| `PERSON-` canoniques | 167 |
 | Liens `same_as` câblés (ids `PERS-*` rabattus) | 299 |
 | `alt_names` (formes secondaires) | 25 |
 | Renvois `ORG-` (hand-off) | 4 |
@@ -22,7 +22,7 @@
 | Catégorie | Nb |
 |-----------|:--:|
 | entourage | 53 |
-| industrie | 43 |
+| industrie | 44 |
 | auteur_secondaire | 29 |
 | theoricien_mobilise | 14 |
 | critique_journaliste | 12 |
@@ -2672,6 +2672,24 @@ same_as:
 alt_names: []
 categorie_a_arbitrer: true
 a_arbitrer: false
+```
+
+## PERSON-pennie-smith — Pennie Smith
+
+```yaml
+id: PERSON-pennie-smith
+type_unite: person
+name: Pennie Smith
+categorie: industrie
+role:
+  - photographe
+sources:
+  - IMAGE-I-0004
+same_as: []
+alt_names: []
+categorie_a_arbitrer: false
+a_arbitrer: false
+note: "Identite ajoutee depuis le registre iconographique pour une photographie attribuee a Pennie Smith ; aucun PERS-* source existant au moment de l'ajout."
 ```
 
 ## PERSON-penny-rimbaud — Penny Rimbaud

@@ -141,6 +141,21 @@ SPLIT_NEW_PERSONS = [
     ("PERSON-jasmine", "Jasmine", "entourage", [], True,
      "Composante individuelle de PERS-S76-064 « Dave Pils et Jasmine » ; nom incomplet, contrôle S76 requis."),
 ]
+ADDITIONAL_CANONICAL_PERSONS = [
+    {
+        "id": "PERSON-pennie-smith",
+        "type_unite": "person",
+        "name": "Pennie Smith",
+        "categorie": "industrie",
+        "role": ["photographe"],
+        "sources": ["IMAGE-I-0004"],
+        "same_as": [],
+        "alt_names": [],
+        "categorie_a_arbitrer": False,
+        "a_arbitrer": False,
+        "note": "Identite ajoutee depuis le registre iconographique pour une photographie attribuee a Pennie Smith ; aucun PERS-* source existant au moment de l'ajout.",
+    }
+]
 # Dave Pils (composante de PERS-S76-064) est rabattu sur le PERSON- de PERS-S76-077.
 DAVE_PILS_HOST_ID = "PERS-S76-077"
 
@@ -375,6 +390,8 @@ def build_records(rows: List[Dict[str, Any]]):
         })
         if a_arb:
             a_arbitrer_count += 1
+
+    records.extend(ADDITIONAL_CANONICAL_PERSONS)
 
     records.sort(key=lambda r: r["id"])
     return records, a_arbitrer_count
