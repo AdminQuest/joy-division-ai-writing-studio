@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-04T02:27:01",
+  "generated_at": "2026-06-04T10:14:57",
   "summary": {
-    "records_total": 8634,
+    "records_total": 8643,
     "records_by_kind": {
       "unknown": 1404,
       "source": 124,
@@ -19,7 +19,7 @@
       "quote_batch": 1,
       "rules": 1,
       "song": 110,
-      "session": 17
+      "session": 26
     },
     "diagnostics_total": 28870,
     "errors": 0,
@@ -44,7 +44,7 @@
     "quote": 962,
     "quote_batch": 1,
     "rules": 1,
-    "session": 17,
+    "session": 26,
     "song": 110,
     "source": 124,
     "template": 328,
@@ -96,7 +96,8 @@
       "atom": 40,
       "chronology": 14,
       "unknown": 16,
-      "place": 1
+      "place": 1,
+      "session": 3
     },
     "S11": {
       "metadata": 5,
@@ -285,6 +286,7 @@
       "chronology": 61,
       "person": 18,
       "place": 34,
+      "session": 17,
       "song": 7,
       "unknown": 105
     },
@@ -315,6 +317,7 @@
       "place": 6,
       "unknown": 13,
       "metadata": 1,
+      "session": 5,
       "song": 5
     },
     "S46": {
@@ -604,6 +607,7 @@
       "person": 51,
       "place": 4,
       "quote": 21,
+      "session": 10,
       "song": 33
     },
     "S76": {
@@ -612,6 +616,7 @@
       "person": 160,
       "place": 25,
       "quote": 195,
+      "session": 12,
       "source": 1
     },
     "S77": {
@@ -718,7 +723,8 @@
       "unknown": 16,
       "person": 1,
       "quote": 17,
-      "chronology": 7
+      "chronology": 7,
+      "session": 2
     },
     "S89": {
       "metadata": 6,
@@ -12645,7 +12651,7 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 74,
+        "records": 77,
         "atoms": 40,
         "quotes": 0,
         "chronology": 14,
@@ -12668,6 +12674,7 @@
           "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
           "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
           "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
+          "registers/sessions/joy_division_sessions_register_v1.md",
           "registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md",
           "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
           "sources/sumner_chapter_and_verse/source.md",
@@ -13156,7 +13163,7 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 887,
+        "records": 904,
         "atoms": 430,
         "quotes": 232,
         "chronology": 61,
@@ -13185,6 +13192,7 @@
           "registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md",
           "registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md",
+          "registers/sessions/joy_division_sessions_register_v1.md",
           "registers/songs/master_songs.md",
           "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
@@ -13294,7 +13302,7 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 466,
+        "records": 471,
         "atoms": 205,
         "quotes": 108,
         "chronology": 65,
@@ -13324,6 +13332,7 @@
           "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
           "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
           "registers/references/s45_curtis_touching_from_a_distance_source_canonique.md",
+          "registers/sessions/joy_division_sessions_register_v1.md",
           "registers/songs/master_songs.md",
           "registers/songs/s45_curtis_songs_1976_1977.md",
           "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
@@ -13885,7 +13894,7 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 239,
+        "records": 249,
         "atoms": 75,
         "quotes": 21,
         "chronology": 54,
@@ -13903,6 +13912,7 @@
           "registers/quotes/s75_ott_quotes.md",
           "registers/quotes/s75_ott_quotes_part_03.md",
           "registers/quotes/s75_ott_quotes_part_04.md",
+          "registers/sessions/joy_division_sessions_register_v1.md",
           "registers/songs/s75_ott_songs.md",
           "registers/songs/s75_ott_songs_part_02.md",
           "registers/songs/s75_ott_songs_part_03.md",
@@ -13920,7 +13930,7 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 740,
+        "records": 752,
         "atoms": 229,
         "quotes": 195,
         "chronology": 130,
@@ -13981,6 +13991,7 @@
           "registers/quotes/s76_torn_apart_quotes_part_16.md",
           "registers/quotes/s76_torn_apart_quotes_part_17.md",
           "registers/quotes/s76_torn_apart_quotes_part_18.md",
+          "registers/sessions/joy_division_sessions_register_v1.md",
           "registers/songs/s76_torn_apart_songs_part_07.md",
           "registers/songs/s76_torn_apart_songs_part_08.md",
           "registers/songs/s76_torn_apart_songs_part_09.md",
@@ -14244,7 +14255,7 @@
         "auteur": "Kieran Cashell",
         "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
         "annee": "2018",
-        "records": 65,
+        "records": 67,
         "atoms": 11,
         "quotes": 17,
         "chronology": 14,
@@ -14254,6 +14265,7 @@
           "registers/quotes/s88_cashell_quotes.md",
           "registers/s88_cashell_specialized_registers.md",
           "registers/s88_cashell_structuring_registers.md",
+          "registers/sessions/joy_division_sessions_register_v1.md",
           "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
           "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md"
         ]

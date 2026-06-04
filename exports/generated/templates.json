@@ -26303,7 +26303,10 @@
       "numero": 1,
       "label": "Warsaw demo",
       "date": "YYYY-MM-DD",
+      "type_session": "demo",
       "studio": "Pennine Sound Studios",
+      "lieu": "Pennine Sound Studios",
+      "place_id": "PLACE-PENNINE-STUDIOS-OLDHAM",
       "ville": "Oldham",
       "producteur": "Inconnu",
       "ere": "Warsaw",
@@ -26315,8 +26318,12 @@
         "annee": ""
       },
       "source": "joydiv.org",
+      "sources": [],
+      "urls": [],
+      "statut_documentaire": "etabli",
       "atomes_lies": [],
       "chronologie_id": "",
+      "relations": {},
       "ingenieur_son": "Jon Caffery",
       "statut_session": "officiel",
       "notes": ""
@@ -26324,7 +26331,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::8319",
+    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::8328",
     "file": "registers/songs/00_canonical_joy_division_songs.md",
     "heading": "Chansons canoniques",
     "data": {
@@ -27461,7 +27468,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::8320",
+    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::8329",
     "file": "registers/songs/00_canonical_joy_division_songs.md",
     "heading": "Titres explicitement exclus du menu",
     "data": {
@@ -27519,7 +27526,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::8331",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::8340",
     "file": "registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des chansons — Joy Division tardif et transition New Order",
     "data": {
@@ -27596,7 +27603,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::8333",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::8342",
     "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des chansons — processus, image et postérité",
     "data": {
@@ -27674,7 +27681,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::8347",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::8356",
     "file": "registers/songs/s35_morris_songs_part_03.md",
     "heading": "Registre chansons — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -27774,7 +27781,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::8349",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::8358",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Chansons mentionnées ou utiles",
     "data": {
@@ -27840,7 +27847,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::8350",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::8359",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Albums mentionnés ou utiles",
     "data": {
@@ -27922,7 +27929,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::8540",
+    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::8549",
     "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre des chansons — appropriations tardives",
     "data": {
@@ -27956,7 +27963,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8619",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8628",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chronologie spécialisée",
     "data": {
@@ -28036,7 +28043,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8620",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8629",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Acteurs",
     "data": {
@@ -28128,7 +28135,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8627",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8636",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Organisations / groupes",
     "data": {
@@ -28187,7 +28194,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8628",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::8637",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chansons / albums / objets musicaux",
     "data": {
