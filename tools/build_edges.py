@@ -25,6 +25,8 @@ INDEX_PATH = ROOT / "exports" / "generated" / "index_by_id.json"
 ATTRIBUTION_PATH = ROOT / "exports" / "generated" / "attribution_edges.json"
 ATOMS_PATH = ROOT / "exports" / "generated" / "atoms.json"
 QUOTES_PATH = ROOT / "exports" / "generated" / "quotes.json"
+CONCERTS_PATH = ROOT / "exports" / "generated" / "concerts.json"
+PLACES_PATH = ROOT / "exports" / "generated" / "places.json"
 EDGES_PATH = ROOT / "exports" / "generated" / "edges.json"
 CHAPTERS_PATH = ROOT / "chapters"
 ATOM_REF_PATTERN = re.compile(r"(?<![A-Z0-9_-])S\d+(?:-A\d+|-\d{3}|-PART-[A-Z0-9_-]+)(?![A-Z0-9_-])")
@@ -160,6 +162,14 @@ def load_atoms() -> list[dict[str, Any]]:
 
 def load_quotes() -> list[dict[str, Any]]:
     return json.loads(QUOTES_PATH.read_text(encoding="utf-8"))
+
+
+def load_concerts() -> list[dict[str, Any]]:
+    return json.loads(CONCERTS_PATH.read_text(encoding="utf-8"))
+
+
+def load_places() -> list[dict[str, Any]]:
+    return json.loads(PLACES_PATH.read_text(encoding="utf-8"))
 
 
 def graph_kind(identifier: str, index: dict[str, Any]) -> Optional[str]:
@@ -898,6 +908,94 @@ def iter_atom_myth_edges(
     return edges, exclusions
 
 
+def iter_concert_place_edges(
+    index: dict[str, Any],
+    concerts: list[dict[str, Any]],
+    places: list[dict[str, Any]],
+    existing_edges: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], Counter[str]]:
+    edges: list[dict[str, Any]] = []
+    exclusions: Counter[str] = Counter()
+    seen = {
+        (edge.get("source_id"), edge.get("relation_type"), edge.get("target_id"))
+        for edge in existing_edges
+        if isinstance(edge, dict)
+    }
+    place_ids = {
+        place.get("id")
+        for place in places
+        if isinstance(place, dict) and isinstance(place.get("id"), str)
+    }
+    alias_ids = {
+        alias
+        for place in places
+        if isinstance(place, dict)
+        for alias in (place.get("data", {}).get("aliases") or [])
+        if isinstance(alias, str)
+    }
+
+    for concert in concerts:
+        if not isinstance(concert, dict):
+            exclusions["invalid_concert_record"] += 1
+            continue
+        concert_id = concert.get("id")
+        if not isinstance(concert_id, str):
+            exclusions["invalid_concert_id"] += 1
+            continue
+        if not concert_id.startswith("CONCERT-"):
+            exclusions["non_canonical_concert"] += 1
+            continue
+        if graph_kind(concert_id, index) != "concert":
+            exclusions[f"unsupported_source_kind_{graph_kind(concert_id, index)}"] += 1
+            continue
+
+        data = concert.get("data", {})
+        if not isinstance(data, dict):
+            exclusions["invalid_concert_data"] += 1
+            continue
+        place_id = data.get("lieu")
+        if not isinstance(place_id, str) or not place_id.startswith("PLACE-"):
+            exclusions["non_place_lieu"] += 1
+            continue
+        if place_id not in place_ids:
+            exclusions["missing_place_export"] += 1
+            continue
+        if place_id in alias_ids:
+            exclusions["non_canonical_place_alias"] += 1
+            continue
+        if graph_kind(place_id, index) != "place":
+            exclusions[f"unsupported_target_kind_{graph_kind(place_id, index)}"] += 1
+            continue
+
+        signature = (concert_id, "located_at", place_id)
+        if signature in seen:
+            exclusions["duplicate_signature"] += 1
+            continue
+        seen.add(signature)
+
+        edges.append(
+            {
+                "source_kind": "concert",
+                "source_id": concert_id,
+                "target_kind": "place",
+                "target_id": place_id,
+                "relation_type": "located_at",
+                "evidence_refs": [concert_id],
+                "confidence": "high",
+                "derived_from": "exports/generated/concerts.json",
+            }
+        )
+
+    edges.sort(
+        key=lambda edge: (
+            edge["source_id"],
+            edge["target_id"],
+            edge["derived_from"],
+        )
+    )
+    return edges, exclusions
+
+
 def write_edges(edges: list[dict[str, Any]]) -> None:
     ordered_edges = []
     for i, edge in enumerate(edges, start=1):
@@ -922,6 +1020,8 @@ def write_edges(edges: list[dict[str, Any]]) -> None:
             "exports/generated/attribution_edges.json",
             "exports/generated/atoms.json",
             "exports/generated/quotes.json",
+            "exports/generated/concerts.json",
+            "exports/generated/places.json",
             "chapters/*/document_maitre.md",
         ],
         "edges": ordered_edges,
@@ -938,6 +1038,8 @@ def main(argv: Optional[list[str]] = None) -> int:
     attribution = load_attribution_edges()
     atoms = load_atoms()
     quotes = load_quotes()
+    concerts = load_concerts()
+    places = load_places()
     same_as_edges, same_as_exclusions = iter_same_as_edges(index)
     attributed_to_edges, attributed_to_exclusions = iter_attributed_to_edges(index, attribution)
     quote_source_edges, quote_source_exclusions = iter_quote_source_edges(index)
@@ -960,7 +1062,14 @@ def main(argv: Optional[list[str]] = None) -> int:
         atoms,
         graph_atom_ids(semantic_graph_edges),
     )
-    edges = [*semantic_graph_edges, *atom_myth_edges]
+    graph_edges = [*semantic_graph_edges, *atom_myth_edges]
+    concert_place_edges, concert_place_exclusions = iter_concert_place_edges(
+        index,
+        concerts,
+        places,
+        graph_edges,
+    )
+    edges = [*graph_edges, *concert_place_edges]
     write_edges(edges)
 
     if not args.quiet:
@@ -982,6 +1091,8 @@ def main(argv: Optional[list[str]] = None) -> int:
             print(f"excluded.atom_motif_indexed_by.{key}={count}")
         for key, count in sorted(atom_myth_exclusions.items()):
             print(f"excluded.atom_myth_indexed_by.{key}={count}")
+        for key, count in sorted(concert_place_exclusions.items()):
+            print(f"excluded.concert_located_at.{key}={count}")
     return 0
 
 

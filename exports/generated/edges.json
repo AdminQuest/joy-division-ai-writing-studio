@@ -5,6 +5,8 @@
     "exports/generated/attribution_edges.json",
     "exports/generated/atoms.json",
     "exports/generated/quotes.json",
+    "exports/generated/concerts.json",
+    "exports/generated/places.json",
     "chapters/*/document_maitre.md"
   ],
   "edges": [
@@ -46664,6 +46666,2502 @@
       ],
       "confidence": "high",
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
+    },
+    {
+      "edge_id": "EDGE-003590",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770529-ELECTRIC-CIRCUS",
+      "target_kind": "place",
+      "target_id": "PLACE-ELECTRIC-CIRCUS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770529-ELECTRIC-CIRCUS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003591",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770531-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770531-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003592",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770603-THE-SQUAT-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-THE-SQUAT-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770603-THE-SQUAT-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003593",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770606-NEWCASTLE-GUILDHALL",
+      "target_kind": "place",
+      "target_id": "PLACE-NEWCASTLE-GUILDHALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770606-NEWCASTLE-GUILDHALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003594",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770616-THE-SQUAT-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-THE-SQUAT-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770616-THE-SQUAT-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003595",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770625-THE-SQUAT-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-THE-SQUAT-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770625-THE-SQUAT-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003596",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770630-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770630-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003597",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770720-TIFFANYS-LEICESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-TIFFANYS-LEICESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770720-TIFFANYS-LEICESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003598",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770914-ROCK-GARDEN-MIDDLESBROUGH",
+      "target_kind": "place",
+      "target_id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770914-ROCK-GARDEN-MIDDLESBROUGH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003599",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19770924-ELECTRIC-CIRCUS",
+      "target_kind": "place",
+      "target_id": "PLACE-ELECTRIC-CIRCUS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19770924-ELECTRIC-CIRCUS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003600",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771002-ELECTRIC-CIRCUS",
+      "target_kind": "place",
+      "target_id": "PLACE-ELECTRIC-CIRCUS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771002-ELECTRIC-CIRCUS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003601",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771007-SALFORD-TECHNICAL-COLLEGE",
+      "target_kind": "place",
+      "target_id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771007-SALFORD-TECHNICAL-COLLEGE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003602",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771008-MANCHESTER-POLYTECHNIC",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-POLYTECHNIC",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771008-MANCHESTER-POLYTECHNIC"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003603",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771013-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771013-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003604",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771019-PIPERS-CYPRUS-TAVERN",
+      "target_kind": "place",
+      "target_id": "PLACE-PIPERS-CYPRUS-TAVERN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771019-PIPERS-CYPRUS-TAVERN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003605",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771124-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771124-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003606",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771200-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771200-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003607",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19771231-SWINGING-APPLE-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-SWINGING-APPLE-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19771231-SWINGING-APPLE-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003608",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780125-PIPS",
+      "target_kind": "place",
+      "target_id": "PLACE-PIPS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780125-PIPS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003609",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780328-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780328-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003610",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780407-GOOD-MOOD-HALIFAX",
+      "target_kind": "place",
+      "target_id": "PLACE-GOOD-MOOD-HALIFAX",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780407-GOOD-MOOD-HALIFAX"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003611",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780414-RAFTERS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-RAFTERS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780414-RAFTERS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003612",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780520-STONEGROUND-MAYFLOWER",
+      "target_kind": "place",
+      "target_id": "PLACE-STONEGROUND-MAYFLOWER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780520-STONEGROUND-MAYFLOWER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003613",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780600-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780600-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003614",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780609-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780609-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003615",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780713-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780713-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003616",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780715-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780715-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003617",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780727-ROOTS-CLUB-LEEDS",
+      "target_kind": "place",
+      "target_id": "PLACE-ROOTS-CLUB-LEEDS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780727-ROOTS-CLUB-LEEDS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003618",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780728-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780728-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003619",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780820-ROYAL-STANDARD-BRADFORD",
+      "target_kind": "place",
+      "target_id": "PLACE-ROYAL-STANDARD-BRADFORD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780820-ROYAL-STANDARD-BRADFORD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003620",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780829-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780829-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003621",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780904-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780904-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003622",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780909-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780909-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003623",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780910-ROYAL-STANDARD-BRADFORD",
+      "target_kind": "place",
+      "target_id": "PLACE-ROYAL-STANDARD-BRADFORD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780910-ROYAL-STANDARD-BRADFORD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003624",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780922-COACH-HOUSE-HUDDERSFIELD",
+      "target_kind": "place",
+      "target_id": "PLACE-COACH-HOUSE-HUDDERSFIELD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780922-COACH-HOUSE-HUDDERSFIELD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003625",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780926-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780926-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003626",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD",
+      "target_kind": "place",
+      "target_id": "PLACE-COACH-HOUSE-HUDDERSFIELD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003627",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781002-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+      "target_kind": "place",
+      "target_id": "PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781002-BOLTON-INSTITUTE-OF-TECHNOLOGY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003628",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781012-KELLYS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-KELLYS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781012-KELLYS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003629",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781020-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781020-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003630",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781024-FAN-CLUB-LEEDS",
+      "target_kind": "place",
+      "target_id": "PLACE-FAN-CLUB-LEEDS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781024-FAN-CLUB-LEEDS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003631",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781026-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781026-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003632",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781027-MANCHESTER-APOLLO",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-APOLLO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781027-MANCHESTER-APOLLO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003633",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781104-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781104-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003634",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781112-MANCHESTER-APOLLO",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-APOLLO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781112-MANCHESTER-APOLLO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003635",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781114-ODEON-CANTERBURY",
+      "target_kind": "place",
+      "target_id": "PLACE-ODEON-CANTERBURY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781114-ODEON-CANTERBURY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003636",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781115-BRUNEL-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-BRUNEL-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781115-BRUNEL-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003637",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781115-TOP-RANK-READING",
+      "target_kind": "place",
+      "target_id": "PLACE-TOP-RANK-READING",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781115-TOP-RANK-READING"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003638",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781116-METRO-PLYMOUTH",
+      "target_kind": "place",
+      "target_id": "PLACE-METRO-PLYMOUTH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781116-METRO-PLYMOUTH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003639",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781117-CARDIFF-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-CARDIFF-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781117-CARDIFF-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003640",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781118-SOUTHAMPTON-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-SOUTHAMPTON-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781118-SOUTHAMPTON-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003641",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781119-LOCARNO-BRISTOL",
+      "target_kind": "place",
+      "target_id": "PLACE-LOCARNO-BRISTOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781119-LOCARNO-BRISTOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003642",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781120-CHECK-INN-ALTRINCHAM",
+      "target_kind": "place",
+      "target_id": "PLACE-CHECK-INN-ALTRINCHAM",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781120-CHECK-INN-ALTRINCHAM"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003643",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781121-KING-GEORGES-HALL-BLACKBURN",
+      "target_kind": "place",
+      "target_id": "PLACE-KING-GEORGES-HALL-BLACKBURN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781121-KING-GEORGES-HALL-BLACKBURN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003644",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781122-SHEFFIELD-POLYTECHNIC",
+      "target_kind": "place",
+      "target_id": "PLACE-SHEFFIELD-POLYTECHNIC",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781122-SHEFFIELD-POLYTECHNIC"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003645",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781124-LANCASTER-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-LANCASTER-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781124-LANCASTER-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003646",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781125-BRADFORD-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-BRADFORD-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781125-BRADFORD-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003647",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781126-COATHAM-BOWL-REDCAR",
+      "target_kind": "place",
+      "target_id": "PLACE-COATHAM-BOWL-REDCAR",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781126-COATHAM-BOWL-REDCAR"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003648",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781126-THE-VENUE-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-THE-VENUE-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781126-THE-VENUE-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003649",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781127-ST-ANDREWS-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-ST-ANDREWS-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781127-ST-ANDREWS-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003650",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781201-SALFORD-TECHNICAL-COLLEGE",
+      "target_kind": "place",
+      "target_id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781201-SALFORD-TECHNICAL-COLLEGE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003651",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781222-REVOLUTION-CLUB-YORK",
+      "target_kind": "place",
+      "target_id": "PLACE-REVOLUTION-CLUB-YORK",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781222-REVOLUTION-CLUB-YORK"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003652",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19781227-HOPE-AND-ANCHOR-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-HOPE-AND-ANCHOR-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19781227-HOPE-AND-ANCHOR-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003653",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790112-WYTHENSHAWE-COLLEGE",
+      "target_kind": "place",
+      "target_id": "PLACE-WYTHENSHAWE-COLLEGE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790112-WYTHENSHAWE-COLLEGE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003654",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790126-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790126-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003655",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790210-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+      "target_kind": "place",
+      "target_id": "PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790210-BOLTON-INSTITUTE-OF-TECHNOLOGY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003656",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790216-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790216-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003657",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790228-PLAYHOUSE-THEATRE-NOTTINGHAM",
+      "target_kind": "place",
+      "target_id": "PLACE-PLAYHOUSE-THEATRE-NOTTINGHAM",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790228-PLAYHOUSE-THEATRE-NOTTINGHAM"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003658",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790301-HOPE-AND-ANCHOR-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-HOPE-AND-ANCHOR-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790301-HOPE-AND-ANCHOR-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003659",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790304-MARQUEE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-MARQUEE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790304-MARQUEE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003660",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790313-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790313-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003661",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003662",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790317-UNIVERSITY-OF-KENT",
+      "target_kind": "place",
+      "target_id": "PLACE-UNIVERSITY-OF-KENT",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790317-UNIVERSITY-OF-KENT"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003663",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790330-WALTHAMSTOW-YOUTH-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-WALTHAMSTOW-YOUTH-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790330-WALTHAMSTOW-YOUTH-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003664",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790406-ACTIONSPACE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-ACTIONSPACE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790406-ACTIONSPACE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003665",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790417-ACKLAM-HALL-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-ACKLAM-HALL-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790417-ACKLAM-HALL-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003666",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790503-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790503-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003667",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790511-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790511-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003668",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790517-ACKLAM-HALL-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-ACKLAM-HALL-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790517-ACKLAM-HALL-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003669",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790523-BOWDON-VALE-YOUTH-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790523-BOWDON-VALE-YOUTH-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003670",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790600-BAND-ON-THE-WALL",
+      "target_kind": "place",
+      "target_id": "PLACE-BAND-ON-THE-WALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790600-BAND-ON-THE-WALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003671",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790607-FAN-CLUB-LEEDS",
+      "target_kind": "place",
+      "target_id": "PLACE-FAN-CLUB-LEEDS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790607-FAN-CLUB-LEEDS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003672",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790613-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790613-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003673",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790616-ODEON-CANTERBURY",
+      "target_kind": "place",
+      "target_id": "PLACE-ODEON-CANTERBURY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790616-ODEON-CANTERBURY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003674",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790617-ROYALTY-THEATRE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-ROYALTY-THEATRE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790617-ROYALTY-THEATRE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003675",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790619-LANCASTER-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-LANCASTER-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790619-LANCASTER-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003676",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790622-GOOD-MOOD-HALIFAX",
+      "target_kind": "place",
+      "target_id": "PLACE-GOOD-MOOD-HALIFAX",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790622-GOOD-MOOD-HALIFAX"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003677",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790625-FREE-TRADE-HALL",
+      "target_kind": "place",
+      "target_id": "PLACE-FREE-TRADE-HALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790625-FREE-TRADE-HALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003678",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790626-NEWCASTLE-GUILDHALL",
+      "target_kind": "place",
+      "target_id": "PLACE-NEWCASTLE-GUILDHALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790626-NEWCASTLE-GUILDHALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003679",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790628-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790628-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003680",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790703-FREE-TRADE-HALL",
+      "target_kind": "place",
+      "target_id": "PLACE-FREE-TRADE-HALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790703-FREE-TRADE-HALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003681",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790705-LIMIT-CLUB-SHEFFIELD",
+      "target_kind": "place",
+      "target_id": "PLACE-LIMIT-CLUB-SHEFFIELD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790705-LIMIT-CLUB-SHEFFIELD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003682",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790711-ROOTS-CLUB-LEEDS",
+      "target_kind": "place",
+      "target_id": "PLACE-ROOTS-CLUB-LEEDS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790711-ROOTS-CLUB-LEEDS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003683",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790713-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790713-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003684",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790727-IMPERIAL-HOTEL-BLACKPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-IMPERIAL-HOTEL-BLACKPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790727-IMPERIAL-HOTEL-BLACKPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003685",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790728-STONEGROUND-MAYFLOWER",
+      "target_kind": "place",
+      "target_id": "PLACE-STONEGROUND-MAYFLOWER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790728-STONEGROUND-MAYFLOWER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003686",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790802-YMCA-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-YMCA-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790802-YMCA-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003687",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790808-ROMULUS-CLUB-BIRMINGHAM",
+      "target_kind": "place",
+      "target_id": "PLACE-ROMULUS-CLUB-BIRMINGHAM",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790808-ROMULUS-CLUB-BIRMINGHAM"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003688",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790811-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790811-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003689",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790813-NASHVILLE-ROOMS-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-NASHVILLE-ROOMS-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790813-NASHVILLE-ROOMS-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003690",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790822-WALTHAMSTOW-YOUTH-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-WALTHAMSTOW-YOUTH-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790822-WALTHAMSTOW-YOUTH-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003691",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790827-LEIGH-FESTIVAL",
+      "target_kind": "place",
+      "target_id": "PLACE-LEIGH-FESTIVAL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790827-LEIGH-FESTIVAL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003692",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790831-ELECTRIC-BALLROOM-CAMDEN",
+      "target_kind": "place",
+      "target_id": "PLACE-ELECTRIC-BALLROOM-CAMDEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790831-ELECTRIC-BALLROOM-CAMDEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003693",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790908-QUEENS-HALL-LEEDS",
+      "target_kind": "place",
+      "target_id": "PLACE-QUEENS-HALL-LEEDS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790908-QUEENS-HALL-LEEDS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003694",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790914-ROCK-GARDEN-MIDDLESBROUGH",
+      "target_kind": "place",
+      "target_id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790914-ROCK-GARDEN-MIDDLESBROUGH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003695",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790922-NASHVILLE-ROOMS-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-NASHVILLE-ROOMS-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790922-NASHVILLE-ROOMS-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003696",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790928-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790928-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003697",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19790929-STONEGROUND-MAYFLOWER",
+      "target_kind": "place",
+      "target_id": "PLACE-STONEGROUND-MAYFLOWER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19790929-STONEGROUND-MAYFLOWER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003698",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791002-MOUNTFORD-HALL-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-MOUNTFORD-HALL-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791002-MOUNTFORD-HALL-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003699",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791003-CITY-HALL-HULL",
+      "target_kind": "place",
+      "target_id": "PLACE-CITY-HALL-HULL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791003-CITY-HALL-HULL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003700",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791003-LEEDS-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-LEEDS-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791003-LEEDS-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003701",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791004-NEWCASTLE-CITY-HALL",
+      "target_kind": "place",
+      "target_id": "PLACE-NEWCASTLE-CITY-HALL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791004-NEWCASTLE-CITY-HALL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003702",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791005-MANCHESTER-APOLLO",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-APOLLO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791005-MANCHESTER-APOLLO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003703",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791006-ODEON-EDINBURGH",
+      "target_kind": "place",
+      "target_id": "PLACE-ODEON-EDINBURGH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791006-ODEON-EDINBURGH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003704",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791007-CAPITOL-ABERDEEN",
+      "target_kind": "place",
+      "target_id": "PLACE-CAPITOL-ABERDEEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791007-CAPITOL-ABERDEEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003705",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791008-CAIRD-HALL-DUNDEE",
+      "target_kind": "place",
+      "target_id": "PLACE-CAIRD-HALL-DUNDEE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791008-CAIRD-HALL-DUNDEE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003706",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791010-KELLYS-MANCHESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-KELLYS-MANCHESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791010-KELLYS-MANCHESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003707",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791011-ULSTER-HALL-BELFAST",
+      "target_kind": "place",
+      "target_id": "PLACE-ULSTER-HALL-BELFAST",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791011-ULSTER-HALL-BELFAST"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003708",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791012-OLYMPIA-DUBLIN",
+      "target_kind": "place",
+      "target_id": "PLACE-OLYMPIA-DUBLIN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791012-OLYMPIA-DUBLIN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003709",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791013-CITY-HALL-CORK",
+      "target_kind": "place",
+      "target_id": "PLACE-CITY-HALL-CORK",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791013-CITY-HALL-CORK"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003710",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791016-PLAN-K-BRUSSELS",
+      "target_kind": "place",
+      "target_id": "PLACE-PLAN-K-BRUSSELS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791016-PLAN-K-BRUSSELS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003711",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791018-BANGOR-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-BANGOR-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791018-BANGOR-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003712",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791020-LOUGHBOROUGH-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-LOUGHBOROUGH-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791020-LOUGHBOROUGH-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003713",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791021-TOP-RANK-SHEFFIELD",
+      "target_kind": "place",
+      "target_id": "PLACE-TOP-RANK-SHEFFIELD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791021-TOP-RANK-SHEFFIELD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003714",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791022-ASSEMBLY-ROOMS-DERBY",
+      "target_kind": "place",
+      "target_id": "PLACE-ASSEMBLY-ROOMS-DERBY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791022-ASSEMBLY-ROOMS-DERBY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003715",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791023-KING-GEORGES-HALL-BLACKBURN",
+      "target_kind": "place",
+      "target_id": "PLACE-KING-GEORGES-HALL-BLACKBURN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791023-KING-GEORGES-HALL-BLACKBURN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003716",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791024-ODEON-BIRMINGHAM",
+      "target_kind": "place",
+      "target_id": "PLACE-ODEON-BIRMINGHAM",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791024-ODEON-BIRMINGHAM"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003717",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791025-ST-GEORGES-HALL-BRADFORD",
+      "target_kind": "place",
+      "target_id": "PLACE-ST-GEORGES-HALL-BRADFORD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791025-ST-GEORGES-HALL-BRADFORD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003718",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791026-ELECTRIC-BALLROOM-CAMDEN",
+      "target_kind": "place",
+      "target_id": "PLACE-ELECTRIC-BALLROOM-CAMDEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791026-ELECTRIC-BALLROOM-CAMDEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003719",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791027-MANCHESTER-APOLLO",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-APOLLO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791027-MANCHESTER-APOLLO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003720",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791028-MANCHESTER-APOLLO",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-APOLLO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791028-MANCHESTER-APOLLO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003721",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791029-DE-MONTFORT-HALL-LEICESTER",
+      "target_kind": "place",
+      "target_id": "PLACE-DE-MONTFORT-HALL-LEICESTER",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791029-DE-MONTFORT-HALL-LEICESTER"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003722",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791030-NEW-THEATRE-OXFORD",
+      "target_kind": "place",
+      "target_id": "PLACE-NEW-THEATRE-OXFORD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791030-NEW-THEATRE-OXFORD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003723",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791101-CIVIC-HALL-GUILDFORD",
+      "target_kind": "place",
+      "target_id": "PLACE-CIVIC-HALL-GUILDFORD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791101-CIVIC-HALL-GUILDFORD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003724",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791102-WINTER-GARDENS-MALVERN",
+      "target_kind": "place",
+      "target_id": "PLACE-WINTER-GARDENS-MALVERN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791102-WINTER-GARDENS-MALVERN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003725",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791103-SOPHIA-GARDENS-CARDIFF",
+      "target_kind": "place",
+      "target_id": "PLACE-SOPHIA-GARDENS-CARDIFF",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791103-SOPHIA-GARDENS-CARDIFF"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003726",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791104-COLSTON-HALL-BRISTOL",
+      "target_kind": "place",
+      "target_id": "PLACE-COLSTON-HALL-BRISTOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791104-COLSTON-HALL-BRISTOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003727",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791105-PAVILION-HEMEL-HEMPSTEAD",
+      "target_kind": "place",
+      "target_id": "PLACE-PAVILION-HEMEL-HEMPSTEAD",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791105-PAVILION-HEMEL-HEMPSTEAD"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003728",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791107-WEST-RUNTON-PAVILION",
+      "target_kind": "place",
+      "target_id": "PLACE-WEST-RUNTON-PAVILION",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791107-WEST-RUNTON-PAVILION"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003729",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791108-MARQUEE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-MARQUEE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791108-MARQUEE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003730",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791109-RAINBOW-THEATRE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-RAINBOW-THEATRE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791109-RAINBOW-THEATRE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003731",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791110-RAINBOW-THEATRE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-RAINBOW-THEATRE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791110-RAINBOW-THEATRE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003732",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791128-CAPITOL-ABERDEEN",
+      "target_kind": "place",
+      "target_id": "PLACE-CAPITOL-ABERDEEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791128-CAPITOL-ABERDEEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003733",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791129-ODEON-EDINBURGH",
+      "target_kind": "place",
+      "target_id": "PLACE-ODEON-EDINBURGH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791129-ODEON-EDINBURGH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003734",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791207-STOCKPORT-COLLEGE",
+      "target_kind": "place",
+      "target_id": "PLACE-STOCKPORT-COLLEGE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791207-STOCKPORT-COLLEGE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003735",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791208-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791208-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003736",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791218-LES-BAINS-DOUCHES-PARIS",
+      "target_kind": "place",
+      "target_id": "PLACE-LES-BAINS-DOUCHES-PARIS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791218-LES-BAINS-DOUCHES-PARIS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003737",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19791231-WAREHOUSE-PRESTON",
+      "target_kind": "place",
+      "target_id": "PLACE-WAREHOUSE-PRESTON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19791231-WAREHOUSE-PRESTON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003738",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800111-PARADISO-AMSTERDAM",
+      "target_kind": "place",
+      "target_id": "PLACE-PARADISO-AMSTERDAM",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800111-PARADISO-AMSTERDAM"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003739",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800112-PAARD-VAN-TROJE-THE-HAGUE",
+      "target_kind": "place",
+      "target_id": "PLACE-PAARD-VAN-TROJE-THE-HAGUE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800112-PAARD-VAN-TROJE-THE-HAGUE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003740",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800113-DOORNROOSJE-NIJMEGEN",
+      "target_kind": "place",
+      "target_id": "PLACE-DOORNROOSJE-NIJMEGEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800113-DOORNROOSJE-NIJMEGEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003741",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800114-KING-KONG-ANTWERPEN",
+      "target_kind": "place",
+      "target_id": "PLACE-KING-KONG-ANTWERPEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800114-KING-KONG-ANTWERPEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003742",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800115-BASEMENT-COLOGNE",
+      "target_kind": "place",
+      "target_id": "PLACE-BASEMENT-COLOGNE",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800115-BASEMENT-COLOGNE"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003743",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800116-LANTAREN-ROTTERDAM",
+      "target_kind": "place",
+      "target_id": "PLACE-LANTAREN-ROTTERDAM",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800116-LANTAREN-ROTTERDAM"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003744",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800117-PLAN-K-BRUSSELS",
+      "target_kind": "place",
+      "target_id": "PLACE-PLAN-K-BRUSSELS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800117-PLAN-K-BRUSSELS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003745",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800118-EFFENAAR-EINDHOVEN",
+      "target_kind": "place",
+      "target_id": "PLACE-EFFENAAR-EINDHOVEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800118-EFFENAAR-EINDHOVEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003746",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800119-CLUB-VERA-GRONINGEN",
+      "target_kind": "place",
+      "target_id": "PLACE-CLUB-VERA-GRONINGEN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800119-CLUB-VERA-GRONINGEN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003747",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800121-KANT-KINO-BERLIN",
+      "target_kind": "place",
+      "target_id": "PLACE-KANT-KINO-BERLIN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800121-KANT-KINO-BERLIN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003748",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800207-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800207-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003749",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800208-UNIVERSITY-OF-LONDON-UNION",
+      "target_kind": "place",
+      "target_id": "PLACE-UNIVERSITY-OF-LONDON-UNION",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800208-UNIVERSITY-OF-LONDON-UNION"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003750",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800220-DERBY-HALL-BURY",
+      "target_kind": "place",
+      "target_id": "PLACE-DERBY-HALL-BURY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800220-DERBY-HALL-BURY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003751",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800221-MANCHESTER-POLYTECHNIC",
+      "target_kind": "place",
+      "target_id": "PLACE-MANCHESTER-POLYTECHNIC",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800221-MANCHESTER-POLYTECHNIC"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003752",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800228-WAREHOUSE-PRESTON",
+      "target_kind": "place",
+      "target_id": "PLACE-WAREHOUSE-PRESTON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800228-WAREHOUSE-PRESTON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003753",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800229-LYCEUM-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-LYCEUM-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800229-LYCEUM-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003754",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800305-TRINITY-HALL-BRISTOL",
+      "target_kind": "place",
+      "target_id": "PLACE-TRINITY-HALL-BRISTOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800305-TRINITY-HALL-BRISTOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003755",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800402-MOONLIGHT-CLUB-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-MOONLIGHT-CLUB-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800402-MOONLIGHT-CLUB-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003756",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800403-MOONLIGHT-CLUB-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-MOONLIGHT-CLUB-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800403-MOONLIGHT-CLUB-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003757",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800404-MOONLIGHT-CLUB-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-MOONLIGHT-CLUB-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800404-MOONLIGHT-CLUB-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003758",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800404-RAINBOW-THEATRE-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-RAINBOW-THEATRE-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800404-RAINBOW-THEATRE-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003759",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800405-WINTER-GARDENS-MALVERN",
+      "target_kind": "place",
+      "target_id": "PLACE-WINTER-GARDENS-MALVERN",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800405-WINTER-GARDENS-MALVERN"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003760",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800408-DERBY-HALL-BURY",
+      "target_kind": "place",
+      "target_id": "PLACE-DERBY-HALL-BURY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800408-DERBY-HALL-BURY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003761",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800411-RUSSELL-CLUB",
+      "target_kind": "place",
+      "target_id": "PLACE-RUSSELL-CLUB",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800411-RUSSELL-CLUB"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003762",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800419-AJANTA-THEATRE-DERBY",
+      "target_kind": "place",
+      "target_id": "PLACE-AJANTA-THEATRE-DERBY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800419-AJANTA-THEATRE-DERBY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003763",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800425-SCALA-CINEMA-LONDON",
+      "target_kind": "place",
+      "target_id": "PLACE-SCALA-CINEMA-LONDON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800425-SCALA-CINEMA-LONDON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003764",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800426-ROCK-GARDEN-MIDDLESBROUGH",
+      "target_kind": "place",
+      "target_id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800426-ROCK-GARDEN-MIDDLESBROUGH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003765",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800502-BIRMINGHAM-UNIVERSITY",
+      "target_kind": "place",
+      "target_id": "PLACE-BIRMINGHAM-UNIVERSITY",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800502-BIRMINGHAM-UNIVERSITY"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003766",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800503-ERICS-LIVERPOOL",
+      "target_kind": "place",
+      "target_id": "PLACE-ERICS-LIVERPOOL",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800503-ERICS-LIVERPOOL"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003767",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800508-ASTORIA-EDINBURGH",
+      "target_kind": "place",
+      "target_id": "PLACE-ASTORIA-EDINBURGH",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800508-ASTORIA-EDINBURGH"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003768",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800509-ALBERT-HALL-STIRLING",
+      "target_kind": "place",
+      "target_id": "PLACE-ALBERT-HALL-STIRLING",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800509-ALBERT-HALL-STIRLING"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003769",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800521-HURRAH-NEW-YORK",
+      "target_kind": "place",
+      "target_id": "PLACE-HURRAH-NEW-YORK",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800521-HURRAH-NEW-YORK"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003770",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800525-THE-EDGE-TORONTO",
+      "target_kind": "place",
+      "target_id": "PLACE-THE-EDGE-TORONTO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800525-THE-EDGE-TORONTO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003771",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800526-BOOKIES-DETROIT",
+      "target_kind": "place",
+      "target_id": "PLACE-BOOKIES-DETROIT",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800526-BOOKIES-DETROIT"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003772",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800527-TUTS-CHICAGO",
+      "target_kind": "place",
+      "target_id": "PLACE-TUTS-CHICAGO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800527-TUTS-CHICAGO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003773",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800528-MERLYNS-MADISON",
+      "target_kind": "place",
+      "target_id": "PLACE-MERLYNS-MADISON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800528-MERLYNS-MADISON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003774",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800529-DUFFYS-MINNEAPOLIS",
+      "target_kind": "place",
+      "target_id": "PLACE-DUFFYS-MINNEAPOLIS",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800529-DUFFYS-MINNEAPOLIS"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003775",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800530-THE-UNDERGROUND-BOSTON",
+      "target_kind": "place",
+      "target_id": "PLACE-THE-UNDERGROUND-BOSTON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800530-THE-UNDERGROUND-BOSTON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003776",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800531-9-30-CLUB-WASHINGTON",
+      "target_kind": "place",
+      "target_id": "PLACE-9-30-CLUB-WASHINGTON",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800531-9-30-CLUB-WASHINGTON"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003777",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800601-MACHINISTS-HALL-NEW-YORK",
+      "target_kind": "place",
+      "target_id": "PLACE-MACHINISTS-HALL-NEW-YORK",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800601-MACHINISTS-HALL-NEW-YORK"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003778",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800601-TIER-3-NEW-YORK",
+      "target_kind": "place",
+      "target_id": "PLACE-TIER-3-NEW-YORK",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800601-TIER-3-NEW-YORK"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003779",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+      "target_kind": "place",
+      "target_id": "PLACE-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003780",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800608-FLIPPERS-LOS-ANGELES",
+      "target_kind": "place",
+      "target_id": "PLACE-FLIPPERS-LOS-ANGELES",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800608-FLIPPERS-LOS-ANGELES"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
+    },
+    {
+      "edge_id": "EDGE-003781",
+      "source_kind": "concert",
+      "source_id": "CONCERT-19800609-STARWOOD-LOS-ANGELES",
+      "target_kind": "place",
+      "target_id": "PLACE-STARWOOD-LOS-ANGELES",
+      "relation_type": "located_at",
+      "evidence_refs": [
+        "CONCERT-19800609-STARWOOD-LOS-ANGELES"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/concerts.json"
     }
   ]
 }
