@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-02T09:44:06",
+  "generated_at": "2026-06-03T19:53:10",
   "summary": {
-    "records_total": 8437,
+    "records_total": 8634,
     "records_by_kind": {
-      "unknown": 1410,
+      "unknown": 1404,
       "source": 124,
       "metadata": 274,
       "atom": 2770,
@@ -12,17 +12,18 @@
       "motif": 427,
       "myth": 102,
       "chronology": 539,
-      "template": 340,
+      "template": 328,
       "concert": 388,
       "person": 509,
+      "place": 215,
       "quote_batch": 1,
       "rules": 1,
       "song": 110,
       "session": 17
     },
-    "diagnostics_total": 28876,
+    "diagnostics_total": 28870,
     "errors": 0,
-    "warnings": 28876,
+    "warnings": 28870,
     "sources_declared_in_registre_json": 97,
     "sources_used_in_records": 82,
     "sources_exported": 82,
@@ -39,14 +40,15 @@
     "motif": 427,
     "myth": 102,
     "person": 509,
+    "place": 215,
     "quote": 962,
     "quote_batch": 1,
     "rules": 1,
     "session": 17,
     "song": 110,
     "source": 124,
-    "template": 340,
-    "unknown": 1410
+    "template": 328,
+    "unknown": 1404
   },
   "records_by_source": {
     "REGISTRY": {
@@ -67,11 +69,13 @@
     "S06": {
       "metadata": 3,
       "atom": 13,
-      "unknown": 9
+      "unknown": 9,
+      "place": 2
     },
     "S07": {
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "place": 1
     },
     "S08": {
       "source": 1,
@@ -91,7 +95,8 @@
       "metadata": 3,
       "atom": 40,
       "chronology": 14,
-      "unknown": 16
+      "unknown": 16,
+      "place": 1
     },
     "S11": {
       "metadata": 5,
@@ -120,7 +125,8 @@
       "motif": 5,
       "person": 1,
       "unknown": 2,
-      "quote": 4
+      "quote": 4,
+      "place": 6
     },
     "S14": {
       "metadata": 5,
@@ -254,7 +260,8 @@
       "unknown": 77,
       "source": 2,
       "concept": 24,
-      "motif": 20
+      "motif": 20,
+      "place": 28
     },
     "S37": {
       "metadata": 14,
@@ -277,8 +284,9 @@
       "quote": 232,
       "chronology": 61,
       "person": 18,
+      "place": 34,
       "song": 7,
-      "unknown": 107
+      "unknown": 105
     },
     "S42": {
       "metadata": 6,
@@ -304,6 +312,7 @@
       "quote": 108,
       "chronology": 65,
       "person": 63,
+      "place": 6,
       "unknown": 13,
       "metadata": 1,
       "song": 5
@@ -593,6 +602,7 @@
       "atom": 75,
       "chronology": 54,
       "person": 51,
+      "place": 4,
       "quote": 21,
       "song": 33
     },
@@ -600,6 +610,7 @@
       "atom": 229,
       "chronology": 130,
       "person": 160,
+      "place": 25,
       "quote": 195,
       "source": 1
     },
@@ -664,10 +675,11 @@
     "S83": {
       "metadata": 4,
       "atom": 12,
-      "unknown": 22,
+      "unknown": 18,
       "person": 2,
       "quote": 7,
-      "chronology": 5
+      "chronology": 5,
+      "place": 4
     },
     "S84": {
       "metadata": 2,
@@ -757,19 +769,19 @@
     "7": 24,
     "8": 81,
     "9": 18,
-    "Chapitre 1": 529,
+    "Chapitre 1": 537,
     "Chapitre 10": 564,
-    "Chapitre 11": 604,
-    "Chapitre 12": 672,
-    "Chapitre 13": 374,
-    "Chapitre 14": 2082,
-    "Chapitre 2": 765,
-    "Chapitre 3": 695,
+    "Chapitre 11": 606,
+    "Chapitre 12": 673,
+    "Chapitre 13": 376,
+    "Chapitre 14": 2093,
+    "Chapitre 2": 769,
+    "Chapitre 3": 699,
     "Chapitre 4": 603,
     "Chapitre 5": 608,
     "Chapitre 6": 796,
     "Chapitre 7": 299,
-    "Chapitre 8": 590,
+    "Chapitre 8": 594,
     "Chapitre 9": 300,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -813,6 +825,10 @@
       62
     ],
     [
+      "registers/places/concert_venues_7abis.md",
+      62
+    ],
+    [
       "sources/johnson_morley_an_ideal_for_living/source.md",
       53
     ],
@@ -823,6 +839,10 @@
     [
       "registers/s78_nevarez_specialized_registers.md",
       51
+    ],
+    [
+      "registers/places/concert_venues_v2.md",
+      50
     ],
     [
       "sources/mike_west_joy_division/source_atomisation_03.md",
@@ -887,14 +907,6 @@
     [
       "sources/johnson_morley_an_ideal_for_living/source_suite_03.md",
       35
-    ],
-    [
-      "sources/johnson_morley_an_ideal_for_living/source_suite_05.md",
-      35
-    ],
-    [
-      "sources/johnson_morley_an_ideal_for_living/source_suite_06.md",
-      35
     ]
   ],
   "issue_categories": {
@@ -902,7 +914,7 @@
     "invalid_controlled_value": 2622,
     "missing_required_field": 8046,
     "schema_warning": 492,
-    "unknown_yaml_block": 1410,
+    "unknown_yaml_block": 1404,
     "v2_migration_debt": 15560
   },
   "top_files_by_issue_count": [
@@ -10704,38 +10716,6 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
       "file": "registers/s83_hannett_architecture_structuring_registers.md",
       "record_id": "REF-S83-001",
       "message": "Unable to infer documentary kind",
@@ -11385,14 +11365,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "record_id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
       "record_id": "LIVE-S41-STOCKS-WALKDEN-TALENT-CONTEST",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -11498,14 +11470,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
       "record_id": "BAND-S41-WARSAW-PAKT-NEEDLE-TIME",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
-      "record_id": "PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -12607,7 +12571,7 @@
         "auteur": "Isabelle Carter",
         "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
         "annee": "2021/2023",
-        "records": 25,
+        "records": 27,
         "atoms": 13,
         "quotes": 0,
         "chronology": 0,
@@ -12618,7 +12582,9 @@
           "registers/myths/s06_carter_myths_hulme_lived_discursive_space_v2.md",
           "registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md",
           "registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md",
+          "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
           "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
+          "registers/places/s20_dodge_places_housing_geographies_v2.md",
           "registers/references/s06_carter_hulme_source_canonique.md",
           "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
           "sources/carter_hulme_youth_race_inner_city/source.md",
@@ -12631,11 +12597,12 @@
         "auteur": "Friedrich Engels",
         "titre": "The Condition of the Working Class in England",
         "annee": "1845",
-        "records": 2,
+        "records": 3,
         "atoms": 0,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/places/s20_dodge_places_housing_geographies_v2.md",
           "sources/engels_condition_working_class_england/source.md"
         ]
       },
@@ -12678,7 +12645,7 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 73,
+        "records": 74,
         "atoms": 40,
         "quotes": 0,
         "chronology": 14,
@@ -12695,6 +12662,7 @@
           "registers/organizations/s10_sumner_organizations_late_jd_transition_memory_v2.md",
           "registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md",
           "registers/people/s10_sumner_people_salford_formation_sound_v2.md",
+          "registers/places/concert_venues_v2.md",
           "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
           "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
           "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
@@ -12758,7 +12726,7 @@
         "auteur": "Caterina Tomeo",
         "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
         "annee": "2021",
-        "records": 29,
+        "records": 35,
         "atoms": 11,
         "quotes": 4,
         "chronology": 0,
@@ -13051,7 +13019,7 @@
         "auteur": "Stephen Morris",
         "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
         "annee": "2019",
-        "records": 243,
+        "records": 271,
         "atoms": 90,
         "quotes": 0,
         "chronology": 0,
@@ -13188,7 +13156,7 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 855,
+        "records": 887,
         "atoms": 430,
         "quotes": 232,
         "chronology": 61,
@@ -13197,6 +13165,7 @@
           "registers/chronology/master_chronology.md",
           "registers/people/00_canonical_people.md",
           "registers/people/master_people.md",
+          "registers/places/concert_venues_v2.md",
           "registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md",
           "registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md",
@@ -13325,7 +13294,7 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 460,
+        "records": 466,
         "atoms": 205,
         "quotes": 108,
         "chronology": 65,
@@ -13344,6 +13313,7 @@
           "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
           "registers/people/s45_curtis_people_vote_conservateur.md",
           "registers/people/s76_torn_apart_people_part_02.md",
+          "registers/places/concert_venues_v2.md",
           "registers/quotes/s45_curtis_quotes_1976_1977.md",
           "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
           "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
@@ -13915,7 +13885,7 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 235,
+        "records": 239,
         "atoms": 75,
         "quotes": 21,
         "chronology": 54,
@@ -13929,6 +13899,7 @@
           "registers/people/s75_ott_people_part_02.md",
           "registers/people/s75_ott_people_part_03.md",
           "registers/people/s75_ott_people_part_04.md",
+          "registers/places/concert_venues_v2.md",
           "registers/quotes/s75_ott_quotes.md",
           "registers/quotes/s75_ott_quotes_part_03.md",
           "registers/quotes/s75_ott_quotes_part_04.md",
@@ -13949,7 +13920,7 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 715,
+        "records": 740,
         "atoms": 229,
         "quotes": 195,
         "chronology": 130,
@@ -13991,6 +13962,7 @@
           "registers/people/s76_torn_apart_people_part_15.md",
           "registers/people/s76_torn_apart_people_part_16.md",
           "registers/people/s76_torn_apart_people_part_17.md",
+          "registers/places/concert_venues_v2.md",
           "registers/quotes/s76_torn_apart_quotes_part_01.md",
           "registers/quotes/s76_torn_apart_quotes_part_02.md",
           "registers/quotes/s76_torn_apart_quotes_part_03.md",
@@ -228251,38 +228223,6 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "PLACE-S83-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "SONG-S83-001",
@@ -231485,14 +231425,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "record_id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
       "record_id": "LIVE-S41-STOCKS-WALKDEN-TALENT-CONTEST",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -231934,14 +231866,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
       "record_id": "BAND-S41-WARSAW-PAKT-NEEDLE-TIME",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
-      "record_id": "PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
