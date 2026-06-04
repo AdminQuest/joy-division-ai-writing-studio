@@ -786,7 +786,6 @@ PLACE_SCHEMA_SCALAR_FIELDS = {
     "type",
     "type_detail",
     "source_id",
-    "source_label",
     "usage",
     "usage_s02",
     "usage_s05",
@@ -810,7 +809,6 @@ PLACE_ALTERNATE_FIELD_NAMES = {
     "type": "alternate_types",
     "type_detail": "alternate_type_details",
     "source_id": "alternate_source_ids",
-    "source_label": "alternate_source_labels",
     "geo_precision": "alternate_geo_precisions",
     "pages_pdf": "alternate_pages_pdf",
     "pages_livre": "alternate_pages_livre",
@@ -937,6 +935,7 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
 
     handled = {
         "id", "label", "nom", "name", "sources", "source_id", "source_ids",
+        "source_label", "alternate_source_labels",
         "chapters", "chapitres", "aliases", "alternate_labels", "source_files", "usage",
         "lat", "lng", "geo_precision", "atoms", "song_ids", "reference_croisee",
         "same_as", "prudence", "prudence_methodologique",
