@@ -201,7 +201,19 @@ function detail(label, content) {
 
 function tags(values) {
   const arr = (values || []).filter(Boolean);
-  return arr.length ? '<div class="img-tags">' + arr.map(v => '<span class="img-tag">' + esc(v) + '</span>').join('') + '</div>' : '';
+  return arr.length ? '<div class="img-tags">' + arr.map(tag).join('') + '</div>' : '';
+}
+
+function isHttpUrl(value) {
+  return /^https?:\/\//i.test(String(value || ''));
+}
+
+function tag(value) {
+  const safe = esc(value);
+  if (isHttpUrl(value)) {
+    return '<a class="img-tag img-tag--link" href="' + safe + '" target="_blank" rel="noopener noreferrer">' + safe + '</a>';
+  }
+  return '<span class="img-tag">' + safe + '</span>';
 }
 
 function sessionCard(e) {
@@ -222,7 +234,7 @@ function sessionCard(e) {
     + '<h3 class="img-card__title">' + esc(e.name) + '</h3></div></div>'
     + '<div class="img-card__badges">'
     + '<span class="img-badge img-badge--' + esc(e.context) + '">' + esc(contextLabel(e.context)) + '</span>'
-    + '<span class="img-badge img-badge--precision">' + esc(e.date) + '</span>'
+    + (e.date ? '<span class="img-badge img-badge--precision">' + esc(e.date) + '</span>' : '')
     + (e.outputCount ? '<span class="img-badge img-badge--level">' + e.outputCount + ' cliches</span>' : '')
     + '</div>'
     + '<p class="img-card__line"><strong>Photographe :</strong> ' + esc(photographerName(e.photographer)) + '</p>'
@@ -252,7 +264,7 @@ function imageCard(e) {
     + '<h3 class="img-card__title">' + esc(e.name) + '</h3></div></div>'
     + '<div class="img-card__badges">'
     + '<span class="img-badge img-badge--' + esc(e.context) + '">' + esc(contextLabel(e.context)) + '</span>'
-    + '<span class="img-badge img-badge--precision">' + esc(e.date) + '</span>'
+    + (e.date ? '<span class="img-badge img-badge--precision">' + esc(e.date) + '</span>' : '')
     + (e.iconic ? '<span class="img-badge img-badge--iconic">Iconique</span>' : '')
     + '</div>'
     + '<p class="img-card__line"><strong>Photographe :</strong> ' + esc(photographerName(e.photographer)) + '</p>'
