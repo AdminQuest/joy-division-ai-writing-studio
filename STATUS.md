@@ -1,5 +1,5 @@
 # Status — Joy Division AI Writing Studio
-> Genere automatiquement le 2026-06-04 19:42 UTC — ne pas editer manuellement.
+> Genere automatiquement le 2026-06-04 19:54 UTC — ne pas editer manuellement.
 
 ## Registres
 
@@ -44,7 +44,8 @@ Step 12 — Cross-registres profond
 ## Metadata
 
 - Repo : joy-division-ai-writing-studio
-- Branche source du snapshot : docs/roadmap-strategique-v2
-- Commit source du snapshot : 6d77529e
+- Branche du snapshot : docs/roadmap-strategique-v2
+- Reference git observee avant generation : 46bb7ad9
 - Genere par : tools/generate_status.py
-- Note : le commit source est le HEAD utilise au moment de la generation ; le commit qui inclut STATUS.md est necessairement posterieur si le snapshot est committe.
+- Statut : snapshot genere avant commit ; le commit contenant ce fichier peut donc etre posterieur.
+- Note : cette reference designe l'etat lu par le generateur, non le commit final contenant STATUS.md.
