@@ -935,7 +935,8 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
 
     handled = {
         "id", "label", "nom", "name", "sources", "source_id", "source_ids",
-        "source_label", "alternate_source_labels",
+        "source_label", "alternate_source_labels", "source_short_title", "source_year",
+        "source_titre", "auteur", "titre",
         "chapters", "chapitres", "aliases", "alternate_labels", "source_files", "usage",
         "lat", "lng", "geo_precision", "atoms", "song_ids", "reference_croisee",
         "same_as", "prudence", "prudence_methodologique",
