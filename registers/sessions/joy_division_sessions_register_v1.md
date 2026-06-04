@@ -818,7 +818,7 @@ stabilisés.
   statut_documentaire: etabli
   relations:
     chronology:
-      - EVENT-SESSIONS-LOVE-WILL-TEAR-US-APART
+      - EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
     places:
       - PLACE-PENNINE-STUDIOS-OLDHAM
     people:
@@ -856,7 +856,7 @@ stabilisés.
   statut_documentaire: etabli
   relations:
     chronology:
-      - EVENT-SESSIONS-LOVE-WILL-TEAR-US-APART
+      - EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
     places:
       - PLACE-STRAWBERRY-STUDIOS
     people:
