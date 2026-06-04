@@ -1,6 +1,6 @@
 /* Registre des lieux — logique d'affichage.
    Groupage par type primaire, facettes croisées, "Voir plus" accessible,
-   pictos SVG par famille. Data inchangée (lecture via DynamicRegisters). */
+   pictos SVG par famille. Lecture des lieux via exports générés canoniques. */
 
 const searchInput = document.getElementById('search');
 const typeFilter = document.getElementById('type-filter');
@@ -15,6 +15,10 @@ const sectionsEl = document.getElementById('places-sections');
 
 let items = [];
 let sourceLabels = {};
+let concertsById = new Map();
+let concertsByPlace = new Map();
+let indexById = {};
+let focusMapPlaceId = '';
 
 const T = v => DynamicRegisters.text(v);
 const A = v => DynamicRegisters.array(v);
@@ -38,13 +42,145 @@ const resolveUsage = place => {
 const esc = s => T(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 const USAGE_MAX = 120;
+const MONTH_FR = ['', 'janv.', 'févr.', 'mars', 'avril', 'mai', 'juin', 'juill.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
+
+function generatedUrl(file) {
+  return new URL('../../exports/generated/' + file, window.location.href);
+}
+
+async function loadGeneratedJSON(file) {
+  const response = await fetch(generatedUrl(file), { cache: 'no-store' });
+  if (!response.ok) throw new Error('Export statique ' + file + ' ' + response.status);
+  return response.json();
+}
 
 async function loadItems() {
-  sourceLabels = await DynamicRegisters.sourceLabels();
-  items = await DynamicRegisters.loadRecords({ prefixes: ['registers/places/', 'registers/'], kinds: ['place'] });
+  const [labels, placeRecords, concertRecords, edgePayload, index] = await Promise.all([
+    DynamicRegisters.sourceLabels(),
+    loadGeneratedJSON('places.json'),
+    loadGeneratedJSON('concerts.json'),
+    loadGeneratedJSON('edges.json'),
+    loadGeneratedJSON('index_by_id.json')
+  ]);
+  sourceLabels = labels;
+  items = Array.isArray(placeRecords) ? placeRecords.filter(r => r && r.kind === 'place') : [];
+  concertsById = new Map((Array.isArray(concertRecords) ? concertRecords : [])
+    .filter(r => r && r.kind === 'concert' && /^CONCERT-/.test(T(r.id)))
+    .map(r => [T(r.id), r]));
+  indexById = index || {};
+  buildConcertPlaceIndex(Array.isArray(edgePayload && edgePayload.edges) ? edgePayload.edges : []);
   statusEl.style.display = 'none';
   refreshFacets();
   render();
+  const requested = requestedMapPlaceId();
+  if (requested) {
+    focusMapPlaceId = requested;
+    setView(true);
+  } else {
+    scrollToHashTarget();
+  }
+}
+
+const isoDate = value => {
+  if (value && Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value)) {
+    const p = n => String(n).padStart(2, '0');
+    return `${value.getUTCFullYear()}-${p(value.getUTCMonth() + 1)}-${p(value.getUTCDate())}`;
+  }
+  return T(value);
+};
+const startDate = d => isoDate(d.date != null ? d.date : d.date_debut);
+const endDate = d => isoDate(d.date_fin);
+const sortKey = d => startDate(d) || endDate(d);
+
+function humanDate(iso) {
+  const s = T(iso);
+  let m;
+  if ((m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s))) return `${+m[3]} ${MONTH_FR[+m[2]]} ${m[1]}`;
+  if ((m = /^(\d{4})-(\d{2})/.exec(s))) return `${MONTH_FR[+m[2]]} ${m[1]}`;
+  if ((m = /^(\d{4})/.exec(s))) return m[1];
+  return s || 'date non renseignée';
+}
+
+function cleanConcertLabel(record) {
+  const d = record && (record.data || {});
+  return T(d.label)
+    || T(record && record.heading).replace(/^\s*(?:CONCERT|JD-CONCERT)-[A-Za-z0-9-]+\s*[—:–-]\s*/, '').trim()
+    || T(d.notes)
+    || T(record && record.id)
+    || 'Concert sans intitulé';
+}
+
+function concertStatusLabel(record) {
+  const raw = T(record && record.data && record.data.statut).toLowerCase().trim();
+  if (raw === 'annulé') return 'annulé';
+  if (/pr[eé]vu|planned|programme/.test(raw)) return 'prévu';
+  return 'joué';
+}
+
+function concertStatusClass(record) {
+  const label = concertStatusLabel(record);
+  if (label === 'annulé') return 'cancelled';
+  if (label === 'prévu') return 'planned';
+  return 'played';
+}
+
+function cityFromPlace(place) {
+  const d = (place && place.data) || {};
+  const direct = T(d.ville || d.city || d.locality).trim();
+  if (direct) return direct;
+  const label = T(labelOf(d));
+  const parts = label.split(',').map(part => part.trim()).filter(Boolean);
+  return parts.length > 1 ? parts[parts.length - 1] : '';
+}
+
+function cityForConcert(concert, place) {
+  const d = (concert && concert.data) || {};
+  return T(d.ville || d.city).trim() || cityFromPlace(place);
+}
+
+function placeAnchor(id) {
+  return 'place-' + encodeURIComponent(T(id));
+}
+
+function concertHref(id) {
+  return '../concerts-register/#concert-' + encodeURIComponent(T(id));
+}
+
+function mapHref(id) {
+  return '?map=' + encodeURIComponent(T(id)) + '#place-' + encodeURIComponent(T(id));
+}
+
+function requestedMapPlaceId() {
+  try {
+    return T(new URLSearchParams(window.location.search).get('map')).trim();
+  } catch (_) {
+    return '';
+  }
+}
+
+function scrollToHashTarget() {
+  const raw = T(window.location.hash).replace(/^#/, '');
+  if (!raw) return;
+  const target = document.getElementById(raw);
+  if (target) setTimeout(() => target.scrollIntoView({ block: 'start' }), 0);
+}
+
+function buildConcertPlaceIndex(edges) {
+  concertsByPlace = new Map();
+  edges.forEach(edge => {
+    if (edge.relation_type !== 'located_at') return;
+    if (edge.source_kind !== 'concert' || edge.target_kind !== 'place') return;
+    const place = indexById[T(edge.target_id)];
+    if (!place || place.kind !== 'place') return;
+    const concert = concertsById.get(T(edge.source_id));
+    if (!concert) return;
+    const pid = T(edge.target_id);
+    if (!concertsByPlace.has(pid)) concertsByPlace.set(pid, []);
+    concertsByPlace.get(pid).push(concert);
+  });
+  concertsByPlace.forEach(list => {
+    list.sort((a, b) => sortKey(a.data || {}).localeCompare(sortKey(b.data || {}), undefined, { numeric: true }));
+  });
 }
 
 /* ── Filtres / facettes ─────────────────────────────────── */
@@ -59,8 +195,10 @@ function currentFilters() {
 }
 function haystack(item) {
   const d = item.data || {};
+  const related = concertsByPlace.get(T(item.id)) || [];
   return [item.id, labelOf(d), typeOf(d), detailOf(d), resolveUsage(d), d.prudence,
-    ...sourceIds(item), ...sourceIds(item).map(sourceLabel), ...chaptersOf(d), item.file]
+    ...sourceIds(item), ...sourceIds(item).map(sourceLabel), ...chaptersOf(d), item.file,
+    ...related.flatMap(concert => [concert.id, cleanConcertLabel(concert), startDate(concert.data || {}), concertStatusLabel(concert)])]
     .map(T).join(' ').toLowerCase();
 }
 function matches(item, f, except) {
@@ -112,6 +250,36 @@ function refreshFacets() {
 function sourceBadges(item) {
   return sourceIds(item).map(v => '<span class="place-badge">' + esc(sourceLabel(v)) + '</span>').join('');
 }
+
+function mapLinkHtml(item) {
+  if (!coords(item.data || {})) return '';
+  return '<a class="place-card__link place-card__link--map" href="' + esc(mapHref(item.id)) + '" data-map-place="' + esc(item.id) + '">Voir sur la carte</a>';
+}
+
+function relatedConcertsHtml(item) {
+  const related = concertsByPlace.get(T(item.id)) || [];
+  if (!related.length) return '';
+  const rows = related.map(concert => {
+    const d = concert.data || {};
+    const dateText = endDate(d)
+      ? humanDate(startDate(d)) + ' → ' + humanDate(endDate(d))
+      : humanDate(startDate(d));
+    const city = cityForConcert(concert, item);
+    return '<li class="place-concert">'
+      + '<time class="place-concert__date">' + esc(dateText) + '</time>'
+      + '<a class="place-concert__title" href="' + esc(concertHref(concert.id)) + '">' + esc(cleanConcertLabel(concert)) + '</a>'
+      + '<span class="place-concert__meta">'
+        + (city ? esc(city) + ' · ' : '')
+        + '<span class="place-concert__status place-concert__status--' + esc(concertStatusClass(concert)) + '">' + esc(concertStatusLabel(concert)) + '</span>'
+      + '</span>'
+    + '</li>';
+  }).join('');
+  return '<section class="place-card__concerts" aria-label="Concerts associés">'
+    + '<h4 class="place-card__subhead">Concerts associés <span>' + related.length + '</span></h4>'
+    + '<ul class="place-concerts-list">' + rows + '</ul>'
+  + '</section>';
+}
+
 function card(item) {
   const d = item.data || {};
   const type = typeOf(d);
@@ -127,11 +295,14 @@ function card(item) {
       usageHtml = '<p class="place-card__usage">' + esc(usage) + '</p>';
     }
   }
-  return '<article class="place-card">'
+  const actionHtml = mapLinkHtml(item);
+  return '<article class="place-card" id="' + esc(placeAnchor(item.id)) + '">'
     + '<div class="place-card__header">' + PlaceIcons.svg(type)
       + '<div class="place-card__heading"><h3 class="place-card__title">' + esc(labelOf(d)) + '</h3>'
       + (detail ? '<p class="place-card__subtitle">' + esc(detail) + '</p>' : '') + '</div></div>'
+    + (actionHtml ? '<div class="place-card__actions">' + actionHtml + '</div>' : '')
     + usageHtml
+    + relatedConcertsHtml(item)
     + '<div class="place-badges">' + sourceBadges(item) + '</div>'
     + '<div class="place-card__file"><code>' + esc(item.file) + '</code></div>'
     + '</article>';
@@ -187,6 +358,7 @@ let markerLayer = null;   // venues précises (punaises ponctuelles)
 let zoneLayer = null;     // entités grossières (cercles, étendues — non ponctuelles)
 let mapView = false;
 let zonesEnabled = true;
+let mapObjectsByPlace = new Map();
 
 // Seuil « grossier » UNIQUE (miroir de COARSE_PRECISIONS dans validate_places.py) :
 // ces granularités sont des ZONES (étendues), rendues en cercles translucides et
@@ -250,6 +422,7 @@ function updateMap(filtered) {
   if (!mapView || !ensureMap()) return;
   markerLayer.clearLayers();
   zoneLayer.clearLayers();
+  mapObjectsByPlace = new Map();
   const geoloc = filtered.filter(i => coords(i.data || {}));
   let nbVenue = 0, nbZone = 0;
   const pts = [];          // pour le recadrage : venues + zones visibles
@@ -257,13 +430,15 @@ function updateMap(filtered) {
     const d = item.data || {};
     const ll = coords(d);
     if (isCoarse(d)) {
-      zoneCircle(item, ll).addTo(zoneLayer);
+      const layer = zoneCircle(item, ll).addTo(zoneLayer);
+      mapObjectsByPlace.set(T(item.id), { layer, ll, zone: true });
       nbZone++;
       if (zonesEnabled) pts.push(ll);
     } else {
-      L.marker(ll, { icon: markerIcon(typeOf(d)), title: labelOf(d) })
+      const layer = L.marker(ll, { icon: markerIcon(typeOf(d)), title: labelOf(d) })
         .bindPopup(popupHtml(item))
         .addTo(markerLayer);
+      mapObjectsByPlace.set(T(item.id), { layer, ll, zone: false });
       nbVenue++;
       pts.push(ll);
     }
@@ -274,7 +449,16 @@ function updateMap(filtered) {
     + ' ville/région (étendues' + (zonesEnabled ? '' : ', masquées') + '), sur ' + total
     + ' lieux filtrés. Coordonnées WGS84 curées, recoupées Wikidata P625 ; fond OpenStreetMap.';
   if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
+  focusPlaceOnMap();
   map.invalidateSize();
+}
+
+function focusPlaceOnMap() {
+  if (!focusMapPlaceId || !map) return;
+  const target = mapObjectsByPlace.get(focusMapPlaceId);
+  if (!target) return;
+  map.setView(target.ll, target.zone ? 11 : 16);
+  if (target.layer && target.layer.openPopup) target.layer.openPopup();
 }
 
 function setZones(on) {
@@ -303,6 +487,14 @@ viewMapBtn.addEventListener('click', () => setView(true));
 
 /* ── "Voir plus" (délégation, accessible clavier via <button>) ── */
 sectionsEl.addEventListener('click', e => {
+  const mapLink = e.target.closest('[data-map-place]');
+  if (mapLink) {
+    e.preventDefault();
+    focusMapPlaceId = mapLink.getAttribute('data-map-place');
+    history.replaceState(null, '', mapLink.getAttribute('href'));
+    setView(true);
+    return;
+  }
   const btn = e.target.closest('.place-card__more');
   if (!btn) return;
   const p = btn.closest('.place-card__usage');
