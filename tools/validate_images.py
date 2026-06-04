@@ -31,12 +31,14 @@ SCHEMA_JSON = ROOT / "schemas" / "image_canonical.schema.json"
 
 CURRENT_DRIFT_VERSION = "v1.0"
 
-VALID_LEVELS = {"session", "image"}
+VALID_LEVELS = {"session", "image", "image_reference"}
 VALID_CONTEXTS = {"promo", "live", "portrait", "artwork", "rehearsal", "other"}
-VALID_PRECISIONS = {"day", "month", "year", "approximate"}
+VALID_PRECISIONS = {"day", "month", "year", "approximate", "unknown"}
 VALID_GATES = {"public", "private"}
+VALID_STATUSES = {"canonical", "reference_only"}
+VALID_RIGHTS_STATUSES = {"known", "unknown", "restricted"}
 
-IMAGE_ID_RE = re.compile(r"^IMAGE-(S|I)-[0-9]{4}$")
+IMAGE_ID_RE = re.compile(r"^(IMAGE-(S|I)-[0-9]{4}|IMAGE-FB-[0-9]+)$")
 SESSION_ID_RE = re.compile(r"^IMAGE-S-[0-9]{4}$")
 PERSON_RE = re.compile(r"^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$")
 DATE_DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -64,7 +66,7 @@ def validate_entry(entry: dict, idx: int, session_ids: set[str]) -> list[str]:
             errors.append(f"[INV1] {iid}: missing required field '{field}'")
 
     if "image_id" in entry and not IMAGE_ID_RE.match(str(entry["image_id"])):
-        errors.append(f"[INV1] {iid}: image_id does not match IMAGE-(S|I)-NNNN pattern")
+        errors.append(f"[INV1] {iid}: image_id does not match IMAGE-(S|I)-NNNN or IMAGE-FB-NNNN pattern")
 
     level = entry.get("level")
     if level and level not in VALID_LEVELS:
@@ -84,6 +86,24 @@ def validate_entry(entry: dict, idx: int, session_ids: set[str]) -> list[str]:
     gate = entry.get("gate")
     if gate and gate not in VALID_GATES:
         errors.append(f"[INV6] {iid}: invalid gate '{gate}'")
+
+    status = entry.get("status")
+    if status and status not in VALID_STATUSES:
+        errors.append(f"[INV1] {iid}: invalid status '{status}'")
+
+    rights_status = entry.get("rights_status")
+    if rights_status and rights_status not in VALID_RIGHTS_STATUSES:
+        errors.append(f"[INV1] {iid}: invalid rights_status '{rights_status}'")
+
+    if level == "image_reference":
+        if not str(entry.get("image_id", "")).startswith("IMAGE-FB-"):
+            errors.append(f"[INV1] {iid}: level='image_reference' expects an IMAGE-FB-* identifier")
+        if entry.get("status") != "reference_only":
+            errors.append(f"[INV1] {iid}: level='image_reference' expects status='reference_only'")
+        if not entry.get("source_url"):
+            errors.append(f"[INV1] {iid}: level='image_reference' expects source_url")
+        if entry.get("local_file") is not None:
+            errors.append(f"[INV1] {iid}: level='image_reference' must not define a local_file")
 
     # INV2 -- session_ref validity
     if level == "image":
@@ -197,13 +217,14 @@ def main(argv=None) -> int:
     # Report
     sessions = [e for e in records if e.get("level") == "session"]
     images = [e for e in records if e.get("level") == "image"]
+    references = [e for e in records if e.get("level") == "image_reference"]
     gates = {"public": 0, "private": 0}
     for entry in records:
         g = entry.get("gate", "unknown")
         if g in gates:
             gates[g] += 1
 
-    print(f"IMAGE- canoniques : {len(records)} ({len(sessions)} sessions, {len(images)} images)")
+    print(f"IMAGE- canoniques : {len(records)} ({len(sessions)} sessions, {len(images)} images, {len(references)} references)")
     print(f"  gates      : {gates}")
     print(f"  errors     : {len(errors)}")
     print(f"  warnings   : {len(warnings)}")
