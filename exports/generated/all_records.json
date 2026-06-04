@@ -243153,7 +243153,9 @@
       "lng": 6.57011,
       "geo_precision": "exacte",
       "prudence_methodologique": "Oosterstraat 44, Groningen ; salle existante. Source: visitgroningen.nl",
-      "reference_croisee": "wikidata:Q17389445"
+      "reference_croisee": [
+        "wikidata:Q17389445"
+      ]
     }
   },
   {
@@ -243194,7 +243196,9 @@
       "lng": -2.598,
       "geo_precision": "exacte",
       "prudence_methodologique": "renommee Bristol Beacon. Source: historicengland.org.uk",
-      "reference_croisee": "wikidata:Q5149374"
+      "reference_croisee": [
+        "wikidata:Q5149374"
+      ]
     }
   },
   {
@@ -243235,7 +243239,9 @@
       "lng": 5.86025,
       "geo_precision": "exacte",
       "prudence_methodologique": "emplacement d'epoque, Groenewoudseweg 322 ; demenage en 2014. Source: podiuminfo.nl",
-      "reference_croisee": "wikidata:Q2180529"
+      "reference_croisee": [
+        "wikidata:Q2180529"
+      ]
     }
   },
   {
@@ -243292,7 +243298,9 @@
       "lng": 13.30834,
       "geo_precision": "exacte",
       "prudence_methodologique": "Kantstrasse 54, 10627 Berlin ; salle existante. Source: yorck.de",
-      "reference_croisee": "wikidata:Q42297621"
+      "reference_croisee": [
+        "wikidata:Q42297621"
+      ]
     }
   },
   {
@@ -244353,10 +244361,7 @@
       "id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
       "label": "Salford Technical College",
       "type": "education",
-      "type_detail": [
-        "college_technique",
-        "lieu_historique_rencontre"
-      ],
+      "type_detail": "college_technique",
       "sources": [
         "S41",
         "S76",
@@ -244366,6 +244371,26 @@
       "prudence_methodologique": "Canonique sémantique de l'institution technique de Salford. Réconciliation (étape 7b-1) : PLACE-S83-004 (« Salford Technical School », facette S83 / rencontre Hannett 1977) porte désormais same_as vers ce canonique ; la mention joydiv « Salford College of Technology » désigne le même établissement. Variance de nom (School / College) conservée, statut S83 a_verifier inchangé. | Réconcilié (étape 7b-1) vers le canonique sémantique PLACE-SALFORD-TECHNICAL-COLLEGE : même institution d'enseignement technique de Salford où Warsaw joue en octobre 1977 (joydiv : « Salford College of Technology ») et où Hannett rencontre le groupe en 1977. Variance de nom conservée (« School » côté S83 / « College » côté venue), statut a_verifier inchangé.",
       "alternate_labels": [
         "Salford Technical School"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S41",
+          "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+          "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+          "source_year": "2012"
+        },
+        {
+          "source_id": "S76",
+          "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+          "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+          "source_year": "2006"
+        },
+        {
+          "source_id": "S83",
+          "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+          "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+          "source_year": "2018"
+        }
       ],
       "chapters": [
         "Chapitre 1",
@@ -244380,10 +244405,10 @@
       ],
       "pages_livre": "155, 169",
       "pages_pdf": "186, 201",
-      "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
-      "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
-      "source_year": "2018",
-      "statut": "a_verifier — note 1 du chapitre, via Reynolds 2008"
+      "statut": "a_verifier — note 1 du chapitre, via Reynolds 2008",
+      "alternate_type_details": [
+        "lieu_historique_rencontre"
+      ]
     }
   },
   {
@@ -244405,7 +244430,9 @@
       "lng": -2.98753,
       "geo_precision": "exacte",
       "prudence_methodologique": "Mathew Street, Liverpool L2 ; club ferme 1980. Source: en.wikipedia.org/wiki/Eric%27s_Club",
-      "reference_croisee": "wikidata:Q5388790"
+      "reference_croisee": [
+        "wikidata:Q5388790"
+      ]
     }
   },
   {
@@ -244870,7 +244897,9 @@
       "lng": -0.10348,
       "geo_precision": "exacte",
       "prudence_methodologique": "207 Upper Street, Islington N1 1RL ; premiere apparition londonienne JD 27 dec 1978. Source: hopeandanchor.info",
-      "reference_croisee": "wikidata:Q15225054"
+      "reference_croisee": [
+        "wikidata:Q15225054"
+      ]
     }
   },
   {
@@ -245055,7 +245084,9 @@
       "lng": -2.23066,
       "geo_precision": "exacte",
       "prudence_methodologique": "Piccadilly Plaza M1 ; Ian Curtis travaillait pour Manpower Services Commission. Source: en.wikipedia.org/wiki/Piccadilly_Plaza",
-      "reference_croisee": "wikidata:Q7194615"
+      "reference_croisee": [
+        "wikidata:Q7194615"
+      ]
     }
   },
   {
@@ -245096,7 +245127,9 @@
       "lng": -0.19149,
       "geo_precision": "exacte",
       "prudence_methodologique": "Delaware Road, London W9 ; sessions John Peel Joy Division. Source: en.wikipedia.org/wiki/Maida_Vale_Studios",
-      "reference_croisee": "wikidata:Q1807293"
+      "reference_croisee": [
+        "wikidata:Q1807293"
+      ]
     }
   },
   {
@@ -245117,7 +245150,9 @@
       "lng": 8.95058,
       "geo_precision": "exacte",
       "prudence_methodologique": "Piazzale Resasco, Genova ; source iconographique pochettes Closer et Love Will Tear Us Apart. Source: staglieno.comune.genova.it",
-      "reference_croisee": "findagrave:1980114"
+      "reference_croisee": [
+        "findagrave:1980114"
+      ]
     }
   },
   {
@@ -245144,22 +245179,30 @@
       "id": "PLACE-MANCHESTER",
       "label": "Manchester",
       "type": "ville",
-      "type_detail": [
-        "ville",
-        "municipalite"
-      ],
+      "type_detail": "ville",
       "sources": [
         "S13",
         "S35",
         "S02-A003"
       ],
       "usage": "Selon S13 : ville post-industrielle, scène punk/post-punk/rave, matrice critique du passage. | Selon S35 : Horizon d’événement, de concerts et de sortie de Macclesfield. | Selon S02 : Échelle municipale à distinguer de Greater Manchester et de l'aire urbaine.",
-      "_legacy_format": [
-        "s13-lieux",
-        "s35-lieux-role"
-      ],
+      "_legacy_format": "s13-lieux",
       "alternate_labels": [
         "City of Manchester"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S13",
+          "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
+          "source_short_title": "Caterina Tomeo, Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era, 2021",
+          "source_year": "2021"
+        },
+        {
+          "source_id": "S35",
+          "source_label": "S35 — Morris, Record Play Pause, 2019",
+          "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+          "source_year": "2019"
+        }
       ],
       "aliases": [
         "PLACE-MANCHESTER-CITY"
@@ -245177,8 +245220,16 @@
         "S35-A042",
         "S35-A043"
       ],
-      "reference_croisee": "wikidata:Q18125",
-      "prudence": "Ne pas lui attribuer mécaniquement les données de la conurbation ou de la région urbaine."
+      "reference_croisee": [
+        "wikidata:Q18125"
+      ],
+      "prudence": "Ne pas lui attribuer mécaniquement les données de la conurbation ou de la région urbaine.",
+      "alternate_legacy_formats": [
+        "s35-lieux-role"
+      ],
+      "alternate_type_details": [
+        "municipalite"
+      ]
     }
   },
   {
@@ -245218,10 +245269,7 @@
       "id": "PLACE-HULME",
       "label": "Hulme",
       "type": "quartier",
-      "type_detail": [
-        "quartier_inner_city",
-        "quartier"
-      ],
+      "type_detail": "quartier_inner_city",
       "sources": [
         "S20-A008",
         "S20-A010",
@@ -245233,6 +245281,14 @@
       ],
       "usage": "Selon S20 : Quartier central dans les politiques de dédensification, clearance et urban renewal. | Selon S06 : Quartier analysé comme inner-city estate, espace vécu et espace discursif. | Selon S02 : Quartier emblématique des expérimentations urbaines, des limites du logement moderniste et des politiques de renouvellement.",
       "prudence": "Croiser S20 avec S06 pour l'expérience vécue de Hulme. | Ne pas réduire Hulme à un décor de ruine moderniste. | Croiser S02 avec S06 et les sources spécialisées sur Hulme.",
+      "source_refs": [
+        {
+          "source_id": "S06",
+          "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+          "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023",
+          "source_year": "2021/2023"
+        }
+      ],
       "source_files": [
         "registers/places/s20_dodge_places_housing_geographies_v2.md",
         "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
@@ -245241,7 +245297,12 @@
       "lat": 53.464,
       "lng": -2.247,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q3051137",
+      "reference_croisee": [
+        "wikidata:Q3051137"
+      ],
+      "alternate_type_details": [
+        "quartier"
+      ],
       "usage_s06": "Quartier analysé comme inner-city estate, espace vécu et espace discursif."
     }
   },
@@ -245359,7 +245420,9 @@
       "lat": 53.4668,
       "lng": -2.2339,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q230899",
+      "reference_croisee": [
+        "wikidata:Q230899"
+      ],
       "label": "University of Manchester",
       "type": "education",
       "type_detail": "universite",
@@ -245461,10 +245524,7 @@
       "prudence_methodologique": "Ensemble démoli (1991-1995) ; coordonnée du secteur, non d'un bâtiment.",
       "label": "Hulme Crescents",
       "type": "habitat",
-      "type_detail": [
-        "estate_moderniste",
-        "cité_habitation_post_guerre"
-      ],
+      "type_detail": "estate_moderniste",
       "sources": [
         "S06-A002",
         "S06-A005",
@@ -245472,6 +245532,14 @@
       ],
       "usage_s06": "Ensemble de logements multi-storey et deck-access associé à démolition, stigmate et redevelopment.",
       "prudence": "Distinguer forme bâtie, discours médiatique et vécu des habitants.",
+      "source_refs": [
+        {
+          "source_id": "S83",
+          "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+          "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+          "source_year": "2018"
+        }
+      ],
       "chapters": [
         "Chapitre 1"
       ],
@@ -245485,10 +245553,10 @@
       "usage": "Ensemble de logements multi-storey et deck-access associé à démolition, stigmate et redevelopment.",
       "pages_livre": "159–161",
       "pages_pdf": "190–192",
-      "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
-      "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
-      "source_year": "2018",
-      "statut": "verifie"
+      "statut": "verifie",
+      "alternate_type_details": [
+        "cité_habitation_post_guerre"
+      ]
     }
   },
   {
@@ -245574,7 +245642,9 @@
       "lat": 51.5392,
       "lng": -0.0972,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q4970934",
+      "reference_croisee": [
+        "wikidata:Q4970934"
+      ],
       "label": "Britannia Row Studios",
       "type": "studio",
       "type_detail": "studio",
@@ -245748,7 +245818,9 @@
       "lat": 53.4843,
       "lng": -2.25238,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q5604052",
+      "reference_croisee": [
+        "wikidata:Q5604052"
+      ],
       "prudence_methodologique": "Quartier historique de Salford au bord de l'Irwell ; tours de relogement en grande partie démolies depuis. Coordonnée = centroïde de l'aire Greengate (Wikidata P625 Q5604052).",
       "label": "Greengate",
       "type": "habitat",
@@ -245818,6 +245890,14 @@
       ],
       "usage": "Selon S13 : seuil punk de 1976, mentionné comme origine de la séquence culturelle mancunienne. | Selon S10 : Lieu du concert des Sex Pistols du 4 juin 1976, décisif mais non miraculeux selon Sumner.",
       "_legacy_format": "s13-lieux",
+      "source_refs": [
+        {
+          "source_id": "S13",
+          "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
+          "source_short_title": "Caterina Tomeo, Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era, 2021",
+          "source_year": "2021"
+        }
+      ],
       "source_files": [
         "registers/specialized/s13_tomeo_interzone_rave_era.md",
         "registers/places/s10_sumner_places_salford_formation_sound_v2.md"
@@ -245922,10 +246002,7 @@
       "prudence_methodologique": "Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.",
       "label": "TJ Davidson's",
       "type": "studio",
-      "type_detail": [
-        "lieu_repetition",
-        "studio_espace_industriel"
-      ],
+      "type_detail": "lieu_repetition",
       "sources": [
         "S10-A016",
         "S10-A017",
@@ -245936,6 +246013,20 @@
       "alternate_labels": [
         "Little Peter Street — T.J. Davidson's studio",
         "T. J. Davidson’s, Little Peter Street"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S83",
+          "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+          "source_short_title": "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
+          "source_year": "2018"
+        },
+        {
+          "source_id": "S41",
+          "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+          "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+          "source_year": "2012"
+        }
       ],
       "chapters": [
         "Chapitre 1",
@@ -245953,24 +246044,19 @@
         "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md"
       ],
       "usage": "Selon S10 : Lieu de répétition central, proche du futur Haçienda, associé à Gretton et aux photographies de Curtis. | Selon S41 : Lieu central de répétition, de cristallisation sonore, de photographies célèbres et de tournage de la vidéo de « Love Will Tear Us Apart ».",
-      "atoms": "S41-A053",
-      "song_ids": "JD-SONG-035",
+      "atoms": [
+        "S41-A053"
+      ],
+      "song_ids": [
+        "JD-SONG-035"
+      ],
       "prudence": "Ne pas fétichiser le lieu comme cause autonome du son ; il agit comme environnement matériel et mémoriel.\n",
       "pages_livre": "162",
       "pages_pdf": "193",
-      "source_label": [
-        "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
-        "S41 — Hook, Unknown Pleasures, 2012"
-      ],
-      "source_short_title": [
-        "John S. Greenwood, Paul Tarpey, Manchester, Martin Hannett and Joy Division's Pungent Architecture, 2018",
-        "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012"
-      ],
-      "source_year": [
-        "2018",
-        "2012"
-      ],
-      "statut": "verifie"
+      "statut": "verifie",
+      "alternate_type_details": [
+        "studio_espace_industriel"
+      ]
     }
   },
   {
@@ -246022,7 +246108,9 @@
       "lat": 53.4084,
       "lng": -2.157,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q7622496",
+      "reference_croisee": [
+        "wikidata:Q7622496"
+      ],
       "prudence_methodologique": "Studio fermé en 1993 ; bâtiment conservé (Stockport).",
       "label": "Strawberry Studios",
       "type": "studio",
@@ -246045,7 +246133,9 @@
       "lat": 51.89382,
       "lng": -0.4753,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q101277612",
+      "reference_croisee": [
+        "wikidata:Q101277612"
+      ],
       "label": "Hôpital de Luton",
       "type": "sante",
       "type_detail": "hopital",
@@ -246081,7 +246171,9 @@
       "lat": 53.4731,
       "lng": -2.2419,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q10567938",
+      "reference_croisee": [
+        "wikidata:Q10567938"
+      ],
       "prudence_methodologique": "Quartier ouvrier irlandais disparu, démoli au XIXe siècle. Coordonnée = centroïde de la zone historique au confluent Medlock/Oxford Road (Wikidata P625 Q10567938).",
       "label": "Little Ireland",
       "type": "quartier",
@@ -246139,7 +246231,9 @@
       "lat": 53.434,
       "lng": -2.279,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q5105186",
+      "reference_croisee": [
+        "wikidata:Q5105186"
+      ],
       "label": "Chorltonville",
       "type": "habitat",
       "type_detail": "garden_suburb",
@@ -246159,7 +246253,9 @@
       "lat": 53.392,
       "lng": -2.264,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q3570246",
+      "reference_croisee": [
+        "wikidata:Q3570246"
+      ],
       "label": "Wythenshawe",
       "type": "ville",
       "type_detail": "ville_satellite",
@@ -246181,7 +246277,9 @@
       "lat": 53.444,
       "lng": -2.043,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q3128340",
+      "reference_croisee": [
+        "wikidata:Q3128340"
+      ],
       "label": "Hattersley",
       "type": "habitat",
       "type_detail": "overspill_estate",
@@ -246201,7 +246299,9 @@
       "lat": 53.4743,
       "lng": -2.20266,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q4897126",
+      "reference_croisee": [
+        "wikidata:Q4897126"
+      ],
       "label": "Beswick",
       "type": "quartier",
       "type_detail": "quartier_inner_city",
@@ -246222,7 +246322,9 @@
       "lat": 53.4743,
       "lng": -2.2007,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q4897126",
+      "reference_croisee": [
+        "wikidata:Q4897126"
+      ],
       "prudence_methodologique": "Wellington Street Estate (Fort Beswick). Source : https://personalpages.manchester.ac.uk/staff/m.dodge/Fort-Beswick-Been-Gone-and-Forgotten.pdf. Coordonnée du secteur Beswick, pas du bloc précis.",
       "label": "Fort Beswick",
       "type": "habitat",
@@ -246304,9 +246406,14 @@
         "S35-A035",
         "S35-A042"
       ],
-      "_legacy_format": [
-        "s35-lieux-fonction",
-        "s35-lieux-role"
+      "_legacy_format": "s35-lieux-fonction",
+      "source_refs": [
+        {
+          "source_id": "S35",
+          "source_label": "S35 — Morris, Record Play Pause, 2019",
+          "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+          "source_year": "2019"
+        }
       ],
       "chapters": [
         "Chapitre 1",
@@ -246320,7 +246427,12 @@
       "lat": 53.2581,
       "lng": -2.1255,
       "geo_precision": "ville",
-      "reference_croisee": "wikidata:Q659804"
+      "reference_croisee": [
+        "wikidata:Q659804"
+      ],
+      "alternate_legacy_formats": [
+        "s35-lieux-role"
+      ]
     }
   },
   {
@@ -246333,7 +246445,9 @@
       "lat": 53.2367,
       "lng": -2.3085,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q204686",
+      "reference_croisee": [
+        "wikidata:Q204686"
+      ],
       "label": "Jodrell Bank",
       "type": "science",
       "type_detail": "radiotelescope",
@@ -246341,7 +246455,9 @@
         "S35"
       ],
       "usage": "Objet technique local ; imaginaire spatial et futuriste.",
-      "atoms": "S35-A034",
+      "atoms": [
+        "S35-A034"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246362,7 +246478,9 @@
         "S35"
       ],
       "usage": "Repère géographique du trajet vers Jodrell Bank.",
-      "atoms": "S35-A034",
+      "atoms": [
+        "S35-A034"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246380,7 +246498,9 @@
         "S35"
       ],
       "usage": "École primaire précédant l’eleven-plus.",
-      "atoms": "S35-A035",
+      "atoms": [
+        "S35-A035"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246423,7 +246543,9 @@
         "S35"
       ],
       "usage": "Contrepoint scolaire dans le récit de l’eleven-plus.",
-      "atoms": "S35-A035",
+      "atoms": [
+        "S35-A035"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246442,7 +246564,9 @@
         "S35"
       ],
       "usage": "Magasin de disques ; apprentissage matériel du vinyle.",
-      "atoms": "S35-A039",
+      "atoms": [
+        "S35-A039"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246456,7 +246580,9 @@
       "lat": 53.4779,
       "lng": -2.247,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q5500433",
+      "reference_croisee": [
+        "wikidata:Q5500433"
+      ],
       "prudence_methodologique": "Reconverti en hôtel (façade conservée, Peter Street).",
       "label": "Free Trade Hall",
       "type": "salle",
@@ -246482,7 +246608,9 @@
       "lat": 51.5074,
       "lng": -0.1278,
       "geo_precision": "ville",
-      "reference_croisee": "wikidata:Q84",
+      "reference_croisee": [
+        "wikidata:Q84"
+      ],
       "label": "London",
       "type": "ville",
       "type_detail": "ville",
@@ -246490,7 +246618,9 @@
         "S35"
       ],
       "usage": "Horizon secondaire d’événement, comparé à Manchester.",
-      "atoms": "S35-A042",
+      "atoms": [
+        "S35-A042"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246511,7 +246641,9 @@
         "S35"
       ],
       "usage": "Lieu du concert de The Who évoqué par Morris.",
-      "atoms": "S35-A047",
+      "atoms": [
+        "S35-A047"
+      ],
       "_legacy_format": "s35-lieux-role"
     }
   },
@@ -246573,7 +246705,9 @@
         "S35"
       ],
       "usage": "Pacte paternel ; Basie et Dietrich.",
-      "atoms": "S35-A050",
+      "atoms": [
+        "S35-A050"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 1",
@@ -246599,7 +246733,9 @@
         "S35"
       ],
       "usage": "Sophistication glam ; contraste social avec le public rock.",
-      "atoms": "S35-A051",
+      "atoms": [
+        "S35-A051"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 2",
@@ -246617,7 +246753,9 @@
       "lat": 53.46669,
       "lng": -2.1191,
       "geo_precision": "exacte",
-      "reference_croisee": "gias:136273",
+      "reference_croisee": [
+        "gias:136273"
+      ],
       "prudence_methodologique": "Audenshaw School (ancien Audenshaw Grammar School), Hazel Street, Audenshaw. Source : get-information-schools.service.gov.uk/Establishments/Establishment/Details/136273. Établissement existant. (gias = Get Information About Schools, URN:136273.)",
       "label": "Audenshaw Grammar School",
       "type": "education",
@@ -246626,7 +246764,9 @@
         "S35"
       ],
       "usage": "Bannissement scolaire ; trajet vers Manchester.",
-      "atoms": "S35-A057",
+      "atoms": [
+        "S35-A057"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 1"
@@ -246643,7 +246783,9 @@
       "lat": 53.4744,
       "lng": -2.1127,
       "geo_precision": "quartier",
-      "reference_croisee": "wikidata:Q5615429",
+      "reference_croisee": [
+        "wikidata:Q5615429"
+      ],
       "label": "Guide Bridge",
       "type": "infrastructure",
       "type_detail": "seuil_ferroviaire",
@@ -246651,7 +246793,9 @@
         "S35"
       ],
       "usage": "Seuil ferroviaire vers l'auto-éducation mancunienne.",
-      "atoms": "S35-A057",
+      "atoms": [
+        "S35-A057"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 1"
@@ -246672,7 +246816,9 @@
         "S35"
       ],
       "usage": "Librairie de contre-savoirs ; science-fiction, occultisme, underground.",
-      "atoms": "S35-A058",
+      "atoms": [
+        "S35-A058"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 1",
@@ -246695,7 +246841,9 @@
         "S35"
       ],
       "usage": "Librairie ; Ballard, Burroughs, presse marginale.",
-      "atoms": "S35-A058",
+      "atoms": [
+        "S35-A058"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 1",
@@ -246718,7 +246866,9 @@
         "S35"
       ],
       "usage": "Disquaire / bootlegs ; rareté et déception matérielle.",
-      "atoms": "S35-A059",
+      "atoms": [
+        "S35-A059"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 8",
@@ -246740,7 +246890,9 @@
         "S35"
       ],
       "usage": "Disquaire ; non-rencontre mémorielle avec Curtis ; chasse au disque.",
-      "atoms": "S35-A061",
+      "atoms": [
+        "S35-A061"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 2",
@@ -246767,7 +246919,9 @@
         "S35"
       ],
       "usage": "Travail textile ; rythme industriel vécu.",
-      "atoms": "S35-A060",
+      "atoms": [
+        "S35-A060"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 1",
@@ -246794,7 +246948,9 @@
         "S35"
       ],
       "usage": "Lieu-palimpseste ; scène pré-punk et futur lieu Joy Division.",
-      "atoms": "S35-A062",
+      "atoms": [
+        "S35-A062"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 2",
@@ -246821,7 +246977,9 @@
         "S35"
       ],
       "usage": "Écoute live non segmentée ; Bowie, Genesis, Hawkwind, Lou Reed.",
-      "atoms": "S35-A062",
+      "atoms": [
+        "S35-A062"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 2",
@@ -246846,7 +247004,9 @@
         "S35"
       ],
       "usage": "Festival pluvieux ; anti-utopie contre-culturelle.",
-      "atoms": "S35-A063",
+      "atoms": [
+        "S35-A063"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 14"
@@ -246871,7 +247031,9 @@
         "S35"
       ],
       "usage": "Festival ; Children of God ; désillusion contre-culturelle.",
-      "atoms": "S35-A063",
+      "atoms": [
+        "S35-A063"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 14"
@@ -246892,7 +247054,9 @@
         "S35"
       ],
       "usage": "Grand magasin ; Great Vinyl Robbery.",
-      "atoms": "S35-A064",
+      "atoms": [
+        "S35-A064"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 8",
@@ -246914,7 +247078,9 @@
         "S35"
       ],
       "usage": "Arrestation ; retour brutal au réel.",
-      "atoms": "S35-A064",
+      "atoms": [
+        "S35-A064"
+      ],
       "_legacy_format": "s35-lieux-fonction",
       "chapters": [
         "Chapitre 8",
@@ -317468,7 +317634,9 @@
       "type": "studio",
       "type_detail": "lieu_repetition",
       "usage": "L’un des premiers lieux de répétition, réactivé des années plus tard comme lieu de mémoire brutale de Ian et Joy Division.",
-      "atoms": "S41-A057",
+      "atoms": [
+        "S41-A057"
+      ],
       "prudence": "Distinguer l’usage initial comme salle de répétition et le retour mémoriel postérieur.",
       "source_label": "S41 — Hook, Unknown Pleasures, 2012",
       "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
@@ -325257,7 +325425,9 @@
       "lat": 53.4746,
       "lng": -2.2503,
       "geo_precision": "exacte",
-      "reference_croisee": "wikidata:Q1572261",
+      "reference_croisee": [
+        "wikidata:Q1572261"
+      ],
       "prudence_methodologique": "FAC 51 ; démolie en 2002, remplacée par des logements.",
       "label": "Haçienda / FAC 51",
       "type": "salle",
@@ -325297,7 +325467,9 @@
       "lat": 41.8781,
       "lng": -87.6298,
       "geo_precision": "ville",
-      "reference_croisee": "wikidata:Q1297",
+      "reference_croisee": [
+        "wikidata:Q1297"
+      ],
       "label": "Chicago",
       "type": "ville",
       "type_detail": "ville",
@@ -325318,7 +325490,9 @@
       "lat": 42.3314,
       "lng": -83.0458,
       "geo_precision": "ville",
-      "reference_croisee": "wikidata:Q12439",
+      "reference_croisee": [
+        "wikidata:Q12439"
+      ],
       "label": "Detroit",
       "type": "ville",
       "type_detail": "ville",

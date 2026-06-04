@@ -716,6 +716,12 @@ def unique_values(values: Iterable[Any]) -> List[Any]:
             unique.append(value)
     return unique
 
+def first_non_empty(values: Iterable[Any]) -> Any:
+    for value in values:
+        if value is not None and value != "":
+            return value
+    return None
+
 def source_ids_from_place(record: ParsedRecord) -> List[str]:
     data = record.data or {}
     values: List[Any] = []
@@ -723,6 +729,25 @@ def source_ids_from_place(record: ParsedRecord) -> List[str]:
     values.extend(mergeable_values(data.get("source_id")))
     values.extend(mergeable_values(data.get("source_ids")))
     return [normalize_identifier(str(value)) for value in values if str(value).strip()]
+
+def source_refs_from_place(record: ParsedRecord) -> List[Dict[str, str]]:
+    refs: List[Dict[str, str]] = []
+    for source_id in source_ids_from_place(record):
+        label = label_for_source(source_id, record.data)
+        ref = {"source_id": source_id}
+        if label.get("label") and label["label"] != source_id:
+            ref["source_label"] = label["label"]
+        auteur = label.get("auteur", "")
+        titre = label.get("titre", "")
+        annee = label.get("annee", "")
+        short_title = f"{auteur}, {titre}, {annee}".strip(", ")
+        if (auteur and auteur != "Inconnu") or (titre and titre != source_id) or annee:
+            ref["source_short_title"] = short_title
+        if annee:
+            ref["source_year"] = annee
+        if len(ref) > 1:
+            refs.append(ref)
+    return refs
 
 def same_as_targets_from_place(record: ParsedRecord) -> List[str]:
     return [str(value) for value in mergeable_values((record.data or {}).get("same_as")) if str(value).strip()]
@@ -766,6 +791,81 @@ def merged_scalar_or_list(values: Iterable[Any]) -> Any:
         return None
     return unique[0] if len(unique) == 1 else unique
 
+PLACE_SCHEMA_ARRAY_FIELDS = {
+    "sources",
+    "chapitres",
+    "atoms",
+    "song_ids",
+    "reference_croisee",
+}
+
+PLACE_SCHEMA_SCALAR_FIELDS = {
+    "id",
+    "label",
+    "type",
+    "type_detail",
+    "source_id",
+    "usage",
+    "usage_s02",
+    "usage_s05",
+    "usage_s06",
+    "usage_s10",
+    "usage_s20",
+    "prudence",
+    "lat",
+    "lng",
+    "geo_precision",
+    "same_as",
+    "prudence_methodologique",
+    "pages_pdf",
+    "pages_livre",
+    "statut",
+    "type_unite",
+    "_legacy_format",
+}
+
+PLACE_ALTERNATE_FIELD_NAMES = {
+    "type": "alternate_types",
+    "type_detail": "alternate_type_details",
+    "source_id": "alternate_source_ids",
+    "geo_precision": "alternate_geo_precisions",
+    "pages_pdf": "alternate_pages_pdf",
+    "pages_livre": "alternate_pages_livre",
+    "statut": "alternate_statuts",
+    "type_unite": "alternate_type_unites",
+    "_legacy_format": "alternate_legacy_formats",
+}
+
+def alternate_place_field(field: str) -> str:
+    return PLACE_ALTERNATE_FIELD_NAMES.get(field, f"alternate_{field}s")
+
+def merge_place_scalar_field(data: Dict[str, Any], group: List[ParsedRecord], field: str) -> None:
+    alternate_field = alternate_place_field(field)
+    values = unique_values(
+        value
+        for record in group
+        for value in mergeable_values(record.data.get(field))
+        + mergeable_values(record.data.get(alternate_field))
+    )
+    if not values:
+        data.pop(alternate_field, None)
+        return
+
+    canonical_value = first_non_empty(mergeable_values(group[0].data.get(field)))
+    primary = canonical_value if canonical_value is not None else values[0]
+    data[field] = primary
+
+    alternatives = [value for value in values if merge_key(value) != merge_key(primary)]
+    if alternatives:
+        data[alternate_field] = alternatives
+    else:
+        data.pop(alternate_field, None)
+
+def merge_place_array_field(data: Dict[str, Any], group: List[ParsedRecord], field: str) -> None:
+    values = unique_values(value for record in group for value in mergeable_values(record.data.get(field)))
+    if values:
+        data[field] = values
+
 def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
     canonical = group[0]
     data: Dict[str, Any] = dict(canonical.data)
@@ -788,6 +888,12 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
     sources = unique_values(source for record in group for source in source_ids_from_place(record))
     if sources:
         data["sources"] = sources
+
+    source_refs = unique_values(ref for record in group for ref in source_refs_from_place(record))
+    if len(group) > 1 and source_refs:
+        data["source_refs"] = source_refs
+    else:
+        data.pop("source_refs", None)
 
     chapters = unique_values(
         chapter
@@ -825,14 +931,10 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
         )
 
     for key in ("lat", "lng", "geo_precision"):
-        merged = merged_scalar_or_list(record.data.get(key) for record in group)
-        if merged is not None:
-            data[key] = merged
+        merge_place_scalar_field(data, group, key)
 
     for key in ("atoms", "song_ids", "reference_croisee"):
-        merged = merged_scalar_or_list(record.data.get(key) for record in group)
-        if merged is not None:
-            data[key] = merged
+        merge_place_array_field(data, group, key)
 
     same_as_values = unique_values(
         value
@@ -843,9 +945,11 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
     if len(same_as_values) == 1:
         data["same_as"] = same_as_values[0]
     elif len(same_as_values) > 1:
-        data["same_as"] = same_as_values
+        data["same_as"] = same_as_values[0]
+        data["alternate_same_as"] = same_as_values[1:]
     else:
         data.pop("same_as", None)
+        data.pop("alternate_same_as", None)
 
     for key in ("prudence", "prudence_methodologique", "methodological_warnings", "notes"):
         merged = unique_values(value for record in group for value in mergeable_values(record.data.get(key)))
@@ -856,15 +960,22 @@ def merge_place_group(group: List[ParsedRecord]) -> ParsedRecord:
 
     handled = {
         "id", "label", "nom", "name", "sources", "source_id", "source_ids",
+        "source_label", "alternate_source_labels", "source_short_title", "source_year",
+        "source_titre", "auteur", "titre", "source_refs",
         "chapters", "chapitres", "aliases", "alternate_labels", "source_files", "usage",
         "lat", "lng", "geo_precision", "atoms", "song_ids", "reference_croisee",
         "same_as", "prudence", "prudence_methodologique",
         "methodological_warnings", "notes",
     }
     for key in sorted({key for record in group for key in record.data.keys()} - handled):
-        merged = merged_scalar_or_list(record.data.get(key) for record in group)
-        if merged is not None:
-            data[key] = merged
+        if key in PLACE_SCHEMA_SCALAR_FIELDS:
+            merge_place_scalar_field(data, group, key)
+        elif key in PLACE_SCHEMA_ARRAY_FIELDS:
+            merge_place_array_field(data, group, key)
+        else:
+            merged = merged_scalar_or_list(record.data.get(key) for record in group)
+            if merged is not None:
+                data[key] = merged
 
     return ParsedRecord(
         kind="place",
