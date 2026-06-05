@@ -79,85 +79,85 @@ Niveaux utilisés :
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/01/document_maitre.md` | 47 sources listées section 4. | 310 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 15 ; personnes : 24 ; chansons : 1 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Traçabilité forte au niveau des sections, mais pas de lien passage -> atome/export. 2 atomes affichent une source vide. |
+| `chapters/01/document_maitre.md` | 48 lignes de sources listées section 4. | 310 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 15 ; personnes : 24 ; chansons : 1 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Traçabilité forte au niveau des sections, mais pas de lien passage -> atome/export. 2 atomes affichent une source vide. Le comptage inclut S86, source à 0 atome mais 3 citations. |
 
 ## Chapitre 2
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/02/document_maitre.md` | 31 sources listées section 4. | 522 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 40 ; personnes : 34 ; chansons : 10 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Rattachement documentaire riche, mais 13 atomes affichent une source vide. La relation fine entre passages du DM et exports reste implicite. |
+| `chapters/02/document_maitre.md` | 33 lignes de sources listées section 4. | 522 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 40 ; personnes : 34 ; chansons : 10 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Rattachement documentaire riche, mais 13 atomes affichent une source vide. Le comptage inclut S53 et S87, sources à 0 atome mais 1 citation chacune. |
 
 ## Chapitre 3
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/03/document_maitre.md` | 41 sources listées section 4. | 471 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 25 ; personnes : 33 ; chansons : 27 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les familles d'objets sont visibles. 5 atomes affichent une source vide ; le passage de l'inventaire d'atomes à la justification d'un passage rédactionnel reste non explicite. |
+| `chapters/03/document_maitre.md` | 42 lignes de sources listées section 4. | 471 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 25 ; personnes : 33 ; chansons : 27 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les familles d'objets sont visibles. 5 atomes affichent une source vide. Le comptage inclut S86, source à 0 atome mais 2 citations. |
 
 ## Chapitre 4
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/04/document_maitre.md` | 36 sources listées section 4. | 387 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 63 ; personnes : 53 ; chansons : 36 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Très bonne exposition des citations et registres rattachés, mais 2 atomes affichent une source vide et l'audit ne peut pas vérifier une traçabilité complète phrase par phrase. |
+| `chapters/04/document_maitre.md` | 36 lignes de sources listées section 4. | 387 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 63 ; personnes : 53 ; chansons : 36 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Très bonne exposition des citations et registres rattachés, mais 2 atomes affichent une source vide et l'audit ne peut pas vérifier une traçabilité complète phrase par phrase. |
 
 ## Chapitre 5
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/05/document_maitre.md` | 33 sources listées section 4. | 431 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 44 ; personnes : 49 ; chansons : 11 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les liens vers sources et registres sont visibles. 2 atomes affichent une source vide, ce qui empêche une traçabilité entièrement élevée. |
+| `chapters/05/document_maitre.md` | 35 lignes de sources listées section 4. | 431 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 44 ; personnes : 49 ; chansons : 11 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les liens vers sources et registres sont visibles. 2 atomes affichent une source vide. Le comptage inclut S86 et S87, sources à 0 atome mais porteuses de citations. |
 
 ## Chapitre 6
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/06/document_maitre.md` | 35 sources listées section 4. | 572 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 47 ; personnes : 53 ; chansons : 33 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | La couverture par objets est solide. 3 atomes affichent une source vide ; la traçabilité export -> section du DM demeure globale et non directement pointée. |
+| `chapters/06/document_maitre.md` | 35 lignes de sources listées section 4. | 572 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 47 ; personnes : 53 ; chansons : 33 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | La couverture par objets est solide. 3 atomes affichent une source vide ; la traçabilité export -> section du DM demeure globale et non directement pointée. |
 
 ## Chapitre 7
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/07/document_maitre.md` | 27 sources listées section 4. | 184 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 17 ; personnes : 23 ; chansons : 18 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Le DM expose les familles d'objets nécessaires. 1 atome affiche une source vide et plusieurs citations sont candidates ou à vérifier. |
+| `chapters/07/document_maitre.md` | 27 lignes de sources listées section 4. | 184 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 17 ; personnes : 23 ; chansons : 18 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Le DM expose les familles d'objets nécessaires. 1 atome affiche une source vide et plusieurs citations sont candidates ou à vérifier. |
 
 ## Chapitre 8
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/08/document_maitre.md` | 30 sources listées section 4. | 344 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 36 ; personnes : 40 ; chansons : 11 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les sources et registres sont identifiables. 3 atomes affichent une source vide ; la preuve de rattachement reste principalement sectionnelle et non passage-par-passage. |
+| `chapters/08/document_maitre.md` | 30 lignes de sources listées section 4. | 344 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 36 ; personnes : 40 ; chansons : 11 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les sources et registres sont identifiables. 3 atomes affichent une source vide ; la preuve de rattachement reste principalement sectionnelle et non passage-par-passage. |
 
 ## Chapitre 9
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/09/document_maitre.md` | 22 sources listées section 4. | 220 atomes déclarés ; 37 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 3 ; personnes : 14 ; chansons : 4 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Périmètre documentaire plus compact, donc plus lisible. 2 atomes affichent une source vide ; le niveau reste moyen faute de liens directs entre passages rédigés et atomes/exports. |
+| `chapters/09/document_maitre.md` | 22 lignes de sources listées section 4. | 220 atomes déclarés ; 37 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 3 ; personnes : 14 ; chansons : 4 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Périmètre documentaire plus compact, donc plus lisible. 2 atomes affichent une source vide ; le niveau reste moyen faute de liens directs entre passages rédigés et atomes/exports. |
 
 ## Chapitre 10
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/10/document_maitre.md` | 37 sources listées section 4. | 351 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 29 ; personnes : 56 ; chansons : 14 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les objets sont bien exposés. 2 atomes affichent une source vide ; plusieurs citations restent candidates ou à vérifier. |
+| `chapters/10/document_maitre.md` | 37 lignes de sources listées section 4. | 351 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 29 ; personnes : 56 ; chansons : 14 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les objets sont bien exposés. 2 atomes affichent une source vide ; plusieurs citations restent candidates ou à vérifier. |
 
 ## Chapitre 11
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/11/document_maitre.md` | 38 sources listées section 4. | 391 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 17 ; personnes : 29 ; chansons : 34 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les sections de registres et d'atomes sont exploitables pour un audit humain. 2 atomes affichent une source vide ; la dérivabilité fine des formulations n'est pas démontrée par le DM seul. |
+| `chapters/11/document_maitre.md` | 38 lignes de sources listées section 4. | 391 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 17 ; personnes : 29 ; chansons : 34 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Les sections de registres et d'atomes sont exploitables pour un audit humain. 2 atomes affichent une source vide ; la dérivabilité fine des formulations n'est pas démontrée par le DM seul. |
 
 ## Chapitre 12
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/12/document_maitre.md` | 31 sources listées section 4. | 447 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 63 ; personnes : 51 ; chansons : 18 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Chapitre sensible du point de vue documentaire : 6 atomes affichent une source vide et l'audit ne peut pas conclure à une traçabilité élevée sans liens directs passage -> source/atome. |
+| `chapters/12/document_maitre.md` | 31 lignes de sources listées section 4. | 447 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 63 ; personnes : 51 ; chansons : 18 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Chapitre sensible du point de vue documentaire : 6 atomes affichent une source vide et l'audit ne peut pas conclure à une traçabilité élevée sans liens directs passage -> source/atome. |
 
 ## Chapitre 13
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/13/document_maitre.md` | 34 sources listées section 4. | 196 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 31 ; personnes : 53 ; chansons : 13 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Le rattachement thématique est lisible. 1 atome affiche une source vide ; le niveau reste moyen en raison d'une granularité insuffisante pour relier chaque affirmation à son export ou atome. |
+| `chapters/13/document_maitre.md` | 34 lignes de sources listées section 4. | 196 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 31 ; personnes : 53 ; chansons : 13 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Le rattachement thématique est lisible. 1 atome affiche une source vide ; le niveau reste moyen en raison d'une granularité insuffisante pour relier chaque affirmation à son export ou atome. |
 
 ## Chapitre 14
 
 | DM | Sources identifiées | Atomes identifiés | Registres identifiés | Exports identifiés | Niveau de traçabilité | Observations |
 |----|----|----|----|----|----|----|
-| `chapters/14/document_maitre.md` | 72 sources listées section 4. | 1323 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 138 ; personnes : 161 ; chansons : 34 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Chapitre très volumineux : 4 atomes affichent une source vide et le DM ne fournit pas une table complète de rattachement passage -> source -> atome -> export. |
+| `chapters/14/document_maitre.md` | 72 lignes de sources listées section 4. | 1323 atomes déclarés ; 60 critiques/majeurs affichés ; autres atomes utiles listés. | Chronologie : 138 ; personnes : 161 ; chansons : 34 ; concepts et motifs présents. | `master_docs_index.json` confirme atomes, citations, chronologie, personnes et chansons ; exports globaux `atoms`, `sources`, `quotes`, `chronology`, `people`, `songs`, `concepts`, `motifs`. | moyen | Chapitre très volumineux : 4 atomes affichent une source vide et le DM ne fournit pas une table complète de rattachement passage -> source -> atome -> export. |
 
 # Synthèse globale
 
