@@ -22,6 +22,7 @@ Limite MVP : le controle verifie les identifiants atomiques explicitement visibl
 | Atomes introuvables | 0 |
 | Incohérences de volumétrie | 0 |
 | Documents maîtres absents sur disque | 0 |
+| Documents maîtres invalides | 0 |
 | Documents maîtres hors manifeste | 0 |
 | Documents maîtres absents de l'index | 0 |
 | Dérives manifeste / index | 0 |

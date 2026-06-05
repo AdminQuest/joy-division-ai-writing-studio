@@ -6,6 +6,7 @@ from __future__ import annotations
 import unittest
 from tempfile import TemporaryDirectory
 from pathlib import Path
+from unittest.mock import patch
 
 from tools import check_dm_atoms_traceability as dm_atoms
 
@@ -104,6 +105,27 @@ class TestMasterDocPathGuard(unittest.TestCase):
         self.assertEqual(index, {})
         self.assertEqual(len(issues), 1)
         self.assertEqual(issues[0].kind, "manifeste incohérent")
+
+    def test_audit_refuses_symlinked_master_doc_before_reading(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapter_dir = repo_root / "chapters" / "01"
+            chapter_dir.mkdir(parents=True)
+            (repo_root / "chapters" / "master_docs.json").write_text("not a master document", encoding="utf-8")
+            (chapter_dir / "document_maitre.md").symlink_to(repo_root / "chapters" / "master_docs.json")
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                audit = dm_atoms.audit_document(
+                    {"path": "chapters/01/document_maitre.md", "title": "symlink"},
+                    atom_ids=set(),
+                    alias_lookup={},
+                    master_index={"chapters/01/document_maitre.md": {"atoms": 1}},
+                )
+
+        self.assertEqual(audit.status, "non traçable")
+        self.assertEqual(audit.visible_atoms, 0)
+        self.assertEqual(audit.issues[0].kind, "document maître invalide")
+        self.assertIn("lien symbolique", audit.issues[0].detail)
 
 
 if __name__ == "__main__":

@@ -251,6 +251,10 @@ def audit_document(
         else:
             audit.issues.append(Issue("incohérence de volumétrie", doc_path, "Volumetrie atoms absente ou invalide dans master_docs_index."))
 
+    if full_path.is_symlink():
+        audit.issues.append(Issue("document maître invalide", doc_path, "Document maître déclaré comme lien symbolique ; lecture refusée."))
+        return audit
+
     if not full_path.exists():
         audit.issues.append(Issue("document maître absent sur disque", doc_path, "Fichier declare dans le manifeste mais absent du depot."))
         return audit
@@ -287,7 +291,7 @@ def audit_document(
         audit.issues.append(Issue("atome manquant", doc_path, "Aucun identifiant atomique visible alors que l'index declare des atomes."))
 
     if audit.issues:
-        blocking_kinds = {"document maître absent sur disque", "manifeste incohérent"}
+        blocking_kinds = {"document maître absent sur disque", "document maître invalide", "manifeste incohérent"}
         if any(issue.kind in blocking_kinds for issue in audit.issues):
             audit.status = "non traçable"
         else:
@@ -335,6 +339,7 @@ def summarize(audits: list[DmAudit], global_issues: list[Issue], disk_paths: set
         "atomes_introuvables": sum(1 for issue in all_issues if issue.kind == "atome introuvable"),
         "incoherences_volumetrie": sum(1 for issue in all_issues if issue.kind == "incohérence de volumétrie"),
         "documents_absents_sur_disque": sum(1 for issue in all_issues if issue.kind == "document maître absent sur disque"),
+        "documents_invalides": sum(1 for issue in all_issues if issue.kind == "document maître invalide"),
         "documents_hors_manifeste": sum(1 for issue in all_issues if issue.kind == "document maître hors manifeste"),
         "documents_absents_index": sum(1 for issue in all_issues if issue.kind == "document maître absent de l'index"),
         "derives_manifest_index": sum(1 for issue in all_issues if issue.kind == "dérive manifeste / index"),
@@ -372,6 +377,7 @@ def render_report(audits: list[DmAudit], global_issues: list[Issue], disk_paths:
         ("Atomes introuvables", "atomes_introuvables"),
         ("Incohérences de volumétrie", "incoherences_volumetrie"),
         ("Documents maîtres absents sur disque", "documents_absents_sur_disque"),
+        ("Documents maîtres invalides", "documents_invalides"),
         ("Documents maîtres hors manifeste", "documents_hors_manifeste"),
         ("Documents maîtres absents de l'index", "documents_absents_index"),
         ("Dérives manifeste / index", "derives_manifest_index"),
