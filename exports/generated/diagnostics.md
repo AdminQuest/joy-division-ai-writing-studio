@@ -1,6 +1,6 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-06-05T15:13:05`
+Généré le : `2026-06-05T20:45:16`
 
 Statut : **warning**
 
@@ -47,10 +47,10 @@ Aucune.
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — statut : verifie
 - S03 — Demographia, England Largest Cities, s.d. — statut : a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — statut : verifie
-- S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — statut : a_consolider
+- S18 — Fédida, Manchester : L'éveil d'une scène musicale, 2021 — statut : a_consolider
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — statut : a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — statut : a_consolider
-- S25 — Factory Records, philosophie d’indépendance, 1978–1992 — statut : a_consolider
+- S25 — Factory Records, philosophie d'indépendance, 1978–1992 — statut : a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — statut : a_consolider
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — statut : a_consolider
 - S33 — Can, Tago Mago, 1971 — statut : a_consolider
@@ -98,70 +98,4 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: liens_interchapitres
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: liens_citations
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Invalid value for type_unite: concept_structurant
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: stabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: liens_interchapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Invalid value for type_unite: concept_structurant
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: stabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: liens_interchapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Invalid value for type_unite: geographie_sociale
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: stabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: liens_interchapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Invalid value for type_unite: matrice_politique
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: stabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: liens_interchapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Invalid value for type_unite: contexte_socio_politique
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: stabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: liens_interchapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Invalid value for type_unite: infrastructure_culturelle
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: stabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: liens_interchapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Invalid value for type_unite: organisation_culturelle
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: auteur
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: concepts
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: chapitres
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: stabilite
 - … 28739 problèmes supplémentaires dans `diagnostics.json`.
