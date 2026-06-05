@@ -42,6 +42,33 @@ KNOWN_CONTROLS = [
     KnownControl("DM -> registres", REPORT_DIR / "dm_registers_consistency.md"),
 ]
 
+REQUIRED_ATOMS_INDICATORS = [
+    "Documents declares dans le manifeste",
+    "Documents maîtres sur disque",
+    "Documents traçables",
+    "Documents partiellement traçables",
+    "Documents non traçables",
+    "Atomes visibles",
+    "Atomes retrouvés",
+    "Écarts détectés",
+]
+
+REQUIRED_REGISTERS_INDICATORS = [
+    "Documents declares dans le manifeste",
+    "Documents maîtres sur disque",
+    "Documents cohérents",
+    "Documents partiellement cohérents",
+    "Documents non cohérents",
+    "Écarts détectés",
+    "Identifiants introuvables",
+    "Registres absents",
+    "Compteurs incohérents",
+    "Familles non couvertes",
+    "Relations non résolues",
+    "Libellés divergents",
+    "Manifestes incohérents",
+]
+
 KNOWN_AUDITS = [
     (
         "Atomes S35 source vide",
@@ -104,18 +131,55 @@ def parse_summary_table(markdown: str) -> dict[str, str]:
     return summary
 
 
-def int_value(summary: dict[str, str], label: str) -> int:
-    raw_value = summary.get(label, "0")
+def int_value(summary: dict[str, str], label: str) -> int | None:
+    raw_value = summary.get(label)
+    if raw_value is None:
+        return None
     match = re.search(r"-?\d+", raw_value)
-    return int(match.group(0)) if match else 0
+    if not match:
+        return None
+    return int(match.group(0))
+
+
+def invalid_summary_status(control_name: str, report_path: Path, missing: list[str], invalid: list[str]) -> ControlStatus:
+    observations = [
+        "Statut impossible à consolider : indicateurs requis absents ou non parsables.",
+    ]
+    if missing:
+        observations.append("Indicateurs absents : " + ", ".join(f"`{label}`" for label in missing) + ".")
+    if invalid:
+        observations.append("Indicateurs non parsables : " + ", ".join(f"`{label}`" for label in invalid) + ".")
+    return ControlStatus(control_name, report_path, "rapport illisible", "✗", observations)
+
+
+def validate_required_indicators(
+    control_name: str,
+    report_path: Path,
+    summary: dict[str, str],
+    required: list[str],
+) -> ControlStatus | None:
+    missing = [label for label in required if label not in summary]
+    invalid = [label for label in required if label in summary and int_value(summary, label) is None]
+    if missing or invalid:
+        return invalid_summary_status(control_name, report_path, missing, invalid)
+    return None
 
 
 def status_for_atoms(report_path: Path, summary: dict[str, str]) -> ControlStatus:
+    invalid_status = validate_required_indicators("DM -> atomes", report_path, summary, REQUIRED_ATOMS_INDICATORS)
+    if invalid_status is not None:
+        return invalid_status
+
     ecarts = int_value(summary, "Écarts détectés")
     non_tracables = int_value(summary, "Documents non traçables")
     partiels = int_value(summary, "Documents partiellement traçables")
     visibles = int_value(summary, "Atomes visibles")
     retrouves = int_value(summary, "Atomes retrouvés")
+    assert ecarts is not None
+    assert non_tracables is not None
+    assert partiels is not None
+    assert visibles is not None
+    assert retrouves is not None
 
     observations = [
         f"{retrouves}/{visibles} atomes visibles retrouvés.",
@@ -129,12 +193,27 @@ def status_for_atoms(report_path: Path, summary: dict[str, str]) -> ControlStatu
 
 
 def status_for_registers(report_path: Path, summary: dict[str, str]) -> ControlStatus:
+    invalid_status = validate_required_indicators(
+        "DM -> registres",
+        report_path,
+        summary,
+        REQUIRED_REGISTERS_INDICATORS,
+    )
+    if invalid_status is not None:
+        return invalid_status
+
     missing = int_value(summary, "Identifiants introuvables")
     absent = int_value(summary, "Registres absents")
     counters = int_value(summary, "Compteurs incohérents")
     manifest = int_value(summary, "Manifestes incohérents")
     label_drift = int_value(summary, "Libellés divergents")
     non_covered = int_value(summary, "Familles non couvertes")
+    assert missing is not None
+    assert absent is not None
+    assert counters is not None
+    assert manifest is not None
+    assert label_drift is not None
+    assert non_covered is not None
 
     observations = [
         f"{missing} identifiant introuvable.",
@@ -170,7 +249,7 @@ def read_control_status(control: KnownControl) -> ControlStatus:
 def render_report(statuses: list[ControlStatus]) -> str:
     generated_on = date.today().isoformat()
     global_state = "conforme"
-    if any(status.state == "non conforme" for status in statuses):
+    if any(status.state in {"non conforme", "rapport illisible"} for status in statuses):
         global_state = "non conforme"
     elif any(status.state in {"conforme avec réserve", "non exécuté", "inconnu"} for status in statuses):
         global_state = "conforme avec réserve"
@@ -253,7 +332,7 @@ def run(output: Path) -> int:
     print(f"Rapport: {rel(output)}")
     for status in statuses:
         print(f"{status.symbol} {status.name}: {status.state}")
-    return 1 if any(status.state == "non conforme" for status in statuses) else 0
+    return 1 if any(status.state in {"non conforme", "rapport illisible"} for status in statuses) else 0
 
 
 def main(argv: list[str] | None = None) -> int:

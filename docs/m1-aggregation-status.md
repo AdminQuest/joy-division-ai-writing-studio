@@ -85,6 +85,7 @@ Les statuts utilisés par l'agrégateur sont volontairement simples :
 | conforme | Aucun écart bloquant ou réserve connue dans le rapport lu. |
 | conforme avec réserve | Le contrôle est exploitable, mais le rapport contient des réserves, limites MVP ou divergences à relire. |
 | non conforme | Le rapport signale un écart objectif relevant du périmètre du contrôle. |
+| rapport illisible | Le rapport attendu existe ou est appelé, mais ses indicateurs obligatoires sont absents ou non parsables. |
 | non exécuté | Le rapport attendu est absent. |
 
 Ces statuts ne constituent pas encore des seuils CI.
