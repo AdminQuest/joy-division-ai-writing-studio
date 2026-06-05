@@ -12,7 +12,11 @@ Ce controle est prioritaire avant les autres controles M1 pour trois raisons :
 - il prepare les controles de derivabilite, qui ne peuvent etre interpretes que si les atomes d'appui sont identifiables ;
 - il fournit une base stable pour les controles ulterieurs DM -> sources, DM -> registres et DM -> exports.
 
-Ce document ne cree pas le controle. Il definit le comportement attendu d'un futur controle M1 et les arbitrages a valider avant implementation.
+Ce document definit le comportement attendu du controle M1 et les arbitrages documentaires associes.
+
+Depuis l'implementation du MVP, le controle existe sous la forme de `tools/check_dm_atoms_traceability.py`. Il produit le rapport regenerable `reports/m1/dm_atoms_traceability.md`.
+
+Le controle reste limite au perimetre MVP : il verifie les documents maitres, les identifiants atomiques explicitement visibles, `exports/generated/atoms.json`, `exports/generated/master_docs_index.json` et `chapters/master_docs.json`. Il ne realise pas de tracabilite passage par passage.
 
 # Defaillances couvertes
 
@@ -266,7 +270,7 @@ Ces cas limites doivent etre signales comme reservations ou besoins d'arbitrage,
 
 La premiere version realiste du controle doit chercher un resultat utile rapidement, sans viser une tracabilite parfaite.
 
-MVP propose :
+MVP implemente :
 
 - lire le manifeste des documents maitres ;
 - verifier que les 14 documents maitres attendus existent ;
@@ -277,13 +281,17 @@ MVP propose :
 - signaler les documents sans atomes visibles ;
 - produire un statut global par document maitre : tracable, partiellement tracable, non tracable.
 
+Le script correspondant est `tools/check_dm_atoms_traceability.py`. Le rapport produit est `reports/m1/dm_atoms_traceability.md`.
+
+Ce controle n'est pas integre a `tools/build_all.py`, a `tools/check_generated_sync.py` ni a GitHub Actions.
+
 Ce MVP ne doit pas :
 
 - reconstruire le document maitre ;
 - verifier chaque passage redactionnel ;
 - valider les sources primaires ;
 - corriger les atomes ;
-- regenerer les exports ;
+- regenerer les exports ou les documents maitres ;
 - modifier les documents maitres.
 
 # Preparation de l'implementation
@@ -297,10 +305,8 @@ Ce MVP ne doit pas :
 - le producteur technique actuel des documents maitres : `tools/build_master_docs.py` ;
 - la premiere boucle M1 ayant montre l'utilite d'un controle ciblant les atomes.
 
-## Ce qui reste a arbitrer
+## Ce qui reste a arbitrer apres le MVP
 
-- format exact du rapport de controle ;
-- niveau de sortie attendu : console, Markdown, JSON, CSV ou combinaison ;
 - seuil de passage entre DM tracable et DM partiellement tracable ;
 - statut des atomes rattaches mais non affiches ;
 - usage exact de `master_docs_index.json` par rapport au contenu Markdown des documents maitres ;
@@ -319,7 +325,7 @@ Avant toute implementation, il faudra valider :
 - les cas ou une alerte doit rester une reserve methodologique ;
 - le fait que le controle ne modifie aucun fichier.
 
-Cette PR ne realise pas cette implementation.
+La premiere implementation realise uniquement le MVP DM -> atomes. Les controles DM -> sources, DM -> registres, DM -> exports et la tracabilite passage par passage restent hors perimetre.
 
 # Conclusion
 
