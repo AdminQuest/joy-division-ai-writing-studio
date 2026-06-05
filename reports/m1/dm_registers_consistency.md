@@ -32,7 +32,7 @@ Hors perimetre MVP : registres P1, relations transversales completes, sources, e
 | Libellés divergents | 29 |
 | Manifestes incohérents | 0 |
 | people visibles / retrouvés | 477 / 477 |
-| songs visibles / retrouvés | 235 / 236 |
+| songs visibles / retrouvés | 236 / 235 |
 | chronology visibles / retrouvés | 413 / 413 |
 | quotes visibles / retrouvés | 511 / 511 |
 | concerts visibles / retrouvés | 0 / 0 |

@@ -600,7 +600,7 @@ def render_report(audits: list[DmAudit], global_issues: list[Issue], disk_paths:
     for label, key in labels:
         lines.append(f"| {label} | {summary[key]} |")
     for family in P0_FAMILIES:
-        lines.append(f"| {family} visibles / retrouvés | {summary[f'{family}_retrouves']} / {summary[f'{family}_visibles']} |")
+        lines.append(f"| {family} visibles / retrouvés | {summary[f'{family}_visibles']} / {summary[f'{family}_retrouves']} |")
 
     lines.extend([
         "",
