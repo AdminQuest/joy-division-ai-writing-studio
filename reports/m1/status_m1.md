@@ -15,12 +15,12 @@ L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun cont
 | ✓ DM -> atomes | conforme | `reports/m1/dm_atoms_traceability.md` | 2477/2477 atomes visibles retrouvés.<br>0 écart détecté dans le rapport agrégé. |
 | ⚠ DM -> registres | conforme avec réserve | `reports/m1/dm_registers_consistency.md` | 80 écart(s) détecté(s).<br>0 document(s) non cohérent(s).<br>0 identifiant introuvable.<br>29 libellé divergent.<br>51 famille non couverte.<br>Les écarts restants relèvent des libellés divergents ou des familles hors MVP. |
 
-### Audits validés
+### Audits M1
 
-| Audit | Statut | Observation |
-| --- | --- | --- |
-| ✓ Atomes S35 source vide | documenté | Validé par le rapport DM -> atomes actuel sans écart détecté. |
-| ✓ SONG-S45-SHADOWPLAY-RCA | documenté | Validé par le rapport DM -> registres actuel sans identifiant introuvable. |
+| Audit | Contrôle associé | Statut | Observation |
+| --- | --- | --- | --- |
+| ✓ Atomes S35 source vide | DM -> atomes | validé | Validation confirmée par le contrôle `DM -> atomes` conforme. |
+| ✓ SONG-S45-SHADOWPLAY-RCA | DM -> registres | validé avec réserve | Validation confirmée par `Identifiants introuvables=0` dans le contrôle `DM -> registres`. |
 
 ## Dette documentaire connue
 

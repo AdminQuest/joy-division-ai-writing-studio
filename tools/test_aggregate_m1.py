@@ -141,5 +141,87 @@ class TestRegistersStrictStatus(unittest.TestCase):
         self.assertEqual(status.state, "conforme avec réserve")
 
 
+class TestAuditValidationStatus(unittest.TestCase):
+    def test_existing_audit_is_not_validated_when_control_is_non_conform(self) -> None:
+        audit = aggregate_m1.KnownAudit(
+            label="Atomes S35 source vide",
+            path=Path(__file__),
+            control_name="DM -> atomes",
+            validation="atoms_conforme",
+        )
+        control = aggregate_m1.ControlStatus(
+            "DM -> atomes",
+            Path("reports/m1/dm_atoms_traceability.md"),
+            "non conforme",
+            "✗",
+        )
+
+        symbol, state, observation = aggregate_m1.audit_validation_status(audit, {"DM -> atomes": control})
+
+        self.assertEqual(symbol, "⚠")
+        self.assertEqual(state, "documenté — non validé par le contrôle associé")
+        self.assertIn("non conforme", observation)
+
+    def test_s35_audit_is_validated_when_atoms_control_is_conform(self) -> None:
+        audit = aggregate_m1.KnownAudit(
+            label="Atomes S35 source vide",
+            path=Path(__file__),
+            control_name="DM -> atomes",
+            validation="atoms_conforme",
+        )
+        control = aggregate_m1.ControlStatus(
+            "DM -> atomes",
+            Path("reports/m1/dm_atoms_traceability.md"),
+            "conforme",
+            "✓",
+        )
+
+        symbol, state, _ = aggregate_m1.audit_validation_status(audit, {"DM -> atomes": control})
+
+        self.assertEqual(symbol, "✓")
+        self.assertEqual(state, "validé")
+
+    def test_shadowplay_audit_is_validated_with_register_reserve_and_no_missing_id(self) -> None:
+        audit = aggregate_m1.KnownAudit(
+            label="SONG-S45-SHADOWPLAY-RCA",
+            path=Path(__file__),
+            control_name="DM -> registres",
+            validation="registers_no_missing_ids",
+        )
+        control = aggregate_m1.ControlStatus(
+            "DM -> registres",
+            Path("reports/m1/dm_registers_consistency.md"),
+            "conforme avec réserve",
+            "⚠",
+            summary={"Identifiants introuvables": "0"},
+        )
+
+        symbol, state, observation = aggregate_m1.audit_validation_status(audit, {"DM -> registres": control})
+
+        self.assertEqual(symbol, "✓")
+        self.assertEqual(state, "validé avec réserve")
+        self.assertIn("Identifiants introuvables=0", observation)
+
+    def test_shadowplay_audit_is_not_validated_with_missing_id(self) -> None:
+        audit = aggregate_m1.KnownAudit(
+            label="SONG-S45-SHADOWPLAY-RCA",
+            path=Path(__file__),
+            control_name="DM -> registres",
+            validation="registers_no_missing_ids",
+        )
+        control = aggregate_m1.ControlStatus(
+            "DM -> registres",
+            Path("reports/m1/dm_registers_consistency.md"),
+            "non conforme",
+            "✗",
+            summary={"Identifiants introuvables": "1"},
+        )
+
+        symbol, state, _ = aggregate_m1.audit_validation_status(audit, {"DM -> registres": control})
+
+        self.assertEqual(symbol, "⚠")
+        self.assertEqual(state, "documenté — non validé par le contrôle associé")
+
+
 if __name__ == "__main__":
     unittest.main()

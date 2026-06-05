@@ -36,6 +36,14 @@ class ControlStatus:
     summary: dict[str, str] = field(default_factory=dict)
 
 
+@dataclass(frozen=True)
+class KnownAudit:
+    label: str
+    path: Path
+    control_name: str
+    validation: str
+
+
 KNOWN_CONTROLS = [
     KnownControl("DM -> atomes", REPORT_DIR / "dm_atoms_traceability.md"),
     KnownControl("DM -> registres", REPORT_DIR / "dm_registers_consistency.md"),
@@ -69,15 +77,17 @@ REQUIRED_REGISTERS_INDICATORS = [
 ]
 
 KNOWN_AUDITS = [
-    (
-        "Atomes S35 source vide",
-        REPO_ROOT / "docs" / "m1-audit-atomes-source-vide-dm.md",
-        "Validé par le rapport DM -> atomes actuel sans écart détecté.",
+    KnownAudit(
+        label="Atomes S35 source vide",
+        path=REPO_ROOT / "docs" / "m1-audit-atomes-source-vide-dm.md",
+        control_name="DM -> atomes",
+        validation="atoms_conforme",
     ),
-    (
-        "SONG-S45-SHADOWPLAY-RCA",
-        REPO_ROOT / "docs" / "m1-audit-song-s45-shadowplay-rca.md",
-        "Validé par le rapport DM -> registres actuel sans identifiant introuvable.",
+    KnownAudit(
+        label="SONG-S45-SHADOWPLAY-RCA",
+        path=REPO_ROOT / "docs" / "m1-audit-song-s45-shadowplay-rca.md",
+        control_name="DM -> registres",
+        validation="registers_no_missing_ids",
     ),
 ]
 
@@ -310,7 +320,51 @@ def read_control_status(control: KnownControl) -> ControlStatus:
     return ControlStatus(control.name, control.report_path, "inconnu", "?", ["Contrôle non classé."], summary)
 
 
+def audit_validation_status(audit: KnownAudit, status_by_name: dict[str, ControlStatus]) -> tuple[str, str, str]:
+    if not audit.path.exists():
+        return "○", "non documenté", f"Fichier absent : `{rel(audit.path)}`."
+
+    control_status = status_by_name.get(audit.control_name)
+    if control_status is None:
+        return (
+            "⚠",
+            "documenté — validation à confirmer",
+            f"Audit présent ; contrôle associé `{audit.control_name}` absent du status consolidé.",
+        )
+
+    if audit.validation == "atoms_conforme":
+        if control_status.state == "conforme":
+            return "✓", "validé", "Validation confirmée par le contrôle `DM -> atomes` conforme."
+        return (
+            "⚠",
+            "documenté — non validé par le contrôle associé",
+            f"Audit présent ; contrôle `DM -> atomes` actuellement `{control_status.state}`.",
+        )
+
+    if audit.validation == "registers_no_missing_ids":
+        missing = int_value(control_status.summary, "Identifiants introuvables")
+        if control_status.state in {"conforme", "conforme avec réserve"} and missing == 0:
+            state = "validé avec réserve" if control_status.state == "conforme avec réserve" else "validé"
+            return (
+                "✓",
+                state,
+                "Validation confirmée par `Identifiants introuvables=0` dans le contrôle `DM -> registres`.",
+            )
+        return (
+            "⚠",
+            "documenté — non validé par le contrôle associé",
+            f"Audit présent ; contrôle `DM -> registres` actuellement `{control_status.state}`.",
+        )
+
+    return (
+        "⚠",
+        "documenté — validation à confirmer",
+        f"Audit présent ; règle de validation `{audit.validation}` non reconnue.",
+    )
+
+
 def render_report(statuses: list[ControlStatus]) -> str:
+    status_by_name = {status.name: status for status in statuses}
     global_state = "conforme"
     if any(status.state in {"non conforme", "rapport illisible"} for status in statuses):
         global_state = "non conforme"
@@ -339,15 +393,14 @@ def render_report(statuses: list[ControlStatus]) -> str:
 
     lines.extend([
         "",
-        "### Audits validés",
+        "### Audits M1",
         "",
-        "| Audit | Statut | Observation |",
-        "| --- | --- | --- |",
+        "| Audit | Contrôle associé | Statut | Observation |",
+        "| --- | --- | --- | --- |",
     ])
-    for label, path, observation in KNOWN_AUDITS:
-        symbol = "✓" if path.exists() else "○"
-        state = "documenté" if path.exists() else "non documenté"
-        lines.append(f"| {symbol} {label} | {state} | {observation if path.exists() else f'Fichier absent : `{rel(path)}`.'} |")
+    for audit in KNOWN_AUDITS:
+        symbol, state, observation = audit_validation_status(audit, status_by_name)
+        lines.append(f"| {symbol} {audit.label} | {audit.control_name} | {state} | {observation} |")
 
     lines.extend([
         "",
