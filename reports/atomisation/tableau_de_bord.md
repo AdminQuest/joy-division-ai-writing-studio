@@ -1,7 +1,7 @@
 # Tableau de bord des atomisations
 
-> Régénéré le **30 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
-> État vérifié : 0 erreur bloquante · 2 737 atomes · 7 611 enregistrements · 95 sources déclarées.
+> Régénéré le **05 juin 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
+> État vérifié : 0 erreur bloquante · 2 770 atomes · 8 644 enregistrements · 97 sources déclarées.
 
 ---
 
@@ -9,43 +9,43 @@
 
 | Indicateur | Valeur |
 |---|---:|
-| Total sources déclarées | **95** |
-| Sources avec atomes | **79** |
-| Total atomes dans le corpus | **2 737** |
-| Total enregistrements (toutes types) | **7 611** |
+| Total sources déclarées | **97** |
+| Sources avec atomes | **82** |
+| Total atomes dans le corpus | **2 770** |
+| Total enregistrements (toutes types) | **8 644** |
 | Erreurs bloquantes (audit) | **0** ✅ |
-| Avertissements (audit) | 29 947 |
-| Dette migration v2 (atomes incomplets) | 2 643 / 2 737 |
+| Avertissements (audit) | 28 870 |
+| Dette migration v2 (atomes incomplets) | 2 530 / 2 770 |
 
 ### Répartition des enregistrements par type
 
 | Type | Nombre |
 |---|---:|
-| atom | 2 737 |
-| chronology | 476 |
-| concept | 456 |
-| metadata | 269 |
-| motif | 424 |
-| myth | 101 |
-| person | 305 |
-| quote | 556 |
+| atom | 2 770 |
+| chronology | 539 |
+| concept | 463 |
+| metadata | 274 |
+| motif | 427 |
+| myth | 102 |
+| person | 510 |
+| quote | 962 |
 | song | 110 |
-| source | 119 |
-| template | 360 |
-| unknown | 1 481 |
-| autres | 217 |
+| source | 124 |
+| template | 328 |
+| unknown | 1 404 |
+| autres | 631 |
 
 ### Répartition des sources par statut (registre.json)
 
 | Statut | Nb sources |
 |---|---:|
 | ✅ `atomisee` | 21 |
-| 🔄 `2e_passe` / seconde passe | 3 |
+| 🔄 `2e_passe` / seconde passe | 4 |
 | 🟢 `verifie` | 20 |
-| 📌 `fixee` / autre | 36 |
-| 🟡 `a_consolider` | 12 |
+| 📌 `fixee` / autre | 35 |
+| 🟡 `a_consolider` | 14 |
 | 🔵 Référence interne / externe | 3 |
-| **Total** | **95** (+ REGISTRY) |
+| **Total** | **97** |
 
 ---
 
@@ -128,10 +128,12 @@ _Colonnes : ID · Auteur · Titre abrégé · Statut registre · Pages couvertes
 | S78 | Nevarez | How Joy Division Came to Sound Like Manchester | 📌 Fixée | — | — | 20 | 14 | 10 | 9 | 4 | 🔵 Partielle (pag. NR) |
 | S37 | Morley | Joy Division: Piece by Piece | 📌 Fixée | 21–52 (sélectif) | — | 84 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S79 | Curtis/Savage | So This Is Permanence | 🟢 Vérifié | 2–101 (sélectif) | — | 133 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
-| S89 | Savage | England's Dreaming | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S89 | Savage | England's Dreaming | 📌 Fixée | — | — | 15 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S90 | Fisher | Ghosts of My Life | ✅ Atomisé | — | — | 12 | 5 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S91 | Reynolds | Retromania | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
 | S92 | Corbijn | Inwards and Onwards | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S93 | Parker | Reynolds/Retromania, 2012 (Discipline) | 📌 Fixée | 156–164 | — | 11 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S94 | Weissinger | Retromania review, JPMS 2012 | 📌 Fixée | 247–250 | — | 7 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 
 ---
 
@@ -242,12 +244,12 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 | Métrique | Valeur | Delta session |
 |---|---|---|
-| Erreurs bloquantes | **0** | -15 (était 15) |
-| Doublons d'identifiants | **0** | -14 (supprimés / renommés) |
-| YAML parse errors | **0** | -1 (corrigé master_concepts.md) |
-| Avertissements | 29 947 | +158 (était 29 789) |
-| unknown_yaml_blocks | 1 481 | +5 (était 1 476) |
-| v2 migration debt | 2 643 atomes | non démarrée (stratégique) |
+| Erreurs bloquantes | **0** | 0 (inchangé) |
+| Doublons d'identifiants | **0** | 0 (inchangé) |
+| YAML parse errors | **0** | 0 (inchangé) |
+| Avertissements | 28 870 | -1 077 (était 29 947) |
+| unknown_yaml_blocks | 1 404 | -77 (était 1 481) |
+| v2 migration debt | 2 530 atomes | -113 (était 2 643) |
 
 ---
 
@@ -255,11 +257,11 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 - **Pagination non déclarée** : les sources sans champ `pages_atomisees` dans `source.md` affichent "pag. NR". Des atomes existent mais la couverture est incalculable.
 - **Chapitres v2** : la colonne "Chap. v2" ne compte que les atomes déclarant explicitement un champ `chapitres:` (format v2). Les atomes v1 affichent "—".
-- **Dette migration v2** : 2 643 atomes sur 2 716 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
+- **Dette migration v2** : 2 530 atomes sur 2 770 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
 - **REGISTRY** : identifiant interne de référence pour les chansons, ajouté au registre le 26/05/2026.
 
 ---
 
-_Tableau régénéré le 30 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
+_Tableau régénéré le 05 juin 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
 
-_Synchronisation automatique morning_sync — 2026-05-30_
+_Synchronisation automatique morning_sync — 2026-06-05_
