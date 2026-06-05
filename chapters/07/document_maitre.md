@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -41,7 +41,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 5 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
@@ -93,7 +93,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S35-A075** — S35-A075 — Low : Bowie comme autre révolution de 1977  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A095** — S35-A095 — Morris théorise la section rythmique : pont, moteur, cœur battant  
-  Source :  ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A017** — S37-A017 — Devoto et Buzzcocks comme déclencheur d’une communauté locale  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `acteur_catalyseur` ; importance : `critique` ; preuve : `forte_pour_position_de_Morley`.
 - **S37-A065** — S37-A065 — Sections XLV-XLVII : Notes pochette Palatine — « Transmission », « Love Will Tear Us Apart », « Atmosphere »  

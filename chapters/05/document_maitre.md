@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -37,7 +37,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 4 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 10 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
@@ -77,9 +77,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S35-A012** — S35-A012 — *An Ideal for Living* : autoproduction et apprentissage par l’objet raté  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `objet_discographique` ; importance : `critique` ; preuve : `forte`.
 - **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
-  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
-  Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A009** — S37-A009 — Stiff Kittens / Warsaw : le nom comme indice d’instabilité  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `construction_nominale` ; importance : `critique` ; preuve : `moyenne`.
 - **S37-A027** — S37-A027 — Le manque d’une « central factory » avant Factory  

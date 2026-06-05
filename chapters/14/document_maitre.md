@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -52,7 +52,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 9 | 4 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 36 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 41 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 42 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
@@ -180,13 +180,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
 - **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
-  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
-  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
-  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
-  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A001** — S37-A001 — S37 comme source mixte : archive critique et mémoire réécrite  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte_pour_reception ; moyenne_pour_memoire`.
 - **S37-A007** — S37-A007 — La faveur prudente de Morley : amitié locale sans héroïsation  

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -28,7 +28,7 @@ generated_at: "2026-06-05T08:10:11"
 | Événements chronologiques | 3 |
 | Personnes | 14 |
 | Chansons | 4 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ generated_at: "2026-06-05T08:10:11"
 | S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 1 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
@@ -64,9 +65,9 @@ generated_at: "2026-06-05T08:10:11"
 - **S21-A010** — S21-A010 — Usage final : articuler S21 corpus primaire et S22 interprétation universitaire  
   Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_methodologique`.
 - **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
-  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
-  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A065** — S37-A065 — Sections XLV-XLVII : Notes pochette Palatine — « Transmission », « Love Will Tear Us Apart », « Atmosphere »  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `texte_editorial` ; importance : `critique` ; preuve : `texte_editorial_Factory_compilation`.
 - **S47-071** — S47-071 — Birmingham University, 2 mai 1980 : dernier concert  

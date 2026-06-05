@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -40,7 +40,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 34 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 47 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 36 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
@@ -115,25 +115,25 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
 - **S35-A086** — S35-A086 — Drummer and Driver : Morris entre par la voiture autant que par la batterie  
-  Source :  ; type : `scene_recrutement_logistique` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_recrutement_logistique` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
-  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A089** — S35-A089 — Eric’s Liverpool : première scène de Morris et découverte d’Ian frontman  
-  Source :  ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
-  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A091** — S35-A091 — « Living in the Ice Age » : écrire sans savoir, par intuition collective  
-  Source :  ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
-  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
-  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
-  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
-  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
-  Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A001** — S37-A001 — S37 comme source mixte : archive critique et mémoire réécrite  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte_pour_reception ; moyenne_pour_memoire`.
 - **S37-A002** — S37-A002 — Warsaw avant Joy Division : potentiel plutôt qu’accomplissement  
@@ -300,11 +300,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S35-A083** — S35-A083 — Rehearsal call : Morris devient batteur-chauffeur avant d’être membre  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_recrutement` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
 - **S35-A087** — S35-A087 — Strangeways : rencontre Hook / Sumner et sociologie ordinaire du groupe  
-  Source :  ; type : `rencontre_collective` ; importance : `majeure` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `rencontre_collective` ; importance : `majeure` ; preuve : `non qualifié`.
 - **S35-A098** — S35-A098 — « Girlfriends » : concurrence entre groupe et vie affective  
-  Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
 - **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
-  Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
 - **S37-A003** — S37-A003 — La critique locale comme pouvoir de consécration précoce  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `mediation_critique` ; importance : `majeure` ; preuve : `forte_pour_la_position_de_Morley`.
 - **S37-A004** — S37-A004 — Écriture critique et apprentissage musical : deux formations parallèles  

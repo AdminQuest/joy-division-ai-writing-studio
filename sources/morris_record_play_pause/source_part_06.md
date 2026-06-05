@@ -24,6 +24,7 @@ Le passage couvre le chapitre 10 (« Drummer and Driver »), le chapitre 11 (« 
 
 ```yaml
 id: S35-A086
+source_id: S35
 type_unite: scene_recrutement_logistique
 pages: "PDF p. 131-134"
 resume: "Morris emprunte la voiture familiale, transporte un kit disproportionné, passe chercher Ian à Barton Street, charge micro, câbles, TVM Sound PA et Vox column speakers, puis conduit vers Strangeways."
@@ -40,6 +41,7 @@ usage_livre: ["Chapitre 2", "Chapitre 8"]
 
 ```yaml
 id: S35-A087
+source_id: S35
 type_unite: rencontre_collective
 pages: "PDF p. 132-135"
 resume: "À Strangeways, Morris rencontre Hook et Sumner, découvre le surnom Hooky, répète les titres de la cassette, échange sur Macclesfield, les emplois ordinaires et le rôle encore flou de Terry Mason."
@@ -56,6 +58,7 @@ usage_livre: ["Chapitre 2", "Chapitre 14"]
 
 ```yaml
 id: S35-A088
+source_id: S35
 type_unite: scene_mediation_reseau
 pages: "PDF p. 135-138"
 resume: "Morris reçoit une proposition freelance de Record Mirror, est envoyé à Rafters voir Ed Banger and the Nosebleeds, rencontre un DJ hostile qui s’avère être Rob Gretton, puis discute de la scène mancunienne."
@@ -72,6 +75,7 @@ usage_livre: ["Chapitre 2", "Chapitre 9", "Chapitre 14"]
 
 ```yaml
 id: S35-A089
+source_id: S35
 type_unite: scene_live_apprentissage
 pages: "PDF p. 138-140"
 resume: "Warsaw obtient une audition matinale à Eric’s en support de X-Ray Spex ; Morris joue son premier concert avec le groupe, juge l’expérience exaltante et découvre Ian beaucoup plus animé que lors des répétitions."
@@ -88,6 +92,7 @@ usage_livre: ["Chapitre 2", "Chapitre 4", "Chapitre 12"]
 
 ```yaml
 id: S35-A090
+source_id: S35
 type_unite: scene_conflit_scene_locale
 pages: "PDF p. 140-142"
 resume: "À Rafters, Warsaw s’oppose à Fast Breeder sur l’ordre de passage ; la tension monte, Ian se met en colère, le groupe joue tard, cathartique et agressif, et Rob Gretton est suffisamment impressionné pour envisager de devenir manager."
@@ -104,6 +109,7 @@ usage_livre: ["Chapitre 2", "Chapitre 6", "Chapitre 9", "Chapitre 14"]
 
 ```yaml
 id: S35-A091
+source_id: S35
 type_unite: processus_creatif_chanson
 pages: "PDF p. 143-145"
 resume: "Les premiers morceaux naissent sans méthode savante : « Living in the Ice Age » part d’un désir de rythme Glitter Band, d’une basse propulsive, d’un riff de guitare et de mots griffonnés par Ian."
@@ -120,6 +126,7 @@ usage_livre: ["Chapitre 2", "Chapitre 3", "Chapitre 4"]
 
 ```yaml
 id: S35-A092
+source_id: S35
 type_unite: lecture_generationnelle
 pages: "PDF p. 144-145"
 resume: "Morris relie la création collective à l’impossibilité masculine de parler des émotions dans les années 1970, à l’héritage de guerre, à l’âge nucléaire et au discrédit de l’autorité."
@@ -136,6 +143,7 @@ usage_livre: ["Chapitre 1", "Chapitre 2", "Chapitre 11", "Chapitre 12"]
 
 ```yaml
 id: S35-A093
+source_id: S35
 type_unite: archive_live
 pages: "PDF p. 145"
 resume: "Le 14 septembre 1977, Warsaw joue au Middlesbrough Rock Garden avec les Rezillos ; Morris décrit un bon concert, un public rude et la limite de la vidéo, incapable de restituer l’ambiance."
@@ -152,6 +160,7 @@ usage_livre: ["Chapitre 2", "Chapitre 8", "Chapitre 14"]
 
 ```yaml
 id: S35-A094
+source_id: S35
 type_unite: controverse_scene_live
 pages: "PDF p. 145-149"
 resume: "Lors des dernières soirées de l’Electric Circus, Warsaw obtient sa place par insistance ; Bernard lance sur scène une phrase sur Rudolf Hess, liée à The Loneliest Man in the World et au numéro 31G-350125, futur « Warsaw »."
@@ -168,6 +177,7 @@ usage_livre: ["Chapitre 2", "Chapitre 5", "Chapitre 11", "Chapitre 14"]
 
 ```yaml
 id: S35-A095
+source_id: S35
 type_unite: theorie_instrumentale
 pages: "PDF p. 150-151"
 resume: "Morris formule sa conception de la batterie : pont entre basse et guitare, colle du groupe, puis moteur et cœur battant avec la basse. Il reconnaît avoir d’abord trop rempli l’espace avant de comprendre que moins signifie souvent mieux."
@@ -184,6 +194,7 @@ usage_livre: ["Chapitre 3", "Chapitre 6", "Chapitre 7"]
 
 ```yaml
 id: S35-A096
+source_id: S35
 type_unite: processus_creatif_rythmique
 pages: "PDF p. 151"
 resume: "Les chansons partent souvent d’une demande simple : un morceau rapide et dansant, un riff de batterie rapide ou tom-heavy. Morris traduit ces consignes vers « Ice Age », « Wilderness », « Komakino » ou « Dead Souls »."
@@ -200,6 +211,7 @@ usage_livre: ["Chapitre 3", "Chapitre 6"]
 
 ```yaml
 id: S35-A097
+source_id: S35
 type_unite: lieu_structurant
 pages: "PDF p. 151-152"
 resume: "Morris décrit T. J. Davidson’s dans un vieux moulin de Little Peter Street : couloir, escaliers, cloisons, Rockwool, froid, chauffage de fortune, placard rempli de canettes d’urine et divergence progressive entre les parties de Hook et Sumner."
@@ -216,6 +228,7 @@ usage_livre: ["Chapitre 1", "Chapitre 2", "Chapitre 3", "Chapitre 13"]
 
 ```yaml
 id: S35-A098
+source_id: S35
 type_unite: tension_domestique
 pages: "PDF p. 153-155"
 resume: "Morris décrit vêtements, postures et vie de pub, puis la plainte récurrente selon laquelle le groupe compte plus que la petite amie."
@@ -232,6 +245,7 @@ usage_livre: ["Chapitre 2", "Chapitre 10", "Chapitre 12"]
 
 ```yaml
 id: S35-A099
+source_id: S35
 type_unite: evenement_domestique_live
 pages: "PDF p. 156-157"
 resume: "Le 13 octobre 1977, lors d’un concert à Rafters avec les Yachts, Stephanie boit avec Ian, s’effondre aux toilettes ; Morris l’extrait, la laisse dans la voiture, retourne jouer, puis engage une rupture maladroite."
@@ -249,6 +263,7 @@ usage_livre: ["Chapitre 10", "Chapitre 12"]
 
 ```yaml
 id: S35-A100
+source_id: S35
 type_unite: prudence_sante_mentale
 pages: "PDF p. 158-159"
 resume: "Morris décrit ses antidépresseurs, l’effet de vide intérieur, les crises de Stephanie, puis reconnaît rétrospectivement que ses sautes d’humeur tiennent probablement aussi à l’usage de substances illégales."
@@ -266,6 +281,7 @@ usage_livre: ["Chapitre 12"]
 
 ```yaml
 id: S35-A101
+source_id: S35
 type_unite: scene_domestique
 pages: "PDF p. 159"
 resume: "Morris raconte que sa mère verrouille parfois certaines portes d’Ivy Lane pour le tenir à distance ou le punir en lui interdisant l’accès à sa batterie."
@@ -282,6 +298,7 @@ usage_livre: ["Chapitre 2", "Chapitre 3", "Chapitre 12"]
 
 ```yaml
 id: S35-A102
+source_id: S35
 type_unite: decision_strategique_groupe
 pages: "PDF p. 160"
 resume: "Au début de « Joy Division, Never Heard of You », Morris identifie deux objectifs : obtenir un concert à Londres et sortir un disque. Il précise que les décisions viennent surtout de Ian, mais pas exclusivement, le groupe restant une démocratie de fait."

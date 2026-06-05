@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -39,7 +39,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 9 | 1 |
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 3 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 5 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 4 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
@@ -100,9 +100,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S35-A070** — S35-A070 — Être dans un groupe, leçon 1 : la conviction manque plus que l’argent  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `principe_groupe` ; importance : `critique` ; preuve : `interprétation autobiographique rétrospective`.
 - **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
-  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
-  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A054** — S37-A054 — NME live review Univ. of London, 8 février 1980 : Curtis « trapped butterfly »  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `recension_contemporaine` ; importance : `critique` ; preuve : `forte_texte_contemporain`.
 - **S37-A056** — S37-A056 — Sections XXVIII-XXIX : Closer — contexte, enregistrement, notes de pochette réécrites  

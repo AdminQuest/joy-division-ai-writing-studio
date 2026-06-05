@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -35,7 +35,7 @@ generated_at: "2026-06-05T08:10:11"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 11 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 6 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
@@ -82,9 +82,9 @@ generated_at: "2026-06-05T08:10:11"
 - **S35-A081** — S35-A081 — Ian Curtis comme homme d’idées : plan, scène et adhésion immédiate  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `interpretation_personne` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A089** — S35-A089 — Eric’s Liverpool : première scène de Morris et découverte d’Ian frontman  
-  Source :  ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A091** — S35-A091 — « Living in the Ice Age » : écrire sans savoir, par intuition collective  
-  Source :  ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A045** — S37-A045 — North by North West sleeve notes (sect. XIII) : Rafters 1978, Factory Club, Curtis en performance  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `analyse_historique` ; importance : `critique` ; preuve : `retrospective_forte`.
 - **S37-A048** — S37-A048 — NME live review Joy Division, Manchester, 4 septembre 1978 : « learnt to sculpt »  

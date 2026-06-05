@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -42,7 +42,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 3 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 14 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
@@ -98,7 +98,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S34-A010** — S34-A010 — Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
-  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A021** — S37-A021 — Le réseau des lieux : Electric Circus, Rafters, Oaks, Ranch Bar  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `lieux_scene` ; importance : `critique` ; preuve : `forte`.
 - **S37-A029** — S37-A029 — Pop culture et transformation urbaine : une causalité séduisante mais fragile  

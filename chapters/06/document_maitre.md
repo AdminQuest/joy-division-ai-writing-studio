@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -37,7 +37,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 5 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 9 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 12 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 2 | 0 |
@@ -93,11 +93,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S35-A019** — S35-A019 — *Closer* : intensité tardive et clôture sans téléologie simple  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_fin` ; importance : `critique` ; preuve : `forte`.
 - **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
-  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A095** — S35-A095 — Morris théorise la section rythmique : pont, moteur, cœur battant  
-  Source :  ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A096** — S35-A096 — « Fast dancey » et « jungly tom » : consignes pauvres, formes durables  
-  Source :  ; type : `processus_creatif_rythmique` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `processus_creatif_rythmique` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A052** — S37-A052 — Réception d'Unknown Pleasures : « le plus grand album jamais fait »  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `analyse_critique` ; importance : `critique` ; preuve : `retrospective_forte`.
 - **S37-A067** — S37-A067 — Sections LI-LIII : « Listen to the Silence » (1997) — Joy Division comme Elvis de Morley pour les ténèbres  

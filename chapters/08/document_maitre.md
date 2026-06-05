@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -43,7 +43,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 7 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 10 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
@@ -94,11 +94,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
 - **S35-A086** — S35-A086 — Drummer and Driver : Morris entre par la voiture autant que par la batterie  
-  Source :  ; type : `scene_recrutement_logistique` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_recrutement_logistique` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
-  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
-  Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A010** — S37-A010 — Première scène Warsaw : Electric Circus, 29 mai 1977  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `concert_reception` ; importance : `critique` ; preuve : `forte_pour_review_contemporaine`.
 - **S37-A021** — S37-A021 — Le réseau des lieux : Electric Circus, Rafters, Oaks, Ranch Bar  
