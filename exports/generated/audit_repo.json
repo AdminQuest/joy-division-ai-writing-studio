@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-05T12:35:51",
+  "generated_at": "2026-06-05T15:13:05",
   "summary": {
     "records_total": 8644,
     "records_by_kind": {
       "unknown": 1404,
       "source": 124,
       "metadata": 274,
-      "atom": 2770,
+      "atom": 2769,
       "quote": 962,
       "concept": 463,
       "motif": 427,
@@ -18,12 +18,12 @@
       "place": 215,
       "quote_batch": 1,
       "rules": 1,
-      "song": 110,
+      "song": 111,
       "session": 26
     },
-    "diagnostics_total": 28853,
+    "diagnostics_total": 28839,
     "errors": 0,
-    "warnings": 28853,
+    "warnings": 28839,
     "sources_declared_in_registre_json": 97,
     "sources_used_in_records": 82,
     "sources_exported": 82,
@@ -32,7 +32,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2770,
+    "atom": 2769,
     "chronology": 539,
     "concept": 463,
     "concert": 388,
@@ -45,7 +45,7 @@
     "quote_batch": 1,
     "rules": 1,
     "session": 26,
-    "song": 110,
+    "song": 111,
     "source": 124,
     "template": 328,
     "unknown": 1404
@@ -310,7 +310,7 @@
       "source": 2
     },
     "S45": {
-      "atom": 205,
+      "atom": 204,
       "quote": 108,
       "chronology": 65,
       "person": 63,
@@ -318,7 +318,7 @@
       "unknown": 13,
       "metadata": 1,
       "session": 5,
-      "song": 5
+      "song": 6
     },
     "S46": {
       "source": 1,
@@ -781,8 +781,8 @@
     "Chapitre 12": 673,
     "Chapitre 13": 376,
     "Chapitre 14": 2093,
-    "Chapitre 2": 769,
-    "Chapitre 3": 699,
+    "Chapitre 2": 770,
+    "Chapitre 3": 700,
     "Chapitre 4": 603,
     "Chapitre 5": 608,
     "Chapitre 6": 796,
@@ -918,10 +918,10 @@
   "issue_categories": {
     "field_type_error": 746,
     "invalid_controlled_value": 2622,
-    "missing_required_field": 8029,
+    "missing_required_field": 8024,
     "schema_warning": 492,
     "unknown_yaml_block": 1404,
-    "v2_migration_debt": 15560
+    "v2_migration_debt": 15551
   },
   "top_files_by_issue_count": [
     [
@@ -12281,10 +12281,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2770,
+    "atoms_total": 2769,
     "atoms_v2_complete": 240,
-    "atoms_v2_incomplete": 2530,
-    "v2_missing_field_warnings": 15560
+    "atoms_v2_incomplete": 2529,
+    "v2_missing_field_warnings": 15551
   },
   "source_registry": {
     "declared_but_unused": [
@@ -13302,8 +13302,8 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 471,
-        "atoms": 205,
+        "records": 472,
+        "atoms": 204,
         "quotes": 108,
         "chronology": 65,
         "files": [
@@ -237599,118 +237599,6 @@
       "category": "v2_migration_debt",
       "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
       "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA",
-      "message": "Missing required field: concepts_derives",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: auteur",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: type_unite",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: concepts",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: statut",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: fiabilite",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: role_argumentatif",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: niveau_preuve",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: stabilite",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: importance",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: risque_surinterpretation",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: liens_interchapitres",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: liens_citations",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
-      "message": "Missing required field: motifs",
-      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "v2_migration_debt",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },

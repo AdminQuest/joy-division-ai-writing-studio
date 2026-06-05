@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-05T12:35:51`
+Généré le : `2026-06-05T15:13:05`
 
 ## 1. Verdict
 
 Le repo est techniquement exploitable, mais 1404 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
+La dette principale reste la migration v2 : 2529 atome(s) incomplet(s) sur 2769.
 
 ## 2. Synthèse chiffrée
 
 - Enregistrements : 8644
 - Erreurs : 0
-- Avertissements : 28853
+- Avertissements : 28839
 - Sources déclarées : 97
 - Sources utilisées : 82
 - Sources exportées : 82
@@ -22,7 +22,7 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2770 |
+| atom | 2769 |
 | chronology | 539 |
 | concept | 463 |
 | concert | 388 |
@@ -35,7 +35,7 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 | quote_batch | 1 |
 | rules | 1 |
 | session | 26 |
-| song | 110 |
+| song | 111 |
 | source | 124 |
 | template | 328 |
 | unknown | 1404 |
@@ -46,10 +46,10 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 |---|---:|
 | field_type_error | 746 |
 | invalid_controlled_value | 2622 |
-| missing_required_field | 8029 |
+| missing_required_field | 8024 |
 | schema_warning | 492 |
 | unknown_yaml_block | 1404 |
-| v2_migration_debt | 15560 |
+| v2_migration_debt | 15551 |
 
 ## 5. Erreurs bloquantes
 
@@ -124,10 +124,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 2770
+- Atomes : 2769
 - Atomes v2 complets : 240
-- Atomes v2 incomplets : 2530
-- Avertissements de champs v2 manquants : 15560
+- Atomes v2 incomplets : 2529
+- Avertissements de champs v2 manquants : 15551
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

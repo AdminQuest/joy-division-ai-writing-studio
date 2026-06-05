@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T12:35:51",
+  "generated_at": "2026-06-05T15:13:05",
   "status": "warning",
   "summary": {
     "records_total": 8644,
@@ -7,7 +7,7 @@
       "unknown": 1404,
       "source": 124,
       "metadata": 274,
-      "atom": 2770,
+      "atom": 2769,
       "quote": 962,
       "concept": 463,
       "motif": 427,
@@ -19,12 +19,12 @@
       "place": 215,
       "quote_batch": 1,
       "rules": 1,
-      "song": 110,
+      "song": 111,
       "session": 26
     },
-    "diagnostics_total": 28853,
+    "diagnostics_total": 28839,
     "errors": 0,
-    "warnings": 28853,
+    "warnings": 28839,
     "sources_declared_in_registre_json": 97,
     "sources_used_in_records": 82,
     "sources_exported": 82,
@@ -1048,8 +1048,8 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 471,
-        "atoms": 205,
+        "records": 472,
+        "atoms": 204,
         "quotes": 108,
         "chronology": 65,
         "files": [
@@ -169539,90 +169539,6 @@
       "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: auteur",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: type_unite",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: concepts",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: statut",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: role_argumentatif",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: niveau_preuve",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: stabilite",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: importance",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: risque_surinterpretation",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: motifs",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
-    },
-    {
-      "level": "warning",
-      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
-      "message": "Missing required field: concepts_derives",
-      "record_id": "SONG-S45-SHADOWPLAY-RCA"
     },
     {
       "level": "warning",

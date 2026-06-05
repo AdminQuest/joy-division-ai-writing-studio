@@ -23,8 +23,8 @@ Hors perimetre MVP : registres P1, relations transversales completes, sources, e
 | Documents cohérents | 1 |
 | Documents partiellement cohérents | 13 |
 | Documents non cohérents | 0 |
-| Écarts détectés | 81 |
-| Identifiants introuvables | 1 |
+| Écarts détectés | 80 |
+| Identifiants introuvables | 0 |
 | Registres absents | 0 |
 | Compteurs incohérents | 0 |
 | Familles non couvertes | 51 |
@@ -32,7 +32,7 @@ Hors perimetre MVP : registres P1, relations transversales completes, sources, e
 | Libellés divergents | 29 |
 | Manifestes incohérents | 0 |
 | people visibles / retrouvés | 477 / 477 |
-| songs visibles / retrouvés | 236 / 235 |
+| songs visibles / retrouvés | 238 / 238 |
 | chronology visibles / retrouvés | 413 / 413 |
 | quotes visibles / retrouvés | 511 / 511 |
 | concerts visibles / retrouvés | 0 / 0 |
@@ -42,9 +42,9 @@ Hors perimetre MVP : registres P1, relations transversales completes, sources, e
 
 | DM | Statut | Registres P0 retrouvés | Écarts MVP | Familles hors MVP |
 |----|--------|------------------------|------------|-------------------|
-| `chapters/01/document_maitre.md` | partiellement cohérent | people: 24/24, songs: 1/2, chronology: 15/15, quotes: 38/38, concerts: 0/0, sessions: 0/0 | identifiant introuvable: 1, libellé divergent: 2 | concepts: 12, motifs: 3, myths: 3, relations: 10 |
-| `chapters/02/document_maitre.md` | partiellement cohérent | people: 34/34, songs: 10/10, chronology: 40/40, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 2 | concepts: 5, motifs: 2, myths: 6, relations: 2 |
-| `chapters/03/document_maitre.md` | partiellement cohérent | people: 33/33, songs: 26/26, chronology: 25/25, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 3 | concepts: 12, myths: 6, relations: 4 |
+| `chapters/01/document_maitre.md` | partiellement cohérent | people: 24/24, songs: 2/2, chronology: 15/15, quotes: 38/38, concerts: 0/0, sessions: 0/0 | libellé divergent: 2 | concepts: 12, motifs: 3, myths: 3, relations: 10 |
+| `chapters/02/document_maitre.md` | partiellement cohérent | people: 34/34, songs: 11/11, chronology: 40/40, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 2 | concepts: 5, motifs: 2, myths: 6, relations: 2 |
+| `chapters/03/document_maitre.md` | partiellement cohérent | people: 33/33, songs: 27/27, chronology: 25/25, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 3 | concepts: 12, myths: 6, relations: 4 |
 | `chapters/04/document_maitre.md` | partiellement cohérent | people: 40/40, songs: 34/34, chronology: 40/40, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 1 | concepts: 5, myths: 5, relations: 2 |
 | `chapters/05/document_maitre.md` | partiellement cohérent | people: 40/40, songs: 7/7, chronology: 40/40, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 5 | concepts: 4, motifs: 4, myths: 7, relations: 1 |
 | `chapters/06/document_maitre.md` | partiellement cohérent | people: 40/40, songs: 28/28, chronology: 40/40, quotes: 40/40, concerts: 0/0, sessions: 0/0 | libellé divergent: 2 | concepts: 5, motifs: 1, myths: 4 |
@@ -61,7 +61,6 @@ Hors perimetre MVP : registres P1, relations transversales completes, sources, e
 
 - **libellé divergent** — famille `people` — `chapters/01/document_maitre.md` : PERS-S85-001: libelle visible `ACTEURS` ; libelle exporte `Colin Malcolm`.
 - **libellé divergent** — famille `people` — `chapters/01/document_maitre.md` : PERS-S85-006: libelle visible `ACTEURS` ; libelle exporte `Lou Stoppard / Adam Murray`.
-- **identifiant introuvable** — famille `songs` — `chapters/01/document_maitre.md` : SONG-S45-SHADOWPLAY-RCA est visible dans le DM mais absent de exports/generated/songs.json.
 - **famille non couverte** — famille `concepts` — `chapters/01/document_maitre.md` : 12 identifiant(s) visibles pour la famille `concepts` hors MVP.
 - **famille non couverte** — famille `motifs` — `chapters/01/document_maitre.md` : 3 identifiant(s) visibles pour la famille `motifs` hors MVP.
 - **famille non couverte** — famille `myths` — `chapters/01/document_maitre.md` : 3 identifiant(s) visibles pour la famille `myths` hors MVP.
