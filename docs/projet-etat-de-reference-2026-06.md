@@ -6,7 +6,9 @@ Le projet est aujourd'hui un atelier documentaire et rédactionnel consacré au 
 
 Le projet n'est pas un simple dépôt de notes, ni une application unique, ni un studio d'enrichissement automatisé. Il n'est pas encore une architecture finale unifiée, ni une chaîne de publication définitive. Les évolutions futures doivent respecter les décisions stabilisées avant d'ajouter de nouvelles surfaces.
 
-# Architecture stabilisée
+# Grille de lecture fonctionnelle non décisionnelle
+
+Cette grille ne remplace pas la doctrine M0 stabilisée autour de Corpus / RAG / Manuscript / documents maîtres. Elle constitue uniquement un vocabulaire provisoire de travail pour réfléchir aux futurs espaces, notamment dans l'hypothèse d'une unification ultérieure.
 
 ```text
 Collection
@@ -24,46 +26,56 @@ Vigie
 
 | Champ | Valeur |
 | --- | --- |
-| Fonction | Rassembler les sources, atomes, références, registres et matériaux documentaires. |
-| Périmètre | `sources/`, `registers/`, `data/registre.json`, conventions et schemas. |
-| Objets principaux | Sources, atomes, citations, personnes, lieux, concerts, chansons, images, organisations, concepts, motifs, mythes, sessions, relations. |
-| Limites | Les données restent hétérogènes par nature ; les écarts de volumétrie et les diagnostics existants relèvent de la fiabilisation, pas d'une refonte M0. |
+| Statut | Nom de travail possible, non décisionnel. |
+| Rattachement M0 | Fonds personnel ou matériaux externes potentiels, distincts du Corpus tant qu'ils ne sont pas intégrés documentairement. |
+| Fonction envisagée | Rassembler ce qui pourrait devenir matière documentaire après qualification. |
+| Périmètre possible | Documents personnels, médias, archives, notes ou références encore hors corpus structuré. |
+| Objets principaux | Matériaux à qualifier avant intégration éventuelle : sources potentielles, médias, références, traces de collecte. |
+| Limites | La Collection n'est pas le Corpus et ne possède pas d'autorité documentaire tant qu'elle n'est pas structurée, sourcée et intégrée. |
 
 ## Usine
 
 | Champ | Valeur |
 | --- | --- |
-| Fonction | Produire les exports, documents maîtres, arêtes, audits et snapshots depuis le corpus. |
-| Périmètre | `tools/build_all.py`, `tools/build_registers.py`, `tools/build_master_docs.py`, `tools/build_edges.py`, `tools/audit_repo.py`, `tools/generate_status.py`. |
-| Objets principaux | Exports JSON/CSV, documents maîtres, manifest, index, diagnostics, audit repo, `STATUS.md`. |
-| Limites | `tools/generate_status.py` reste le producteur direct de `STATUS.md`; `tools/build_all.py` reste le contrôle global du pipeline documentaire mais ne produit pas directement `STATUS.md`. |
+| Statut | Nom de travail possible, non décisionnel. |
+| Rattachement M0 | Espace possible pour l'enrichissement documentaire industrialisé, explicitement reporté hors M0. |
+| Fonction envisagée | Préparer de futurs flux d'ajout, transformation ou contrôle avant intégration au corpus. |
+| Périmètre possible | Formulaires d'ajout, génération d'identifiants, contrôles avant commit, automatisations futures. |
+| Objets principaux | Brouillons d'ajout, propositions structurées, validations préalables, PR automatisables. |
+| Limites | L'Usine ne doit pas être ouverte en M0 ; elle relève de M2 ou d'une décision ultérieure selon le périmètre exact. |
 
 ## Entrepôt
 
 | Champ | Valeur |
 | --- | --- |
-| Fonction | Conserver les vues et artefacts exploitables par les applications, audits et outils d'exploration. |
-| Périmètre | `exports/generated/`, `chapters/*/document_maitre.md`, `chapters/master_docs.json`, `exports/generated/master_docs_index.json`. |
-| Objets principaux | Exports générés, diagnostics, audits, documents maîtres, manifest, index et arêtes. |
-| Limites | Les artefacts générés ne doivent pas être corrigés manuellement ; tout écart doit être régénéré par l'outil canonique ou signalé. |
+| Statut | Nom de travail possible, non décisionnel. |
+| Rattachement M0 | Espace Corpus + registres + RAG, c'est-à-dire le socle documentaire et ses vues d'exploration. |
+| Fonction envisagée | Conserver et exposer les objets structurés et les vues exploitables du corpus. |
+| Périmètre possible | `sources/`, `registers/`, `exports/generated/`, RAG Studio, documents de navigation. |
+| Objets principaux | Sources, atomes, registres, exports générés, index, fragments RAG, diagnostics et audits. |
+| Limites | L'Entrepôt n'est pas une nouvelle architecture décidée ; il ne remplace pas la distinction Corpus / RAG / documents maîtres. |
 
 ## Atelier
 
 | Champ | Valeur |
 | --- | --- |
-| Fonction | Préparer la rédaction du manuscrit à partir du corpus, des documents maîtres et des explorations RAG. |
-| Périmètre | Documents maîtres, notes rédactionnelles, prompts, usage de Manuscript / Forge / Atelier comme espace de production du manuscrit. |
-| Objets principaux | Dossiers de chapitre, matériaux de rédaction, prompts, synthèses, livrables conservés ou temporaires. |
-| Limites | L'Atelier ne remplace pas le corpus et ne devient pas source de vérité documentaire. Les choix rédactionnels doivent rester séparés de l'autorité documentaire. |
+| Statut | Nom de travail possible, non décisionnel. |
+| Rattachement M0 | Espace de production du manuscrit, incluant documents maîtres, exports RAG, Forge et usages Manuscript. |
+| Fonction envisagée | Préparer et produire la rédaction à partir de matériaux documentaires stabilisés. |
+| Périmètre possible | Documents maîtres, dossiers de chapitre, prompts, notes rédactionnelles, synthèses et livrables de rédaction. |
+| Objets principaux | Manuscrit, plans, scènes, chapitres, matériaux de rédaction, vues dérivées du corpus. |
+| Limites | L'Atelier ne remplace pas le Corpus et ne devient pas source de vérité documentaire. |
 
 ## Vigie
 
 | Champ | Valeur |
 | --- | --- |
-| Fonction | Observer la cohérence du socle et signaler les écarts avant publication ou merge. |
-| Périmètre | `tools/check_generated_sync.py`, validateurs, audits, GitHub Actions, revue humaine. |
-| Objets principaux | Checks CI, diagnostics, audits, statuts de validation, réserves documentées. |
-| Limites | La CI dépend de GitHub Actions et n'est pas un artefact versionné. Les décisions de clôture ou de passage de jalon restent humaines. |
+| Statut | Nom de travail possible, non décisionnel. |
+| Rattachement M0 | Pilotage, audits, qualité, roadmap et décisions de passage de jalon. |
+| Fonction envisagée | Observer la cohérence du projet, documenter les écarts et préparer les décisions humaines. |
+| Périmètre possible | Audits, validations, checks CI, roadmap, documents de statut, revues humaines. |
+| Objets principaux | `STATUS.md`, audits, diagnostics, critères de sortie, décisions de clôture ou de report. |
+| Limites | La Vigie n'est pas un mécanisme automatique de décision ; elle fournit des preuves et signale des réserves. |
 
 # Doctrine documentaire stabilisée
 
@@ -71,21 +83,16 @@ Vigie
 - RAG = outil d'exploration du corpus.
 - Documents maîtres = vues rédactionnelles persistantes du corpus exporté.
 - `tools/build_master_docs.py` = producteur technique actuel des documents maîtres.
-- Forge / Atelier = espace de production du manuscrit.
+- Manuscript = outil rédactionnel.
 - Documentation et rédaction restent séparées.
-- Les vues générées n'ont pas d'autorité documentaire propre.
-- Les informations rédactionnelles doivent rester traçables vers le corpus lorsqu'elles portent un fait, une citation, une relation ou une interprétation appuyée.
 
 # Décisions majeures acquises
 
-- Le corpus est la source de vérité documentaire.
-- Les documents maîtres ne sont ni des sources, ni des preuves autonomes, ni des registres canoniques.
-- Le RAG explore, filtre, regroupe et assemble des vues du corpus, mais ne produit pas techniquement les documents maîtres.
-- Les objets persistants sont distingués des vues générées.
-- Les artefacts générés sont produits par les outils canoniques et ne doivent pas être corrigés manuellement.
-- `tools/generate_status.py` produit directement `STATUS.md`.
-- `tools/build_all.py` reste le contrôle global du pipeline registres / documents maîtres / exports / audits.
-- M0 est clôturé et ne doit pas être rouvert pour corriger des réserves déjà acceptées comme non bloquantes.
+- Corpus = socle documentaire.
+- RAG = outil d'exploration du corpus.
+- Manuscript = outil rédactionnel.
+- Documents maîtres = vues rédactionnelles persistantes du corpus exporté.
+- `tools/build_master_docs.py` = producteur technique actuel des documents maîtres.
 
 # M0
 
@@ -93,7 +100,7 @@ Vigie
 | --- | --- |
 | Objectif | Stabiliser le socle existant et rendre lisible l'état réel du projet. |
 | Livrables | `docs/m0-architecture-corpus-rag-manuscript.md`, `docs/m0-etat-du-socle.md`, `docs/m0-audit-sortie.md`, `docs/m0-cloture.md`. |
-| Résultat | Architecture, inventaire, dépendances, critères de sortie et réserves non bloquantes documentés. |
+| Résultat | Doctrine, inventaire, dépendances, critères de sortie et réserves non bloquantes documentés. |
 | Date de clôture | 2026-06-05, à compter de la PR de clôture M0. |
 
 # M1
