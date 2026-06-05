@@ -183,13 +183,19 @@ Niveaux utilisés :
 - Les citations possèdent souvent un statut explicite `candidate`, `à vérifier`, `a_verifier` ou équivalent ; ce n'est pas une anomalie de statut, mais cela limite la réutilisation sans vérification.
 - Les liens interchapitres sont mentionnés comme point de vigilance, mais ils ne sont pas audités ici.
 
+## Réserves M1
+
+L'audit ne démontre pas l'existence d'une information non traçable passage par passage. Il constate seulement que les documents maîtres ne disposent pas aujourd'hui d'une table explicite passage -> source / atome / registre / export, ce qui limite la qualification de la traçabilité au niveau élevé.
+
+Cette réserve vaut pour les 14 documents maîtres. Elle signale une limite de granularité de l'audit pilote, pas une défaillance M1 démontrée sur un passage précis.
+
+L'audit constate également que le rattachement aux exports est surtout implicite par le pipeline et les volumétriques, sans lien sectionnel direct vers les fichiers export. Ce point limite la vérification export -> DM, mais il n'est pas classé comme défaillance démontrée faute d'information précise identifiée comme non traçable vers un export.
+
 ## Défaillances M1 rencontrées
 
 | Défaillance M1 | Observation | Portée | Bloquant pour poursuivre M1 ? |
 | --- | --- | --- | --- |
-| Traçabilité | Absence de table explicite reliant chaque passage du document maître à ses sources, atomes, registres et exports. | Tous les documents maîtres. | Non, mais cela empêche de qualifier la traçabilité comme élevée. |
 | Traçabilité | Présence d'atomes affichant `Source :  ;`, donc source non exposée dans le DM pour ces entrées. | Observé dans les 14 documents maîtres, avec un nombre variable d'occurrences. | Non pour l'audit pilote, mais à traiter avant un audit de traçabilité fin. |
-| Traçabilité | Rattachement aux exports implicite par le pipeline et les volumétriques, sans lien sectionnel direct vers les fichiers export. | Tous les documents maîtres. | Non, mais limite la vérification export -> DM. |
 
 Défaillances non retenues dans cet audit :
 
