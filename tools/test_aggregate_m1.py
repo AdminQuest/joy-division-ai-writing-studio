@@ -223,5 +223,18 @@ class TestAuditValidationStatus(unittest.TestCase):
         self.assertEqual(state, "documenté — non validé par le contrôle associé")
 
 
+class TestRunExitStatus(unittest.TestCase):
+    def test_non_executed_control_is_failure_state(self) -> None:
+        status = aggregate_m1.ControlStatus(
+            "DM -> atomes",
+            Path("reports/m1/dm_atoms_traceability.md"),
+            "non exécuté",
+            "○",
+        )
+
+        self.assertIn(status.state, aggregate_m1.FAILURE_STATES)
+        self.assertIn("**M1 STATUS** : non conforme", aggregate_m1.render_report([status]))
+
+
 if __name__ == "__main__":
     unittest.main()

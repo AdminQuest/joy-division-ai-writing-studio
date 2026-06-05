@@ -17,6 +17,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 REPORT_DIR = REPO_ROOT / "reports" / "m1"
 DEFAULT_OUTPUT = REPORT_DIR / "status_m1.md"
+FAILURE_STATES = {"non conforme", "rapport illisible", "non exécuté"}
 
 
 @dataclass(frozen=True)
@@ -366,7 +367,7 @@ def audit_validation_status(audit: KnownAudit, status_by_name: dict[str, Control
 def render_report(statuses: list[ControlStatus]) -> str:
     status_by_name = {status.name: status for status in statuses}
     global_state = "conforme"
-    if any(status.state in {"non conforme", "rapport illisible"} for status in statuses):
+    if any(status.state in FAILURE_STATES for status in statuses):
         global_state = "non conforme"
     elif any(status.state in {"conforme avec réserve", "non exécuté", "inconnu"} for status in statuses):
         global_state = "conforme avec réserve"
@@ -446,7 +447,7 @@ def run(output: Path) -> int:
     print(f"Rapport: {rel(output)}")
     for status in statuses:
         print(f"{status.symbol} {status.name}: {status.state}")
-    return 1 if any(status.state in {"non conforme", "rapport illisible"} for status in statuses) else 0
+    return 1 if any(status.state in FAILURE_STATES for status in statuses) else 0
 
 
 def main(argv: list[str] | None = None) -> int:
