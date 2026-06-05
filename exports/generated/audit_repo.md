@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-04T15:01:29`
+Généré le : `2026-06-05T05:05:42`
 
 ## 1. Verdict
 
@@ -101,7 +101,7 @@ Aucune.
 
 ## 7. Registre des sources
 
-Aucune source utilisée n’est absente de `data/registre.json`.
+Aucune source utilisée n'est absente de `data/registre.json`.
 
 Sources déclarées mais non utilisées :
 - REGISTRY-CONCERTS — joydiv.org/concerts.htm — reference_externe
@@ -109,10 +109,10 @@ Sources déclarées mais non utilisées :
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — verifie
 - S03 — Demographia, England Largest Cities, s.d. — a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — verifie
-- S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — a_consolider
+- S18 — Fédida, Manchester : L'éveil d'une scène musicale, 2021 — a_consolider
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — a_consolider
-- S25 — Factory Records, philosophie d’indépendance, 1978–1992 — a_consolider
+- S25 — Factory Records, philosophie d'indépendance, 1978–1992 — a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — a_consolider
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — a_consolider
 - S33 — Can, Tago Mago, 1971 — a_consolider
@@ -129,7 +129,7 @@ Aucun libellé faible.
 - Atomes v2 incomplets : 2530
 - Avertissements de champs v2 manquants : 15560
 
-Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
+Cette dette ne doit pas être corrigée mécaniquement sans stratégie d'enrichissement documentaire. Elle relève d'une migration progressive des sources déjà atomisées.
 
 ## 9. Fichiers les plus chargés en problèmes
 
