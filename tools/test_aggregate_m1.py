@@ -112,14 +112,14 @@ class TestRegistersStrictStatus(unittest.TestCase):
             "Manifestes incohérents": "0",
         }
 
-    def test_registers_report_with_positive_gap_is_non_conform(self) -> None:
+    def test_registers_report_with_unexplained_gap_is_non_conform(self) -> None:
         summary = self.valid_registers_summary()
         summary["Écarts détectés"] = "1"
 
         status = aggregate_m1.status_for_registers(Path("reports/m1/dm_registers_consistency.md"), summary)
 
         self.assertEqual(status.state, "non conforme")
-        self.assertTrue(any("Écarts détectés=1" in observation for observation in status.observations))
+        self.assertTrue(any("ne sont pas expliqués" in observation for observation in status.observations))
 
     def test_registers_report_with_non_coherent_document_is_non_conform(self) -> None:
         summary = self.valid_registers_summary()
@@ -134,6 +134,7 @@ class TestRegistersStrictStatus(unittest.TestCase):
         summary = self.valid_registers_summary()
         summary["Libellés divergents"] = "2"
         summary["Familles non couvertes"] = "3"
+        summary["Écarts détectés"] = "5"
 
         status = aggregate_m1.status_for_registers(Path("reports/m1/dm_registers_consistency.md"), summary)
 

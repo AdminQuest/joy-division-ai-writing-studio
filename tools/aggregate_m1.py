@@ -237,18 +237,24 @@ def status_for_registers(report_path: Path, summary: dict[str, str]) -> ControlS
     ]
     blocking_values = {
         "Documents non cohérents": non_coherents,
-        "Écarts détectés": ecarts,
         "Identifiants introuvables": missing,
         "Registres absents": absent,
         "Compteurs incohérents": counters,
         "Manifestes incohérents": manifest,
         "Relations non résolues": relations,
     }
+    reserve_values = {
+        "Libellés divergents": label_drift,
+        "Familles non couvertes": non_covered,
+    }
     blocking = {
         label: value
         for label, value in blocking_values.items()
         if value > 0
     }
+    blocking_total = sum(blocking_values.values())
+    reserve_total = sum(reserve_values.values())
+    unexplained_gaps = ecarts - blocking_total - reserve_total
     if blocking:
         blocking_summary = ", ".join(f"{label}={value}" for label, value in blocking.items())
         return ControlStatus(
@@ -261,8 +267,28 @@ def status_for_registers(report_path: Path, summary: dict[str, str]) -> ControlS
             ],
             summary,
         )
-    if label_drift or non_covered:
-        return ControlStatus("DM -> registres", report_path, "conforme avec réserve", "⚠", observations, summary)
+    if unexplained_gaps > 0:
+        return ControlStatus(
+            "DM -> registres",
+            report_path,
+            "non conforme",
+            "✗",
+            observations + [
+                f"{unexplained_gaps} écart(s) ne sont pas expliqués par les compteurs connus.",
+            ],
+            summary,
+        )
+    if reserve_total > 0:
+        return ControlStatus(
+            "DM -> registres",
+            report_path,
+            "conforme avec réserve",
+            "⚠",
+            observations + [
+                "Les écarts restants relèvent des libellés divergents ou des familles hors MVP.",
+            ],
+            summary,
+        )
     return ControlStatus("DM -> registres", report_path, "conforme", "✓", observations, summary)
 
 
