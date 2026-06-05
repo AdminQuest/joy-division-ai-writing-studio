@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T12:35:51"
+generated_at: "2026-06-05T15:13:05"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 522 |
+| Atomes | 521 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 42 |
 | Événements chronologiques | 40 |
 | Personnes | 34 |
-| Chansons | 10 |
+| Chansons | 11 |
 | Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
@@ -45,7 +45,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 10 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 45 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 0 | 1 |
@@ -485,6 +485,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - SONG-S21-THE_FALL — The Fall
 - SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
 - SONG-S77-GOD_SAVE_THE_QUEEN — God Save the Queen
+- SONG-S45-SHADOWPLAY-RCA — Shadowplay
 - SONG-S75-001 — No Love Lost
 - SONG-S75-002 — At a Later Date
 - SONG-S75-004 — Warsaw
@@ -713,7 +714,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | manuscript_materiality | 26 |
 | scene_fondatrice | 22 |
 | production | 19 |
-| non qualifié | 19 |
+| non qualifié | 18 |
 | concert | 16 |
 | prudence_methodologique | 12 |
 | analyse | 11 |
@@ -945,7 +946,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 189 |
+| non qualifiée | 188 |
 | critique | 171 |
 | majeure | 88 |
 | majeur | 28 |

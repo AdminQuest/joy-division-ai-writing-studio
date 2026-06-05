@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T12:35:51"
+generated_at: "2026-06-05T15:13:05"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 471 |
+| Atomes | 470 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 45 |
 | Événements chronologiques | 25 |
 | Personnes | 33 |
-| Chansons | 27 |
+| Chansons | 28 |
 | Sources mobilisées | 41 |
 
 ## 4. Sources mobilisées
@@ -49,7 +49,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 5 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 13 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 2 | 0 |
@@ -484,6 +484,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - SONG-S34-005 — Dead Souls
 - SONG-S34-006 — Atmosphere
 - SONG-S34-007 — I Remember Nothing
+- SONG-S45-SHADOWPLAY-RCA — Shadowplay
 - SONG-S75-001 — No Love Lost
 - SONG-S75-007 — Interzone
 - SONG-S75-008 — Ice Age
@@ -719,7 +720,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 40 |
+| non qualifié | 39 |
 | production | 24 |
 | session_studio | 17 |
 | analyse | 13 |
@@ -944,7 +945,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 202 |
+| non qualifiée | 201 |
 | critique | 151 |
 | majeure | 65 |
 | utile | 17 |

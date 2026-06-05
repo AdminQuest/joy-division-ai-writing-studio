@@ -322969,16 +322969,30 @@
     }
   },
   {
-    "kind": "atom",
+    "kind": "song",
     "id": "SONG-S45-SHADOWPLAY-RCA",
     "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
     "heading": "S45 — Chansons et objets discographiques — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "SONG-S45-SHADOWPLAY-RCA",
+      "type_unite": "song",
       "source_id": "S45",
+      "song": "Shadowplay",
       "titre": "Shadowplay",
       "artiste": "Joy Division",
       "usage": "Exemple de morceau déjà classique présent dans les sessions RCA, mis en regard de compositions encore amateurs comme « Novelty ».\n",
+      "themes": [
+        "RCA",
+        "Shadowplay",
+        "sessions"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
       "atomes_lies": [
         "S45-A051"
       ],

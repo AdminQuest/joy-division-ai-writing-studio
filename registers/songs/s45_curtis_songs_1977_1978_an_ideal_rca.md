@@ -85,12 +85,23 @@ prudence: >
 
 ```yaml
 id: SONG-S45-SHADOWPLAY-RCA
+type_unite: song
 source_id: S45
+song: Shadowplay
 titre: "Shadowplay"
 artiste: Joy Division
 usage: >
   Exemple de morceau déjà classique présent dans les sessions RCA, mis en regard
   de compositions encore amateurs comme « Novelty ».
+themes:
+  - RCA
+  - Shadowplay
+  - sessions
+sources:
+  - S45
+chapters:
+  - Chapitre 2
+  - Chapitre 3
 atomes_lies:
   - S45-A051
 chapitres:
