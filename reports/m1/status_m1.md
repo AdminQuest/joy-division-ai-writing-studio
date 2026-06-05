@@ -1,14 +1,12 @@
 # Status consolidé M1
 
-Rapport genere par `python3 tools/aggregate_m1.py` le 2026-06-05.
+Rapport genere par `python3 tools/aggregate_m1.py` à partir des rapports M1 versionnés.
 
 L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun contrôle, ne recalcule aucun diagnostic, ne corrige aucun écart et ne modifie aucun objet documentaire.
 
 ## État général
 
 **M1 STATUS** : conforme avec réserve
-
-**Date** : 2026-06-05
 
 ### Contrôles
 

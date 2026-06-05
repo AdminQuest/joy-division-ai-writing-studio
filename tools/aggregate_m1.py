@@ -11,7 +11,6 @@ from __future__ import annotations
 import argparse
 import re
 from dataclasses import dataclass, field
-from datetime import date
 from pathlib import Path
 
 
@@ -312,7 +311,6 @@ def read_control_status(control: KnownControl) -> ControlStatus:
 
 
 def render_report(statuses: list[ControlStatus]) -> str:
-    generated_on = date.today().isoformat()
     global_state = "conforme"
     if any(status.state in {"non conforme", "rapport illisible"} for status in statuses):
         global_state = "non conforme"
@@ -322,15 +320,13 @@ def render_report(statuses: list[ControlStatus]) -> str:
     lines = [
         "# Status consolidé M1",
         "",
-        f"Rapport genere par `python3 tools/aggregate_m1.py` le {generated_on}.",
+        "Rapport genere par `python3 tools/aggregate_m1.py` à partir des rapports M1 versionnés.",
         "",
         "L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun contrôle, ne recalcule aucun diagnostic, ne corrige aucun écart et ne modifie aucun objet documentaire.",
         "",
         "## État général",
         "",
         f"**M1 STATUS** : {global_state}",
-        "",
-        f"**Date** : {generated_on}",
         "",
         "### Contrôles",
         "",
