@@ -1,5 +1,5 @@
 # Status — Joy Division AI Writing Studio
-> Genere automatiquement le 2026-06-05 05:14 UTC — ne pas editer manuellement.
+> Genere automatiquement le 2026-06-05 05:34 UTC — ne pas editer manuellement.
 
 ## Registres
 
@@ -45,7 +45,7 @@ Step 12 — Cross-registres profond
 
 - Repo : joy-division-ai-writing-studio
 - Branche du snapshot : docs/m0-corpus-rag-manuscript-architecture
-- Reference git observee avant generation : b1293fc0
+- Reference git observee avant generation : 120a7403
 - Genere par : tools/generate_status.py
 - Statut : snapshot genere avant commit ; le commit contenant ce fichier peut donc etre posterieur.
 - Note : cette reference designe l'etat lu par le generateur, non le commit final contenant STATUS.md.
