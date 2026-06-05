@@ -14,6 +14,11 @@ Le corpus est le coeur documentaire du projet. Le RAG fait partie de cette infra
 
 Les documents maitres ne constituent pas un composant autonome du systeme. Dans l'etat actuel du repo, ils sont produits par le pipeline documentaire, notamment `tools/build_master_docs.py`, a partir des exports, atomes et registres du corpus. Ils peuvent etre charges dans Manuscript, mais ils ne possedent pas d'autorite documentaire propre.
 
+La distinction centrale est donc double :
+
+- principe conceptuel : les documents maitres sont des vues redactionnelles persistantes du corpus exporte ;
+- pipeline technique reel : les documents maitres sont actuellement generes par `tools/build_master_docs.py`, pas par le RAG.
+
 ## Ce qui appartient au corpus
 
 Le corpus regroupe les objets documentaires primaires, normalises ou derives qui permettent de documenter le projet :
@@ -83,6 +88,50 @@ Un document maitre :
 
 Lorsqu'un document maitre contient une information qui ne peut pas etre reliee a une source, un atome, une citation, un registre ou un export derive du corpus, cette information doit etre consideree comme suspecte jusqu'a clarification.
 
+## Objets persistants et vues generees
+
+L'architecture M0 distingue les objets qui font autorite dans la duree et les vues produites pour exploiter ces objets.
+
+Objets persistants :
+
+- sources et references ;
+- atomes ;
+- citations ;
+- registres canoniques ;
+- graphes, relations et identifiants stables ;
+- schemas et conventions de structuration ;
+- scripts de generation et de controle.
+
+Vues generees :
+
+- exports JSON, CSV ou Markdown produits depuis les objets persistants ;
+- index et fragments utilises par le RAG ;
+- rapports d'audit ;
+- documents maitres de chapitre ;
+- livrables temporaires issus d'une exploration RAG.
+
+Une vue generee peut etre persistante dans le repo lorsque le workflow l'exige, mais elle ne devient pas pour autant une source. Son autorite vient de sa derivabilite depuis les objets persistants et de la capacite a la regenerer ou l'auditer.
+
+## Frontieres
+
+### Corpus <-> RAG
+
+Le corpus fournit les objets, identifiants, textes atomises, registres et exports que le RAG peut explorer. Le RAG est une couche de retrieval et d'assemblage : il interroge le corpus, mais ne decide pas a lui seul du statut documentaire des elements qu'il retourne.
+
+Un resultat RAG doit donc etre lu comme une vue d'exploration. Il peut aider a trouver, grouper ou comparer des materiaux, mais il doit rester rattachable aux objets du corpus pour etre utilisable dans une decision editoriale ou documentaire.
+
+### Corpus <-> documents maitres
+
+Les documents maitres sont des vues redactionnelles persistantes du corpus exporte. Ils regroupent des materiaux stabilises pour le travail par chapitre, mais ils ne sont ni des sources, ni des preuves, ni des registres canoniques.
+
+La frontiere technique actuelle est explicite : les documents maitres sont generes par `tools/build_master_docs.py` a partir des entrees du corpus et des exports disponibles. Ils ne sont pas produits techniquement par le RAG, meme si certains livrables RAG peuvent inspirer ou preparer des regroupements comparables.
+
+### Corpus <-> Manuscript
+
+Manuscript recoit des materiaux documentaires ou redactionnels pour permettre l'ecriture du livre. Il appartient au plan redactionnel : organisation, prose, revision, structuration narrative.
+
+Le corpus conserve l'autorite documentaire. Lorsqu'un passage redige dans Manuscript mobilise une information factuelle, une citation, une relation ou une interpretation appuyee, cette information doit rester tracable vers le corpus ou vers une vue derivee elle-meme tracable.
+
 ## Consequences pour M0
 
 M0 doit stabiliser la cartographie entre corpus, RAG, Manuscript et documents maitres.
@@ -97,17 +146,17 @@ Implications :
 
 Cette decision ne lance pas de chantier M2, ne cree pas de nouvelle application et ne modifie pas l'architecture technique existante.
 
-## Consequences pour M1
+## Transition vers M1
 
 M1 devra renforcer les controles de fiabilite et de derivabilite autour des documents maitres comme vues persistantes du corpus exporte. Ces controles doivent viser les entrees du pipeline documentaire, les exports de corpus et les scripts de generation, plutot qu'un etat interne du RAG.
 
 Controles a prevoir :
 
-- verifier la tracabilite des documents maitres vers le corpus ;
-- detecter les documents maitres obsoletes ;
-- verifier qu'un document maitre ne contient pas d'information non derivable du corpus ;
-- qualifier les livrables RAG selon leur statut : temporaire, conserve, document maitre ;
-- signaler les ecarts entre un document maitre, les exports dont il depend et le script qui le produit ;
-- verifier que `tools/build_master_docs.py` et les autres generateurs documentaires restent coherents avec les registres, atomes et exports utilises.
+- tracabilite : verifier que chaque document maitre et chaque livrable conserve restent reliables aux objets du corpus ;
+- obsolescence : detecter les vues qui ne correspondent plus aux exports, registres ou scripts qui les produisent ;
+- coherence documentaire : signaler les ecarts entre un document maitre, les exports dont il depend et le script qui le produit ;
+- statut des livrables : qualifier les sorties RAG et les documents intermediaires comme temporaires, conserves, remplaces ou promus en vue persistante ;
+- derivabilite : verifier qu'un document maitre ne contient pas d'information non derivable du corpus ;
+- coherence de generation : verifier que `tools/build_master_docs.py` et les autres generateurs documentaires restent coherents avec les registres, atomes et exports utilises.
 
 Ces controles relevent de la fiabilisation M1. Ils ne doivent pas etre confondus avec une campagne d'enrichissement M2 ni avec une refonte de Manuscript.
