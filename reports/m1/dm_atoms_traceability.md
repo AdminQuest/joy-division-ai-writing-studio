@@ -11,6 +11,7 @@ Limite MVP : le controle verifie les identifiants atomiques explicitement visibl
 | Indicateur | Valeur |
 |------------|---------|
 | Documents declares dans le manifeste | 14 |
+| Documents maîtres sur disque | 14 |
 | Documents traçables | 14 |
 | Documents partiellement traçables | 0 |
 | Documents non traçables | 0 |
@@ -20,7 +21,10 @@ Limite MVP : le controle verifie les identifiants atomiques explicitement visibl
 | Écarts détectés | 0 |
 | Atomes introuvables | 0 |
 | Incohérences de volumétrie | 0 |
-| Documents maîtres absents | 0 |
+| Documents maîtres absents sur disque | 0 |
+| Documents maîtres hors manifeste | 0 |
+| Documents maîtres absents de l'index | 0 |
+| Dérives manifeste / index | 0 |
 | Manifestes incohérents | 0 |
 
 ### Audit par document maître

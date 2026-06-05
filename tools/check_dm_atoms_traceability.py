@@ -19,7 +19,8 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_REPORT = REPO_ROOT / "reports" / "m1" / "dm_atoms_traceability.md"
+REPORT_DIR = REPO_ROOT / "reports" / "m1"
+DEFAULT_REPORT = REPORT_DIR / "dm_atoms_traceability.md"
 MANIFEST_PATH = REPO_ROOT / "chapters" / "master_docs.json"
 ATOMS_EXPORT = REPO_ROOT / "exports" / "generated" / "atoms.json"
 MASTER_DOCS_INDEX = REPO_ROOT / "exports" / "generated" / "master_docs_index.json"
@@ -55,6 +56,25 @@ def rel(path: Path) -> str:
         return path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
+
+
+def resolve_output_path(raw_output: str) -> Path:
+    output = Path(raw_output)
+    if not output.is_absolute():
+        output = REPO_ROOT / output
+
+    resolved_output = output.resolve()
+    resolved_report_dir = REPORT_DIR.resolve()
+    try:
+        resolved_output.relative_to(resolved_report_dir)
+    except ValueError as exc:
+        raise ValueError(
+            "--output doit pointer sous reports/m1/. "
+            "Le controle refuse d'ecrire dans le corpus, les exports, les registres, "
+            "les sources, la documentation ou les outils."
+        ) from exc
+
+    return resolved_output
 
 
 def load_json(path: Path) -> Any:
@@ -148,6 +168,14 @@ def load_master_index(path: Path) -> tuple[dict[str, dict[str, Any]], list[Issue
     return index, issues
 
 
+def scan_disk_master_docs() -> set[str]:
+    return {
+        rel(path)
+        for path in sorted((REPO_ROOT / "chapters").glob("*/document_maitre.md"))
+        if path.is_file()
+    }
+
+
 def extract_visible_atom_ids(markdown: str) -> set[str]:
     return set(ATOM_ID_RE.findall(markdown))
 
@@ -176,7 +204,7 @@ def audit_document(
     full_path = REPO_ROOT / doc_path
     index_entry = master_index.get(doc_path)
     if index_entry is None:
-        audit.issues.append(Issue("manifeste incohérent", doc_path, "Document absent de exports/generated/master_docs_index.json."))
+        audit.issues.append(Issue("document maître absent de l'index", doc_path, "Document present dans le manifeste mais absent de exports/generated/master_docs_index.json."))
     else:
         expected = index_entry.get("atoms")
         if isinstance(expected, int):
@@ -185,7 +213,7 @@ def audit_document(
             audit.issues.append(Issue("incohérence de volumétrie", doc_path, "Volumetrie atoms absente ou invalide dans master_docs_index."))
 
     if not full_path.exists():
-        audit.issues.append(Issue("document maître absent", doc_path, "Fichier declare dans le manifeste mais absent du depot."))
+        audit.issues.append(Issue("document maître absent sur disque", doc_path, "Fichier declare dans le manifeste mais absent du depot."))
         return audit
 
     markdown = full_path.read_text(encoding="utf-8")
@@ -220,7 +248,7 @@ def audit_document(
         audit.issues.append(Issue("atome manquant", doc_path, "Aucun identifiant atomique visible alors que l'index declare des atomes."))
 
     if audit.issues:
-        blocking_kinds = {"document maître absent", "manifeste incohérent"}
+        blocking_kinds = {"document maître absent sur disque", "manifeste incohérent"}
         if any(issue.kind in blocking_kinds for issue in audit.issues):
             audit.status = "non traçable"
         else:
@@ -230,19 +258,29 @@ def audit_document(
     return audit
 
 
-def detect_index_manifest_drift(documents: list[dict[str, Any]], master_index: dict[str, dict[str, Any]]) -> list[Issue]:
+def detect_manifest_index_disk_drift(
+    documents: list[dict[str, Any]],
+    master_index: dict[str, dict[str, Any]],
+    disk_paths: set[str],
+) -> list[Issue]:
     manifest_paths = {str(doc.get("path")) for doc in documents if doc.get("path")}
     index_paths = set(master_index)
     issues: list[Issue] = []
+
+    for path in sorted(disk_paths - manifest_paths):
+        issues.append(Issue("document maître hors manifeste", path, "Document maitre present sur disque mais absent de chapters/master_docs.json."))
+    for path in sorted((disk_paths - index_paths) - manifest_paths):
+        issues.append(Issue("document maître absent de l'index", path, "Document maitre present sur disque mais absent de exports/generated/master_docs_index.json."))
     for path in sorted(index_paths - manifest_paths):
-        issues.append(Issue("manifeste incohérent", path, "Document present dans master_docs_index mais absent du manifeste."))
+        issues.append(Issue("dérive manifeste / index", path, "Document present dans master_docs_index mais absent du manifeste."))
     return issues
 
 
-def summarize(audits: list[DmAudit], global_issues: list[Issue]) -> dict[str, int]:
+def summarize(audits: list[DmAudit], global_issues: list[Issue], disk_paths: set[str]) -> dict[str, int]:
     all_issues = global_issues + [issue for audit in audits for issue in audit.issues]
     return {
         "documents_manifestes": len(audits),
+        "documents_sur_disque": len(disk_paths),
         "documents_tracables": sum(1 for audit in audits if audit.status == "traçable"),
         "documents_partiellement_tracables": sum(1 for audit in audits if audit.status == "partiellement traçable"),
         "documents_non_tracables": sum(1 for audit in audits if audit.status == "non traçable"),
@@ -252,13 +290,16 @@ def summarize(audits: list[DmAudit], global_issues: list[Issue]) -> dict[str, in
         "ecarts_detectes": len(all_issues),
         "atomes_introuvables": sum(1 for issue in all_issues if issue.kind == "atome introuvable"),
         "incoherences_volumetrie": sum(1 for issue in all_issues if issue.kind == "incohérence de volumétrie"),
-        "documents_absents": sum(1 for issue in all_issues if issue.kind == "document maître absent"),
+        "documents_absents_sur_disque": sum(1 for issue in all_issues if issue.kind == "document maître absent sur disque"),
+        "documents_hors_manifeste": sum(1 for issue in all_issues if issue.kind == "document maître hors manifeste"),
+        "documents_absents_index": sum(1 for issue in all_issues if issue.kind == "document maître absent de l'index"),
+        "derives_manifest_index": sum(1 for issue in all_issues if issue.kind == "dérive manifeste / index"),
         "manifestes_incoherents": sum(1 for issue in all_issues if issue.kind == "manifeste incohérent"),
     }
 
 
-def render_report(audits: list[DmAudit], global_issues: list[Issue]) -> str:
-    summary = summarize(audits, global_issues)
+def render_report(audits: list[DmAudit], global_issues: list[Issue], disk_paths: set[str]) -> str:
+    summary = summarize(audits, global_issues, disk_paths)
     lines: list[str] = [
         "# Controle M1 - DM vers atomes",
         "",
@@ -276,6 +317,7 @@ def render_report(audits: list[DmAudit], global_issues: list[Issue]) -> str:
 
     labels = [
         ("Documents declares dans le manifeste", "documents_manifestes"),
+        ("Documents maîtres sur disque", "documents_sur_disque"),
         ("Documents traçables", "documents_tracables"),
         ("Documents partiellement traçables", "documents_partiellement_tracables"),
         ("Documents non traçables", "documents_non_tracables"),
@@ -285,7 +327,10 @@ def render_report(audits: list[DmAudit], global_issues: list[Issue]) -> str:
         ("Écarts détectés", "ecarts_detectes"),
         ("Atomes introuvables", "atomes_introuvables"),
         ("Incohérences de volumétrie", "incoherences_volumetrie"),
-        ("Documents maîtres absents", "documents_absents"),
+        ("Documents maîtres absents sur disque", "documents_absents_sur_disque"),
+        ("Documents maîtres hors manifeste", "documents_hors_manifeste"),
+        ("Documents maîtres absents de l'index", "documents_absents_index"),
+        ("Dérives manifeste / index", "derives_manifest_index"),
         ("Manifestes incohérents", "manifestes_incoherents"),
     ]
     for label, key in labels:
@@ -348,13 +393,14 @@ def run(output: Path) -> int:
     atom_ids = load_atom_ids(ATOMS_EXPORT)
     alias_lookup = build_alias_lookup(atom_ids)
     master_index, index_issues = load_master_index(MASTER_DOCS_INDEX)
-    global_issues = manifest_issues + index_issues + detect_index_manifest_drift(documents, master_index)
+    disk_paths = scan_disk_master_docs()
+    global_issues = manifest_issues + index_issues + detect_manifest_index_disk_drift(documents, master_index, disk_paths)
     audits = [audit_document(doc, atom_ids, alias_lookup, master_index) for doc in documents]
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(render_report(audits, global_issues), encoding="utf-8")
+    output.write_text(render_report(audits, global_issues, disk_paths), encoding="utf-8")
 
-    summary = summarize(audits, global_issues)
+    summary = summarize(audits, global_issues, disk_paths)
     print(f"Rapport: {rel(output)}")
     print(
         "DM traçables: {documents_tracables}/{documents_manifestes}; "
@@ -374,9 +420,10 @@ def main(argv: list[str] | None = None) -> int:
         help="Chemin du rapport Markdown a ecrire (defaut: reports/m1/dm_atoms_traceability.md).",
     )
     args = parser.parse_args(argv)
-    output = Path(args.output)
-    if not output.is_absolute():
-        output = REPO_ROOT / output
+    try:
+        output = resolve_output_path(args.output)
+    except ValueError as exc:
+        parser.error(str(exc))
     return run(output)
 
 
