@@ -77,7 +77,7 @@ def resolve_output_path(raw_output: str) -> Path:
     return resolved_output
 
 
-def validate_master_doc_path(raw_path: object) -> tuple[str | None, Issue | None]:
+def validate_master_doc_path_lexical(raw_path: object) -> tuple[str | None, Issue | None]:
     raw_display = str(raw_path)
     if not isinstance(raw_path, str) or not raw_path.strip():
         return None, Issue("manifeste incohérent", raw_display, "Chemin de document maitre absent ou non textuel.")
@@ -96,14 +96,11 @@ def validate_master_doc_path(raw_path: object) -> tuple[str | None, Issue | None
             "Chemin de document maitre invalide: attendu chapters/*/document_maitre.md.",
         )
 
-    resolved = (REPO_ROOT / candidate).resolve()
-    chapters_root = (REPO_ROOT / "chapters").resolve()
-    try:
-        resolved.relative_to(chapters_root)
-    except ValueError:
-        return None, Issue("manifeste incohérent", raw_path, "Chemin de document maitre resolu hors chapters/ refuse.")
-
     return candidate.as_posix(), None
+
+
+def validate_master_doc_path(raw_path: object) -> tuple[str | None, Issue | None]:
+    return validate_master_doc_path_lexical(raw_path)
 
 
 def validate_master_doc_filesystem_path(doc_path: str) -> Issue | None:
@@ -220,6 +217,10 @@ def load_master_index(path: Path) -> tuple[dict[str, dict[str, Any]], list[Issue
             issues.append(path_issue)
             continue
         assert valid_path is not None
+        filesystem_issue = validate_master_doc_filesystem_path(valid_path)
+        if filesystem_issue is not None:
+            issues.append(filesystem_issue)
+            continue
         if valid_path in index:
             issues.append(Issue("manifeste incohérent", path_value, "Chemin duplique dans master_docs_index."))
         index[valid_path] = chapter
