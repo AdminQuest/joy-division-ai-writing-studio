@@ -14,7 +14,9 @@ Ce controle vient apres DM -> atomes pour trois raisons :
 
 Le controle DM -> registres protege donc le passage entre le contenu redactionnel conserve et les objets canoniques qui structurent les entites du corpus. Il prepare les futurs controles de coherence documentaire, sans corriger les documents maitres ni modifier les registres.
 
-Ce document definit le comportement attendu du futur controle. Il ne cree aucun script et ne presente aucun controle comme deja implemente.
+Depuis l'implementation du MVP, le controle existe sous la forme de `tools/check_dm_registers_consistency.py`. Il produit le rapport regenerable `reports/m1/dm_registers_consistency.md`.
+
+Le controle reste limite au perimetre MVP : personnes, chansons, chronologie, citations, concerts et sessions. Les familles P1 et les registres hors MVP restent hors perimetre ; le controle ne realise pas de coherence passage par passage et ne corrige aucun registre.
 
 # Defaillances couvertes
 
