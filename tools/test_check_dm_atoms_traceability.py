@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import unittest
+from tempfile import TemporaryDirectory
 from pathlib import Path
 
 from tools import check_dm_atoms_traceability as dm_atoms
@@ -57,6 +58,52 @@ class TestManifestIndexDiskDrift(unittest.TestCase):
         self.assertIn(("document maître hors manifeste", "chapters/03/document_maitre.md"), observed)
         self.assertIn(("document maître absent de l'index", "chapters/03/document_maitre.md"), observed)
         self.assertIn(("dérive manifeste / index", "chapters/02/document_maitre.md"), observed)
+
+
+class TestMasterDocPathGuard(unittest.TestCase):
+    def test_valid_master_doc_path_is_allowed(self) -> None:
+        valid_path, issue = dm_atoms.validate_master_doc_path("chapters/01/document_maitre.md")
+        self.assertEqual(valid_path, "chapters/01/document_maitre.md")
+        self.assertIsNone(issue)
+
+    def test_invalid_master_doc_paths_are_rejected(self) -> None:
+        rejected = [
+            "/tmp/document_maitre.md",
+            "chapters/01/../document_maitre.md",
+            "docs/document_maitre.md",
+            "chapters/01/notes.md",
+        ]
+        for raw_path in rejected:
+            with self.subTest(raw_path=raw_path):
+                valid_path, issue = dm_atoms.validate_master_doc_path(raw_path)
+                self.assertIsNone(valid_path)
+                self.assertIsNotNone(issue)
+
+    def test_audit_does_not_read_invalid_manifest_path(self) -> None:
+        audit = dm_atoms.audit_document(
+            {"path": "/tmp/document_maitre.md", "title": "invalid"},
+            atom_ids=set(),
+            alias_lookup={},
+            master_index={},
+        )
+
+        self.assertEqual(audit.status, "non traçable")
+        self.assertEqual(audit.visible_atoms, 0)
+        self.assertEqual(audit.issues[0].kind, "manifeste incohérent")
+
+    def test_index_rejects_invalid_paths(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            index_path = Path(tmp_dir) / "master_docs_index.json"
+            index_path.write_text(
+                '{"chapters": [{"path": "chapters/01/notes.md", "atoms": 1}]}',
+                encoding="utf-8",
+            )
+
+            index, issues = dm_atoms.load_master_index(index_path)
+
+        self.assertEqual(index, {})
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0].kind, "manifeste incohérent")
 
 
 if __name__ == "__main__":

@@ -77,6 +77,35 @@ def resolve_output_path(raw_output: str) -> Path:
     return resolved_output
 
 
+def validate_master_doc_path(raw_path: object) -> tuple[str | None, Issue | None]:
+    raw_display = str(raw_path)
+    if not isinstance(raw_path, str) or not raw_path.strip():
+        return None, Issue("manifeste incohérent", raw_display, "Chemin de document maitre absent ou non textuel.")
+
+    candidate = Path(raw_path)
+    if candidate.is_absolute():
+        return None, Issue("manifeste incohérent", raw_path, "Chemin de document maitre absolu refuse.")
+    if any(part == ".." for part in candidate.parts):
+        return None, Issue("manifeste incohérent", raw_path, "Chemin de document maitre contenant '..' refuse.")
+
+    parts = candidate.parts
+    if len(parts) != 3 or parts[0] != "chapters" or parts[2] != "document_maitre.md" or parts[1] in {"", ".", ".."}:
+        return None, Issue(
+            "manifeste incohérent",
+            raw_path,
+            "Chemin de document maitre invalide: attendu chapters/*/document_maitre.md.",
+        )
+
+    resolved = (REPO_ROOT / candidate).resolve()
+    chapters_root = (REPO_ROOT / "chapters").resolve()
+    try:
+        resolved.relative_to(chapters_root)
+    except ValueError:
+        return None, Issue("manifeste incohérent", raw_path, "Chemin de document maitre resolu hors chapters/ refuse.")
+
+    return candidate.as_posix(), None
+
+
 def load_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
@@ -162,9 +191,14 @@ def load_master_index(path: Path) -> tuple[dict[str, dict[str, Any]], list[Issue
         if not isinstance(path_value, str):
             issues.append(Issue("manifeste incohérent", rel(path), "Entree d'index sans chemin."))
             continue
-        if path_value in index:
+        valid_path, path_issue = validate_master_doc_path(path_value)
+        if path_issue is not None:
+            issues.append(path_issue)
+            continue
+        assert valid_path is not None
+        if valid_path in index:
             issues.append(Issue("manifeste incohérent", path_value, "Chemin duplique dans master_docs_index."))
-        index[path_value] = chapter
+        index[valid_path] = chapter
     return index, issues
 
 
@@ -193,13 +227,18 @@ def audit_document(
     alias_lookup: dict[str, str],
     master_index: dict[str, dict[str, Any]],
 ) -> DmAudit:
-    doc_path = str(doc.get("path", ""))
+    raw_doc_path = doc.get("path", "")
+    doc_path = str(raw_doc_path)
     title = str(doc.get("title", ""))
     audit = DmAudit(path=doc_path, title=title)
 
-    if not doc_path:
-        audit.issues.append(Issue("manifeste incohérent", "<chemin absent>", "Document sans chemin dans le manifeste."))
+    valid_path, path_issue = validate_master_doc_path(raw_doc_path)
+    if path_issue is not None:
+        audit.issues.append(path_issue)
         return audit
+    assert valid_path is not None
+    doc_path = valid_path
+    audit.path = doc_path
 
     full_path = REPO_ROOT / doc_path
     index_entry = master_index.get(doc_path)
@@ -263,7 +302,12 @@ def detect_manifest_index_disk_drift(
     master_index: dict[str, dict[str, Any]],
     disk_paths: set[str],
 ) -> list[Issue]:
-    manifest_paths = {str(doc.get("path")) for doc in documents if doc.get("path")}
+    manifest_paths = {
+        valid_path
+        for doc in documents
+        for valid_path, issue in [validate_master_doc_path(doc.get("path", ""))]
+        if issue is None and valid_path is not None
+    }
     index_paths = set(master_index)
     issues: list[Issue] = []
 
