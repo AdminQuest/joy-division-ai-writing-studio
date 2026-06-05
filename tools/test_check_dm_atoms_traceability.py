@@ -125,7 +125,50 @@ class TestMasterDocPathGuard(unittest.TestCase):
         self.assertEqual(audit.status, "non traçable")
         self.assertEqual(audit.visible_atoms, 0)
         self.assertEqual(audit.issues[0].kind, "document maître invalide")
-        self.assertIn("lien symbolique", audit.issues[0].detail)
+        self.assertIn("composant symlinké", audit.issues[0].detail)
+
+    def test_audit_refuses_symlinked_chapter_directory_before_reading(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapters_dir = repo_root / "chapters"
+            real_chapter_dir = chapters_dir / "02"
+            real_chapter_dir.mkdir(parents=True)
+            (real_chapter_dir / "document_maitre.md").write_text("| Atomes | 0 |\n", encoding="utf-8")
+            (chapters_dir / "99").symlink_to(real_chapter_dir, target_is_directory=True)
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                audit = dm_atoms.audit_document(
+                    {"path": "chapters/99/document_maitre.md", "title": "symlinked chapter"},
+                    atom_ids=set(),
+                    alias_lookup={},
+                    master_index={"chapters/99/document_maitre.md": {"atoms": 0}},
+                )
+
+        self.assertEqual(audit.status, "non traçable")
+        self.assertEqual(audit.visible_atoms, 0)
+        self.assertEqual(audit.issues[0].kind, "document maître invalide")
+        self.assertIn("composant symlinké", audit.issues[0].detail)
+
+    def test_audit_refuses_symlinked_chapter_to_chapters_root_before_reading(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapters_dir = repo_root / "chapters"
+            chapters_dir.mkdir(parents=True)
+            (chapters_dir / "document_maitre.md").write_text("| Atomes | 0 |\n", encoding="utf-8")
+            (chapters_dir / "99").symlink_to(chapters_dir, target_is_directory=True)
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                audit = dm_atoms.audit_document(
+                    {"path": "chapters/99/document_maitre.md", "title": "symlinked chapter root"},
+                    atom_ids=set(),
+                    alias_lookup={},
+                    master_index={"chapters/99/document_maitre.md": {"atoms": 0}},
+                )
+
+        self.assertEqual(audit.status, "non traçable")
+        self.assertEqual(audit.visible_atoms, 0)
+        self.assertEqual(audit.issues[0].kind, "document maître invalide")
+        self.assertIn("composant symlinké", audit.issues[0].detail)
 
 
 if __name__ == "__main__":

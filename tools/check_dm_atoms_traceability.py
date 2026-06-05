@@ -106,6 +106,30 @@ def validate_master_doc_path(raw_path: object) -> tuple[str | None, Issue | None
     return candidate.as_posix(), None
 
 
+def validate_master_doc_filesystem_path(doc_path: str) -> Issue | None:
+    candidate = Path(doc_path)
+    chapter = candidate.parts[1]
+    chapter_dir = REPO_ROOT / "chapters" / chapter
+    full_path = chapter_dir / "document_maitre.md"
+    expected_resolved = REPO_ROOT / "chapters" / chapter / "document_maitre.md"
+
+    if chapter_dir.is_symlink() or full_path.is_symlink():
+        return Issue(
+            "document maître invalide",
+            doc_path,
+            "Chemin de document maître refusé : composant symlinké ou cible résolue non conforme.",
+        )
+
+    if full_path.resolve(strict=False) != expected_resolved:
+        return Issue(
+            "document maître invalide",
+            doc_path,
+            "Chemin de document maître refusé : composant symlinké ou cible résolue non conforme.",
+        )
+
+    return None
+
+
 def load_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
@@ -241,6 +265,11 @@ def audit_document(
     audit.path = doc_path
 
     full_path = REPO_ROOT / doc_path
+    filesystem_issue = validate_master_doc_filesystem_path(doc_path)
+    if filesystem_issue is not None:
+        audit.issues.append(filesystem_issue)
+        return audit
+
     index_entry = master_index.get(doc_path)
     if index_entry is None:
         audit.issues.append(Issue("document maître absent de l'index", doc_path, "Document present dans le manifeste mais absent de exports/generated/master_docs_index.json."))
@@ -250,10 +279,6 @@ def audit_document(
             audit.expected_atoms = expected
         else:
             audit.issues.append(Issue("incohérence de volumétrie", doc_path, "Volumetrie atoms absente ou invalide dans master_docs_index."))
-
-    if full_path.is_symlink():
-        audit.issues.append(Issue("document maître invalide", doc_path, "Document maître déclaré comme lien symbolique ; lecture refusée."))
-        return audit
 
     if not full_path.exists():
         audit.issues.append(Issue("document maître absent sur disque", doc_path, "Fichier declare dans le manifeste mais absent du depot."))
