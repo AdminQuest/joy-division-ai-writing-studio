@@ -40,9 +40,11 @@ Ne pas confondre ce workflow avec M2. Ce niveau documente l'existant. Il ne cré
 
 | Champ | Valeur |
 | --- | --- |
-| Point d'entrée | `STATUS.md`, validateurs `tools/validate_*.py` |
-| Registres couverts | Organisations, images, chronologie, concerts, personnes, lieux, chansons, citations, attribution, edges. |
-| Scripts | `tools/validate_orgs.py`, `tools/validate_images.py`, `tools/validate_chronology.py`, `tools/validate_concerts.py`, `tools/validate_people.py`, `tools/validate_places.py`, `tools/validate_songs.py`, `tools/validate_quotes.py`, `tools/validate_attribution.py`, `tools/validate_edges.py` |
+| Point d'entrée standard | `STATUS.md`, `tools/generate_status.py` |
+| Registres couverts par `STATUS.md` | Organisations, images, chronologie, concerts, personnes, lieux, chansons, citations. |
+| Scripts lancés par `tools/generate_status.py` | `tools/validate_orgs.py`, `tools/validate_images.py`, `tools/validate_chronology.py`, `tools/validate_concerts.py`, `tools/validate_people.py`, `tools/validate_places.py`, `tools/validate_songs.py`, `tools/validate_quotes.py` |
+| Validateurs complémentaires | `tools/validate_attribution.py`, `tools/validate_edges.py` |
+| Usage des validateurs complémentaires | À lancer séparément si la tâche touche les attributions, les arêtes ou le graphe documentaire. |
 | Schémas | `schemas/` |
 | Fichiers générés | Aucun par principe ; les validateurs contrôlent. |
 | Contrôle global associé | `python3 tools/generate_status.py` exécute les validateurs affichés dans `STATUS.md`. |
