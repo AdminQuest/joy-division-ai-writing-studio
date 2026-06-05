@@ -490,6 +490,53 @@ Ces criteres devront etre rendus mesurables au declenchement effectif du jalon.
 - masquer les incertitudes documentaires ;
 - utiliser le graphe comme preuve sans retour aux sources.
 
+### Seconde passe historiographique sur les sources fondatrices
+
+Le corpus dispose deja d'un volume important d'atomes, de registres structurants, de documents maitres et d'une atomisation avancee des sources fondatrices. Une partie importante des sources majeures a deja ete atomisee, notamment Peter Hook, Bernard Sumner, Deborah Curtis, Mick Middles, Middles & Reade, Chris Ott, Johnson, West, Reynolds, Kevin Cummins et d'autres sources fondatrices.
+
+Le probleme principal ne releve donc plus seulement de la collecte d'informations nouvelles. Il releve aussi de la capacite a extraire davantage de valeur intellectuelle du corpus existant.
+
+Cette seconde passe ne constitue pas une reatomisation complete. Elle consiste a reexaminer les atomes deja produits afin d'identifier :
+
+- les citations les plus fortes ;
+- les formulations canoniques ;
+- les scenes fondatrices ;
+- les temoignages de premiere main ;
+- les chaines argumentatives ;
+- les motifs recurrents ;
+- les elements a fort potentiel redactionnel.
+
+Cette demarche vise a distinguer progressivement deux dimensions complementaires :
+
+- l'importance documentaire ;
+- le potentiel redactionnel.
+
+Un atome ou une citation peut etre fortement important pour le corpus mais faiblement utile au manuscrit. A l'inverse, un element documentaire plus ponctuel peut posseder un potentiel redactionnel eleve parce qu'il cristallise une scene, une tension, une formule ou une articulation argumentative.
+
+Cette distinction ne remet pas en cause les atomes existants. Elle ajoute une couche de lecture historiographique et editoriale, sans creer immediatement de nouveaux schemas ni de nouvelles obligations.
+
+| Priorite | Sources |
+| --- | --- |
+| Tres elevee | Hook, Sumner, Deborah Curtis, Middles, Middles & Reade, Ott |
+| Elevee | Johnson, West, Reynolds |
+| Moyenne | Cummins, Hannett, Gretton, autres temoins directs |
+
+Positionnement :
+
+- ce chantier releve de M6 ;
+- il ne releve pas de M1 ;
+- il ne releve pas de M2 ;
+- il ne constitue pas une nouvelle campagne d'atomisation ;
+- il constitue une operation de valorisation historiographique du corpus existant.
+
+Criteres de sortie proposes :
+
+- identification des principales citations candidates pour le manuscrit ;
+- identification des atomes a fort potentiel redactionnel ;
+- cartographie des chaines argumentatives majeures ;
+- reperage des scenes fondatrices mobilisables dans plusieurs chapitres ;
+- enrichissement progressif des registres sans duplication documentaire.
+
 ## M7 — Publication et perennisation
 
 **Statut** : ulterieur.
