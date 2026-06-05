@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 48 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 53 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 8 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
@@ -128,13 +128,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S35-A084** — S35-A084 — Morley 30 juillet 1977 : Warsaw comme groupe fonctionnel encore indéterminé  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique reproduite par Morris ; à vérifier dans NME`.
 - **S35-A091** — S35-A091 — « Living in the Ice Age » : écrire sans savoir, par intuition collective  
-  Source :  ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A095** — S35-A095 — Morris théorise la section rythmique : pont, moteur, cœur battant  
-  Source :  ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A096** — S35-A096 — « Fast dancey » et « jungly tom » : consignes pauvres, formes durables  
-  Source :  ; type : `processus_creatif_rythmique` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `processus_creatif_rythmique` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
-  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A024** — S37-A024 — La question du style propre : Warsaw à l’épreuve de l’individualisation  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `probleme_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S37-A044** — S37-A044 — Changement de nom Warsaw→Joy Division : analyse par Morley  
@@ -355,7 +355,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S35-A082** — S35-A082 — Cassette Warsaw : punk-by-numbers mais basse étrange  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `ecoute_demo` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
-  Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
 - **S37-A008** — S37-A008 — Les influences discutées : Eno, Cale, Kraftwerk, Can, Iggy, Bowie  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `registre_influences` ; importance : `utile` ; preuve : `moyenne`.
 - **S37-A039** — S37-A039 — Observer Music Monthly, mai 2006 : Manchester/Liverpool 1976-77 et Joy Division comme aboutissement  

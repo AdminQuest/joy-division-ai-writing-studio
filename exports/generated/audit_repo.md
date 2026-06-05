@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-05T08:10:11`
+Généré le : `2026-06-05T12:35:51`
 
 ## 1. Verdict
 
@@ -11,7 +11,7 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 
 - Enregistrements : 8644
 - Erreurs : 0
-- Avertissements : 28870
+- Avertissements : 28853
 - Sources déclarées : 97
 - Sources utilisées : 82
 - Sources exportées : 82
@@ -46,7 +46,7 @@ La dette principale reste la migration v2 : 2530 atome(s) incomplet(s) sur 2770.
 |---|---:|
 | field_type_error | 746 |
 | invalid_controlled_value | 2622 |
-| missing_required_field | 8046 |
+| missing_required_field | 8029 |
 | schema_warning | 492 |
 | unknown_yaml_block | 1404 |
 | v2_migration_debt | 15560 |
@@ -153,8 +153,8 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |
 | sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md | 275 |
 | sources/flowers/second_pass_new_order_late_discography.md | 261 |
-| sources/morris_record_play_pause/source_part_06.md | 251 |
 | sources/morris_record_play_pause/atomes_s35_record_play_pause.md | 239 |
+| sources/hook/atomisation_04_unknown_pleasures_track_by_track.md | 237 |
 
 ## 10. Commandes utiles
 

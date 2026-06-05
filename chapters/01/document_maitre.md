@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -50,7 +50,7 @@ generated_at: "2026-06-05T08:10:11"
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 29 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 31 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 13 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
@@ -116,9 +116,9 @@ generated_at: "2026-06-05T08:10:11"
 - **S35-A041** — S35-A041 — Hawkwind au Free Trade Hall : concert comme choc sensoriel total  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
-  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
-  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A016** — S37-A016 — Le Manchester rock pré-punk comme périphérie sans identité propre  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `contexte_scene` ; importance : `critique` ; preuve : `forte_pour_reception_contemporaine`.
 - **S37-A017** — S37-A017 — Devoto et Buzzcocks comme déclencheur d’une communauté locale  

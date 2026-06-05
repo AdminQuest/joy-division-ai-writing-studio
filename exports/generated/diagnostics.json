@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T08:10:11",
+  "generated_at": "2026-06-05T12:35:51",
   "status": "warning",
   "summary": {
     "records_total": 8644,
@@ -22,9 +22,9 @@
       "song": 110,
       "session": 26
     },
-    "diagnostics_total": 28870,
+    "diagnostics_total": 28853,
     "errors": 0,
-    "warnings": 28870,
+    "warnings": 28853,
     "sources_declared_in_registre_json": 97,
     "sources_used_in_records": 82,
     "sources_exported": 82,
@@ -772,8 +772,8 @@
         "auteur": "Stephen Morris",
         "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
         "annee": "2019",
-        "records": 271,
-        "atoms": 90,
+        "records": 288,
+        "atoms": 107,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -124393,12 +124393,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A086"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A086"
     },
@@ -124473,12 +124467,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: scene_recrutement_logistique",
       "record_id": "S35-A086"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A087"
     },
     {
       "level": "warning",
@@ -124561,12 +124549,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A088"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A088"
     },
@@ -124641,12 +124623,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: scene_mediation_reseau",
       "record_id": "S35-A088"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A089"
     },
     {
       "level": "warning",
@@ -124729,12 +124705,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A090"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A090"
     },
@@ -124809,12 +124779,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: scene_conflit_scene_locale",
       "record_id": "S35-A090"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A091"
     },
     {
       "level": "warning",
@@ -124897,12 +124861,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A092"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A092"
     },
@@ -124977,12 +124935,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: lecture_generationnelle",
       "record_id": "S35-A092"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A093"
     },
     {
       "level": "warning",
@@ -125065,12 +125017,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A094"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A094"
     },
@@ -125145,12 +125091,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: controverse_scene_live",
       "record_id": "S35-A094"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A095"
     },
     {
       "level": "warning",
@@ -125233,12 +125173,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A096"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A096"
     },
@@ -125313,12 +125247,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: processus_creatif_rythmique",
       "record_id": "S35-A096"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A097"
     },
     {
       "level": "warning",
@@ -125401,12 +125329,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A098"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A098"
     },
@@ -125485,12 +125407,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A099"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A099"
     },
@@ -125563,12 +125479,6 @@
     {
       "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A100"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A100"
     },
@@ -125637,12 +125547,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: prudence_sante_mentale",
       "record_id": "S35-A100"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A101"
     },
     {
       "level": "warning",
@@ -125721,12 +125625,6 @@
       "file": "sources/morris_record_play_pause/source_part_06.md",
       "message": "Invalid value for type_unite: scene_domestique",
       "record_id": "S35-A101"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/source_part_06.md",
-      "message": "Missing required field: source_id",
-      "record_id": "S35-A102"
     },
     {
       "level": "warning",

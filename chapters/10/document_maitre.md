@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -39,7 +39,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 1 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 8 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
@@ -83,7 +83,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A099** — S35-A099 — Rafters / Yachts : crise de Stephanie et vie de groupe sans filet  
-  Source :  ; type : `evenement_domestique_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `evenement_domestique_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A034** — S37-A034 — Regarder en arrière : transformer l’événement en histoire sans l’éteindre  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `historiographie_memorielle` ; importance : `critique` ; preuve : `forte_pour_position_de_Morley`.
 - **S37-A035** — S37-A035 — Mémoire, guesswork et langage : la vérité comme montage instable  
@@ -224,7 +224,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S35-A098** — S35-A098 — « Girlfriends » : concurrence entre groupe et vie affective  
-  Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
 - **S37-A037** — S37-A037 — Les Sex Pistols et Joy Division enseignent une autre relation au temps  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `philosophie_du_temps` ; importance : `majeure` ; preuve : `forte_pour_position_de_Morley`.
 - **S37-A053** — S37-A053 — Section XXV : Morley entend LWTUA live pour la première fois (Univ. of London, 1980)  

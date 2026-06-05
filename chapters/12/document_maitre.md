@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T08:10:11"
+generated_at: "2026-06-05T12:35:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -36,7 +36,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 12 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 18 | 0 |
 | S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 8 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 9 | 0 |
@@ -85,13 +85,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S35-A081** — S35-A081 — Ian Curtis comme homme d’idées : plan, scène et adhésion immédiate  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `interpretation_personne` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A089** — S35-A089 — Eric’s Liverpool : première scène de Morris et découverte d’Ian frontman  
-  Source :  ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
-  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A099** — S35-A099 — Rafters / Yachts : crise de Stephanie et vie de groupe sans filet  
-  Source :  ; type : `evenement_domestique_live` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `evenement_domestique_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A100** — S35-A100 — Antidépresseurs, substances et humeur : Morris introduit une prudence clinique  
-  Source :  ; type : `prudence_sante_mentale` ; importance : `critique` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_sante_mentale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A056** — S37-A056 — Sections XXVIII-XXIX : Closer — contexte, enregistrement, notes de pochette réécrites  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `analyse_historique` ; importance : `critique` ; preuve : `forte_retrospective_membres_vivants`.
 - **S37-A058** — S37-A058 — Section XXXI : « Don't Walk Away in Silence » — obituaire NME 14 juin 1980 (Morley/Thrills)  
@@ -214,9 +214,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S35-A065** — S35-A065 — Macclesfield dangereuse : heroin, violences, vols et désir de rupture  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_social` ; importance : `critique pour Chapitre 1` ; preuve : `témoignage autobiographique direct`.
 - **S35-A098** — S35-A098 — « Girlfriends » : concurrence entre groupe et vie affective  
-  Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
 - **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
-  Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
 - **S37-A012** — S37-A012 — La mort du père de Morley comme arrière-plan de son écriture mancunienne  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `contexte_biographique_critique` ; importance : `majeure` ; preuve : `forte_pour_Morley ; non_factuel_sur_Joy_Division`.
 - **S37-A057** — S37-A057 — Section XXX : Morley rédige l'obituaire de Curtis, parallèle avec le suicide de son père  
