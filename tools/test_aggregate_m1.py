@@ -55,5 +55,44 @@ class TestUnreadableReportStatus(unittest.TestCase):
         self.assertIn("Statut impossible à consolider", report)
 
 
+class TestAtomsStrictStatus(unittest.TestCase):
+    def valid_atoms_summary(self) -> dict[str, str]:
+        return {
+            "Documents declares dans le manifeste": "14",
+            "Documents maîtres sur disque": "14",
+            "Documents traçables": "14",
+            "Documents partiellement traçables": "0",
+            "Documents non traçables": "0",
+            "Atomes visibles": "2477",
+            "Atomes retrouvés": "2477",
+            "Écarts détectés": "0",
+        }
+
+    def test_atoms_report_with_positive_gap_is_non_conform(self) -> None:
+        summary = self.valid_atoms_summary()
+        summary["Écarts détectés"] = "1"
+
+        status = aggregate_m1.status_for_atoms(Path("reports/m1/dm_atoms_traceability.md"), summary)
+
+        self.assertEqual(status.state, "non conforme")
+        self.assertTrue(any("écart de traçabilité" in observation for observation in status.observations))
+
+    def test_atoms_report_with_partial_document_is_non_conform(self) -> None:
+        summary = self.valid_atoms_summary()
+        summary["Documents partiellement traçables"] = "1"
+
+        status = aggregate_m1.status_for_atoms(Path("reports/m1/dm_atoms_traceability.md"), summary)
+
+        self.assertEqual(status.state, "non conforme")
+
+    def test_atoms_report_with_missing_visible_atom_is_non_conform(self) -> None:
+        summary = self.valid_atoms_summary()
+        summary["Atomes retrouvés"] = "2476"
+
+        status = aggregate_m1.status_for_atoms(Path("reports/m1/dm_atoms_traceability.md"), summary)
+
+        self.assertEqual(status.state, "non conforme")
+
+
 if __name__ == "__main__":
     unittest.main()

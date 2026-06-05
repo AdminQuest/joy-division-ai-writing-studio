@@ -185,11 +185,18 @@ def status_for_atoms(report_path: Path, summary: dict[str, str]) -> ControlStatu
         f"{retrouves}/{visibles} atomes visibles retrouvés.",
         f"{ecarts} écart détecté dans le rapport agrégé.",
     ]
-    if ecarts == 0 and non_tracables == 0 and partiels == 0:
+    if ecarts == 0 and non_tracables == 0 and partiels == 0 and visibles == retrouves:
         return ControlStatus("DM -> atomes", report_path, "conforme", "✓", observations, summary)
-    if non_tracables > 0:
-        return ControlStatus("DM -> atomes", report_path, "non conforme", "✗", observations, summary)
-    return ControlStatus("DM -> atomes", report_path, "conforme avec réserve", "⚠", observations, summary)
+    return ControlStatus(
+        "DM -> atomes",
+        report_path,
+        "non conforme",
+        "✗",
+        observations + [
+            "Le rapport source signale un écart de traçabilité ; le statut ne peut pas être consolidé comme conforme.",
+        ],
+        summary,
+    )
 
 
 def status_for_registers(report_path: Path, summary: dict[str, str]) -> ControlStatus:
