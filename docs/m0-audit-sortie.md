@@ -19,10 +19,10 @@ Perimetre de cette PR :
 | Champ | Valeur |
 | --- | --- |
 | Critere | `STATUS.md` se regenere sans erreur via `tools/generate_status.py`, puis le snapshot regenere est committe lorsqu'il differe. |
-| Preuves concernees | `STATUS.md`, `tools/generate_status.py`, PR #110, commit `880f2756`, merge commit `4c252be9`. |
-| Etat reel observe | `STATUS.md` est present, indique `Genere par : tools/generate_status.py`, et le snapshot regenere par la PR #110 est merge dans `main`. |
+| Preuves concernees | `STATUS.md`, `tools/generate_status.py`, merge commit `4c252be9`. |
+| Etat reel observe | `STATUS.md` est present, indique `Genere par : tools/generate_status.py`, et le snapshot regenere est present dans `main` via le merge commit `4c252be9`. |
 | Resultat | rempli sous reserve |
-| Justification courte | Le critere a ete verifie dans la PR #110 et le snapshot a ete inclus. Cette PR d'audit ne relance pas le generateur, conformement a la contrainte de ne regenerer aucun artefact. |
+| Justification courte | Les preuves atteignables dans l'historique local confirment la presence du snapshot regenere et du generateur direct. Cette PR d'audit ne relance pas le generateur, conformement a la contrainte de ne regenerer aucun artefact. |
 | Manque eventuel | Aucune action technique immediate. La reserve tient seulement au fait que l'audit courant ne regenere pas `STATUS.md`. |
 | Bloque la cloture M0 ? | Non. |
 
@@ -31,12 +31,12 @@ Perimetre de cette PR :
 | Champ | Valeur |
 | --- | --- |
 | Critere | Les artefacts generes couverts par la sentinelle sont verifies par `check-generated-sync`. |
-| Preuves concernees | `tools/check_generated_sync.py`, `.github/workflows/check-generated-sync.yml`, `exports/generated/`, `chapters/*/document_maitre.md`, `chapters/master_docs.json`, PR #110. |
-| Etat reel observe | La PR #110 affiche le check GitHub Actions `check-generated-sync` en succes. Le workflow appelle `python tools/check_generated_sync.py`. |
-| Resultat | rempli |
-| Justification courte | Le dernier passage M0 merge a ete controle par la sentinelle en CI avec conclusion `SUCCESS`. |
-| Manque eventuel | Aucun manque pour M0. |
-| Bloque la cloture M0 ? | Non. |
+| Preuves concernees | `tools/check_generated_sync.py`, `.github/workflows/check-generated-sync.yml`, `exports/generated/`, `chapters/*/document_maitre.md`, `chapters/master_docs.json`, `docs/m0-etat-du-socle.md`. |
+| Etat reel observe | Le workflow existe et appelle `python tools/check_generated_sync.py`. L'inventaire M0 versionne indique un controle local, mais le resultat GitHub Actions de la derniere PR n'est pas atteste par un artefact versionne dans le depot. |
+| Resultat | rempli sous reserve |
+| Justification courte | Le mecanisme de controle et son perimetre sont presents dans le depot ; l'audit ne doit pas affirmer un succes CI non prouve par Git. |
+| Manque eventuel | Verification du check GitHub Actions de la PR courante avant merge. |
+| Bloque la cloture M0 ? | Non, sous reserve que le check GitHub Actions de la PR courante soit vert avant merge. |
 
 ### 3. `build_all.py` reste le controle global du pipeline, sans etre presente comme generateur direct de `STATUS.md`
 
@@ -55,12 +55,12 @@ Perimetre de cette PR :
 | Champ | Valeur |
 | --- | --- |
 | Critere | `check-generated-sync` est au vert sur la derniere PR. |
-| Preuves concernees | PR #110, workflow `.github/workflows/check-generated-sync.yml`, check GitHub Actions `check-generated-sync`. |
-| Etat reel observe | La derniere PR M0 mergee, #110, a un check `check-generated-sync` termine avec conclusion `SUCCESS`. |
-| Resultat | rempli |
-| Justification courte | Le check requis est passe sur la PR qui a ajoute l'inventaire M0 et les artefacts regenerees. |
-| Manque eventuel | Le futur check de cette PR d'audit devra aussi passer avant merge, mais ce n'est pas un ecart M0 existant. |
-| Bloque la cloture M0 ? | Non. |
+| Preuves concernees | `.github/workflows/check-generated-sync.yml`, `tools/check_generated_sync.py`. |
+| Etat reel observe | Le workflow existe dans le depot, mais le resultat GitHub Actions de la derniere PR n'est pas atteste par un artefact versionne dans Git. |
+| Resultat | non verifiable |
+| Justification courte | L'audit peut verifier la presence du workflow, mais ne doit pas affirmer un succes CI sans preuve versionnee dans le depot. |
+| Manque eventuel | Verification du check GitHub Actions de la PR courante avant merge. |
+| Bloque la cloture M0 ? | Non, si le check GitHub Actions de la PR courante est vert avant merge. |
 
 ### 5. L'inventaire des applications existantes est disponible et date
 
@@ -139,9 +139,9 @@ Perimetre de cette PR :
 | Critere | Statut | Bloquant ? |
 | --- | --- | --- |
 | `STATUS.md` regenere via `tools/generate_status.py` et snapshot committe si different | rempli sous reserve | Non |
-| Artefacts generes verifies par `check-generated-sync` | rempli | Non |
+| Artefacts generes verifies par `check-generated-sync` | rempli sous reserve | Non |
 | `build_all.py` conserve son role de controle global sans etre generateur direct de `STATUS.md` | rempli | Non |
-| `check-generated-sync` au vert sur la derniere PR | rempli | Non |
+| `check-generated-sync` au vert sur la derniere PR | non verifiable | Non, si le check de la PR courante est vert |
 | Inventaire date des applications existantes | rempli sous reserve | Non |
 | Inventaire des registres canoniques avec volumetrie | rempli | Non |
 | Table des dependances build / validation / publication | rempli | Non |
@@ -152,7 +152,7 @@ Perimetre de cette PR :
 ## Conditions restantes avant clôture de M0
 
 - Faire valider humainement cette PR d'audit de sortie.
-- Verifier que le check GitHub Actions de cette PR d'audit reste au vert avant merge.
+- Verifier que le check GitHub Actions de cette PR d'audit est vert avant merge.
 - Decider explicitement si la reserve sur `manuscript-studio` est acceptable comme constat M0 ou si un emplacement externe doit etre fourni avant cloture.
 
 ## Sujets reportés hors M0
