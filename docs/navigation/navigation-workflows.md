@@ -16,11 +16,11 @@ Objectif : repérer les workflows présents et leurs points d'entrée.
 Séquence observée dans l'orchestrateur :
 
 ```text
-tools/atomize_new_sources.py --detect
-tools/atomize_new_sources.py --prepare SXX
+python3 tools/atomize_new_sources.py --detect
+python3 tools/atomize_new_sources.py --prepare SXX
 travail documentaire dans sources/ et registers/
-tools/atomize_new_sources.py --commit-and-pr SXX
-tools/atomize_new_sources.py --finalize SXX
+python3 tools/atomize_new_sources.py --commit-and-pr SXX
+python3 tools/atomize_new_sources.py --finalize SXX
 ```
 
 ## Enrichissement documentaire
