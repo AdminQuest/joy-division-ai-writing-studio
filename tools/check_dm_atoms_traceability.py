@@ -111,7 +111,7 @@ def validate_master_doc_filesystem_path(doc_path: str) -> Issue | None:
     chapter = candidate.parts[1]
     chapter_dir = REPO_ROOT / "chapters" / chapter
     full_path = chapter_dir / "document_maitre.md"
-    expected_resolved = REPO_ROOT / "chapters" / chapter / "document_maitre.md"
+    expected_resolved = (REPO_ROOT / "chapters").resolve(strict=False) / chapter / "document_maitre.md"
 
     if chapter_dir.is_symlink() or full_path.is_symlink():
         return Issue(
@@ -226,12 +226,37 @@ def load_master_index(path: Path) -> tuple[dict[str, dict[str, Any]], list[Issue
     return index, issues
 
 
-def scan_disk_master_docs() -> set[str]:
-    return {
-        rel(path)
-        for path in sorted((REPO_ROOT / "chapters").glob("*/document_maitre.md"))
-        if path.is_file()
-    }
+def invalid_disk_master_doc_issue(doc_path: str) -> Issue:
+    return Issue(
+        "document maître invalide",
+        doc_path,
+        "Document maître présent sur disque mais refusé : composant symlinké ou cible résolue non conforme.",
+    )
+
+
+def scan_disk_master_doc_paths(paths: list[Path]) -> tuple[set[str], list[Issue]]:
+    disk_paths: set[str] = set()
+    issues: list[Issue] = []
+    for path in paths:
+        doc_path = rel(path)
+        valid_path, path_issue = validate_master_doc_path(doc_path)
+        if path_issue is not None:
+            issues.append(path_issue)
+            continue
+        assert valid_path is not None
+
+        filesystem_issue = validate_master_doc_filesystem_path(valid_path)
+        if filesystem_issue is not None:
+            issues.append(invalid_disk_master_doc_issue(valid_path))
+            continue
+
+        if path.is_file():
+            disk_paths.add(valid_path)
+    return disk_paths, issues
+
+
+def scan_disk_master_docs() -> tuple[set[str], list[Issue]]:
+    return scan_disk_master_doc_paths(sorted((REPO_ROOT / "chapters").glob("*/document_maitre.md")))
 
 
 def extract_visible_atom_ids(markdown: str) -> set[str]:
@@ -468,8 +493,8 @@ def run(output: Path) -> int:
     atom_ids = load_atom_ids(ATOMS_EXPORT)
     alias_lookup = build_alias_lookup(atom_ids)
     master_index, index_issues = load_master_index(MASTER_DOCS_INDEX)
-    disk_paths = scan_disk_master_docs()
-    global_issues = manifest_issues + index_issues + detect_manifest_index_disk_drift(documents, master_index, disk_paths)
+    disk_paths, disk_issues = scan_disk_master_docs()
+    global_issues = manifest_issues + index_issues + disk_issues + detect_manifest_index_disk_drift(documents, master_index, disk_paths)
     audits = [audit_document(doc, atom_ids, alias_lookup, master_index) for doc in documents]
 
     output.parent.mkdir(parents=True, exist_ok=True)

@@ -61,6 +61,76 @@ class TestManifestIndexDiskDrift(unittest.TestCase):
         self.assertIn(("dérive manifeste / index", "chapters/02/document_maitre.md"), observed)
 
 
+class TestDiskScanGuard(unittest.TestCase):
+    def test_scan_rejects_disk_only_symlinked_master_doc(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapter_dir = repo_root / "chapters" / "01"
+            chapter_dir.mkdir(parents=True)
+            (repo_root / "chapters" / "master_docs.json").write_text("not a master document", encoding="utf-8")
+            (chapter_dir / "document_maitre.md").symlink_to(repo_root / "chapters" / "master_docs.json")
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                disk_paths, issues = dm_atoms.scan_disk_master_docs()
+
+        self.assertEqual(disk_paths, set())
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0].kind, "document maître invalide")
+        self.assertIn("présent sur disque mais refusé", issues[0].detail)
+
+    def test_scan_rejects_disk_only_symlinked_chapter_directory(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapters_dir = repo_root / "chapters"
+            real_chapter_dir = chapters_dir / "02"
+            real_chapter_dir.mkdir(parents=True)
+            (real_chapter_dir / "document_maitre.md").write_text("| Atomes | 0 |\n", encoding="utf-8")
+            (chapters_dir / "99").symlink_to(real_chapter_dir, target_is_directory=True)
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                disk_paths, issues = dm_atoms.scan_disk_master_docs()
+
+        self.assertEqual(disk_paths, {"chapters/02/document_maitre.md"})
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0].kind, "document maître invalide")
+        self.assertEqual(issues[0].dm, "chapters/99/document_maitre.md")
+
+    def test_scan_rejects_disk_only_symlink_to_another_chapter(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapters_dir = repo_root / "chapters"
+            target_chapter_dir = chapters_dir / "02"
+            symlink_chapter_dir = chapters_dir / "99"
+            target_chapter_dir.mkdir(parents=True)
+            symlink_chapter_dir.mkdir()
+            (target_chapter_dir / "document_maitre.md").write_text("| Atomes | 0 |\n", encoding="utf-8")
+            (symlink_chapter_dir / "document_maitre.md").symlink_to(target_chapter_dir / "document_maitre.md")
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                disk_paths, issues = dm_atoms.scan_disk_master_docs()
+
+        self.assertEqual(disk_paths, {"chapters/02/document_maitre.md"})
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0].kind, "document maître invalide")
+        self.assertEqual(issues[0].dm, "chapters/99/document_maitre.md")
+
+    def test_scan_rejects_disk_only_symlink_to_master_docs_manifest(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            repo_root = Path(tmp_dir)
+            chapter_dir = repo_root / "chapters" / "99"
+            chapter_dir.mkdir(parents=True)
+            (repo_root / "chapters" / "master_docs.json").write_text("not a master document", encoding="utf-8")
+            (chapter_dir / "document_maitre.md").symlink_to(repo_root / "chapters" / "master_docs.json")
+
+            with patch.object(dm_atoms, "REPO_ROOT", repo_root):
+                disk_paths, issues = dm_atoms.scan_disk_master_docs()
+
+        self.assertEqual(disk_paths, set())
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0].kind, "document maître invalide")
+        self.assertEqual(issues[0].dm, "chapters/99/document_maitre.md")
+
+
 class TestMasterDocPathGuard(unittest.TestCase):
     def test_valid_master_doc_path_is_allowed(self) -> None:
         valid_path, issue = dm_atoms.validate_master_doc_path("chapters/01/document_maitre.md")
