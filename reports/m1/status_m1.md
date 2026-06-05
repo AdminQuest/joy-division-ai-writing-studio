@@ -6,7 +6,7 @@ L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun cont
 
 ## État général
 
-**M1 STATUS** : conforme avec réserve
+**M1 STATUS** : non conforme
 
 **Date** : 2026-06-05
 
@@ -15,7 +15,7 @@ L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun cont
 | Contrôle | Statut | Rapport | Observations |
 | --- | --- | --- | --- |
 | ✓ DM -> atomes | conforme | `reports/m1/dm_atoms_traceability.md` | 2477/2477 atomes visibles retrouvés.<br>0 écart détecté dans le rapport agrégé. |
-| ⚠ DM -> registres | conforme avec réserve | `reports/m1/dm_registers_consistency.md` | 0 identifiant introuvable.<br>29 libellé divergent.<br>51 famille non couverte. |
+| ✗ DM -> registres | non conforme | `reports/m1/dm_registers_consistency.md` | 80 écart(s) détecté(s).<br>0 document(s) non cohérent(s).<br>0 identifiant introuvable.<br>29 libellé divergent.<br>51 famille non couverte.<br>Le rapport source signale des écarts bloquants : Écarts détectés=80. |
 
 ### Audits validés
 

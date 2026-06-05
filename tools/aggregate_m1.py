@@ -212,23 +212,55 @@ def status_for_registers(report_path: Path, summary: dict[str, str]) -> ControlS
     missing = int_value(summary, "Identifiants introuvables")
     absent = int_value(summary, "Registres absents")
     counters = int_value(summary, "Compteurs incohérents")
+    non_coherents = int_value(summary, "Documents non cohérents")
+    ecarts = int_value(summary, "Écarts détectés")
     manifest = int_value(summary, "Manifestes incohérents")
+    relations = int_value(summary, "Relations non résolues")
     label_drift = int_value(summary, "Libellés divergents")
     non_covered = int_value(summary, "Familles non couvertes")
     assert missing is not None
     assert absent is not None
     assert counters is not None
+    assert non_coherents is not None
+    assert ecarts is not None
     assert manifest is not None
+    assert relations is not None
     assert label_drift is not None
     assert non_covered is not None
 
     observations = [
+        f"{ecarts} écart(s) détecté(s).",
+        f"{non_coherents} document(s) non cohérent(s).",
         f"{missing} identifiant introuvable.",
         f"{label_drift} libellé divergent.",
         f"{non_covered} famille non couverte.",
     ]
-    if missing or absent or counters or manifest:
-        return ControlStatus("DM -> registres", report_path, "non conforme", "✗", observations, summary)
+    blocking_values = {
+        "Documents non cohérents": non_coherents,
+        "Écarts détectés": ecarts,
+        "Identifiants introuvables": missing,
+        "Registres absents": absent,
+        "Compteurs incohérents": counters,
+        "Manifestes incohérents": manifest,
+        "Relations non résolues": relations,
+    }
+    blocking = {
+        label: value
+        for label, value in blocking_values.items()
+        if value > 0
+    }
+    if blocking:
+        blocking_summary = ", ".join(f"{label}={value}" for label, value in blocking.items())
+        return ControlStatus(
+            "DM -> registres",
+            report_path,
+            "non conforme",
+            "✗",
+            observations + [
+                f"Le rapport source signale des écarts bloquants : {blocking_summary}.",
+            ],
+            summary,
+        )
     if label_drift or non_covered:
         return ControlStatus("DM -> registres", report_path, "conforme avec réserve", "⚠", observations, summary)
     return ControlStatus("DM -> registres", report_path, "conforme", "✓", observations, summary)

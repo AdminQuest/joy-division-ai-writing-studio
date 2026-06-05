@@ -94,5 +94,51 @@ class TestAtomsStrictStatus(unittest.TestCase):
         self.assertEqual(status.state, "non conforme")
 
 
+class TestRegistersStrictStatus(unittest.TestCase):
+    def valid_registers_summary(self) -> dict[str, str]:
+        return {
+            "Documents declares dans le manifeste": "14",
+            "Documents maîtres sur disque": "14",
+            "Documents cohérents": "14",
+            "Documents partiellement cohérents": "0",
+            "Documents non cohérents": "0",
+            "Écarts détectés": "0",
+            "Identifiants introuvables": "0",
+            "Registres absents": "0",
+            "Compteurs incohérents": "0",
+            "Familles non couvertes": "0",
+            "Relations non résolues": "0",
+            "Libellés divergents": "0",
+            "Manifestes incohérents": "0",
+        }
+
+    def test_registers_report_with_positive_gap_is_non_conform(self) -> None:
+        summary = self.valid_registers_summary()
+        summary["Écarts détectés"] = "1"
+
+        status = aggregate_m1.status_for_registers(Path("reports/m1/dm_registers_consistency.md"), summary)
+
+        self.assertEqual(status.state, "non conforme")
+        self.assertTrue(any("Écarts détectés=1" in observation for observation in status.observations))
+
+    def test_registers_report_with_non_coherent_document_is_non_conform(self) -> None:
+        summary = self.valid_registers_summary()
+        summary["Documents non cohérents"] = "1"
+
+        status = aggregate_m1.status_for_registers(Path("reports/m1/dm_registers_consistency.md"), summary)
+
+        self.assertEqual(status.state, "non conforme")
+        self.assertTrue(any("Documents non cohérents=1" in observation for observation in status.observations))
+
+    def test_registers_report_with_only_label_or_mvp_reserve_remains_reserve(self) -> None:
+        summary = self.valid_registers_summary()
+        summary["Libellés divergents"] = "2"
+        summary["Familles non couvertes"] = "3"
+
+        status = aggregate_m1.status_for_registers(Path("reports/m1/dm_registers_consistency.md"), summary)
+
+        self.assertEqual(status.state, "conforme avec réserve")
+
+
 if __name__ == "__main__":
     unittest.main()
