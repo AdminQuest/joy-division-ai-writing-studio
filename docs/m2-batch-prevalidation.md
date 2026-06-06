@@ -46,7 +46,8 @@ adaptateurs disponibles aujourd'hui :
 
 - `person` -> `tools/m2_add_person.py` ;
 - `org` -> `tools/m2_add_org.py` ;
-- `place` -> `tools/m2_add_place.py`.
+- `place` -> `tools/m2_add_place.py` ;
+- `image` -> `tools/m2_add_image.py`.
 
 Cette separation prepare l'ajout de futures familles sans modifier le moteur de
 rendu batch.
@@ -62,6 +63,10 @@ diagnostic de l'item concerne.
 Pour les campagnes PLACE, la CLI detecte les identifiants `PLACE-*` deja
 produits dans le meme lot. Un doublon interne devient un bloquant dans le
 diagnostic de l'item concerne.
+
+Pour les campagnes IMAGE, la CLI reserve les candidats deja diagnostiques
+pendant la campagne. Cela permet de proposer des identifiants successifs
+`IMAGE-S-*` ou `IMAGE-I-*` dans un meme lot.
 
 Si deux items produisent le meme nom de resume PR, la sortie batch ajoute un
 suffixe `item-N` au fichier suivant afin de conserver un artefact par item.
@@ -206,6 +211,35 @@ Effets :
 - generation du rapport batch ;
 - generation du resume PR PLACE.
 
+## Exemple IMAGE
+
+```json
+{
+  "campaign": "batch-image",
+  "items": [
+    {
+      "family": "image",
+      "level": "session",
+      "name": "Prototype Image Session",
+      "photographer": "PERSON-kevin-cummins",
+      "date": "1979-02",
+      "date_precision": "month",
+      "context": "promo",
+      "subjects": ["PERSON-ian-curtis"],
+      "place": "PLACE-HULME",
+      "sources": ["S41"],
+      "last_verified": "2026-06-06"
+    }
+  ]
+}
+```
+
+Effets :
+
+- execution du diagnostic IMAGE ;
+- generation du rapport batch ;
+- generation du resume PR IMAGE.
+
 ## Exemple mixte
 
 ```json
@@ -233,6 +267,14 @@ Effets :
       "label": "Prototype Venue",
       "type": "salle",
       "sources": ["S41"]
+    },
+    {
+      "family": "image",
+      "level": "session",
+      "name": "Prototype Image Session",
+      "photographer": "PERSON-kevin-cummins",
+      "sources": ["S41"],
+      "last_verified": "2026-06-06"
     }
   ]
 }
@@ -258,7 +300,8 @@ Ce chantier couvre :
 - pre-validation d'une liste de personnes candidates ;
 - pre-validation d'une liste d'organisations candidates ;
 - pre-validation d'une liste de lieux candidats ;
-- campagne mixte PERSON / ORG / PLACE ;
+- pre-validation d'une liste d'images ou seances candidates ;
+- campagne mixte PERSON / ORG / PLACE / IMAGE ;
 - preparation d'une revue humaine avec un rapport unique et des resumes PR
   individuels.
 
@@ -284,6 +327,6 @@ Commandes utiles :
 
 ```bash
 python3 -m unittest tools.test_m2_batch_prevalidation
-python3 -m unittest tools.test_m2_add_person tools.test_m2_add_org tools.test_m2_add_place tools.test_m2_pr_summary
+python3 -m unittest tools.test_m2_add_person tools.test_m2_add_org tools.test_m2_add_place tools.test_m2_add_image tools.test_m2_pr_summary
 python3 tools/m2_batch_prevalidation.py --help
 ```

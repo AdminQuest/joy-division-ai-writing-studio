@@ -8,7 +8,8 @@ import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from tools import m2_add_org, m2_add_place, m2_batch_prevalidation
+from tools import m2_add_image, m2_add_org, m2_add_place, m2_batch_prevalidation
+from tools.test_m2_add_image import existing_image, person_block as image_person_block, place_block as image_place_block
 from tools.test_m2_add_org import existing_org
 from tools.test_m2_add_place import place_block
 from tools.test_m2_add_person import write_minimal_repo as write_person_repo
@@ -26,10 +27,26 @@ def write_batch_repo(root: Path, *, org_records: list[dict] | None = None) -> m2
         (m2_add_org.REPO_ROOT / "schemas" / "organization_canonical.schema.json").read_text(encoding="utf-8"),
         encoding="utf-8",
     )
+    (root / "registers" / "people" / "00_canonical_people.md").write_text(
+        image_person_block() + image_person_block("PERSON-ian-curtis", "Ian Curtis"),
+        encoding="utf-8",
+    )
     (root / "registers" / "places").mkdir(parents=True, exist_ok=True)
-    (root / "registers" / "places" / "places.md").write_text(place_block(), encoding="utf-8")
+    (root / "registers" / "places" / "places.md").write_text(
+        place_block() + image_place_block(),
+        encoding="utf-8",
+    )
     (root / "schemas" / "places.schema.yaml").write_text(
         (m2_add_place.REPO_ROOT / "schemas" / "places.schema.yaml").read_text(encoding="utf-8"),
+        encoding="utf-8",
+    )
+    (root / "registers" / "images").mkdir(parents=True, exist_ok=True)
+    (root / "registers" / "images" / "images.json").write_text(
+        json.dumps([existing_image()], ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    (root / "schemas" / "image_canonical.schema.json").write_text(
+        (m2_add_image.REPO_ROOT / "schemas" / "image_canonical.schema.json").read_text(encoding="utf-8"),
         encoding="utf-8",
     )
     return m2_batch_prevalidation.BatchPaths(root=root)
@@ -303,6 +320,109 @@ class TestM2BatchPrevalidation(unittest.TestCase):
         self.assertTrue(second_pr_exists)
         self.assertIn("- refus: 1", markdown)
         self.assertIn("collision interne batch PLACE: PLACE-DUPLICATE-PLACE", markdown)
+
+    def test_image_items_are_reserved_across_batch_items(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_batch_repo(Path(tmp))
+            report_path, refused_count = m2_batch_prevalidation.run_campaign(
+                {
+                    "campaign": "two-images",
+                    "items": [
+                        {
+                            "family": "image",
+                            "level": "session",
+                            "name": "First Batch Image Session",
+                            "photographer": "PERSON-kevin-cummins",
+                            "date": "1979-02",
+                            "date_precision": "month",
+                            "context": "promo",
+                            "subjects": ["PERSON-ian-curtis"],
+                            "place": "PLACE-HULME",
+                            "sources": ["S01"],
+                            "last_verified": "2026-06-06",
+                        },
+                        {
+                            "family": "image",
+                            "level": "session",
+                            "name": "Second Batch Image Session",
+                            "photographer": "PERSON-kevin-cummins",
+                            "date": "1979-03",
+                            "date_precision": "month",
+                            "context": "promo",
+                            "subjects": ["PERSON-ian-curtis"],
+                            "place": "PLACE-HULME",
+                            "sources": ["S01"],
+                            "last_verified": "2026-06-06",
+                        },
+                    ],
+                },
+                paths=paths,
+            )
+            markdown = report_path.read_text(encoding="utf-8")
+            first_pr = (
+                Path(tmp)
+                / "exports"
+                / "generated"
+                / "pr_summary_image_image-s-0002_first-batch-image-session.md"
+            )
+            second_pr = (
+                Path(tmp)
+                / "exports"
+                / "generated"
+                / "pr_summary_image_image-s-0003_second-batch-image-session.md"
+            )
+            first_pr_exists = first_pr.exists()
+            second_pr_exists = second_pr.exists()
+
+        self.assertEqual(refused_count, 0)
+        self.assertTrue(first_pr_exists)
+        self.assertTrue(second_pr_exists)
+        self.assertIn("IMAGE - First Batch Image Session (IMAGE-S-0002)", markdown)
+        self.assertIn("IMAGE - Second Batch Image Session (IMAGE-S-0003)", markdown)
+
+    def test_refused_image_session_is_not_reserved_for_child_image(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_batch_repo(Path(tmp))
+            report_path, refused_count = m2_batch_prevalidation.run_campaign(
+                {
+                    "campaign": "refused-image-parent",
+                    "items": [
+                        {
+                            "family": "image",
+                            "level": "session",
+                            "name": "Refused Parent Image Session",
+                            "photographer": "PERSON-kevin-cummins",
+                            "date": "1979-02",
+                            "date_precision": "month",
+                            "context": "promo",
+                            "subjects": ["PERSON-ian-curtis"],
+                            "place": "PLACE-HULME",
+                            "sources": ["S999"],
+                            "last_verified": "2026-06-06",
+                        },
+                        {
+                            "family": "image",
+                            "level": "image",
+                            "session_ref": "IMAGE-S-0002",
+                            "name": "Child Of Refused Image Session",
+                            "photographer": "PERSON-kevin-cummins",
+                            "date": "1979-02",
+                            "date_precision": "month",
+                            "context": "promo",
+                            "subjects": ["PERSON-ian-curtis"],
+                            "place": "PLACE-HULME",
+                            "sources": ["S01"],
+                            "last_verified": "2026-06-06",
+                        },
+                    ],
+                },
+                paths=paths,
+            )
+            markdown = report_path.read_text(encoding="utf-8")
+
+        self.assertEqual(refused_count, 2)
+        self.assertIn("source inconnue: S999", markdown)
+        self.assertIn("session_ref introuvable: IMAGE-S-0002", markdown)
 
 
 if __name__ == "__main__":

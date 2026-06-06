@@ -9,6 +9,7 @@ Il prepare :
 - une commande `tools/m2_add_person.py` ;
 - une commande `tools/m2_add_org.py` ;
 - une commande `tools/m2_add_place.py` ;
+- une commande `tools/m2_add_image.py` ;
 - une commande `tools/m2_integrate_source.py` ;
 - un JSON de campagne compatible avec `tools/m2_batch_prevalidation.py`.
 
@@ -27,7 +28,8 @@ apps/m2-formulaire/index.html
 ```
 
 La page affiche un bloc `Mode d'emploi` qui resume le workflow, les usages
-PERSON / ORG / PLACE / SOURCE LONGUE / BATCH et les limites du formulaire.
+PERSON / ORG / PLACE / IMAGE / SOURCE LONGUE / BATCH et les limites du
+formulaire.
 
 Le portail racine expose aussi un lien vers l'application dans l'onglet
 `Outils du livre`.
@@ -112,6 +114,30 @@ Commande generee :
 python3 tools/m2_add_place.py --label 'Prototype Venue' --type 'salle' --sources 'S41' --aliases 'Prototype Club' --type-detail 'club' --usage 'concert' --prudence 'verifier la distinction avec le batiment voisin' --pr-summary
 ```
 
+## Exemple IMAGE
+
+Champs saisis :
+
+```text
+level: session
+name: Prototype Image Session
+photographer: PERSON-kevin-cummins
+sources: S41
+date: 1979-02
+date_precision: month
+context: promo
+subjects: PERSON-ian-curtis
+place: PLACE-HULME
+last_verified: 2026-06-06
+notes: droits et provenance a confirmer en revue
+```
+
+Commande generee :
+
+```bash
+python3 tools/m2_add_image.py --level 'session' --name 'Prototype Image Session' --photographer 'PERSON-kevin-cummins' --sources 'S41' --last-verified '2026-06-06' --date '1979-02' --date-precision 'month' --context 'promo' --subjects 'PERSON-ian-curtis' --place 'PLACE-HULME' --notes 'droits et provenance a confirmer en revue' --pr-summary
+```
+
 ## Exemple SOURCE LONGUE
 
 Champs saisis :
@@ -137,8 +163,8 @@ au CLI si aucun parametre correspondant n'existe.
 
 ## Exemple batch
 
-Le formulaire permet d'ajouter plusieurs items PERSON, ORG et PLACE dans une
-campagne.
+Le formulaire permet d'ajouter plusieurs items PERSON, ORG, PLACE et IMAGE dans
+une campagne.
 
 JSON genere :
 
@@ -173,6 +199,20 @@ JSON genere :
       "aliases": ["Prototype Club"],
       "usage": "concert",
       "prudence": "verifier la distinction avec le batiment voisin"
+    },
+    {
+      "family": "image",
+      "level": "session",
+      "name": "Prototype Image Session",
+      "photographer": "PERSON-kevin-cummins",
+      "sources": ["S41"],
+      "date": "1979-02",
+      "date_precision": "month",
+      "context": "promo",
+      "subjects": ["PERSON-ian-curtis"],
+      "place": "PLACE-HULME",
+      "last_verified": "2026-06-06",
+      "notes": "droits et provenance a confirmer en revue"
     }
   ]
 }
@@ -192,6 +232,7 @@ Verifications manuelles apres copie :
 python3 tools/m2_add_person.py --help
 python3 tools/m2_add_org.py --help
 python3 tools/m2_add_place.py --help
+python3 tools/m2_add_image.py --help
 python3 tools/m2_integrate_source.py --help
 python3 tools/m2_batch_prevalidation.py --help
 ```

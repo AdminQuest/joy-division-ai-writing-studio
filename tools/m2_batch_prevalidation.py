@@ -12,7 +12,7 @@ from tempfile import TemporaryDirectory
 from typing import Callable, Sequence
 
 try:
-    from tools import m2_add_org, m2_add_person, m2_add_place
+    from tools import m2_add_image, m2_add_org, m2_add_person, m2_add_place
     from tools.m2_core import (
         BatchItemResult,
         CheckResult,
@@ -24,6 +24,7 @@ try:
     )
 except ImportError:  # execution directe: python3 tools/m2_batch_prevalidation.py
     sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import m2_add_image
     import m2_add_org
     import m2_add_person
     import m2_add_place
@@ -45,6 +46,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 class BatchPaths:
     root: Path = REPO_ROOT
     orgs_json_override: Path | None = None
+    images_json_override: Path | None = None
 
     @property
     def output_dir(self) -> Path:
@@ -78,8 +80,23 @@ class BatchPaths:
             schema_yaml=self.root / "schemas" / "places.schema.yaml",
         )
 
+    @property
+    def image_paths(self) -> m2_add_image.Paths:
+        return m2_add_image.Paths(
+            root=self.root,
+            source_registry=self.root / "data" / "registre.json",
+            images_json=self.images_json_override or self.root / "registers" / "images" / "images.json",
+            schema_json=self.root / "schemas" / "image_canonical.schema.json",
+            canonical_people=self.root / "registers" / "people" / "00_canonical_people.md",
+            canonical_authors=self.root / "registers" / "people" / "00_authors_canonical.md",
+            places_root=self.root / "registers" / "places",
+        )
+
     def with_orgs_json(self, path: Path) -> BatchPaths:
-        return BatchPaths(root=self.root, orgs_json_override=path)
+        return BatchPaths(root=self.root, orgs_json_override=path, images_json_override=self.images_json_override)
+
+    def with_images_json(self, path: Path) -> BatchPaths:
+        return BatchPaths(root=self.root, orgs_json_override=self.orgs_json_override, images_json_override=path)
 
 
 @dataclass(frozen=True)
@@ -105,6 +122,12 @@ def as_bool(value: object) -> bool:
     if value is None:
         return False
     return str(value).strip().lower() in {"1", "true", "yes", "oui"}
+
+
+def as_int_or_none(value: object) -> int | None:
+    if value is None or str(value).strip() == "":
+        return None
+    return int(str(value).strip())
 
 
 def evaluate_person_item(item: dict, paths: BatchPaths) -> CheckResult:
@@ -162,6 +185,33 @@ def evaluate_place_item(item: dict, paths: BatchPaths) -> CheckResult:
     )
 
 
+def evaluate_image_item(item: dict, paths: BatchPaths) -> CheckResult:
+    return m2_add_image.evaluate_image_addition(
+        level=str(item["level"]),
+        name=str(item["name"]),
+        photographer=str(item["photographer"]),
+        sources=as_list(item.get("sources")),
+        last_verified=str(item["last_verified"]),
+        date=str(item.get("date", "")),
+        date_precision=str(item.get("date_precision", "approximate")),
+        subjects=as_list(item.get("subjects")),
+        session_ref=item.get("session_ref"),
+        place=item.get("place"),
+        event_ref=item.get("event_ref"),
+        context=str(item.get("context", "other")),
+        output_count=as_int_or_none(item.get("output_count")),
+        usage=as_list(item.get("usage")),
+        iconic=as_bool(item.get("iconic")),
+        notes=item.get("notes"),
+        gate=str(item.get("gate", "private")),
+        wikidata=item.get("wikidata"),
+        image_id=item.get("image_id"),
+        rights_uncertain=as_bool(item.get("rights_uncertain")),
+        attribution_uncertain=as_bool(item.get("attribution_uncertain")),
+        paths=paths.image_paths,
+    )
+
+
 def person_label(result: CheckResult) -> str:
     candidate = result.candidate
     return f"{candidate['name']} ({candidate['id']})"
@@ -177,6 +227,11 @@ def place_label(result: CheckResult) -> str:
     return f"{candidate['label']} ({candidate['id']})"
 
 
+def image_label(result: CheckResult) -> str:
+    candidate = result.candidate
+    return f"{candidate['canonical_name']} ({candidate['image_id']})"
+
+
 def person_pr_summary_filename(result: CheckResult) -> str:
     return f"pr_summary_person_{m2_add_person.slugify(result.candidate['id'])}.md"
 
@@ -188,6 +243,11 @@ def org_pr_summary_filename(result: CheckResult) -> str:
 
 def place_pr_summary_filename(result: CheckResult) -> str:
     return f"pr_summary_place_{m2_add_place.slugify_filename(result.candidate['id'])}.md"
+
+
+def image_pr_summary_filename(result: CheckResult) -> str:
+    name_slug = normalize_text(result.candidate["canonical_name"]).replace(" ", "-")
+    return f"pr_summary_image_{result.candidate['image_id'].lower()}_{name_slug}.md"
 
 
 ADAPTERS = {
@@ -211,6 +271,13 @@ ADAPTERS = {
         place_label,
         m2_add_place.build_place_pr_summary,
         place_pr_summary_filename,
+    ),
+    "image": BatchAdapter(
+        "IMAGE",
+        evaluate_image_item,
+        image_label,
+        m2_add_image.build_image_pr_summary,
+        image_pr_summary_filename,
     ),
 }
 
@@ -263,12 +330,15 @@ def run_campaign(
     item_results: list[BatchItemResult] = []
     base_org_records: list[dict] | None = None
     reserved_org_records: list[dict] = []
+    base_image_records: list[dict] | None = None
+    reserved_image_records: list[dict] = []
     seen_person_ids: dict[str, str] = {}
     seen_place_ids: dict[str, str] = {}
     used_pr_filenames: set[str] = set()
 
     with TemporaryDirectory() as tmp:
         orgs_json = Path(tmp) / "orgs.json"
+        images_json = Path(tmp) / "images.json"
         for index, item in enumerate(payload.get("items", []), start=1):
             if not isinstance(item, dict):
                 result = CheckResult(candidate={"raw": item})
@@ -297,12 +367,23 @@ def run_campaign(
                     encoding="utf-8",
                 )
                 adapter_paths = paths.with_orgs_json(orgs_json)
+            if family_key == "image":
+                if base_image_records is None:
+                    base_image_records = m2_add_image.load_image_records(paths.image_paths.images_json)
+                images_json.write_text(
+                    json.dumps([*base_image_records, *reserved_image_records], sort_keys=True),
+                    encoding="utf-8",
+                )
+                adapter_paths = paths.with_images_json(images_json)
 
             try:
                 result = adapter.evaluate(item, adapter_paths)
-            except KeyError as exc:
+            except (KeyError, ValueError) as exc:
                 result = CheckResult(candidate=item)
-                result.blockers.append(f"item batch invalide: champ requis absent: {exc.args[0]}")
+                if isinstance(exc, KeyError):
+                    result.blockers.append(f"item batch invalide: champ requis absent: {exc.args[0]}")
+                else:
+                    result.blockers.append(f"item batch invalide: {exc}")
                 result.finalize()
                 item_results.append(
                     BatchItemResult(index, adapter.family, str(item.get("name", f"item-{index}")), result)
@@ -311,6 +392,8 @@ def run_campaign(
 
             if family_key == "org" and result.candidate.get("org_id"):
                 reserved_org_records.append(result.candidate)
+            if family_key == "image" and result.candidate.get("image_id") and not result.blockers:
+                reserved_image_records.append(result.candidate)
             if family_key == "person" and result.candidate.get("id"):
                 person_id = str(result.candidate["id"])
                 if person_id in seen_person_ids:
@@ -356,7 +439,7 @@ def run_campaign(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Execute une campagne M2 de pre-validation PERSON/ORG/PLACE et produit un rapport consolide.",
+        description="Execute une campagne M2 de pre-validation PERSON/ORG/PLACE/IMAGE et produit un rapport consolide.",
     )
     parser.add_argument("input", help="Fichier JSON de campagne.")
     parser.add_argument("--root", default=str(REPO_ROOT), help="Racine du depot a utiliser. Par defaut: depot courant.")
