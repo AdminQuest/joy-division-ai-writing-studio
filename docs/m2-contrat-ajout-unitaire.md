@@ -762,7 +762,8 @@ Cas normaux :
 - ne pas editer a la main un fichier declare genere ;
 - ne pas modifier `data/registre.json` pour un ajout unitaire sauf si l'objet est en realite une nouvelle source, ce qui releve de M2.3 ;
 - ne pas creer de nouveau registre pour faire entrer un objet qui ne rentre pas dans le modele existant ;
-- ne pas modifier les exports si le pipeline les regenere.
+- ne pas editer manuellement les exports ou artefacts generes ;
+- committer les artefacts regeneres lorsque le pipeline les produit et que les controles de synchronisation les exigent.
 
 ## 5. Pre-validations minimales
 
