@@ -80,7 +80,12 @@ class TestM2AddPerson(unittest.TestCase):
             result = run_case(paths, category="manager")
 
         self.assertEqual(result.decision, "non pre-validee")
-        self.assertIn("categorie invalide: manager", result.blockers)
+        self.assertIn(
+            "categorie invalide: manager (categories autorisees: membre, entourage, industrie, "
+            "critique_journaliste, auteur_secondaire, influence, theoricien_mobilise)",
+            result.blockers,
+        )
+        self.assertNotIn("schema invalide: Invalid value for categorie: manager", result.blockers)
 
     def test_identifier_collision_is_blocking(self) -> None:
         existing = """
@@ -115,6 +120,73 @@ a_arbitrer: false
 
         self.assertEqual(result.decision, "non pre-validee")
         self.assertIn("auteur_source exige same_as vide", result.blockers)
+
+    def test_empty_same_as_explains_missing_write_target(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_repo(Path(tmp))
+            result = run_case(paths)
+
+        self.assertIn(
+            "Aucun PERS-* fourni. Aucune cible d'ecriture source/provisoire n'est identifiable. "
+            "Validation humaine necessaire avant integration.",
+            result.information,
+        )
+
+    def test_same_as_explains_probable_write_target(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_repo(Path(tmp))
+            result = run_case(paths, same_as=["PERS-S01-001"])
+
+        self.assertEqual(result.decision, "pre-validee")
+        self.assertIn(
+            "Cible d'ecriture probable : registers/people/*.md puis regeneration controlee de "
+            "registers/people/00_canonical_people.md. Pourquoi : PERS-* fourni. "
+            "Il manque la confirmation humaine du fichier source/provisoire a modifier.",
+            result.information,
+        )
+
+    def test_identity_arbitration_produces_reserve(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_repo(Path(tmp))
+            result = run_case(paths, identity_arbitration=True)
+
+        self.assertEqual(result.decision, "pre-validee avec reserve")
+        self.assertIn("identite a arbitrer: rattachement ou homonymie a confirmer", result.reserves)
+
+    def test_near_alias_collision_is_reserve_not_blocker(self) -> None:
+        existing = """
+## PERSON-ian-curtis - Ian Curtis
+
+```yaml
+id: PERSON-ian-curtis
+type_unite: person
+name: Ian Curtis
+categorie: membre
+role:
+  - chanteur
+sources:
+  - S01
+same_as:
+  - PERS-S01-001
+alt_names: []
+categorie_a_arbitrer: false
+a_arbitrer: false
+```
+"""
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_repo(Path(tmp), canonical_person=existing)
+            result = run_case(paths, aliases=["Iain Curtis"])
+
+        self.assertEqual(result.decision, "pre-validee avec reserve")
+        self.assertEqual(result.blockers, [])
+        self.assertIn("alias proche d'un nom a arbitrer: Iain Curtis ~ Ian Curtis (PERSON-ian-curtis)", result.reserves)
+
+    def test_help_lists_allowed_categories(self) -> None:
+        help_text = m2_add_person.build_parser().format_help()
+
+        self.assertIn("Categories autorisees:", help_text)
+        self.assertIn("  - membre", help_text)
+        self.assertIn("  - theoricien_mobilise", help_text)
 
     def test_output_is_deterministic(self) -> None:
         with TemporaryDirectory() as tmp:

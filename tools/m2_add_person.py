@@ -9,6 +9,7 @@ puis imprime une proposition deterministe.
 from __future__ import annotations
 
 import argparse
+from difflib import SequenceMatcher
 import json
 import re
 import sys
@@ -31,7 +32,7 @@ PERSON_ID_RE = re.compile(r"^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$")
 PERS_ID_RE = re.compile(r"^PERS-[A-Za-z0-9-]+(?:#[a-z0-9-]+)?$")
 YAML_BLOCK_RE = re.compile(r"```yaml\s*(.*?)\s*```", re.S)
 
-VALID_CATEGORIES = {
+VALID_CATEGORIES = (
     "membre",
     "entourage",
     "industrie",
@@ -39,7 +40,9 @@ VALID_CATEGORIES = {
     "auteur_secondaire",
     "influence",
     "theoricien_mobilise",
-}
+)
+VALID_CATEGORY_SET = set(VALID_CATEGORIES)
+NEAR_MATCH_RATIO = 0.88
 
 
 @dataclass(frozen=True)
@@ -74,6 +77,10 @@ def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def compact_normalized_text(value: str) -> str:
+    return normalize_text(value).replace(" ", "")
+
+
 def slugify(value: str) -> str:
     value = unicodedata.normalize("NFD", value or "")
     value = value.encode("ascii", "ignore").decode().lower()
@@ -101,6 +108,20 @@ def unique_preserving_order(values: Iterable[str]) -> list[str]:
             seen.add(value)
             out.append(value)
     return out
+
+
+def format_valid_categories() -> str:
+    return ", ".join(VALID_CATEGORIES)
+
+
+def is_near_text_match(left: str, right: str) -> bool:
+    left_norm = compact_normalized_text(left)
+    right_norm = compact_normalized_text(right)
+    if not left_norm or not right_norm or left_norm == right_norm:
+        return False
+    if min(len(left_norm), len(right_norm)) < 6:
+        return False
+    return SequenceMatcher(None, left_norm, right_norm).ratio() >= NEAR_MATCH_RATIO
 
 
 def load_source_ids(path: Path) -> set[str]:
@@ -153,6 +174,26 @@ def build_same_as_index(records: Iterable[dict]) -> dict[str, str]:
             if base.startswith("PERS-"):
                 index[base] = person_id
     return index
+
+
+def infer_write_target(candidate: dict) -> str:
+    same_as = candidate.get("same_as") or []
+    if candidate.get("origine") == "auteur_source":
+        return (
+            "Cible d'ecriture probable : pipeline d'attribution vers "
+            "registers/people/00_authors_canonical.md. Pourquoi : origine auteur_source. "
+            "Il manque la validation humaine du pipeline d'attribution avant integration."
+        )
+    if same_as:
+        return (
+            "Cible d'ecriture probable : registers/people/*.md puis regeneration controlee de "
+            "registers/people/00_canonical_people.md. Pourquoi : PERS-* fourni. "
+            "Il manque la confirmation humaine du fichier source/provisoire a modifier."
+        )
+    return (
+        "Aucun PERS-* fourni. Aucune cible d'ecriture source/provisoire n'est identifiable. "
+        "Validation humaine necessaire avant integration."
+    )
 
 
 def build_candidate(
@@ -266,11 +307,18 @@ def evaluate_person_addition(
         for rec in canonical_records
         if rec.get("name")
     }
+    existing_name_labels = {
+        normalize_text(str(rec.get("name", ""))): (str(rec.get("id", "")), str(rec.get("name", "")))
+        for rec in canonical_records
+        if rec.get("name")
+    }
     existing_aliases: dict[str, str] = {}
+    existing_alias_labels: dict[str, tuple[str, str]] = {}
     for rec in canonical_records:
         rec_id = str(rec.get("id", ""))
         for alias in rec.get("alt_names") or []:
             existing_aliases[normalize_text(str(alias))] = rec_id
+            existing_alias_labels[normalize_text(str(alias))] = (rec_id, str(alias))
 
     candidate_id = candidate["id"]
     if not PERSON_ID_RE.match(candidate_id):
@@ -284,12 +332,29 @@ def evaluate_person_addition(
     if normalized_name in existing_aliases:
         result.blockers.append(f"collision avec un alias existant: {name} dans {existing_aliases[normalized_name]}")
 
+    if normalized_name not in existing_names and normalized_name not in existing_aliases:
+        for rec_id, rec_name in existing_name_labels.values():
+            if is_near_text_match(name, rec_name):
+                result.reserves.append(f"nom proche a arbitrer: {name} ~ {rec_name} ({rec_id})")
+        for rec_id, alias in existing_alias_labels.values():
+            if is_near_text_match(name, alias):
+                result.reserves.append(f"nom proche d'un alias a arbitrer: {name} ~ {alias} ({rec_id})")
+
     for alias in aliases:
         normalized_alias = normalize_text(alias)
         if normalized_alias in existing_names:
             result.blockers.append(f"alias deja present comme nom canonique: {alias} dans {existing_names[normalized_alias]}")
         if normalized_alias in existing_aliases:
             result.blockers.append(f"alias deja present: {alias} dans {existing_aliases[normalized_alias]}")
+        if normalized_alias not in existing_names and normalized_alias not in existing_aliases:
+            for rec_id, rec_name in existing_name_labels.values():
+                if is_near_text_match(alias, rec_name):
+                    result.reserves.append(f"alias proche d'un nom a arbitrer: {alias} ~ {rec_name} ({rec_id})")
+            for rec_id, existing_alias in existing_alias_labels.values():
+                if is_near_text_match(alias, existing_alias):
+                    result.reserves.append(
+                        f"alias proche d'un alias existant a arbitrer: {alias} ~ {existing_alias} ({rec_id})"
+                    )
 
     canonical_sources = load_source_ids(paths.source_registry)
     for source in sources:
@@ -298,8 +363,9 @@ def evaluate_person_addition(
     if not sources:
         result.blockers.append("source absente")
 
-    if category not in VALID_CATEGORIES:
-        result.blockers.append(f"categorie invalide: {category}")
+    category_is_valid = category in VALID_CATEGORY_SET
+    if not category_is_valid:
+        result.blockers.append(f"categorie invalide: {category} (categories autorisees: {format_valid_categories()})")
     if not roles:
         result.blockers.append("role absent")
 
@@ -320,11 +386,21 @@ def evaluate_person_addition(
         result.blockers.append("auteur_source exige same_as vide")
 
     for diagnostic in _validate_candidate_shape(candidate):
+        if not category_is_valid and diagnostic == f"Invalid value for categorie: {category}":
+            continue
         result.blockers.append(f"schema invalide: {diagnostic}")
 
+    if category_arbitration:
+        result.reserves.append("categorie a arbitrer: double appartenance documentaire a confirmer")
+    if identity_arbitration:
+        result.reserves.append("identite a arbitrer: rattachement ou homonymie a confirmer")
+
     if not same_as and origin != "auteur_source":
-        result.information.append("same_as vide: cible d'ecriture a confirmer avant integration")
+        result.information.append(infer_write_target(candidate))
+    if same_as and origin != "auteur_source":
+        result.information.append(infer_write_target(candidate))
     if origin == "auteur_source":
+        result.information.append(infer_write_target(candidate))
         result.information.append("auteur-source: verifier le pipeline d'attribution avant integration")
 
     result.blockers = unique_preserving_order(result.blockers)
@@ -363,9 +439,11 @@ def render_result(result: CheckResult) -> str:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Prepare localement une proposition d'ajout PERSON sans modifier le depot.",
+        formatter_class=argparse.RawTextHelpFormatter,
+        epilog="Categories autorisees:\n" + "\n".join(f"  - {category}" for category in VALID_CATEGORIES),
     )
     parser.add_argument("--name", required=True, help="Nom canonique de la personne.")
-    parser.add_argument("--category", required=True, help="Categorie PERSON canonique.")
+    parser.add_argument("--category", required=True, help="Categorie PERSON canonique. Voir la liste ci-dessous.")
     parser.add_argument(
         "--role",
         required=True,
