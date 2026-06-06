@@ -10,7 +10,7 @@ L'enrichissement documentaire devient le sujet principal parce que le depot disp
 
 M2 doit donc etre defini comme un studio de preparation d'enrichissements documentaires. Il ne remplace pas les registres, les sources, les validateurs, les controles M1 ou la revue humaine. Il organise le passage entre une intention d'ajout et une Pull Request verifiable.
 
-Le present cadrage prend acte de la decision de gouvernance qui autorise desormais l'ouverture de M2 ; il ne lance toutefois aucune implementation.
+Le present cadrage definit ce que M2 doit etre lorsque la gouvernance l'ouvre operationnellement ; il ne modifie pas a lui seul les verrous de gouvernance existants et ne lance aucune implementation.
 
 ## 2. Principes directeurs
 
