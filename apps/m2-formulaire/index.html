@@ -26,6 +26,44 @@
         <button class="m2-tab" type="button" data-tab="batch">BATCH</button>
       </nav>
 
+      <details class="m2-help" open>
+        <summary>Mode d'emploi</summary>
+        <div class="m2-help__content">
+          <div class="m2-help__intro">
+            <p><strong>Le formulaire prepare. La CLI diagnostique. L'humain valide.</strong></p>
+            <p>Workflow : Formulaire -> Commande ou JSON -> CLI M2 -> Diagnostic -> Resume PR
+              -> Validation humaine.</p>
+          </div>
+          <div class="m2-help__grid">
+            <section>
+              <h2>Usages</h2>
+              <ul>
+                <li><strong>PERSON</strong> : preparer une personne candidate.</li>
+                <li><strong>ORG</strong> : preparer une organisation candidate.</li>
+                <li><strong>PLACE</strong> : preparer un lieu candidat.</li>
+                <li><strong>SOURCE LONGUE</strong> : diagnostiquer une source candidate.</li>
+                <li><strong>BATCH</strong> : preparer une campagne d'objets.</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Limites</h2>
+              <p>Le formulaire ne cree pas de personne, organisation, lieu, source canonique,
+                atome, citation, relation, modification de registre ou PR GitHub.</p>
+            </section>
+            <section>
+              <h2>Apres copie</h2>
+              <ol>
+                <li>Executer la commande depuis la racine du depot.</li>
+                <li>Lire le diagnostic et le resume
+                  <code>exports/generated/pr_summary_*.md</code>.</li>
+                <li>Traiter les reserves puis soumettre a revue humaine.</li>
+              </ol>
+            </section>
+          </div>
+          <a class="m2-help__link" href="../../docs/m2-formulaire-tutoriel.md">Ouvrir le tutoriel complet</a>
+        </div>
+      </details>
+
       <section class="m2-workspace" id="panel-person" data-panel="person">
         <form class="m2-form" id="person-form">
           <div class="m2-field">
