@@ -124,10 +124,10 @@ Le prototype applique les verifications suivantes avant toute PR.
 
 | Verification | Regle | Classification |
 | --- | --- | --- |
-| unicite `PERSON-*` | L'identifiant propose n'existe pas deja dans `registers/people/00_canonical_people.md` ni dans les artefacts disponibles. | bloquant si duplication stricte |
+| unicite `PERSON-*` | L'identifiant propose n'existe pas deja dans `registers/people/00_canonical_people.md`, `registers/people/00_authors_canonical.md` ni dans les artefacts disponibles. | bloquant si duplication stricte |
 | format d'identifiant | `id` respecte `^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$`. | bloquant si invalide |
-| collision de nom | Le nom fourni ne correspond pas manifestement a un `name` existant. | bloquant si meme personne evidente ; reserve si proximite a arbitrer |
-| collision alias | Les alias fournis ne sont pas deja portes par `alt_names` d'une autre entree. | bloquant ou reserve selon certitude |
+| collision de nom | Le nom fourni ne correspond pas manifestement a un `name` existant dans les registres canoniques `PERSON-`, y compris les auteurs-sources. | bloquant si meme personne evidente ; reserve si proximite a arbitrer |
+| collision alias | Les alias fournis ne sont pas deja portes par `alt_names` d'une autre entree canonique ou auteur-source. | bloquant ou reserve selon certitude |
 | source `Sxx` connue | Chaque source existe dans `data/registre.json`. | bloquant si source inconnue |
 | source suffisante | La source justifie l'existence de la personne, pas seulement une URL ou une provenance technique. | bloquant si absente ; reserve si insuffisance a arbitrer |
 | categorie valide | `categorie` appartient au vocabulaire ferme du schema. | bloquant si invalide |
@@ -135,7 +135,7 @@ Le prototype applique les verifications suivantes avant toute PR.
 | `same_as` resolu | Chaque `same_as` pointe vers un `PERS-*` existant et pas vers un `PERSON-`. | bloquant si invalide |
 | double rattachement `PERS-*` | Un `PERS-*` propose n'est pas deja rattache a un autre `PERSON-`. | bloquant si deja rattache |
 | schema valide | L'entree candidate satisfait `schemas/person_canonical.schema.json`. | bloquant si invalide |
-| drift genere | Le registre canonique genere reste coherent avec `tools/build_people_canon.py`. | bloquant si `validate_people.py --check-drift` echoue |
+| drift genere | Les registres canoniques generes restent coherents avec leur generateur : `tools/build_people_canon.py` pour `00_canonical_people.md`, et `tools/build_attribution_edges.py` pour `00_authors_canonical.md` lorsque le cas auteur-source est concerne. | bloquant si une sentinelle de drift echoue |
 | arbitrage visible | `categorie_a_arbitrer`, `a_arbitrer` et `note` rendent visibles les incertitudes. | reserve si arbitrage documentaire reste ouvert |
 
 Classification M2.2 :
@@ -156,6 +156,7 @@ Elements prepares :
 - entree canonique candidate au format YAML compatible avec le schema ;
 - emplacement de modification propose dans la couche source/provisoire `registers/people/*.md` lorsque le cas dispose d'un `PERS-*` source ;
 - regeneration controlee de `registers/people/00_canonical_people.md` uniquement par le pipeline existant si le flux le requiert ;
+- verification de `registers/people/00_authors_canonical.md` pour eviter un doublon avec un auteur-source `origine: auteur_source` ;
 - diff propose limite a la personne et aux artefacts strictement necessaires ;
 - resume documentaire ;
 - liste des controles a executer ;
@@ -199,6 +200,7 @@ Un futur assistant sans interface graphique doit produire :
 - le diff lisible ;
 - le resultat de `python3 tools/validate_people.py` ;
 - le resultat de `python3 tools/validate_people.py --check-drift` si le registre canonique genere est affecte ;
+- le resultat de `python3 tools/validate_attribution.py` ou `python3 tools/validate_attribution.py --check-drift` si `00_authors_canonical.md`, les auteurs-sources ou les relations d'attribution sont concernes ;
 - le resultat de `python3 tools/check_generated_sync.py` si des artefacts generes sont affectes ;
 - les reserves et arbitrages humains restants ;
 - un resume de PR conforme a M2.4 ;
@@ -221,6 +223,7 @@ Le prototype doit refuser ou classer comme non pre-validee toute proposition dan
 - `PERSON` deja existante ;
 - identifiant `PERSON-*` deja utilise ;
 - collision forte de nom ou d'alias ;
+- personne deja presente comme auteur-source dans `registers/people/00_authors_canonical.md` ;
 - source absente ;
 - source `Sxx` inconnue dans `data/registre.json` ;
 - source insuffisante pour etablir l'existence de la personne ;
@@ -230,7 +233,7 @@ Le prototype doit refuser ou classer comme non pre-validee toute proposition dan
 - `same_as` pointant vers un `PERS-*` inexistant ;
 - `PERS-*` deja rattache a un autre `PERSON-` ;
 - schema invalide ;
-- ajout qui contourne la generation controlee de `00_canonical_people.md` ;
+- ajout qui contourne la generation controlee de `00_canonical_people.md` ou `00_authors_canonical.md` ;
 - demande de fusion automatique ;
 - demande de suppression automatique ;
 - demande de commit direct sur `main`.
@@ -286,13 +289,14 @@ Le prototype ne merge pas, ne corrige pas silencieusement et ne decide pas a la 
 Le prototype peut etre considere comme reussi si :
 
 - l'utilisateur n'a pas besoin d'editer manuellement le registre canonique genere ;
-- aucun identifiant `PERSON-*` duplique n'est propose ;
+- aucun identifiant `PERSON-*` duplique n'est propose dans `00_canonical_people.md`, `00_authors_canonical.md` ou les artefacts disponibles ;
 - aucune source inconnue n'est acceptee ;
 - aucune categorie hors vocabulaire n'est acceptee ;
 - les collisions de nom et d'alias sont visibles ;
 - les `same_as` proposes sont resolus ou refuses ;
 - `python3 tools/validate_people.py` passe apres generation controlee ;
 - `python3 tools/validate_people.py --check-drift` passe lorsque le registre canonique est affecte ;
+- `python3 tools/validate_attribution.py` passe lorsque les auteurs-sources ou relations d'attribution sont concernes ;
 - les artefacts generes requis sont synchronises ;
 - la PR est courte, relisible et limitee a la personne ajoutee ;
 - les reserves sont documentees ;
