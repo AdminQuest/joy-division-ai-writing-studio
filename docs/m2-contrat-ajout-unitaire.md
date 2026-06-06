@@ -429,11 +429,24 @@ Refuser l'ajout si :
 
 #### Finalite
 
-Une entree `JD-CONCERT-*` represente un concert, une date annulee, une date douteuse ou un passage TV identifie dans le parcours Warsaw / Stiff Kittens / Joy Division.
+Le depot distingue deux strates pour les concerts :
+
+- l'identite canonique `CONCERT-<SLUG>` dans `registers/concerts/concert_canonical_units.md` ;
+- la couche legacy `JD-CONCERT-*` dans `registers/concerts/00_canonical_concerts.md`.
+
+Un ajout unitaire `CONCERT` acceptable doit respecter la couche canonique lorsque le concert entre dans son perimetre. La couche legacy reste la source joydiv.org reconciliee par `same_as`.
 
 #### Identifiant
 
-Format attendu : `JD-CONCERT-YYYYMMDD-NNN`.
+Format canonique attendu : `CONCERT-YYYYMMDD-LIEU`.
+
+Exemples observes :
+
+- `CONCERT-19770529-ELECTRIC-CIRCUS`
+- `CONCERT-19771200-RAFTERS-MANCHESTER`
+- `CONCERT-19780125-PIPS`
+
+Format legacy observe : `JD-CONCERT-YYYYMMDD-NNN`.
 
 Exemples observes :
 
@@ -445,7 +458,38 @@ Le suffixe `NNN` distingue plusieurs evenements le meme jour. Si le jour est inc
 
 #### Champs obligatoires
 
-Le schema `schemas/concert_v1.yaml` rend obligatoires :
+Pour la couche canonique `CONCERT-`, le validateur `tools/validate_concerts.py` et `tools/schema_validation.py` attendent :
+
+- `id`
+- `type_unite`
+- `label`
+- `date_precision`
+- `lieu`
+- `membres_reconcilies`
+
+Valeur attendue pour `type_unite` : `concert`.
+
+L'entree canonique doit aussi porter exactement l'une des deux formes temporelles :
+
+- `date`
+- ou `date_debut` et `date_fin`
+
+Valeurs controlees pour `date_precision` :
+
+- `jour`
+- `mois`
+- `saison`
+- `annee`
+- `circa`
+- `intervalle`
+
+Valeurs controlees pour `statut` lorsqu'il est present :
+
+- `confirmé`
+- `annulé`
+- `douteux`
+
+Pour la couche legacy `JD-CONCERT-*`, `schemas/concert_v1.yaml` rend obligatoires :
 
 - `id`
 - `date`
@@ -456,7 +500,7 @@ Le schema `schemas/concert_v1.yaml` rend obligatoires :
 - `ere`
 - `source`
 
-Valeurs existantes pour `statut` :
+Valeurs legacy existantes pour `statut` :
 
 - `confirme`
 - `annule`
@@ -464,7 +508,7 @@ Valeurs existantes pour `statut` :
 - `douteux`
 - `tv`
 
-Valeurs existantes pour `ere` :
+Valeurs legacy existantes pour `ere` :
 
 - `Warsaw`
 - `Stiff Kittens`
@@ -486,24 +530,29 @@ Champs recommandes ou facultatifs observes :
 
 Obligatoire.
 
-Le schema documente `joydiv.org` comme source canonique primaire du registre concerts. Une autre source peut appuyer une correction ou une contradiction, mais elle doit etre nommee explicitement. Une setlist ne doit jamais etre inventee.
+Le schema legacy documente `joydiv.org` comme source canonique primaire du registre concerts. Une autre source peut appuyer une correction ou une contradiction, mais elle doit etre nommee explicitement. Une setlist ne doit jamais etre inventee.
 
 #### Relations minimales
 
 Relations existantes dans le modele :
 
+- une entree canonique `CONCERT-` doit lister au moins un membre dans `membres_reconcilies` ;
+- une entree legacy `JD-CONCERT-*` reconciliee doit pointer vers le `CONCERT-` canonique par `same_as` ;
+- `lieu` d'un `CONCERT-` doit resoudre vers un `PLACE-` existant ;
 - `atomes_lies` peut pointer vers des atomes documentaires ;
 - `chronologie_id` peut pointer vers une entree de chronologie ;
-- `same_as` peut conserver une equivalence avec un ancien identifiant ;
-- le lien avec un lieu canonique `PLACE-` n'est pas encore un champ obligatoire du schema concert.
+- les passages TV restent hors du perimetre canonique indique par `registers/concerts/concert_canonical_units.md`.
 
 #### Cas de refus
 
 Refuser l'ajout si :
 
-- l'identifiant `JD-CONCERT-*` existe deja ;
+- l'identifiant `CONCERT-` ou `JD-CONCERT-*` existe deja ;
+- un concert relevant du perimetre canonique est ajoute seulement comme legacy `JD-CONCERT-*` ;
 - la date, le lieu ou l'existence du concert ne sont pas documentes ;
-- `statut` ou `ere` sort du vocabulaire ;
+- le `lieu` canonique ne resout vers aucun `PLACE-` ;
+- `membres_reconcilies` est absent ou vide ;
+- `statut`, `date_precision` ou `ere` sort du vocabulaire applicable ;
 - deux concerts distincts sont fusionnes ;
 - une setlist est ajoutee sans source ;
 - une contradiction de date est masquee au lieu d'etre documentee dans `notes`.
@@ -631,6 +680,11 @@ Le schema `schemas/quote.schema.yaml` rend obligatoires :
 - `texte`
 - `type`
 
+Le validateur gateable `tools/validate_quotes.py` exige aussi pour un ajout acceptable :
+
+- `page` ou un localisateur equivalent, avec `inconnue` comme sentinelle explicite si aucun localisateur reel n'est disponible ;
+- `locuteur`, sous forme de nom ou `anonyme`.
+
 Valeurs controlees pour `type` :
 
 - `verbatim`
@@ -641,9 +695,7 @@ Valeurs controlees pour `type` :
 
 Champs recommandes ou observes :
 
-- `page`
 - `auteur_source`
-- `locuteur`
 - `rapporteur`
 - `citation_originale`
 - `langue_originale`
@@ -701,7 +753,7 @@ Les fichiers ci-dessous sont les emplacements potentiels identifies dans l'etat 
 | PLACE | `registers/places/*.md` | export genere par le pipeline de registres si disponible | `same_as`, `reference_croisee`, liens eventuels depuis images, chansons ou atomes | note geo ou prudence si necessaire |
 | ORG | `registers/orgs/orgs.json` | export genere par le pipeline de registres si disponible | `joy_division_relation`, `same_as`, `provenance` | audit si collision personne/organisation |
 | IMAGE | `registers/images/images.json` | export genere par le pipeline de registres si disponible | `photographer`, `subjects`, `place`, `event_ref`, `session_ref` | note de droits ou provenance si necessaire |
-| CONCERT | `registers/concerts/00_canonical_concerts.md` | export genere par le pipeline de registres si disponible | `atomes_lies`, `chronologie_id`, `same_as` | note si contradiction de date, statut ou setlist |
+| CONCERT | `registers/concerts/concert_canonical_units.md` pour la couche `CONCERT-` ; `registers/concerts/00_canonical_concerts.md` pour la couche legacy `JD-CONCERT-*` | export genere par le pipeline de registres si disponible | `membres_reconcilies`, `same_as`, `lieu`, `atomes_lies`, `chronologie_id` | note si contradiction de date, statut ou setlist |
 | RELEASE | support Songbook reel a confirmer ; references actuelles dans `data/song_dossiers_index.json` et schemas Songbook | index Songbook si le pipeline le regenere | `song_id`, `version_id`, liens eventuels vers lieu, concert ou session | `source_notes` ou notes discographiques si le support existe |
 | CITATION | `registers/quotes/*.md` | export genere par le pipeline de registres si disponible | `source_id`, `atomes_lies`, attribution | note d'attribution si arbitrage requis |
 
