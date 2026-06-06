@@ -50,6 +50,19 @@ function readOrg() {
   };
 }
 
+function readPlace() {
+  return {
+    family: 'place',
+    label: text($('place-label').value),
+    type: text($('place-type').value),
+    type_detail: text($('place-type-detail').value),
+    sources: splitList($('place-sources').value),
+    aliases: splitList($('place-aliases').value),
+    usage: text($('place-usage').value),
+    prudence: text($('place-prudence').value)
+  };
+}
+
 function readSource() {
   return {
     title: text($('source-title').value),
@@ -101,6 +114,21 @@ function orgCommand() {
   ]);
 }
 
+function placeCommand() {
+  const item = readPlace();
+  return command([
+    'python3 tools/m2_add_place.py',
+    option('--label', item.label),
+    option('--type', item.type),
+    option('--sources', item.sources.join(',')),
+    option('--aliases', item.aliases.join(',')),
+    option('--type-detail', item.type_detail),
+    option('--usage', item.usage),
+    option('--prudence', item.prudence),
+    '--pr-summary'
+  ]);
+}
+
 function sourceCommand() {
   const item = readSource();
   const base = command([
@@ -125,13 +153,18 @@ function batchPayload() {
 function renderBatch() {
   const list = $('batch-list');
   if (!state.batchItems.length) {
-    list.innerHTML = '<p class="m2-empty">Aucun item PERSON ou ORG dans la campagne.</p>';
+    list.innerHTML = '<p class="m2-empty">Aucun item PERSON, ORG ou PLACE dans la campagne.</p>';
   } else {
     list.innerHTML = state.batchItems.map((item, index) => {
-      const label = item.name || `item-${index + 1}`;
-      const meta = item.family === 'person'
-        ? [item.category, item.sources.join(',')].filter(Boolean).join(' - ')
-        : [item.category, item.country, item.sources.join(',')].filter(Boolean).join(' - ');
+      const label = item.name || item.label || `item-${index + 1}`;
+      let meta;
+      if (item.family === 'person') {
+        meta = [item.category, item.sources.join(',')].filter(Boolean).join(' - ');
+      } else if (item.family === 'place') {
+        meta = [item.type, item.type_detail, item.sources.join(',')].filter(Boolean).join(' - ');
+      } else {
+        meta = [item.category, item.country, item.sources.join(',')].filter(Boolean).join(' - ');
+      }
       return `<div class="m2-batch-item">
         <div><strong>${escHtml(item.family.toUpperCase())} - ${escHtml(label)}</strong><span>${escHtml(meta)}</span></div>
         <button class="m2-btn m2-btn--ghost" type="button" data-remove-batch="${index}">Retirer</button>
@@ -194,12 +227,17 @@ function bindEvents() {
     $('org-output').textContent = orgCommand();
     setStatus('Commande ORG generee.');
   });
+  document.querySelector('[data-action="place-command"]').addEventListener('click', () => {
+    $('place-output').textContent = placeCommand();
+    setStatus('Commande PLACE generee.');
+  });
   document.querySelector('[data-action="source-command"]').addEventListener('click', () => {
     $('source-output').textContent = sourceCommand();
     setStatus('Commande SOURCE LONGUE generee.');
   });
   document.querySelector('[data-action="person-batch"]').addEventListener('click', () => addBatchItem(readPerson()));
   document.querySelector('[data-action="org-batch"]').addEventListener('click', () => addBatchItem(readOrg()));
+  document.querySelector('[data-action="place-batch"]').addEventListener('click', () => addBatchItem(readPlace()));
   document.querySelector('[data-action="clear-batch"]').addEventListener('click', () => {
     state.batchItems = [];
     renderBatch();
@@ -223,6 +261,7 @@ function bindEvents() {
 function init() {
   $('person-output').textContent = personCommand();
   $('org-output').textContent = orgCommand();
+  $('place-output').textContent = placeCommand();
   $('source-output').textContent = sourceCommand();
   renderBatch();
   bindEvents();

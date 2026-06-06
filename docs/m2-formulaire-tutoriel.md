@@ -9,8 +9,9 @@ Il aide a saisir :
 
 - une personne candidate ;
 - une organisation candidate ;
+- un lieu documentaire candidat ;
 - une source longue candidate ;
-- une petite campagne batch avec plusieurs personnes et organisations.
+- une petite campagne batch avec plusieurs personnes, organisations et lieux.
 
 Le formulaire produit :
 
@@ -54,7 +55,7 @@ Validation humaine
 Etapes :
 
 1. Ouvrir le formulaire dans `apps/m2-formulaire/`.
-2. Choisir l'onglet correspondant au besoin : `PERSON`, `ORG`,
+2. Choisir l'onglet correspondant au besoin : `PERSON`, `ORG`, `PLACE`,
    `SOURCE LONGUE` ou `BATCH`.
 3. Remplir les champs utiles.
 4. Copier la commande ou le JSON genere.
@@ -200,7 +201,76 @@ exports/generated/pr_summary_org_*.md
 Ce resume expose les validations, les reserves eventuelles et les arbitrages
 humains attendus.
 
-## 5. Premiere SOURCE LONGUE
+## 5. Premier ajout PLACE
+
+### Saisie dans le formulaire
+
+Ouvrir l'onglet `PLACE`.
+
+Exemple de saisie :
+
+```text
+label: Prototype Venue
+type: salle
+type_detail: club
+sources: S41
+aliases: Prototype Club
+usage: concert
+prudence: verifier la distinction avec le batiment voisin
+```
+
+Les champs importants sont :
+
+- `label` : label canonique propose pour le lieu ;
+- `type` : type PLACE, par exemple `salle`, `studio`, `quartier` ou
+  `lieu_memoire` ;
+- `type_detail` : precision libre utile a la revue ;
+- `sources` : sources `Sxx` ;
+- `aliases` : noms alternatifs utilises pour le diagnostic ;
+- `usage` : usage documentaire attendu ;
+- `prudence` : note visible pour la revue.
+
+### Commande generee
+
+Le formulaire produit une commande du type :
+
+```bash
+python3 tools/m2_add_place.py --label 'Prototype Venue' --type 'salle' --sources 'S41' --aliases 'Prototype Club' --type-detail 'club' --usage 'concert' --prudence 'verifier la distinction avec le batiment voisin' --pr-summary
+```
+
+### Execution et resultat
+
+La CLI PLACE propose un identifiant `PLACE-<SLUG>`, puis affiche le diagnostic.
+
+Exemple de structure attendue :
+
+```text
+Decision : pre-validee
+Identifiant propose : PLACE-PROTOTYPE-VENUE
+Bloquants :
+- aucun
+Reserves :
+- aucun
+Informations :
+- cible d'ecriture probable: registers/places/*.md
+- lecture seule: aucune modification du registre PLACE
+```
+
+Une collision exacte avec un lieu existant bloque la pre-validation. Une
+proximite de label ou d'alias devient une reserve a lire humainement.
+
+### Resume PR obtenu
+
+Avec `--pr-summary`, un fichier Markdown est genere dans :
+
+```text
+exports/generated/pr_summary_place_*.md
+```
+
+Ce resume expose le lieu propose, les validations executees, les reserves et
+les arbitrages humains attendus. Il ne modifie aucun registre.
+
+## 6. Premiere SOURCE LONGUE
 
 ### Saisie dans le formulaire
 
@@ -260,14 +330,15 @@ Une source canonique est une source effectivement acceptee dans
 Le formulaire et la CLI de pre-validation ne creent pas la source canonique. Ils
 preparent seulement la revue.
 
-## 6. Premiere campagne BATCH
+## 7. Premiere campagne BATCH
 
 Le batch sert lorsqu'il faut preparer plusieurs objets ensemble.
 
 Exemple simple :
 
 - une personne candidate ;
-- une organisation candidate.
+- une organisation candidate ;
+- un lieu candidat.
 
 ### Constituer le lot
 
@@ -277,8 +348,11 @@ Exemple simple :
 4. Aller dans l'onglet `ORG`.
 5. Remplir les champs ORG.
 6. Cliquer sur `Ajouter au batch`.
-7. Aller dans l'onglet `BATCH`.
-8. Renseigner un nom de campagne.
+7. Aller dans l'onglet `PLACE`.
+8. Remplir les champs PLACE.
+9. Cliquer sur `Ajouter au batch`.
+10. Aller dans l'onglet `BATCH`.
+11. Renseigner un nom de campagne.
 
 ### JSON obtenu
 
@@ -305,6 +379,16 @@ Le formulaire produit un JSON du type :
       "sources": ["S41"],
       "last_verified": "2026-06-06",
       "relation_notes": "relation documentaire a confirmer"
+    },
+    {
+      "family": "place",
+      "label": "Prototype Venue",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": ["S41"],
+      "aliases": ["Prototype Club"],
+      "usage": "concert",
+      "prudence": "verifier la distinction avec le batiment voisin"
     }
   ]
 }
@@ -353,7 +437,7 @@ exports/generated/pr_summary_*.md
 Le rapport consolide la campagne. Les resumes PR individuels permettent de
 relire chaque proposition separement.
 
-## 7. Comment lire les diagnostics
+## 8. Comment lire les diagnostics
 
 ### pre-validee
 
@@ -404,7 +488,7 @@ Bloquants :
 Il faut corriger le bloquant avant de considerer la proposition comme prete pour
 revue.
 
-## 8. Comment lire un resume PR
+## 9. Comment lire un resume PR
 
 Un resume PR M2 est un document Markdown genere dans `exports/generated/`.
 
@@ -431,13 +515,19 @@ Pour preparer la revue :
 Un resume PR ne remplace pas la PR ni la revue. Il rend la proposition plus
 facile a relire.
 
-## 9. Questions frequentes
+## 10. Questions frequentes
 
 ### Le formulaire cree-t-il une personne ?
 
 Non. Il prepare une commande. La CLI produit ensuite un diagnostic. La creation
 effective d'une personne reste une decision humaine et une modification de
 registre separee.
+
+### Le formulaire cree-t-il un lieu ?
+
+Non. L'onglet `PLACE` prepare une commande ou une entree batch. La creation
+effective d'un lieu reste une modification de registre separee, relue et
+validee humainement.
 
 ### Le formulaire modifie-t-il le registre ?
 
@@ -452,10 +542,16 @@ qualification documentaire incertaine.
 
 ### Quand utiliser BATCH ?
 
-Utiliser `BATCH` lorsqu'il faut preparer plusieurs objets PERSON et ORG dans une
-meme campagne, puis obtenir un rapport consolide.
+Utiliser `BATCH` lorsqu'il faut preparer plusieurs objets PERSON, ORG et PLACE
+dans une meme campagne, puis obtenir un rapport consolide.
 
-Pour un seul objet, l'onglet `PERSON` ou `ORG` suffit.
+Pour un seul objet, l'onglet `PERSON`, `ORG` ou `PLACE` suffit.
+
+### Quand utiliser PLACE ?
+
+Utiliser `PLACE` lorsqu'il faut preparer un lieu documentaire : salle de
+concert, studio, club, pub, ecole, quartier, batiment, lieu de repetition, lieu
+photographique ou lieu historique.
 
 ### Quand utiliser SOURCE LONGUE ?
 
@@ -466,7 +562,7 @@ dossier documentaire.
 SOURCE LONGUE ne sert pas a ajouter directement une personne ou une organisation
 au registre.
 
-## 10. Bonnes pratiques
+## 11. Bonnes pratiques
 
 - Toujours verifier les sources `Sxx` avant de lancer une proposition.
 - Toujours lire les reserves.

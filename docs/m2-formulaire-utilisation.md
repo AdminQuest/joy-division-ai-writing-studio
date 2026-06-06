@@ -8,6 +8,7 @@ Il prepare :
 
 - une commande `tools/m2_add_person.py` ;
 - une commande `tools/m2_add_org.py` ;
+- une commande `tools/m2_add_place.py` ;
 - une commande `tools/m2_integrate_source.py` ;
 - un JSON de campagne compatible avec `tools/m2_batch_prevalidation.py`.
 
@@ -88,6 +89,26 @@ Commande generee :
 python3 tools/m2_add_org.py --name 'Prototype Organisation' --category 'label' --country 'GB' --jd-relation 'label_mate' --sources 'S41' --last-verified '2026-06-06' --relation-notes 'relation a confirmer en revue' --pr-summary
 ```
 
+## Exemple PLACE
+
+Champs saisis :
+
+```text
+label: Prototype Venue
+type: salle
+type_detail: club
+sources: S41
+aliases: Prototype Club
+usage: concert
+prudence: verifier la distinction avec le batiment voisin
+```
+
+Commande generee :
+
+```bash
+python3 tools/m2_add_place.py --label 'Prototype Venue' --type 'salle' --sources 'S41' --aliases 'Prototype Club' --type-detail 'club' --usage 'concert' --prudence 'verifier la distinction avec le batiment voisin' --pr-summary
+```
+
 ## Exemple SOURCE LONGUE
 
 Champs saisis :
@@ -113,7 +134,8 @@ au CLI si aucun parametre correspondant n'existe.
 
 ## Exemple batch
 
-Le formulaire permet d'ajouter plusieurs items PERSON et ORG dans une campagne.
+Le formulaire permet d'ajouter plusieurs items PERSON, ORG et PLACE dans une
+campagne.
 
 JSON genere :
 
@@ -138,6 +160,16 @@ JSON genere :
       "sources": ["S41"],
       "last_verified": "2026-06-06",
       "relation_notes": "relation a confirmer en revue"
+    },
+    {
+      "family": "place",
+      "label": "Prototype Venue",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": ["S41"],
+      "aliases": ["Prototype Club"],
+      "usage": "concert",
+      "prudence": "verifier la distinction avec le batiment voisin"
     }
   ]
 }
@@ -156,6 +188,7 @@ Verifications manuelles apres copie :
 ```bash
 python3 tools/m2_add_person.py --help
 python3 tools/m2_add_org.py --help
+python3 tools/m2_add_place.py --help
 python3 tools/m2_integrate_source.py --help
 python3 tools/m2_batch_prevalidation.py --help
 ```
