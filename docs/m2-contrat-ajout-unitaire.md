@@ -409,7 +409,7 @@ Relations existantes dans le modele :
 
 - `photographer` doit pointer vers un `PERSON-` ;
 - `subjects` peut contenir des `PERSON-` ou des descriptions libres ;
-- `place` peut pointer vers un `PLACE-` ou rester `null` ;
+- `place` peut pointer vers un `PLACE-`, contenir une description libre si aucun `PLACE-` n'existe, ou rester `null` ;
 - `event_ref` peut pointer vers un evenement `EVENT-` ;
 - une image individuelle doit pointer vers sa session par `session_ref`.
 
@@ -635,7 +635,7 @@ Relations existantes dans le modele :
 
 - `song_id` doit pointer vers un `JD-SONG-NNN` canonique ;
 - `version_id`, s'il est renseigne, doit correspondre a une version connue ;
-- `place`, lorsqu'il decrit un concert ou une session, doit rester coherent avec les lieux existants ;
+- `place`, lorsqu'il decrit un concert ou une session, doit rester coherent avec les lieux existants ou etre signale comme description non canonicalisee ;
 - les doublons entre release officielle et bootleg doivent etre signales.
 
 #### Cas de refus
@@ -789,11 +789,12 @@ Commandes de validation possibles dans l'etat actuel du depot, selon le type con
 - `python3 tools/validate_images.py`
 - `python3 tools/validate_concerts.py`
 - `python3 tools/validate_quotes.py`
-- `python3 tools/validate_songs.py`
 - `python3 tools/check_generated_sync.py`
 - `python3 tools/build_all.py`
 
 Cette liste decrit des validations existantes. M2.1 ne cree pas de nouvelle commande.
+
+Note sur `RELEASE` : dans l'etat observe du depot, il n'existe pas encore de validateur gateable dedie aux occurrences discographiques de `schemas/song_occurrence.schema.yaml`. `tools/validate_songs.py` valide les chansons canoniques, pas les occurrences `RELEASE`. Un futur assistant ne doit donc pas presenter `validate_songs.py` comme preuve de validation d'une occurrence discographique.
 
 ## 6. Resultat attendu
 
