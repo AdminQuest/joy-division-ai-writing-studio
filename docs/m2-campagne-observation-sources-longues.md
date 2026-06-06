@@ -124,7 +124,7 @@ definit seulement les candidats a tester.
 | --- | --- | --- | --- |
 | `S90` | Mark Fisher | `Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures` | Cas B, source deja presente avec dossier source canonique. |
 | `S91` | Simon Reynolds | `Retromania: Pop Culture's Addiction to Its Own Past` | Cas C, autre edition ou reedition possible. |
-| `S72` | Simon Reynolds | `Rip It Up and Start Again: Postpunk 1978-1984` | Cas C ou D, source avec annee `2005/2006` utile pour observer editions et variantes. |
+| `S72` | Simon Reynolds | `Rip It Up and Start Again: Postpunk 1978–1984` | Cas C ou D, source avec annee `2005/2006` utile pour observer editions et variantes. |
 | `S74` | Mick Middles | `From Joy Division to New Order` | Cas B ou E, source biographique sans dossier source canonique declare. |
 | `S76` | Mick Middles ; Lindsay Reade | `Torn Apart: The Life of Ian Curtis` | Cas B ou C, source biographique proche d'autres ouvrages sur Ian Curtis. |
 | `S41` | Peter Hook | `Unknown Pleasures: Inside Joy Division` | Cas B ou C, source memoire avec edition potentielle a observer. |
