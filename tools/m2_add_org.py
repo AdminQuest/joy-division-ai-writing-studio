@@ -455,7 +455,8 @@ def build_org_pr_summary(result: CheckResult):
 
 
 def write_org_pr_summary(result: CheckResult, paths: Paths) -> Path:
-    filename = f"pr_summary_org_{result.candidate['org_id'].lower()}.md"
+    name_slug = normalize_text(result.candidate["canonical_name"]).replace(" ", "-")
+    filename = f"pr_summary_org_{result.candidate['org_id'].lower()}_{name_slug}.md"
     return write_pr_summary(
         build_org_pr_summary(result),
         output_dir=paths.root / "exports" / "generated",

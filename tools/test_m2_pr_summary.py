@@ -102,7 +102,7 @@ class TestM2PRSummary(unittest.TestCase):
             path = m2_add_org.write_org_pr_summary(result, paths)
             markdown = path.read_text(encoding="utf-8")
 
-        self.assertEqual(path.name, "pr_summary_org_org-0002.md")
+        self.assertEqual(path.name, "pr_summary_org_org-0002_unrelated-org.md")
         self.assertIn("Ajout ORG : Unrelated Org (ORG-0002)", markdown)
         self.assertIn("alias proche d'un nom a arbitrer", markdown)
 

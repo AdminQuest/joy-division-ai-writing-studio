@@ -139,7 +139,7 @@ python3 tools/m2_add_org.py \
 Sortie supplementaire attendue :
 
 ```text
-exports/generated/pr_summary_org_org-*.md
+exports/generated/pr_summary_org_org-0009_prototype-organisation.md
 ```
 
 Le resume expose notamment :
