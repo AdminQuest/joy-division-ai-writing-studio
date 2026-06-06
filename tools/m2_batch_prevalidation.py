@@ -16,9 +16,11 @@ try:
     from tools.m2_core import (
         BatchItemResult,
         CheckResult,
+        PRSummary,
         build_batch_result,
         normalize_text,
         write_batch_summary,
+        write_pr_summary,
     )
 except ImportError:  # execution directe: python3 tools/m2_batch_prevalidation.py
     sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -27,9 +29,11 @@ except ImportError:  # execution directe: python3 tools/m2_batch_prevalidation.p
     from m2_core import (
         BatchItemResult,
         CheckResult,
+        PRSummary,
         build_batch_result,
         normalize_text,
         write_batch_summary,
+        write_pr_summary,
     )
 
 
@@ -73,7 +77,8 @@ class BatchAdapter:
     family: str
     evaluate: Callable[[dict, BatchPaths], CheckResult]
     label: Callable[[CheckResult], str]
-    write_pr_summary: Callable[[CheckResult, BatchPaths], Path]
+    build_pr_summary: Callable[[CheckResult], PRSummary]
+    pr_summary_filename: Callable[[CheckResult], str]
 
 
 def as_list(value: object) -> list[str]:
@@ -144,17 +149,30 @@ def org_label(result: CheckResult) -> str:
     return f"{candidate['canonical_name']} ({candidate['org_id']})"
 
 
-def write_person_pr_summary(result: CheckResult, paths: BatchPaths) -> Path:
-    return m2_add_person.write_person_pr_summary(result, paths.person_paths)
+def person_pr_summary_filename(result: CheckResult) -> str:
+    return f"pr_summary_person_{m2_add_person.slugify(result.candidate['id'])}.md"
 
 
-def write_org_pr_summary(result: CheckResult, paths: BatchPaths) -> Path:
-    return m2_add_org.write_org_pr_summary(result, paths.org_paths)
+def org_pr_summary_filename(result: CheckResult) -> str:
+    name_slug = normalize_text(result.candidate["canonical_name"]).replace(" ", "-")
+    return f"pr_summary_org_{result.candidate['org_id'].lower()}_{name_slug}.md"
 
 
 ADAPTERS = {
-    "person": BatchAdapter("PERSON", evaluate_person_item, person_label, write_person_pr_summary),
-    "org": BatchAdapter("ORG", evaluate_org_item, org_label, write_org_pr_summary),
+    "person": BatchAdapter(
+        "PERSON",
+        evaluate_person_item,
+        person_label,
+        m2_add_person.build_person_pr_summary,
+        person_pr_summary_filename,
+    ),
+    "org": BatchAdapter(
+        "ORG",
+        evaluate_org_item,
+        org_label,
+        m2_add_org.build_org_pr_summary,
+        org_pr_summary_filename,
+    ),
 }
 
 
@@ -173,6 +191,28 @@ def report_filename(campaign: str) -> str:
     return f"batch_summary_{slug}.md"
 
 
+def unique_filename(filename: str, *, index: int, used_filenames: set[str]) -> str:
+    if filename not in used_filenames:
+        used_filenames.add(filename)
+        return filename
+    path = Path(filename)
+    unique = f"{path.stem}_item-{index}{path.suffix}"
+    used_filenames.add(unique)
+    return unique
+
+
+def write_item_pr_summary(
+    adapter: BatchAdapter,
+    result: CheckResult,
+    *,
+    paths: BatchPaths,
+    index: int,
+    used_filenames: set[str],
+) -> Path:
+    filename = unique_filename(adapter.pr_summary_filename(result), index=index, used_filenames=used_filenames)
+    return write_pr_summary(adapter.build_pr_summary(result), output_dir=paths.output_dir, filename=filename)
+
+
 def run_campaign(
     payload: dict,
     *,
@@ -184,6 +224,8 @@ def run_campaign(
     item_results: list[BatchItemResult] = []
     base_org_records: list[dict] | None = None
     reserved_org_records: list[dict] = []
+    seen_person_ids: dict[str, str] = {}
+    used_pr_filenames: set[str] = set()
 
     with TemporaryDirectory() as tmp:
         orgs_json = Path(tmp) / "orgs.json"
@@ -229,10 +271,25 @@ def run_campaign(
 
             if family_key == "org" and result.candidate.get("org_id"):
                 reserved_org_records.append(result.candidate)
+            if family_key == "person" and result.candidate.get("id"):
+                person_id = str(result.candidate["id"])
+                if person_id in seen_person_ids:
+                    result.blockers.append(
+                        f"collision interne batch PERSON: {person_id} deja propose pour {seen_person_ids[person_id]}"
+                    )
+                    result.finalize()
+                else:
+                    seen_person_ids[person_id] = adapter.label(result)
 
             pr_summary_path: Path | None = None
             if write_pr_summaries:
-                pr_summary_path = adapter.write_pr_summary(result, adapter_paths)
+                pr_summary_path = write_item_pr_summary(
+                    adapter,
+                    result,
+                    paths=paths,
+                    index=index,
+                    used_filenames=used_pr_filenames,
+                )
             item_results.append(
                 BatchItemResult(
                     index=index,

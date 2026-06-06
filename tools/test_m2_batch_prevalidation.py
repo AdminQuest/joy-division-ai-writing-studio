@@ -205,6 +205,48 @@ class TestM2BatchPrevalidation(unittest.TestCase):
         self.assertIn("ORG - First Batch Org (ORG-0002)", markdown)
         self.assertIn("ORG - Second Batch Org (ORG-0003)", markdown)
 
+    def test_duplicate_person_candidate_is_blocking_and_keeps_unique_summaries(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_batch_repo(Path(tmp))
+            report_path, refused_count = m2_batch_prevalidation.run_campaign(
+                {
+                    "campaign": "duplicate-person",
+                    "items": [
+                        {
+                            "family": "person",
+                            "name": "Duplicate Person",
+                            "category": "industrie",
+                            "roles": ["producteur"],
+                            "sources": ["S01"],
+                        },
+                        {
+                            "family": "person",
+                            "name": "Duplicate Person",
+                            "category": "industrie",
+                            "roles": ["producteur"],
+                            "sources": ["S01"],
+                        },
+                    ],
+                },
+                paths=paths,
+            )
+            markdown = report_path.read_text(encoding="utf-8")
+            first_pr = Path(tmp) / "exports" / "generated" / "pr_summary_person_person-duplicate-person.md"
+            second_pr = (
+                Path(tmp)
+                / "exports"
+                / "generated"
+                / "pr_summary_person_person-duplicate-person_item-2.md"
+            )
+            first_pr_exists = first_pr.exists()
+            second_pr_exists = second_pr.exists()
+
+        self.assertEqual(refused_count, 1)
+        self.assertTrue(first_pr_exists)
+        self.assertTrue(second_pr_exists)
+        self.assertIn("- refus: 1", markdown)
+        self.assertIn("collision interne batch PERSON: PERSON-duplicate-person", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()

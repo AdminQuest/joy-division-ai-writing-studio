@@ -54,6 +54,13 @@ Pour les campagnes ORG, la CLI reserve les candidats deja diagnostiques pendant
 la campagne. Cela permet de proposer des identifiants successifs dans un meme
 lot, meme si le registre source reste en lecture seule.
 
+Pour les campagnes PERSON, la CLI detecte les identifiants `PERSON-*` deja
+produits dans le meme lot. Un doublon interne devient un bloquant dans le
+diagnostic de l'item concerne.
+
+Si deux items produisent le meme nom de resume PR, la sortie batch ajoute un
+suffixe `item-N` au fichier suivant afin de conserver un artefact par item.
+
 ## Format d'entree
 
 La CLI accepte un fichier JSON.
@@ -203,6 +210,9 @@ ait a connaitre leurs regles metier.
 Si plusieurs ORG sont presentes dans le meme lot, leurs identifiants provisoires
 sont reserves les uns apres les autres pour eviter une collision interne au
 rapport de campagne.
+
+Si plusieurs PERSON produisent le meme identifiant canonique, le doublon est
+affiche dans les bloquants du rapport consolide.
 
 ## Cas d'usage
 
