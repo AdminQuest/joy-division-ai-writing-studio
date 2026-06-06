@@ -131,6 +131,31 @@ Resultat attendu :
 - reserve signalant une autre edition ou reedition possible ;
 - aucun bloquant.
 
+### Proximite faible
+
+```bash
+python3 tools/m2_integrate_source.py \
+  --title "From Joy Division" \
+  --author "Middles" \
+  --type livre \
+  --year 1996 \
+  --reference "MIDDLES, From Joy Division, 1996."
+```
+
+Resultat attendu :
+
+- decision `pre-validee avec reserve` ;
+- reserve signalant des metadonnees partielles possibles ;
+- aucun bloquant.
+
+Ce cas illustre une proximite documentaire faible : le titre candidat est
+abrege, l'auteur est donne sous forme patronymique seule, et une source
+canonique proche existe deja (`S74`, Mick Middles, `From Joy Division to New
+Order`).
+
+Le prototype ne transforme pas cette proximite en doublon certain. Il expose
+simplement un arbitrage humain.
+
 ### Type invalide
 
 ```bash
@@ -168,6 +193,53 @@ La proposition affiche :
 
 Les fichiers potentiellement concernes sont informatifs. Le prototype ne les
 modifie pas.
+
+## Niveaux de rapprochement
+
+Le prototype distingue trois situations.
+
+### Doublon certain
+
+Une source est consideree comme deja presente lorsque le prototype observe un
+indice fort :
+
+- meme titre, meme auteur certain et meme annee ;
+- reference complete identique ;
+- URL canonique deja connue.
+
+Resultat :
+
+- decision `non pre-validee` ;
+- bloquant `source deja presente de facon certaine` ;
+- `Sxx` existant affiche.
+
+### Proximite documentaire
+
+Une source est consideree comme proche lorsque le prototype observe un indice
+qui ne suffit pas a bloquer :
+
+- meme titre et autre annee ;
+- titre proche ;
+- reference proche ;
+- titre partiel significatif avec auteur proche ;
+- auteur patronymique seul combine a un titre partiel.
+
+Resultat :
+
+- decision `pre-validee avec reserve` ;
+- reserve documentant la source proche ;
+- proposition soumise a arbitrage humain.
+
+### Source nouvelle
+
+Une source est consideree comme nouvelle lorsque le prototype ne detecte ni
+doublon certain ni proximite documentaire.
+
+Resultat :
+
+- decision `pre-validee` ;
+- nouveau `Sxx` probable ;
+- dossier source probable.
 
 ## Limites
 

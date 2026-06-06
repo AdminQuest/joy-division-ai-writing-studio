@@ -92,7 +92,43 @@ def same_author(left: object, right: str) -> bool:
         return False
     left_tokens = sorted(left_norm.split())
     right_tokens = sorted(right_norm.split())
-    return left_norm == right_norm or left_norm in right_norm or right_norm in left_norm or left_tokens == right_tokens
+    return left_norm == right_norm or left_tokens == right_tokens
+
+
+def near_author(left: object, right: str) -> bool:
+    left_norm = normalize_text(str(left or ""))
+    right_norm = normalize_text(right)
+    if not left_norm or not right_norm:
+        return False
+    if same_author(left_norm, right_norm):
+        return True
+    left_tokens = set(left_norm.split())
+    right_tokens = set(right_norm.split())
+    if len(left_tokens & right_tokens) >= 2:
+        return True
+    if len(left_norm) >= 5 and left_norm in right_norm:
+        return True
+    if len(right_norm) >= 5 and right_norm in left_norm:
+        return True
+    return False
+
+
+def is_partial_title_match(left: str, right: str) -> bool:
+    left_norm = normalize_text(left)
+    right_norm = normalize_text(right)
+    if not left_norm or not right_norm or left_norm == right_norm:
+        return False
+    shorter, longer = sorted((left_norm, right_norm), key=len)
+    if len(shorter) < 12:
+        return False
+    shorter_tokens = shorter.split()
+    if len(shorter_tokens) < 3:
+        return False
+    if longer.startswith(shorter):
+        return True
+    if shorter in longer:
+        return True
+    return False
 
 
 def short_source(rec: dict) -> str:
@@ -100,6 +136,14 @@ def short_source(rec: dict) -> str:
     title = str(rec.get("titre") or rec.get("source_label") or "titre inconnu")
     year = str(rec.get("annee") or "annee inconnue")
     return f"{source_id} - {title} ({year})"
+
+
+def detailed_source(rec: dict) -> str:
+    source_id = str(rec.get("id", "source inconnue"))
+    author = str(rec.get("auteur") or "auteur inconnu")
+    title = str(rec.get("titre") or rec.get("source_label") or "titre inconnu")
+    year = str(rec.get("annee") or "annee inconnue")
+    return f"{source_id} - {author} - {title} ({year})"
 
 
 def find_existing_source(records: Sequence[dict], *, title: str, author: str, year: str, reference: str, url: str | None) -> dict | None:
@@ -131,17 +175,26 @@ def find_near_sources(records: Sequence[dict], *, title: str, author: str, year:
 
         title_equal = same_text(rec_title, title)
         author_equal = same_author(rec_author, author)
+        author_close = near_author(rec_author, author)
         year_equal = same_text(rec_year, year)
 
         if title_equal and author_equal and not year_equal:
             reserves.append(f"source proche detectee : autre edition ou reedition possible ({rec_label})")
             continue
 
+        if title_equal and author_close and not author_equal:
+            reserves.append(f"source proche detectee : metadonnees partielles possibles ({detailed_source(rec)})")
+            continue
+
         if title_equal and not author_equal:
             reserves.append(f"source proche detectee : variante de titre ({rec_label})")
             continue
 
-        if author_equal and is_near_text_match(title, rec_title):
+        if author_close and is_partial_title_match(title, rec_title):
+            reserves.append(f"source proche detectee : metadonnees partielles possibles ({detailed_source(rec)})")
+            continue
+
+        if author_close and is_near_text_match(title, rec_title):
             reserves.append(f"source proche detectee : titre proche ({rec_label})")
             continue
 
