@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-05T15:13:05`
+Généré le : `2026-06-06T04:25:37`
 
 ## 1. Verdict
 
@@ -62,46 +62,11 @@ Aucune.
 - `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-003] : Unable to infer documentary kind
 - `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-004] : Unable to infer documentary kind
 - `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-005] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-006] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-007] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-008] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-009] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-010] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-011] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-012] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-013] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-014] : Unable to infer documentary kind
-- `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-015] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-001] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-002] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-003] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-004] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-005] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-006] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-007] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-008] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-009] : Unable to infer documentary kind
-- `sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md` [REL-S42-010] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-001] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-002] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-003] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-004] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-005] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-006] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-007] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-008] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-009] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-010] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-011] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-012] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-013] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-014] : Unable to infer documentary kind
-- `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-015] : Unable to infer documentary kind
 - … 1364 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
-Aucune source utilisée n’est absente de `data/registre.json`.
+Aucune source utilisée n'est absente de `data/registre.json`.
 
 Sources déclarées mais non utilisées :
 - REGISTRY-CONCERTS — joydiv.org/concerts.htm — reference_externe
@@ -109,10 +74,10 @@ Sources déclarées mais non utilisées :
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — verifie
 - S03 — Demographia, England Largest Cities, s.d. — a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — verifie
-- S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — a_consolider
+- S18 — Fédida, Manchester : L'éveil d'une scène musicale, 2021 — a_consolider
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — a_consolider
-- S25 — Factory Records, philosophie d’indépendance, 1978–1992 — a_consolider
+- S25 — Factory Records, philosophie d'indépendance, 1978–1992 — a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — a_consolider
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — a_consolider
 - S33 — Can, Tago Mago, 1971 — a_consolider
@@ -129,7 +94,7 @@ Aucun libellé faible.
 - Atomes v2 incomplets : 2529
 - Avertissements de champs v2 manquants : 15551
 
-Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
+Cette dette ne doit pas être corrigée mécaniquement sans stratégie d'enrichissement documentaire. Elle relève d'une migration progressive des sources déjà atomisées.
 
 ## 9. Fichiers les plus chargés en problèmes
 
