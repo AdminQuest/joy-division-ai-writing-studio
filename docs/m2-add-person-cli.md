@@ -10,6 +10,8 @@ Il sert a :
 - verifier les sources `Sxx` contre `data/registre.json` ;
 - verifier la categorie contre le vocabulaire canonique ;
 - detecter les collisions evidentes d'identifiant, nom, alias et `same_as` ;
+- signaler en reserve les proximites faibles de nom ou d'alias ;
+- expliciter la cible d'ecriture probable ou l'absence de cible identifiable ;
 - produire une entree candidate YAML ;
 - classer les constats en `bloquant`, `reserve` ou `information`.
 
@@ -47,7 +49,7 @@ Parametres facultatifs :
 
 Lorsque `--origin auteur_source` est utilise, `--same-as` doit rester absent. Le pipeline d'attribution attend un auteur-source avec `same_as: []`.
 
-Categories valides :
+Categories valides, egalement visibles dans `--help` :
 
 - `membre`
 - `entourage`
@@ -71,7 +73,7 @@ Bloquants :
 Reserves :
 - aucun
 Informations :
-- same_as vide: cible d'ecriture a confirmer avant integration
+- Aucun PERS-* fourni. Aucune cible d'ecriture source/provisoire n'est identifiable. Validation humaine necessaire avant integration.
 Entree candidate :
 ```yaml
 id: PERSON-exemple-personne
@@ -89,13 +91,30 @@ a_arbitrer: false
 ```
 ````
 
+Exemple avec `same_as` :
+
+```text
+Informations :
+- Cible d'ecriture probable : registers/people/*.md puis regeneration controlee de registers/people/00_canonical_people.md. Pourquoi : PERS-* fourni. Il manque la confirmation humaine du fichier source/provisoire a modifier.
+```
+
+Exemple avec reserve :
+
+```text
+Decision : pre-validee avec reserve
+Reserves :
+- identite a arbitrer: rattachement ou homonymie a confirmer
+```
+
+Une proximite faible de nom ou d'alias produit aussi une reserve. Une collision exacte reste bloquante.
+
 Exemple non pre-valide :
 
 ```text
 Decision : non pre-validee
 Identifiant propose : PERSON-exemple-personne
 Bloquants :
-- source inconnue: S999
+- categorie invalide: manager (categories autorisees: membre, entourage, industrie, critique_journaliste, auteur_secondaire, influence, theoricien_mobilise)
 ```
 
 ## Limites
