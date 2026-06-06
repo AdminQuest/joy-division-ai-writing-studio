@@ -49,6 +49,50 @@ def write_minimal_registry(root: Path) -> m2_integrate_source.Paths:
     return m2_integrate_source.Paths(root=root, source_registry=root / "data" / "registre.json")
 
 
+def write_campaign_registry(root: Path) -> m2_integrate_source.Paths:
+    (root / "data").mkdir(parents=True)
+    payload = [
+        {
+            "id": "S72",
+            "auteur": "Simon Reynolds",
+            "titre": "Rip It Up and Start Again: Postpunk 1978–1984",
+            "annee": "2005/2006",
+            "reference_complete": "Reynolds, Simon, Rip It Up and Start Again: Postpunk 1978-1984, 2005/2006.",
+        },
+        {
+            "id": "S74",
+            "auteur": "Mick Middles",
+            "titre": "From Joy Division to New Order",
+            "annee": "1996",
+            "reference_complete": "Middles, Mick, From Joy Division to New Order, 1996.",
+        },
+        {
+            "id": "S90",
+            "auteur": "Mark Fisher",
+            "titre": "Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures",
+            "annee": "2014",
+            "reference_complete": "Fisher, Mark, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014.",
+            "dossier_source": "sources/fisher_ghosts_of_my_life/",
+        },
+        {
+            "id": "S91",
+            "auteur": "Simon Reynolds",
+            "titre": "Retromania: Pop Culture's Addiction to Its Own Past",
+            "annee": "2011",
+            "reference_complete": "Reynolds, Simon, Retromania: Pop Culture's Addiction to Its Own Past, 2011.",
+        },
+        {
+            "id": "S94",
+            "auteur": "James Weissinger",
+            "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+            "annee": "2012",
+            "reference_complete": "Weissinger, James, Retromania: Pop Culture's Addiction to Its Own Past (Book Review), 2012.",
+        },
+    ]
+    (root / "data" / "registre.json").write_text(json.dumps(payload, sort_keys=True), encoding="utf-8")
+    return m2_integrate_source.Paths(root=root, source_registry=root / "data" / "registre.json")
+
+
 def run_case(paths: m2_integrate_source.Paths, **overrides) -> m2_integrate_source.CheckResult:
     params = {
         "title": "New Source",
@@ -160,6 +204,102 @@ class TestM2IntegrateSource(unittest.TestCase):
         self.assertEqual(result.decision, "non pre-validee")
         self.assertIn("source deja presente de facon certaine: S04 - Manchester: A History (2006)", result.blockers)
         self.assertIn("Sxx existant: S04", result.information)
+
+    def test_incomplete_author_is_weak_proximity_not_blocking_duplicate(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_campaign_registry(Path(tmp))
+            result = run_case(
+                paths,
+                title="From Joy Division to New Order",
+                author="Middles",
+                year="1996",
+                reference="MIDDLES, From Joy Division to New Order, 1996.",
+            )
+
+        self.assertEqual(result.decision, "pre-validee avec reserve")
+        self.assertEqual(result.blockers, [])
+        self.assertIn(
+            "source proche detectee : metadonnees partielles possibles (S74 - Mick Middles - From Joy Division to New Order (1996))",
+            result.reserves,
+        )
+
+    def test_abbreviated_title_is_weak_proximity(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_campaign_registry(Path(tmp))
+            result = run_case(
+                paths,
+                title="From Joy Division",
+                author="Mick Middles",
+                year="1996",
+                reference="MIDDLES, Mick, From Joy Division, 1996.",
+            )
+
+        self.assertEqual(result.decision, "pre-validee avec reserve")
+        self.assertEqual(result.blockers, [])
+        self.assertIn(
+            "source proche detectee : metadonnees partielles possibles (S74 - Mick Middles - From Joy Division to New Order (1996))",
+            result.reserves,
+        )
+
+    def test_incomplete_author_and_abbreviated_title_reserve_s74(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_campaign_registry(Path(tmp))
+            result = run_case(
+                paths,
+                title="From Joy Division",
+                author="Middles",
+                year="1996",
+                reference="MIDDLES, From Joy Division, 1996.",
+            )
+
+        self.assertEqual(result.decision, "pre-validee avec reserve")
+        self.assertEqual(result.blockers, [])
+        self.assertIn(
+            "source proche detectee : metadonnees partielles possibles (S74 - Mick Middles - From Joy Division to New Order (1996))",
+            result.reserves,
+        )
+
+    def test_campaign_non_regressions_remain_classified(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_campaign_registry(Path(tmp))
+            s90 = run_case(
+                paths,
+                title="Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures",
+                author="Mark Fisher",
+                year="2014",
+                reference="Fisher, Mark, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014.",
+            )
+            s91 = run_case(
+                paths,
+                title="Retromania: Pop Culture's Addiction to Its Own Past",
+                author="Simon Reynolds",
+                year="2012",
+                reference="Reynolds, Simon, Retromania: Pop Culture's Addiction to Its Own Past, Faber paperback edition, 2012.",
+            )
+            s72 = run_case(
+                paths,
+                title="Rip It Up and Start Again: Postpunk 1978–1984",
+                author="Simon Reynolds",
+                year="2007",
+                reference="Reynolds, Simon, Rip It Up and Start Again: Postpunk 1978-1984, edition francaise, 2007.",
+            )
+            s94 = run_case(
+                paths,
+                title="Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+                author="James Weissinger",
+                source_type="article",
+                year="2012",
+                reference="Weissinger, James, Retromania: Pop Culture's Addiction to Its Own Past (Book Review), 2012.",
+            )
+
+        self.assertEqual(s90.decision, "non pre-validee")
+        self.assertIn("source deja presente de facon certaine: S90 - Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures (2014)", s90.blockers)
+        self.assertEqual(s91.decision, "pre-validee avec reserve")
+        self.assertIn("source proche detectee : autre edition ou reedition possible (S91 - Retromania: Pop Culture's Addiction to Its Own Past (2011))", s91.reserves)
+        self.assertEqual(s72.decision, "pre-validee avec reserve")
+        self.assertIn("source proche detectee : autre edition ou reedition possible (S72 - Rip It Up and Start Again: Postpunk 1978–1984 (2005/2006))", s72.reserves)
+        self.assertEqual(s94.decision, "non pre-validee")
+        self.assertIn("source deja presente de facon certaine: S94 - Retromania: Pop Culture's Addiction to Its Own Past (Book Review) (2012)", s94.blockers)
 
     def test_output_is_deterministic(self) -> None:
         with TemporaryDirectory() as tmp:
