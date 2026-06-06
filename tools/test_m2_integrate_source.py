@@ -37,6 +37,13 @@ def write_minimal_registry(root: Path) -> m2_integrate_source.Paths:
             "reference_complete": "URL Author, URL Source, Web Archive, 2020.",
             "url": "https://example.test/source",
         },
+        {
+            "id": "S04",
+            "auteur": "Alan J. Kidd",
+            "titre": "Manchester: A History",
+            "annee": "2006",
+            "reference_complete": "Kidd, Alan J. Manchester: A History. Lancaster / Clitheroe: Carnegie Publishing, 2006.",
+        },
     ]
     (root / "data" / "registre.json").write_text(json.dumps(payload, sort_keys=True), encoding="utf-8")
     return m2_integrate_source.Paths(root=root, source_registry=root / "data" / "registre.json")
@@ -64,7 +71,7 @@ class TestM2IntegrateSource(unittest.TestCase):
         self.assertEqual(result.decision, "pre-validee")
         self.assertEqual(result.blockers, [])
         self.assertEqual(result.reserves, [])
-        self.assertIn("nouveau Sxx probablement requis: S04", result.information)
+        self.assertIn("nouveau Sxx probablement requis: S05", result.information)
         self.assertEqual(result.candidate["dossier_source_probable"], "sources/new_author_new_source/")
 
     def test_existing_source_is_blocking(self) -> None:
@@ -118,7 +125,7 @@ class TestM2IntegrateSource(unittest.TestCase):
 
         self.assertEqual(result.decision, "pre-validee")
         self.assertEqual(result.blockers, [])
-        self.assertIn("nouveau Sxx probablement requis: S04", result.information)
+        self.assertIn("nouveau Sxx probablement requis: S05", result.information)
         self.assertNotIn("url", result.candidate["metadata"])
 
     def test_canonical_url_field_is_blocking_duplicate(self) -> None:
@@ -136,6 +143,21 @@ class TestM2IntegrateSource(unittest.TestCase):
         self.assertEqual(result.decision, "non pre-validee")
         self.assertIn("source deja presente de facon certaine: S03 - URL Source (2020)", result.blockers)
         self.assertIn("Sxx existant: S03", result.information)
+
+    def test_author_surname_first_form_matches_existing_source(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_registry(Path(tmp))
+            result = run_case(
+                paths,
+                title="Manchester: A History",
+                author="Kidd, Alan J.",
+                year="2006",
+                reference="Kidd, Alan J. Manchester: A History. Lancaster / Clitheroe: Carnegie Publishing, 2006.",
+            )
+
+        self.assertEqual(result.decision, "non pre-validee")
+        self.assertIn("source deja presente de facon certaine: S04 - Manchester: A History (2006)", result.blockers)
+        self.assertIn("Sxx existant: S04", result.information)
 
     def test_output_is_deterministic(self) -> None:
         with TemporaryDirectory() as tmp:

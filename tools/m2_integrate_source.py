@@ -88,7 +88,11 @@ def same_text(left: object, right: str) -> bool:
 def same_author(left: object, right: str) -> bool:
     left_norm = normalize_text(str(left or ""))
     right_norm = normalize_text(right)
-    return bool(left_norm and right_norm and (left_norm == right_norm or left_norm in right_norm or right_norm in left_norm))
+    if not left_norm or not right_norm:
+        return False
+    left_tokens = sorted(left_norm.split())
+    right_tokens = sorted(right_norm.split())
+    return left_norm == right_norm or left_norm in right_norm or right_norm in left_norm or left_tokens == right_tokens
 
 
 def short_source(rec: dict) -> str:
