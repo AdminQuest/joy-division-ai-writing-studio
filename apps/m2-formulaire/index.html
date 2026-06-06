@@ -22,6 +22,7 @@
         <button class="m2-tab is-active" type="button" data-tab="person">PERSON</button>
         <button class="m2-tab" type="button" data-tab="org">ORG</button>
         <button class="m2-tab" type="button" data-tab="place">PLACE</button>
+        <button class="m2-tab" type="button" data-tab="image">IMAGE</button>
         <button class="m2-tab" type="button" data-tab="source">SOURCE LONGUE</button>
         <button class="m2-tab" type="button" data-tab="batch">BATCH</button>
       </nav>
@@ -41,14 +42,15 @@
                 <li><strong>PERSON</strong> : preparer une personne candidate.</li>
                 <li><strong>ORG</strong> : preparer une organisation candidate.</li>
                 <li><strong>PLACE</strong> : preparer un lieu candidat.</li>
+                <li><strong>IMAGE</strong> : preparer une image ou seance iconographique candidate.</li>
                 <li><strong>SOURCE LONGUE</strong> : diagnostiquer une source candidate.</li>
                 <li><strong>BATCH</strong> : preparer une campagne d'objets.</li>
               </ul>
             </section>
             <section>
               <h2>Limites</h2>
-              <p>Le formulaire ne cree pas de personne, organisation, lieu, source canonique,
-                atome, citation, relation, modification de registre ou PR GitHub.</p>
+              <p>Le formulaire ne cree pas de personne, organisation, lieu, image canonique,
+                source canonique, atome, citation, relation, modification de registre ou PR GitHub.</p>
             </section>
             <section>
               <h2>Apres copie</h2>
@@ -185,6 +187,86 @@
             <button class="m2-btn m2-btn--ghost" type="button" data-copy="place-output">Copier</button>
           </div>
           <pre id="place-output"></pre>
+        </section>
+      </section>
+
+      <section class="m2-workspace" id="panel-image" data-panel="image" hidden>
+        <form class="m2-form" id="image-form">
+          <div class="m2-field">
+            <label for="image-level">level</label>
+            <input id="image-level" name="level" type="text" placeholder="session" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-name">name</label>
+            <input id="image-name" name="name" type="text" placeholder="Prototype Image Session" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-photographer">photographer</label>
+            <input id="image-photographer" name="photographer" type="text" placeholder="PERSON-kevin-cummins" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-sources">sources</label>
+            <input id="image-sources" name="sources" type="text" placeholder="S41,S76" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-date">date</label>
+            <input id="image-date" name="date" type="text" placeholder="1979-01-06" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-date-precision">date_precision</label>
+            <input id="image-date-precision" name="date_precision" type="text" placeholder="day" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-context">context</label>
+            <input id="image-context" name="context" type="text" placeholder="promo" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-last-verified">last_verified</label>
+            <input id="image-last-verified" name="last_verified" type="text" placeholder="2026-06-06" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-subjects">subjects</label>
+            <input id="image-subjects" name="subjects" type="text" placeholder="PERSON-ian-curtis, Joy Division" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-session-ref">session_ref</label>
+            <input id="image-session-ref" name="session_ref" type="text" placeholder="IMAGE-S-0001" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-place">place</label>
+            <input id="image-place" name="place" type="text" placeholder="PLACE-HULME" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="image-usage">usage</label>
+            <input id="image-usage" name="usage" type="text" placeholder="presse, pochette, archive" autocomplete="off">
+          </div>
+          <label class="m2-check" for="image-iconic">
+            <input id="image-iconic" name="iconic" type="checkbox">
+            <span>iconic</span>
+          </label>
+          <label class="m2-check" for="image-rights-uncertain">
+            <input id="image-rights-uncertain" name="rights_uncertain" type="checkbox">
+            <span>rights_uncertain</span>
+          </label>
+          <label class="m2-check" for="image-attribution-uncertain">
+            <input id="image-attribution-uncertain" name="attribution_uncertain" type="checkbox">
+            <span>attribution_uncertain</span>
+          </label>
+          <div class="m2-field m2-field--wide">
+            <label for="image-notes">notes</label>
+            <textarea id="image-notes" name="notes" rows="4" placeholder="Droits, provenance, attribution ou incertitude documentaire"></textarea>
+          </div>
+          <div class="m2-actions">
+            <button class="m2-btn m2-btn--primary" type="button" data-action="image-command">Generer commande</button>
+            <button class="m2-btn" type="button" data-action="image-batch">Ajouter au batch</button>
+          </div>
+        </form>
+        <section class="m2-output" aria-label="Sortie IMAGE">
+          <div class="m2-output__header">
+            <h2>Commande IMAGE</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="image-output">Copier</button>
+          </div>
+          <pre id="image-output"></pre>
         </section>
       </section>
 

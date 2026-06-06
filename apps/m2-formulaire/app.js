@@ -63,6 +63,28 @@ function readPlace() {
   };
 }
 
+function readImage() {
+  return {
+    family: 'image',
+    level: text($('image-level').value),
+    name: text($('image-name').value),
+    photographer: text($('image-photographer').value),
+    sources: splitList($('image-sources').value),
+    date: text($('image-date').value),
+    date_precision: text($('image-date-precision').value),
+    context: text($('image-context').value),
+    last_verified: text($('image-last-verified').value),
+    subjects: splitList($('image-subjects').value),
+    session_ref: text($('image-session-ref').value),
+    place: text($('image-place').value),
+    usage: splitList($('image-usage').value),
+    iconic: $('image-iconic').checked,
+    rights_uncertain: $('image-rights-uncertain').checked,
+    attribution_uncertain: $('image-attribution-uncertain').checked,
+    notes: text($('image-notes').value)
+  };
+}
+
 function readSource() {
   return {
     title: text($('source-title').value),
@@ -129,6 +151,34 @@ function placeCommand() {
   ]);
 }
 
+function flag(flagName, enabled) {
+  return enabled ? flagName : '';
+}
+
+function imageCommand() {
+  const item = readImage();
+  return command([
+    'python3 tools/m2_add_image.py',
+    option('--level', item.level),
+    option('--name', item.name),
+    option('--photographer', item.photographer),
+    option('--sources', item.sources.join(',')),
+    option('--last-verified', item.last_verified),
+    option('--date', item.date),
+    option('--date-precision', item.date_precision),
+    option('--context', item.context),
+    option('--subjects', item.subjects.join(',')),
+    option('--session-ref', item.session_ref),
+    option('--place', item.place),
+    option('--usage', item.usage.join(',')),
+    option('--notes', item.notes),
+    flag('--iconic', item.iconic),
+    flag('--rights-uncertain', item.rights_uncertain),
+    flag('--attribution-uncertain', item.attribution_uncertain),
+    '--pr-summary'
+  ]);
+}
+
 function sourceCommand() {
   const item = readSource();
   const base = command([
@@ -153,7 +203,7 @@ function batchPayload() {
 function renderBatch() {
   const list = $('batch-list');
   if (!state.batchItems.length) {
-    list.innerHTML = '<p class="m2-empty">Aucun item PERSON, ORG ou PLACE dans la campagne.</p>';
+    list.innerHTML = '<p class="m2-empty">Aucun item PERSON, ORG, PLACE ou IMAGE dans la campagne.</p>';
   } else {
     list.innerHTML = state.batchItems.map((item, index) => {
       const label = item.name || item.label || `item-${index + 1}`;
@@ -162,6 +212,8 @@ function renderBatch() {
         meta = [item.category, item.sources.join(',')].filter(Boolean).join(' - ');
       } else if (item.family === 'place') {
         meta = [item.type, item.type_detail, item.sources.join(',')].filter(Boolean).join(' - ');
+      } else if (item.family === 'image') {
+        meta = [item.level, item.photographer, item.sources.join(',')].filter(Boolean).join(' - ');
       } else {
         meta = [item.category, item.country, item.sources.join(',')].filter(Boolean).join(' - ');
       }
@@ -231,6 +283,10 @@ function bindEvents() {
     $('place-output').textContent = placeCommand();
     setStatus('Commande PLACE generee.');
   });
+  document.querySelector('[data-action="image-command"]').addEventListener('click', () => {
+    $('image-output').textContent = imageCommand();
+    setStatus('Commande IMAGE generee.');
+  });
   document.querySelector('[data-action="source-command"]').addEventListener('click', () => {
     $('source-output').textContent = sourceCommand();
     setStatus('Commande SOURCE LONGUE generee.');
@@ -238,6 +294,7 @@ function bindEvents() {
   document.querySelector('[data-action="person-batch"]').addEventListener('click', () => addBatchItem(readPerson()));
   document.querySelector('[data-action="org-batch"]').addEventListener('click', () => addBatchItem(readOrg()));
   document.querySelector('[data-action="place-batch"]').addEventListener('click', () => addBatchItem(readPlace()));
+  document.querySelector('[data-action="image-batch"]').addEventListener('click', () => addBatchItem(readImage()));
   document.querySelector('[data-action="clear-batch"]').addEventListener('click', () => {
     state.batchItems = [];
     renderBatch();
@@ -262,6 +319,7 @@ function init() {
   $('person-output').textContent = personCommand();
   $('org-output').textContent = orgCommand();
   $('place-output').textContent = placeCommand();
+  $('image-output').textContent = imageCommand();
   $('source-output').textContent = sourceCommand();
   renderBatch();
   bindEvents();

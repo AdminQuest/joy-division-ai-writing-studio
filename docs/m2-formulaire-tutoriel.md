@@ -10,8 +10,9 @@ Il aide a saisir :
 - une personne candidate ;
 - une organisation candidate ;
 - un lieu documentaire candidat ;
+- une image ou seance iconographique candidate ;
 - une source longue candidate ;
-- une petite campagne batch avec plusieurs personnes, organisations et lieux.
+- une petite campagne batch avec plusieurs personnes, organisations, lieux et images.
 
 Le formulaire produit :
 
@@ -59,7 +60,7 @@ Etapes :
 
 1. Ouvrir le formulaire dans `apps/m2-formulaire/`.
 2. Lire le bloc `Mode d'emploi` si le parcours n'est pas encore familier.
-3. Choisir l'onglet correspondant au besoin : `PERSON`, `ORG`, `PLACE`,
+3. Choisir l'onglet correspondant au besoin : `PERSON`, `ORG`, `PLACE`, `IMAGE`,
    `SOURCE LONGUE` ou `BATCH`.
 4. Remplir les champs utiles.
 5. Copier la commande ou le JSON genere.
@@ -274,7 +275,85 @@ exports/generated/pr_summary_place_*.md
 Ce resume expose le lieu propose, les validations executees, les reserves et
 les arbitrages humains attendus. Il ne modifie aucun registre.
 
-## 6. Premiere SOURCE LONGUE
+## 6. Premier ajout IMAGE
+
+### Saisie dans le formulaire
+
+Ouvrir l'onglet `IMAGE`.
+
+Exemple de saisie :
+
+```text
+level: session
+name: Prototype Image Session
+photographer: PERSON-kevin-cummins
+sources: S41
+date: 1979-02
+date_precision: month
+context: promo
+subjects: PERSON-ian-curtis
+place: PLACE-HULME
+last_verified: 2026-06-06
+notes: droits et provenance a confirmer en revue
+```
+
+Les champs importants sont :
+
+- `level` : `session` pour une seance, `image` pour un cliche individuel ;
+- `name` : designation canonique proposee ;
+- `photographer` : identifiant `PERSON-*` du photographe ou auteur visuel ;
+- `sources` : sources `Sxx` documentant l'objet ;
+- `date` et `date_precision` : date ou periode disponible ;
+- `subjects` : sujets visibles, en `PERSON-*` ou descriptions libres ;
+- `session_ref` : session parente obligatoire pour `level=image` ;
+- `place` : lieu `PLACE-*` ou description libre ;
+- `last_verified` : date explicite de verification humaine ;
+- `notes` : droits, provenance, attribution ou prudence.
+
+### Commande generee
+
+Le formulaire produit une commande du type :
+
+```bash
+python3 tools/m2_add_image.py --level 'session' --name 'Prototype Image Session' --photographer 'PERSON-kevin-cummins' --sources 'S41' --last-verified '2026-06-06' --date '1979-02' --date-precision 'month' --context 'promo' --subjects 'PERSON-ian-curtis' --place 'PLACE-HULME' --notes 'droits et provenance a confirmer en revue' --pr-summary
+```
+
+### Execution et resultat
+
+La CLI IMAGE propose le prochain identifiant `IMAGE-S-NNNN` ou `IMAGE-I-NNNN`,
+puis affiche le diagnostic.
+
+Exemple de structure attendue :
+
+```text
+Decision : pre-validee
+Identifiant propose : IMAGE-S-0008
+Bloquants :
+- aucun
+Reserves :
+- aucun
+Informations :
+- cible d'ecriture probable: registers/images/images.json
+- lecture seule: aucune modification du registre IMAGE
+```
+
+Les incertitudes de date, d'attribution ou de droits produisent des reserves.
+Une source inconnue, un photographe introuvable ou une image individuelle sans
+`session_ref` valide produit un bloquant.
+
+### Resume PR obtenu
+
+Avec `--pr-summary`, un fichier Markdown est genere dans :
+
+```text
+exports/generated/pr_summary_image_*.md
+```
+
+Ce resume expose l'objet iconographique propose, les validations, les reserves,
+les bloquants et les arbitrages humains attendus. Il ne cree pas d'image
+canonique et ne republie aucun fichier image.
+
+## 7. Premiere SOURCE LONGUE
 
 ### Saisie dans le formulaire
 
@@ -334,7 +413,7 @@ Une source canonique est une source effectivement acceptee dans
 Le formulaire et la CLI de pre-validation ne creent pas la source canonique. Ils
 preparent seulement la revue.
 
-## 7. Premiere campagne BATCH
+## 8. Premiere campagne BATCH
 
 Le batch sert lorsqu'il faut preparer plusieurs objets ensemble.
 
@@ -342,7 +421,8 @@ Exemple simple :
 
 - une personne candidate ;
 - une organisation candidate ;
-- un lieu candidat.
+- un lieu candidat ;
+- une image candidate.
 
 ### Constituer le lot
 
@@ -355,8 +435,11 @@ Exemple simple :
 7. Aller dans l'onglet `PLACE`.
 8. Remplir les champs PLACE.
 9. Cliquer sur `Ajouter au batch`.
-10. Aller dans l'onglet `BATCH`.
-11. Renseigner un nom de campagne.
+10. Aller dans l'onglet `IMAGE`.
+11. Remplir les champs IMAGE.
+12. Cliquer sur `Ajouter au batch`.
+13. Aller dans l'onglet `BATCH`.
+14. Renseigner un nom de campagne.
 
 ### JSON obtenu
 
@@ -393,6 +476,20 @@ Le formulaire produit un JSON du type :
       "aliases": ["Prototype Club"],
       "usage": "concert",
       "prudence": "verifier la distinction avec le batiment voisin"
+    },
+    {
+      "family": "image",
+      "level": "session",
+      "name": "Prototype Image Session",
+      "photographer": "PERSON-kevin-cummins",
+      "sources": ["S41"],
+      "date": "1979-02",
+      "date_precision": "month",
+      "context": "promo",
+      "subjects": ["PERSON-ian-curtis"],
+      "place": "PLACE-HULME",
+      "last_verified": "2026-06-06",
+      "notes": "droits et provenance a confirmer en revue"
     }
   ]
 }
@@ -441,7 +538,7 @@ exports/generated/pr_summary_*.md
 Le rapport consolide la campagne. Les resumes PR individuels permettent de
 relire chaque proposition separement.
 
-## 8. Comment lire les diagnostics
+## 9. Comment lire les diagnostics
 
 ### pre-validee
 
@@ -492,7 +589,7 @@ Bloquants :
 Il faut corriger le bloquant avant de considerer la proposition comme prete pour
 revue.
 
-## 9. Comment lire un resume PR
+## 10. Comment lire un resume PR
 
 Un resume PR M2 est un document Markdown genere dans `exports/generated/`.
 
@@ -519,7 +616,7 @@ Pour preparer la revue :
 Un resume PR ne remplace pas la PR ni la revue. Il rend la proposition plus
 facile a relire.
 
-## 10. Questions frequentes
+## 11. Questions frequentes
 
 ### Le formulaire cree-t-il une personne ?
 
@@ -532,6 +629,12 @@ registre separee.
 Non. L'onglet `PLACE` prepare une commande ou une entree batch. La creation
 effective d'un lieu reste une modification de registre separee, relue et
 validee humainement.
+
+### Le formulaire cree-t-il une image canonique ?
+
+Non. L'onglet `IMAGE` prepare une commande ou une entree batch. La creation
+effective d'une entree `IMAGE-`, et toute question de droits ou de reproduction,
+restent des decisions humaines separees.
 
 ### Le formulaire modifie-t-il le registre ?
 
@@ -546,16 +649,22 @@ qualification documentaire incertaine.
 
 ### Quand utiliser BATCH ?
 
-Utiliser `BATCH` lorsqu'il faut preparer plusieurs objets PERSON, ORG et PLACE
-dans une meme campagne, puis obtenir un rapport consolide.
+Utiliser `BATCH` lorsqu'il faut preparer plusieurs objets PERSON, ORG, PLACE et
+IMAGE dans une meme campagne, puis obtenir un rapport consolide.
 
-Pour un seul objet, l'onglet `PERSON`, `ORG` ou `PLACE` suffit.
+Pour un seul objet, l'onglet `PERSON`, `ORG`, `PLACE` ou `IMAGE` suffit.
 
 ### Quand utiliser PLACE ?
 
 Utiliser `PLACE` lorsqu'il faut preparer un lieu documentaire : salle de
 concert, studio, club, pub, ecole, quartier, batiment, lieu de repetition, lieu
 photographique ou lieu historique.
+
+### Quand utiliser IMAGE ?
+
+Utiliser `IMAGE` lorsqu'il faut preparer une seance photographique, un cliche,
+une pochette, une affiche, un scan, une image de presse, une capture video, une
+image de concert, une image de lieu ou un document visuel d'archive.
 
 ### Quand utiliser SOURCE LONGUE ?
 
@@ -566,7 +675,7 @@ dossier documentaire.
 SOURCE LONGUE ne sert pas a ajouter directement une personne ou une organisation
 au registre.
 
-## 11. Bonnes pratiques
+## 12. Bonnes pratiques
 
 - Toujours verifier les sources `Sxx` avant de lancer une proposition.
 - Toujours lire les reserves.
@@ -576,5 +685,7 @@ au registre.
 - Ne jamais considerer un diagnostic comme une validation definitive.
 - Ne jamais deduire qu'une source candidate est canonique tant qu'elle n'a pas
   ete acceptee dans le registre.
+- Ne jamais considerer une attribution ou des droits image comme etablis sans
+  arbitrage humain explicite.
 - Utiliser le batch pour une campagne, pas pour masquer plusieurs propositions
   sans revue detaillee.
