@@ -88,6 +88,8 @@ class TestM2IntegrateSource(unittest.TestCase):
         self.assertEqual(result.decision, "non pre-validee")
         self.assertIn("source deja presente de facon certaine: S01 - Known Source (2001)", result.blockers)
         self.assertIn("Sxx existant: S01", result.information)
+        self.assertIn("dossier source probable: sources/known_author_known_source/", result.information)
+        self.assertEqual(result.candidate["dossier_source_probable"], "sources/known_author_known_source/")
 
     def test_near_source_is_reserve(self) -> None:
         with TemporaryDirectory() as tmp:
