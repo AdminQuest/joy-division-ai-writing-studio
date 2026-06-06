@@ -8,6 +8,7 @@ import json
 import sys
 from dataclasses import dataclass
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from typing import Callable, Sequence
 
 try:
@@ -38,6 +39,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 @dataclass(frozen=True)
 class BatchPaths:
     root: Path = REPO_ROOT
+    orgs_json_override: Path | None = None
 
     @property
     def output_dir(self) -> Path:
@@ -58,9 +60,12 @@ class BatchPaths:
         return m2_add_org.Paths(
             root=self.root,
             source_registry=self.root / "data" / "registre.json",
-            orgs_json=self.root / "registers" / "orgs" / "orgs.json",
-            schema_json=m2_add_org.REPO_ROOT / "schemas" / "organization_canonical.schema.json",
+            orgs_json=self.orgs_json_override or self.root / "registers" / "orgs" / "orgs.json",
+            schema_json=self.root / "schemas" / "organization_canonical.schema.json",
         )
+
+    def with_orgs_json(self, path: Path) -> BatchPaths:
+        return BatchPaths(root=self.root, orgs_json_override=path)
 
 
 @dataclass(frozen=True)
@@ -177,46 +182,66 @@ def run_campaign(
     paths = paths or BatchPaths()
     campaign = str(payload.get("campaign") or payload.get("name") or "campagne-m2")
     item_results: list[BatchItemResult] = []
+    base_org_records: list[dict] | None = None
+    reserved_org_records: list[dict] = []
 
-    for index, item in enumerate(payload.get("items", []), start=1):
-        if not isinstance(item, dict):
-            result = CheckResult(candidate={"raw": item})
-            result.blockers.append("item batch invalide: objet JSON attendu")
-            result.finalize()
-            item_results.append(BatchItemResult(index, "UNKNOWN", f"item-{index}", result))
-            continue
+    with TemporaryDirectory() as tmp:
+        orgs_json = Path(tmp) / "orgs.json"
+        for index, item in enumerate(payload.get("items", []), start=1):
+            if not isinstance(item, dict):
+                result = CheckResult(candidate={"raw": item})
+                result.blockers.append("item batch invalide: objet JSON attendu")
+                result.finalize()
+                item_results.append(BatchItemResult(index, "UNKNOWN", f"item-{index}", result))
+                continue
 
-        family_key = str(item.get("family", item.get("type", ""))).strip().lower()
-        adapter = ADAPTERS.get(family_key)
-        if adapter is None:
-            result = CheckResult(candidate=item)
-            result.blockers.append(f"famille batch inconnue: {family_key or 'absente'}")
-            result.finalize()
-            item_results.append(BatchItemResult(index, "UNKNOWN", str(item.get("name", f"item-{index}")), result))
-            continue
+            family_key = str(item.get("family", item.get("type", ""))).strip().lower()
+            adapter = ADAPTERS.get(family_key)
+            if adapter is None:
+                result = CheckResult(candidate=item)
+                result.blockers.append(f"famille batch inconnue: {family_key or 'absente'}")
+                result.finalize()
+                item_results.append(
+                    BatchItemResult(index, "UNKNOWN", str(item.get("name", f"item-{index}")), result)
+                )
+                continue
 
-        try:
-            result = adapter.evaluate(item, paths)
-        except KeyError as exc:
-            result = CheckResult(candidate=item)
-            result.blockers.append(f"item batch invalide: champ requis absent: {exc.args[0]}")
-            result.finalize()
+            adapter_paths = paths
+            if family_key == "org":
+                if base_org_records is None:
+                    base_org_records = m2_add_org.load_org_records(paths.org_paths.orgs_json)
+                orgs_json.write_text(
+                    json.dumps([*base_org_records, *reserved_org_records], sort_keys=True),
+                    encoding="utf-8",
+                )
+                adapter_paths = paths.with_orgs_json(orgs_json)
+
+            try:
+                result = adapter.evaluate(item, adapter_paths)
+            except KeyError as exc:
+                result = CheckResult(candidate=item)
+                result.blockers.append(f"item batch invalide: champ requis absent: {exc.args[0]}")
+                result.finalize()
+                item_results.append(
+                    BatchItemResult(index, adapter.family, str(item.get("name", f"item-{index}")), result)
+                )
+                continue
+
+            if family_key == "org" and result.candidate.get("org_id"):
+                reserved_org_records.append(result.candidate)
+
+            pr_summary_path: Path | None = None
+            if write_pr_summaries:
+                pr_summary_path = adapter.write_pr_summary(result, adapter_paths)
             item_results.append(
-                BatchItemResult(index, adapter.family, str(item.get("name", f"item-{index}")), result)
+                BatchItemResult(
+                    index=index,
+                    family=adapter.family,
+                    label=adapter.label(result),
+                    result=result,
+                    pr_summary_path=str(pr_summary_path.relative_to(paths.root)) if pr_summary_path else None,
+                )
             )
-            continue
-        pr_summary_path: Path | None = None
-        if write_pr_summaries:
-            pr_summary_path = adapter.write_pr_summary(result, paths)
-        item_results.append(
-            BatchItemResult(
-                index=index,
-                family=adapter.family,
-                label=adapter.label(result),
-                result=result,
-                pr_summary_path=str(pr_summary_path.relative_to(paths.root)) if pr_summary_path else None,
-            )
-        )
 
     batch = build_batch_result(campaign=campaign, items=item_results)
     report_path = write_batch_summary(batch, output_dir=paths.output_dir, filename=report_filename(campaign))

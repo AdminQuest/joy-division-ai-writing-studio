@@ -50,6 +50,10 @@ adaptateurs disponibles aujourd'hui :
 Cette separation prepare l'ajout de futures familles sans modifier le moteur de
 rendu batch.
 
+Pour les campagnes ORG, la CLI reserve les candidats deja diagnostiques pendant
+la campagne. Cela permet de proposer des identifiants successifs dans un meme
+lot, meme si le registre source reste en lecture seule.
+
 ## Format d'entree
 
 La CLI accepte un fichier JSON.
@@ -195,6 +199,10 @@ Effets :
 
 Le rapport consolide les decisions des deux familles sans que le moteur commun
 ait a connaitre leurs regles metier.
+
+Si plusieurs ORG sont presentes dans le meme lot, leurs identifiants provisoires
+sont reserves les uns apres les autres pour eviter une collision interne au
+rapport de campagne.
 
 ## Cas d'usage
 
