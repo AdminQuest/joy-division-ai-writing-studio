@@ -19,10 +19,26 @@ from pathlib import Path
 from typing import Sequence
 
 try:
-    from tools.m2_core import CheckResult, exit_code, is_near_text_match, normalize_text, render_list
+    from tools.m2_core import (
+        CheckResult,
+        build_pr_summary,
+        exit_code,
+        is_near_text_match,
+        normalize_text,
+        render_list,
+        write_pr_summary,
+    )
 except ImportError:  # execution directe: python3 tools/m2_integrate_source.py
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from m2_core import CheckResult, exit_code, is_near_text_match, normalize_text, render_list
+    from m2_core import (
+        CheckResult,
+        build_pr_summary,
+        exit_code,
+        is_near_text_match,
+        normalize_text,
+        render_list,
+        write_pr_summary,
+    )
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -366,6 +382,53 @@ def render_result(result: CheckResult) -> str:
     return "\n".join(lines) + "\n"
 
 
+def build_source_pr_summary(result: CheckResult):
+    candidate = result.candidate
+    metadata = candidate["metadata"]
+    if result.blockers:
+        arbitrations = ["Corriger les bloquants avant ouverture de PR."]
+    elif result.reserves:
+        arbitrations = ["Arbitrer les reserves de proximite ou de qualification avant integration."]
+    else:
+        arbitrations = ["Validation humaine finale avant integration documentaire."]
+    return build_pr_summary(
+        result,
+        subject=f"Integration source longue : {metadata['titre']}",
+        scope=[
+            "Flux M2 integration documentaire longue.",
+            f"Type documentaire : {candidate['type_documentaire']}.",
+            "Lecture seule : aucune source canonique ou dossier source cree par le prototype.",
+            "Metadonnees candidates produites pour revue humaine.",
+        ],
+        validations=[
+            "Pre-validation source longue executee localement.",
+            "Source candidate comparee a data/registre.json.",
+            "Doublons certains et proximites documentaires evalues.",
+            "Sxx existant ou probable et dossier source probable calcules.",
+        ],
+        human_arbitrations=arbitrations,
+        documentary_impact=[
+            "Preparation d'une integration documentaire potentielle.",
+            "Aucun Sxx attribue sans PR et validation humaine.",
+            "Aucun atome, citation ou relation cree par cette sortie.",
+        ],
+        verification_commands=[
+            "python3 tools/m2_integrate_source.py --help",
+            "python3 -m unittest tools.test_m2_integrate_source",
+        ],
+    )
+
+
+def write_source_pr_summary(result: CheckResult, paths: Paths) -> Path:
+    metadata = result.candidate["metadata"]
+    filename = f"pr_summary_source_{slugify_source(metadata['auteur'], metadata['titre'])}.md"
+    return write_pr_summary(
+        build_source_pr_summary(result),
+        output_dir=paths.root / "exports" / "generated",
+        filename=filename,
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Prepare localement un diagnostic d'integration de source longue sans modifier le depot.",
@@ -382,11 +445,17 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--publication", help="Publication, revue, fanzine ou support parent.")
     parser.add_argument("--pages-useful", help="Pages utiles ou pagination traitee.")
     parser.add_argument("--section-useful", help="Section, chapitre ou partie utile.")
+    parser.add_argument(
+        "--pr-summary",
+        action="store_true",
+        help="Ecrit un resume de PR M2 dans exports/generated sans ouvrir de PR GitHub.",
+    )
     return parser
 
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    paths = Paths()
     result = evaluate_source_integration(
         title=args.title,
         author=args.author,
@@ -398,8 +467,12 @@ def main(argv: Sequence[str] | None = None) -> int:
         publication=args.publication,
         pages_useful=args.pages_useful,
         section_useful=args.section_useful,
+        paths=paths,
     )
     sys.stdout.write(render_result(result))
+    if args.pr_summary:
+        path = write_source_pr_summary(result, paths)
+        sys.stdout.write(f"Resume PR genere : {path.relative_to(paths.root)}\n")
     return exit_code(result)
 
 

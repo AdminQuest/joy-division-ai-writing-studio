@@ -19,6 +19,7 @@ try:
     from tools.m2_core import (
         CheckResult,
         add_source_diagnostics,
+        build_pr_summary,
         exit_code,
         format_values,
         is_near_text_match,
@@ -27,12 +28,14 @@ try:
         render_result as render_m2_result,
         split_csv,
         unique_preserving_order,
+        write_pr_summary,
     )
 except ImportError:  # execution directe: python3 tools/m2_add_org.py
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from m2_core import (
         CheckResult,
         add_source_diagnostics,
+        build_pr_summary,
         exit_code,
         format_values,
         is_near_text_match,
@@ -41,6 +44,7 @@ except ImportError:  # execution directe: python3 tools/m2_add_org.py
         render_result as render_m2_result,
         split_csv,
         unique_preserving_order,
+        write_pr_summary,
     )
 
 
@@ -414,6 +418,52 @@ def render_result(result: CheckResult) -> str:
     )
 
 
+def build_org_pr_summary(result: CheckResult):
+    candidate = result.candidate
+    if result.blockers:
+        arbitrations = ["Corriger les bloquants avant ouverture de PR."]
+    elif result.reserves:
+        arbitrations = ["Arbitrer les reserves ORG avant integration."]
+    else:
+        arbitrations = ["Validation humaine finale avant integration."]
+    return build_pr_summary(
+        result,
+        subject=f"Ajout ORG : {candidate['canonical_name']} ({candidate['org_id']})",
+        scope=[
+            "Flux M2 ajout unitaire.",
+            "Famille documentaire : ORG.",
+            "Lecture seule : aucune modification du registre ORG effectuee par le prototype.",
+            "Entree candidate JSON produite pour revue humaine.",
+        ],
+        validations=[
+            "Pre-validation ORG executee localement.",
+            "Sources Sxx verifiees contre data/registre.json.",
+            "Schema ORG evalue sur l'entree candidate.",
+            "Collisions nom, alias, identifiant et Wikidata evaluees.",
+        ],
+        human_arbitrations=arbitrations,
+        documentary_impact=[
+            "Proposition d'organisation canonique ORG.",
+            "Aucun ajout effectif tant que la PR n'est pas relue et validee.",
+        ],
+        verification_commands=[
+            "python3 tools/m2_add_org.py --help",
+            "python3 -m unittest tools.test_m2_add_org",
+            "python3 tools/validate_orgs.py",
+        ],
+    )
+
+
+def write_org_pr_summary(result: CheckResult, paths: Paths) -> Path:
+    name_slug = normalize_text(result.candidate["canonical_name"]).replace(" ", "-")
+    filename = f"pr_summary_org_{result.candidate['org_id'].lower()}_{name_slug}.md"
+    return write_pr_summary(
+        build_org_pr_summary(result),
+        output_dir=paths.root / "exports" / "generated",
+        filename=filename,
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Prepare localement une proposition d'ajout ORG sans modifier le depot.",
@@ -451,11 +501,17 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--musicbrainz", help="UUID MusicBrainz verifie.")
     parser.add_argument("--provenance-from-pers", help="Identifiant PERS-* d'origine si hand-off documente.")
     parser.add_argument("--provenance-from-attribution", action="store_true", help="Marque provenance.from_attribution=true.")
+    parser.add_argument(
+        "--pr-summary",
+        action="store_true",
+        help="Ecrit un resume de PR M2 dans exports/generated sans ouvrir de PR GitHub.",
+    )
     return parser
 
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    paths = Paths()
     result = evaluate_org_addition(
         name=args.name,
         category=args.category,
@@ -477,8 +533,12 @@ def main(argv: Sequence[str] | None = None) -> int:
         musicbrainz=args.musicbrainz,
         provenance_from_pers=args.provenance_from_pers,
         provenance_from_attribution=args.provenance_from_attribution,
+        paths=paths,
     )
     sys.stdout.write(render_result(result))
+    if args.pr_summary:
+        path = write_org_pr_summary(result, paths)
+        sys.stdout.write(f"Resume PR genere : {path.relative_to(paths.root)}\n")
     return exit_code(result)
 
 
