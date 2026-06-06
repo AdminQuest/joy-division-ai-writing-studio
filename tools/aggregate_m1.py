@@ -48,6 +48,7 @@ class KnownAudit:
 KNOWN_CONTROLS = [
     KnownControl("DM -> atomes", REPORT_DIR / "dm_atoms_traceability.md"),
     KnownControl("DM -> registres", REPORT_DIR / "dm_registers_consistency.md"),
+    KnownControl("DM -> sources", REPORT_DIR / "dm_sources_consistency.md"),
 ]
 
 REQUIRED_ATOMS_INDICATORS = [
@@ -77,6 +78,20 @@ REQUIRED_REGISTERS_INDICATORS = [
     "Manifestes incohérents",
 ]
 
+REQUIRED_SOURCES_INDICATORS = [
+    "Documents maîtres déclarés",
+    "Documents maîtres présents",
+    "Documents maîtres cohérents",
+    "Documents maîtres non cohérents",
+    "Sources visibles",
+    "Sources retrouvées",
+    "Sources inconnues",
+    "Sources mentionnées mais non déclarées",
+    "Sources orphelines",
+    "Écarts détectés",
+    "Manifestes incohérents",
+]
+
 KNOWN_AUDITS = [
     KnownAudit(
         label="Atomes S35 source vide",
@@ -93,7 +108,6 @@ KNOWN_AUDITS = [
 ]
 
 DOCUMENTARY_DEBT = [
-    "DM -> sources",
     "DM -> exports",
     "DM -> génération",
     "DM -> obsolescence",
@@ -302,6 +316,53 @@ def status_for_registers(report_path: Path, summary: dict[str, str]) -> ControlS
     return ControlStatus("DM -> registres", report_path, "conforme", "✓", observations, summary)
 
 
+def status_for_sources(report_path: Path, summary: dict[str, str]) -> ControlStatus:
+    invalid_status = validate_required_indicators(
+        "DM -> sources",
+        report_path,
+        summary,
+        REQUIRED_SOURCES_INDICATORS,
+    )
+    if invalid_status is not None:
+        return invalid_status
+
+    visibles = int_value(summary, "Sources visibles")
+    retrouvees = int_value(summary, "Sources retrouvées")
+    unknown = int_value(summary, "Sources inconnues")
+    undeclared = int_value(summary, "Sources mentionnées mais non déclarées")
+    orphans = int_value(summary, "Sources orphelines")
+    non_coherents = int_value(summary, "Documents maîtres non cohérents")
+    ecarts = int_value(summary, "Écarts détectés")
+    manifest = int_value(summary, "Manifestes incohérents")
+    assert visibles is not None
+    assert retrouvees is not None
+    assert unknown is not None
+    assert undeclared is not None
+    assert orphans is not None
+    assert non_coherents is not None
+    assert ecarts is not None
+    assert manifest is not None
+
+    observations = [
+        f"{retrouvees}/{visibles} sources visibles retrouvées.",
+        f"{unknown} source inconnue.",
+        f"{orphans} source orpheline informative.",
+        f"{ecarts} écart(s) détecté(s).",
+    ]
+    if unknown == 0 and undeclared == 0 and ecarts == 0 and non_coherents == 0 and manifest == 0 and visibles == retrouvees:
+        return ControlStatus("DM -> sources", report_path, "conforme", "✓", observations, summary)
+    return ControlStatus(
+        "DM -> sources",
+        report_path,
+        "non conforme",
+        "✗",
+        observations + [
+            "Le rapport source signale une source inconnue, un écart bloquant ou une volumétrie visible/retrouvée incohérente.",
+        ],
+        summary,
+    )
+
+
 def read_control_status(control: KnownControl) -> ControlStatus:
     if not control.report_path.exists():
         return ControlStatus(
@@ -318,6 +379,8 @@ def read_control_status(control: KnownControl) -> ControlStatus:
         return status_for_atoms(control.report_path, summary)
     if control.name == "DM -> registres":
         return status_for_registers(control.report_path, summary)
+    if control.name == "DM -> sources":
+        return status_for_sources(control.report_path, summary)
     return ControlStatus(control.name, control.report_path, "inconnu", "?", ["Contrôle non classé."], summary)
 
 
@@ -422,7 +485,7 @@ def render_report(statuses: list[ControlStatus]) -> str:
         "| M0 | ✓ terminé |",
         "| M1.1 | ✓ contrôles fondamentaux |",
         "| M1.2 | ✓ agrégation minimale |",
-        "| M1.3 | non démarré |",
+        "| M1.3 | ✓ contrôle DM -> sources |",
         "| M2 | non ouvert |",
         "",
         "## Limites",
