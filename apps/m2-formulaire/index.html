@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
+  <title>Formulaire M2 - Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="m2-form-app">
+    <header class="m2-hero">
+      <div class="m2-hero__inner">
+        <a class="m2-hero__back" href="../../">Retour au portail</a>
+        <h1>Formulaire M2</h1>
+        <p class="m2-hero__subtitle">Saisie locale pour preparer les commandes et JSON des flux M2.</p>
+      </div>
+    </header>
+
+    <main class="m2-layout">
+      <nav class="m2-tabs" aria-label="Flux M2">
+        <button class="m2-tab is-active" type="button" data-tab="person">PERSON</button>
+        <button class="m2-tab" type="button" data-tab="org">ORG</button>
+        <button class="m2-tab" type="button" data-tab="source">SOURCE LONGUE</button>
+        <button class="m2-tab" type="button" data-tab="batch">BATCH</button>
+      </nav>
+
+      <section class="m2-workspace" id="panel-person" data-panel="person">
+        <form class="m2-form" id="person-form">
+          <div class="m2-field">
+            <label for="person-name">name</label>
+            <input id="person-name" name="name" type="text" placeholder="Prototype Person" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="person-category">category</label>
+            <input id="person-category" name="category" type="text" placeholder="industrie" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="person-roles">roles</label>
+            <input id="person-roles" name="roles" type="text" placeholder="producteur, ingenieur" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="person-sources">sources</label>
+            <input id="person-sources" name="sources" type="text" placeholder="S41,S74" autocomplete="off">
+          </div>
+          <div class="m2-field m2-field--wide">
+            <label for="person-note">notes</label>
+            <textarea id="person-note" name="note" rows="4" placeholder="Prudence, contexte ou arbitrage attendu"></textarea>
+          </div>
+          <div class="m2-actions">
+            <button class="m2-btn m2-btn--primary" type="button" data-action="person-command">Generer commande</button>
+            <button class="m2-btn" type="button" data-action="person-batch">Ajouter au batch</button>
+          </div>
+        </form>
+        <section class="m2-output" aria-label="Sortie PERSON">
+          <div class="m2-output__header">
+            <h2>Commande PERSON</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="person-output">Copier</button>
+          </div>
+          <pre id="person-output"></pre>
+        </section>
+      </section>
+
+      <section class="m2-workspace" id="panel-org" data-panel="org" hidden>
+        <form class="m2-form" id="org-form">
+          <div class="m2-field">
+            <label for="org-name">name</label>
+            <input id="org-name" name="name" type="text" placeholder="Prototype Organisation" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="org-category">category</label>
+            <input id="org-category" name="category" type="text" placeholder="label" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="org-country">country</label>
+            <input id="org-country" name="country" type="text" placeholder="GB" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="org-jd-relation">jd_relation</label>
+            <input id="org-jd-relation" name="jd_relation" type="text" placeholder="label_mate" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="org-sources">sources</label>
+            <input id="org-sources" name="sources" type="text" placeholder="S41,S74" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="org-last-verified">last_verified</label>
+            <input id="org-last-verified" name="last_verified" type="text" placeholder="2026-06-06" autocomplete="off">
+          </div>
+          <div class="m2-field m2-field--wide">
+            <label for="org-note">notes</label>
+            <textarea id="org-note" name="note" rows="4" placeholder="Relation documentee, prudence ou arbitrage attendu"></textarea>
+          </div>
+          <div class="m2-actions">
+            <button class="m2-btn m2-btn--primary" type="button" data-action="org-command">Generer commande</button>
+            <button class="m2-btn" type="button" data-action="org-batch">Ajouter au batch</button>
+          </div>
+        </form>
+        <section class="m2-output" aria-label="Sortie ORG">
+          <div class="m2-output__header">
+            <h2>Commande ORG</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="org-output">Copier</button>
+          </div>
+          <pre id="org-output"></pre>
+        </section>
+      </section>
+
+      <section class="m2-workspace" id="panel-source" data-panel="source" hidden>
+        <form class="m2-form" id="source-form">
+          <div class="m2-field">
+            <label for="source-title">title</label>
+            <input id="source-title" name="title" type="text" placeholder="Prototype Long Source" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="source-author">author</label>
+            <input id="source-author" name="author" type="text" placeholder="Prototype Author" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="source-type">type</label>
+            <input id="source-type" name="type" type="text" placeholder="livre" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="source-year">year</label>
+            <input id="source-year" name="year" type="text" placeholder="2026" autocomplete="off">
+          </div>
+          <div class="m2-field m2-field--wide">
+            <label for="source-reference">reference</label>
+            <textarea id="source-reference" name="reference" rows="4" placeholder="Prototype Author, Prototype Long Source, Test Press, 2026."></textarea>
+          </div>
+          <div class="m2-field m2-field--wide">
+            <label for="source-note">notes</label>
+            <textarea id="source-note" name="note" rows="4" placeholder="Edition, pages utiles ou contexte d'integration"></textarea>
+          </div>
+          <div class="m2-actions">
+            <button class="m2-btn m2-btn--primary" type="button" data-action="source-command">Generer commande</button>
+          </div>
+        </form>
+        <section class="m2-output" aria-label="Sortie SOURCE LONGUE">
+          <div class="m2-output__header">
+            <h2>Commande SOURCE LONGUE</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="source-output">Copier</button>
+          </div>
+          <pre id="source-output"></pre>
+        </section>
+      </section>
+
+      <section class="m2-workspace" id="panel-batch" data-panel="batch" hidden>
+        <form class="m2-form m2-form--batch" id="batch-form">
+          <div class="m2-field">
+            <label for="batch-campaign">campaign</label>
+            <input id="batch-campaign" name="campaign" type="text" placeholder="campagne-m2" autocomplete="off">
+          </div>
+          <div class="m2-actions">
+            <button class="m2-btn" type="button" data-action="clear-batch">Vider le batch</button>
+          </div>
+        </form>
+        <div class="m2-batch-list" id="batch-list" aria-live="polite"></div>
+        <section class="m2-output" aria-label="Sortie BATCH">
+          <div class="m2-output__header">
+            <h2>JSON batch</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="batch-json-output">Copier</button>
+          </div>
+          <pre id="batch-json-output"></pre>
+        </section>
+        <section class="m2-output" aria-label="Commande BATCH">
+          <div class="m2-output__header">
+            <h2>Commande batch</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="batch-command-output">Copier</button>
+          </div>
+          <pre id="batch-command-output"></pre>
+        </section>
+      </section>
+
+      <p class="m2-status" id="m2-status" aria-live="polite"></p>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
