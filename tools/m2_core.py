@@ -52,6 +52,49 @@ class PRSummary:
     verification_commands: list[str]
 
 
+@dataclass(frozen=True)
+class BatchItemResult:
+    index: int
+    family: str
+    label: str
+    result: CheckResult
+    pr_summary_path: str | None = None
+
+    @property
+    def decision(self) -> str:
+        return self.result.decision
+
+
+@dataclass(frozen=True)
+class BatchResult:
+    campaign: str
+    items: list[BatchItemResult]
+
+    @property
+    def object_count(self) -> int:
+        return len(self.items)
+
+    @property
+    def prevalidated_count(self) -> int:
+        return sum(1 for item in self.items if item.decision == "pre-validee")
+
+    @property
+    def prevalidated_with_reserve_count(self) -> int:
+        return sum(1 for item in self.items if item.decision == "pre-validee avec reserve")
+
+    @property
+    def refused_count(self) -> int:
+        return sum(1 for item in self.items if item.decision == "non pre-validee")
+
+    @property
+    def reserve_count(self) -> int:
+        return sum(len(item.result.reserves) for item in self.items)
+
+    @property
+    def blocker_count(self) -> int:
+        return sum(len(item.result.blockers) for item in self.items)
+
+
 def normalize_text(value: str) -> str:
     value = unicodedata.normalize("NFD", value or "")
     value = value.encode("ascii", "ignore").decode().lower()
@@ -223,6 +266,101 @@ def write_pr_summary(summary: PRSummary, *, output_dir: Path, filename: str) -> 
     output_dir.mkdir(parents=True, exist_ok=True)
     path = output_dir / filename
     path.write_text(render_pr_summary(summary), encoding="utf-8")
+    return path
+
+
+def build_batch_result(*, campaign: str, items: Sequence[BatchItemResult]) -> BatchResult:
+    return BatchResult(
+        campaign=campaign.strip() or "campagne-m2",
+        items=list(items),
+    )
+
+
+def render_batch_object_line(item: BatchItemResult) -> str:
+    parts = [
+        f"{item.index}. {item.family} - {item.label}",
+        f"decision: {item.decision}",
+        f"reserves: {len(item.result.reserves)}",
+        f"bloquants: {len(item.result.blockers)}",
+    ]
+    if item.pr_summary_path:
+        parts.append(f"resume PR: `{item.pr_summary_path}`")
+    return "- " + " | ".join(parts)
+
+
+def collect_batch_reserves(batch: BatchResult) -> list[str]:
+    lines: list[str] = []
+    for item in batch.items:
+        for reserve in item.result.reserves:
+            lines.append(f"{item.family} - {item.label}: {reserve}")
+    return lines
+
+
+def collect_batch_blockers(batch: BatchResult) -> list[str]:
+    lines: list[str] = []
+    for item in batch.items:
+        for blocker in item.result.blockers:
+            lines.append(f"{item.family} - {item.label}: {blocker}")
+    return lines
+
+
+def build_batch_human_arbitrations(batch: BatchResult) -> list[str]:
+    if not batch.items:
+        return ["Aucun objet a arbitrer dans cette campagne."]
+    arbitrations: list[str] = []
+    if batch.refused_count:
+        arbitrations.append(f"Corriger les bloquants de {batch.refused_count} objet(s) non pre-valide(s).")
+    if batch.reserve_count:
+        arbitrations.append(f"Arbitrer {batch.reserve_count} reserve(s) avant integration documentaire.")
+    if batch.prevalidated_count or batch.prevalidated_with_reserve_count:
+        arbitrations.append("Valider humainement les objets pre-valides avant integration.")
+    return arbitrations
+
+
+def render_batch_summary(batch: BatchResult) -> str:
+    lines = [
+        "# Rapport de campagne M2",
+        "",
+        "## Synthese",
+        "",
+        f"Campagne : {batch.campaign}",
+        "",
+        "Ce rapport consolide les diagnostics M2 d'une campagne documentaire.",
+        "Il ne modifie aucun registre et ne remplace pas la revue humaine.",
+        "",
+        "## Statistiques",
+        "",
+        f"- objets: {batch.object_count}",
+        f"- pre-validations: {batch.prevalidated_count}",
+        f"- pre-validations avec reserve: {batch.prevalidated_with_reserve_count}",
+        f"- refus: {batch.refused_count}",
+        f"- reserves: {batch.reserve_count}",
+        f"- bloquants: {batch.blocker_count}",
+        "",
+        "## Liste des objets",
+        "",
+        *([render_batch_object_line(item) for item in batch.items] or ["- aucun"]),
+        "",
+        "## Reserves",
+        "",
+        *render_list(collect_batch_reserves(batch)),
+        "",
+        "## Bloquants",
+        "",
+        *render_list(collect_batch_blockers(batch)),
+        "",
+        "## Arbitrages humains",
+        "",
+        *render_list(build_batch_human_arbitrations(batch)),
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def write_batch_summary(batch: BatchResult, *, output_dir: Path, filename: str) -> Path:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    path = output_dir / filename
+    path.write_text(render_batch_summary(batch), encoding="utf-8")
     return path
 
 
