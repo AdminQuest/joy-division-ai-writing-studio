@@ -45,6 +45,8 @@ Parametres facultatifs :
 | `--category-arbitration` | Produit `categorie_a_arbitrer: true`. |
 | `--identity-arbitration` | Produit `a_arbitrer: true`. |
 
+Lorsque `--origin auteur_source` est utilise, `--same-as` doit rester absent. Le pipeline d'attribution attend un auteur-source avec `same_as: []`.
+
 Categories valides :
 
 - `membre`

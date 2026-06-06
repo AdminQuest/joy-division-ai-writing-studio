@@ -108,6 +108,14 @@ a_arbitrer: false
         self.assertEqual(result.decision, "non pre-validee")
         self.assertIn("identifiant deja utilise: PERSON-test-person", result.blockers)
 
+    def test_author_source_rejects_same_as(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_repo(Path(tmp))
+            result = run_case(paths, origin="auteur_source", same_as=["PERS-S01-001"])
+
+        self.assertEqual(result.decision, "non pre-validee")
+        self.assertIn("auteur_source exige same_as vide", result.blockers)
+
     def test_output_is_deterministic(self) -> None:
         with TemporaryDirectory() as tmp:
             paths = write_minimal_repo(Path(tmp))

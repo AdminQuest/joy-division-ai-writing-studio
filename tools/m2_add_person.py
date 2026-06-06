@@ -316,6 +316,9 @@ def evaluate_person_addition(
         elif base in same_as_index:
             result.blockers.append(f"same_as deja rattache: {base} -> {same_as_index[base]}")
 
+    if origin == "auteur_source" and same_as:
+        result.blockers.append("auteur_source exige same_as vide")
+
     for diagnostic in _validate_candidate_shape(candidate):
         result.blockers.append(f"schema invalide: {diagnostic}")
 
