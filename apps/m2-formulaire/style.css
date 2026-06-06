@@ -117,6 +117,10 @@ textarea {
   gap: 18px;
 }
 
+.m2-workspace[hidden] {
+  display: none;
+}
+
 @media (min-width: 980px) {
   .m2-workspace {
     grid-template-columns: minmax(360px, .9fr) minmax(0, 1.1fr);
