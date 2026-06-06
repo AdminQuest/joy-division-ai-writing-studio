@@ -170,9 +170,11 @@ def build_candidate(
     if existing_source:
         source_status = "source deja presente"
         source_id = str(existing_source.get("id", ""))
+        dossier_source = str(existing_source.get("dossier_source") or f"sources/{dossier_slug}/")
     else:
         source_status = "nouvelle source probable"
         source_id = f"{probable_source_id} (probable, non attribue)"
+        dossier_source = f"sources/{dossier_slug}/"
 
     metadata = {
         "titre": title.strip(),
@@ -195,10 +197,10 @@ def build_candidate(
         "type_documentaire": source_type,
         "source_probable": source_status,
         "sxx": source_id,
-        "dossier_source_probable": f"sources/{dossier_slug}/",
+        "dossier_source_probable": dossier_source,
         "fichiers_potentiellement_concernes": [
             "data/registre.json",
-            f"sources/{dossier_slug}/",
+            dossier_source,
         ],
         "metadata": metadata,
     }
@@ -277,7 +279,7 @@ def evaluate_source_integration(
         result.information.append(f"Sxx existant: {existing_source.get('id')}")
     else:
         result.information.append(f"nouveau Sxx probablement requis: {probable_source_id}")
-    result.information.append(f"dossier source probable: sources/{dossier_slug}/")
+    result.information.append(f"dossier source probable: {candidate['dossier_source_probable']}")
     result.information.append("lecture seule: aucun fichier cree ou modifie")
 
     result.finalize()
