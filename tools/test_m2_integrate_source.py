@@ -103,6 +103,16 @@ class TestM2IntegrateSource(unittest.TestCase):
             result.blockers,
         )
 
+    def test_blank_url_does_not_match_first_registry_entry(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_registry(Path(tmp))
+            result = run_case(paths, url="   ")
+
+        self.assertEqual(result.decision, "pre-validee")
+        self.assertEqual(result.blockers, [])
+        self.assertIn("nouveau Sxx probablement requis: S03", result.information)
+        self.assertNotIn("url", result.candidate["metadata"])
+
     def test_output_is_deterministic(self) -> None:
         with TemporaryDirectory() as tmp:
             paths = write_minimal_registry(Path(tmp))

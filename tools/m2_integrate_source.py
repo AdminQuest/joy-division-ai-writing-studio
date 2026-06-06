@@ -99,15 +99,16 @@ def short_source(rec: dict) -> str:
 
 
 def find_existing_source(records: Sequence[dict], *, title: str, author: str, year: str, reference: str, url: str | None) -> dict | None:
+    clean_url = (url or "").strip()
     for rec in records:
         title_equal = same_text(rec.get("titre"), title)
         author_equal = same_author(rec.get("auteur"), author)
         year_equal = same_text(rec.get("annee"), year)
         reference_equal = bool(reference.strip()) and same_text(rec.get("reference_complete"), reference)
-        url_equal = bool(url) and (
-            same_text(rec.get("source_url"), url or "")
-            or same_text(rec.get("source_drive"), url or "")
-            or (url or "").strip() in str(rec.get("reference_complete") or "")
+        url_equal = bool(clean_url) and (
+            same_text(rec.get("source_url"), clean_url)
+            or same_text(rec.get("source_drive"), clean_url)
+            or clean_url in str(rec.get("reference_complete") or "")
         )
         if (title_equal and author_equal and year_equal) or reference_equal or url_equal:
             return rec
@@ -182,7 +183,7 @@ def build_candidate(
         "section_utile": section_useful,
     }
     for key, value in optional.items():
-        if value:
+        if value and value.strip():
             metadata[key] = value.strip()
 
     return {
