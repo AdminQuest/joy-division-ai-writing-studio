@@ -26,6 +26,9 @@ La page fonctionne localement dans un navigateur avec :
 apps/m2-formulaire/index.html
 ```
 
+La page affiche un bloc `Mode d'emploi` qui resume le workflow, les usages
+PERSON / ORG / PLACE / SOURCE LONGUE / BATCH et les limites du formulaire.
+
 Le portail racine expose aussi un lien vers l'application dans l'onglet
 `Outils du livre`.
 

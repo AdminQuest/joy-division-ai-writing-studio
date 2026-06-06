@@ -34,6 +34,9 @@ Le studio prepare. L'humain valide.
 Le formulaire est donc une aide a la saisie. Les diagnostics sont produits
 ensuite par les outils M2 en ligne de commande.
 
+Dans l'interface `apps/m2-formulaire/index.html`, le bloc `Mode d'emploi`
+resume ce parcours et renvoie vers ce tutoriel complet.
+
 ## 2. Vue generale du workflow
 
 Le workflow habituel est :
@@ -55,14 +58,15 @@ Validation humaine
 Etapes :
 
 1. Ouvrir le formulaire dans `apps/m2-formulaire/`.
-2. Choisir l'onglet correspondant au besoin : `PERSON`, `ORG`, `PLACE`,
+2. Lire le bloc `Mode d'emploi` si le parcours n'est pas encore familier.
+3. Choisir l'onglet correspondant au besoin : `PERSON`, `ORG`, `PLACE`,
    `SOURCE LONGUE` ou `BATCH`.
-3. Remplir les champs utiles.
-4. Copier la commande ou le JSON genere.
-5. Executer la commande dans le depot.
-6. Lire le diagnostic.
-7. Lire le resume PR genere dans `exports/generated/`.
-8. Soumettre la proposition a revue humaine.
+4. Remplir les champs utiles.
+5. Copier la commande ou le JSON genere.
+6. Executer la commande dans le depot.
+7. Lire le diagnostic.
+8. Lire le resume PR genere dans `exports/generated/`.
+9. Soumettre la proposition a revue humaine.
 
 Le formulaire s'arrete a l'etape de preparation. La CLI M2 produit le diagnostic
 et le resume. L'humain decide ensuite.
