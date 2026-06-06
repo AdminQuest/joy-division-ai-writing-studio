@@ -162,6 +162,22 @@ Elements prepares :
 - liste des controles a executer ;
 - reserves et arbitrages humains.
 
+### Cible d'ecriture
+
+Le prototype doit toujours expliciter la cible d'ecriture avant de proposer un diff.
+
+Cas acceptables :
+
+- si la personne provient d'un `PERS-*` existant, la cible normale est la couche source/provisoire `registers/people/*.md`, puis la regeneration controlee des artefacts ;
+- si la personne est un auteur-source, le prototype doit verifier `registers/people/00_authors_canonical.md` et passer par le pipeline d'attribution existant, sans edition manuelle de ce registre genere ;
+- si `same_as: []` est necessaire, le cas doit etre explicitement justifie : auteur-source, eclatement documente ou autre cas deja supporte par le pipeline maintenu.
+
+Cas a refuser ou reclasser :
+
+- aucune cible d'ecriture maintenue n'est identifiable ;
+- l'ajout exige de modifier directement `00_canonical_people.md` ou `00_authors_canonical.md` ;
+- l'ajout exige une modification de generateur, schema ou validateur hors du perimetre du prototype documentaire.
+
 Exemple logique d'entree candidate :
 
 ```yaml
@@ -197,6 +213,7 @@ Un futur assistant sans interface graphique doit produire :
 - une branche dediee ;
 - une modification proposee limitee a l'ajout `PERSON` ;
 - l'entree candidate ;
+- la cible d'ecriture retenue ou le refus si aucune cible maintenue n'existe ;
 - le diff lisible ;
 - le resultat de `python3 tools/validate_people.py` ;
 - le resultat de `python3 tools/validate_people.py --check-drift` si le registre canonique genere est affecte ;
