@@ -14,6 +14,7 @@ L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun cont
 | --- | --- | --- | --- |
 | ✓ DM -> atomes | conforme | `reports/m1/dm_atoms_traceability.md` | 2477/2477 atomes visibles retrouvés.<br>0 écart détecté dans le rapport agrégé. |
 | ⚠ DM -> registres | conforme avec réserve | `reports/m1/dm_registers_consistency.md` | 80 écart(s) détecté(s).<br>0 document(s) non cohérent(s).<br>0 identifiant introuvable.<br>29 libellé divergent.<br>51 famille non couverte.<br>Les écarts restants relèvent des libellés divergents ou des familles hors MVP. |
+| ✓ DM -> sources | conforme | `reports/m1/dm_sources_consistency.md` | 536/536 sources visibles retrouvées.<br>0 source inconnue.<br>19 source orpheline informative.<br>0 écart(s) détecté(s). |
 
 ### Audits M1
 
@@ -26,7 +27,6 @@ L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun cont
 
 | Chantier | Statut |
 | --- | --- |
-| DM -> sources | non implémenté |
 | DM -> exports | non implémenté |
 | DM -> génération | non implémenté |
 | DM -> obsolescence | non implémenté |
@@ -39,7 +39,7 @@ L'agrégateur lit uniquement les rapports M1 existants. Il ne relance aucun cont
 | M0 | ✓ terminé |
 | M1.1 | ✓ contrôles fondamentaux |
 | M1.2 | ✓ agrégation minimale |
-| M1.3 | non démarré |
+| M1.3 | ✓ contrôle DM -> sources |
 | M2 | non ouvert |
 
 ## Limites
