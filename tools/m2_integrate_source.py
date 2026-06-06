@@ -106,7 +106,8 @@ def find_existing_source(records: Sequence[dict], *, title: str, author: str, ye
         year_equal = same_text(rec.get("annee"), year)
         reference_equal = bool(reference.strip()) and same_text(rec.get("reference_complete"), reference)
         url_equal = bool(clean_url) and (
-            same_text(rec.get("source_url"), clean_url)
+            same_text(rec.get("url"), clean_url)
+            or same_text(rec.get("source_url"), clean_url)
             or same_text(rec.get("source_drive"), clean_url)
             or clean_url in str(rec.get("reference_complete") or "")
         )

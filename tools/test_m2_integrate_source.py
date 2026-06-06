@@ -29,6 +29,14 @@ def write_minimal_registry(root: Path) -> m2_integrate_source.Paths:
             "annee": "2019",
             "reference_complete": "Near Author, Near Source, First Edition, 2019.",
         },
+        {
+            "id": "S03",
+            "auteur": "URL Author",
+            "titre": "URL Source",
+            "annee": "2020",
+            "reference_complete": "URL Author, URL Source, Web Archive, 2020.",
+            "url": "https://example.test/source",
+        },
     ]
     (root / "data" / "registre.json").write_text(json.dumps(payload, sort_keys=True), encoding="utf-8")
     return m2_integrate_source.Paths(root=root, source_registry=root / "data" / "registre.json")
@@ -56,7 +64,7 @@ class TestM2IntegrateSource(unittest.TestCase):
         self.assertEqual(result.decision, "pre-validee")
         self.assertEqual(result.blockers, [])
         self.assertEqual(result.reserves, [])
-        self.assertIn("nouveau Sxx probablement requis: S03", result.information)
+        self.assertIn("nouveau Sxx probablement requis: S04", result.information)
         self.assertEqual(result.candidate["dossier_source_probable"], "sources/new_author_new_source/")
 
     def test_existing_source_is_blocking(self) -> None:
@@ -110,8 +118,24 @@ class TestM2IntegrateSource(unittest.TestCase):
 
         self.assertEqual(result.decision, "pre-validee")
         self.assertEqual(result.blockers, [])
-        self.assertIn("nouveau Sxx probablement requis: S03", result.information)
+        self.assertIn("nouveau Sxx probablement requis: S04", result.information)
         self.assertNotIn("url", result.candidate["metadata"])
+
+    def test_canonical_url_field_is_blocking_duplicate(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_minimal_registry(Path(tmp))
+            result = run_case(
+                paths,
+                title="Different Title",
+                author="Different Author",
+                year="2026",
+                reference="Different Author, Different Title, Test Press, 2026.",
+                url="https://example.test/source",
+            )
+
+        self.assertEqual(result.decision, "non pre-validee")
+        self.assertIn("source deja presente de facon certaine: S03 - URL Source (2020)", result.blockers)
+        self.assertIn("Sxx existant: S03", result.information)
 
     def test_output_is_deterministic(self) -> None:
         with TemporaryDirectory() as tmp:
