@@ -66,6 +66,7 @@ Resultat observe :
 | decision | `non pre-validee` |
 | bloquant | `source deja presente de facon certaine: S90 - Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures (2014)` |
 | Sxx existant | `S90` |
+| dossier source probable | `sources/fisher_ghosts_of_my_life/` |
 | reserves | aucune |
 
 Lecture :
