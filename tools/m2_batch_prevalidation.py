@@ -12,7 +12,7 @@ from tempfile import TemporaryDirectory
 from typing import Callable, Sequence
 
 try:
-    from tools import m2_add_org, m2_add_person
+    from tools import m2_add_org, m2_add_person, m2_add_place
     from tools.m2_core import (
         BatchItemResult,
         CheckResult,
@@ -26,6 +26,7 @@ except ImportError:  # execution directe: python3 tools/m2_batch_prevalidation.p
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     import m2_add_org
     import m2_add_person
+    import m2_add_place
     from m2_core import (
         BatchItemResult,
         CheckResult,
@@ -66,6 +67,15 @@ class BatchPaths:
             source_registry=self.root / "data" / "registre.json",
             orgs_json=self.orgs_json_override or self.root / "registers" / "orgs" / "orgs.json",
             schema_json=self.root / "schemas" / "organization_canonical.schema.json",
+        )
+
+    @property
+    def place_paths(self) -> m2_add_place.Paths:
+        return m2_add_place.Paths(
+            root=self.root,
+            source_registry=self.root / "data" / "registre.json",
+            places_root=self.root / "registers" / "places",
+            schema_yaml=self.root / "schemas" / "places.schema.yaml",
         )
 
     def with_orgs_json(self, path: Path) -> BatchPaths:
@@ -139,6 +149,19 @@ def evaluate_org_item(item: dict, paths: BatchPaths) -> CheckResult:
     )
 
 
+def evaluate_place_item(item: dict, paths: BatchPaths) -> CheckResult:
+    return m2_add_place.evaluate_place_addition(
+        label=str(item["label"]),
+        place_type=str(item["type"]),
+        sources=as_list(item.get("sources")),
+        aliases=as_list(item.get("aliases")),
+        type_detail=item.get("type_detail"),
+        usage=item.get("usage"),
+        prudence=item.get("prudence"),
+        paths=paths.place_paths,
+    )
+
+
 def person_label(result: CheckResult) -> str:
     candidate = result.candidate
     return f"{candidate['name']} ({candidate['id']})"
@@ -149,6 +172,11 @@ def org_label(result: CheckResult) -> str:
     return f"{candidate['canonical_name']} ({candidate['org_id']})"
 
 
+def place_label(result: CheckResult) -> str:
+    candidate = result.candidate
+    return f"{candidate['label']} ({candidate['id']})"
+
+
 def person_pr_summary_filename(result: CheckResult) -> str:
     return f"pr_summary_person_{m2_add_person.slugify(result.candidate['id'])}.md"
 
@@ -156,6 +184,10 @@ def person_pr_summary_filename(result: CheckResult) -> str:
 def org_pr_summary_filename(result: CheckResult) -> str:
     name_slug = normalize_text(result.candidate["canonical_name"]).replace(" ", "-")
     return f"pr_summary_org_{result.candidate['org_id'].lower()}_{name_slug}.md"
+
+
+def place_pr_summary_filename(result: CheckResult) -> str:
+    return f"pr_summary_place_{m2_add_place.slugify_filename(result.candidate['id'])}.md"
 
 
 ADAPTERS = {
@@ -172,6 +204,13 @@ ADAPTERS = {
         org_label,
         m2_add_org.build_org_pr_summary,
         org_pr_summary_filename,
+    ),
+    "place": BatchAdapter(
+        "PLACE",
+        evaluate_place_item,
+        place_label,
+        m2_add_place.build_place_pr_summary,
+        place_pr_summary_filename,
     ),
 }
 
@@ -225,6 +264,7 @@ def run_campaign(
     base_org_records: list[dict] | None = None
     reserved_org_records: list[dict] = []
     seen_person_ids: dict[str, str] = {}
+    seen_place_ids: dict[str, str] = {}
     used_pr_filenames: set[str] = set()
 
     with TemporaryDirectory() as tmp:
@@ -280,6 +320,15 @@ def run_campaign(
                     result.finalize()
                 else:
                     seen_person_ids[person_id] = adapter.label(result)
+            if family_key == "place" and result.candidate.get("id"):
+                place_id = str(result.candidate["id"])
+                if place_id in seen_place_ids:
+                    result.blockers.append(
+                        f"collision interne batch PLACE: {place_id} deja propose pour {seen_place_ids[place_id]}"
+                    )
+                    result.finalize()
+                else:
+                    seen_place_ids[place_id] = adapter.label(result)
 
             pr_summary_path: Path | None = None
             if write_pr_summaries:
@@ -307,7 +356,7 @@ def run_campaign(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Execute une campagne M2 de pre-validation PERSON/ORG et produit un rapport consolide.",
+        description="Execute une campagne M2 de pre-validation PERSON/ORG/PLACE et produit un rapport consolide.",
     )
     parser.add_argument("input", help="Fichier JSON de campagne.")
     parser.add_argument("--root", default=str(REPO_ROOT), help="Racine du depot a utiliser. Par defaut: depot courant.")

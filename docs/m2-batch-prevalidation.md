@@ -45,7 +45,8 @@ La CLI `tools/m2_batch_prevalidation.py` porte le routage concret vers les
 adaptateurs disponibles aujourd'hui :
 
 - `person` -> `tools/m2_add_person.py` ;
-- `org` -> `tools/m2_add_org.py`.
+- `org` -> `tools/m2_add_org.py` ;
+- `place` -> `tools/m2_add_place.py`.
 
 Cette separation prepare l'ajout de futures familles sans modifier le moteur de
 rendu batch.
@@ -55,6 +56,10 @@ la campagne. Cela permet de proposer des identifiants successifs dans un meme
 lot, meme si le registre source reste en lecture seule.
 
 Pour les campagnes PERSON, la CLI detecte les identifiants `PERSON-*` deja
+produits dans le meme lot. Un doublon interne devient un bloquant dans le
+diagnostic de l'item concerne.
+
+Pour les campagnes PLACE, la CLI detecte les identifiants `PLACE-*` deja
 produits dans le meme lot. Un doublon interne devient un bloquant dans le
 diagnostic de l'item concerne.
 
@@ -178,6 +183,29 @@ Effets :
 - generation du rapport batch ;
 - generation du resume PR ORG.
 
+## Exemple PLACE
+
+```json
+{
+  "campaign": "batch-place",
+  "items": [
+    {
+      "family": "place",
+      "label": "Prototype Venue",
+      "type": "salle",
+      "type_detail": "club",
+      "sources": ["S41"]
+    }
+  ]
+}
+```
+
+Effets :
+
+- execution du diagnostic PLACE ;
+- generation du rapport batch ;
+- generation du resume PR PLACE.
+
 ## Exemple mixte
 
 ```json
@@ -199,6 +227,12 @@ Effets :
       "jd_relation": "label_mate",
       "sources": ["S41"],
       "last_verified": "2026-06-01"
+    },
+    {
+      "family": "place",
+      "label": "Prototype Venue",
+      "type": "salle",
+      "sources": ["S41"]
     }
   ]
 }
@@ -214,13 +248,17 @@ rapport de campagne.
 Si plusieurs PERSON produisent le meme identifiant canonique, le doublon est
 affiche dans les bloquants du rapport consolide.
 
+Si plusieurs PLACE produisent le meme identifiant canonique, le doublon est
+affiche dans les bloquants du rapport consolide.
+
 ## Cas d'usage
 
 Ce chantier couvre :
 
 - pre-validation d'une liste de personnes candidates ;
 - pre-validation d'une liste d'organisations candidates ;
-- campagne mixte PERSON / ORG ;
+- pre-validation d'une liste de lieux candidats ;
+- campagne mixte PERSON / ORG / PLACE ;
 - preparation d'une revue humaine avec un rapport unique et des resumes PR
   individuels.
 
@@ -246,6 +284,6 @@ Commandes utiles :
 
 ```bash
 python3 -m unittest tools.test_m2_batch_prevalidation
-python3 -m unittest tools.test_m2_add_person tools.test_m2_add_org tools.test_m2_pr_summary
+python3 -m unittest tools.test_m2_add_person tools.test_m2_add_org tools.test_m2_add_place tools.test_m2_pr_summary
 python3 tools/m2_batch_prevalidation.py --help
 ```

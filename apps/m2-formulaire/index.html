@@ -21,6 +21,7 @@
       <nav class="m2-tabs" aria-label="Flux M2">
         <button class="m2-tab is-active" type="button" data-tab="person">PERSON</button>
         <button class="m2-tab" type="button" data-tab="org">ORG</button>
+        <button class="m2-tab" type="button" data-tab="place">PLACE</button>
         <button class="m2-tab" type="button" data-tab="source">SOURCE LONGUE</button>
         <button class="m2-tab" type="button" data-tab="batch">BATCH</button>
       </nav>
@@ -102,6 +103,50 @@
             <button class="m2-btn m2-btn--ghost" type="button" data-copy="org-output">Copier</button>
           </div>
           <pre id="org-output"></pre>
+        </section>
+      </section>
+
+      <section class="m2-workspace" id="panel-place" data-panel="place" hidden>
+        <form class="m2-form" id="place-form">
+          <div class="m2-field">
+            <label for="place-label">label</label>
+            <input id="place-label" name="label" type="text" placeholder="Prototype Venue" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="place-type">type</label>
+            <input id="place-type" name="type" type="text" placeholder="salle" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="place-type-detail">type_detail</label>
+            <input id="place-type-detail" name="type_detail" type="text" placeholder="club" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="place-sources">sources</label>
+            <input id="place-sources" name="sources" type="text" placeholder="S41,S74" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="place-aliases">aliases</label>
+            <input id="place-aliases" name="aliases" type="text" placeholder="The Factory, Russell Club" autocomplete="off">
+          </div>
+          <div class="m2-field">
+            <label for="place-usage">usage</label>
+            <input id="place-usage" name="usage" type="text" placeholder="concert, repetition, photo" autocomplete="off">
+          </div>
+          <div class="m2-field m2-field--wide">
+            <label for="place-prudence">prudence</label>
+            <textarea id="place-prudence" name="prudence" rows="4" placeholder="Contexte, homonymie ou arbitrage attendu"></textarea>
+          </div>
+          <div class="m2-actions">
+            <button class="m2-btn m2-btn--primary" type="button" data-action="place-command">Generer commande</button>
+            <button class="m2-btn" type="button" data-action="place-batch">Ajouter au batch</button>
+          </div>
+        </form>
+        <section class="m2-output" aria-label="Sortie PLACE">
+          <div class="m2-output__header">
+            <h2>Commande PLACE</h2>
+            <button class="m2-btn m2-btn--ghost" type="button" data-copy="place-output">Copier</button>
+          </div>
+          <pre id="place-output"></pre>
         </section>
       </section>
 
