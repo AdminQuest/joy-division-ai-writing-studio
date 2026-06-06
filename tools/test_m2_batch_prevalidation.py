@@ -380,6 +380,50 @@ class TestM2BatchPrevalidation(unittest.TestCase):
         self.assertIn("IMAGE - First Batch Image Session (IMAGE-S-0002)", markdown)
         self.assertIn("IMAGE - Second Batch Image Session (IMAGE-S-0003)", markdown)
 
+    def test_refused_image_session_is_not_reserved_for_child_image(self) -> None:
+        with TemporaryDirectory() as tmp:
+            paths = write_batch_repo(Path(tmp))
+            report_path, refused_count = m2_batch_prevalidation.run_campaign(
+                {
+                    "campaign": "refused-image-parent",
+                    "items": [
+                        {
+                            "family": "image",
+                            "level": "session",
+                            "name": "Refused Parent Image Session",
+                            "photographer": "PERSON-kevin-cummins",
+                            "date": "1979-02",
+                            "date_precision": "month",
+                            "context": "promo",
+                            "subjects": ["PERSON-ian-curtis"],
+                            "place": "PLACE-HULME",
+                            "sources": ["S999"],
+                            "last_verified": "2026-06-06",
+                        },
+                        {
+                            "family": "image",
+                            "level": "image",
+                            "session_ref": "IMAGE-S-0002",
+                            "name": "Child Of Refused Image Session",
+                            "photographer": "PERSON-kevin-cummins",
+                            "date": "1979-02",
+                            "date_precision": "month",
+                            "context": "promo",
+                            "subjects": ["PERSON-ian-curtis"],
+                            "place": "PLACE-HULME",
+                            "sources": ["S01"],
+                            "last_verified": "2026-06-06",
+                        },
+                    ],
+                },
+                paths=paths,
+            )
+            markdown = report_path.read_text(encoding="utf-8")
+
+        self.assertEqual(refused_count, 2)
+        self.assertIn("source inconnue: S999", markdown)
+        self.assertIn("session_ref introuvable: IMAGE-S-0002", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()

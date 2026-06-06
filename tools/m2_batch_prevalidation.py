@@ -392,7 +392,7 @@ def run_campaign(
 
             if family_key == "org" and result.candidate.get("org_id"):
                 reserved_org_records.append(result.candidate)
-            if family_key == "image" and result.candidate.get("image_id"):
+            if family_key == "image" and result.candidate.get("image_id") and not result.blockers:
                 reserved_image_records.append(result.candidate)
             if family_key == "person" and result.candidate.get("id"):
                 person_id = str(result.candidate["id"])
