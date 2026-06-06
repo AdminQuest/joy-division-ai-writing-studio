@@ -1,86 +1,191 @@
-# M2 - Bilan final
+# M2 - Bilan final officiel
 
-## Statut
+## 1. Rappel de l'objectif de M2
 
-M2 est cloturable si la PR `feat/m2-formulaire` est validee par revue humaine.
+M2 a ete lance pour transformer le depot Joy Division AI Writing Studio en
+studio d'enrichissement documentaire.
 
-Ce bilan ne merge rien et ne remplace pas l'approbation de la PR. Il constate
-que les capacites attendues de M2 sont reunies dans une chaine coherente de
-preparation documentaire.
+A la fin de M1, le projet disposait d'un socle plus fiable :
 
-## Principe de cloture
+- les documents maitres etaient mieux relies aux atomes, registres et sources ;
+- les controles documentaires etaient mieux structures ;
+- les ecarts pouvaient etre audites, corriges et revalides ;
+- le depot etait suffisamment stabilise pour ouvrir la question des ajouts.
 
-M2 prepare.
+La limite principale restait le passage d'une intention d'enrichissement a une
+proposition relisible. Ajouter une personne, une organisation ou une source
+longue demandait encore trop de saisies manuelles, trop de reconstitution de
+contexte et trop de prudence implicite dans la revue.
 
-L'humain valide.
+M2 a donc vise a industrialiser la preparation documentaire, sans transformer
+la preparation en validation automatique.
 
-Cette separation reste le principe central de la phase :
+Principe de phase :
 
-- les outils M2 produisent des diagnostics ;
-- les sorties M2 exposent les bloquants, reserves et informations ;
-- les rapports M2 rendent les campagnes relisibles ;
-- le formulaire M2 facilite la saisie ;
-- aucune sortie M2 ne transforme une proposition en fait canonique.
+```text
+Le studio prepare. L'humain valide.
+```
 
-## Capacites disponibles
+Cette philosophie a guide tous les chantiers M2 :
 
-M2 dispose desormais des capacites suivantes :
+- les outils peuvent produire des diagnostics ;
+- les outils peuvent exposer les bloquants, reserves et informations ;
+- les outils peuvent preparer des resumes et rapports ;
+- les outils peuvent faciliter la saisie ;
+- la decision documentaire reste humaine.
 
-- pre-validation unitaire ;
-- resume PR standardise ;
-- batch de pre-validation ;
-- rapport consolide de campagne ;
-- formulaire de saisie.
+## 2. Architecture obtenue
 
-## Flux couverts
+L'architecture finale de M2 se resume ainsi :
 
-Les flux operationnels couvrent :
+```text
+Formulaire
+  ->
+Adaptateurs
+  ->
+Diagnostics
+  ->
+Resumes PR
+  ->
+Rapports consolides
+  ->
+Validation humaine
+```
+
+Le moteur documentaire reste separe des interfaces.
+
+Le formulaire est une couche de saisie locale. Il produit des commandes ou des
+JSON compatibles avec les CLI existantes. Il ne valide pas les objets et ne
+duplique pas les regles documentaires.
+
+Les adaptateurs portent les regles metier des familles documentaires :
 
 - `PERSON` ;
 - `ORG` ;
-- `SOURCE LONGUE` ;
-- campagne batch `PERSON` / `ORG`.
+- `SOURCE LONGUE`.
 
-Chaque flux reste borne par son adaptateur et par les contrats deja stabilises.
+Ils connaissent les champs, schemas, collisions, reserves et diagnostics propres
+a leur famille.
 
-## Role du formulaire
+Le noyau commun reste generique. Il porte les structures et rendus partages :
 
-Le formulaire M2 est une couche de saisie locale.
+- diagnostics ;
+- decisions ;
+- resumes de PR ;
+- resultats batch ;
+- rapports consolides.
 
-Il produit :
+Il ne connait pas les details metier des personnes, organisations ou sources
+longues.
 
-- des commandes CLI copiables ;
-- un JSON de campagne batch copiable.
+## 3. Chantiers realises
 
-Il ne contient aucune logique documentaire autonome :
+### Noyau commun
 
-- pas de detection de doublons ;
-- pas de validation de schema ;
-- pas de creation de source canonique ;
-- pas de creation d'atome ;
-- pas de creation de citation ;
-- pas de creation de relation ;
-- pas de modification de registre ;
-- pas d'appel GitHub ;
-- pas de Pull Request automatique ;
-- pas de merge.
+Le noyau commun M2 a ete stabilise dans `tools/m2_core.py`.
 
-Les validations restent dans les CLI et dans les controles existants.
+Il mutualise les invariants communs aux flux M2 :
 
-## Chaine M2 finale
+- `CheckResult` ;
+- listes de `blockers`, `reserves` et `information` ;
+- calcul de decision ;
+- deduplication preservant l'ordre ;
+- rendu commun des diagnostics ;
+- structures communes pour les resumes PR ;
+- structures communes pour les campagnes batch.
 
-La chaine M2 disponible est :
+La decision M2 est stable :
+
+- `pre-validee` ;
+- `pre-validee avec reserve` ;
+- `non pre-validee`.
+
+Le noyau commun ne porte aucune logique documentaire specifique a une famille.
+
+### PERSON
+
+Le prototype PERSON a ete implemente dans `tools/m2_add_person.py`.
+
+Il permet de preparer une proposition d'ajout PERSON en lecture seule :
+
+- proposition d'identifiant `PERSON-*` ;
+- verification des sources `Sxx` ;
+- verification du schema PERSON ;
+- detection de collisions de nom, alias, identifiant et `same_as` ;
+- production d'un diagnostic classe ;
+- production d'un resume PR lorsque `--pr-summary` est demande.
+
+La documentation et les retours d'usage PERSON ont stabilise le prototype et
+ses limites. PERSON sert de modele d'ajout unitaire pour les familles futures.
+
+### ORG
+
+Le prototype ORG a ete implemente dans `tools/m2_add_org.py`.
+
+Il permet de preparer une proposition d'ajout ORG en lecture seule :
+
+- proposition du prochain identifiant `ORG-NNNN` ;
+- verification des sources `Sxx` ;
+- verification du schema ORG ;
+- detection de collisions de nom, alias, identifiant et identifiants externes ;
+- qualification de la relation documentee a Joy Division ;
+- production d'un diagnostic classe ;
+- production d'un resume PR lorsque `--pr-summary` est demande.
+
+ORG a valide que l'architecture adaptateur pouvait couvrir une famille JSON,
+numerique et distincte de PERSON.
+
+### SOURCE LONGUE
+
+Le flux SOURCE LONGUE a ete implemente dans
+`tools/m2_integrate_source.py`.
+
+Il permet de preparer l'integration documentaire d'une source candidate :
+
+- qualification bibliographique ;
+- comparaison avec `data/registre.json` ;
+- detection de doublon certain ;
+- detection de proximite documentaire ;
+- proposition de `Sxx` existant ou probable ;
+- proposition de dossier source probable ;
+- production d'un diagnostic classe ;
+- production d'un resume PR lorsque `--pr-summary` est demande.
+
+Le flux source longue reste volontairement preparatoire. Il ne cree pas de
+source canonique, d'atome, de citation ou de relation.
+
+### Preparation de PR
+
+La preparation de PR a ete industrialisee avec `PRSummary` et les fonctions
+communes associees.
+
+Chaque flux M2 actif peut produire un resume Markdown standardise :
 
 ```text
-saisie
-  -> commande ou JSON
-  -> diagnostic
-  -> resume PR
-  -> rapport consolide si campagne
-  -> revue humaine
+exports/generated/pr_summary_*.md
 ```
 
-Pour une campagne :
+Le resume expose :
+
+- objet ;
+- perimetre ;
+- validations executees ;
+- bloquants ;
+- reserves ;
+- informations ;
+- arbitrages humains ;
+- impact documentaire ;
+- commandes de verification.
+
+Le resume PR prepare la revue humaine. Il ne cree pas de branche, n'ouvre pas
+de PR GitHub, ne commit pas et ne merge pas.
+
+### Batch
+
+Le batch de pre-validation a ete implemente dans
+`tools/m2_batch_prevalidation.py`.
+
+Il permet de traiter une campagne documentaire :
 
 ```text
 N objets
@@ -89,26 +194,109 @@ N objets
   -> N resumes PR
 ```
 
-## Conditions de sortie
+Le moteur batch reste au-dessus des adaptateurs. Il orchestre des objets, des
+adaptateurs et des resultats de diagnostic.
 
-M2 peut etre considere comme cloture lorsque :
+Les rapports consolides sont produits en Markdown :
 
-- la PR `feat/m2-formulaire` est relue et acceptee ;
-- le formulaire reste limite a la saisie ;
-- les controles de non-regression M2 passent ;
-- les limites de non-automatisation restent visibles ;
-- aucune remarque corrective Codex Review ne reste ouverte.
+```text
+exports/generated/batch_summary_*.md
+```
 
-## Suite naturelle
+Ils exposent :
 
-Apres cloture de M2, les phases suivantes pourront s'appuyer sur un socle plus
-lisible :
+- synthese ;
+- statistiques ;
+- liste des objets ;
+- reserves ;
+- bloquants ;
+- arbitrages humains.
 
-- saisie guidee ;
-- diagnostics deterministes ;
-- resumes PR ;
-- campagnes batch ;
-- arbitrages humains explicites.
+Le batch prepare les campagnes documentaires massives sans modifier les
+registres et sans automatiser GitHub.
 
-Tout enrichissement documentaire reste soumis a validation humaine avant
-integration.
+### Formulaire
+
+Le formulaire M2 a ete implemente dans :
+
+```text
+apps/m2-formulaire/
+```
+
+Il couvre la saisie :
+
+- `PERSON` ;
+- `ORG` ;
+- `SOURCE LONGUE` ;
+- campagne batch `PERSON` / `ORG`.
+
+Il produit :
+
+- commandes CLI copiables ;
+- JSON batch copiable.
+
+Il ne contient aucune logique documentaire autonome. Les validations restent
+dans les adaptateurs Python et dans les controles existants.
+
+## 4. Capacites desormais disponibles
+
+M2 dispose desormais des capacites suivantes :
+
+- pre-validation unitaire ;
+- diagnostics classes ;
+- reserves explicites ;
+- arbitrages humains visibles ;
+- resumes PR standardises ;
+- batch documentaire ;
+- rapports consolides ;
+- formulaire de saisie.
+
+Ces capacites permettent de preparer une proposition documentaire sans masquer
+les risques ni transformer une suggestion en validation.
+
+## 5. Capacites volontairement exclues
+
+M2 ne fait pas :
+
+- validation humaine ;
+- creation automatique de sources ;
+- creation automatique d'atomes ;
+- creation automatique de citations ;
+- creation automatique de relations ;
+- modification automatique de registres ;
+- GitHub automatique ;
+- ouverture automatique de Pull Request ;
+- merge automatique ;
+- decisions documentaires autonomes.
+
+Ces exclusions sont des garde-fous structurants. Elles garantissent que M2 reste
+un studio de preparation et non une chaine d'integration automatique.
+
+## 6. Decision de cloture
+
+M2 est considere comme cloture.
+
+Les objectifs de M2 sont atteints.
+
+Le depot dispose maintenant d'une chaine coherente pour passer d'une saisie ou
+d'une intention d'enrichissement a une proposition documentee, diagnostiquee,
+resumee et relisible par un humain.
+
+La validation finale reste humaine.
+
+## 7. Perspectives M3
+
+Les perspectives M3 ne sont pas arbitrees dans ce document.
+
+Les axes possibles sont :
+
+- ergonomie ;
+- assistants documentaires ;
+- generation assistee ;
+- navigation ;
+- outils de redaction ;
+- exploitation du graphe documentaire.
+
+M3 devra s'appuyer sur les acquis M2 sans rouvrir les arbitrages de cloture :
+separation entre saisie, logique documentaire, diagnostics et validation
+humaine.
