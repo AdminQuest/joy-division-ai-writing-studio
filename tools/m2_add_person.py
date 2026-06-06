@@ -23,6 +23,7 @@ try:
     from tools.m2_core import (
         CheckResult,
         add_source_diagnostics,
+        build_pr_summary,
         exit_code,
         is_near_text_match,
         load_source_ids,
@@ -30,6 +31,7 @@ try:
         render_result as render_m2_result,
         split_csv,
         unique_preserving_order,
+        write_pr_summary,
     )
     from tools.schema_validation import validate_against_schema
 except ImportError:  # execution directe: python3 tools/m2_add_person.py
@@ -37,6 +39,7 @@ except ImportError:  # execution directe: python3 tools/m2_add_person.py
     from m2_core import (
         CheckResult,
         add_source_diagnostics,
+        build_pr_summary,
         exit_code,
         is_near_text_match,
         load_source_ids,
@@ -44,6 +47,7 @@ except ImportError:  # execution directe: python3 tools/m2_add_person.py
         render_result as render_m2_result,
         split_csv,
         unique_preserving_order,
+        write_pr_summary,
     )
     from schema_validation import validate_against_schema
 
@@ -370,6 +374,51 @@ def render_result(result: CheckResult) -> str:
     )
 
 
+def build_person_pr_summary(result: CheckResult):
+    candidate = result.candidate
+    if result.blockers:
+        arbitrations = ["Corriger les bloquants avant ouverture de PR."]
+    elif result.reserves:
+        arbitrations = ["Arbitrer les reserves PERSON avant integration."]
+    else:
+        arbitrations = ["Validation humaine finale avant integration."]
+    return build_pr_summary(
+        result,
+        subject=f"Ajout PERSON : {candidate['name']} ({candidate['id']})",
+        scope=[
+            "Flux M2 ajout unitaire.",
+            "Famille documentaire : PERSON.",
+            "Lecture seule : aucune modification de registre effectuee par le prototype.",
+            "Entree candidate YAML produite pour revue humaine.",
+        ],
+        validations=[
+            "Pre-validation PERSON executee localement.",
+            "Sources Sxx verifiees contre data/registre.json.",
+            "Schema PERSON evalue sur l'entree candidate.",
+            "Collisions nom, alias, identifiant et same_as evaluees.",
+        ],
+        human_arbitrations=arbitrations,
+        documentary_impact=[
+            "Proposition d'identite canonique PERSON.",
+            "Aucun ajout effectif tant que la PR n'est pas relue et validee.",
+        ],
+        verification_commands=[
+            "python3 tools/m2_add_person.py --help",
+            "python3 -m unittest tools.test_m2_add_person",
+            "python3 tools/validate_people.py",
+        ],
+    )
+
+
+def write_person_pr_summary(result: CheckResult, paths: Paths) -> Path:
+    filename = f"pr_summary_person_{slugify(result.candidate['id'])}.md"
+    return write_pr_summary(
+        build_person_pr_summary(result),
+        output_dir=paths.root / "exports" / "generated",
+        filename=filename,
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Prepare localement une proposition d'ajout PERSON sans modifier le depot.",
@@ -395,11 +444,17 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--origin", choices=["auteur_source"], help="Origine optionnelle supportee par le schema.")
     parser.add_argument("--category-arbitration", action="store_true", help="Marque categorie_a_arbitrer=true.")
     parser.add_argument("--identity-arbitration", action="store_true", help="Marque a_arbitrer=true.")
+    parser.add_argument(
+        "--pr-summary",
+        action="store_true",
+        help="Ecrit un resume de PR M2 dans exports/generated sans ouvrir de PR GitHub.",
+    )
     return parser
 
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    paths = Paths()
     result = evaluate_person_addition(
         name=args.name,
         category=args.category,
@@ -411,8 +466,12 @@ def main(argv: Sequence[str] | None = None) -> int:
         origin=args.origin,
         category_arbitration=args.category_arbitration,
         identity_arbitration=args.identity_arbitration,
+        paths=paths,
     )
     sys.stdout.write(render_result(result))
+    if args.pr_summary:
+        path = write_person_pr_summary(result, paths)
+        sys.stdout.write(f"Resume PR genere : {path.relative_to(paths.root)}\n")
     return exit_code(result)
 
 
