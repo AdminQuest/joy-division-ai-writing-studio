@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -23,7 +23,7 @@ generated_at: "2026-06-05T15:13:05"
 | Indicateur | Valeur |
 |---|---|
 | Atomes | 220 |
-| Atomes critiques / majeurs | 37 |
+| Atomes critiques / majeurs | 39 |
 | Citations | 13 |
 | Événements chronologiques | 3 |
 | Personnes | 14 |
@@ -133,6 +133,10 @@ generated_at: "2026-06-05T15:13:05"
 - **S84-A014** — S84-A014  
   Source : S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 ; type : `cadre_theorique` ; importance : `majeure` ; preuve : `haute`.
 - **S47-147** — S47-147 — « Transmission » : titre pivot entre Peel, single et live  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeur` ; preuve : `fait_documente`.
+- **S47-164** — S47-164 — Rafters comme lieu de bascule managériale  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeur` ; preuve : `fait_documente`.
+- **S47-183** — S47-183 — Chronologie condensée 1979  
   Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeur` ; preuve : `fait_documente`.
 
 ## 6. Autres atomes utiles
@@ -433,26 +437,34 @@ generated_at: "2026-06-05T15:13:05"
 
 ### 12.1. Motifs dominants
 
+- buzzcocks (5)
+- rob_gretton (4)
+- transmission (4)
 - here_are_the_young_men (4)
+- still (4)
 - Manchester (3)
-- buzzcocks (3)
-- transmission (3)
+- electric_circus (3)
+- rafters (3)
+- tony_wilson (3)
 - ian_curtis (3)
-- still (3)
 - scènes locales (2)
-- electric_circus (2)
+- warsaw (2)
 - paul_morley (2)
-- rob_gretton (2)
-- rafters (2)
-- tony_wilson (2)
+- short_circuit (2)
 - factory_club (2)
 - peel_session (2)
 - Liz Naylor (2)
 - Cath Carroll (2)
 - bootlegs (2)
+- peel_sessions (2)
+- pete_shelley (2)
 - moonlight_club (2)
 - birmingham_university (2)
+- high_hall (2)
+- 2_mai_1980 (2)
+- dernier_concert (2)
 - Factory_video (2)
+- management (2)
 - Rafters (2)
 - prudence (2)
 - triangulation du Nord (1)
@@ -465,14 +477,6 @@ generated_at: "2026-06-05T15:13:05"
 - liberté créative (1)
 - tournage local (1)
 - déracinement (1)
-- universalisation (1)
-- recontextualisation (1)
-- Day of the Lords (1)
-- Berlin (1)
-- Guerre froide (1)
-- Teufelsberg (1)
-- Mauerpark (1)
-- warsaw (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -515,16 +519,16 @@ generated_at: "2026-06-05T15:13:05"
 
 | Type | Nombre |
 |---|---|
-| fait | 14 |
+| fait | 18 |
 | concert | 11 |
+| production | 10 |
 | reception | 9 |
-| production | 9 |
-| sociologie | 8 |
+| sociologie | 9 |
 | chronologie | 6 |
+| archive | 6 |
 | evenement | 6 |
 | interpretation | 6 |
 | relation | 5 |
-| archive | 5 |
 | contexte_scene | 5 |
 | analyse | 4 |
 | anecdote_significative | 4 |
@@ -532,7 +536,6 @@ generated_at: "2026-06-05T15:13:05"
 | concept_structurant | 4 |
 | evenement_live | 3 |
 | fait_sensible | 3 |
-| acteur | 3 |
 | industrie_musicale | 3 |
 | management | 3 |
 | non qualifié | 3 |
@@ -545,10 +548,10 @@ generated_at: "2026-06-05T15:13:05"
 | chronologie_live | 2 |
 | concept_transversal | 2 |
 | lieu | 2 |
+| acteur | 2 |
 | chronologie_tournee | 2 |
 | concert_incident | 2 |
 | synthese_usage_livre | 2 |
-| lieu_scene | 2 |
 | infrastructure | 2 |
 | scene_fondatrice | 2 |
 | cartographie_relationnelle | 1 |
@@ -601,11 +604,6 @@ generated_at: "2026-06-05T15:13:05"
 | reseau_acteurs | 1 |
 | voix_acteurs | 1 |
 | culture_musicale | 1 |
-| lieu_archive | 1 |
-| lieu_bascule | 1 |
-| lieu_terminal | 1 |
-| acteur_scene | 1 |
-| micro_chronologie | 1 |
 | temoignage_autobiographique | 1 |
 | temoignage_retrospectif | 1 |
 | texte_editorial | 1 |
@@ -614,6 +612,7 @@ generated_at: "2026-06-05T15:13:05"
 | lecture_discographique | 1 |
 | contrepoint | 1 |
 | methode | 1 |
+| lieu_scene | 1 |
 | fonction_symbolique | 1 |
 | motif_structurant | 1 |
 | modele_heritage | 1 |
@@ -628,11 +627,11 @@ generated_at: "2026-06-05T15:13:05"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 162 |
+| non qualifiée | 155 |
 | critique | 23 |
+| majeur | 18 |
 | majeure | 13 |
-| majeur | 12 |
-| secondaire | 6 |
+| secondaire | 7 |
 | utile | 2 |
 | haute | 2 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -894,7 +894,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | controverse_reception | 1 |
 | performance_reception | 1 |
 | scene_deuil_mythographique | 1 |
-| citation_repere | 1 |
+| citation_clef | 1 |
 | historiographie_memorielle | 1 |
 | theorie_memoire | 1 |
 | historiographie_pluraliste | 1 |
@@ -935,11 +935,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 195 |
-| non qualifiée | 78 |
+| non qualifiée | 77 |
 | majeure | 43 |
 | majeur | 31 |
 | utile | 2 |
 | haute | 2 |
+| secondaire | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

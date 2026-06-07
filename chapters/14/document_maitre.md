@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -649,33 +649,35 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Tony Wilson (22)
+- still (20)
 - prudence (18)
 - Annik Honoré (18)
-- still (18)
 - Factory (17)
 - Rob Gretton (17)
+- new_order (15)
 - Unknown Pleasures (14)
-- new_order (13)
+- ian_curtis (13)
 - Haçienda (11)
-- ian_curtis (11)
-- love_will_tear_us_apart (10)
+- love_will_tear_us_apart (11)
+- nme (11)
+- unknown_pleasures (10)
+- atmosphere (10)
 - Ian Curtis (10)
 - Peter Saville (10)
 - Control (9)
 - Buzzcocks tour (9)
 - pulsar (9)
 - peter_saville (9)
-- atmosphere (9)
+- john_peel (9)
 - Manchester (8)
 - fatigue (8)
 - Transmission (8)
+- ceremony (8)
 - Kevin Cummins (8)
 - John Peel (8)
 - She’s Lost Control (7)
+- transmission (7)
 - mémoire (7)
-- unknown_pleasures (7)
-- ceremony (7)
-- john_peel (7)
 - Electric Circus (7)
 - Paul Morley (7)
 - New Order (7)
@@ -685,9 +687,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Atmosphere (6)
 - Love Will Tear Us Apart (6)
 - NME (6)
-- Still (6)
-- Closer (6)
-- Sex Pistols (5)
+- dead_souls (6)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -778,27 +778,27 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| reception | 62 |
-| analyse | 45 |
-| prudence_methodologique | 42 |
+| reception | 71 |
+| analyse | 47 |
+| prudence_methodologique | 45 |
 | concept_structurant | 39 |
 | non qualifié | 27 |
-| archive | 24 |
-| production | 23 |
-| fait | 16 |
+| archive | 26 |
+| production | 24 |
+| fait | 19 |
 | noeud_critique | 15 |
 | memoire | 14 |
 | reception_live | 12 |
 | discographie | 11 |
 | synthese | 10 |
 | motif_structurant | 9 |
+| lecture | 9 |
 | biographie | 9 |
 | scene_fondatrice | 9 |
 | reception_critique | 9 |
 | sociologie | 9 |
 | culture_musicale | 9 |
 | tension_documentaire | 8 |
-| lecture | 8 |
 | contrepoint | 8 |
 | mythe | 7 |
 | controverse | 7 |
@@ -819,8 +819,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
-| acteur_critique | 5 |
-| citation_repere | 5 |
+| citation_clef | 5 |
 | live_set_bootleg_context | 5 |
 | live_set_context | 5 |
 | lecture_reception | 4 |
@@ -928,10 +927,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_medicale_live | 2 |
 | interpretation_historique | 2 |
 | esthétique | 2 |
-| acteur | 2 |
-| micro_chronologie | 2 |
-| idee_directrice | 2 |
-| synthese_critique | 2 |
 | citation_courte | 2 |
 | analyse_critique | 2 |
 | reportage_contemporain | 2 |
@@ -1285,16 +1280,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_deuil_collectif | 1 |
 | qualification_esthetique | 1 |
 | gouvernance | 1 |
-| lieu_archive | 1 |
-| lieu_radio | 1 |
-| lieu_terminal | 1 |
-| acteur_media | 1 |
-| acteurs_objet | 1 |
-| acteur_reprise | 1 |
-| vigilance_ocr | 1 |
-| vigilance_actualisation | 1 |
-| vigilance_interpretative | 1 |
-| synthese_documentaire | 1 |
 | patrimonialisation_urbaine | 1 |
 | prudence_causale | 1 |
 | concept_urbain_culturel | 1 |
@@ -1347,6 +1332,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | contexte_mediatique | 1 |
 | mythification_posthume | 1 |
 | ecoute_technologique | 1 |
+| synthese_critique | 1 |
 | lecture_musicale | 1 |
 | mythe_institutionnel | 1 |
 | chronology | 1 |
@@ -1390,6 +1376,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | motif_memoire | 1 |
 | debat_culturel | 1 |
 | conflit_scene | 1 |
+| acteur_critique | 1 |
 | satire_media | 1 |
 | acteurs_media | 1 |
 | genre_sexualite | 1 |
@@ -1417,10 +1404,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | critique | 522 |
-| non qualifiée | 439 |
+| non qualifiée | 413 |
 | majeure | 208 |
-| majeur | 56 |
-| secondaire | 53 |
+| majeur | 70 |
+| secondaire | 65 |
 | utile | 22 |
 | haute | 9 |
 | moyenne | 3 |

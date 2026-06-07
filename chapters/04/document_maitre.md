@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -353,7 +353,7 @@ generated_at: "2026-06-05T15:13:05"
 - **S47-089** — S47-089 — L’équipement de Ian Curtis  
   Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `secondaire` ; preuve : `fait_documente`.
 - **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S47 — West, Joy Division, 1984 ; type : `citation_clef` ; importance : `secondaire` ; preuve : `source_unique`.
 - **S49-A004** — S49-A004 — Curtis contre l’iconographie conventionnelle du frontman punk  
   Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `lecture_performance` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -781,6 +781,7 @@ generated_at: "2026-06-05T15:13:05"
 | scene_historiographique | 2 |
 | relation_interne_source | 2 |
 | relation_conjugale | 2 |
+| citation_clef | 2 |
 | santé | 2 |
 | domesticité | 2 |
 | tension_documentaire | 2 |
@@ -841,7 +842,6 @@ generated_at: "2026-06-05T15:13:05"
 | environnement_social | 1 |
 | cadre_narratif | 1 |
 | sociologie | 1 |
-| citation_clef | 1 |
 | famille | 1 |
 | travail | 1 |
 | réception_scene | 1 |
@@ -931,7 +931,6 @@ generated_at: "2026-06-05T15:13:05"
 | scene_deces | 1 |
 | memoire_endeuillée | 1 |
 | production | 1 |
-| citation_repere | 1 |
 | temoignage_contemporain | 1 |
 | temoignage_retrospectif | 1 |
 | sante_prudence | 1 |
@@ -966,12 +965,12 @@ generated_at: "2026-06-05T15:13:05"
 | Importance | Nombre |
 |---|---|
 | critique | 206 |
-| non qualifiée | 96 |
+| non qualifiée | 95 |
 | majeure | 73 |
 | utile | 5 |
 | majeur | 3 |
+| secondaire | 2 |
 | structurante | 1 |
-| secondaire | 1 |
 | haute | 1 |
 | moyenne | 1 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -589,11 +589,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ### 12.1. Motifs dominants
 
 - Rob Gretton (11)
+- factory (8)
 - Kevin Cummins (7)
 - fatigue (6)
 - An Ideal for Living (6)
-- factory (6)
+- unknown_pleasures (6)
 - Rabid Records (5)
+- transmission (5)
+- atmosphere (5)
 - DIY (4)
 - Shadowplay (4)
 - Rock Against Racism (4)
@@ -601,7 +604,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Tony Wilson (4)
 - Terry Mason (4)
 - Sister Ray (4)
-- unknown_pleasures (4)
+- dead_souls (4)
 - peter_saville (4)
 - Factory (3)
 - prudence (3)
@@ -625,9 +628,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Band On The Wall (3)
 - A Certain Ratio (3)
 - Moonlight Club (3)
-- transmission (3)
-- atmosphere (3)
-- Saville (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -719,17 +719,17 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | manuscript_materiality | 22 |
-| production | 18 |
+| production | 22 |
 | non qualifié | 14 |
 | analyse_morceau | 10 |
 | objet_discographique | 9 |
+| fait | 9 |
+| reception | 9 |
 | concept | 8 |
 | discographie | 8 |
 | concept_structurant | 7 |
 | analyse_editoriale | 7 |
-| reception | 7 |
 | analyse | 7 |
-| fait | 6 |
 | objet_audiovisuel | 5 |
 | concert | 5 |
 | analyse_chanson | 5 |
@@ -754,7 +754,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | television | 3 |
 | image_symbolique | 3 |
 | sociologie | 3 |
-| acteur | 3 |
 | biographie | 2 |
 | analyse_studio | 2 |
 | reception_interne | 2 |
@@ -778,8 +777,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concert_archive | 2 |
 | culture_musicale | 2 |
 | archive | 2 |
-| lieu_studio | 2 |
-| micro_chronologie | 2 |
 | analyse_critique | 2 |
 | song_or_cover | 2 |
 | institution_scene | 1 |
@@ -920,9 +917,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | contexte_live | 1 |
 | gouvernance | 1 |
 | esthétique | 1 |
-| lieu_bascule | 1 |
-| acteurs_objet | 1 |
-| citation_repere | 1 |
+| citation_clef | 1 |
 | concept_urbain_culturel | 1 |
 | prefiguration_institutionnelle | 1 |
 | analyse_historique | 1 |
@@ -950,12 +945,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 174 |
+| non qualifiée | 164 |
 | critique | 151 |
 | majeure | 73 |
+| majeur | 18 |
 | utile | 12 |
-| majeur | 9 |
-| secondaire | 7 |
+| secondaire | 8 |
 | haute | 3 |
 | mineur | 1 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

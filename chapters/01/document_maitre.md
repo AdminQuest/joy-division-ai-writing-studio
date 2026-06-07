@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -551,6 +551,8 @@ generated_at: "2026-06-05T15:13:05"
 - Manchester (9)
 - Salford (4)
 - culture-de-niche (3)
+- manchester (3)
+- ian_curtis (3)
 - prudence (2)
 - Macclesfield (2)
 - Sex Pistols (2)
@@ -565,11 +567,13 @@ generated_at: "2026-06-05T15:13:05"
 - scène locale (2)
 - politique (2)
 - Shadowplay (2)
-- ian_curtis (2)
 - ville moderne (2)
 - Hulme Crescents (2)
 - solitude (2)
 - Factory (2)
+- ian_wood (2)
+- nme (2)
+- urban_malaise (2)
 - travail répétitif (2)
 - fuite provinciale (2)
 - style comme appartenance (2)
@@ -584,10 +588,6 @@ generated_at: "2026-06-05T15:13:05"
 - coopération (1)
 - No Future (1)
 - Bifo (1)
-- Greil Marcus (1)
-- Welfare State (1)
-- Workfare Society (1)
-- clubs (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -683,26 +683,27 @@ generated_at: "2026-06-05T15:13:05"
 | source_part | 14 |
 | analyse | 12 |
 | concept | 10 |
+| sociologie | 8 |
 | contexte | 8 |
-| sociologie | 7 |
 | contexte_social | 7 |
+| biographie | 6 |
 | evenement_politique | 6 |
 | lecture | 5 |
-| biographie | 5 |
 | politique_urbaine | 5 |
 | lieu | 4 |
-| lieu_scene | 4 |
 | evenement_urbain | 3 |
 | conclusion_historiographique | 3 |
 | contexte_scene | 3 |
 | methode | 3 |
 | contexte_biographique | 3 |
+| lieu_scene | 3 |
 | contrepoint | 3 |
 | geographie_sociale | 2 |
 | motif_discursif | 2 |
 | acteur_catalyseur | 2 |
 | cadre_theorique | 2 |
 | tension_documentaire | 2 |
+| citation_clef | 2 |
 | contexte_urbain | 2 |
 | urbanisme | 2 |
 | relation_esthetique | 2 |
@@ -747,7 +748,6 @@ generated_at: "2026-06-05T15:13:05"
 | genealogie_influence | 1 |
 | analyse_motif | 1 |
 | mediation_visuelle | 1 |
-| citation_clef | 1 |
 | environnement_social | 1 |
 | travail | 1 |
 | lieu_memoire_urbain | 1 |
@@ -788,8 +788,6 @@ generated_at: "2026-06-05T15:13:05"
 | sociabilite_scene | 1 |
 | biographie_collective | 1 |
 | reception | 1 |
-| lieu_biographique | 1 |
-| citation_repere | 1 |
 | patrimonialisation_urbaine | 1 |
 | prudence_causale | 1 |
 | concept_urbain_culturel | 1 |
@@ -851,12 +849,12 @@ generated_at: "2026-06-05T15:13:05"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 157 |
+| non qualifiée | 154 |
 | critique | 69 |
 | majeure | 61 |
 | utile | 12 |
-| majeur | 3 |
-| secondaire | 2 |
+| majeur | 4 |
+| secondaire | 4 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour le chapitre 1 | 1 |

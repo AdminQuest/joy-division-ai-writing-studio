@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-06T20:13:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -586,21 +586,21 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Paul Morley (6)
 - Rafters (6)
 - An Ideal for Living (6)
+- electric_circus (6)
 - provocation (5)
 - scène locale (5)
 - Manchester (5)
+- warsaw (5)
 - Salford (4)
+- punk (4)
 - Bowie (4)
 - Lesser Free Trade Hall (4)
 - Barton Street (4)
 - DIY (4)
 - Joy Division (4)
 - RCA (4)
-- electric_circus (4)
-- warsaw (4)
 - mythe fondateur (3)
 - domesticité (3)
-- punk (3)
 - Iggy Pop (3)
 - synthétiseur (3)
 - Band on the Wall (3)
@@ -614,12 +614,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Tony Wilson (3)
 - Deborah Curtis (3)
 - Warsaw Pakt (3)
+- rob_gretton (3)
+- rafters (3)
+- short_circuit (3)
+- tony_wilson (3)
 - fanzine (3)
 - bootleg (3)
-- Enigma (3)
-- Londres (3)
-- Gretton (3)
-- expérimentation (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -710,7 +710,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Type | Nombre |
 |---|---|
-| fait | 28 |
+| fait | 32 |
 | manuscript_materiality | 26 |
 | scene_fondatrice | 22 |
 | production | 19 |
@@ -719,7 +719,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | prudence_methodologique | 12 |
 | analyse | 11 |
 | chronologie | 11 |
-| biographie | 9 |
+| biographie | 10 |
 | objet_discographique | 8 |
 | controverse | 7 |
 | session | 7 |
@@ -736,7 +736,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | interpretation | 4 |
 | contexte_social | 4 |
 | formation_groupe | 4 |
-| lieu_scene | 3 |
 | lieu | 3 |
 | document_historique | 3 |
 | evenement_scene | 3 |
@@ -746,20 +745,22 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_scene | 3 |
 | performance_live | 3 |
 | infrastructure_scene | 3 |
+| sociologie | 3 |
 | reception | 3 |
 | concept | 3 |
 | acteur_musical | 3 |
 | rencontre_fondatrice | 3 |
 | discographie | 3 |
+| archive | 3 |
 | analyse_contextuelle | 3 |
 | source_part | 3 |
+| lieu_scene | 2 |
 | temoignage | 2 |
 | acteur_catalyseur | 2 |
 | evenement_culturel | 2 |
 | motif_lyrique | 2 |
 | sociologie_scene | 2 |
 | culture_musicale | 2 |
-| sociologie | 2 |
 | genese_groupe | 2 |
 | contexte_biographique | 2 |
 | scene_revelation | 2 |
@@ -768,8 +769,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | changement_nom | 2 |
 | scene_de_transition | 2 |
 | mythe_nomination | 2 |
-| archive | 2 |
-| micro_chronologie | 2 |
 | citation_courte | 2 |
 | recension_contemporaine | 2 |
 | prudence_historiographique | 2 |
@@ -854,10 +853,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | origine_nom | 1 |
 | analyse_developpement | 1 |
 | anecdote | 1 |
-| lieu_biographique | 1 |
-| lieu_archive | 1 |
-| lieu_bascule | 1 |
-| acteur_scene | 1 |
 | interpretation_historique | 1 |
 | lieux_memoire | 1 |
 | modele_emergence | 1 |
@@ -946,12 +941,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 188 |
+| non qualifiée | 181 |
 | critique | 171 |
 | majeure | 88 |
-| majeur | 28 |
+| majeur | 33 |
 | utile | 21 |
-| secondaire | 7 |
+| secondaire | 9 |
 | haute | 5 |
 | moyenne | 4 |
 | structurante | 2 |
