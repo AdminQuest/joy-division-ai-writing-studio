@@ -352,12 +352,34 @@ humaine. M3 commence donc par la conception, pas par la bascule.
 - **Historique git** : le depot unique repart d'un commit initial propre. Les
   deux depots actuels sont archives en lecture seule comme reference historique
   (pas de fusion d'historiques git).
-- **Frontiere public / prive** : elle devient une **distinction logique** au
-  sein du depot unique. Tout est prive derriere Cloudflare Zero Trust ; l'ancien
-  decoupage public / prive se traduit par une convention de dossiers et
-  d'exports, sans controle d'acces separe.
+- **Rien ne reste public** : un seul depot prive, tout expose derriere
+  Cloudflare Zero Trust. La frontiere actuelle entre depot public et depot prive
+  disparait.
+- **Organisation par fonction, pas par technologie** : la structure interne du
+  hub suit cinq espaces fonctionnels (Collection, Usine, Entrepot, Atelier,
+  Vigie), et non un decoupage ex-public / ex-prive.
 - Le dossier d'architecture detaille n'est pas encore demande : a produire avant
   toute migration, sur instruction ulterieure.
+
+### Modele d'organisation cible — hub fonctionnel
+
+Le hub unifie est organise par fonction (cadre d'organisation, non fige comme
+architecture technique definitive ; voir aussi
+`docs/projet-etat-de-reference-2026-06.md`) :
+
+| Espace | Fonction |
+| --- | --- |
+| La Collection | Conserver les objets possedes : preserver, documenter, valoriser (vinyles, CD, cassettes, bootlegs, livres, affiches, photos, objets, scans, provenance). |
+| L'Usine | Transformer la matiere brute en donnees structurees : atomisation, enrichissement, integration de sources, registres, normalisation, validation. Elle fabrique le Corpus. |
+| L'Entrepot | Conserver, structurer et interroger le corpus : sources, atomes, registres, relations, chronologies, citations, exports, moteur RAG. On y cherche, on n'y redige pas. |
+| L'Atelier | Produire le manuscrit : exports RAG, documents maitres, Forge, manuscrits, audits de chapitres, versions de travail. Seul espace de redaction. |
+| La Vigie | Piloter la qualite et la strategie : roadmap, audits, controles, rapports, agregation, tableau de bord, indicateurs. Ce que M1 a commence a construire. |
+
+Flux : Collection -> Usine -> Entrepot -> Atelier -> Vigie.
+
+Regles structurantes : Collection != Corpus (un objet peut exister dans la
+Collection sans etre integre au Corpus) ; les IA (Claude, Codex, ChatGPT, futurs
+agents) ne sont pas un espace mais des operateurs intervenant a chaque niveau.
 
 **Objectif general** : autour de ce depot unique, etablir une architecture
 cible, une chaine documentaire industrialisee, un deploiement Cloudflare Pages

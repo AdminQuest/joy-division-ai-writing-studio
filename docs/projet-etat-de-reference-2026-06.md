@@ -14,9 +14,14 @@ Le projet est aujourd'hui un atelier documentaire et rédactionnel consacré au 
 
 Le projet n'est pas un simple dépôt de notes, ni une application unique, ni un studio d'enrichissement automatisé. Il n'est pas encore une architecture finale unifiée, ni une chaîne de publication définitive. Les évolutions futures doivent respecter les décisions stabilisées avant d'ajouter de nouvelles surfaces.
 
-# Grille de lecture fonctionnelle non décisionnelle
+# Grille de lecture fonctionnelle — modèle d'organisation du hub M3
 
-Cette grille ne remplace pas la doctrine M0 stabilisée autour de Corpus / RAG / Manuscript / documents maîtres. Elle constitue uniquement un vocabulaire provisoire de travail pour réfléchir aux futurs espaces, notamment dans l'hypothèse d'une unification ultérieure.
+> **Adoptée le 2026-06-07** comme modèle d'organisation du futur dépôt unique
+> privé (hub), par fonction et non par technologie. Cadre d'organisation, **non
+> figé** comme architecture technique définitive. Elle ne remplace pas la
+> doctrine documentaire stabilisée (Corpus / RAG / Manuscript / documents
+> maîtres), qui reste valable au sein de l'Entrepôt et de l'Atelier. Rien ne
+> reste public : tout le hub est privé derrière Cloudflare Zero Trust.
 
 ```text
 Collection

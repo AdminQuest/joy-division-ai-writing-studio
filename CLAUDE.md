@@ -95,9 +95,38 @@ confié à l'assistant. Avant toute migration :
 - **historique git** : le dépôt unique repart d'un commit initial propre ; les
   deux dépôts actuels sont archivés en lecture seule (pas de fusion
   d'historiques) ;
-- **frontière public / privé** : distinction **logique** seulement (convention
-  de dossiers / exports) — tout est privé derrière Zero Trust, sans contrôle
-  d'accès séparé.
+- **rien ne reste public** : un seul dépôt **privé**, tout exposé derrière
+  Cloudflare Zero Trust ; la frontière actuelle entre dépôt public et dépôt
+  privé **disparaît** ;
+- **organisation par fonction, pas par technologie** : la structure interne du
+  hub suit le modèle à cinq espaces ci-dessous, et non un découpage
+  ex-public / ex-privé.
+
+### Modèle d'organisation cible — hub fonctionnel
+
+Modèle retenu pour le hub unifié (cadre d'organisation, **non figé** comme
+architecture technique définitive) :
+
+| Espace | Fonction | Contenu typique |
+|---|---|---|
+| **La Collection** | Conserver / documenter / valoriser les objets possédés | vinyles, CD, cassettes, bootlegs, livres, affiches, photos, objets, scans, métadonnées de provenance |
+| **L'Usine** | Transformer la matière brute en données structurées | atomisation, enrichissement, intégration de sources, création de registres, normalisation, validation, workflows Codex |
+| **L'Entrepôt** | Conserver, structurer et interroger le corpus | sources, atomes, registres, relations, chronologies, citations, exports, **moteur RAG** |
+| **L'Atelier** | Produire le manuscrit | exports RAG, documents maîtres, Forge, manuscrits, audits de chapitres, versions de travail |
+| **La Vigie** | Piloter qualité et stratégie | roadmap, audits, contrôles, rapports, agrégation, tableau de bord, indicateurs |
+
+Flux : **Collection → Usine → Entrepôt → Atelier → Vigie**.
+
+Règles structurantes :
+
+- **Collection ≠ Corpus** : un objet peut exister dans la Collection sans être
+  intégré au Corpus ; l'**Usine** fabrique le Corpus à partir de la matière ;
+- l'**Entrepôt** est le cœur : on y cherche, on n'y rédige pas ; le **RAG** y vit ;
+- l'**Atelier** est le seul espace de rédaction ;
+- la **Vigie** est ce que M1 a commencé à construire (contrôles, agrégation,
+  tableau de bord qualité) ;
+- les **IA** (Claude, Codex, ChatGPT, futurs agents) ne sont pas un espace : ce
+  sont des **opérateurs** pouvant intervenir à chaque niveau.
 
 Tant que l'architecture cible et le plan de migration ne sont pas validés par
 décision humaine, la fusion effective et la suppression des dépôts existants ne
