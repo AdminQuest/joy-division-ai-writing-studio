@@ -117,10 +117,10 @@ Ses apports réellement nouveaux :
 
 - `python3 tools/build_registers.py --strict`
   - résultat : `errors: 0`
-  - note : warnings hérités de la dette existante du dépôt ; aucune alerte S95 après correction des YAML S95.
+  - note : les relations `R-S95-*` sont exposées en YAML et indexées dans les exports ; le parser les classe en warnings `unknown_yaml_block`, comme les relations `R-S90-*` existantes, car le dépôt ne dispose pas encore d'un kind relationnel dédié.
 - `python3 tools/audit_repo.py`
   - résultat : `errors: 0`
-  - note : warnings globaux existants inchangés hors S95.
+  - note : les warnings S95 ajoutés sont limités aux six relations `R-S95-*` indexées ; ils sont non bloquants et alignés sur la convention relationnelle S90.
 - `python3 tools/build_master_docs.py`
   - résultat : documents maîtres reconstruits ; index généré dans `exports/generated/master_docs_index.json`.
 
@@ -150,6 +150,12 @@ Traces documents maîtres :
 - `chapters/11/document_maitre.md` : table sources, `S95`, 1 atome.
 - `chapters/12/document_maitre.md` : table sources, `S95`, 7 atomes.
 - `chapters/14/document_maitre.md` : table sources, `S95`, 6 atomes.
+
+Traces relations :
+
+- `exports/generated/index_by_id.json` : `R-S95-001` à `R-S95-006`.
+- `exports/generated/all_records.json` : `R-S95-001` à `R-S95-006`.
+- `exports/generated/sources.json` et `exports/generated/sources.csv` : fichier `relations_s95_rock_music_suicide_media_influence_v2.md` rattaché à `S95`.
 
 Conclusion :
 

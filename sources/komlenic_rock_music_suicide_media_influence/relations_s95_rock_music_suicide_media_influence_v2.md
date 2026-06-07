@@ -11,7 +11,7 @@ nb_relations: 6
 
 ## R-S95-001 — Non-monocausalité S95 ↔ autopsie psychologique S81
 
-```text
+```yaml
 id: R-S95-001
 source_id: S95
 relation_type: convergence_methodologique
@@ -29,15 +29,18 @@ concepts:
   - prudence causale
 chapitres: [12, 14]
 force: forte
+note: >
+  S95 converge avec S81 sur le refus d'une cause unique du suicide. S81 reste
+  prioritaire pour le cas Ian Curtis, car elle mobilise l'autopsie
+  psychologique ; S95 fournit un arrière-plan médias/rock plus général qui
+  renforce la prudence argumentative.
 ```
-
-S95 converge avec S81 sur le refus d'une cause unique du suicide. S81 reste prioritaire pour le cas Ian Curtis, car elle mobilise l'autopsie psychologique ; S95 fournit un arrière-plan médias/rock plus général qui renforce la prudence argumentative.
 
 ---
 
 ## R-S95-002 — Mention d'Ian Curtis dans une série rock ↔ interdiction de l'usage biographique direct
 
-```text
+```yaml
 id: R-S95-002
 source_id: S95
 relation_type: garde_fou_documentaire
@@ -53,15 +56,18 @@ concepts:
   - preuve biographique
 chapitres: [12]
 force: forte
+note: >
+  S95 mentionne Curtis dans une liste de musiciens, mais ne produit aucune
+  enquête clinique ou biographique. La relation fixe donc un ordre d'autorité :
+  S95 peut contextualiser la réception rock ; S81 doit porter les affirmations
+  sur les circonstances, facteurs de risque et limites cliniques du cas Curtis.
 ```
-
-S95 mentionne Curtis dans une liste de musiciens, mais ne produit aucune enquête clinique ou biographique. La relation fixe donc un ordre d'autorité : S95 peut contextualiser la réception rock ; S81 doit porter les affirmations sur les circonstances, facteurs de risque et limites cliniques du cas Curtis.
 
 ---
 
 ## R-S95-003 — Identification fan-artiste ↔ culte et réception posthume
 
-```text
+```yaml
 id: R-S95-003
 source_id: S95
 relation_type: articulation_receptologique
@@ -77,15 +83,18 @@ concepts:
   - réception posthume
 chapitres: [14]
 force: moyenne
+note: >
+  S95 fournit une hypothèse générale sur identification, imitation et fandom
+  vulnérable. Elle peut être articulée avec S81-A002 et S87-A001 pour analyser
+  le culte posthume de Curtis, mais seulement comme cadre de réception : elle
+  ne prouve pas une contagion propre à Joy Division.
 ```
-
-S95 fournit une hypothèse générale sur identification, imitation et fandom vulnérable. Elle peut être articulée avec S81-A002 et S87-A001 pour analyser le culte posthume de Curtis, mais seulement comme cadre de réception : elle ne prouve pas une contagion propre à Joy Division.
 
 ---
 
 ## R-S95-004 — Controverse des chansons accusées ↔ responsabilité critique du chapitre 12
 
-```text
+```yaml
 id: R-S95-004
 source_id: S95
 relation_type: tension_ethique
@@ -102,15 +111,18 @@ concepts:
   - prévention suicide
 chapitres: [12, 14]
 force: moyenne
+note: >
+  Les procès et controverses recensés par S95 aident à écrire la responsabilité
+  critique sans censure morale ni fascination morbide. La relation indique un
+  usage rédactionnel : discuter la réception médiatique des œuvres, pas
+  reproduire des paroles ou slogans comme matériau spectaculaire.
 ```
-
-Les procès et controverses recensés par S95 aident à écrire la responsabilité critique sans censure morale ni fascination morbide. La relation indique un usage rédactionnel : discuter la réception médiatique des œuvres, pas reproduire des paroles ou slogans comme matériau spectaculaire.
 
 ---
 
 ## R-S95-005 — Art comme expression / self-therapy ↔ refus de réduire Curtis à un symptôme
 
-```text
+```yaml
 id: R-S95-005
 source_id: S95
 relation_type: nuance_interpretative
@@ -126,15 +138,18 @@ concepts:
   - dystopie intérieure
 chapitres: [11, 12]
 force: moyenne
+note: >
+  S95 propose une hypothèse générale : la musique sombre peut être expression
+  ou auto-thérapie pour l'artiste. Reliée à S67 et S54, elle sert à refuser
+  deux dérives : réduire Curtis à une pathologie ou esthétiser la pathologie
+  comme source romantique du génie.
 ```
-
-S95 propose une hypothèse générale : la musique sombre peut être expression ou auto-thérapie pour l'artiste. Reliée à S67 et S54, elle sert à refuser deux dérives : réduire Curtis à une pathologie ou esthétiser la pathologie comme source romantique du génie.
 
 ---
 
 ## R-S95-006 — Suicide comme authenticité mythique ↔ garde-fou anti-romantisation
 
-```text
+```yaml
 id: R-S95-006
 source_id: S95
 relation_type: tension_interpretative
@@ -150,6 +165,9 @@ concepts:
   - mythe posthume
 chapitres: [14]
 force: forte
+note: >
+  S90-A010 analyse le suicide comme garantie d'authenticité dans la mythologie
+  Joy Division. S95 apporte le contrepoids éthique : toute lecture qui
+  transforme la mort d'artiste en preuve d'authenticité doit être contenue par
+  la non-monocausalité et par le refus de la cause unique.
 ```
-
-S90-A010 analyse le suicide comme garantie d'authenticité dans la mythologie Joy Division. S95 apporte le contrepoids éthique : toute lecture qui transforme la mort d'artiste en preuve d'authenticité doit être contenue par la non-monocausalité et par le refus de la cause unique.
