@@ -1,48 +1,113 @@
 # CLAUDE.md — Règles permanentes du projet
 
-> Mise à jour : 2026-06-07, après audit des dépôts public
-> (`joy-division-ai-writing-studio`) et privé (`joy-division-studio-private`)
-> et alignement sur la `ROADMAP.md` 2026.
+> Mise à jour : 2026-06-07, alignée sur la roadmap stratégique 2026
+> (`docs/roadmap-strategique-2026.md`, version 2.2), après audit des dépôts
+> public (`joy-division-ai-writing-studio`) et privé
+> (`joy-division-studio-private`).
+>
+> La roadmap stratégique est une **couche de lecture additive** : elle ne
+> remplace aucun découpage technique existant. Tout lot technique doit se
+> rattacher à l'un des jalons M0 à M7.
 
 ## Principe directeur 2026
 
-Le corpus est désormais suffisamment constitué pour alimenter le manuscrit.
-Le projet sort de la phase d'accumulation documentaire ; la priorité est la
-**consolidation** : protection GitHub, CI contraignante, synchronisation
-public / privé, graphe relationnel inter-registres, atomisation augmentée par
-mesure d'impact, puis reprise sélective du Studio après retour d'usage réel.
+Le corpus est suffisamment constitué. La priorité n'est plus la collecte mais
+**documenter et fiabiliser l'existant**. Les outils nouveaux viennent ensuite.
 
-Règle de conduite :
+> Priorité actuelle : documenter et fiabiliser. Les outils nouveaux viennent
+> ensuite.
 
-> Ne pas augmenter fortement le volume documentaire tant que les contraintes de
-> validation, de synchronisation et de relation ne sont pas stabilisées.
+### Calendrier des jalons (M0 → M7)
 
-Priorité opérationnelle immédiate (voir `ROADMAP.md` — repo privé) :
+| Jalon | Statut | Intention |
+|---|---|---|
+| M0 — Stabilisation du socle | **immédiat (P0)** | Rendre l'état réel du projet lisible et consolider l'existant. |
+| M1 — Fiabilisation du corpus | **immédiat (P0)** | Rendre l'ajout d'informations plus sûr (schémas, validateurs, contrôles croisés). |
+| M2 — Studio d'enrichissement documentaire | prochain, **pas avant une semaine** (P1) | Industrialiser les ajouts (formulaires, IDs, PR auto). |
+| M3 — Corpus privé unifié | ultérieur (P2) | Repo privé unique, Cloudflare Pages + Zero Trust, autonomisation studio privé (M3.X). |
+| M4 — Studio de rédaction | ultérieur (P2) | Clarifier RAG Studio / manuscript-studio sans refonte. |
+| M5 — Fonds documentaire multimédia | ultérieur (P3) | Photos, scans, bootlegs, vidéos, droits et provenance. |
+| M6 — Assistant historiographique | ultérieur (P3) | Exploiter relations, concepts, motifs, mythes, chaînes argumentatives. |
+| M7 — Publication et pérennisation | ultérieur (P3) | Exports, sauvegardes, documentation de reprise. |
 
-1. C3A-7 — audit joydiv.org pour enrichissement public du hub ;
-2. C3A — densifier les liens inter-registres (concerts ↔ chronologie,
-   releases ↔ chronologie / lieux / sessions, chansons ↔ concerts, personnes ↔
-   concerts / sessions) ;
-3. C3B — mesure d'impact intégrée au flux d'atomisation ;
-4. Studio du manuscrit — expérimentation réelle, **sans nouveau développement**
-   jusqu'au retour d'usage.
+### Règle de progression
+
+- **Activables immédiatement : M0 et M1 uniquement**, en parallèle.
+- **Verrou M2** : M2 reste interdit tant que M0 et M1 ne sont pas clôturés.
+- M3 à M7 : ultérieurs.
+
+## Actions autorisées / interdites (prochains jours)
+
+**Autorisé :**
+
+- documenter M0 et M1 ;
+- auditer les registres et les exports ;
+- renforcer les validations ;
+- produire le tableau de bord qualité (artefact **généré par le build**, jamais
+  un comptage manuel) ;
+- clarifier les dépendances build / validation / publication.
+
+**Interdit pour les prochains jours :**
+
+- lancer M2 ;
+- fusionner les repos ;
+- refondre l'interface ;
+- nouveau développement d'enrichment-studio.
+
+## Commandes de contrôle de référence
+
+    python3 tools/generate_status.py      # générateur DIRECT de STATUS.md
+    python3 tools/build_all.py            # contrôle global du pipeline
+    python3 tools/check_generated_sync.py # sentinelle anti-drift des exports
+    python3 tools/audit_repo.py
+    git status
+
+Nuances importantes :
+
+- `tools/generate_status.py` est le **seul** générateur direct de `STATUS.md` ;
+  `build_all.py` n'est pas présenté comme tel.
+- `tools/check_generated_sync.py` ne couvre pas nécessairement `STATUS.md` : sa
+  fraîcheur est assurée par exécution explicite de `generate_status.py` puis
+  commit du snapshot régénéré lorsqu'il diffère.
+- La référence git inscrite dans `STATUS.md` désigne l'état observé **avant** le
+  commit du snapshot ; ne pas chercher à la faire correspondre au commit final
+  (cela créerait une boucle de commits de snapshots).
 
 ## Régénération des exports (OBLIGATOIRE avant tout push)
 
 À la fin de chaque session qui modifie des fichiers sources
-(registers/, sources/, apps/, chapters/), exécuter AVANT tout push :
+(`registers/`, `sources/`, `apps/`, `chapters/`), exécuter AVANT tout push :
 
     python tools/build_all.py
     git add exports/generated/
     git commit -m "chore(generated): régénération exports [session]"
 
-`build_all.py` est le build canonique : il régénère notamment le graphe
-relationnel `exports/generated/edges.json` via `tools/build_edges.py`.
+`build_all.py` est le contrôle global du pipeline registres / documents maîtres
+/ exports / audits ; il régénère notamment le graphe relationnel
+`exports/generated/edges.json` via `tools/build_edges.py`.
 
 Le check requis `check-generated-sync` doit passer à vert avant toute PR.
-Ne jamais pousser sans avoir régénéré les exports.
+Ne jamais pousser sans avoir régénéré les exports. Régénérer `STATUS.md` via
+`generate_status.py` lorsque la roadmap, les audits ou les artefacts de
+pilotage changent.
 
-## Gouvernance GitHub et PR (Phase A — terminée)
+## Critères de sortie M0 et M1 (rappel)
+
+**M0** est terminé quand l'état réel est lisible : `STATUS.md` régénéré sans
+erreur, sentinelle `check-generated-sync` au vert sur la dernière PR, inventaire
+daté des applications, volumétrie des registres canoniques, table des
+dépendances build / validation / publication, table de rattachement renseignée,
+limites connues distinguées des anomalies, et **aucun chantier M2 lancé**.
+
+**M1** est terminé quand l'ajout est plus sûr : `0` lien inter-registres
+orphelin sur le périmètre publié, `0` identifiant canonique dupliqué, invariants
+critiques au vert (dont la distinction **Kevin Curtis / Ian Curtis**), validation
+de schéma à `100 %`, tableau de bord qualité généré et publié, audit du cas
+**Pennie Smith** clos, règles de source / provenance / droits écrites et
+appliquées (aucun champ `sources` ne doit contenir un identifiant interne comme
+`IMAGE-*` à la place d'une source documentaire `SNN`).
+
+## Gouvernance GitHub et PR
 
 `main` est protégée sur les deux dépôts par le ruleset `A1 — main governance` :
 
@@ -55,10 +120,17 @@ Ne jamais pousser sans avoir régénéré les exports.
 La PR est le lieu normal de toute modification structurante. Ne jamais merger
 une PR avec des checks rouges.
 
-## Validation avant commit (CI publique B1)
+Contraintes d'automatisation (anticipation M2) : une automatisation peut préparer
+une branche, générer les IDs, lancer les contrôles et **ouvrir** une PR, mais
+elle ne doit **jamais merger** ni contourner la validation humaine. Le principe
+« aucun commit sans validation humaine » reste applicable. Tenir compte des
+limites du `GITHUB_TOKEN` (il ne déclenche pas nécessairement les workflows
+attendus sur `pull_request`).
+
+## Validation avant commit (CI publique requise)
 
 Toujours relancer les validateurs concernés et obtenir **zéro erreur** avant
-push. Le gate public requis exécute, dans cet ordre :
+push. Le gate public requis `check-generated-sync` exécute, dans cet ordre :
 
     python tools/check_generated_sync.py
     python tools/build_all.py --quiet
@@ -74,43 +146,30 @@ push. Le gate public requis exécute, dans cet ordre :
     python tools/validate_attribution.py --check-drift
     python tools/validate_edges.py
 
-## CI privée anti-drift (Phase B2 — lot minimal terminé)
+## CI privée anti-drift
 
-Côté repo privé, le check `private-drift-check` empêche la dérive des
-artefacts générés sur toute PR vers `main`. Il contrôle aujourd'hui
-`STATUS.md` et `STATUS_CONSOLIDATED.md` par comparaison normalisée (les
-métadonnées volatiles — horodatage, branche, SHA — sont ignorées).
-Extension progressive prévue : `chapters/master_docs.json`, documents maîtres
-générés et exports privés.
+Côté repo privé, le check requis `private-drift-check` empêche la dérive des
+artefacts générés sur toute PR vers `main`. Il contrôle aujourd'hui `STATUS.md`
+et `STATUS_CONSOLIDATED.md` par comparaison normalisée (les métadonnées
+volatiles — horodatage, branche, SHA — sont ignorées). Extension progressive
+prévue : `chapters/master_docs.json`, documents maîtres générés et exports
+privés.
 
 ## Synchronisation Knowledge Base Claude (après chaque passe)
 
-Après toute mise à jour de chapters/ dans le repo PRIVÉ,
-exécuter depuis le repo PUBLIC :
+Après toute mise à jour de `chapters/` dans le repo PRIVÉ, exécuter depuis le
+repo PUBLIC :
 
     python tools/sync_dm_to_claude_kb.py
 
-Le script génère `exports/generated/DM_consolidated_for_kb.md`.
-Uploader ce fichier dans la KB du projet Claude si des DM ont changé.
-L'upload API sera automatisé quand Anthropic exposera l'endpoint.
+Le script génère `exports/generated/DM_consolidated_for_kb.md`. Uploader ce
+fichier dans la KB du projet Claude si des DM ont changé. L'upload API sera
+automatisé quand Anthropic exposera l'endpoint.
 
 ## Conventions de branche
 
 Toutes les branches Claude : préfixe `claude/*`.
 Jamais de commit direct sur `main` (interdit par le ruleset).
-
-## Actions explicitement suspendues (phases A à D)
-
-- atomisation massive de nouvelles sources ;
-- création de nouveaux registres non indispensables ;
-- enrichissement manuel des documents maîtres générés ;
-- chasse exhaustive aux champs v2 manquants ;
-- grosses intégrations non reliées au graphe ;
-- nouveaux développements Studio jusqu'au retour d'usage réel.
-
-Une nouvelle source reste possible seulement si elle sert une lacune
-identifiée, une controverse, un chapitre faible, une relation manquante ou une
-vérification citationnelle.
 
 ## Confirmation humaine
 
