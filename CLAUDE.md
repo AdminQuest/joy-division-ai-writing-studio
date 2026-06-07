@@ -1,9 +1,18 @@
 # CLAUDE.md — Règles permanentes du projet
 
 > Mise à jour : 2026-06-07, alignée sur la roadmap stratégique 2026
-> (`docs/roadmap-strategique-2026.md`, version 2.2), après audit des dépôts
+> (`docs/roadmap-strategique-2026.md`, version 2.2), après lecture des
+> documents `docs/` (clôtures M0/M1/M2, état de référence) et audit des dépôts
 > public (`joy-division-ai-writing-studio`) et privé
 > (`joy-division-studio-private`).
+>
+> **Roadmap de référence unique** : `docs/roadmap-strategique-2026.md` (repo
+> public). L'ancien `ROADMAP.md` du repo privé a été supprimé pour éviter toute
+> confusion.
+>
+> **Étape courante : M3.** M0, M1 et M2 sont clôturés. Le jalon actif est M3 —
+> corpus privé unifié, avec en tête le chantier **M3.X — Industrialisation
+> documentaire et autonomisation du studio privé**.
 >
 > La roadmap stratégique est une **couche de lecture additive** : elle ne
 > remplace aucun découpage technique existant. Tout lot technique doit se
@@ -21,10 +30,10 @@ Le corpus est suffisamment constitué. La priorité n'est plus la collecte mais
 
 | Jalon | Statut | Intention |
 |---|---|---|
-| M0 — Stabilisation du socle | **immédiat (P0)** | Rendre l'état réel du projet lisible et consolider l'existant. |
-| M1 — Fiabilisation du corpus | **immédiat (P0)** | Rendre l'ajout d'informations plus sûr (schémas, validateurs, contrôles croisés). |
-| M2 — Studio d'enrichissement documentaire | prochain, **pas avant une semaine** (P1) | Industrialiser les ajouts (formulaires, IDs, PR auto). |
-| M3 — Corpus privé unifié | ultérieur (P2) | Repo privé unique, Cloudflare Pages + Zero Trust, autonomisation studio privé (M3.X). |
+| M0 — Stabilisation du socle | **clôturé (2026-06-05)** | État réel du projet rendu lisible, socle consolidé. |
+| M1 — Fiabilisation du corpus | **clôturé (2026-06-06)** | Contrôles DM→atomes/registres/sources, traçabilité, invariants. |
+| M2 — Studio d'enrichissement documentaire | **clôturé (2026-06-06)** | Studio de préparation (CLI PERSON/ORG/IMAGE/PLACE/SOURCE, formulaire, batch, résumés PR). |
+| M3 — Corpus privé unifié | **actif (P2)** | Repo privé unique, Cloudflare Pages + Zero Trust, **M3.X autonomisation studio privé**. |
 | M4 — Studio de rédaction | ultérieur (P2) | Clarifier RAG Studio / manuscript-studio sans refonte. |
 | M5 — Fonds documentaire multimédia | ultérieur (P3) | Photos, scans, bootlegs, vidéos, droits et provenance. |
 | M6 — Assistant historiographique | ultérieur (P3) | Exploiter relations, concepts, motifs, mythes, chaînes argumentatives. |
@@ -32,27 +41,38 @@ Le corpus est suffisamment constitué. La priorité n'est plus la collecte mais
 
 ### Règle de progression
 
-- **Activables immédiatement : M0 et M1 uniquement**, en parallèle.
-- **Verrou M2** : M2 reste interdit tant que M0 et M1 ne sont pas clôturés.
-- M3 à M7 : ultérieurs.
+- **Jalon actif : M3** (M0, M1 et M2 clôturés). Priorité au chantier **M3.X —
+  Industrialisation documentaire et autonomisation du studio privé**.
+- M4 à M7 : ultérieurs, non activés.
+- Tout nouveau lot technique doit se rattacher explicitement à un jalon.
 
-## Actions autorisées / interdites (prochains jours)
+## Doctrine M2 acquise (à respecter en M3)
 
-**Autorisé :**
+Le studio M2 reste un outil de **préparation**, pas d'intégration automatique :
 
-- documenter M0 et M1 ;
-- auditer les registres et les exports ;
-- renforcer les validations ;
-- produire le tableau de bord qualité (artefact **généré par le build**, jamais
-  un comptage manuel) ;
-- clarifier les dépendances build / validation / publication.
+> Le studio prépare. L'humain valide.
 
-**Interdit pour les prochains jours :**
+Garde-fous structurants conservés : aucune création automatique de sources,
+atomes, citations ou relations ; aucune modification automatique de registres ;
+aucun GitHub automatique (branche / PR / merge) ; décision documentaire toujours
+humaine. Les CLI M2 (`tools/m2_add_person.py`, `m2_add_org.py`,
+`m2_add_image.py`, `m2_add_place.py`, `m2_integrate_source.py`,
+`m2_batch_prevalidation.py`) produisent des diagnostics et des résumés PR
+relisibles, jamais une validation.
 
-- lancer M2 ;
-- fusionner les repos ;
-- refondre l'interface ;
-- nouveau développement d'enrichment-studio.
+## Cap M3 — industrialisation et autonomisation du studio privé
+
+Principes à appliquer à partir de M3 (voir `docs/roadmap-strategique-2026.md`) :
+
+- aucune source nouvelle n'entre sans **sas documentaire normalisé**
+  (`sources/_incoming/Sxx/` : `source.pdf`, `source.txt`, `source_meta.yaml`) ;
+- canonisation outillée (dossier source + entrée registre + fichiers standards) ;
+- atomisation reproductible produisant une **preuve de propagation**
+  (`Sxx_propagation_report.md`) vers exports, registres, DM et interfaces ;
+- les applications privées ne doivent plus dépendre, au runtime, de fetchs
+  GitHub distants vers le repo public : cible = lecture locale synchronisée ;
+- Cloudflare Pages + Zero Trust restent **décidés mais non lancés** ; la fusion
+  des repos reste interdite tant qu'un plan M3 valide n'est pas arrêté.
 
 ## Commandes de contrôle de référence
 
@@ -91,21 +111,26 @@ Ne jamais pousser sans avoir régénéré les exports. Régénérer `STATUS.md` 
 `generate_status.py` lorsque la roadmap, les audits ou les artefacts de
 pilotage changent.
 
-## Critères de sortie M0 et M1 (rappel)
+## Invariants hérités de M0 / M1 (toujours actifs)
 
-**M0** est terminé quand l'état réel est lisible : `STATUS.md` régénéré sans
-erreur, sentinelle `check-generated-sync` au vert sur la dernière PR, inventaire
-daté des applications, volumétrie des registres canoniques, table des
-dépendances build / validation / publication, table de rattachement renseignée,
-limites connues distinguées des anomalies, et **aucun chantier M2 lancé**.
+Les jalons M0 et M1 sont clôturés (clôtures : `docs/m0-cloture.md`,
+`docs/m1-cloture.md` puis PR de clôture M1) mais leurs invariants restent
+opposables :
 
-**M1** est terminé quand l'ajout est plus sûr : `0` lien inter-registres
-orphelin sur le périmètre publié, `0` identifiant canonique dupliqué, invariants
-critiques au vert (dont la distinction **Kevin Curtis / Ian Curtis**), validation
-de schéma à `100 %`, tableau de bord qualité généré et publié, audit du cas
-**Pennie Smith** clos, règles de source / provenance / droits écrites et
-appliquées (aucun champ `sources` ne doit contenir un identifiant interne comme
-`IMAGE-*` à la place d'une source documentaire `SNN`).
+- le corpus est la source de vérité ; les documents maîtres ne sont pas des
+  sources et sont générés par `tools/build_master_docs.py` ;
+- les artefacts générés ne sont jamais corrigés manuellement ;
+- traçabilité DM → atomes / registres / sources contrôlée
+  (`tools/check_dm_atoms_traceability.py`,
+  `tools/check_dm_registers_consistency.py`,
+  `tools/check_dm_sources_consistency.py`, agrégés par `tools/aggregate_m1.py`) ;
+- invariants critiques au vert, dont la distinction **Kevin Curtis / Ian
+  Curtis** ;
+- aucun champ `sources` ne doit contenir un identifiant interne comme `IMAGE-*`
+  à la place d'une source documentaire `Sxx` ;
+- dette M1 résiduelle documentée (libellés divergents, familles hors MVP,
+  tableau de bord qualité complet, audit Pennie Smith) à traiter sans rouvrir le
+  jalon.
 
 ## Gouvernance GitHub et PR
 
