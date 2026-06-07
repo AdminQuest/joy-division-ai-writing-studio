@@ -130,7 +130,7 @@ Ce document ne détaille pas les travaux M1 et ne les ouvre pas.
 - Améliorations d'interface visant l'ajout ou la modification des données.
 - Refondre ou non les interfaces de consultation.
 - Intégration d'un repo privé unifié.
-- Autonomisation documentaire du studio privé : suppression progressive des dépendances runtime du repo privé vers le repo public, synchronisation locale des exports, registres et documents maîtres, et refonte du dashboard corpus privé pour lecture locale.
+- Industrialisation documentaire et autonomisation du studio privé : sas normalisé d'entrée des sources, canonisation assistée, atomisation reproductible, preuve automatique de propagation, suppression progressive des dépendances runtime du repo privé vers le repo public, synchronisation locale des exports, registres et documents maîtres, et refonte des interfaces privées pour lecture locale maîtrisée.
 - Politique multimédia, droits, provenance et republication.
 
 # Invariants du projet
@@ -146,6 +146,7 @@ Ce document ne détaille pas les travaux M1 et ne les ouvre pas.
 - M2 ne doit pas être ouvert avant décision explicite.
 - Les décisions d'architecture doivent être documentées avant toute refonte.
 - Les applications privées ne doivent pas devenir durablement de simples lecteurs runtime du repo public ; toute dépendance inter-repos doit être cartographiée puis remplacée par une synchronisation maîtrisée lorsque M3 sera activé.
+- À partir de M3, aucune source nouvelle ne doit entrer dans le corpus sans sas documentaire normalisé, canonisation outillée et preuve de propagation jusqu'aux exports, registres, documents maîtres et interfaces concernées.
 
 # Utilisation du document
 
