@@ -121,17 +121,17 @@ architecture technique définitive) :
 |---|---|---|
 | **La Collection** | Conserver / documenter / valoriser les objets possédés | vinyles, CD, cassettes, bootlegs, livres, affiches, photos, objets, scans, métadonnées de provenance |
 | **L'Usine** | Transformer la matière brute en données structurées | atomisation, enrichissement, intégration de sources, création de registres, normalisation, validation, workflows Codex |
-| **L'Entrepôt** | Conserver, structurer et interroger le corpus | sources, atomes, registres, relations, chronologies, citations, exports, **moteur RAG** |
+| **Le Fonds** | Conserver, structurer et interroger le corpus | sources, atomes, registres, relations, chronologies, citations, exports, **moteur RAG** |
 | **L'Atelier** | Produire le manuscrit | exports RAG, documents maîtres, Forge, manuscrits, audits de chapitres, versions de travail |
 | **La Vigie** | Piloter qualité et stratégie | roadmap, audits, contrôles, rapports, agrégation, tableau de bord, indicateurs |
 
-Flux : **Collection → Usine → Entrepôt → Atelier → Vigie**.
+Flux : **Collection → Usine → Le Fonds → Atelier → Vigie**.
 
 Règles structurantes :
 
 - **Collection ≠ Corpus** : un objet peut exister dans la Collection sans être
   intégré au Corpus ; l'**Usine** fabrique le Corpus à partir de la matière ;
-- l'**Entrepôt** est le cœur : on y cherche, on n'y rédige pas ; le **RAG** y vit ;
+- **Le Fonds** est le cœur : on y cherche, on n'y rédige pas ; le **RAG** y vit ;
 - l'**Atelier** est le seul espace de rédaction ;
 - la **Vigie** est ce que M1 a commencé à construire (contrôles, agrégation,
   tableau de bord qualité) ;

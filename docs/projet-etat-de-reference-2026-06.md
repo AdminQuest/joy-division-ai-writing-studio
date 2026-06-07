@@ -20,7 +20,7 @@ Le projet n'est pas un simple dépôt de notes, ni une application unique, ni un
 > privé (hub), par fonction et non par technologie. Cadre d'organisation, **non
 > figé** comme architecture technique définitive. Elle ne remplace pas la
 > doctrine documentaire stabilisée (Corpus / RAG / Manuscript / documents
-> maîtres), qui reste valable au sein de l'Entrepôt et de l'Atelier. Rien ne
+> maîtres), qui reste valable au sein du Fonds et de l'Atelier. Rien ne
 > reste public : tout le hub est privé derrière Cloudflare Zero Trust.
 
 ```text
@@ -28,7 +28,7 @@ Collection
 ↓
 Usine
 ↓
-Entrepôt
+Le Fonds
 ↓
 Atelier
 ↓
@@ -57,16 +57,16 @@ Vigie
 | Objets principaux | Brouillons d'ajout, propositions structurées, validations préalables, PR automatisables. |
 | Limites | L'Usine ne doit pas être ouverte en M0 ; elle relève de M2 ou d'une décision ultérieure selon le périmètre exact. |
 
-## Entrepôt
+## Le Fonds (ex-Entrepôt)
 
 | Champ | Valeur |
 | --- | --- |
-| Statut | Nom de travail possible, non décisionnel. |
+| Statut | Nom retenu le 2026-06-07 pour le hub M3 (auparavant « Entrepôt »). |
 | Rattachement M0 | Espace Corpus + registres + RAG, c'est-à-dire le socle documentaire et ses vues d'exploration. |
-| Fonction envisagée | Conserver et exposer les objets structurés et les vues exploitables du corpus. |
+| Fonction envisagée | Conserver et exposer les objets structurés et les vues exploitables du corpus ; on y cherche, on n'y rédige pas. |
 | Périmètre possible | `sources/`, `registers/`, `exports/generated/`, RAG Studio, documents de navigation. |
 | Objets principaux | Sources, atomes, registres, exports générés, index, fragments RAG, diagnostics et audits. |
-| Limites | L'Entrepôt n'est pas une nouvelle architecture décidée ; il ne remplace pas la distinction Corpus / RAG / documents maîtres. |
+| Limites | Le Fonds ne remplace pas la distinction Corpus / RAG / documents maîtres. |
 
 ## Atelier
 

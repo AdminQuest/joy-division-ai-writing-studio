@@ -15,6 +15,8 @@
 | Objectif n1 de M3 : depot unique prive derriere Cloudflare Zero Trust (v2.3) | La decision utilisateur leve l'interdiction de fusion : les deux depots public et prive sont destines a etre remplaces par un depot unique, nouveau, prive, expose derriere Cloudflare Zero Trust. Ce chantier impose une reprise de l'architecture globale. |
 | Bascule de la dette residuelle M1 en M3 (v2.3) | La dette acceptee a la cloture M1 (tableau de bord qualite complet, audit Pennie Smith, indicateurs consolides, reserves DM -> registres, verification provenance/droits) est reprise comme chantiers M3 sans rouvrir M1. |
 | Roadmap de reference unique (v2.3) | L'ancien ROADMAP.md du depot prive a ete supprime. Ce document est la roadmap de reference unique du projet. |
+| Perimetre M3 : quatre depots et reagencement leger (v2.3) | Le hub absorbe les quatre depots (public, prive, releases, collection) ; tout devient prive (aucune diffusion publique, y compris releases). Le reagencement est un mapping logique sur cinq espaces, sans deplacement massif de dossiers. |
+| Renommage de l'espace corpus : Le Fonds (v2.3) | L'espace corpus + RAG, auparavant nomme « Entrepot », est renomme « Le Fonds ». Les cinq espaces deviennent : La Collection, L'Usine, Le Fonds, L'Atelier, La Vigie. |
 | Ajout d'un bloc de versionnement | Le document indique sa version, sa date, son auteur de revision et son statut additif. |
 | Ajout d'une table de rattachement initiale | Les chantiers deja identifies sont rattaches aux jalons M0 a M7 sans remplacer les decoupages techniques existants. |
 | Criteres M0 et M1 rendus verifiables | Les criteres qualitatifs initiaux sont completes par des criteres observables et controlables. |
@@ -356,7 +358,7 @@ humaine. M3 commence donc par la conception, pas par la bascule.
   Cloudflare Zero Trust. La frontiere actuelle entre depot public et depot prive
   disparait.
 - **Organisation par fonction, pas par technologie** : la structure interne du
-  hub suit cinq espaces fonctionnels (Collection, Usine, Entrepot, Atelier,
+  hub suit cinq espaces fonctionnels (Collection, Usine, Le Fonds, Atelier,
   Vigie), et non un decoupage ex-public / ex-prive.
 - **Perimetre : quatre depots absorbes** — `joy-division-ai-writing-studio`,
   `joy-division-studio-private`, `joy-division-releases` (registre des
@@ -380,7 +382,7 @@ logique, contenus conserves) :
 | --- | --- |
 | La Collection | `joy-division-collection/` (possession, observations, wishlist) ; `joy-division-releases/` (registre des variantes). |
 | L'Usine | `tools/` (atomisation, build, validation, canonisation) ; `apps/m2-formulaire/` ; `schemas/`. |
-| L'Entrepot | `sources/`, `registers/`, `exports/`, `rag/` ; les 11 apps registres ; `apps/rag-studio/`. |
+| Le Fonds | `sources/`, `registers/`, `exports/`, `rag/` ; les 11 apps registres ; `apps/rag-studio/`. |
 | L'Atelier | `chapters/` (DM generes + matiere editoriale privee), `master_docs/`, `prompts/` ; `apps/manuscript-studio/`, `apps/master-docs/`, `apps/prompt-studio/`, `apps/local-songbook-editor/`. |
 | La Vigie | `reports/`, `docs/` (roadmap, audits), `STATUS*.md` ; `apps/corpus-dashboard/` ; indicateurs M1. |
 
@@ -401,11 +403,11 @@ architecture technique definitive ; voir aussi
 | --- | --- |
 | La Collection | Conserver les objets possedes : preserver, documenter, valoriser (vinyles, CD, cassettes, bootlegs, livres, affiches, photos, objets, scans, provenance). |
 | L'Usine | Transformer la matiere brute en donnees structurees : atomisation, enrichissement, integration de sources, registres, normalisation, validation. Elle fabrique le Corpus. |
-| L'Entrepot | Conserver, structurer et interroger le corpus : sources, atomes, registres, relations, chronologies, citations, exports, moteur RAG. On y cherche, on n'y redige pas. |
+| Le Fonds | Conserver, structurer et interroger le corpus : sources, atomes, registres, relations, chronologies, citations, exports, moteur RAG. On y cherche, on n'y redige pas. |
 | L'Atelier | Produire le manuscrit : exports RAG, documents maitres, Forge, manuscrits, audits de chapitres, versions de travail. Seul espace de redaction. |
 | La Vigie | Piloter la qualite et la strategie : roadmap, audits, controles, rapports, agregation, tableau de bord, indicateurs. Ce que M1 a commence a construire. |
 
-Flux : Collection -> Usine -> Entrepot -> Atelier -> Vigie.
+Flux : Collection -> Usine -> Le Fonds -> Atelier -> Vigie.
 
 Regles structurantes : Collection != Corpus (un objet peut exister dans la
 Collection sans etre integre au Corpus) ; les IA (Claude, Codex, ChatGPT, futurs
