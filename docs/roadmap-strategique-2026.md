@@ -2,7 +2,7 @@
 
 | Champ | Valeur |
 | --- | --- |
-| Version | 2.1 |
+| Version | 2.2 |
 | Date | 2026-06-07 |
 | Auteur de la revision | Codex, sur instruction utilisateur |
 | Statut | roadmap strategique additive |
@@ -16,7 +16,7 @@
 | Criteres M0 et M1 rendus verifiables | Les criteres qualitatifs initiaux sont completes par des criteres observables et controlables. |
 | Definition d'un tableau de bord qualite | Le tableau de bord est defini comme artefact genere par le build, sans comptage manuel stable. |
 | Decision Cloudflare Pages + Zero Trust | Cloudflare Pages et Zero Trust sont inscrits comme decision d'architecture M3, non comme hypothese immediate. |
-| Priorite M3 d'autonomisation documentaire du studio prive | Le chantier "Autonomisation documentaire du studio prive" est inscrit au meme niveau strategique que Cloudflare Zero Trust afin de supprimer progressivement les dependances runtime inter-repos. |
+| Priorite M3 d'industrialisation documentaire et d'autonomisation du studio prive | Le chantier "Industrialisation documentaire et autonomisation du studio prive" est inscrit au meme niveau strategique que Cloudflare Zero Trust, la securisation des acces et la consolidation applicative. |
 | Clarification M0 // M1 et verrou M2 | M0 et M1 progressent en parallele ; M2 reste interdit tant que M0 et M1 ne sont pas clotures. |
 | Contraintes PR automatisees et GITHUB_TOKEN | Les limites d'automatisation, de validation humaine et de declenchement des workflows sont explicitees. |
 
@@ -75,7 +75,7 @@ STATUS.md est genere a partir de l'etat de travail observe par `tools/generate_s
 | M0 — Stabilisation du socle | immediat | P0 | Comprendre et consolider l'existant. |
 | M1 — Fiabilisation du corpus | immediat | P0 | Reduire le risque d'integration documentaire. |
 | M2 — Studio d'enrichissement documentaire | prochain, pas avant une semaine | P1 | Industrialiser les ajouts apres stabilisation. |
-| M3 — Corpus prive unifie | ulterieur | P2 | Preparer repo unique prive et deploiement protege. |
+| M3 — Corpus prive unifie | ulterieur | P2, avec chantiers internes prioritaires | Preparer repo prive unifie, chaine documentaire industrialisee et deploiement protege. |
 | M4 — Studio de redaction | ulterieur | P2 | Clarifier les outils de redaction sans refonte immediate. |
 | M5 — Fonds documentaire multimedia | ulterieur | P3 | Structurer photos, scans, bootlegs, videos et documents rares. |
 | M6 — Assistant historiographique | ulterieur | P3 | Exploiter relations, concepts, motifs, mythes et argumentation. |
@@ -102,7 +102,7 @@ Un chantier peut se rattacher a plusieurs jalons selon sa phase : documentation,
 | Chantiers RAG / manuscript-studio | experimental | M4 | Roles a clarifier sans refonte immediate. |
 | Collection personnelle | actif | M0 + M3 + M5 | Inventaire en M0 ; integration au repo unique prive en M3 ; medias, objets et droits en M5. |
 | Migration Cloudflare Pages + Zero Trust | decide, non lance | M3 | Decision d'architecture ; migration ulterieure apres stabilisation M0/M1. |
-| Autonomisation documentaire du studio prive | decide, non lance | M3 | Supprimer progressivement les dependances runtime du repo prive vers le repo public ; priorite equivalente au chantier Cloudflare Zero Trust. |
+| Industrialisation documentaire et autonomisation du studio prive | decide, prioritaire M3 | M3 | Passer d'ajouts documentaires artisanaux a une chaine observable : sas d'entree, canonisation assistee, atomisation reproductible, preuve de propagation et lecture locale maitrisee dans le repo prive. |
 
 L'application de consultation du registre concerts appartient au perimetre des applications existantes a inventorier et a auditer ; elle ne doit pas etre recreee. Le point ouvert concerne uniquement les ameliorations futures et le formulaire d'ajout, qui relevent de M2.
 
@@ -320,7 +320,7 @@ Ces criteres devront etre rendus mesurables au declenchement effectif du jalon.
 
 **Priorite** : P2.
 
-**Objectif** : preparer une architecture cible autour d'un repo prive unifie, d'un deploiement Cloudflare Pages et d'un acces Zero Trust.
+**Objectif** : preparer une architecture cible autour d'un repo prive unifie, d'une chaine documentaire industrialisee, d'un deploiement Cloudflare Pages et d'un acces Zero Trust.
 
 Decision d'architecture : la cible retenue est un depot prive unique publie via Cloudflare Pages, protege par Cloudflare Zero Trust. Cette decision n'est pas activee immediatement : elle releve de M3 et reste interdite tant que M0 et M1 ne sont pas clotures.
 
@@ -330,14 +330,117 @@ Cloudflare est decide ; le calendrier de migration n'est pas lance. La fusion de
 
 Decision d'architecture complementaire : le repo prive doit progressivement devenir autonome sur le plan documentaire. Les applications privees ne doivent plus dependre, au runtime, de fetchs GitHub distants vers le repo public pour afficher l'etat du corpus. La cible M3 est une consommation locale des exports, registres et documents maitres, appuyee sur une synchronisation maitrisee plutot que sur une lecture distante.
 
-Le chantier explicitement retenu est intitule : **Autonomisation documentaire du studio prive**.
+Le chantier explicitement retenu est intitule : **M3.X — Industrialisation documentaire et autonomisation du studio prive**.
 
-Ce chantier est place dans M3 avec un niveau de priorite equivalent au chantier Cloudflare Pages + Zero Trust. Le constat qui le motive est structurel : certaines interfaces privees peuvent afficher un etat ancien lorsque les donnees publiques sont correctement generees mais que l'application privee consomme encore une ressource distante ou un miroir non synchronise.
+Ce chantier est place dans M3 avec un niveau de priorite equivalent au chantier Cloudflare Pages + Zero Trust, a la securisation des acces et a la consolidation applicative. Le constat qui le motive est structurel : les travaux recents sur S37, S95, le dashboard corpus prive et le miroir prive des documents maitres montrent que la production documentaire peut etre correcte alors que la visibilite, la tracabilite ou l'exposition applicative restent trop artisanales.
+
+Le probleme M3 n'est donc plus seulement documentaire. Il concerne toute la chaine :
+
+- entree des sources ;
+- canonisation ;
+- atomisation ;
+- propagation ;
+- exposition dans les interfaces ;
+- dependances entre repo public et repo prive.
+
+### M3.X — Industrialisation documentaire et autonomisation du studio prive
+
+**Objectif general** : passer d'un ensemble de scripts et de conventions a une chaine documentaire industrialisee, observable et verifiable.
+
+Principes a appliquer a partir de M3 :
+
+- aucune source n'entre directement dans le systeme ;
+- toute source passe par un sas normalise ;
+- toute canonisation est outillee ;
+- toute atomisation produit une preuve automatique de propagation ;
+- toute interface privee lit des donnees locales maitrisees ;
+- les dependances runtime au repo public sont progressivement supprimees.
+
+Sous-chantiers prioritaires :
+
+1. **Sas documentaire d'entree**
+
+   Convention cible :
+
+   ```text
+   sources/_incoming/Sxx/
+   source.pdf
+   source.txt
+   source_meta.yaml
+   ```
+
+   Objectif : supprimer les ambiguites sur les sources visibles par Codex, les assistants documentaires et les scripts de canonisation.
+
+2. **Canonisation assistee**
+
+   Outillage attendu :
+
+   - creation du dossier source ;
+   - creation de l'entree registre ;
+   - creation des fichiers standards ;
+   - generation du squelette documentaire.
+
+   Objectif : reduire les taches repetitives et limiter les erreurs de nommage, de source_id, de dossier et de metadonnees.
+
+3. **Industrialisation de l'atomisation**
+
+   Workflow standard :
+
+   ```text
+   source
+   -> canonisation
+   -> atomes
+   -> relations
+   -> registres
+   -> exports
+   -> documents maitres
+   -> interfaces
+   ```
+
+   Objectif : rendre la chaine unique, reproductible et comprehensible par revue humaine.
+
+4. **Preuve automatique de propagation**
+
+   Rapport systematique attendu :
+
+   ```text
+   Sxx_propagation_report.md
+   ```
+
+   Contenu minimal :
+
+   - atomes crees ;
+   - exports impactes ;
+   - registres impactes ;
+   - documents maitres impactes ;
+   - interfaces impactees.
+
+   Objectif : supprimer les verifications manuelles dispersees apres atomisation.
+
+5. **Autonomisation du studio prive**
+
+   Audit attendu :
+
+   - dashboard corpus ;
+   - documents maitres ;
+   - registres ;
+   - RAG ;
+   - autres applications privees.
+
+   Objectif : remplacer progressivement les fetchs GitHub distants vers le repo public par des donnees locales synchronisees, versionnees ou explicitement miroires.
+
+6. **Preparation Cloudflare Zero Trust**
+
+   L'autonomisation documentaire devient un prerequis du basculement final sous Zero Trust : la securisation, l'autonomie documentaire et l'architecture applicative doivent converger avant exposition protegee.
 
 **Perimetre futur** :
 
 - architecture cible ;
 - strategie de migration ;
+- industrialisation du cycle source -> interface ;
+- sas documentaire d'entree ;
+- canonisation assistee ;
+- preuve automatique de propagation documentaire ;
 - audit des dependances actuelles entre repo public et repo prive ;
 - cartographie des applications privees consommant encore des ressources publiques ;
 - suppression progressive des dependances runtime au repo public ;
@@ -351,6 +454,11 @@ Ce chantier est place dans M3 avec un niveau de priorite equivalent au chantier 
 **Livrables futurs** :
 
 - note d'architecture cible ;
+- convention `sources/_incoming/Sxx/` avec `source.pdf`, `source.txt` et `source_meta.yaml` ;
+- outillage de canonisation assistee ;
+- squelette documentaire standard par source canonisee ;
+- workflow source -> canonisation -> atomes -> relations -> registres -> exports -> documents maitres -> interfaces ;
+- rapport automatique `Sxx_propagation_report.md` ;
 - inventaire des repos et flux a rapprocher ;
 - inventaire des fetchs, URLs distantes et ressources inter-repos encore utilisees par les applications privees ;
 - matrice application privee -> ressource consommee -> strategie cible ;
@@ -366,6 +474,9 @@ Ce chantier est place dans M3 avec un niveau de priorite equivalent au chantier 
 - aucun repo n'est fusionne sans plan valide ;
 - les roadmaps existantes sont conservees ;
 - les donnees publiques et privees sont distinguees ;
+- aucune source nouvelle n'entre dans le systeme sans sas documentaire normalise ;
+- toute canonisation produit un dossier source, une entree registre et des fichiers standards coherents ;
+- toute atomisation nouvelle produit une preuve de propagation vers exports, registres, documents maitres et interfaces concernees ;
 - les applications privees critiques ne dependent plus de fetchs GitHub distants vers le repo public pour rendre l'etat courant du corpus ;
 - les exports, registres et documents maitres necessaires aux interfaces privees sont disponibles localement ou synchronises par un mecanisme explicite ;
 - le dashboard corpus prive affiche l'etat documentaire local synchronise, pas un etat distant implicite ;
@@ -384,6 +495,8 @@ Ces criteres devront etre rendus mesurables au declenchement effectif du jalon.
 
 - fusion prematuree des repos ;
 - perte de contexte entre corpus public, corpus prive et studios ;
+- nouvelle source ajoutee hors sas, impossible a reproduire ou relire par Codex ;
+- atomisation correcte mais propagation non prouvee jusqu'aux interfaces ;
 - interfaces privees affichant un etat documentaire ancien a cause d'une lecture distante ou d'un miroir non synchronise ;
 - confusion entre synchronisation maitrisee et dependance runtime implicite ;
 - complexite Cloudflare/Zero Trust introduite avant stabilisation documentaire.
