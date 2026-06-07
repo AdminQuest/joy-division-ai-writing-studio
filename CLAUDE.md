@@ -90,9 +90,19 @@ confié à l'assistant. Avant toute migration :
    synchronisée des exports, registres et documents maîtres ;
 6. **Exposition finale** derrière Cloudflare Pages + Zero Trust.
 
+**Décisions d'architecture actées (2026-06-07) :**
+
+- **historique git** : le dépôt unique repart d'un commit initial propre ; les
+  deux dépôts actuels sont archivés en lecture seule (pas de fusion
+  d'historiques) ;
+- **frontière public / privé** : distinction **logique** seulement (convention
+  de dossiers / exports) — tout est privé derrière Zero Trust, sans contrôle
+  d'accès séparé.
+
 Tant que l'architecture cible et le plan de migration ne sont pas validés par
 décision humaine, la fusion effective et la suppression des dépôts existants ne
-sont pas exécutées : M3 commence par la **conception**, pas par la bascule.
+sont pas exécutées : M3 commence par la **conception**, pas par la bascule. Le
+dossier d'architecture détaillé sera produit sur instruction ultérieure.
 
 ### Dette M1 résiduelle basculée en M3
 

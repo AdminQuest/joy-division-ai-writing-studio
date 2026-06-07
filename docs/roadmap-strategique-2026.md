@@ -347,6 +347,18 @@ suppression des depots existants restent toutefois conditionnees a une
 architecture cible et a un plan de migration reversible valides par decision
 humaine. M3 commence donc par la conception, pas par la bascule.
 
+**Decisions d'architecture actees (2026-06-07)** :
+
+- **Historique git** : le depot unique repart d'un commit initial propre. Les
+  deux depots actuels sont archives en lecture seule comme reference historique
+  (pas de fusion d'historiques git).
+- **Frontiere public / prive** : elle devient une **distinction logique** au
+  sein du depot unique. Tout est prive derriere Cloudflare Zero Trust ; l'ancien
+  decoupage public / prive se traduit par une convention de dossiers et
+  d'exports, sans controle d'acces separe.
+- Le dossier d'architecture detaille n'est pas encore demande : a produire avant
+  toute migration, sur instruction ulterieure.
+
 **Objectif general** : autour de ce depot unique, etablir une architecture
 cible, une chaine documentaire industrialisee, un deploiement Cloudflare Pages
 et un acces Zero Trust.
