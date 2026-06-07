@@ -141,7 +141,10 @@ Règles structurantes :
 Tant que l'architecture cible et le plan de migration ne sont pas validés par
 décision humaine, la fusion effective et la suppression des dépôts existants ne
 sont pas exécutées : M3 commence par la **conception**, pas par la bascule. Le
-dossier d'architecture détaillé sera produit sur instruction ultérieure.
+dossier d'architecture détaillé est `docs/m3-architecture-depot-unique.md`
+(arborescence cible, manifest des cinq espaces, import des quatre dépôts,
+bascule des fetchs distants en lecture locale, CI unifiée, exposition Zero
+Trust, plan de migration réversible) — en attente de validation humaine.
 
 ### Dette M1 résiduelle basculée en M3
 

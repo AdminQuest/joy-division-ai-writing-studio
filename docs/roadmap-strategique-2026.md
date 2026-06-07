@@ -370,8 +370,11 @@ humaine. M3 commence donc par la conception, pas par la bascule.
   de lecture (README / manifest + navigation), pas un deplacement massif de
   dossiers. Aucune fonctionnalite perdue (14 registres, RAG, manuscript-studio,
   dashboard, collection).
-- Le dossier d'architecture detaille n'est pas encore demande : a produire avant
-  toute migration, sur instruction ulterieure.
+- Le dossier d'architecture detaille est produit : `docs/m3-architecture-depot-unique.md`
+  (arborescence cible, manifest des cinq espaces, import des quatre depots,
+  bascule des fetchs distants en lecture locale, CI unifiee, exposition Zero
+  Trust, plan de migration reversible). Il est en attente de validation humaine
+  avant toute migration.
 
 ### Transposition des depots actuels (cadre)
 
