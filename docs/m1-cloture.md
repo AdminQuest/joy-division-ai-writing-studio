@@ -146,6 +146,22 @@ Appreciation synthetique : M1 a atteint une maturite operationnelle pour les con
 
 ## 7. Décision
 
-Décision :
+Décision (évaluation initiale) :
 M1 reste ouvert.
 L'ouverture de M2 n'est pas autorisée.
+
+## 8. Mise à jour — clôture effective de M1 (2026-06-06)
+
+> Note de cohérence ajoutée le 2026-06-07.
+
+L'évaluation ci-dessus recommandait de garder M1 ouvert au regard des critères de
+sortie stricts de la roadmap. Après traitement des points P0 et décision humaine,
+**M1 a été clôturé le 2026-06-06** (PR de clôture M1 #134), ce qui a autorisé
+l'ouverture puis la clôture de M2 (`docs/m2-bilan-final.md`, 2026-06-06).
+
+La dette résiduelle listée aux sections 4 à 6 (tableau de bord qualité complet,
+audit Pennie Smith, indicateurs consolidés liens orphelins / identifiants
+dupliqués / validation de schéma à 100 %, réserves `DM → registres`, vérification
+provenance / droits) n'a **pas** été traitée comme bloquante : elle est
+explicitement **basculée en M3** (voir `docs/roadmap-strategique-2026.md`,
+section « Dette M1 residuelle basculee en M3 »). M1 n'est pas rouvert.

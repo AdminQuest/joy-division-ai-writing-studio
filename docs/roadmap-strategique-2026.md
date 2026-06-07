@@ -2,15 +2,19 @@
 
 | Champ | Valeur |
 | --- | --- |
-| Version | 2.2 |
+| Version | 2.3 |
 | Date | 2026-06-07 |
-| Auteur de la revision | Codex, sur instruction utilisateur |
-| Statut | roadmap strategique additive |
+| Auteur de la revision | Assistant, sur instruction utilisateur |
+| Statut | roadmap strategique additive — roadmap de reference unique |
 
 ## Journal des modifications
 
 | Evolution | Description |
 | --- | --- |
+| Cloture M0, M1 et M2 et lancement M3 (v2.3) | M0 (2026-06-05), M1 (2026-06-06) et M2 (2026-06-06) sont clotures. M3 est lance le 2026-06-07. Les statuts, le calendrier de decision et les actions autorisees sont mis a jour en consequence. |
+| Objectif n1 de M3 : depot unique prive derriere Cloudflare Zero Trust (v2.3) | La decision utilisateur leve l'interdiction de fusion : les deux depots public et prive sont destines a etre remplaces par un depot unique, nouveau, prive, expose derriere Cloudflare Zero Trust. Ce chantier impose une reprise de l'architecture globale. |
+| Bascule de la dette residuelle M1 en M3 (v2.3) | La dette acceptee a la cloture M1 (tableau de bord qualite complet, audit Pennie Smith, indicateurs consolides, reserves DM -> registres, verification provenance/droits) est reprise comme chantiers M3 sans rouvrir M1. |
+| Roadmap de reference unique (v2.3) | L'ancien ROADMAP.md du depot prive a ete supprime. Ce document est la roadmap de reference unique du projet. |
 | Ajout d'un bloc de versionnement | Le document indique sa version, sa date, son auteur de revision et son statut additif. |
 | Ajout d'une table de rattachement initiale | Les chantiers deja identifies sont rattaches aux jalons M0 a M7 sans remplacer les decoupages techniques existants. |
 | Criteres M0 et M1 rendus verifiables | Les criteres qualitatifs initiaux sont completes par des criteres observables et controlables. |
@@ -28,27 +32,32 @@ Ce document sert de repere stable pour un lecteur humain comme pour un assistant
 
 ## Calendrier de decision
 
-- **Activable immediatement** : M0 et M1 uniquement.
-- **Progression parallele** : M0 et M1 progressent en parallele.
-- **Verrou M2** : M2 reste interdit tant que M0 et M1 ne sont pas clotures.
-- **Prochain, pas avant une semaine** : M2, apres stabilisation documentee de M0 et M1.
-- **Ulterieur** : M3 a M7.
-- **Interdits pour les prochains jours** : fusion des repos, refonte d'interface, nouveau developpement d'enrichment-studio.
+- **Clotures** : M0 (2026-06-05), M1 (2026-06-06) et M2 (2026-06-06).
+- **Actif** : M3, lance le 2026-06-07.
+- **Ulterieur** : M4 a M7.
+- **Decision M3 actee** : la fusion des depots n'est plus interdite. Elle devient
+  l'objectif n1 de M3 : un depot unique, nouveau, prive, derriere Cloudflare
+  Zero Trust. La bascule effective reste conditionnee a une architecture cible
+  et un plan de migration valides par decision humaine.
 
 ## Prochaines actions autorisees
 
-Pour les prochains jours, seules les actions suivantes sont autorisees :
+M3 etant lance, les actions prioritaires autorisees sont :
 
-- documenter M0 ;
-- documenter M1 ;
-- auditer les registres ;
-- auditer les exports ;
-- renforcer les validations ;
-- produire un tableau de bord qualite ;
-- clarifier les dependances ;
-- ne pas lancer M2 ;
-- ne pas fusionner les repos ;
-- ne pas refondre l'interface.
+- concevoir l'architecture cible du depot unique prive (arborescence, surfaces
+  internes ex-public / ex-prive, exports, apps, CI, secrets, acces Zero Trust) ;
+- produire un plan de migration reversible, sans perte de donnees ni d'historique
+  utile ;
+- traiter la dette residuelle M1 basculee en M3 (tableau de bord qualite complet,
+  audit Pennie Smith, indicateurs consolides, reserves DM -> registres,
+  verification provenance / droits) ;
+- poursuivre l'industrialisation documentaire (sas d'entree, canonisation
+  outillee, preuve de propagation) et l'autonomisation du studio prive ;
+- preparer l'exposition Cloudflare Pages + Zero Trust.
+
+Ne pas executer la suppression des depots existants ni la bascule finale tant que
+l'architecture cible et le plan de migration ne sont pas valides par decision
+humaine.
 
 ## Commandes de controle de reference
 
@@ -72,10 +81,10 @@ STATUS.md est genere a partir de l'etat de travail observe par `tools/generate_s
 
 | Milestone | Statut | Priorite | Intention |
 | --- | --- | --- | --- |
-| M0 — Stabilisation du socle | immediat | P0 | Comprendre et consolider l'existant. |
-| M1 — Fiabilisation du corpus | immediat | P0 | Reduire le risque d'integration documentaire. |
-| M2 — Studio d'enrichissement documentaire | prochain, pas avant une semaine | P1 | Industrialiser les ajouts apres stabilisation. |
-| M3 — Corpus prive unifie | ulterieur | P2, avec chantiers internes prioritaires | Preparer repo prive unifie, chaine documentaire industrialisee et deploiement protege. |
+| M0 — Stabilisation du socle | cloture (2026-06-05) | P0 | Comprendre et consolider l'existant. |
+| M1 — Fiabilisation du corpus | cloture (2026-06-06) | P0 | Reduire le risque d'integration documentaire. |
+| M2 — Studio d'enrichissement documentaire | cloture (2026-06-06) | P1 | Industrialiser la preparation des ajouts (le studio prepare, l'humain valide). |
+| M3 — Corpus prive unifie | actif (lance 2026-06-07) | P1 | Objectif n1 : depot unique prive derriere Cloudflare Zero Trust ; chaine documentaire industrialisee et autonomisation du studio prive. |
 | M4 — Studio de redaction | ulterieur | P2 | Clarifier les outils de redaction sans refonte immediate. |
 | M5 — Fonds documentaire multimedia | ulterieur | P3 | Structurer photos, scans, bootlegs, videos et documents rares. |
 | M6 — Assistant historiographique | ulterieur | P3 | Exploiter relations, concepts, motifs, mythes et argumentation. |
@@ -108,7 +117,7 @@ L'application de consultation du registre concerts appartient au perimetre des a
 
 ## M0 — Stabilisation du socle
 
-**Statut** : immediat.
+**Statut** : cloture le 2026-06-05 (voir `docs/m0-cloture.md`).
 
 **Priorite** : P0.
 
@@ -174,7 +183,7 @@ Note : le pathspec complet attendu couvre au minimum les chemins suivants.
 
 ## M1 — Fiabilisation du corpus
 
-**Statut** : immediat.
+**Statut** : cloture le 2026-06-06 (voir `docs/m1-cloture.md` et la PR de cloture M1 #134). La dette residuelle acceptee a la cloture est basculee en M3.
 
 **Priorite** : P0.
 
@@ -253,11 +262,18 @@ Les valeurs ne sont pas codees en dur. Elles sont calculees a la generation. Les
 
 ## M2 — Studio d'enrichissement documentaire
 
-**Statut** : prochain, pas avant une semaine.
+**Statut** : cloture le 2026-06-06 (voir `docs/m2-bilan-final.md`).
 
 **Priorite** : P1.
 
 **Objectif** : industrialiser les ajouts documentaires une fois M0 et M1 stabilises.
+
+**Acquis a respecter en M3** : le studio M2 est un outil de preparation, pas
+d'integration automatique (« le studio prepare, l'humain valide »). Garde-fous
+conserves : aucune creation automatique de sources, atomes, citations ou
+relations ; aucune modification automatique de registres ; aucun GitHub
+automatique (branche / PR / merge). Familles couvertes par les CLI : PERSON,
+ORG, IMAGE, PLACE, SOURCE longue, plus batch et formulaire.
 
 **Perimetre futur** :
 
@@ -316,19 +332,52 @@ Ces criteres devront etre rendus mesurables au declenchement effectif du jalon.
 
 ## M3 — Corpus prive unifie
 
-**Statut** : ulterieur.
+**Statut** : actif, lance le 2026-06-07.
 
-**Priorite** : P2.
+**Priorite** : P1.
 
-**Objectif** : preparer une architecture cible autour d'un repo prive unifie, d'une chaine documentaire industrialisee, d'un deploiement Cloudflare Pages et d'un acces Zero Trust.
+**Objectif n1 (decision utilisateur 2026-06-07)** : supprimer les deux depots
+existants — `joy-division-ai-writing-studio` (public) et
+`joy-division-studio-private` (prive) — au profit d'un **depot unique, nouveau,
+prive, expose derriere Cloudflare Zero Trust**. Ce chantier impose une reprise
+de l'architecture globale, confiee a l'assistant.
 
-Decision d'architecture : la cible retenue est un depot prive unique publie via Cloudflare Pages, protege par Cloudflare Zero Trust. Cette decision n'est pas activee immediatement : elle releve de M3 et reste interdite tant que M0 et M1 ne sont pas clotures.
+La fusion n'est plus interdite : elle est decidee. La bascule effective et la
+suppression des depots existants restent toutefois conditionnees a une
+architecture cible et a un plan de migration reversible valides par decision
+humaine. M3 commence donc par la conception, pas par la bascule.
+
+**Objectif general** : autour de ce depot unique, etablir une architecture
+cible, une chaine documentaire industrialisee, un deploiement Cloudflare Pages
+et un acces Zero Trust.
+
+Decision d'architecture : la cible retenue est un depot prive unique publie via Cloudflare Pages, protege par Cloudflare Zero Trust.
 
 Le devenir de l'abonnement Pages Pro existant doit etre inventorie dans M3 afin d'eviter un cout orphelin ou une infrastructure residuelle inutile.
 
-Cloudflare est decide ; le calendrier de migration n'est pas lance. La fusion des repos reste interdite a ce stade. L'objectif est un repo prive unique, mais seulement dans M3.
+Cloudflare est decide. La fusion des repos est desormais decidee et constitue l'objectif n1 de M3 ; son calendrier de bascule reste subordonne a la validation de l'architecture cible et du plan de migration.
 
 Decision d'architecture complementaire : le repo prive doit progressivement devenir autonome sur le plan documentaire. Les applications privees ne doivent plus dependre, au runtime, de fetchs GitHub distants vers le repo public pour afficher l'etat du corpus. La cible M3 est une consommation locale des exports, registres et documents maitres, appuyee sur une synchronisation maitrisee plutot que sur une lecture distante.
+
+### Dette M1 residuelle basculee en M3
+
+La dette acceptee a la cloture M1 (voir `docs/m1-cloture.md`) est reprise comme
+chantiers M3, sans rouvrir le jalon M1 :
+
+- tableau de bord qualite complet : blocs volumetrie, integrite et verification,
+  genere par le build et jamais saisi manuellement ;
+- audit Pennie Smith clos et documente ;
+- indicateurs consolides publies : `0` lien inter-registres orphelin sur le
+  perimetre publie, `0` identifiant canonique duplique, validation de schema a
+  `100 %` ;
+- reserves `DM -> registres` : 29 libelles divergents et 51 familles hors MVP
+  (concepts, motifs, mythes, organisations, relations) ;
+- regles de source, provenance et droits verifiees au-dela du perimetre DM,
+  notamment qu'aucun champ `sources` ne contient un identifiant interne comme
+  `IMAGE-*` a la place d'une source documentaire `Sxx`.
+
+Ces chantiers doivent etre integres a l'architecture cible du depot unique, et
+non recrees a l'identique sur l'ancienne separation public / prive.
 
 Le chantier explicitement retenu est intitule : **M3.X — Industrialisation documentaire et autonomisation du studio prive**.
 

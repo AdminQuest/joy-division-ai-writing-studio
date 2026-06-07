@@ -1,7 +1,7 @@
 # CLAUDE.md — Règles permanentes du projet
 
 > Mise à jour : 2026-06-07, alignée sur la roadmap stratégique 2026
-> (`docs/roadmap-strategique-2026.md`, version 2.2), après lecture des
+> (`docs/roadmap-strategique-2026.md`, version 2.3), après lecture des
 > documents `docs/` (clôtures M0/M1/M2, état de référence) et audit des dépôts
 > public (`joy-division-ai-writing-studio`) et privé
 > (`joy-division-studio-private`).
@@ -10,9 +10,11 @@
 > public). L'ancien `ROADMAP.md` du repo privé a été supprimé pour éviter toute
 > confusion.
 >
-> **Étape courante : M3.** M0, M1 et M2 sont clôturés. Le jalon actif est M3 —
-> corpus privé unifié, avec en tête le chantier **M3.X — Industrialisation
-> documentaire et autonomisation du studio privé**.
+> **Étape courante : M3 (lancé le 2026-06-07).** M0, M1 et M2 sont clôturés.
+> **Objectif n°1 de M3 : supprimer les deux dépôts public et privé au profit
+> d'un dépôt unique, nouveau, privé, exposé derrière Cloudflare Zero Trust.**
+> Ce chantier impose une **reprise de l'architecture globale** (rôle confié à
+> l'assistant).
 >
 > La roadmap stratégique est une **couche de lecture additive** : elle ne
 > remplace aucun découpage technique existant. Tout lot technique doit se
@@ -33,7 +35,7 @@ Le corpus est suffisamment constitué. La priorité n'est plus la collecte mais
 | M0 — Stabilisation du socle | **clôturé (2026-06-05)** | État réel du projet rendu lisible, socle consolidé. |
 | M1 — Fiabilisation du corpus | **clôturé (2026-06-06)** | Contrôles DM→atomes/registres/sources, traçabilité, invariants. |
 | M2 — Studio d'enrichissement documentaire | **clôturé (2026-06-06)** | Studio de préparation (CLI PERSON/ORG/IMAGE/PLACE/SOURCE, formulaire, batch, résumés PR). |
-| M3 — Corpus privé unifié | **actif (P2)** | Repo privé unique, Cloudflare Pages + Zero Trust, **M3.X autonomisation studio privé**. |
+| M3 — Corpus privé unifié | **actif — lancé 2026-06-07 (P1)** | **Objectif n°1 : dépôt unique privé derrière Cloudflare Zero Trust** (reprise d'architecture globale), industrialisation documentaire et autonomisation du studio privé. |
 | M4 — Studio de rédaction | ultérieur (P2) | Clarifier RAG Studio / manuscript-studio sans refonte. |
 | M5 — Fonds documentaire multimédia | ultérieur (P3) | Photos, scans, bootlegs, vidéos, droits et provenance. |
 | M6 — Assistant historiographique | ultérieur (P3) | Exploiter relations, concepts, motifs, mythes, chaînes argumentatives. |
@@ -41,8 +43,10 @@ Le corpus est suffisamment constitué. La priorité n'est plus la collecte mais
 
 ### Règle de progression
 
-- **Jalon actif : M3** (M0, M1 et M2 clôturés). Priorité au chantier **M3.X —
-  Industrialisation documentaire et autonomisation du studio privé**.
+- **Jalon actif : M3** (M0, M1 et M2 clôturés), **lancé le 2026-06-07**.
+- **Priorité n°1 : unification en un dépôt unique privé derrière Cloudflare
+  Zero Trust**, devant l'industrialisation documentaire et l'autonomisation du
+  studio privé (M3.X), qui en deviennent des sous-chantiers.
 - M4 à M7 : ultérieurs, non activés.
 - Tout nouveau lot technique doit se rattacher explicitement à un jalon.
 
@@ -60,19 +64,50 @@ humaine. Les CLI M2 (`tools/m2_add_person.py`, `m2_add_org.py`,
 `m2_batch_prevalidation.py`) produisent des diagnostics et des résumés PR
 relisibles, jamais une validation.
 
-## Cap M3 — industrialisation et autonomisation du studio privé
+## Cap M3 — dépôt unique privé derrière Cloudflare Zero Trust
 
-Principes à appliquer à partir de M3 (voir `docs/roadmap-strategique-2026.md`) :
+**Décision actée le 2026-06-07 : M3 est lancé.** L'ancienne interdiction de
+fusion des dépôts est **levée**. Objectif n°1 :
 
-- aucune source nouvelle n'entre sans **sas documentaire normalisé**
-  (`sources/_incoming/Sxx/` : `source.pdf`, `source.txt`, `source_meta.yaml`) ;
-- canonisation outillée (dossier source + entrée registre + fichiers standards) ;
-- atomisation reproductible produisant une **preuve de propagation**
-  (`Sxx_propagation_report.md`) vers exports, registres, DM et interfaces ;
-- les applications privées ne doivent plus dépendre, au runtime, de fetchs
-  GitHub distants vers le repo public : cible = lecture locale synchronisée ;
-- Cloudflare Pages + Zero Trust restent **décidés mais non lancés** ; la fusion
-  des repos reste interdite tant qu'un plan M3 valide n'est pas arrêté.
+> Supprimer les deux dépôts (`joy-division-ai-writing-studio` public et
+> `joy-division-studio-private` privé) au profit d'un **dépôt unique, nouveau,
+> privé, exposé derrière Cloudflare Zero Trust**.
+
+Ce chantier impose une **reprise de l'architecture globale** — c'est le rôle
+confié à l'assistant. Avant toute migration :
+
+1. **Architecture cible** du dépôt unique : arborescence, séparation interne des
+   surfaces autrefois public / privé, organisation des exports, des apps et de
+   la CI, gestion des secrets et des accès Zero Trust ;
+2. **Plan de migration réversible** : reprise d'historique utile, aucune perte
+   de données, bascule progressive et vérifiable, stratégie de repli ;
+3. **Sas documentaire** : aucune source nouvelle sans sas normalisé
+   (`sources/_incoming/Sxx/` : `source.pdf`, `source.txt`, `source_meta.yaml`) ;
+4. **Canonisation outillée** + **atomisation reproductible** produisant une
+   **preuve de propagation** (`Sxx_propagation_report.md`) vers exports,
+   registres, DM et interfaces ;
+5. **Fin des dépendances runtime** aux fetchs GitHub distants : lecture locale
+   synchronisée des exports, registres et documents maîtres ;
+6. **Exposition finale** derrière Cloudflare Pages + Zero Trust.
+
+Tant que l'architecture cible et le plan de migration ne sont pas validés par
+décision humaine, la fusion effective et la suppression des dépôts existants ne
+sont pas exécutées : M3 commence par la **conception**, pas par la bascule.
+
+### Dette M1 résiduelle basculée en M3
+
+La dette acceptée à la clôture M1 (cf. `docs/m1-cloture.md`) est reprise comme
+chantiers M3, sans rouvrir le jalon M1 :
+
+- tableau de bord qualité complet (volumétrie / intégrité / vérification),
+  généré par le build et non saisi manuellement ;
+- audit **Pennie Smith** clos et documenté ;
+- indicateurs consolidés : `0` lien inter-registres orphelin sur le périmètre
+  publié, `0` identifiant canonique dupliqué, validation de schéma à `100 %` ;
+- réserves `DM → registres` : 29 libellés divergents, 51 familles hors MVP
+  (concepts, motifs, mythes, organisations, relations) ;
+- vérification des champs de provenance / droits et des champs `sources` hors
+  documents maîtres (aucun `IMAGE-*` à la place d'une source `Sxx`).
 
 ## Commandes de contrôle de référence
 
@@ -127,10 +162,10 @@ opposables :
 - invariants critiques au vert, dont la distinction **Kevin Curtis / Ian
   Curtis** ;
 - aucun champ `sources` ne doit contenir un identifiant interne comme `IMAGE-*`
-  à la place d'une source documentaire `Sxx` ;
-- dette M1 résiduelle documentée (libellés divergents, familles hors MVP,
-  tableau de bord qualité complet, audit Pennie Smith) à traiter sans rouvrir le
-  jalon.
+  à la place d'une source documentaire `Sxx`.
+
+La dette M1 résiduelle n'est plus portée par M1 : elle est **basculée en M3**
+(voir la sous-section « Dette M1 résiduelle basculée en M3 »).
 
 ## Gouvernance GitHub et PR
 

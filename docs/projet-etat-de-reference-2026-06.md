@@ -2,6 +2,14 @@
 
 État de référence : juin 2026.
 
+> **Mise à jour 2026-06-07.** Ce document est un repère de continuité daté. Depuis
+> sa rédaction, **M0 (2026-06-05), M1 (2026-06-06) et M2 (2026-06-06) sont
+> clôturés** et **M3 est lancé (2026-06-07)**. Les sections décrivant M1 comme
+> non ouvert et listant M2, l'industrialisation documentaire ou le repo privé
+> unifié parmi les « sujets reportés » reflètent l'état antérieur. La référence
+> à jour est `docs/roadmap-strategique-2026.md` (objectif n°1 de M3 : dépôt
+> unique privé derrière Cloudflare Zero Trust).
+
 Le projet est aujourd'hui un atelier documentaire et rédactionnel consacré au livre Joy Division. Il rassemble un corpus structuré, des registres canoniques, des exports générés, des documents maîtres, des applications de consultation, un RAG d'exploration et des workflows de contrôle.
 
 Le projet n'est pas un simple dépôt de notes, ni une application unique, ni un studio d'enrichissement automatisé. Il n'est pas encore une architecture finale unifiée, ni une chaîne de publication définitive. Les évolutions futures doivent respecter les décisions stabilisées avant d'ajouter de nouvelles surfaces.
