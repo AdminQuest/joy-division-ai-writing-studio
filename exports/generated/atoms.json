@@ -74998,6 +74998,543 @@
   },
   {
     "kind": "atom",
+    "id": "S95-A001",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A001 — La source pose une question d'influence, mais son objectif est critique plutôt qu'accusatoire",
+    "data": {
+      "id": "S95-A001",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "prudence_methodologique",
+      "importance": {
+        "niveau": "critique"
+      },
+      "pages_pdf": "23",
+      "chapitres": [
+        12,
+        14
+      ],
+      "concepts": [
+        "influence médiatique",
+        "prudence causale",
+        "suicide et médias",
+        "musique rock"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Définir S95 comme source de prudence sur l'influence médiatique, non comme texte accusatoire contre le rock."
+      ],
+      "niveau_preuve": {
+        "statut": "cadrage_article",
+        "corroboration": "abstract et objectif explicite de l'article",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "note": "Le vocabulaire d'influence peut être lu trop vite comme causalité directe ; l'article annonce justement une analyse critique de cette causalité."
+      },
+      "liens_interchapitres": [
+        "Chapitre 12 -> cadre éthique et méthodologique santé mentale",
+        "Chapitre 14 -> réception médiatique et mythe posthume"
+      ],
+      "liens_citations": [
+        "S81-A001",
+        "S81-A002"
+      ],
+      "motifs": [
+        "prudence causale",
+        "responsabilité critique"
+      ],
+      "concepts_derives": [
+        "musique comme médiateur social",
+        "critique de la causalité directe"
+      ],
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A002",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A002 — Les facteurs sociaux sont des médiateurs ou modérateurs, pas des causes simples",
+    "data": {
+      "id": "S95-A002",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "prudence_methodologique",
+      "importance": {
+        "niveau": "critique"
+      },
+      "pages_pdf": "24-25",
+      "chapitres": [
+        12
+      ],
+      "concepts": [
+        "facteurs de risque suicidaire",
+        "médiation sociale",
+        "modération",
+        "non-monocausalité"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Raccorder S95 au concept existant de non-monocausalité et éviter tout déterminisme musique -> suicide."
+      ],
+      "niveau_preuve": {
+        "statut": "synthese_secondaire",
+        "corroboration": "mobilise Berger, Hawton et Stack dans le cadrage des facteurs de risque",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "note": "Le passage liste de nombreux facteurs, mais insiste sur leur fonction indirecte ; ne pas les isoler comme causes autonomes."
+      },
+      "liens_interchapitres": [
+        "Chapitre 12 -> non-monocausalité médicale et sociale"
+      ],
+      "liens_citations": [
+        "S81-A004",
+        "S81-A009"
+      ],
+      "motifs": [
+        "rejet de l'inévitabilité",
+        "médiation plutôt que cause"
+      ],
+      "concepts_derives": [
+        "facteur social comme variable intervenante",
+        "environnement culturel comme contexte de vulnérabilité"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A003",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A003 — Les procès contre des chansons rock documentent surtout une controverse de réception",
+    "data": {
+      "id": "S95-A003",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "reception",
+      "importance": {
+        "niveau": "majeure"
+      },
+      "pages_pdf": "26-27",
+      "chapitres": [
+        12,
+        14
+      ],
+      "concepts": [
+        "controverse médiatique",
+        "paroles suicidaires",
+        "liberté artistique",
+        "responsabilité critique"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Montrer que les accusations contre les chansons relèvent d'une controverse juridique et médiatique plus que d'une preuve causale stabilisée."
+      ],
+      "niveau_preuve": {
+        "statut": "exemples_documentes",
+        "corroboration": "exemples Ozzy Osbourne, Black Sabbath, Judas Priest et jugement de liberté artistique",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "moyen"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "note": "Ne pas reprendre les titres ou paroles comme fascination morbide ; l'intérêt documentaire est la controverse de réception."
+      },
+      "liens_interchapitres": [
+        "Chapitre 12 -> parole artistique et responsabilité",
+        "Chapitre 14 -> médiatisation du danger supposé du rock"
+      ],
+      "liens_citations": [
+        "S81-A002"
+      ],
+      "motifs": [
+        "chanson accusée",
+        "panique morale"
+      ],
+      "concepts_derives": [
+        "procès comme scène de réception",
+        "causalité judiciaire contestée"
+      ],
+      "related_organizations": [
+        "Judas Priest",
+        "Black Sabbath"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A004",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A004 — Ian Curtis apparaît dans une série rock, mais l'article suspend explicitement la causalité",
+    "data": {
+      "id": "S95-A004",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "fait",
+      "importance": {
+        "niveau": "majeure"
+      },
+      "pages_pdf": "27-28",
+      "chapitres": [
+        12,
+        14
+      ],
+      "concepts": [
+        "Ian Curtis",
+        "suicide artistes rock",
+        "causalité suspendue",
+        "liste comparative"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Replacer la mention d'Ian Curtis dans une discussion générale et rappeler que S95 ne fournit pas une explication biographique."
+      ],
+      "niveau_preuve": {
+        "statut": "mention_article",
+        "corroboration": "mention de Curtis dans la section sur les suicides d'artistes, suivie d'une prudence causale",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "moyen"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "note": "La mention de Curtis ne doit pas être convertie en preuve clinique ou narrative ; S81 et les sources biographiques restent prioritaires."
+      },
+      "liens_interchapitres": [
+        "Chapitre 12 -> cas Curtis sous réserve méthodologique",
+        "Chapitre 14 -> inscription dans la mémoire rock posthume"
+      ],
+      "liens_citations": [
+        "S81-A005",
+        "S81-A006",
+        "S81-A009"
+      ],
+      "motifs": [
+        "artiste rock suicidé",
+        "causalité suspendue"
+      ],
+      "concepts_derives": [
+        "mention comparative non biographique"
+      ],
+      "related_people": [
+        "Ian Curtis",
+        "Kurt Cobain"
+      ],
+      "related_organizations": [
+        "Joy Division",
+        "Nirvana"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A005",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A005 — La panique morale transforme la musique en bouc émissaire explicatif",
+    "data": {
+      "id": "S95-A005",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "mythe",
+      "importance": {
+        "niveau": "majeure"
+      },
+      "pages_pdf": "28, 31",
+      "chapitres": [
+        14
+      ],
+      "concepts": [
+        "panique morale",
+        "bouc émissaire médiatique",
+        "conservatisme culturel",
+        "réception du rock"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Décrire le mécanisme par lequel une société inquiète cherche une cause simple aux suicides de jeunes."
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_article",
+        "corroboration": "discussion sur heavy metal, conservatisme, peur et recherche d'un coupable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "assez_stable",
+        "risque_revision": "moyen"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "note": "Ne pas inverser le mythe en disculpation totale : l'article maintient l'idée de risque pour des personnes vulnérables."
+      },
+      "liens_interchapitres": [
+        "Chapitre 14 -> réception médiatique, panique morale et postérité"
+      ],
+      "liens_citations": [
+        "S81-A002",
+        "S87-A001"
+      ],
+      "motifs": [
+        "panique morale rock",
+        "bouc émissaire culturel"
+      ],
+      "concepts_derives": [
+        "musique comme coupable commode",
+        "anxiété sociale convertie en accusation médiatique"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A006",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A006 — L'identification et l'imitation sont des processus de réception, non des automatismes",
+    "data": {
+      "id": "S95-A006",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "reception",
+      "importance": {
+        "niveau": "critique"
+      },
+      "pages_pdf": "30-31",
+      "chapitres": [
+        12,
+        14
+      ],
+      "concepts": [
+        "identification",
+        "imitation",
+        "fandom",
+        "réception affective"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Fournir un cadre nuancé pour parler de fans, identification et imitation sans déterminisme."
+      ],
+      "niveau_preuve": {
+        "statut": "hypothese_interpretative",
+        "corroboration": "discussion finale sur empathie, fan worship, imitation et identification",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "assez_stable",
+        "risque_revision": "moyen"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "note": "L'article décrit un mécanisme possible chez des personnes vulnérables ; ne pas généraliser à tous les fans."
+      },
+      "liens_interchapitres": [
+        "Chapitre 12 -> vulnérabilité, réception et santé mentale",
+        "Chapitre 14 -> fandom, culte et identification posthume"
+      ],
+      "liens_citations": [
+        "S81-A002",
+        "S87-A001"
+      ],
+      "motifs": [
+        "identification fan-artiste",
+        "imitation sous condition"
+      ],
+      "concepts_derives": [
+        "réception affective vulnérable",
+        "empathie comme médiation"
+      ],
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A007",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A007 — La musique peut être self-therapy pour l'artiste avant d'être risque pour l'auditeur",
+    "data": {
+      "id": "S95-A007",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "analyse",
+      "importance": {
+        "niveau": "utile"
+      },
+      "pages_pdf": "30",
+      "chapitres": [
+        11,
+        12
+      ],
+      "concepts": [
+        "expression artistique",
+        "self-therapy",
+        "trauma",
+        "expérience sombre"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Nuancer la lecture de l'œuvre : la musique peut être expression et auto-thérapie, non simple danger médiatique."
+      ],
+      "niveau_preuve": {
+        "statut": "hypothese_article",
+        "corroboration": "discussion finale sur les expériences traumatiques comme source d'art et moyen d'expression",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "plausible",
+        "risque_revision": "moyen"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "note": "Ne pas appliquer mécaniquement cette hypothèse à Curtis ; elle reste générale et doit être croisée avec les sources biographiques."
+      },
+      "liens_interchapitres": [
+        "Chapitre 11 -> forme artistique et expérience subjective",
+        "Chapitre 12 -> art, trauma, santé mentale"
+      ],
+      "liens_citations": [
+        "S54-A013",
+        "S67-A007"
+      ],
+      "motifs": [
+        "art comme expression",
+        "self-therapy prudente"
+      ],
+      "concepts_derives": [
+        "expression comme médiation de souffrance",
+        "création non réductible au symptôme"
+      ],
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S95-A008",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+    "heading": "S95-A008 — Conclusion responsable : aucun facteur culturel ne suffit à expliquer le suicide",
+    "data": {
+      "id": "S95-A008",
+      "source_id": "S95",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "auteur": "Miroslav Komlenić",
+      "titre": "Rock Music, Suicide and Media Influence",
+      "type_unite": "prudence_methodologique",
+      "importance": {
+        "niveau": "critique"
+      },
+      "pages_pdf": "31",
+      "chapitres": [
+        12,
+        14
+      ],
+      "concepts": [
+        "non-monocausalité",
+        "responsabilité critique",
+        "vulnérabilité",
+        "approche complexe"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "role_argumentatif": [
+        "Formuler le verrou éthique principal : le manuscrit doit refuser toute cause unique du suicide."
+      ],
+      "niveau_preuve": {
+        "statut": "conclusion_article",
+        "corroboration": "conclusion explicite sur l'impossibilité d'attribuer le suicide à une cause unique",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "note": "Le sens de l'article est très clair : approche complexe et prudente."
+      },
+      "liens_interchapitres": [
+        "Chapitre 12 -> principe d'écriture responsable",
+        "Chapitre 14 -> critique des mythes posthumes"
+      ],
+      "liens_citations": [
+        "S81-A001",
+        "S81-A009",
+        "S90-A010"
+      ],
+      "motifs": [
+        "refus de la cause unique",
+        "lecture responsable du mythe"
+      ],
+      "concepts_derives": [
+        "garde-fou anti-romantisation",
+        "causalité complexe"
+      ],
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S53-A001",
     "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
     "heading": "S53-A001 — S53 comme source sur l’incarnation mythique, non comme source factuelle primaire",

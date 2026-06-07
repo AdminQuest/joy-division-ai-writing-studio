@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-07T10:07:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1323 |
+| Atomes | 1329 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 228 |
 | Événements chronologiques | 138 |
 | Personnes | 161 |
 | Chansons | 34 |
-| Sources mobilisées | 72 |
+| Sources mobilisées | 73 |
 
 ## 4. Sources mobilisées
 
@@ -106,6 +106,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
 | S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 9 | 0 |
 | S94 | S94 — Weissinger, Retromania (Book Review), JPMS, 2012 | 5 | 0 |
+| S95 | S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -565,7 +566,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - New Order (43)
 - Factory (34)
-- Ian Curtis (30)
+- Ian Curtis (31)
 - Joy Division (27)
 - Still (27)
 - Unknown Pleasures (22)
@@ -778,14 +779,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| reception | 62 |
+| reception | 64 |
 | analyse | 45 |
-| prudence_methodologique | 42 |
+| prudence_methodologique | 44 |
 | concept_structurant | 39 |
 | non qualifié | 27 |
 | archive | 24 |
 | production | 23 |
-| fait | 16 |
+| fait | 17 |
 | noeud_critique | 15 |
 | memoire | 14 |
 | reception_live | 12 |
@@ -799,8 +800,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | culture_musicale | 9 |
 | tension_documentaire | 8 |
 | lecture | 8 |
+| mythe | 8 |
 | contrepoint | 8 |
-| mythe | 7 |
 | controverse | 7 |
 | source_part | 7 |
 | manuscript_materiality | 7 |
@@ -1416,9 +1417,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| critique | 522 |
+| critique | 525 |
 | non qualifiée | 439 |
-| majeure | 208 |
+| majeure | 211 |
 | majeur | 56 |
 | secondaire | 53 |
 | utile | 22 |

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-05T15:13:05",
+  "generated_at": "2026-06-07T10:07:23",
   "summary": {
-    "records_total": 8644,
+    "records_total": 8666,
     "records_by_kind": {
-      "unknown": 1404,
-      "source": 124,
-      "metadata": 274,
-      "atom": 2769,
+      "unknown": 1410,
+      "source": 125,
+      "metadata": 276,
+      "atom": 2777,
       "quote": 962,
-      "concept": 463,
-      "motif": 427,
-      "myth": 102,
+      "concept": 465,
+      "motif": 428,
+      "myth": 104,
       "chronology": 539,
       "template": 328,
       "concert": 388,
@@ -21,24 +21,24 @@
       "song": 111,
       "session": 26
     },
-    "diagnostics_total": 28839,
+    "diagnostics_total": 28845,
     "errors": 0,
-    "warnings": 28839,
-    "sources_declared_in_registre_json": 97,
-    "sources_used_in_records": 82,
-    "sources_exported": 82,
+    "warnings": 28845,
+    "sources_declared_in_registre_json": 98,
+    "sources_used_in_records": 83,
+    "sources_exported": 83,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2769,
+    "atom": 2777,
     "chronology": 539,
-    "concept": 463,
+    "concept": 465,
     "concert": 388,
-    "metadata": 274,
-    "motif": 427,
-    "myth": 102,
+    "metadata": 276,
+    "motif": 428,
+    "myth": 104,
     "person": 510,
     "place": 215,
     "quote": 962,
@@ -46,9 +46,9 @@
     "rules": 1,
     "session": 26,
     "song": 111,
-    "source": 124,
+    "source": 125,
     "template": 328,
-    "unknown": 1404
+    "unknown": 1410
   },
   "records_by_source": {
     "REGISTRY": {
@@ -758,15 +758,24 @@
     "S94": {
       "atom": 7,
       "source": 1
+    },
+    "S95": {
+      "metadata": 2,
+      "atom": 8,
+      "concept": 2,
+      "motif": 1,
+      "myth": 2,
+      "unknown": 6,
+      "source": 1
     }
   },
   "records_by_chapter": {
     "1": 68,
     "10": 48,
-    "11": 62,
-    "12": 51,
+    "11": 64,
+    "12": 66,
     "13": 97,
-    "14": 271,
+    "14": 286,
     "2": 42,
     "3": 97,
     "4": 79,
@@ -920,7 +929,7 @@
     "invalid_controlled_value": 2622,
     "missing_required_field": 8024,
     "schema_warning": 492,
-    "unknown_yaml_block": 1404,
+    "unknown_yaml_block": 1410,
     "v2_migration_debt": 15551
   },
   "top_files_by_issue_count": [
@@ -4420,6 +4429,54 @@
       "category": "unknown_yaml_block",
       "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
       "record_id": "R-S63-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-006",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -12281,8 +12338,8 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2769,
-    "atoms_v2_complete": 240,
+    "atoms_total": 2777,
+    "atoms_v2_complete": 248,
     "atoms_v2_incomplete": 2529,
     "v2_missing_field_warnings": 15551
   },
@@ -14365,6 +14422,23 @@
         "files": [
           "data/registre.json",
           "sources/s94_weissinger_retromania/source_atomisation_01.md"
+        ]
+      },
+      {
+        "source_id": "S95",
+        "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+        "auteur": "Miroslav Komlenić",
+        "titre": "Rock Music, Suicide and Media Influence",
+        "annee": "2021",
+        "records": 27,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+          "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md",
+          "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+          "sources/komlenic_rock_music_suicide_media_influence/source.md"
         ]
       }
     ]
@@ -130881,6 +130955,54 @@
       "record_id": "S46-190",
       "message": "Invalid value for type_unite: conclusion_methodologique",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "record_id": "R-S95-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

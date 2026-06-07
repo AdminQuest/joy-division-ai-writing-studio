@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-07T10:07:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 447 |
+| Atomes | 454 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
 | Personnes | 51 |
 | Chansons | 18 |
-| Sources mobilisées | 31 |
+| Sources mobilisées | 32 |
 
 ## 4. Sources mobilisées
 
@@ -65,6 +65,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 2 | 0 |
 | S81 | S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018 | 9 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 3 | 0 |
+| S95 | S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021 | 7 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -506,7 +507,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (28)
+- Ian Curtis (29)
 - prudence historiographique (19)
 - Closer (11)
 - épilepsie (10)
@@ -543,6 +544,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - médicaments (2)
 - quotidien (2)
 - sommeil (2)
+- trauma (2)
 - deuil (2)
 - autopsie_psychologique (2)
 - PA_method (2)
@@ -568,6 +570,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - montage (2)
 - musique (2)
 - réalité (2)
+- non-monocausalité (2)
+- responsabilité critique (2)
 - mémoire située (2)
 - mémoire conjugale croisée (2)
 - Peter Hook (2)
@@ -583,9 +587,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - dernier concert (2)
 - Still (2)
 - mort (2)
-- John Peel (2)
-- Radio 1 (2)
-- fin de Joy Division (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -723,10 +724,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifié | 19 |
 | concept_structurant | 15 |
-| prudence_methodologique | 9 |
+| prudence_methodologique | 12 |
 | tension_domestique | 8 |
+| reception | 8 |
 | lecture_chanson | 8 |
-| reception | 6 |
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
@@ -745,6 +746,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | analyse_clinique | 3 |
 | lecture_textuelle | 3 |
 | memoire | 3 |
+| analyse | 3 |
 | mythe | 3 |
 | demythification | 3 |
 | evenement_biographique | 3 |
@@ -771,7 +773,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance | 2 |
 | cadrage_theorique | 2 |
 | lecture_chansons | 2 |
-| analyse | 2 |
 | interpretation_retrospective | 2 |
 | processus_creatif_chanson | 2 |
 | transition_posthume | 2 |
@@ -905,6 +906,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_chanson | 1 |
 | intertextualite_occultiste | 1 |
 | analyse_formelle | 1 |
+| fait | 1 |
 | figure_mythique | 1 |
 | cadrage_source | 1 |
 | scene_de_transition | 1 |
@@ -1008,12 +1010,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 271 |
+| critique | 275 |
 | non qualifiée | 100 |
-| majeure | 46 |
+| majeure | 48 |
 | majeur | 13 |
+| utile | 5 |
 | secondaire | 5 |
-| utile | 4 |
 | haute | 4 |
 | moyenne | 1 |
 | majeure pour la prudence méthodologique | 1 |

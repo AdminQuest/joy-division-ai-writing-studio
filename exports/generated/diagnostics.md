@@ -1,30 +1,30 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-06-05T20:45:16`
+Généré le : `2026-06-07T10:07:23`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 8644
+- Enregistrements : 8666
 - Erreurs : 0
-- Avertissements : 28839
-- Sources déclarées dans `data/registre.json` : 97
-- Sources utilisées dans les enregistrements : 82
-- Sources exportées : 82
+- Avertissements : 28845
+- Sources déclarées dans `data/registre.json` : 98
+- Sources utilisées dans les enregistrements : 83
+- Sources exportées : 83
 - Sources déclarées mais non utilisées : 15
 - Sources utilisées mais absentes du registre : 0
 - Libellés faibles : 0
 
 ## Enregistrements par type
 
-- atom : 2769
+- atom : 2777
 - chronology : 539
-- concept : 463
+- concept : 465
 - concert : 388
-- metadata : 274
-- motif : 427
-- myth : 102
+- metadata : 276
+- motif : 428
+- myth : 104
 - person : 510
 - place : 215
 - quote : 962
@@ -32,9 +32,9 @@ Statut : **warning**
 - rules : 1
 - session : 26
 - song : 111
-- source : 124
+- source : 125
 - template : 328
-- unknown : 1404
+- unknown : 1410
 
 ## Sources utilisées mais absentes du registre
 
@@ -164,4 +164,4 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: stabilite
-- … 28739 problèmes supplémentaires dans `diagnostics.json`.
+- … 28745 problèmes supplémentaires dans `diagnostics.json`.

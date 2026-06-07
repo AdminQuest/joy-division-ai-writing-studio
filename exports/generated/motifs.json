@@ -324,6 +324,35 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S95-001",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md",
+    "heading": "MOTIF-S95-001 — refus de la cause unique",
+    "data": {
+      "id": "MOTIF-S95-001",
+      "type_unite": "motif",
+      "nom": "refus de la cause unique",
+      "source_id": "S95",
+      "sources": [
+        "S95"
+      ],
+      "atomes_lies": [
+        "S95-A002",
+        "S95-A004",
+        "S95-A008"
+      ],
+      "chapitres": [
+        12,
+        14
+      ],
+      "definition": "Motif argumentatif selon lequel le suicide ne peut être attribué ni à une chanson, ni à une scène musicale, ni à une maladie, ni à un mythe posthume pris isolément.\n",
+      "fonction_argumentative": "Sert de verrou documentaire pour les chapitres 12 et 14 : chaque formulation sur Curtis, Joy Division et la réception du suicide doit rester multifactorielle.",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-S27-001",
     "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
     "heading": "Motifs",

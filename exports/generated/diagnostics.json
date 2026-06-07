@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-05T20:45:16",
+  "generated_at": "2026-06-07T10:07:23",
   "status": "warning",
   "summary": {
-    "records_total": 8644,
+    "records_total": 8666,
     "records_by_kind": {
-      "unknown": 1404,
-      "source": 124,
-      "metadata": 274,
-      "atom": 2769,
+      "unknown": 1410,
+      "source": 125,
+      "metadata": 276,
+      "atom": 2777,
       "quote": 962,
-      "concept": 463,
-      "motif": 427,
-      "myth": 102,
+      "concept": 465,
+      "motif": 428,
+      "myth": 104,
       "chronology": 539,
       "template": 328,
       "concert": 388,
@@ -22,12 +22,12 @@
       "song": 111,
       "session": 26
     },
-    "diagnostics_total": 28839,
+    "diagnostics_total": 28845,
     "errors": 0,
-    "warnings": 28839,
-    "sources_declared_in_registre_json": 97,
-    "sources_used_in_records": 82,
-    "sources_exported": 82,
+    "warnings": 28845,
+    "sources_declared_in_registre_json": 98,
+    "sources_used_in_records": 83,
+    "sources_exported": 83,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -2111,6 +2111,23 @@
         "files": [
           "data/registre.json",
           "sources/s94_weissinger_retromania/source_atomisation_01.md"
+        ]
+      },
+      {
+        "source_id": "S95",
+        "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+        "auteur": "Miroslav Komlenić",
+        "titre": "Rock Music, Suicide and Media Influence",
+        "annee": "2021",
+        "records": 27,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+          "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md",
+          "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+          "sources/komlenic_rock_music_suicide_media_influence/source.md"
         ]
       }
     ]
@@ -89499,6 +89516,42 @@
       "file": "sources/johnson_morley_an_ideal_for_living/source_suite_06.md",
       "message": "Invalid value for type_unite: conclusion_methodologique",
       "record_id": "S46-190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S95-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S95-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S95-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S95-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S95-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/komlenic_rock_music_suicide_media_influence/relations_s95_rock_music_suicide_media_influence_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S95-006"
     },
     {
       "level": "warning",

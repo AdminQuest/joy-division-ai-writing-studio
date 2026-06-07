@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-05T15:13:05"
+generated_at: "2026-06-07T10:07:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 391 |
+| Atomes | 392 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 55 |
 | Événements chronologiques | 17 |
 | Personnes | 29 |
 | Chansons | 34 |
-| Sources mobilisées | 38 |
+| Sources mobilisées | 39 |
 
 ## 4. Sources mobilisées
 
@@ -72,6 +72,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S89 | S89 — Savage, England's Dreaming, 1991 | 2 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 4 | 0 |
 | S94 | S94 — Weissinger, Retromania (Book Review), JPMS, 2012 | 1 | 0 |
+| S95 | S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -710,7 +711,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Type | Nombre |
 |---|---|
-| analyse | 33 |
+| analyse | 34 |
 | concept_structurant | 27 |
 | manuscript_materiality | 13 |
 | lecture_chanson | 12 |
@@ -905,7 +906,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | non qualifiée | 122 |
 | majeure | 77 |
 | majeur | 13 |
-| utile | 7 |
+| utile | 8 |
 | secondaire | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 

@@ -719,6 +719,64 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S95-001",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md",
+    "heading": "CONCEPT-S95-001 — médiation musicale du risque",
+    "data": {
+      "id": "CONCEPT-S95-001",
+      "type_unite": "concept",
+      "nom": "médiation musicale du risque",
+      "source_id": "S95",
+      "sources": [
+        "S95"
+      ],
+      "atomes_lies": [
+        "S95-A001",
+        "S95-A002",
+        "S95-A006"
+      ],
+      "chapitres": [
+        12,
+        14
+      ],
+      "definition": "Concept désignant l'idée qu'une musique ou une scène culturelle peut jouer un rôle de médiateur ou de facilitateur chez des personnes déjà vulnérables, sans constituer une cause directe ou suffisante du suicide.\n",
+      "usage_recommande": "À mobiliser pour parler d'influence médiatique et de réception affective en gardant la distinction entre exposition, identification, prédisposition et causalité.\n",
+      "prudence": "Ne jamais transformer la médiation en déterminisme. S95 impose une lecture conditionnelle et située.",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S95-002",
+    "file": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md",
+    "heading": "CONCEPT-S95-002 — panique morale rock-suicide",
+    "data": {
+      "id": "CONCEPT-S95-002",
+      "type_unite": "concept",
+      "nom": "panique morale rock-suicide",
+      "source_id": "S95",
+      "sources": [
+        "S95"
+      ],
+      "atomes_lies": [
+        "S95-A003",
+        "S95-A005"
+      ],
+      "chapitres": [
+        14
+      ],
+      "definition": "Concept décrivant la construction médiatique, juridique ou conservatrice du rock comme responsable commode des suicides de jeunes, lorsque les causes réelles restent complexes, multiples et difficiles à accepter.\n",
+      "usage_recommande": "Utile pour analyser les controverses contre certaines chansons et pour éviter de reconduire l'idée d'une musique intrinsèquement suicidogène.\n",
+      "prudence": "Ne pas inverser la panique morale en déni total de risque : S95 maintient qu'une influence culturelle peut compter pour des personnes sensibles ou vulnérables.",
+      "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_short_title": "Miroslav Komlenić, Rock Music, Suicide and Media Influence, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S27-001",
     "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
     "heading": "Concepts",
