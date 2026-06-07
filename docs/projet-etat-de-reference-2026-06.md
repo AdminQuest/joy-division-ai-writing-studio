@@ -130,6 +130,7 @@ Ce document ne détaille pas les travaux M1 et ne les ouvre pas.
 - Améliorations d'interface visant l'ajout ou la modification des données.
 - Refondre ou non les interfaces de consultation.
 - Intégration d'un repo privé unifié.
+- Autonomisation documentaire du studio privé : suppression progressive des dépendances runtime du repo privé vers le repo public, synchronisation locale des exports, registres et documents maîtres, et refonte du dashboard corpus privé pour lecture locale.
 - Politique multimédia, droits, provenance et republication.
 
 # Invariants du projet
@@ -144,6 +145,7 @@ Ce document ne détaille pas les travaux M1 et ne les ouvre pas.
 - Les réserves acceptées à la clôture M0 ne doivent pas être transformées rétroactivement en blocages M0.
 - M2 ne doit pas être ouvert avant décision explicite.
 - Les décisions d'architecture doivent être documentées avant toute refonte.
+- Les applications privées ne doivent pas devenir durablement de simples lecteurs runtime du repo public ; toute dépendance inter-repos doit être cartographiée puis remplacée par une synchronisation maîtrisée lorsque M3 sera activé.
 
 # Utilisation du document
 

@@ -2,8 +2,8 @@
 
 | Champ | Valeur |
 | --- | --- |
-| Version | 2.0 |
-| Date | 2026-06-04 |
+| Version | 2.1 |
+| Date | 2026-06-07 |
 | Auteur de la revision | Codex, sur instruction utilisateur |
 | Statut | roadmap strategique additive |
 
@@ -16,6 +16,7 @@
 | Criteres M0 et M1 rendus verifiables | Les criteres qualitatifs initiaux sont completes par des criteres observables et controlables. |
 | Definition d'un tableau de bord qualite | Le tableau de bord est defini comme artefact genere par le build, sans comptage manuel stable. |
 | Decision Cloudflare Pages + Zero Trust | Cloudflare Pages et Zero Trust sont inscrits comme decision d'architecture M3, non comme hypothese immediate. |
+| Priorite M3 d'autonomisation documentaire du studio prive | Le chantier "Autonomisation documentaire du studio prive" est inscrit au meme niveau strategique que Cloudflare Zero Trust afin de supprimer progressivement les dependances runtime inter-repos. |
 | Clarification M0 // M1 et verrou M2 | M0 et M1 progressent en parallele ; M2 reste interdit tant que M0 et M1 ne sont pas clotures. |
 | Contraintes PR automatisees et GITHUB_TOKEN | Les limites d'automatisation, de validation humaine et de declenchement des workflows sont explicitees. |
 
@@ -101,6 +102,7 @@ Un chantier peut se rattacher a plusieurs jalons selon sa phase : documentation,
 | Chantiers RAG / manuscript-studio | experimental | M4 | Roles a clarifier sans refonte immediate. |
 | Collection personnelle | actif | M0 + M3 + M5 | Inventaire en M0 ; integration au repo unique prive en M3 ; medias, objets et droits en M5. |
 | Migration Cloudflare Pages + Zero Trust | decide, non lance | M3 | Decision d'architecture ; migration ulterieure apres stabilisation M0/M1. |
+| Autonomisation documentaire du studio prive | decide, non lance | M3 | Supprimer progressivement les dependances runtime du repo prive vers le repo public ; priorite equivalente au chantier Cloudflare Zero Trust. |
 
 L'application de consultation du registre concerts appartient au perimetre des applications existantes a inventorier et a auditer ; elle ne doit pas etre recreee. Le point ouvert concerne uniquement les ameliorations futures et le formulaire d'ajout, qui relevent de M2.
 
@@ -326,10 +328,22 @@ Le devenir de l'abonnement Pages Pro existant doit etre inventorie dans M3 afin 
 
 Cloudflare est decide ; le calendrier de migration n'est pas lance. La fusion des repos reste interdite a ce stade. L'objectif est un repo prive unique, mais seulement dans M3.
 
+Decision d'architecture complementaire : le repo prive doit progressivement devenir autonome sur le plan documentaire. Les applications privees ne doivent plus dependre, au runtime, de fetchs GitHub distants vers le repo public pour afficher l'etat du corpus. La cible M3 est une consommation locale des exports, registres et documents maitres, appuyee sur une synchronisation maitrisee plutot que sur une lecture distante.
+
+Le chantier explicitement retenu est intitule : **Autonomisation documentaire du studio prive**.
+
+Ce chantier est place dans M3 avec un niveau de priorite equivalent au chantier Cloudflare Pages + Zero Trust. Le constat qui le motive est structurel : certaines interfaces privees peuvent afficher un etat ancien lorsque les donnees publiques sont correctement generees mais que l'application privee consomme encore une ressource distante ou un miroir non synchronise.
+
 **Perimetre futur** :
 
 - architecture cible ;
 - strategie de migration ;
+- audit des dependances actuelles entre repo public et repo prive ;
+- cartographie des applications privees consommant encore des ressources publiques ;
+- suppression progressive des dependances runtime au repo public ;
+- strategie de synchronisation locale des exports, registres et documents maitres ;
+- lecture locale du dashboard corpus prive ;
+- lecture locale ou miroir maitrise des documents maitres prives ;
 - preservation des deux roadmaps ;
 - integration studio, registres et collection ;
 - absence de perte de donnees.
@@ -338,7 +352,12 @@ Cloudflare est decide ; le calendrier de migration n'est pas lance. La fusion de
 
 - note d'architecture cible ;
 - inventaire des repos et flux a rapprocher ;
+- inventaire des fetchs, URLs distantes et ressources inter-repos encore utilisees par les applications privees ;
+- matrice application privee -> ressource consommee -> strategie cible ;
 - plan de migration reversible ;
+- strategie de synchronisation locale reproductible ;
+- refonte du dashboard corpus pour lecture locale ;
+- validation fonctionnelle apres suppression des dependances runtime au repo public ;
 - strategie de sauvegarde ;
 - matrice des donnees a conserver.
 
@@ -347,6 +366,10 @@ Cloudflare est decide ; le calendrier de migration n'est pas lance. La fusion de
 - aucun repo n'est fusionne sans plan valide ;
 - les roadmaps existantes sont conservees ;
 - les donnees publiques et privees sont distinguees ;
+- les applications privees critiques ne dependent plus de fetchs GitHub distants vers le repo public pour rendre l'etat courant du corpus ;
+- les exports, registres et documents maitres necessaires aux interfaces privees sont disponibles localement ou synchronises par un mecanisme explicite ;
+- le dashboard corpus prive affiche l'etat documentaire local synchronise, pas un etat distant implicite ;
+- les documents maitres prives exposent la meme version documentaire que le corpus synchronise ;
 - les risques de perte ou d'ecrasement sont documentes.
 
 Ces criteres devront etre rendus mesurables au declenchement effectif du jalon.
@@ -354,12 +377,15 @@ Ces criteres devront etre rendus mesurables au declenchement effectif du jalon.
 **Liens avec la roadmap existante** :
 
 - rattache les chantiers techniques d'infrastructure, de publication et de securisation ;
+- rattache le chantier d'autonomisation documentaire du studio prive ;
 - doit rester posterieur a M0 et M1.
 
 **Risques** :
 
 - fusion prematuree des repos ;
 - perte de contexte entre corpus public, corpus prive et studios ;
+- interfaces privees affichant un etat documentaire ancien a cause d'une lecture distante ou d'un miroir non synchronise ;
+- confusion entre synchronisation maitrisee et dependance runtime implicite ;
 - complexite Cloudflare/Zero Trust introduite avant stabilisation documentaire.
 
 ## M4 — Studio de redaction
