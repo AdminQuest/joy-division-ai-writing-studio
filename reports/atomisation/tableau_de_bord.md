@@ -1,7 +1,7 @@
 # Tableau de bord des atomisations
 
-> Régénéré le **05 juin 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
-> État vérifié : 0 erreur bloquante · 2 770 atomes · 8 644 enregistrements · 97 sources déclarées.
+> Régénéré le **07 juin 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
+> État vérifié : 0 erreur bloquante · 2 769 atomes · 8 644 enregistrements · 97 sources déclarées.
 
 ---
 
@@ -11,17 +11,17 @@
 |---|---:|
 | Total sources déclarées | **97** |
 | Sources avec atomes | **82** |
-| Total atomes dans le corpus | **2 770** |
+| Total atomes dans le corpus | **2 769** |
 | Total enregistrements (toutes types) | **8 644** |
 | Erreurs bloquantes (audit) | **0** ✅ |
-| Avertissements (audit) | 28 870 |
-| Dette migration v2 (atomes incomplets) | 2 530 / 2 770 |
+| Avertissements (audit) | 28 839 |
+| Dette migration v2 (atomes incomplets) | 2 529 / 2 769 |
 
 ### Répartition des enregistrements par type
 
 | Type | Nombre |
 |---|---:|
-| atom | 2 770 |
+| atom | 2 769 |
 | chronology | 539 |
 | concept | 463 |
 | metadata | 274 |
@@ -29,7 +29,7 @@
 | myth | 102 |
 | person | 510 |
 | quote | 962 |
-| song | 110 |
+| song | 111 |
 | source | 124 |
 | template | 328 |
 | unknown | 1 404 |
@@ -89,7 +89,7 @@ _Colonnes : ID · Auteur · Titre abrégé · Statut registre · Pages couvertes
 | S32 | Kraftwerk | Trans-Europe Express / Radio-Activity | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
 | S33 | Can | Tago Mago | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
 | S34 | Fraser | Manchester, 1976 | 🟢 Vérifié | — | — | 12 | 6 | 12 | 3 | 7 | 🟡 Partielle ⚠️ _Manque pp. 139–154_ |
-| S35 | Morris | Record Play Pause | 📌 Fixée | 1–358 | — | 90 | 0 | 0 | 24 | 0 | 🔵 Partielle (pag. NR) |
+| S35 | Morris | Record Play Pause | 📌 Fixée | 1–358 | — | 107 | 0 | 0 | 24 | 0 | 🔵 Partielle (pag. NR) |
 | S36 | Crosthwaite | Trauma and Degeneration | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
 | S38 | Saville | Pulsebeat of Manchester | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
 | S39 | Bauman | Liquid Modernity | 🟢 Vérifié | — | — | 8 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
@@ -98,7 +98,7 @@ _Colonnes : ID · Auteur · Titre abrégé · Statut registre · Pages couvertes
 | S42 | Troianiello | Metropoli e spazio periferico | 📌 Fixée | — | — | 13 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S43 | Capozzi | The weight on their shoulders | 📌 Fixée | 64–75 | — | 15 | 0 | 0 | 5 | 0 | 🔵 Partielle (pag. NR) |
 | S44 | Guarino | I Joy Division tra vomito culturale | 📌 Fixée | 76–92 | — | 16 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
-| S45 | Curtis D. | Touching from a Distance | ✅ Atomisé | 17–218 (sélectif) | — | 205 | 56 | 37 | 0 | 5 | 🔵 Partielle (pag. NR) |
+| S45 | Curtis D. | Touching from a Distance | ✅ Atomisé | 17–218 (sélectif) | — | 204 | 56 | 37 | 0 | 5 | 🔵 Partielle (pag. NR) |
 | S46 | Johnson | An Ideal for Living | ✅ Atomisé | 2–122 (sélectif) | — | 190 | 5 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S47 | West | Joy Division | 🟡 Consolidée | — | — | 200 | 15 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S48 | De Sia | Il segno, la grafica, la visione | 📌 Fixée | 94–98 | — | 13 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
@@ -247,9 +247,9 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 | Erreurs bloquantes | **0** | 0 (inchangé) |
 | Doublons d'identifiants | **0** | 0 (inchangé) |
 | YAML parse errors | **0** | 0 (inchangé) |
-| Avertissements | 28 870 | -1 077 (était 29 947) |
-| unknown_yaml_blocks | 1 404 | -77 (était 1 481) |
-| v2 migration debt | 2 530 atomes | -113 (était 2 643) |
+| Avertissements | 28 839 | -31 (était 28 870) |
+| unknown_yaml_blocks | 1 404 | 0 (inchangé) |
+| v2 migration debt | 2 529 atomes | -1 (était 2 530) |
 
 ---
 
@@ -257,11 +257,11 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 - **Pagination non déclarée** : les sources sans champ `pages_atomisees` dans `source.md` affichent "pag. NR". Des atomes existent mais la couverture est incalculable.
 - **Chapitres v2** : la colonne "Chap. v2" ne compte que les atomes déclarant explicitement un champ `chapitres:` (format v2). Les atomes v1 affichent "—".
-- **Dette migration v2** : 2 530 atomes sur 2 770 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
+- **Dette migration v2** : 2 529 atomes sur 2 769 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
 - **REGISTRY** : identifiant interne de référence pour les chansons, ajouté au registre le 26/05/2026.
 
 ---
 
-_Tableau régénéré le 05 juin 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
+_Tableau régénéré le 07 juin 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
 
-_Synchronisation automatique morning_sync — 2026-06-05_
+_Synchronisation automatique morning_sync — 2026-06-07_
