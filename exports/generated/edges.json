@@ -40755,6 +40755,110 @@
     {
       "edge_id": "EDGE-003135",
       "source_kind": "atom",
+      "source_id": "S95-A001",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003136",
+      "source_kind": "atom",
+      "source_id": "S95-A002",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003137",
+      "source_kind": "atom",
+      "source_id": "S95-A003",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003138",
+      "source_kind": "atom",
+      "source_id": "S95-A004",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003139",
+      "source_kind": "atom",
+      "source_id": "S95-A005",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003140",
+      "source_kind": "atom",
+      "source_id": "S95-A006",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003141",
+      "source_kind": "atom",
+      "source_id": "S95-A007",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A007"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003142",
+      "source_kind": "atom",
+      "source_id": "S95-A008",
+      "target_kind": "source",
+      "target_id": "S95",
+      "relation_type": "documented_by",
+      "evidence_refs": [
+        "S95-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "exports/generated/atoms.json"
+    },
+    {
+      "edge_id": "EDGE-003143",
+      "source_kind": "atom",
       "source_id": "S09-A001",
       "target_kind": "concept",
       "target_id": "CONCEPT-S09-001",
@@ -40766,7 +40870,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003136",
+      "edge_id": "EDGE-003144",
       "source_kind": "atom",
       "source_id": "S09-A003",
       "target_kind": "concept",
@@ -40779,7 +40883,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003137",
+      "edge_id": "EDGE-003145",
       "source_kind": "atom",
       "source_id": "S09-A005",
       "target_kind": "concept",
@@ -40792,7 +40896,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003138",
+      "edge_id": "EDGE-003146",
       "source_kind": "atom",
       "source_id": "S09-A006",
       "target_kind": "concept",
@@ -40805,7 +40909,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003139",
+      "edge_id": "EDGE-003147",
       "source_kind": "atom",
       "source_id": "S13-A003",
       "target_kind": "concept",
@@ -40818,7 +40922,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003140",
+      "edge_id": "EDGE-003148",
       "source_kind": "atom",
       "source_id": "S13-A004",
       "target_kind": "concept",
@@ -40831,7 +40935,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003141",
+      "edge_id": "EDGE-003149",
       "source_kind": "atom",
       "source_id": "S13-A005",
       "target_kind": "concept",
@@ -40844,7 +40948,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003142",
+      "edge_id": "EDGE-003150",
       "source_kind": "atom",
       "source_id": "S13-A006",
       "target_kind": "concept",
@@ -40857,7 +40961,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003143",
+      "edge_id": "EDGE-003151",
       "source_kind": "atom",
       "source_id": "S13-A008",
       "target_kind": "concept",
@@ -40870,7 +40974,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003144",
+      "edge_id": "EDGE-003152",
       "source_kind": "atom",
       "source_id": "S13-A008",
       "target_kind": "concept",
@@ -40883,7 +40987,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003145",
+      "edge_id": "EDGE-003153",
       "source_kind": "atom",
       "source_id": "S13-A009",
       "target_kind": "concept",
@@ -40896,7 +41000,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003146",
+      "edge_id": "EDGE-003154",
       "source_kind": "atom",
       "source_id": "S13-A009",
       "target_kind": "concept",
@@ -40909,7 +41013,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003147",
+      "edge_id": "EDGE-003155",
       "source_kind": "atom",
       "source_id": "S13-A010",
       "target_kind": "concept",
@@ -40922,7 +41026,7 @@
       "derived_from": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003148",
+      "edge_id": "EDGE-003156",
       "source_kind": "atom",
       "source_id": "S14-A001",
       "target_kind": "concept",
@@ -40935,7 +41039,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003149",
+      "edge_id": "EDGE-003157",
       "source_kind": "atom",
       "source_id": "S14-A002",
       "target_kind": "concept",
@@ -40948,7 +41052,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003150",
+      "edge_id": "EDGE-003158",
       "source_kind": "atom",
       "source_id": "S14-A003",
       "target_kind": "concept",
@@ -40961,7 +41065,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003151",
+      "edge_id": "EDGE-003159",
       "source_kind": "atom",
       "source_id": "S14-A004",
       "target_kind": "concept",
@@ -40974,7 +41078,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003152",
+      "edge_id": "EDGE-003160",
       "source_kind": "atom",
       "source_id": "S14-A007",
       "target_kind": "concept",
@@ -40987,7 +41091,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003153",
+      "edge_id": "EDGE-003161",
       "source_kind": "atom",
       "source_id": "S14-A008",
       "target_kind": "concept",
@@ -41000,7 +41104,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003154",
+      "edge_id": "EDGE-003162",
       "source_kind": "atom",
       "source_id": "S15-A003",
       "target_kind": "concept",
@@ -41013,7 +41117,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003155",
+      "edge_id": "EDGE-003163",
       "source_kind": "atom",
       "source_id": "S15-A006",
       "target_kind": "concept",
@@ -41026,7 +41130,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003156",
+      "edge_id": "EDGE-003164",
       "source_kind": "atom",
       "source_id": "S15-A007",
       "target_kind": "concept",
@@ -41039,7 +41143,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003157",
+      "edge_id": "EDGE-003165",
       "source_kind": "atom",
       "source_id": "S15-A007",
       "target_kind": "concept",
@@ -41052,7 +41156,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003158",
+      "edge_id": "EDGE-003166",
       "source_kind": "atom",
       "source_id": "S15-A009",
       "target_kind": "concept",
@@ -41065,7 +41169,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003159",
+      "edge_id": "EDGE-003167",
       "source_kind": "atom",
       "source_id": "S15-A010",
       "target_kind": "concept",
@@ -41078,7 +41182,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003160",
+      "edge_id": "EDGE-003168",
       "source_kind": "atom",
       "source_id": "S15-A010",
       "target_kind": "concept",
@@ -41091,7 +41195,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003161",
+      "edge_id": "EDGE-003169",
       "source_kind": "atom",
       "source_id": "S15-A011",
       "target_kind": "concept",
@@ -41104,7 +41208,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003162",
+      "edge_id": "EDGE-003170",
       "source_kind": "atom",
       "source_id": "S15-A011",
       "target_kind": "concept",
@@ -41117,7 +41221,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003163",
+      "edge_id": "EDGE-003171",
       "source_kind": "atom",
       "source_id": "S15-A014",
       "target_kind": "concept",
@@ -41130,7 +41234,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003164",
+      "edge_id": "EDGE-003172",
       "source_kind": "atom",
       "source_id": "S21-A001",
       "target_kind": "concept",
@@ -41143,7 +41247,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003165",
+      "edge_id": "EDGE-003173",
       "source_kind": "atom",
       "source_id": "S21-A002",
       "target_kind": "concept",
@@ -41156,7 +41260,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003166",
+      "edge_id": "EDGE-003174",
       "source_kind": "atom",
       "source_id": "S21-A002",
       "target_kind": "concept",
@@ -41169,7 +41273,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003167",
+      "edge_id": "EDGE-003175",
       "source_kind": "atom",
       "source_id": "S21-A003",
       "target_kind": "concept",
@@ -41182,7 +41286,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003168",
+      "edge_id": "EDGE-003176",
       "source_kind": "atom",
       "source_id": "S21-A004",
       "target_kind": "concept",
@@ -41195,7 +41299,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003169",
+      "edge_id": "EDGE-003177",
       "source_kind": "atom",
       "source_id": "S21-A005",
       "target_kind": "concept",
@@ -41208,7 +41312,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003170",
+      "edge_id": "EDGE-003178",
       "source_kind": "atom",
       "source_id": "S21-A009",
       "target_kind": "concept",
@@ -41221,7 +41325,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003171",
+      "edge_id": "EDGE-003179",
       "source_kind": "atom",
       "source_id": "S21-A010",
       "target_kind": "concept",
@@ -41234,7 +41338,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003172",
+      "edge_id": "EDGE-003180",
       "source_kind": "atom",
       "source_id": "S21-A010",
       "target_kind": "concept",
@@ -41247,7 +41351,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003173",
+      "edge_id": "EDGE-003181",
       "source_kind": "atom",
       "source_id": "S22-A002",
       "target_kind": "concept",
@@ -41260,7 +41364,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003174",
+      "edge_id": "EDGE-003182",
       "source_kind": "atom",
       "source_id": "S22-A004",
       "target_kind": "concept",
@@ -41273,7 +41377,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003175",
+      "edge_id": "EDGE-003183",
       "source_kind": "atom",
       "source_id": "S22-A005",
       "target_kind": "concept",
@@ -41286,7 +41390,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003176",
+      "edge_id": "EDGE-003184",
       "source_kind": "atom",
       "source_id": "S22-A008",
       "target_kind": "concept",
@@ -41299,7 +41403,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003177",
+      "edge_id": "EDGE-003185",
       "source_kind": "atom",
       "source_id": "S22-A009",
       "target_kind": "concept",
@@ -41312,7 +41416,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003178",
+      "edge_id": "EDGE-003186",
       "source_kind": "atom",
       "source_id": "S22-A010",
       "target_kind": "concept",
@@ -41325,7 +41429,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003179",
+      "edge_id": "EDGE-003187",
       "source_kind": "atom",
       "source_id": "S22-A011",
       "target_kind": "concept",
@@ -41338,7 +41442,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003180",
+      "edge_id": "EDGE-003188",
       "source_kind": "atom",
       "source_id": "S22-A012",
       "target_kind": "concept",
@@ -41351,7 +41455,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003181",
+      "edge_id": "EDGE-003189",
       "source_kind": "atom",
       "source_id": "S26-A002",
       "target_kind": "concept",
@@ -41364,7 +41468,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003182",
+      "edge_id": "EDGE-003190",
       "source_kind": "atom",
       "source_id": "S26-A006",
       "target_kind": "concept",
@@ -41377,7 +41481,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003183",
+      "edge_id": "EDGE-003191",
       "source_kind": "atom",
       "source_id": "S26-A007",
       "target_kind": "concept",
@@ -41390,7 +41494,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003184",
+      "edge_id": "EDGE-003192",
       "source_kind": "atom",
       "source_id": "S26-A011",
       "target_kind": "concept",
@@ -41403,7 +41507,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003185",
+      "edge_id": "EDGE-003193",
       "source_kind": "atom",
       "source_id": "S26-A013",
       "target_kind": "concept",
@@ -41416,7 +41520,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003186",
+      "edge_id": "EDGE-003194",
       "source_kind": "atom",
       "source_id": "S26-A013",
       "target_kind": "concept",
@@ -41429,7 +41533,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003187",
+      "edge_id": "EDGE-003195",
       "source_kind": "atom",
       "source_id": "S26-A014",
       "target_kind": "concept",
@@ -41442,7 +41546,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003188",
+      "edge_id": "EDGE-003196",
       "source_kind": "atom",
       "source_id": "S26-A015",
       "target_kind": "concept",
@@ -41455,7 +41559,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003189",
+      "edge_id": "EDGE-003197",
       "source_kind": "atom",
       "source_id": "S27-A001",
       "target_kind": "concept",
@@ -41468,7 +41572,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003190",
+      "edge_id": "EDGE-003198",
       "source_kind": "atom",
       "source_id": "S27-A002",
       "target_kind": "concept",
@@ -41481,7 +41585,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003191",
+      "edge_id": "EDGE-003199",
       "source_kind": "atom",
       "source_id": "S27-A003",
       "target_kind": "concept",
@@ -41494,7 +41598,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003192",
+      "edge_id": "EDGE-003200",
       "source_kind": "atom",
       "source_id": "S27-A006",
       "target_kind": "concept",
@@ -41507,7 +41611,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003193",
+      "edge_id": "EDGE-003201",
       "source_kind": "atom",
       "source_id": "S27-A010",
       "target_kind": "concept",
@@ -41520,7 +41624,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003194",
+      "edge_id": "EDGE-003202",
       "source_kind": "atom",
       "source_id": "S29-A002",
       "target_kind": "concept",
@@ -41533,7 +41637,7 @@
       "derived_from": "registers/concepts/s29_goddard_concepts_part_01.md"
     },
     {
-      "edge_id": "EDGE-003195",
+      "edge_id": "EDGE-003203",
       "source_kind": "atom",
       "source_id": "S29-A008",
       "target_kind": "concept",
@@ -41546,7 +41650,7 @@
       "derived_from": "registers/concepts/s29_goddard_concepts_part_01.md"
     },
     {
-      "edge_id": "EDGE-003196",
+      "edge_id": "EDGE-003204",
       "source_kind": "atom",
       "source_id": "S29-A009",
       "target_kind": "concept",
@@ -41559,7 +41663,7 @@
       "derived_from": "registers/concepts/s29_goddard_concepts_part_01.md"
     },
     {
-      "edge_id": "EDGE-003197",
+      "edge_id": "EDGE-003205",
       "source_kind": "atom",
       "source_id": "S34-A007",
       "target_kind": "concept",
@@ -41572,7 +41676,7 @@
       "derived_from": "registers/concepts/s34_fraser_fuoto_concepts_part_01.md"
     },
     {
-      "edge_id": "EDGE-003198",
+      "edge_id": "EDGE-003206",
       "source_kind": "atom",
       "source_id": "S34-A009",
       "target_kind": "concept",
@@ -41585,7 +41689,7 @@
       "derived_from": "registers/concepts/s34_fraser_fuoto_concepts_part_01.md"
     },
     {
-      "edge_id": "EDGE-003199",
+      "edge_id": "EDGE-003207",
       "source_kind": "atom",
       "source_id": "S34-A012",
       "target_kind": "concept",
@@ -41598,7 +41702,7 @@
       "derived_from": "registers/concepts/s34_fraser_fuoto_concepts_part_01.md"
     },
     {
-      "edge_id": "EDGE-003200",
+      "edge_id": "EDGE-003208",
       "source_kind": "atom",
       "source_id": "S35-A034",
       "target_kind": "concept",
@@ -41611,7 +41715,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003201",
+      "edge_id": "EDGE-003209",
       "source_kind": "atom",
       "source_id": "S35-A037",
       "target_kind": "concept",
@@ -41624,7 +41728,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003202",
+      "edge_id": "EDGE-003210",
       "source_kind": "atom",
       "source_id": "S35-A038",
       "target_kind": "concept",
@@ -41637,7 +41741,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003203",
+      "edge_id": "EDGE-003211",
       "source_kind": "atom",
       "source_id": "S35-A039",
       "target_kind": "concept",
@@ -41650,7 +41754,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003204",
+      "edge_id": "EDGE-003212",
       "source_kind": "atom",
       "source_id": "S35-A041",
       "target_kind": "concept",
@@ -41663,7 +41767,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003205",
+      "edge_id": "EDGE-003213",
       "source_kind": "atom",
       "source_id": "S35-A043",
       "target_kind": "concept",
@@ -41676,7 +41780,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003206",
+      "edge_id": "EDGE-003214",
       "source_kind": "atom",
       "source_id": "S35-A044",
       "target_kind": "concept",
@@ -41689,7 +41793,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003207",
+      "edge_id": "EDGE-003215",
       "source_kind": "atom",
       "source_id": "S35-A046",
       "target_kind": "concept",
@@ -41702,7 +41806,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003208",
+      "edge_id": "EDGE-003216",
       "source_kind": "atom",
       "source_id": "S35-A047",
       "target_kind": "concept",
@@ -41715,7 +41819,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_03.md"
     },
     {
-      "edge_id": "EDGE-003209",
+      "edge_id": "EDGE-003217",
       "source_kind": "atom",
       "source_id": "S35-A048",
       "target_kind": "concept",
@@ -41728,7 +41832,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003210",
+      "edge_id": "EDGE-003218",
       "source_kind": "atom",
       "source_id": "S35-A049",
       "target_kind": "concept",
@@ -41741,7 +41845,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003211",
+      "edge_id": "EDGE-003219",
       "source_kind": "atom",
       "source_id": "S35-A052",
       "target_kind": "concept",
@@ -41754,7 +41858,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003212",
+      "edge_id": "EDGE-003220",
       "source_kind": "atom",
       "source_id": "S35-A057",
       "target_kind": "concept",
@@ -41767,7 +41871,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003213",
+      "edge_id": "EDGE-003221",
       "source_kind": "atom",
       "source_id": "S35-A058",
       "target_kind": "concept",
@@ -41780,7 +41884,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003214",
+      "edge_id": "EDGE-003222",
       "source_kind": "atom",
       "source_id": "S35-A059",
       "target_kind": "concept",
@@ -41793,7 +41897,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003215",
+      "edge_id": "EDGE-003223",
       "source_kind": "atom",
       "source_id": "S35-A060",
       "target_kind": "concept",
@@ -41806,7 +41910,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003216",
+      "edge_id": "EDGE-003224",
       "source_kind": "atom",
       "source_id": "S35-A061",
       "target_kind": "concept",
@@ -41819,7 +41923,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003217",
+      "edge_id": "EDGE-003225",
       "source_kind": "atom",
       "source_id": "S35-A063",
       "target_kind": "concept",
@@ -41832,7 +41936,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003218",
+      "edge_id": "EDGE-003226",
       "source_kind": "atom",
       "source_id": "S35-A064",
       "target_kind": "concept",
@@ -41845,7 +41949,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003219",
+      "edge_id": "EDGE-003227",
       "source_kind": "atom",
       "source_id": "S35-A064",
       "target_kind": "concept",
@@ -41858,7 +41962,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003220",
+      "edge_id": "EDGE-003228",
       "source_kind": "atom",
       "source_id": "S35-A065",
       "target_kind": "concept",
@@ -41871,7 +41975,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_04.md"
     },
     {
-      "edge_id": "EDGE-003221",
+      "edge_id": "EDGE-003229",
       "source_kind": "atom",
       "source_id": "S35-A066",
       "target_kind": "concept",
@@ -41884,7 +41988,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003222",
+      "edge_id": "EDGE-003230",
       "source_kind": "atom",
       "source_id": "S35-A067",
       "target_kind": "concept",
@@ -41897,7 +42001,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003223",
+      "edge_id": "EDGE-003231",
       "source_kind": "atom",
       "source_id": "S35-A068",
       "target_kind": "concept",
@@ -41910,7 +42014,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003224",
+      "edge_id": "EDGE-003232",
       "source_kind": "atom",
       "source_id": "S35-A070",
       "target_kind": "concept",
@@ -41923,7 +42027,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003225",
+      "edge_id": "EDGE-003233",
       "source_kind": "atom",
       "source_id": "S35-A072",
       "target_kind": "concept",
@@ -41936,7 +42040,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003226",
+      "edge_id": "EDGE-003234",
       "source_kind": "atom",
       "source_id": "S35-A073",
       "target_kind": "concept",
@@ -41949,7 +42053,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003227",
+      "edge_id": "EDGE-003235",
       "source_kind": "atom",
       "source_id": "S35-A074",
       "target_kind": "concept",
@@ -41962,7 +42066,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003228",
+      "edge_id": "EDGE-003236",
       "source_kind": "atom",
       "source_id": "S35-A074",
       "target_kind": "concept",
@@ -41975,7 +42079,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003229",
+      "edge_id": "EDGE-003237",
       "source_kind": "atom",
       "source_id": "S35-A075",
       "target_kind": "concept",
@@ -41988,7 +42092,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003230",
+      "edge_id": "EDGE-003238",
       "source_kind": "atom",
       "source_id": "S35-A076",
       "target_kind": "concept",
@@ -42001,7 +42105,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003231",
+      "edge_id": "EDGE-003239",
       "source_kind": "atom",
       "source_id": "S35-A077",
       "target_kind": "concept",
@@ -42014,7 +42118,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003232",
+      "edge_id": "EDGE-003240",
       "source_kind": "atom",
       "source_id": "S35-A078",
       "target_kind": "concept",
@@ -42027,7 +42131,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003233",
+      "edge_id": "EDGE-003241",
       "source_kind": "atom",
       "source_id": "S35-A079",
       "target_kind": "concept",
@@ -42040,7 +42144,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003234",
+      "edge_id": "EDGE-003242",
       "source_kind": "atom",
       "source_id": "S35-A080",
       "target_kind": "concept",
@@ -42053,7 +42157,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003235",
+      "edge_id": "EDGE-003243",
       "source_kind": "atom",
       "source_id": "S35-A081",
       "target_kind": "concept",
@@ -42066,7 +42170,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003236",
+      "edge_id": "EDGE-003244",
       "source_kind": "atom",
       "source_id": "S35-A082",
       "target_kind": "concept",
@@ -42079,7 +42183,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003237",
+      "edge_id": "EDGE-003245",
       "source_kind": "atom",
       "source_id": "S35-A085",
       "target_kind": "concept",
@@ -42092,7 +42196,7 @@
       "derived_from": "registers/concepts/s35_morris_concepts_part_05.md"
     },
     {
-      "edge_id": "EDGE-003238",
+      "edge_id": "EDGE-003246",
       "source_kind": "atom",
       "source_id": "S43-A002",
       "target_kind": "concept",
@@ -42105,7 +42209,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003239",
+      "edge_id": "EDGE-003247",
       "source_kind": "atom",
       "source_id": "S43-A004",
       "target_kind": "concept",
@@ -42118,7 +42222,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003240",
+      "edge_id": "EDGE-003248",
       "source_kind": "atom",
       "source_id": "S43-A005",
       "target_kind": "concept",
@@ -42131,7 +42235,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003241",
+      "edge_id": "EDGE-003249",
       "source_kind": "atom",
       "source_id": "S43-A006",
       "target_kind": "concept",
@@ -42144,7 +42248,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003242",
+      "edge_id": "EDGE-003250",
       "source_kind": "atom",
       "source_id": "S43-A009",
       "target_kind": "concept",
@@ -42157,7 +42261,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003243",
+      "edge_id": "EDGE-003251",
       "source_kind": "atom",
       "source_id": "S43-A012",
       "target_kind": "concept",
@@ -42170,7 +42274,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003244",
+      "edge_id": "EDGE-003252",
       "source_kind": "atom",
       "source_id": "S43-A013",
       "target_kind": "concept",
@@ -42183,7 +42287,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003245",
+      "edge_id": "EDGE-003253",
       "source_kind": "atom",
       "source_id": "S43-A014",
       "target_kind": "concept",
@@ -42196,7 +42300,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003246",
+      "edge_id": "EDGE-003254",
       "source_kind": "atom",
       "source_id": "S43-A014",
       "target_kind": "concept",
@@ -42209,7 +42313,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003247",
+      "edge_id": "EDGE-003255",
       "source_kind": "atom",
       "source_id": "S43-A014",
       "target_kind": "concept",
@@ -42222,7 +42326,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003248",
+      "edge_id": "EDGE-003256",
       "source_kind": "atom",
       "source_id": "S43-A015",
       "target_kind": "concept",
@@ -42235,7 +42339,7 @@
       "derived_from": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md"
     },
     {
-      "edge_id": "EDGE-003249",
+      "edge_id": "EDGE-003257",
       "source_kind": "atom",
       "source_id": "S45-A024",
       "target_kind": "concept",
@@ -42248,7 +42352,7 @@
       "derived_from": "registers/concepts/s45_curtis_concepts_1976_1977.md"
     },
     {
-      "edge_id": "EDGE-003250",
+      "edge_id": "EDGE-003258",
       "source_kind": "atom",
       "source_id": "S45-A025",
       "target_kind": "concept",
@@ -42261,7 +42365,7 @@
       "derived_from": "registers/concepts/s45_curtis_concepts_1976_1977.md"
     },
     {
-      "edge_id": "EDGE-003251",
+      "edge_id": "EDGE-003259",
       "source_kind": "atom",
       "source_id": "S45-A030",
       "target_kind": "concept",
@@ -42274,7 +42378,7 @@
       "derived_from": "registers/concepts/s45_curtis_concepts_1976_1977.md"
     },
     {
-      "edge_id": "EDGE-003252",
+      "edge_id": "EDGE-003260",
       "source_kind": "atom",
       "source_id": "S45-A085",
       "target_kind": "concept",
@@ -42287,7 +42391,7 @@
       "derived_from": "registers/concepts/s45_curtis_concepts_1979_buzzcocks_tour.md"
     },
     {
-      "edge_id": "EDGE-003253",
+      "edge_id": "EDGE-003261",
       "source_kind": "atom",
       "source_id": "S49-A001",
       "target_kind": "concept",
@@ -42300,7 +42404,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003254",
+      "edge_id": "EDGE-003262",
       "source_kind": "atom",
       "source_id": "S49-A006",
       "target_kind": "concept",
@@ -42313,7 +42417,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003255",
+      "edge_id": "EDGE-003263",
       "source_kind": "atom",
       "source_id": "S49-A007",
       "target_kind": "concept",
@@ -42326,7 +42430,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003256",
+      "edge_id": "EDGE-003264",
       "source_kind": "atom",
       "source_id": "S49-A007",
       "target_kind": "concept",
@@ -42339,7 +42443,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003257",
+      "edge_id": "EDGE-003265",
       "source_kind": "atom",
       "source_id": "S49-A010",
       "target_kind": "concept",
@@ -42352,7 +42456,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003258",
+      "edge_id": "EDGE-003266",
       "source_kind": "atom",
       "source_id": "S49-A014",
       "target_kind": "concept",
@@ -42365,7 +42469,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003259",
+      "edge_id": "EDGE-003267",
       "source_kind": "atom",
       "source_id": "S49-A015",
       "target_kind": "concept",
@@ -42378,7 +42482,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003260",
+      "edge_id": "EDGE-003268",
       "source_kind": "atom",
       "source_id": "S49-A015",
       "target_kind": "concept",
@@ -42391,7 +42495,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003261",
+      "edge_id": "EDGE-003269",
       "source_kind": "atom",
       "source_id": "S50-A002",
       "target_kind": "concept",
@@ -42404,7 +42508,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003262",
+      "edge_id": "EDGE-003270",
       "source_kind": "atom",
       "source_id": "S50-A003",
       "target_kind": "concept",
@@ -42417,7 +42521,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003263",
+      "edge_id": "EDGE-003271",
       "source_kind": "atom",
       "source_id": "S50-A005",
       "target_kind": "concept",
@@ -42430,7 +42534,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003264",
+      "edge_id": "EDGE-003272",
       "source_kind": "atom",
       "source_id": "S50-A006",
       "target_kind": "concept",
@@ -42443,7 +42547,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003265",
+      "edge_id": "EDGE-003273",
       "source_kind": "atom",
       "source_id": "S50-A007",
       "target_kind": "concept",
@@ -42456,7 +42560,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003266",
+      "edge_id": "EDGE-003274",
       "source_kind": "atom",
       "source_id": "S50-A008",
       "target_kind": "concept",
@@ -42469,7 +42573,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003267",
+      "edge_id": "EDGE-003275",
       "source_kind": "atom",
       "source_id": "S50-A009",
       "target_kind": "concept",
@@ -42482,7 +42586,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003268",
+      "edge_id": "EDGE-003276",
       "source_kind": "atom",
       "source_id": "S50-A009",
       "target_kind": "concept",
@@ -42495,7 +42599,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003269",
+      "edge_id": "EDGE-003277",
       "source_kind": "atom",
       "source_id": "S50-A010",
       "target_kind": "concept",
@@ -42508,7 +42612,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003270",
+      "edge_id": "EDGE-003278",
       "source_kind": "atom",
       "source_id": "S50-A011",
       "target_kind": "concept",
@@ -42521,7 +42625,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003271",
+      "edge_id": "EDGE-003279",
       "source_kind": "atom",
       "source_id": "S50-A011",
       "target_kind": "concept",
@@ -42534,7 +42638,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003272",
+      "edge_id": "EDGE-003280",
       "source_kind": "atom",
       "source_id": "S50-A012",
       "target_kind": "concept",
@@ -42547,7 +42651,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003273",
+      "edge_id": "EDGE-003281",
       "source_kind": "atom",
       "source_id": "S50-A013",
       "target_kind": "concept",
@@ -42560,7 +42664,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003274",
+      "edge_id": "EDGE-003282",
       "source_kind": "atom",
       "source_id": "S50-A014",
       "target_kind": "concept",
@@ -42573,7 +42677,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003275",
+      "edge_id": "EDGE-003283",
       "source_kind": "atom",
       "source_id": "S50-A019",
       "target_kind": "concept",
@@ -42586,7 +42690,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003276",
+      "edge_id": "EDGE-003284",
       "source_kind": "atom",
       "source_id": "S50-A019",
       "target_kind": "concept",
@@ -42599,7 +42703,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003277",
+      "edge_id": "EDGE-003285",
       "source_kind": "atom",
       "source_id": "S51-A001",
       "target_kind": "concept",
@@ -42612,7 +42716,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003278",
+      "edge_id": "EDGE-003286",
       "source_kind": "atom",
       "source_id": "S51-A002",
       "target_kind": "concept",
@@ -42625,7 +42729,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003279",
+      "edge_id": "EDGE-003287",
       "source_kind": "atom",
       "source_id": "S51-A003",
       "target_kind": "concept",
@@ -42638,7 +42742,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003280",
+      "edge_id": "EDGE-003288",
       "source_kind": "atom",
       "source_id": "S51-A003",
       "target_kind": "concept",
@@ -42651,7 +42755,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003281",
+      "edge_id": "EDGE-003289",
       "source_kind": "atom",
       "source_id": "S51-A003",
       "target_kind": "concept",
@@ -42664,7 +42768,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003282",
+      "edge_id": "EDGE-003290",
       "source_kind": "atom",
       "source_id": "S51-A006",
       "target_kind": "concept",
@@ -42677,7 +42781,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003283",
+      "edge_id": "EDGE-003291",
       "source_kind": "atom",
       "source_id": "S51-A006",
       "target_kind": "concept",
@@ -42690,7 +42794,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003284",
+      "edge_id": "EDGE-003292",
       "source_kind": "atom",
       "source_id": "S51-A007",
       "target_kind": "concept",
@@ -42703,7 +42807,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003285",
+      "edge_id": "EDGE-003293",
       "source_kind": "atom",
       "source_id": "S51-A014",
       "target_kind": "concept",
@@ -42716,7 +42820,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003286",
+      "edge_id": "EDGE-003294",
       "source_kind": "atom",
       "source_id": "S51-A014",
       "target_kind": "concept",
@@ -42729,7 +42833,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003287",
+      "edge_id": "EDGE-003295",
       "source_kind": "atom",
       "source_id": "S51-A015",
       "target_kind": "concept",
@@ -42742,7 +42846,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003288",
+      "edge_id": "EDGE-003296",
       "source_kind": "atom",
       "source_id": "S52-A004",
       "target_kind": "concept",
@@ -42755,7 +42859,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003289",
+      "edge_id": "EDGE-003297",
       "source_kind": "atom",
       "source_id": "S52-A008",
       "target_kind": "concept",
@@ -42768,7 +42872,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003290",
+      "edge_id": "EDGE-003298",
       "source_kind": "atom",
       "source_id": "S52-A014",
       "target_kind": "concept",
@@ -42781,7 +42885,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003291",
+      "edge_id": "EDGE-003299",
       "source_kind": "atom",
       "source_id": "S53-A002",
       "target_kind": "concept",
@@ -42794,7 +42898,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003292",
+      "edge_id": "EDGE-003300",
       "source_kind": "atom",
       "source_id": "S53-A003",
       "target_kind": "concept",
@@ -42807,7 +42911,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003293",
+      "edge_id": "EDGE-003301",
       "source_kind": "atom",
       "source_id": "S53-A004",
       "target_kind": "concept",
@@ -42820,7 +42924,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003294",
+      "edge_id": "EDGE-003302",
       "source_kind": "atom",
       "source_id": "S53-A005",
       "target_kind": "concept",
@@ -42833,7 +42937,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003295",
+      "edge_id": "EDGE-003303",
       "source_kind": "atom",
       "source_id": "S53-A006",
       "target_kind": "concept",
@@ -42846,7 +42950,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003296",
+      "edge_id": "EDGE-003304",
       "source_kind": "atom",
       "source_id": "S53-A006",
       "target_kind": "concept",
@@ -42859,7 +42963,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003297",
+      "edge_id": "EDGE-003305",
       "source_kind": "atom",
       "source_id": "S53-A014",
       "target_kind": "concept",
@@ -42872,7 +42976,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003298",
+      "edge_id": "EDGE-003306",
       "source_kind": "atom",
       "source_id": "S53-A015",
       "target_kind": "concept",
@@ -42885,7 +42989,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003299",
+      "edge_id": "EDGE-003307",
       "source_kind": "atom",
       "source_id": "S54-A001",
       "target_kind": "concept",
@@ -42898,7 +43002,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003300",
+      "edge_id": "EDGE-003308",
       "source_kind": "atom",
       "source_id": "S54-A004",
       "target_kind": "concept",
@@ -42911,7 +43015,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003301",
+      "edge_id": "EDGE-003309",
       "source_kind": "atom",
       "source_id": "S54-A006",
       "target_kind": "concept",
@@ -42924,7 +43028,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003302",
+      "edge_id": "EDGE-003310",
       "source_kind": "atom",
       "source_id": "S54-A007",
       "target_kind": "concept",
@@ -42937,7 +43041,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003303",
+      "edge_id": "EDGE-003311",
       "source_kind": "atom",
       "source_id": "S54-A008",
       "target_kind": "concept",
@@ -42950,7 +43054,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003304",
+      "edge_id": "EDGE-003312",
       "source_kind": "atom",
       "source_id": "S54-A009",
       "target_kind": "concept",
@@ -42963,7 +43067,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003305",
+      "edge_id": "EDGE-003313",
       "source_kind": "atom",
       "source_id": "S55-A003",
       "target_kind": "concept",
@@ -42976,7 +43080,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003306",
+      "edge_id": "EDGE-003314",
       "source_kind": "atom",
       "source_id": "S55-A004",
       "target_kind": "concept",
@@ -42989,7 +43093,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003307",
+      "edge_id": "EDGE-003315",
       "source_kind": "atom",
       "source_id": "S55-A005",
       "target_kind": "concept",
@@ -43002,7 +43106,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003308",
+      "edge_id": "EDGE-003316",
       "source_kind": "atom",
       "source_id": "S55-A005",
       "target_kind": "concept",
@@ -43015,7 +43119,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003309",
+      "edge_id": "EDGE-003317",
       "source_kind": "atom",
       "source_id": "S55-A006",
       "target_kind": "concept",
@@ -43028,7 +43132,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003310",
+      "edge_id": "EDGE-003318",
       "source_kind": "atom",
       "source_id": "S55-A009",
       "target_kind": "concept",
@@ -43041,7 +43145,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003311",
+      "edge_id": "EDGE-003319",
       "source_kind": "atom",
       "source_id": "S55-A009",
       "target_kind": "concept",
@@ -43054,7 +43158,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003312",
+      "edge_id": "EDGE-003320",
       "source_kind": "atom",
       "source_id": "S55-A010",
       "target_kind": "concept",
@@ -43067,7 +43171,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003313",
+      "edge_id": "EDGE-003321",
       "source_kind": "atom",
       "source_id": "S55-A011",
       "target_kind": "concept",
@@ -43080,7 +43184,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003314",
+      "edge_id": "EDGE-003322",
       "source_kind": "atom",
       "source_id": "S55-A011",
       "target_kind": "concept",
@@ -43093,7 +43197,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003315",
+      "edge_id": "EDGE-003323",
       "source_kind": "atom",
       "source_id": "S55-A012",
       "target_kind": "concept",
@@ -43106,7 +43210,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003316",
+      "edge_id": "EDGE-003324",
       "source_kind": "atom",
       "source_id": "S56-A002",
       "target_kind": "concept",
@@ -43119,7 +43223,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003317",
+      "edge_id": "EDGE-003325",
       "source_kind": "atom",
       "source_id": "S56-A003",
       "target_kind": "concept",
@@ -43132,7 +43236,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003318",
+      "edge_id": "EDGE-003326",
       "source_kind": "atom",
       "source_id": "S56-A003",
       "target_kind": "concept",
@@ -43145,7 +43249,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003319",
+      "edge_id": "EDGE-003327",
       "source_kind": "atom",
       "source_id": "S56-A004",
       "target_kind": "concept",
@@ -43158,7 +43262,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003320",
+      "edge_id": "EDGE-003328",
       "source_kind": "atom",
       "source_id": "S56-A004",
       "target_kind": "concept",
@@ -43171,7 +43275,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003321",
+      "edge_id": "EDGE-003329",
       "source_kind": "atom",
       "source_id": "S56-A005",
       "target_kind": "concept",
@@ -43184,7 +43288,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003322",
+      "edge_id": "EDGE-003330",
       "source_kind": "atom",
       "source_id": "S56-A006",
       "target_kind": "concept",
@@ -43197,7 +43301,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003323",
+      "edge_id": "EDGE-003331",
       "source_kind": "atom",
       "source_id": "S56-A007",
       "target_kind": "concept",
@@ -43210,7 +43314,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003324",
+      "edge_id": "EDGE-003332",
       "source_kind": "atom",
       "source_id": "S56-A008",
       "target_kind": "concept",
@@ -43223,7 +43327,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003325",
+      "edge_id": "EDGE-003333",
       "source_kind": "atom",
       "source_id": "S56-A009",
       "target_kind": "concept",
@@ -43236,7 +43340,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003326",
+      "edge_id": "EDGE-003334",
       "source_kind": "atom",
       "source_id": "S56-A010",
       "target_kind": "concept",
@@ -43249,7 +43353,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003327",
+      "edge_id": "EDGE-003335",
       "source_kind": "atom",
       "source_id": "S56-A011",
       "target_kind": "concept",
@@ -43262,7 +43366,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003328",
+      "edge_id": "EDGE-003336",
       "source_kind": "atom",
       "source_id": "S56-A011",
       "target_kind": "concept",
@@ -43275,7 +43379,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003329",
+      "edge_id": "EDGE-003337",
       "source_kind": "atom",
       "source_id": "S56-A012",
       "target_kind": "concept",
@@ -43288,7 +43392,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003330",
+      "edge_id": "EDGE-003338",
       "source_kind": "atom",
       "source_id": "S56-A013",
       "target_kind": "concept",
@@ -43301,7 +43405,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003331",
+      "edge_id": "EDGE-003339",
       "source_kind": "atom",
       "source_id": "S56-A013",
       "target_kind": "concept",
@@ -43314,7 +43418,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003332",
+      "edge_id": "EDGE-003340",
       "source_kind": "atom",
       "source_id": "S56-A014",
       "target_kind": "concept",
@@ -43327,7 +43431,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003333",
+      "edge_id": "EDGE-003341",
       "source_kind": "atom",
       "source_id": "S56-A015",
       "target_kind": "concept",
@@ -43340,7 +43444,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003334",
+      "edge_id": "EDGE-003342",
       "source_kind": "atom",
       "source_id": "S56-A015",
       "target_kind": "concept",
@@ -43353,7 +43457,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003335",
+      "edge_id": "EDGE-003343",
       "source_kind": "atom",
       "source_id": "S56-A016",
       "target_kind": "concept",
@@ -43366,7 +43470,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003336",
+      "edge_id": "EDGE-003344",
       "source_kind": "atom",
       "source_id": "S56-A017",
       "target_kind": "concept",
@@ -43379,7 +43483,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003337",
+      "edge_id": "EDGE-003345",
       "source_kind": "atom",
       "source_id": "S56-A018",
       "target_kind": "concept",
@@ -43392,7 +43496,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003338",
+      "edge_id": "EDGE-003346",
       "source_kind": "atom",
       "source_id": "S56-A018",
       "target_kind": "concept",
@@ -43405,7 +43509,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003339",
+      "edge_id": "EDGE-003347",
       "source_kind": "atom",
       "source_id": "S56-A019",
       "target_kind": "concept",
@@ -43418,7 +43522,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003340",
+      "edge_id": "EDGE-003348",
       "source_kind": "atom",
       "source_id": "S56-A020",
       "target_kind": "concept",
@@ -43431,7 +43535,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003341",
+      "edge_id": "EDGE-003349",
       "source_kind": "atom",
       "source_id": "S66-A005",
       "target_kind": "concept",
@@ -43444,7 +43548,7 @@
       "derived_from": "registers/s66_curtis_lyrics_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003342",
+      "edge_id": "EDGE-003350",
       "source_kind": "atom",
       "source_id": "S67-A006",
       "target_kind": "concept",
@@ -43457,7 +43561,7 @@
       "derived_from": "registers/s67_lonely_place_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003343",
+      "edge_id": "EDGE-003351",
       "source_kind": "atom",
       "source_id": "S67-A006",
       "target_kind": "concept",
@@ -43470,7 +43574,7 @@
       "derived_from": "registers/s67_lonely_place_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003344",
+      "edge_id": "EDGE-003352",
       "source_kind": "atom",
       "source_id": "S75-A009",
       "target_kind": "concept",
@@ -43483,7 +43587,7 @@
       "derived_from": "registers/concepts/master_concepts.md"
     },
     {
-      "edge_id": "EDGE-003345",
+      "edge_id": "EDGE-003353",
       "source_kind": "atom",
       "source_id": "S75-A015",
       "target_kind": "concept",
@@ -43496,7 +43600,7 @@
       "derived_from": "registers/concepts/master_concepts.md"
     },
     {
-      "edge_id": "EDGE-003346",
+      "edge_id": "EDGE-003354",
       "source_kind": "atom",
       "source_id": "S75-A019",
       "target_kind": "concept",
@@ -43509,7 +43613,7 @@
       "derived_from": "registers/concepts/master_concepts.md"
     },
     {
-      "edge_id": "EDGE-003347",
+      "edge_id": "EDGE-003355",
       "source_kind": "atom",
       "source_id": "S77-A002",
       "target_kind": "concept",
@@ -43522,7 +43626,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003348",
+      "edge_id": "EDGE-003356",
       "source_kind": "atom",
       "source_id": "S77-A003",
       "target_kind": "concept",
@@ -43535,7 +43639,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003349",
+      "edge_id": "EDGE-003357",
       "source_kind": "atom",
       "source_id": "S77-A006",
       "target_kind": "concept",
@@ -43548,7 +43652,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003350",
+      "edge_id": "EDGE-003358",
       "source_kind": "atom",
       "source_id": "S77-A006",
       "target_kind": "concept",
@@ -43561,7 +43665,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003351",
+      "edge_id": "EDGE-003359",
       "source_kind": "atom",
       "source_id": "S77-A009",
       "target_kind": "concept",
@@ -43574,7 +43678,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003352",
+      "edge_id": "EDGE-003360",
       "source_kind": "atom",
       "source_id": "S77-A011",
       "target_kind": "concept",
@@ -43587,7 +43691,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003353",
+      "edge_id": "EDGE-003361",
       "source_kind": "atom",
       "source_id": "S77-A015",
       "target_kind": "concept",
@@ -43600,7 +43704,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003354",
+      "edge_id": "EDGE-003362",
       "source_kind": "atom",
       "source_id": "S78-A001",
       "target_kind": "concept",
@@ -43613,7 +43717,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003355",
+      "edge_id": "EDGE-003363",
       "source_kind": "atom",
       "source_id": "S78-A002",
       "target_kind": "concept",
@@ -43626,7 +43730,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003356",
+      "edge_id": "EDGE-003364",
       "source_kind": "atom",
       "source_id": "S78-A011",
       "target_kind": "concept",
@@ -43639,7 +43743,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003357",
+      "edge_id": "EDGE-003365",
       "source_kind": "atom",
       "source_id": "S78-A020",
       "target_kind": "concept",
@@ -43652,7 +43756,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003358",
+      "edge_id": "EDGE-003366",
       "source_kind": "atom",
       "source_id": "S78-A020",
       "target_kind": "concept",
@@ -43665,7 +43769,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003359",
+      "edge_id": "EDGE-003367",
       "source_kind": "atom",
       "source_id": "S84-A010",
       "target_kind": "concept",
@@ -43678,7 +43782,7 @@
       "derived_from": "registers/s84_cope_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003360",
+      "edge_id": "EDGE-003368",
       "source_kind": "atom",
       "source_id": "S89-A009",
       "target_kind": "concept",
@@ -43691,7 +43795,7 @@
       "derived_from": "sources/savage_englands_dreaming/registres_structurants_s89.md"
     },
     {
-      "edge_id": "EDGE-003361",
+      "edge_id": "EDGE-003369",
       "source_kind": "atom",
       "source_id": "S89-A009",
       "target_kind": "concept",
@@ -43704,7 +43808,7 @@
       "derived_from": "sources/savage_englands_dreaming/registres_structurants_s89.md"
     },
     {
-      "edge_id": "EDGE-003362",
+      "edge_id": "EDGE-003370",
       "source_kind": "atom",
       "source_id": "S89-A009",
       "target_kind": "concept",
@@ -43717,7 +43821,7 @@
       "derived_from": "sources/savage_englands_dreaming/registres_structurants_s89.md"
     },
     {
-      "edge_id": "EDGE-003363",
+      "edge_id": "EDGE-003371",
       "source_kind": "atom",
       "source_id": "S89-A019",
       "target_kind": "concept",
@@ -43730,7 +43834,7 @@
       "derived_from": "sources/savage_englands_dreaming/registres_structurants_s89.md"
     },
     {
-      "edge_id": "EDGE-003364",
+      "edge_id": "EDGE-003372",
       "source_kind": "atom",
       "source_id": "S89-A025",
       "target_kind": "concept",
@@ -43743,7 +43847,72 @@
       "derived_from": "sources/savage_englands_dreaming/registres_structurants_s89.md"
     },
     {
-      "edge_id": "EDGE-003365",
+      "edge_id": "EDGE-003373",
+      "source_kind": "atom",
+      "source_id": "S95-A001",
+      "target_kind": "concept",
+      "target_id": "CONCEPT-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A001"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003374",
+      "source_kind": "atom",
+      "source_id": "S95-A002",
+      "target_kind": "concept",
+      "target_id": "CONCEPT-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003375",
+      "source_kind": "atom",
+      "source_id": "S95-A003",
+      "target_kind": "concept",
+      "target_id": "CONCEPT-S95-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003376",
+      "source_kind": "atom",
+      "source_id": "S95-A005",
+      "target_kind": "concept",
+      "target_id": "CONCEPT-S95-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A005"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003377",
+      "source_kind": "atom",
+      "source_id": "S95-A006",
+      "target_kind": "concept",
+      "target_id": "CONCEPT-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A006"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003378",
       "source_kind": "atom",
       "source_id": "S09-A003",
       "target_kind": "motif",
@@ -43756,7 +43925,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003366",
+      "edge_id": "EDGE-003379",
       "source_kind": "atom",
       "source_id": "S09-A005",
       "target_kind": "motif",
@@ -43769,7 +43938,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003367",
+      "edge_id": "EDGE-003380",
       "source_kind": "atom",
       "source_id": "S09-A006",
       "target_kind": "motif",
@@ -43782,7 +43951,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003368",
+      "edge_id": "EDGE-003381",
       "source_kind": "atom",
       "source_id": "S13-A002",
       "target_kind": "motif",
@@ -43795,7 +43964,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003369",
+      "edge_id": "EDGE-003382",
       "source_kind": "atom",
       "source_id": "S13-A003",
       "target_kind": "motif",
@@ -43808,7 +43977,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003370",
+      "edge_id": "EDGE-003383",
       "source_kind": "atom",
       "source_id": "S13-A004",
       "target_kind": "motif",
@@ -43821,7 +43990,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003371",
+      "edge_id": "EDGE-003384",
       "source_kind": "atom",
       "source_id": "S13-A005",
       "target_kind": "motif",
@@ -43834,7 +44003,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003372",
+      "edge_id": "EDGE-003385",
       "source_kind": "atom",
       "source_id": "S13-A005",
       "target_kind": "motif",
@@ -43847,7 +44016,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003373",
+      "edge_id": "EDGE-003386",
       "source_kind": "atom",
       "source_id": "S13-A006",
       "target_kind": "motif",
@@ -43860,7 +44029,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003374",
+      "edge_id": "EDGE-003387",
       "source_kind": "atom",
       "source_id": "S13-A006",
       "target_kind": "motif",
@@ -43873,7 +44042,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003375",
+      "edge_id": "EDGE-003388",
       "source_kind": "atom",
       "source_id": "S13-A007",
       "target_kind": "motif",
@@ -43886,7 +44055,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003376",
+      "edge_id": "EDGE-003389",
       "source_kind": "atom",
       "source_id": "S13-A010",
       "target_kind": "motif",
@@ -43899,7 +44068,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003377",
+      "edge_id": "EDGE-003390",
       "source_kind": "atom",
       "source_id": "S13-A010",
       "target_kind": "motif",
@@ -43912,7 +44081,7 @@
       "derived_from": "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003378",
+      "edge_id": "EDGE-003391",
       "source_kind": "atom",
       "source_id": "S14-A001",
       "target_kind": "motif",
@@ -43925,7 +44094,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003379",
+      "edge_id": "EDGE-003392",
       "source_kind": "atom",
       "source_id": "S14-A002",
       "target_kind": "motif",
@@ -43938,7 +44107,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003380",
+      "edge_id": "EDGE-003393",
       "source_kind": "atom",
       "source_id": "S14-A003",
       "target_kind": "motif",
@@ -43951,7 +44120,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003381",
+      "edge_id": "EDGE-003394",
       "source_kind": "atom",
       "source_id": "S14-A004",
       "target_kind": "motif",
@@ -43964,7 +44133,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003382",
+      "edge_id": "EDGE-003395",
       "source_kind": "atom",
       "source_id": "S14-A006",
       "target_kind": "motif",
@@ -43977,7 +44146,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003383",
+      "edge_id": "EDGE-003396",
       "source_kind": "atom",
       "source_id": "S14-A007",
       "target_kind": "motif",
@@ -43990,7 +44159,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003384",
+      "edge_id": "EDGE-003397",
       "source_kind": "atom",
       "source_id": "S14-A008",
       "target_kind": "motif",
@@ -44003,7 +44172,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003385",
+      "edge_id": "EDGE-003398",
       "source_kind": "atom",
       "source_id": "S15-A007",
       "target_kind": "motif",
@@ -44016,7 +44185,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003386",
+      "edge_id": "EDGE-003399",
       "source_kind": "atom",
       "source_id": "S15-A009",
       "target_kind": "motif",
@@ -44029,7 +44198,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003387",
+      "edge_id": "EDGE-003400",
       "source_kind": "atom",
       "source_id": "S15-A009",
       "target_kind": "motif",
@@ -44042,7 +44211,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003388",
+      "edge_id": "EDGE-003401",
       "source_kind": "atom",
       "source_id": "S15-A010",
       "target_kind": "motif",
@@ -44055,7 +44224,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003389",
+      "edge_id": "EDGE-003402",
       "source_kind": "atom",
       "source_id": "S15-A011",
       "target_kind": "motif",
@@ -44068,7 +44237,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003390",
+      "edge_id": "EDGE-003403",
       "source_kind": "atom",
       "source_id": "S15-A012",
       "target_kind": "motif",
@@ -44081,7 +44250,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003391",
+      "edge_id": "EDGE-003404",
       "source_kind": "atom",
       "source_id": "S15-A012",
       "target_kind": "motif",
@@ -44094,7 +44263,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003392",
+      "edge_id": "EDGE-003405",
       "source_kind": "atom",
       "source_id": "S15-A014",
       "target_kind": "motif",
@@ -44107,7 +44276,7 @@
       "derived_from": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     },
     {
-      "edge_id": "EDGE-003393",
+      "edge_id": "EDGE-003406",
       "source_kind": "atom",
       "source_id": "S21-A003",
       "target_kind": "motif",
@@ -44120,7 +44289,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003394",
+      "edge_id": "EDGE-003407",
       "source_kind": "atom",
       "source_id": "S21-A004",
       "target_kind": "motif",
@@ -44133,7 +44302,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003395",
+      "edge_id": "EDGE-003408",
       "source_kind": "atom",
       "source_id": "S21-A005",
       "target_kind": "motif",
@@ -44146,7 +44315,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003396",
+      "edge_id": "EDGE-003409",
       "source_kind": "atom",
       "source_id": "S21-A007",
       "target_kind": "motif",
@@ -44159,7 +44328,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003397",
+      "edge_id": "EDGE-003410",
       "source_kind": "atom",
       "source_id": "S21-A008",
       "target_kind": "motif",
@@ -44172,7 +44341,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003398",
+      "edge_id": "EDGE-003411",
       "source_kind": "atom",
       "source_id": "S21-A009",
       "target_kind": "motif",
@@ -44185,7 +44354,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003399",
+      "edge_id": "EDGE-003412",
       "source_kind": "atom",
       "source_id": "S22-A002",
       "target_kind": "motif",
@@ -44198,7 +44367,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003400",
+      "edge_id": "EDGE-003413",
       "source_kind": "atom",
       "source_id": "S22-A004",
       "target_kind": "motif",
@@ -44211,7 +44380,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003401",
+      "edge_id": "EDGE-003414",
       "source_kind": "atom",
       "source_id": "S22-A005",
       "target_kind": "motif",
@@ -44224,7 +44393,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003402",
+      "edge_id": "EDGE-003415",
       "source_kind": "atom",
       "source_id": "S22-A008",
       "target_kind": "motif",
@@ -44237,7 +44406,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003403",
+      "edge_id": "EDGE-003416",
       "source_kind": "atom",
       "source_id": "S22-A011",
       "target_kind": "motif",
@@ -44250,7 +44419,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003404",
+      "edge_id": "EDGE-003417",
       "source_kind": "atom",
       "source_id": "S26-A002",
       "target_kind": "motif",
@@ -44263,7 +44432,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003405",
+      "edge_id": "EDGE-003418",
       "source_kind": "atom",
       "source_id": "S26-A009",
       "target_kind": "motif",
@@ -44276,7 +44445,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003406",
+      "edge_id": "EDGE-003419",
       "source_kind": "atom",
       "source_id": "S26-A010",
       "target_kind": "motif",
@@ -44289,7 +44458,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003407",
+      "edge_id": "EDGE-003420",
       "source_kind": "atom",
       "source_id": "S26-A011",
       "target_kind": "motif",
@@ -44302,7 +44471,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003408",
+      "edge_id": "EDGE-003421",
       "source_kind": "atom",
       "source_id": "S26-A013",
       "target_kind": "motif",
@@ -44315,7 +44484,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003409",
+      "edge_id": "EDGE-003422",
       "source_kind": "atom",
       "source_id": "S26-A015",
       "target_kind": "motif",
@@ -44328,7 +44497,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003410",
+      "edge_id": "EDGE-003423",
       "source_kind": "atom",
       "source_id": "S27-A003",
       "target_kind": "motif",
@@ -44341,7 +44510,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003411",
+      "edge_id": "EDGE-003424",
       "source_kind": "atom",
       "source_id": "S34-A001",
       "target_kind": "motif",
@@ -44354,7 +44523,7 @@
       "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
     },
     {
-      "edge_id": "EDGE-003412",
+      "edge_id": "EDGE-003425",
       "source_kind": "atom",
       "source_id": "S34-A006",
       "target_kind": "motif",
@@ -44367,7 +44536,7 @@
       "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
     },
     {
-      "edge_id": "EDGE-003413",
+      "edge_id": "EDGE-003426",
       "source_kind": "atom",
       "source_id": "S34-A009",
       "target_kind": "motif",
@@ -44380,7 +44549,7 @@
       "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
     },
     {
-      "edge_id": "EDGE-003414",
+      "edge_id": "EDGE-003427",
       "source_kind": "atom",
       "source_id": "S34-A011",
       "target_kind": "motif",
@@ -44393,7 +44562,7 @@
       "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
     },
     {
-      "edge_id": "EDGE-003415",
+      "edge_id": "EDGE-003428",
       "source_kind": "atom",
       "source_id": "S34-A012",
       "target_kind": "motif",
@@ -44406,7 +44575,7 @@
       "derived_from": "registers/motifs/s34_fraser_fuoto_motifs_part_01.md"
     },
     {
-      "edge_id": "EDGE-003416",
+      "edge_id": "EDGE-003429",
       "source_kind": "atom",
       "source_id": "S35-A036",
       "target_kind": "motif",
@@ -44419,7 +44588,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003417",
+      "edge_id": "EDGE-003430",
       "source_kind": "atom",
       "source_id": "S35-A039",
       "target_kind": "motif",
@@ -44432,7 +44601,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003418",
+      "edge_id": "EDGE-003431",
       "source_kind": "atom",
       "source_id": "S35-A040",
       "target_kind": "motif",
@@ -44445,7 +44614,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003419",
+      "edge_id": "EDGE-003432",
       "source_kind": "atom",
       "source_id": "S35-A041",
       "target_kind": "motif",
@@ -44458,7 +44627,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003420",
+      "edge_id": "EDGE-003433",
       "source_kind": "atom",
       "source_id": "S35-A042",
       "target_kind": "motif",
@@ -44471,7 +44640,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003421",
+      "edge_id": "EDGE-003434",
       "source_kind": "atom",
       "source_id": "S35-A043",
       "target_kind": "motif",
@@ -44484,7 +44653,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003422",
+      "edge_id": "EDGE-003435",
       "source_kind": "atom",
       "source_id": "S35-A047",
       "target_kind": "motif",
@@ -44497,7 +44666,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_03.md"
     },
     {
-      "edge_id": "EDGE-003423",
+      "edge_id": "EDGE-003436",
       "source_kind": "atom",
       "source_id": "S35-A049",
       "target_kind": "motif",
@@ -44510,7 +44679,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003424",
+      "edge_id": "EDGE-003437",
       "source_kind": "atom",
       "source_id": "S35-A057",
       "target_kind": "motif",
@@ -44523,7 +44692,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003425",
+      "edge_id": "EDGE-003438",
       "source_kind": "atom",
       "source_id": "S35-A058",
       "target_kind": "motif",
@@ -44536,7 +44705,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003426",
+      "edge_id": "EDGE-003439",
       "source_kind": "atom",
       "source_id": "S35-A059",
       "target_kind": "motif",
@@ -44549,7 +44718,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003427",
+      "edge_id": "EDGE-003440",
       "source_kind": "atom",
       "source_id": "S35-A060",
       "target_kind": "motif",
@@ -44562,7 +44731,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003428",
+      "edge_id": "EDGE-003441",
       "source_kind": "atom",
       "source_id": "S35-A061",
       "target_kind": "motif",
@@ -44575,7 +44744,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003429",
+      "edge_id": "EDGE-003442",
       "source_kind": "atom",
       "source_id": "S35-A063",
       "target_kind": "motif",
@@ -44588,7 +44757,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003430",
+      "edge_id": "EDGE-003443",
       "source_kind": "atom",
       "source_id": "S35-A064",
       "target_kind": "motif",
@@ -44601,7 +44770,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003431",
+      "edge_id": "EDGE-003444",
       "source_kind": "atom",
       "source_id": "S35-A065",
       "target_kind": "motif",
@@ -44614,7 +44783,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_04.md"
     },
     {
-      "edge_id": "EDGE-003432",
+      "edge_id": "EDGE-003445",
       "source_kind": "atom",
       "source_id": "S35-A066",
       "target_kind": "motif",
@@ -44627,7 +44796,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003433",
+      "edge_id": "EDGE-003446",
       "source_kind": "atom",
       "source_id": "S35-A067",
       "target_kind": "motif",
@@ -44640,7 +44809,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003434",
+      "edge_id": "EDGE-003447",
       "source_kind": "atom",
       "source_id": "S35-A069",
       "target_kind": "motif",
@@ -44653,7 +44822,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003435",
+      "edge_id": "EDGE-003448",
       "source_kind": "atom",
       "source_id": "S35-A071",
       "target_kind": "motif",
@@ -44666,7 +44835,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003436",
+      "edge_id": "EDGE-003449",
       "source_kind": "atom",
       "source_id": "S35-A072",
       "target_kind": "motif",
@@ -44679,7 +44848,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003437",
+      "edge_id": "EDGE-003450",
       "source_kind": "atom",
       "source_id": "S35-A073",
       "target_kind": "motif",
@@ -44692,7 +44861,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003438",
+      "edge_id": "EDGE-003451",
       "source_kind": "atom",
       "source_id": "S35-A075",
       "target_kind": "motif",
@@ -44705,7 +44874,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003439",
+      "edge_id": "EDGE-003452",
       "source_kind": "atom",
       "source_id": "S35-A076",
       "target_kind": "motif",
@@ -44718,7 +44887,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003440",
+      "edge_id": "EDGE-003453",
       "source_kind": "atom",
       "source_id": "S35-A078",
       "target_kind": "motif",
@@ -44731,7 +44900,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003441",
+      "edge_id": "EDGE-003454",
       "source_kind": "atom",
       "source_id": "S35-A079",
       "target_kind": "motif",
@@ -44744,7 +44913,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003442",
+      "edge_id": "EDGE-003455",
       "source_kind": "atom",
       "source_id": "S35-A081",
       "target_kind": "motif",
@@ -44757,7 +44926,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003443",
+      "edge_id": "EDGE-003456",
       "source_kind": "atom",
       "source_id": "S35-A082",
       "target_kind": "motif",
@@ -44770,7 +44939,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003444",
+      "edge_id": "EDGE-003457",
       "source_kind": "atom",
       "source_id": "S35-A082",
       "target_kind": "motif",
@@ -44783,7 +44952,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003445",
+      "edge_id": "EDGE-003458",
       "source_kind": "atom",
       "source_id": "S35-A084",
       "target_kind": "motif",
@@ -44796,7 +44965,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003446",
+      "edge_id": "EDGE-003459",
       "source_kind": "atom",
       "source_id": "S35-A085",
       "target_kind": "motif",
@@ -44809,7 +44978,7 @@
       "derived_from": "registers/motifs/s35_morris_motifs_part_05.md"
     },
     {
-      "edge_id": "EDGE-003447",
+      "edge_id": "EDGE-003460",
       "source_kind": "atom",
       "source_id": "S45-A024",
       "target_kind": "motif",
@@ -44822,7 +44991,7 @@
       "derived_from": "registers/motifs/s45_curtis_motifs_1976_1977.md"
     },
     {
-      "edge_id": "EDGE-003448",
+      "edge_id": "EDGE-003461",
       "source_kind": "atom",
       "source_id": "S45-A025",
       "target_kind": "motif",
@@ -44835,7 +45004,7 @@
       "derived_from": "registers/motifs/s45_curtis_motifs_1976_1977.md"
     },
     {
-      "edge_id": "EDGE-003449",
+      "edge_id": "EDGE-003462",
       "source_kind": "atom",
       "source_id": "S45-A030",
       "target_kind": "motif",
@@ -44848,7 +45017,7 @@
       "derived_from": "registers/motifs/s45_curtis_motifs_1976_1977.md"
     },
     {
-      "edge_id": "EDGE-003450",
+      "edge_id": "EDGE-003463",
       "source_kind": "atom",
       "source_id": "S49-A002",
       "target_kind": "motif",
@@ -44861,7 +45030,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003451",
+      "edge_id": "EDGE-003464",
       "source_kind": "atom",
       "source_id": "S49-A006",
       "target_kind": "motif",
@@ -44874,7 +45043,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003452",
+      "edge_id": "EDGE-003465",
       "source_kind": "atom",
       "source_id": "S49-A007",
       "target_kind": "motif",
@@ -44887,7 +45056,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003453",
+      "edge_id": "EDGE-003466",
       "source_kind": "atom",
       "source_id": "S49-A010",
       "target_kind": "motif",
@@ -44900,7 +45069,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003454",
+      "edge_id": "EDGE-003467",
       "source_kind": "atom",
       "source_id": "S49-A017",
       "target_kind": "motif",
@@ -44913,7 +45082,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003455",
+      "edge_id": "EDGE-003468",
       "source_kind": "atom",
       "source_id": "S50-A002",
       "target_kind": "motif",
@@ -44926,7 +45095,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003456",
+      "edge_id": "EDGE-003469",
       "source_kind": "atom",
       "source_id": "S50-A009",
       "target_kind": "motif",
@@ -44939,7 +45108,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003457",
+      "edge_id": "EDGE-003470",
       "source_kind": "atom",
       "source_id": "S50-A010",
       "target_kind": "motif",
@@ -44952,7 +45121,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003458",
+      "edge_id": "EDGE-003471",
       "source_kind": "atom",
       "source_id": "S50-A015",
       "target_kind": "motif",
@@ -44965,7 +45134,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003459",
+      "edge_id": "EDGE-003472",
       "source_kind": "atom",
       "source_id": "S50-A017",
       "target_kind": "motif",
@@ -44978,7 +45147,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003460",
+      "edge_id": "EDGE-003473",
       "source_kind": "atom",
       "source_id": "S50-A018",
       "target_kind": "motif",
@@ -44991,7 +45160,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003461",
+      "edge_id": "EDGE-003474",
       "source_kind": "atom",
       "source_id": "S50-A019",
       "target_kind": "motif",
@@ -45004,7 +45173,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003462",
+      "edge_id": "EDGE-003475",
       "source_kind": "atom",
       "source_id": "S51-A004",
       "target_kind": "motif",
@@ -45017,7 +45186,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003463",
+      "edge_id": "EDGE-003476",
       "source_kind": "atom",
       "source_id": "S51-A010",
       "target_kind": "motif",
@@ -45030,7 +45199,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003464",
+      "edge_id": "EDGE-003477",
       "source_kind": "atom",
       "source_id": "S51-A015",
       "target_kind": "motif",
@@ -45043,7 +45212,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003465",
+      "edge_id": "EDGE-003478",
       "source_kind": "atom",
       "source_id": "S52-A004",
       "target_kind": "motif",
@@ -45056,7 +45225,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003466",
+      "edge_id": "EDGE-003479",
       "source_kind": "atom",
       "source_id": "S52-A014",
       "target_kind": "motif",
@@ -45069,7 +45238,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003467",
+      "edge_id": "EDGE-003480",
       "source_kind": "atom",
       "source_id": "S53-A002",
       "target_kind": "motif",
@@ -45082,7 +45251,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003468",
+      "edge_id": "EDGE-003481",
       "source_kind": "atom",
       "source_id": "S53-A003",
       "target_kind": "motif",
@@ -45095,7 +45264,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003469",
+      "edge_id": "EDGE-003482",
       "source_kind": "atom",
       "source_id": "S53-A004",
       "target_kind": "motif",
@@ -45108,7 +45277,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003470",
+      "edge_id": "EDGE-003483",
       "source_kind": "atom",
       "source_id": "S53-A005",
       "target_kind": "motif",
@@ -45121,7 +45290,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003471",
+      "edge_id": "EDGE-003484",
       "source_kind": "atom",
       "source_id": "S53-A006",
       "target_kind": "motif",
@@ -45134,7 +45303,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003472",
+      "edge_id": "EDGE-003485",
       "source_kind": "atom",
       "source_id": "S53-A015",
       "target_kind": "motif",
@@ -45147,7 +45316,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003473",
+      "edge_id": "EDGE-003486",
       "source_kind": "atom",
       "source_id": "S54-A004",
       "target_kind": "motif",
@@ -45160,7 +45329,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003474",
+      "edge_id": "EDGE-003487",
       "source_kind": "atom",
       "source_id": "S54-A008",
       "target_kind": "motif",
@@ -45173,7 +45342,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003475",
+      "edge_id": "EDGE-003488",
       "source_kind": "atom",
       "source_id": "S55-A004",
       "target_kind": "motif",
@@ -45186,7 +45355,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003476",
+      "edge_id": "EDGE-003489",
       "source_kind": "atom",
       "source_id": "S55-A005",
       "target_kind": "motif",
@@ -45199,7 +45368,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003477",
+      "edge_id": "EDGE-003490",
       "source_kind": "atom",
       "source_id": "S55-A011",
       "target_kind": "motif",
@@ -45212,7 +45381,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003478",
+      "edge_id": "EDGE-003491",
       "source_kind": "atom",
       "source_id": "S55-A012",
       "target_kind": "motif",
@@ -45225,7 +45394,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003479",
+      "edge_id": "EDGE-003492",
       "source_kind": "atom",
       "source_id": "S56-A002",
       "target_kind": "motif",
@@ -45238,7 +45407,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003480",
+      "edge_id": "EDGE-003493",
       "source_kind": "atom",
       "source_id": "S56-A003",
       "target_kind": "motif",
@@ -45251,7 +45420,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003481",
+      "edge_id": "EDGE-003494",
       "source_kind": "atom",
       "source_id": "S56-A004",
       "target_kind": "motif",
@@ -45264,7 +45433,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003482",
+      "edge_id": "EDGE-003495",
       "source_kind": "atom",
       "source_id": "S56-A015",
       "target_kind": "motif",
@@ -45277,7 +45446,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003483",
+      "edge_id": "EDGE-003496",
       "source_kind": "atom",
       "source_id": "S56-A016",
       "target_kind": "motif",
@@ -45290,7 +45459,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003484",
+      "edge_id": "EDGE-003497",
       "source_kind": "atom",
       "source_id": "S56-A017",
       "target_kind": "motif",
@@ -45303,7 +45472,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003485",
+      "edge_id": "EDGE-003498",
       "source_kind": "atom",
       "source_id": "S67-A006",
       "target_kind": "motif",
@@ -45316,7 +45485,7 @@
       "derived_from": "registers/s67_lonely_place_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003486",
+      "edge_id": "EDGE-003499",
       "source_kind": "atom",
       "source_id": "S67-A006",
       "target_kind": "motif",
@@ -45329,7 +45498,7 @@
       "derived_from": "registers/s67_lonely_place_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003487",
+      "edge_id": "EDGE-003500",
       "source_kind": "atom",
       "source_id": "S75-A008",
       "target_kind": "motif",
@@ -45342,7 +45511,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003488",
+      "edge_id": "EDGE-003501",
       "source_kind": "atom",
       "source_id": "S75-A013",
       "target_kind": "motif",
@@ -45355,7 +45524,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003489",
+      "edge_id": "EDGE-003502",
       "source_kind": "atom",
       "source_id": "S75-A015",
       "target_kind": "motif",
@@ -45368,7 +45537,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003490",
+      "edge_id": "EDGE-003503",
       "source_kind": "atom",
       "source_id": "S75-A016",
       "target_kind": "motif",
@@ -45381,7 +45550,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003491",
+      "edge_id": "EDGE-003504",
       "source_kind": "atom",
       "source_id": "S75-A017",
       "target_kind": "motif",
@@ -45394,7 +45563,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003492",
+      "edge_id": "EDGE-003505",
       "source_kind": "atom",
       "source_id": "S75-A017",
       "target_kind": "motif",
@@ -45407,7 +45576,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003493",
+      "edge_id": "EDGE-003506",
       "source_kind": "atom",
       "source_id": "S75-A018",
       "target_kind": "motif",
@@ -45420,7 +45589,7 @@
       "derived_from": "registers/motifs/master_motifs.md"
     },
     {
-      "edge_id": "EDGE-003494",
+      "edge_id": "EDGE-003507",
       "source_kind": "atom",
       "source_id": "S77-A002",
       "target_kind": "motif",
@@ -45433,7 +45602,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003495",
+      "edge_id": "EDGE-003508",
       "source_kind": "atom",
       "source_id": "S77-A002",
       "target_kind": "motif",
@@ -45446,7 +45615,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003496",
+      "edge_id": "EDGE-003509",
       "source_kind": "atom",
       "source_id": "S77-A004",
       "target_kind": "motif",
@@ -45459,7 +45628,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003497",
+      "edge_id": "EDGE-003510",
       "source_kind": "atom",
       "source_id": "S77-A006",
       "target_kind": "motif",
@@ -45472,7 +45641,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003498",
+      "edge_id": "EDGE-003511",
       "source_kind": "atom",
       "source_id": "S77-A009",
       "target_kind": "motif",
@@ -45485,7 +45654,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003499",
+      "edge_id": "EDGE-003512",
       "source_kind": "atom",
       "source_id": "S77-A012",
       "target_kind": "motif",
@@ -45498,7 +45667,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003500",
+      "edge_id": "EDGE-003513",
       "source_kind": "atom",
       "source_id": "S78-A001",
       "target_kind": "motif",
@@ -45511,7 +45680,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003501",
+      "edge_id": "EDGE-003514",
       "source_kind": "atom",
       "source_id": "S78-A002",
       "target_kind": "motif",
@@ -45524,7 +45693,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003502",
+      "edge_id": "EDGE-003515",
       "source_kind": "atom",
       "source_id": "S78-A002",
       "target_kind": "motif",
@@ -45537,7 +45706,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003503",
+      "edge_id": "EDGE-003516",
       "source_kind": "atom",
       "source_id": "S78-A011",
       "target_kind": "motif",
@@ -45550,7 +45719,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003504",
+      "edge_id": "EDGE-003517",
       "source_kind": "atom",
       "source_id": "S78-A020",
       "target_kind": "motif",
@@ -45563,7 +45732,46 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003505",
+      "edge_id": "EDGE-003518",
+      "source_kind": "atom",
+      "source_id": "S95-A002",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A002"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003519",
+      "source_kind": "atom",
+      "source_id": "S95-A004",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003520",
+      "source_kind": "atom",
+      "source_id": "S95-A008",
+      "target_kind": "motif",
+      "target_id": "MOTIF-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003521",
       "source_kind": "atom",
       "source_id": "S09-A001",
       "target_kind": "myth",
@@ -45576,7 +45784,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003506",
+      "edge_id": "EDGE-003522",
       "source_kind": "atom",
       "source_id": "S09-A005",
       "target_kind": "myth",
@@ -45589,7 +45797,7 @@
       "derived_from": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md"
     },
     {
-      "edge_id": "EDGE-003507",
+      "edge_id": "EDGE-003523",
       "source_kind": "atom",
       "source_id": "S13-A002",
       "target_kind": "myth",
@@ -45602,7 +45810,7 @@
       "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003508",
+      "edge_id": "EDGE-003524",
       "source_kind": "atom",
       "source_id": "S13-A003",
       "target_kind": "myth",
@@ -45615,7 +45823,7 @@
       "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003509",
+      "edge_id": "EDGE-003525",
       "source_kind": "atom",
       "source_id": "S13-A004",
       "target_kind": "myth",
@@ -45628,7 +45836,7 @@
       "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003510",
+      "edge_id": "EDGE-003526",
       "source_kind": "atom",
       "source_id": "S13-A008",
       "target_kind": "myth",
@@ -45641,7 +45849,7 @@
       "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003511",
+      "edge_id": "EDGE-003527",
       "source_kind": "atom",
       "source_id": "S13-A009",
       "target_kind": "myth",
@@ -45654,7 +45862,7 @@
       "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003512",
+      "edge_id": "EDGE-003528",
       "source_kind": "atom",
       "source_id": "S13-A010",
       "target_kind": "myth",
@@ -45667,7 +45875,7 @@
       "derived_from": "registers/myths/s13_tomeo_myths_interzone_rave_era.md"
     },
     {
-      "edge_id": "EDGE-003513",
+      "edge_id": "EDGE-003529",
       "source_kind": "atom",
       "source_id": "S14-A002",
       "target_kind": "myth",
@@ -45680,7 +45888,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003514",
+      "edge_id": "EDGE-003530",
       "source_kind": "atom",
       "source_id": "S14-A007",
       "target_kind": "myth",
@@ -45693,7 +45901,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003515",
+      "edge_id": "EDGE-003531",
       "source_kind": "atom",
       "source_id": "S14-A008",
       "target_kind": "myth",
@@ -45706,7 +45914,7 @@
       "derived_from": "sources/happy_mondays_gods_cop/registres_structurants_s14.md"
     },
     {
-      "edge_id": "EDGE-003516",
+      "edge_id": "EDGE-003532",
       "source_kind": "atom",
       "source_id": "S21-A001",
       "target_kind": "myth",
@@ -45719,7 +45927,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003517",
+      "edge_id": "EDGE-003533",
       "source_kind": "atom",
       "source_id": "S21-A005",
       "target_kind": "myth",
@@ -45732,7 +45940,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003518",
+      "edge_id": "EDGE-003534",
       "source_kind": "atom",
       "source_id": "S21-A006",
       "target_kind": "myth",
@@ -45745,7 +45953,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003519",
+      "edge_id": "EDGE-003535",
       "source_kind": "atom",
       "source_id": "S21-A009",
       "target_kind": "myth",
@@ -45758,7 +45966,7 @@
       "derived_from": "registers/s21_mdmarchive_city_fun_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003520",
+      "edge_id": "EDGE-003536",
       "source_kind": "atom",
       "source_id": "S22-A009",
       "target_kind": "myth",
@@ -45771,7 +45979,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003521",
+      "edge_id": "EDGE-003537",
       "source_kind": "atom",
       "source_id": "S22-A010",
       "target_kind": "myth",
@@ -45784,7 +45992,7 @@
       "derived_from": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md"
     },
     {
-      "edge_id": "EDGE-003522",
+      "edge_id": "EDGE-003538",
       "source_kind": "atom",
       "source_id": "S26-A006",
       "target_kind": "myth",
@@ -45797,7 +46005,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003523",
+      "edge_id": "EDGE-003539",
       "source_kind": "atom",
       "source_id": "S26-A007",
       "target_kind": "myth",
@@ -45810,7 +46018,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003524",
+      "edge_id": "EDGE-003540",
       "source_kind": "atom",
       "source_id": "S26-A009",
       "target_kind": "myth",
@@ -45823,7 +46031,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003525",
+      "edge_id": "EDGE-003541",
       "source_kind": "atom",
       "source_id": "S26-A010",
       "target_kind": "myth",
@@ -45836,7 +46044,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003526",
+      "edge_id": "EDGE-003542",
       "source_kind": "atom",
       "source_id": "S26-A011",
       "target_kind": "myth",
@@ -45849,7 +46057,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003527",
+      "edge_id": "EDGE-003543",
       "source_kind": "atom",
       "source_id": "S26-A014",
       "target_kind": "myth",
@@ -45862,7 +46070,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003528",
+      "edge_id": "EDGE-003544",
       "source_kind": "atom",
       "source_id": "S26-A015",
       "target_kind": "myth",
@@ -45875,7 +46083,7 @@
       "derived_from": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md"
     },
     {
-      "edge_id": "EDGE-003529",
+      "edge_id": "EDGE-003545",
       "source_kind": "atom",
       "source_id": "S27-A001",
       "target_kind": "myth",
@@ -45888,7 +46096,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003530",
+      "edge_id": "EDGE-003546",
       "source_kind": "atom",
       "source_id": "S27-A002",
       "target_kind": "myth",
@@ -45901,7 +46109,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003531",
+      "edge_id": "EDGE-003547",
       "source_kind": "atom",
       "source_id": "S27-A010",
       "target_kind": "myth",
@@ -45914,7 +46122,7 @@
       "derived_from": "sources/riom_review_crossley_networks/registres_structurants_s27.md"
     },
     {
-      "edge_id": "EDGE-003532",
+      "edge_id": "EDGE-003548",
       "source_kind": "atom",
       "source_id": "S29-A002",
       "target_kind": "myth",
@@ -45927,7 +46135,7 @@
       "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003533",
+      "edge_id": "EDGE-003549",
       "source_kind": "atom",
       "source_id": "S29-A004",
       "target_kind": "myth",
@@ -45940,7 +46148,7 @@
       "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003534",
+      "edge_id": "EDGE-003550",
       "source_kind": "atom",
       "source_id": "S29-A009",
       "target_kind": "myth",
@@ -45953,7 +46161,7 @@
       "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003535",
+      "edge_id": "EDGE-003551",
       "source_kind": "atom",
       "source_id": "S29-A009",
       "target_kind": "myth",
@@ -45966,7 +46174,7 @@
       "derived_from": "registers/myths/s29_goddard_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003536",
+      "edge_id": "EDGE-003552",
       "source_kind": "atom",
       "source_id": "S34-A001",
       "target_kind": "myth",
@@ -45979,7 +46187,7 @@
       "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003537",
+      "edge_id": "EDGE-003553",
       "source_kind": "atom",
       "source_id": "S34-A006",
       "target_kind": "myth",
@@ -45992,7 +46200,7 @@
       "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003538",
+      "edge_id": "EDGE-003554",
       "source_kind": "atom",
       "source_id": "S34-A006",
       "target_kind": "myth",
@@ -46005,7 +46213,7 @@
       "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003539",
+      "edge_id": "EDGE-003555",
       "source_kind": "atom",
       "source_id": "S34-A007",
       "target_kind": "myth",
@@ -46018,7 +46226,7 @@
       "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003540",
+      "edge_id": "EDGE-003556",
       "source_kind": "atom",
       "source_id": "S34-A009",
       "target_kind": "myth",
@@ -46031,7 +46239,7 @@
       "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003541",
+      "edge_id": "EDGE-003557",
       "source_kind": "atom",
       "source_id": "S34-A011",
       "target_kind": "myth",
@@ -46044,7 +46252,7 @@
       "derived_from": "registers/myths/s34_fraser_fuoto_myths_part_01.md"
     },
     {
-      "edge_id": "EDGE-003542",
+      "edge_id": "EDGE-003558",
       "source_kind": "atom",
       "source_id": "S49-A006",
       "target_kind": "myth",
@@ -46057,7 +46265,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003543",
+      "edge_id": "EDGE-003559",
       "source_kind": "atom",
       "source_id": "S49-A007",
       "target_kind": "myth",
@@ -46070,7 +46278,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003544",
+      "edge_id": "EDGE-003560",
       "source_kind": "atom",
       "source_id": "S49-A010",
       "target_kind": "myth",
@@ -46083,7 +46291,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003545",
+      "edge_id": "EDGE-003561",
       "source_kind": "atom",
       "source_id": "S49-A012",
       "target_kind": "myth",
@@ -46096,7 +46304,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003546",
+      "edge_id": "EDGE-003562",
       "source_kind": "atom",
       "source_id": "S49-A017",
       "target_kind": "myth",
@@ -46109,7 +46317,7 @@
       "derived_from": "registers/s49_farci_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003547",
+      "edge_id": "EDGE-003563",
       "source_kind": "atom",
       "source_id": "S50-A001",
       "target_kind": "myth",
@@ -46122,7 +46330,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003548",
+      "edge_id": "EDGE-003564",
       "source_kind": "atom",
       "source_id": "S50-A002",
       "target_kind": "myth",
@@ -46135,7 +46343,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003549",
+      "edge_id": "EDGE-003565",
       "source_kind": "atom",
       "source_id": "S50-A009",
       "target_kind": "myth",
@@ -46148,7 +46356,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003550",
+      "edge_id": "EDGE-003566",
       "source_kind": "atom",
       "source_id": "S50-A011",
       "target_kind": "myth",
@@ -46161,7 +46369,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003551",
+      "edge_id": "EDGE-003567",
       "source_kind": "atom",
       "source_id": "S50-A012",
       "target_kind": "myth",
@@ -46174,7 +46382,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003552",
+      "edge_id": "EDGE-003568",
       "source_kind": "atom",
       "source_id": "S50-A014",
       "target_kind": "myth",
@@ -46187,7 +46395,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003553",
+      "edge_id": "EDGE-003569",
       "source_kind": "atom",
       "source_id": "S50-A015",
       "target_kind": "myth",
@@ -46200,7 +46408,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003554",
+      "edge_id": "EDGE-003570",
       "source_kind": "atom",
       "source_id": "S50-A018",
       "target_kind": "myth",
@@ -46213,7 +46421,7 @@
       "derived_from": "registers/s50_bertetti_morreale_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003555",
+      "edge_id": "EDGE-003571",
       "source_kind": "atom",
       "source_id": "S51-A001",
       "target_kind": "myth",
@@ -46226,7 +46434,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003556",
+      "edge_id": "EDGE-003572",
       "source_kind": "atom",
       "source_id": "S51-A002",
       "target_kind": "myth",
@@ -46239,7 +46447,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003557",
+      "edge_id": "EDGE-003573",
       "source_kind": "atom",
       "source_id": "S51-A004",
       "target_kind": "myth",
@@ -46252,7 +46460,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003558",
+      "edge_id": "EDGE-003574",
       "source_kind": "atom",
       "source_id": "S51-A006",
       "target_kind": "myth",
@@ -46265,7 +46473,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003559",
+      "edge_id": "EDGE-003575",
       "source_kind": "atom",
       "source_id": "S51-A007",
       "target_kind": "myth",
@@ -46278,7 +46486,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003560",
+      "edge_id": "EDGE-003576",
       "source_kind": "atom",
       "source_id": "S51-A008",
       "target_kind": "myth",
@@ -46291,7 +46499,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003561",
+      "edge_id": "EDGE-003577",
       "source_kind": "atom",
       "source_id": "S51-A015",
       "target_kind": "myth",
@@ -46304,7 +46512,7 @@
       "derived_from": "registers/s51_malvezzi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003562",
+      "edge_id": "EDGE-003578",
       "source_kind": "atom",
       "source_id": "S52-A001",
       "target_kind": "myth",
@@ -46317,7 +46525,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003563",
+      "edge_id": "EDGE-003579",
       "source_kind": "atom",
       "source_id": "S52-A004",
       "target_kind": "myth",
@@ -46330,7 +46538,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003564",
+      "edge_id": "EDGE-003580",
       "source_kind": "atom",
       "source_id": "S52-A008",
       "target_kind": "myth",
@@ -46343,7 +46551,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003565",
+      "edge_id": "EDGE-003581",
       "source_kind": "atom",
       "source_id": "S52-A012",
       "target_kind": "myth",
@@ -46356,7 +46564,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003566",
+      "edge_id": "EDGE-003582",
       "source_kind": "atom",
       "source_id": "S52-A014",
       "target_kind": "myth",
@@ -46369,7 +46577,7 @@
       "derived_from": "registers/s52_rabbito_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003567",
+      "edge_id": "EDGE-003583",
       "source_kind": "atom",
       "source_id": "S53-A001",
       "target_kind": "myth",
@@ -46382,7 +46590,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003568",
+      "edge_id": "EDGE-003584",
       "source_kind": "atom",
       "source_id": "S53-A003",
       "target_kind": "myth",
@@ -46395,7 +46603,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003569",
+      "edge_id": "EDGE-003585",
       "source_kind": "atom",
       "source_id": "S53-A004",
       "target_kind": "myth",
@@ -46408,7 +46616,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003570",
+      "edge_id": "EDGE-003586",
       "source_kind": "atom",
       "source_id": "S53-A005",
       "target_kind": "myth",
@@ -46421,7 +46629,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003571",
+      "edge_id": "EDGE-003587",
       "source_kind": "atom",
       "source_id": "S53-A006",
       "target_kind": "myth",
@@ -46434,7 +46642,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003572",
+      "edge_id": "EDGE-003588",
       "source_kind": "atom",
       "source_id": "S53-A015",
       "target_kind": "myth",
@@ -46447,7 +46655,7 @@
       "derived_from": "registers/s53_la_rocca_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003573",
+      "edge_id": "EDGE-003589",
       "source_kind": "atom",
       "source_id": "S54-A001",
       "target_kind": "myth",
@@ -46460,7 +46668,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003574",
+      "edge_id": "EDGE-003590",
       "source_kind": "atom",
       "source_id": "S54-A006",
       "target_kind": "myth",
@@ -46473,7 +46681,7 @@
       "derived_from": "registers/s54_gnocchi_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003575",
+      "edge_id": "EDGE-003591",
       "source_kind": "atom",
       "source_id": "S55-A001",
       "target_kind": "myth",
@@ -46486,7 +46694,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003576",
+      "edge_id": "EDGE-003592",
       "source_kind": "atom",
       "source_id": "S55-A004",
       "target_kind": "myth",
@@ -46499,7 +46707,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003577",
+      "edge_id": "EDGE-003593",
       "source_kind": "atom",
       "source_id": "S55-A005",
       "target_kind": "myth",
@@ -46512,7 +46720,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003578",
+      "edge_id": "EDGE-003594",
       "source_kind": "atom",
       "source_id": "S55-A011",
       "target_kind": "myth",
@@ -46525,7 +46733,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003579",
+      "edge_id": "EDGE-003595",
       "source_kind": "atom",
       "source_id": "S55-A011",
       "target_kind": "myth",
@@ -46538,7 +46746,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003580",
+      "edge_id": "EDGE-003596",
       "source_kind": "atom",
       "source_id": "S55-A012",
       "target_kind": "myth",
@@ -46551,7 +46759,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003581",
+      "edge_id": "EDGE-003597",
       "source_kind": "atom",
       "source_id": "S55-A012",
       "target_kind": "myth",
@@ -46564,7 +46772,7 @@
       "derived_from": "registers/s55_romania_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003582",
+      "edge_id": "EDGE-003598",
       "source_kind": "atom",
       "source_id": "S56-A003",
       "target_kind": "myth",
@@ -46577,7 +46785,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003583",
+      "edge_id": "EDGE-003599",
       "source_kind": "atom",
       "source_id": "S56-A004",
       "target_kind": "myth",
@@ -46590,7 +46798,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003584",
+      "edge_id": "EDGE-003600",
       "source_kind": "atom",
       "source_id": "S56-A007",
       "target_kind": "myth",
@@ -46603,7 +46811,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003585",
+      "edge_id": "EDGE-003601",
       "source_kind": "atom",
       "source_id": "S56-A008",
       "target_kind": "myth",
@@ -46616,7 +46824,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003586",
+      "edge_id": "EDGE-003602",
       "source_kind": "atom",
       "source_id": "S56-A010",
       "target_kind": "myth",
@@ -46629,7 +46837,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003587",
+      "edge_id": "EDGE-003603",
       "source_kind": "atom",
       "source_id": "S56-A011",
       "target_kind": "myth",
@@ -46642,7 +46850,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003588",
+      "edge_id": "EDGE-003604",
       "source_kind": "atom",
       "source_id": "S56-A014",
       "target_kind": "myth",
@@ -46655,7 +46863,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003589",
+      "edge_id": "EDGE-003605",
       "source_kind": "atom",
       "source_id": "S56-A019",
       "target_kind": "myth",
@@ -46668,7 +46876,7 @@
       "derived_from": "registers/s56_barone_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003590",
+      "edge_id": "EDGE-003606",
       "source_kind": "atom",
       "source_id": "S75-A009",
       "target_kind": "myth",
@@ -46681,7 +46889,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003591",
+      "edge_id": "EDGE-003607",
       "source_kind": "atom",
       "source_id": "S75-A010",
       "target_kind": "myth",
@@ -46694,7 +46902,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003592",
+      "edge_id": "EDGE-003608",
       "source_kind": "atom",
       "source_id": "S75-A012",
       "target_kind": "myth",
@@ -46707,7 +46915,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003593",
+      "edge_id": "EDGE-003609",
       "source_kind": "atom",
       "source_id": "S75-A013",
       "target_kind": "myth",
@@ -46720,7 +46928,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003594",
+      "edge_id": "EDGE-003610",
       "source_kind": "atom",
       "source_id": "S75-A015",
       "target_kind": "myth",
@@ -46733,7 +46941,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003595",
+      "edge_id": "EDGE-003611",
       "source_kind": "atom",
       "source_id": "S75-A016",
       "target_kind": "myth",
@@ -46746,7 +46954,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003596",
+      "edge_id": "EDGE-003612",
       "source_kind": "atom",
       "source_id": "S75-A017",
       "target_kind": "myth",
@@ -46759,7 +46967,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003597",
+      "edge_id": "EDGE-003613",
       "source_kind": "atom",
       "source_id": "S75-A017",
       "target_kind": "myth",
@@ -46772,7 +46980,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003598",
+      "edge_id": "EDGE-003614",
       "source_kind": "atom",
       "source_id": "S75-A018",
       "target_kind": "myth",
@@ -46785,7 +46993,7 @@
       "derived_from": "registers/myths/master_myths.md"
     },
     {
-      "edge_id": "EDGE-003599",
+      "edge_id": "EDGE-003615",
       "source_kind": "atom",
       "source_id": "S77-A002",
       "target_kind": "myth",
@@ -46798,7 +47006,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003600",
+      "edge_id": "EDGE-003616",
       "source_kind": "atom",
       "source_id": "S77-A003",
       "target_kind": "myth",
@@ -46811,7 +47019,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003601",
+      "edge_id": "EDGE-003617",
       "source_kind": "atom",
       "source_id": "S77-A011",
       "target_kind": "myth",
@@ -46824,7 +47032,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003602",
+      "edge_id": "EDGE-003618",
       "source_kind": "atom",
       "source_id": "S77-A015",
       "target_kind": "myth",
@@ -46837,7 +47045,7 @@
       "derived_from": "registers/s77_worley_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003603",
+      "edge_id": "EDGE-003619",
       "source_kind": "atom",
       "source_id": "S78-A001",
       "target_kind": "myth",
@@ -46850,7 +47058,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003604",
+      "edge_id": "EDGE-003620",
       "source_kind": "atom",
       "source_id": "S78-A008",
       "target_kind": "myth",
@@ -46863,7 +47071,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003605",
+      "edge_id": "EDGE-003621",
       "source_kind": "atom",
       "source_id": "S78-A020",
       "target_kind": "myth",
@@ -46876,7 +47084,7 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003606",
+      "edge_id": "EDGE-003622",
       "source_kind": "atom",
       "source_id": "S78-A020",
       "target_kind": "myth",
@@ -46889,7 +47097,59 @@
       "derived_from": "registers/s78_nevarez_structuring_registers.md"
     },
     {
-      "edge_id": "EDGE-003607",
+      "edge_id": "EDGE-003623",
+      "source_kind": "atom",
+      "source_id": "S95-A003",
+      "target_kind": "myth",
+      "target_id": "MYTH-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A003"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003624",
+      "source_kind": "atom",
+      "source_id": "S95-A004",
+      "target_kind": "myth",
+      "target_id": "MYTH-S95-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A004"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003625",
+      "source_kind": "atom",
+      "source_id": "S95-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-S95-001",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003626",
+      "source_kind": "atom",
+      "source_id": "S95-A008",
+      "target_kind": "myth",
+      "target_id": "MYTH-S95-002",
+      "relation_type": "indexed_by",
+      "evidence_refs": [
+        "S95-A008"
+      ],
+      "confidence": "high",
+      "derived_from": "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md"
+    },
+    {
+      "edge_id": "EDGE-003627",
       "source_kind": "concert",
       "source_id": "CONCERT-19770529-ELECTRIC-CIRCUS",
       "target_kind": "place",
@@ -46902,7 +47162,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003608",
+      "edge_id": "EDGE-003628",
       "source_kind": "concert",
       "source_id": "CONCERT-19770531-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -46915,7 +47175,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003609",
+      "edge_id": "EDGE-003629",
       "source_kind": "concert",
       "source_id": "CONCERT-19770603-THE-SQUAT-MANCHESTER",
       "target_kind": "place",
@@ -46928,7 +47188,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003610",
+      "edge_id": "EDGE-003630",
       "source_kind": "concert",
       "source_id": "CONCERT-19770606-NEWCASTLE-GUILDHALL",
       "target_kind": "place",
@@ -46941,7 +47201,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003611",
+      "edge_id": "EDGE-003631",
       "source_kind": "concert",
       "source_id": "CONCERT-19770616-THE-SQUAT-MANCHESTER",
       "target_kind": "place",
@@ -46954,7 +47214,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003612",
+      "edge_id": "EDGE-003632",
       "source_kind": "concert",
       "source_id": "CONCERT-19770625-THE-SQUAT-MANCHESTER",
       "target_kind": "place",
@@ -46967,7 +47227,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003613",
+      "edge_id": "EDGE-003633",
       "source_kind": "concert",
       "source_id": "CONCERT-19770630-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -46980,7 +47240,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003614",
+      "edge_id": "EDGE-003634",
       "source_kind": "concert",
       "source_id": "CONCERT-19770720-TIFFANYS-LEICESTER",
       "target_kind": "place",
@@ -46993,7 +47253,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003615",
+      "edge_id": "EDGE-003635",
       "source_kind": "concert",
       "source_id": "CONCERT-19770914-ROCK-GARDEN-MIDDLESBROUGH",
       "target_kind": "place",
@@ -47006,7 +47266,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003616",
+      "edge_id": "EDGE-003636",
       "source_kind": "concert",
       "source_id": "CONCERT-19770924-ELECTRIC-CIRCUS",
       "target_kind": "place",
@@ -47019,7 +47279,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003617",
+      "edge_id": "EDGE-003637",
       "source_kind": "concert",
       "source_id": "CONCERT-19771002-ELECTRIC-CIRCUS",
       "target_kind": "place",
@@ -47032,7 +47292,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003618",
+      "edge_id": "EDGE-003638",
       "source_kind": "concert",
       "source_id": "CONCERT-19771007-SALFORD-TECHNICAL-COLLEGE",
       "target_kind": "place",
@@ -47045,7 +47305,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003619",
+      "edge_id": "EDGE-003639",
       "source_kind": "concert",
       "source_id": "CONCERT-19771008-MANCHESTER-POLYTECHNIC",
       "target_kind": "place",
@@ -47058,7 +47318,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003620",
+      "edge_id": "EDGE-003640",
       "source_kind": "concert",
       "source_id": "CONCERT-19771013-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -47071,7 +47331,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003621",
+      "edge_id": "EDGE-003641",
       "source_kind": "concert",
       "source_id": "CONCERT-19771019-PIPERS-CYPRUS-TAVERN",
       "target_kind": "place",
@@ -47084,7 +47344,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003622",
+      "edge_id": "EDGE-003642",
       "source_kind": "concert",
       "source_id": "CONCERT-19771124-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -47097,7 +47357,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003623",
+      "edge_id": "EDGE-003643",
       "source_kind": "concert",
       "source_id": "CONCERT-19771200-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -47110,7 +47370,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003624",
+      "edge_id": "EDGE-003644",
       "source_kind": "concert",
       "source_id": "CONCERT-19771231-SWINGING-APPLE-LIVERPOOL",
       "target_kind": "place",
@@ -47123,7 +47383,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003625",
+      "edge_id": "EDGE-003645",
       "source_kind": "concert",
       "source_id": "CONCERT-19780125-PIPS",
       "target_kind": "place",
@@ -47136,7 +47396,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003626",
+      "edge_id": "EDGE-003646",
       "source_kind": "concert",
       "source_id": "CONCERT-19780328-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -47149,7 +47409,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003627",
+      "edge_id": "EDGE-003647",
       "source_kind": "concert",
       "source_id": "CONCERT-19780407-GOOD-MOOD-HALIFAX",
       "target_kind": "place",
@@ -47162,7 +47422,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003628",
+      "edge_id": "EDGE-003648",
       "source_kind": "concert",
       "source_id": "CONCERT-19780414-RAFTERS-MANCHESTER",
       "target_kind": "place",
@@ -47175,7 +47435,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003629",
+      "edge_id": "EDGE-003649",
       "source_kind": "concert",
       "source_id": "CONCERT-19780520-STONEGROUND-MAYFLOWER",
       "target_kind": "place",
@@ -47188,7 +47448,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003630",
+      "edge_id": "EDGE-003650",
       "source_kind": "concert",
       "source_id": "CONCERT-19780600-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47201,7 +47461,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003631",
+      "edge_id": "EDGE-003651",
       "source_kind": "concert",
       "source_id": "CONCERT-19780609-RUSSELL-CLUB",
       "target_kind": "place",
@@ -47214,7 +47474,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003632",
+      "edge_id": "EDGE-003652",
       "source_kind": "concert",
       "source_id": "CONCERT-19780713-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -47227,7 +47487,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003633",
+      "edge_id": "EDGE-003653",
       "source_kind": "concert",
       "source_id": "CONCERT-19780715-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -47240,7 +47500,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003634",
+      "edge_id": "EDGE-003654",
       "source_kind": "concert",
       "source_id": "CONCERT-19780727-ROOTS-CLUB-LEEDS",
       "target_kind": "place",
@@ -47253,7 +47513,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003635",
+      "edge_id": "EDGE-003655",
       "source_kind": "concert",
       "source_id": "CONCERT-19780728-RUSSELL-CLUB",
       "target_kind": "place",
@@ -47266,7 +47526,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003636",
+      "edge_id": "EDGE-003656",
       "source_kind": "concert",
       "source_id": "CONCERT-19780820-ROYAL-STANDARD-BRADFORD",
       "target_kind": "place",
@@ -47279,7 +47539,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003637",
+      "edge_id": "EDGE-003657",
       "source_kind": "concert",
       "source_id": "CONCERT-19780829-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47292,7 +47552,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003638",
+      "edge_id": "EDGE-003658",
       "source_kind": "concert",
       "source_id": "CONCERT-19780904-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47305,7 +47565,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003639",
+      "edge_id": "EDGE-003659",
       "source_kind": "concert",
       "source_id": "CONCERT-19780909-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -47318,7 +47578,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003640",
+      "edge_id": "EDGE-003660",
       "source_kind": "concert",
       "source_id": "CONCERT-19780910-ROYAL-STANDARD-BRADFORD",
       "target_kind": "place",
@@ -47331,7 +47591,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003641",
+      "edge_id": "EDGE-003661",
       "source_kind": "concert",
       "source_id": "CONCERT-19780922-COACH-HOUSE-HUDDERSFIELD",
       "target_kind": "place",
@@ -47344,7 +47604,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003642",
+      "edge_id": "EDGE-003662",
       "source_kind": "concert",
       "source_id": "CONCERT-19780926-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47357,7 +47617,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003643",
+      "edge_id": "EDGE-003663",
       "source_kind": "concert",
       "source_id": "CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD",
       "target_kind": "place",
@@ -47370,7 +47630,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003644",
+      "edge_id": "EDGE-003664",
       "source_kind": "concert",
       "source_id": "CONCERT-19781002-BOLTON-INSTITUTE-OF-TECHNOLOGY",
       "target_kind": "place",
@@ -47383,7 +47643,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003645",
+      "edge_id": "EDGE-003665",
       "source_kind": "concert",
       "source_id": "CONCERT-19781012-KELLYS-MANCHESTER",
       "target_kind": "place",
@@ -47396,7 +47656,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003646",
+      "edge_id": "EDGE-003666",
       "source_kind": "concert",
       "source_id": "CONCERT-19781020-RUSSELL-CLUB",
       "target_kind": "place",
@@ -47409,7 +47669,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003647",
+      "edge_id": "EDGE-003667",
       "source_kind": "concert",
       "source_id": "CONCERT-19781024-FAN-CLUB-LEEDS",
       "target_kind": "place",
@@ -47422,7 +47682,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003648",
+      "edge_id": "EDGE-003668",
       "source_kind": "concert",
       "source_id": "CONCERT-19781026-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47435,7 +47695,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003649",
+      "edge_id": "EDGE-003669",
       "source_kind": "concert",
       "source_id": "CONCERT-19781027-MANCHESTER-APOLLO",
       "target_kind": "place",
@@ -47448,7 +47708,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003650",
+      "edge_id": "EDGE-003670",
       "source_kind": "concert",
       "source_id": "CONCERT-19781104-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -47461,7 +47721,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003651",
+      "edge_id": "EDGE-003671",
       "source_kind": "concert",
       "source_id": "CONCERT-19781112-MANCHESTER-APOLLO",
       "target_kind": "place",
@@ -47474,7 +47734,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003652",
+      "edge_id": "EDGE-003672",
       "source_kind": "concert",
       "source_id": "CONCERT-19781114-ODEON-CANTERBURY",
       "target_kind": "place",
@@ -47487,7 +47747,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003653",
+      "edge_id": "EDGE-003673",
       "source_kind": "concert",
       "source_id": "CONCERT-19781115-BRUNEL-UNIVERSITY",
       "target_kind": "place",
@@ -47500,7 +47760,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003654",
+      "edge_id": "EDGE-003674",
       "source_kind": "concert",
       "source_id": "CONCERT-19781115-TOP-RANK-READING",
       "target_kind": "place",
@@ -47513,7 +47773,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003655",
+      "edge_id": "EDGE-003675",
       "source_kind": "concert",
       "source_id": "CONCERT-19781116-METRO-PLYMOUTH",
       "target_kind": "place",
@@ -47526,7 +47786,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003656",
+      "edge_id": "EDGE-003676",
       "source_kind": "concert",
       "source_id": "CONCERT-19781117-CARDIFF-UNIVERSITY",
       "target_kind": "place",
@@ -47539,7 +47799,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003657",
+      "edge_id": "EDGE-003677",
       "source_kind": "concert",
       "source_id": "CONCERT-19781118-SOUTHAMPTON-UNIVERSITY",
       "target_kind": "place",
@@ -47552,7 +47812,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003658",
+      "edge_id": "EDGE-003678",
       "source_kind": "concert",
       "source_id": "CONCERT-19781119-LOCARNO-BRISTOL",
       "target_kind": "place",
@@ -47565,7 +47825,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003659",
+      "edge_id": "EDGE-003679",
       "source_kind": "concert",
       "source_id": "CONCERT-19781120-CHECK-INN-ALTRINCHAM",
       "target_kind": "place",
@@ -47578,7 +47838,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003660",
+      "edge_id": "EDGE-003680",
       "source_kind": "concert",
       "source_id": "CONCERT-19781121-KING-GEORGES-HALL-BLACKBURN",
       "target_kind": "place",
@@ -47591,7 +47851,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003661",
+      "edge_id": "EDGE-003681",
       "source_kind": "concert",
       "source_id": "CONCERT-19781122-SHEFFIELD-POLYTECHNIC",
       "target_kind": "place",
@@ -47604,7 +47864,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003662",
+      "edge_id": "EDGE-003682",
       "source_kind": "concert",
       "source_id": "CONCERT-19781124-LANCASTER-UNIVERSITY",
       "target_kind": "place",
@@ -47617,7 +47877,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003663",
+      "edge_id": "EDGE-003683",
       "source_kind": "concert",
       "source_id": "CONCERT-19781125-BRADFORD-UNIVERSITY",
       "target_kind": "place",
@@ -47630,7 +47890,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003664",
+      "edge_id": "EDGE-003684",
       "source_kind": "concert",
       "source_id": "CONCERT-19781126-COATHAM-BOWL-REDCAR",
       "target_kind": "place",
@@ -47643,7 +47903,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003665",
+      "edge_id": "EDGE-003685",
       "source_kind": "concert",
       "source_id": "CONCERT-19781126-THE-VENUE-MANCHESTER",
       "target_kind": "place",
@@ -47656,7 +47916,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003666",
+      "edge_id": "EDGE-003686",
       "source_kind": "concert",
       "source_id": "CONCERT-19781127-ST-ANDREWS-UNIVERSITY",
       "target_kind": "place",
@@ -47669,7 +47929,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003667",
+      "edge_id": "EDGE-003687",
       "source_kind": "concert",
       "source_id": "CONCERT-19781201-SALFORD-TECHNICAL-COLLEGE",
       "target_kind": "place",
@@ -47682,7 +47942,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003668",
+      "edge_id": "EDGE-003688",
       "source_kind": "concert",
       "source_id": "CONCERT-19781222-REVOLUTION-CLUB-YORK",
       "target_kind": "place",
@@ -47695,7 +47955,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003669",
+      "edge_id": "EDGE-003689",
       "source_kind": "concert",
       "source_id": "CONCERT-19781227-HOPE-AND-ANCHOR-LONDON",
       "target_kind": "place",
@@ -47708,7 +47968,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003670",
+      "edge_id": "EDGE-003690",
       "source_kind": "concert",
       "source_id": "CONCERT-19790112-WYTHENSHAWE-COLLEGE",
       "target_kind": "place",
@@ -47721,7 +47981,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003671",
+      "edge_id": "EDGE-003691",
       "source_kind": "concert",
       "source_id": "CONCERT-19790126-RUSSELL-CLUB",
       "target_kind": "place",
@@ -47734,7 +47994,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003672",
+      "edge_id": "EDGE-003692",
       "source_kind": "concert",
       "source_id": "CONCERT-19790210-BOLTON-INSTITUTE-OF-TECHNOLOGY",
       "target_kind": "place",
@@ -47747,7 +48007,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003673",
+      "edge_id": "EDGE-003693",
       "source_kind": "concert",
       "source_id": "CONCERT-19790216-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -47760,7 +48020,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003674",
+      "edge_id": "EDGE-003694",
       "source_kind": "concert",
       "source_id": "CONCERT-19790228-PLAYHOUSE-THEATRE-NOTTINGHAM",
       "target_kind": "place",
@@ -47773,7 +48033,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003675",
+      "edge_id": "EDGE-003695",
       "source_kind": "concert",
       "source_id": "CONCERT-19790301-HOPE-AND-ANCHOR-LONDON",
       "target_kind": "place",
@@ -47786,7 +48046,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003676",
+      "edge_id": "EDGE-003696",
       "source_kind": "concert",
       "source_id": "CONCERT-19790304-MARQUEE-LONDON",
       "target_kind": "place",
@@ -47799,7 +48059,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003677",
+      "edge_id": "EDGE-003697",
       "source_kind": "concert",
       "source_id": "CONCERT-19790313-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47812,7 +48072,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003678",
+      "edge_id": "EDGE-003698",
       "source_kind": "concert",
       "source_id": "CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB",
       "target_kind": "place",
@@ -47825,7 +48085,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003679",
+      "edge_id": "EDGE-003699",
       "source_kind": "concert",
       "source_id": "CONCERT-19790317-UNIVERSITY-OF-KENT",
       "target_kind": "place",
@@ -47838,7 +48098,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003680",
+      "edge_id": "EDGE-003700",
       "source_kind": "concert",
       "source_id": "CONCERT-19790330-WALTHAMSTOW-YOUTH-CLUB",
       "target_kind": "place",
@@ -47851,7 +48111,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003681",
+      "edge_id": "EDGE-003701",
       "source_kind": "concert",
       "source_id": "CONCERT-19790406-ACTIONSPACE-LONDON",
       "target_kind": "place",
@@ -47864,7 +48124,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003682",
+      "edge_id": "EDGE-003702",
       "source_kind": "concert",
       "source_id": "CONCERT-19790417-ACKLAM-HALL-LONDON",
       "target_kind": "place",
@@ -47877,7 +48137,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003683",
+      "edge_id": "EDGE-003703",
       "source_kind": "concert",
       "source_id": "CONCERT-19790503-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -47890,7 +48150,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003684",
+      "edge_id": "EDGE-003704",
       "source_kind": "concert",
       "source_id": "CONCERT-19790511-RUSSELL-CLUB",
       "target_kind": "place",
@@ -47903,7 +48163,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003685",
+      "edge_id": "EDGE-003705",
       "source_kind": "concert",
       "source_id": "CONCERT-19790517-ACKLAM-HALL-LONDON",
       "target_kind": "place",
@@ -47916,7 +48176,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003686",
+      "edge_id": "EDGE-003706",
       "source_kind": "concert",
       "source_id": "CONCERT-19790523-BOWDON-VALE-YOUTH-CLUB",
       "target_kind": "place",
@@ -47929,7 +48189,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003687",
+      "edge_id": "EDGE-003707",
       "source_kind": "concert",
       "source_id": "CONCERT-19790600-BAND-ON-THE-WALL",
       "target_kind": "place",
@@ -47942,7 +48202,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003688",
+      "edge_id": "EDGE-003708",
       "source_kind": "concert",
       "source_id": "CONCERT-19790607-FAN-CLUB-LEEDS",
       "target_kind": "place",
@@ -47955,7 +48215,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003689",
+      "edge_id": "EDGE-003709",
       "source_kind": "concert",
       "source_id": "CONCERT-19790613-RUSSELL-CLUB",
       "target_kind": "place",
@@ -47968,7 +48228,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003690",
+      "edge_id": "EDGE-003710",
       "source_kind": "concert",
       "source_id": "CONCERT-19790616-ODEON-CANTERBURY",
       "target_kind": "place",
@@ -47981,7 +48241,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003691",
+      "edge_id": "EDGE-003711",
       "source_kind": "concert",
       "source_id": "CONCERT-19790617-ROYALTY-THEATRE-LONDON",
       "target_kind": "place",
@@ -47994,7 +48254,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003692",
+      "edge_id": "EDGE-003712",
       "source_kind": "concert",
       "source_id": "CONCERT-19790619-LANCASTER-UNIVERSITY",
       "target_kind": "place",
@@ -48007,7 +48267,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003693",
+      "edge_id": "EDGE-003713",
       "source_kind": "concert",
       "source_id": "CONCERT-19790622-GOOD-MOOD-HALIFAX",
       "target_kind": "place",
@@ -48020,7 +48280,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003694",
+      "edge_id": "EDGE-003714",
       "source_kind": "concert",
       "source_id": "CONCERT-19790625-FREE-TRADE-HALL",
       "target_kind": "place",
@@ -48033,7 +48293,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003695",
+      "edge_id": "EDGE-003715",
       "source_kind": "concert",
       "source_id": "CONCERT-19790626-NEWCASTLE-GUILDHALL",
       "target_kind": "place",
@@ -48046,7 +48306,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003696",
+      "edge_id": "EDGE-003716",
       "source_kind": "concert",
       "source_id": "CONCERT-19790628-RUSSELL-CLUB",
       "target_kind": "place",
@@ -48059,7 +48319,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003697",
+      "edge_id": "EDGE-003717",
       "source_kind": "concert",
       "source_id": "CONCERT-19790703-FREE-TRADE-HALL",
       "target_kind": "place",
@@ -48072,7 +48332,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003698",
+      "edge_id": "EDGE-003718",
       "source_kind": "concert",
       "source_id": "CONCERT-19790705-LIMIT-CLUB-SHEFFIELD",
       "target_kind": "place",
@@ -48085,7 +48345,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003699",
+      "edge_id": "EDGE-003719",
       "source_kind": "concert",
       "source_id": "CONCERT-19790711-ROOTS-CLUB-LEEDS",
       "target_kind": "place",
@@ -48098,7 +48358,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003700",
+      "edge_id": "EDGE-003720",
       "source_kind": "concert",
       "source_id": "CONCERT-19790713-RUSSELL-CLUB",
       "target_kind": "place",
@@ -48111,7 +48371,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003701",
+      "edge_id": "EDGE-003721",
       "source_kind": "concert",
       "source_id": "CONCERT-19790727-IMPERIAL-HOTEL-BLACKPOOL",
       "target_kind": "place",
@@ -48124,7 +48384,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003702",
+      "edge_id": "EDGE-003722",
       "source_kind": "concert",
       "source_id": "CONCERT-19790728-STONEGROUND-MAYFLOWER",
       "target_kind": "place",
@@ -48137,7 +48397,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003703",
+      "edge_id": "EDGE-003723",
       "source_kind": "concert",
       "source_id": "CONCERT-19790802-YMCA-LONDON",
       "target_kind": "place",
@@ -48150,7 +48410,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003704",
+      "edge_id": "EDGE-003724",
       "source_kind": "concert",
       "source_id": "CONCERT-19790808-ROMULUS-CLUB-BIRMINGHAM",
       "target_kind": "place",
@@ -48163,7 +48423,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003705",
+      "edge_id": "EDGE-003725",
       "source_kind": "concert",
       "source_id": "CONCERT-19790811-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -48176,7 +48436,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003706",
+      "edge_id": "EDGE-003726",
       "source_kind": "concert",
       "source_id": "CONCERT-19790813-NASHVILLE-ROOMS-LONDON",
       "target_kind": "place",
@@ -48189,7 +48449,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003707",
+      "edge_id": "EDGE-003727",
       "source_kind": "concert",
       "source_id": "CONCERT-19790822-WALTHAMSTOW-YOUTH-CLUB",
       "target_kind": "place",
@@ -48202,7 +48462,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003708",
+      "edge_id": "EDGE-003728",
       "source_kind": "concert",
       "source_id": "CONCERT-19790827-LEIGH-FESTIVAL",
       "target_kind": "place",
@@ -48215,7 +48475,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003709",
+      "edge_id": "EDGE-003729",
       "source_kind": "concert",
       "source_id": "CONCERT-19790831-ELECTRIC-BALLROOM-CAMDEN",
       "target_kind": "place",
@@ -48228,7 +48488,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003710",
+      "edge_id": "EDGE-003730",
       "source_kind": "concert",
       "source_id": "CONCERT-19790908-QUEENS-HALL-LEEDS",
       "target_kind": "place",
@@ -48241,7 +48501,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003711",
+      "edge_id": "EDGE-003731",
       "source_kind": "concert",
       "source_id": "CONCERT-19790914-ROCK-GARDEN-MIDDLESBROUGH",
       "target_kind": "place",
@@ -48254,7 +48514,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003712",
+      "edge_id": "EDGE-003732",
       "source_kind": "concert",
       "source_id": "CONCERT-19790922-NASHVILLE-ROOMS-LONDON",
       "target_kind": "place",
@@ -48267,7 +48527,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003713",
+      "edge_id": "EDGE-003733",
       "source_kind": "concert",
       "source_id": "CONCERT-19790928-RUSSELL-CLUB",
       "target_kind": "place",
@@ -48280,7 +48540,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003714",
+      "edge_id": "EDGE-003734",
       "source_kind": "concert",
       "source_id": "CONCERT-19790929-STONEGROUND-MAYFLOWER",
       "target_kind": "place",
@@ -48293,7 +48553,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003715",
+      "edge_id": "EDGE-003735",
       "source_kind": "concert",
       "source_id": "CONCERT-19791002-MOUNTFORD-HALL-LIVERPOOL",
       "target_kind": "place",
@@ -48306,7 +48566,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003716",
+      "edge_id": "EDGE-003736",
       "source_kind": "concert",
       "source_id": "CONCERT-19791003-CITY-HALL-HULL",
       "target_kind": "place",
@@ -48319,7 +48579,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003717",
+      "edge_id": "EDGE-003737",
       "source_kind": "concert",
       "source_id": "CONCERT-19791003-LEEDS-UNIVERSITY",
       "target_kind": "place",
@@ -48332,7 +48592,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003718",
+      "edge_id": "EDGE-003738",
       "source_kind": "concert",
       "source_id": "CONCERT-19791004-NEWCASTLE-CITY-HALL",
       "target_kind": "place",
@@ -48345,7 +48605,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003719",
+      "edge_id": "EDGE-003739",
       "source_kind": "concert",
       "source_id": "CONCERT-19791005-MANCHESTER-APOLLO",
       "target_kind": "place",
@@ -48358,7 +48618,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003720",
+      "edge_id": "EDGE-003740",
       "source_kind": "concert",
       "source_id": "CONCERT-19791006-ODEON-EDINBURGH",
       "target_kind": "place",
@@ -48371,7 +48631,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003721",
+      "edge_id": "EDGE-003741",
       "source_kind": "concert",
       "source_id": "CONCERT-19791007-CAPITOL-ABERDEEN",
       "target_kind": "place",
@@ -48384,7 +48644,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003722",
+      "edge_id": "EDGE-003742",
       "source_kind": "concert",
       "source_id": "CONCERT-19791008-CAIRD-HALL-DUNDEE",
       "target_kind": "place",
@@ -48397,7 +48657,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003723",
+      "edge_id": "EDGE-003743",
       "source_kind": "concert",
       "source_id": "CONCERT-19791010-KELLYS-MANCHESTER",
       "target_kind": "place",
@@ -48410,7 +48670,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003724",
+      "edge_id": "EDGE-003744",
       "source_kind": "concert",
       "source_id": "CONCERT-19791011-ULSTER-HALL-BELFAST",
       "target_kind": "place",
@@ -48423,7 +48683,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003725",
+      "edge_id": "EDGE-003745",
       "source_kind": "concert",
       "source_id": "CONCERT-19791012-OLYMPIA-DUBLIN",
       "target_kind": "place",
@@ -48436,7 +48696,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003726",
+      "edge_id": "EDGE-003746",
       "source_kind": "concert",
       "source_id": "CONCERT-19791013-CITY-HALL-CORK",
       "target_kind": "place",
@@ -48449,7 +48709,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003727",
+      "edge_id": "EDGE-003747",
       "source_kind": "concert",
       "source_id": "CONCERT-19791016-PLAN-K-BRUSSELS",
       "target_kind": "place",
@@ -48462,7 +48722,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003728",
+      "edge_id": "EDGE-003748",
       "source_kind": "concert",
       "source_id": "CONCERT-19791018-BANGOR-UNIVERSITY",
       "target_kind": "place",
@@ -48475,7 +48735,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003729",
+      "edge_id": "EDGE-003749",
       "source_kind": "concert",
       "source_id": "CONCERT-19791020-LOUGHBOROUGH-UNIVERSITY",
       "target_kind": "place",
@@ -48488,7 +48748,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003730",
+      "edge_id": "EDGE-003750",
       "source_kind": "concert",
       "source_id": "CONCERT-19791021-TOP-RANK-SHEFFIELD",
       "target_kind": "place",
@@ -48501,7 +48761,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003731",
+      "edge_id": "EDGE-003751",
       "source_kind": "concert",
       "source_id": "CONCERT-19791022-ASSEMBLY-ROOMS-DERBY",
       "target_kind": "place",
@@ -48514,7 +48774,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003732",
+      "edge_id": "EDGE-003752",
       "source_kind": "concert",
       "source_id": "CONCERT-19791023-KING-GEORGES-HALL-BLACKBURN",
       "target_kind": "place",
@@ -48527,7 +48787,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003733",
+      "edge_id": "EDGE-003753",
       "source_kind": "concert",
       "source_id": "CONCERT-19791024-ODEON-BIRMINGHAM",
       "target_kind": "place",
@@ -48540,7 +48800,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003734",
+      "edge_id": "EDGE-003754",
       "source_kind": "concert",
       "source_id": "CONCERT-19791025-ST-GEORGES-HALL-BRADFORD",
       "target_kind": "place",
@@ -48553,7 +48813,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003735",
+      "edge_id": "EDGE-003755",
       "source_kind": "concert",
       "source_id": "CONCERT-19791026-ELECTRIC-BALLROOM-CAMDEN",
       "target_kind": "place",
@@ -48566,7 +48826,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003736",
+      "edge_id": "EDGE-003756",
       "source_kind": "concert",
       "source_id": "CONCERT-19791027-MANCHESTER-APOLLO",
       "target_kind": "place",
@@ -48579,7 +48839,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003737",
+      "edge_id": "EDGE-003757",
       "source_kind": "concert",
       "source_id": "CONCERT-19791028-MANCHESTER-APOLLO",
       "target_kind": "place",
@@ -48592,7 +48852,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003738",
+      "edge_id": "EDGE-003758",
       "source_kind": "concert",
       "source_id": "CONCERT-19791029-DE-MONTFORT-HALL-LEICESTER",
       "target_kind": "place",
@@ -48605,7 +48865,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003739",
+      "edge_id": "EDGE-003759",
       "source_kind": "concert",
       "source_id": "CONCERT-19791030-NEW-THEATRE-OXFORD",
       "target_kind": "place",
@@ -48618,7 +48878,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003740",
+      "edge_id": "EDGE-003760",
       "source_kind": "concert",
       "source_id": "CONCERT-19791101-CIVIC-HALL-GUILDFORD",
       "target_kind": "place",
@@ -48631,7 +48891,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003741",
+      "edge_id": "EDGE-003761",
       "source_kind": "concert",
       "source_id": "CONCERT-19791102-WINTER-GARDENS-MALVERN",
       "target_kind": "place",
@@ -48644,7 +48904,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003742",
+      "edge_id": "EDGE-003762",
       "source_kind": "concert",
       "source_id": "CONCERT-19791103-SOPHIA-GARDENS-CARDIFF",
       "target_kind": "place",
@@ -48657,7 +48917,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003743",
+      "edge_id": "EDGE-003763",
       "source_kind": "concert",
       "source_id": "CONCERT-19791104-COLSTON-HALL-BRISTOL",
       "target_kind": "place",
@@ -48670,7 +48930,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003744",
+      "edge_id": "EDGE-003764",
       "source_kind": "concert",
       "source_id": "CONCERT-19791105-PAVILION-HEMEL-HEMPSTEAD",
       "target_kind": "place",
@@ -48683,7 +48943,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003745",
+      "edge_id": "EDGE-003765",
       "source_kind": "concert",
       "source_id": "CONCERT-19791107-WEST-RUNTON-PAVILION",
       "target_kind": "place",
@@ -48696,7 +48956,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003746",
+      "edge_id": "EDGE-003766",
       "source_kind": "concert",
       "source_id": "CONCERT-19791108-MARQUEE-LONDON",
       "target_kind": "place",
@@ -48709,7 +48969,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003747",
+      "edge_id": "EDGE-003767",
       "source_kind": "concert",
       "source_id": "CONCERT-19791109-RAINBOW-THEATRE-LONDON",
       "target_kind": "place",
@@ -48722,7 +48982,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003748",
+      "edge_id": "EDGE-003768",
       "source_kind": "concert",
       "source_id": "CONCERT-19791110-RAINBOW-THEATRE-LONDON",
       "target_kind": "place",
@@ -48735,7 +48995,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003749",
+      "edge_id": "EDGE-003769",
       "source_kind": "concert",
       "source_id": "CONCERT-19791128-CAPITOL-ABERDEEN",
       "target_kind": "place",
@@ -48748,7 +49008,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003750",
+      "edge_id": "EDGE-003770",
       "source_kind": "concert",
       "source_id": "CONCERT-19791129-ODEON-EDINBURGH",
       "target_kind": "place",
@@ -48761,7 +49021,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003751",
+      "edge_id": "EDGE-003771",
       "source_kind": "concert",
       "source_id": "CONCERT-19791207-STOCKPORT-COLLEGE",
       "target_kind": "place",
@@ -48774,7 +49034,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003752",
+      "edge_id": "EDGE-003772",
       "source_kind": "concert",
       "source_id": "CONCERT-19791208-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -48787,7 +49047,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003753",
+      "edge_id": "EDGE-003773",
       "source_kind": "concert",
       "source_id": "CONCERT-19791218-LES-BAINS-DOUCHES-PARIS",
       "target_kind": "place",
@@ -48800,7 +49060,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003754",
+      "edge_id": "EDGE-003774",
       "source_kind": "concert",
       "source_id": "CONCERT-19791231-WAREHOUSE-PRESTON",
       "target_kind": "place",
@@ -48813,7 +49073,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003755",
+      "edge_id": "EDGE-003775",
       "source_kind": "concert",
       "source_id": "CONCERT-19800111-PARADISO-AMSTERDAM",
       "target_kind": "place",
@@ -48826,7 +49086,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003756",
+      "edge_id": "EDGE-003776",
       "source_kind": "concert",
       "source_id": "CONCERT-19800112-PAARD-VAN-TROJE-THE-HAGUE",
       "target_kind": "place",
@@ -48839,7 +49099,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003757",
+      "edge_id": "EDGE-003777",
       "source_kind": "concert",
       "source_id": "CONCERT-19800113-DOORNROOSJE-NIJMEGEN",
       "target_kind": "place",
@@ -48852,7 +49112,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003758",
+      "edge_id": "EDGE-003778",
       "source_kind": "concert",
       "source_id": "CONCERT-19800114-KING-KONG-ANTWERPEN",
       "target_kind": "place",
@@ -48865,7 +49125,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003759",
+      "edge_id": "EDGE-003779",
       "source_kind": "concert",
       "source_id": "CONCERT-19800115-BASEMENT-COLOGNE",
       "target_kind": "place",
@@ -48878,7 +49138,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003760",
+      "edge_id": "EDGE-003780",
       "source_kind": "concert",
       "source_id": "CONCERT-19800116-LANTAREN-ROTTERDAM",
       "target_kind": "place",
@@ -48891,7 +49151,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003761",
+      "edge_id": "EDGE-003781",
       "source_kind": "concert",
       "source_id": "CONCERT-19800117-PLAN-K-BRUSSELS",
       "target_kind": "place",
@@ -48904,7 +49164,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003762",
+      "edge_id": "EDGE-003782",
       "source_kind": "concert",
       "source_id": "CONCERT-19800118-EFFENAAR-EINDHOVEN",
       "target_kind": "place",
@@ -48917,7 +49177,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003763",
+      "edge_id": "EDGE-003783",
       "source_kind": "concert",
       "source_id": "CONCERT-19800119-CLUB-VERA-GRONINGEN",
       "target_kind": "place",
@@ -48930,7 +49190,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003764",
+      "edge_id": "EDGE-003784",
       "source_kind": "concert",
       "source_id": "CONCERT-19800121-KANT-KINO-BERLIN",
       "target_kind": "place",
@@ -48943,7 +49203,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003765",
+      "edge_id": "EDGE-003785",
       "source_kind": "concert",
       "source_id": "CONCERT-19800207-RUSSELL-CLUB",
       "target_kind": "place",
@@ -48956,7 +49216,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003766",
+      "edge_id": "EDGE-003786",
       "source_kind": "concert",
       "source_id": "CONCERT-19800208-UNIVERSITY-OF-LONDON-UNION",
       "target_kind": "place",
@@ -48969,7 +49229,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003767",
+      "edge_id": "EDGE-003787",
       "source_kind": "concert",
       "source_id": "CONCERT-19800220-DERBY-HALL-BURY",
       "target_kind": "place",
@@ -48982,7 +49242,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003768",
+      "edge_id": "EDGE-003788",
       "source_kind": "concert",
       "source_id": "CONCERT-19800221-MANCHESTER-POLYTECHNIC",
       "target_kind": "place",
@@ -48995,7 +49255,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003769",
+      "edge_id": "EDGE-003789",
       "source_kind": "concert",
       "source_id": "CONCERT-19800228-WAREHOUSE-PRESTON",
       "target_kind": "place",
@@ -49008,7 +49268,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003770",
+      "edge_id": "EDGE-003790",
       "source_kind": "concert",
       "source_id": "CONCERT-19800229-LYCEUM-LONDON",
       "target_kind": "place",
@@ -49021,7 +49281,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003771",
+      "edge_id": "EDGE-003791",
       "source_kind": "concert",
       "source_id": "CONCERT-19800305-TRINITY-HALL-BRISTOL",
       "target_kind": "place",
@@ -49034,7 +49294,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003772",
+      "edge_id": "EDGE-003792",
       "source_kind": "concert",
       "source_id": "CONCERT-19800402-MOONLIGHT-CLUB-LONDON",
       "target_kind": "place",
@@ -49047,7 +49307,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003773",
+      "edge_id": "EDGE-003793",
       "source_kind": "concert",
       "source_id": "CONCERT-19800403-MOONLIGHT-CLUB-LONDON",
       "target_kind": "place",
@@ -49060,7 +49320,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003774",
+      "edge_id": "EDGE-003794",
       "source_kind": "concert",
       "source_id": "CONCERT-19800404-MOONLIGHT-CLUB-LONDON",
       "target_kind": "place",
@@ -49073,7 +49333,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003775",
+      "edge_id": "EDGE-003795",
       "source_kind": "concert",
       "source_id": "CONCERT-19800404-RAINBOW-THEATRE-LONDON",
       "target_kind": "place",
@@ -49086,7 +49346,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003776",
+      "edge_id": "EDGE-003796",
       "source_kind": "concert",
       "source_id": "CONCERT-19800405-WINTER-GARDENS-MALVERN",
       "target_kind": "place",
@@ -49099,7 +49359,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003777",
+      "edge_id": "EDGE-003797",
       "source_kind": "concert",
       "source_id": "CONCERT-19800408-DERBY-HALL-BURY",
       "target_kind": "place",
@@ -49112,7 +49372,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003778",
+      "edge_id": "EDGE-003798",
       "source_kind": "concert",
       "source_id": "CONCERT-19800411-RUSSELL-CLUB",
       "target_kind": "place",
@@ -49125,7 +49385,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003779",
+      "edge_id": "EDGE-003799",
       "source_kind": "concert",
       "source_id": "CONCERT-19800419-AJANTA-THEATRE-DERBY",
       "target_kind": "place",
@@ -49138,7 +49398,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003780",
+      "edge_id": "EDGE-003800",
       "source_kind": "concert",
       "source_id": "CONCERT-19800425-SCALA-CINEMA-LONDON",
       "target_kind": "place",
@@ -49151,7 +49411,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003781",
+      "edge_id": "EDGE-003801",
       "source_kind": "concert",
       "source_id": "CONCERT-19800426-ROCK-GARDEN-MIDDLESBROUGH",
       "target_kind": "place",
@@ -49164,7 +49424,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003782",
+      "edge_id": "EDGE-003802",
       "source_kind": "concert",
       "source_id": "CONCERT-19800502-BIRMINGHAM-UNIVERSITY",
       "target_kind": "place",
@@ -49177,7 +49437,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003783",
+      "edge_id": "EDGE-003803",
       "source_kind": "concert",
       "source_id": "CONCERT-19800503-ERICS-LIVERPOOL",
       "target_kind": "place",
@@ -49190,7 +49450,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003784",
+      "edge_id": "EDGE-003804",
       "source_kind": "concert",
       "source_id": "CONCERT-19800508-ASTORIA-EDINBURGH",
       "target_kind": "place",
@@ -49203,7 +49463,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003785",
+      "edge_id": "EDGE-003805",
       "source_kind": "concert",
       "source_id": "CONCERT-19800509-ALBERT-HALL-STIRLING",
       "target_kind": "place",
@@ -49216,7 +49476,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003786",
+      "edge_id": "EDGE-003806",
       "source_kind": "concert",
       "source_id": "CONCERT-19800521-HURRAH-NEW-YORK",
       "target_kind": "place",
@@ -49229,7 +49489,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003787",
+      "edge_id": "EDGE-003807",
       "source_kind": "concert",
       "source_id": "CONCERT-19800525-THE-EDGE-TORONTO",
       "target_kind": "place",
@@ -49242,7 +49502,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003788",
+      "edge_id": "EDGE-003808",
       "source_kind": "concert",
       "source_id": "CONCERT-19800526-BOOKIES-DETROIT",
       "target_kind": "place",
@@ -49255,7 +49515,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003789",
+      "edge_id": "EDGE-003809",
       "source_kind": "concert",
       "source_id": "CONCERT-19800527-TUTS-CHICAGO",
       "target_kind": "place",
@@ -49268,7 +49528,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003790",
+      "edge_id": "EDGE-003810",
       "source_kind": "concert",
       "source_id": "CONCERT-19800528-MERLYNS-MADISON",
       "target_kind": "place",
@@ -49281,7 +49541,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003791",
+      "edge_id": "EDGE-003811",
       "source_kind": "concert",
       "source_id": "CONCERT-19800529-DUFFYS-MINNEAPOLIS",
       "target_kind": "place",
@@ -49294,7 +49554,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003792",
+      "edge_id": "EDGE-003812",
       "source_kind": "concert",
       "source_id": "CONCERT-19800530-THE-UNDERGROUND-BOSTON",
       "target_kind": "place",
@@ -49307,7 +49567,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003793",
+      "edge_id": "EDGE-003813",
       "source_kind": "concert",
       "source_id": "CONCERT-19800531-9-30-CLUB-WASHINGTON",
       "target_kind": "place",
@@ -49320,7 +49580,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003794",
+      "edge_id": "EDGE-003814",
       "source_kind": "concert",
       "source_id": "CONCERT-19800601-MACHINISTS-HALL-NEW-YORK",
       "target_kind": "place",
@@ -49333,7 +49593,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003795",
+      "edge_id": "EDGE-003815",
       "source_kind": "concert",
       "source_id": "CONCERT-19800601-TIER-3-NEW-YORK",
       "target_kind": "place",
@@ -49346,7 +49606,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003796",
+      "edge_id": "EDGE-003816",
       "source_kind": "concert",
       "source_id": "CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
       "target_kind": "place",
@@ -49359,7 +49619,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003797",
+      "edge_id": "EDGE-003817",
       "source_kind": "concert",
       "source_id": "CONCERT-19800608-FLIPPERS-LOS-ANGELES",
       "target_kind": "place",
@@ -49372,7 +49632,7 @@
       "derived_from": "exports/generated/concerts.json"
     },
     {
-      "edge_id": "EDGE-003798",
+      "edge_id": "EDGE-003818",
       "source_kind": "concert",
       "source_id": "CONCERT-19800609-STARWOOD-LOS-ANGELES",
       "target_kind": "place",
