@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-05T15:13:05",
+  "generated_at": "2026-06-07T09:01:43",
   "summary": {
-    "records_total": 8644,
+    "records_total": 8660,
     "records_by_kind": {
       "unknown": 1404,
-      "source": 124,
-      "metadata": 274,
-      "atom": 2769,
+      "source": 125,
+      "metadata": 276,
+      "atom": 2777,
       "quote": 962,
-      "concept": 463,
-      "motif": 427,
-      "myth": 102,
+      "concept": 465,
+      "motif": 428,
+      "myth": 104,
       "chronology": 539,
       "template": 328,
       "concert": 388,
@@ -24,21 +24,21 @@
     "diagnostics_total": 28839,
     "errors": 0,
     "warnings": 28839,
-    "sources_declared_in_registre_json": 97,
-    "sources_used_in_records": 82,
-    "sources_exported": 82,
+    "sources_declared_in_registre_json": 98,
+    "sources_used_in_records": 83,
+    "sources_exported": 83,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2769,
+    "atom": 2777,
     "chronology": 539,
-    "concept": 463,
+    "concept": 465,
     "concert": 388,
-    "metadata": 274,
-    "motif": 427,
-    "myth": 102,
+    "metadata": 276,
+    "motif": 428,
+    "myth": 104,
     "person": 510,
     "place": 215,
     "quote": 962,
@@ -46,7 +46,7 @@
     "rules": 1,
     "session": 26,
     "song": 111,
-    "source": 124,
+    "source": 125,
     "template": 328,
     "unknown": 1404
   },
@@ -758,15 +758,23 @@
     "S94": {
       "atom": 7,
       "source": 1
+    },
+    "S95": {
+      "metadata": 2,
+      "atom": 8,
+      "concept": 2,
+      "motif": 1,
+      "myth": 2,
+      "source": 1
     }
   },
   "records_by_chapter": {
     "1": 68,
     "10": 48,
-    "11": 62,
-    "12": 51,
+    "11": 63,
+    "12": 62,
     "13": 97,
-    "14": 271,
+    "14": 282,
     "2": 42,
     "3": 97,
     "4": 79,
@@ -12281,8 +12289,8 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2769,
-    "atoms_v2_complete": 240,
+    "atoms_total": 2777,
+    "atoms_v2_complete": 248,
     "atoms_v2_incomplete": 2529,
     "v2_missing_field_warnings": 15551
   },
@@ -14365,6 +14373,22 @@
         "files": [
           "data/registre.json",
           "sources/s94_weissinger_retromania/source_atomisation_01.md"
+        ]
+      },
+      {
+        "source_id": "S95",
+        "source_label": "S95 — Komlenić, Rock Music, Suicide and Media Influence, 2021",
+        "auteur": "Miroslav Komlenić",
+        "titre": "Rock Music, Suicide and Media Influence",
+        "annee": "2021",
+        "records": 21,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/komlenic_rock_music_suicide_media_influence/atoms_dm_s95_rock_music_suicide_media_influence_v2.md",
+          "sources/komlenic_rock_music_suicide_media_influence/registers_update_s95_rock_music_suicide_media_influence.md",
+          "sources/komlenic_rock_music_suicide_media_influence/source.md"
         ]
       }
     ]

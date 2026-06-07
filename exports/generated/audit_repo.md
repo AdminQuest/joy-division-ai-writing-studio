@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-06-05T15:13:05`
+Généré le : `2026-06-07T09:01:43`
 
 ## 1. Verdict
 
 Le repo est techniquement exploitable, mais 1404 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2529 atome(s) incomplet(s) sur 2769.
+La dette principale reste la migration v2 : 2529 atome(s) incomplet(s) sur 2777.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 8644
+- Enregistrements : 8660
 - Erreurs : 0
 - Avertissements : 28839
-- Sources déclarées : 97
-- Sources utilisées : 82
-- Sources exportées : 82
+- Sources déclarées : 98
+- Sources utilisées : 83
+- Sources exportées : 83
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,13 +22,13 @@ La dette principale reste la migration v2 : 2529 atome(s) incomplet(s) sur 2769.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2769 |
+| atom | 2777 |
 | chronology | 539 |
-| concept | 463 |
+| concept | 465 |
 | concert | 388 |
-| metadata | 274 |
-| motif | 427 |
-| myth | 102 |
+| metadata | 276 |
+| motif | 428 |
+| myth | 104 |
 | person | 510 |
 | place | 215 |
 | quote | 962 |
@@ -36,7 +36,7 @@ La dette principale reste la migration v2 : 2529 atome(s) incomplet(s) sur 2769.
 | rules | 1 |
 | session | 26 |
 | song | 111 |
-| source | 124 |
+| source | 125 |
 | template | 328 |
 | unknown | 1404 |
 
@@ -124,8 +124,8 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 2769
-- Atomes v2 complets : 240
+- Atomes : 2777
+- Atomes v2 complets : 248
 - Atomes v2 incomplets : 2529
 - Avertissements de champs v2 manquants : 15551
 
