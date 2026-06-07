@@ -11,10 +11,11 @@
 > confusion.
 >
 > **Étape courante : M3 (lancé le 2026-06-07).** M0, M1 et M2 sont clôturés.
-> **Objectif n°1 de M3 : supprimer les deux dépôts public et privé au profit
-> d'un dépôt unique, nouveau, privé, exposé derrière Cloudflare Zero Trust.**
-> Ce chantier impose une **reprise de l'architecture globale** (rôle confié à
-> l'assistant).
+> **Objectif n°1 de M3 : supprimer les quatre dépôts actuels (public, privé,
+> `releases`, `collection`) au profit d'un dépôt unique, nouveau, privé, exposé
+> derrière Cloudflare Zero Trust** ; la frontière actuelle public / privé
+> disparaît. Ce chantier impose une **reprise de l'architecture globale** (rôle
+> confié à l'assistant).
 >
 > La roadmap stratégique est une **couche de lecture additive** : elle ne
 > remplace aucun découpage technique existant. Tout lot technique doit se
@@ -69,9 +70,10 @@ relisibles, jamais une validation.
 **Décision actée le 2026-06-07 : M3 est lancé.** L'ancienne interdiction de
 fusion des dépôts est **levée**. Objectif n°1 :
 
-> Supprimer les deux dépôts (`joy-division-ai-writing-studio` public et
-> `joy-division-studio-private` privé) au profit d'un **dépôt unique, nouveau,
-> privé, exposé derrière Cloudflare Zero Trust**.
+> Supprimer les quatre dépôts actuels (`joy-division-ai-writing-studio` public,
+> `joy-division-studio-private` privé, `joy-division-releases` et
+> `joy-division-collection`) au profit d'un **dépôt unique, nouveau, privé,
+> exposé derrière Cloudflare Zero Trust**.
 
 Ce chantier impose une **reprise de l'architecture globale** — c'est le rôle
 confié à l'assistant. Avant toute migration :
@@ -93,8 +95,8 @@ confié à l'assistant. Avant toute migration :
 **Décisions d'architecture actées (2026-06-07) :**
 
 - **historique git** : le dépôt unique repart d'un commit initial propre ; les
-  deux dépôts actuels sont archivés en lecture seule (pas de fusion
-  d'historiques) ;
+  **quatre** dépôts actuels (public, privé, `releases`, `collection`) sont
+  archivés en lecture seule (pas de fusion d'historiques) ;
 - **rien ne reste public** : un seul dépôt **privé**, tout exposé derrière
   Cloudflare Zero Trust ; la frontière actuelle entre dépôt public et dépôt
   privé **disparaît** ;
@@ -231,6 +233,20 @@ La dette M1 résiduelle n'est plus portée par M1 : elle est **basculée en M3**
 
 La PR est le lieu normal de toute modification structurante. Ne jamais merger
 une PR avec des checks rouges.
+
+### Revue Codex obligatoire (toutes les PR)
+
+Sur **chaque** PR, traiter la revue Codex jusqu'au feu vert :
+
+1. lire et traiter chaque remarque Codex (corriger, ou répondre/justifier
+   lorsque la suggestion ne s'applique pas) ;
+2. résoudre les fils de discussion correspondants ;
+3. **reposter `@codex review`** après les corrections ;
+4. répéter le cycle tant que Codex n'a pas donné son feu vert (réaction 👍 ou
+   absence de nouvelle remarque).
+
+Ne pas considérer une PR comme prête tant que le feu vert Codex n'est pas
+obtenu, en plus des checks requis.
 
 Contraintes d'automatisation (anticipation M2) : une automatisation peut préparer
 une branche, générer les IDs, lancer les contrôles et **ouvrir** une PR, mais
