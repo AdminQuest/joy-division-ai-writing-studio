@@ -2,20 +2,33 @@
 
 État de référence : juin 2026.
 
+> **Mise à jour 2026-06-07.** Ce document est un repère de continuité daté. Depuis
+> sa rédaction, **M0 (2026-06-05), M1 (2026-06-06) et M2 (2026-06-06) sont
+> clôturés** et **M3 est lancé (2026-06-07)**. Les sections décrivant M1 comme
+> non ouvert et listant M2, l'industrialisation documentaire ou le repo privé
+> unifié parmi les « sujets reportés » reflètent l'état antérieur. La référence
+> à jour est `docs/roadmap-strategique-2026.md` (objectif n°1 de M3 : dépôt
+> unique privé derrière Cloudflare Zero Trust).
+
 Le projet est aujourd'hui un atelier documentaire et rédactionnel consacré au livre Joy Division. Il rassemble un corpus structuré, des registres canoniques, des exports générés, des documents maîtres, des applications de consultation, un RAG d'exploration et des workflows de contrôle.
 
 Le projet n'est pas un simple dépôt de notes, ni une application unique, ni un studio d'enrichissement automatisé. Il n'est pas encore une architecture finale unifiée, ni une chaîne de publication définitive. Les évolutions futures doivent respecter les décisions stabilisées avant d'ajouter de nouvelles surfaces.
 
-# Grille de lecture fonctionnelle non décisionnelle
+# Grille de lecture fonctionnelle — modèle d'organisation du hub M3
 
-Cette grille ne remplace pas la doctrine M0 stabilisée autour de Corpus / RAG / Manuscript / documents maîtres. Elle constitue uniquement un vocabulaire provisoire de travail pour réfléchir aux futurs espaces, notamment dans l'hypothèse d'une unification ultérieure.
+> **Adoptée le 2026-06-07** comme modèle d'organisation du futur dépôt unique
+> privé (hub), par fonction et non par technologie. Cadre d'organisation, **non
+> figé** comme architecture technique définitive. Elle ne remplace pas la
+> doctrine documentaire stabilisée (Corpus / RAG / Manuscript / documents
+> maîtres), qui reste valable au sein du Fonds et de l'Atelier. Rien ne
+> reste public : tout le hub est privé derrière Cloudflare Zero Trust.
 
 ```text
 Collection
 ↓
 Usine
 ↓
-Entrepôt
+Le Fonds
 ↓
 Atelier
 ↓
@@ -44,16 +57,16 @@ Vigie
 | Objets principaux | Brouillons d'ajout, propositions structurées, validations préalables, PR automatisables. |
 | Limites | L'Usine ne doit pas être ouverte en M0 ; elle relève de M2 ou d'une décision ultérieure selon le périmètre exact. |
 
-## Entrepôt
+## Le Fonds (ex-Entrepôt)
 
 | Champ | Valeur |
 | --- | --- |
-| Statut | Nom de travail possible, non décisionnel. |
+| Statut | Nom retenu le 2026-06-07 pour le hub M3 (auparavant « Entrepôt »). |
 | Rattachement M0 | Espace Corpus + registres + RAG, c'est-à-dire le socle documentaire et ses vues d'exploration. |
-| Fonction envisagée | Conserver et exposer les objets structurés et les vues exploitables du corpus. |
+| Fonction envisagée | Conserver et exposer les objets structurés et les vues exploitables du corpus ; on y cherche, on n'y rédige pas. |
 | Périmètre possible | `sources/`, `registers/`, `exports/generated/`, RAG Studio, documents de navigation. |
 | Objets principaux | Sources, atomes, registres, exports générés, index, fragments RAG, diagnostics et audits. |
-| Limites | L'Entrepôt n'est pas une nouvelle architecture décidée ; il ne remplace pas la distinction Corpus / RAG / documents maîtres. |
+| Limites | Le Fonds ne remplace pas la distinction Corpus / RAG / documents maîtres. |
 
 ## Atelier
 
