@@ -100,7 +100,17 @@ confié à l'assistant. Avant toute migration :
   privé **disparaît** ;
 - **organisation par fonction, pas par technologie** : la structure interne du
   hub suit le modèle à cinq espaces ci-dessous, et non un découpage
-  ex-public / ex-privé.
+  ex-public / ex-privé ;
+- **périmètre** : le hub absorbe les **quatre** dépôts actuels —
+  `joy-division-ai-writing-studio`, `joy-division-studio-private`,
+  `joy-division-releases` (14ᵉ registre, variantes) et `joy-division-collection`
+  (Collection perso) ; `releases`, aujourd'hui public en CC BY-SA, **bascule en
+  privé** comme le reste ;
+- **réagencement léger = mapping logique** : l'arborescence actuelle est
+  conservée et les apps ne sont pas réécrites ; les cinq espaces sont une
+  **couche de lecture** (README / manifest + navigation), pas un déplacement
+  massif de dossiers ; aucune fonctionnalité n'est perdue (14 registres, RAG,
+  manuscript-studio, dashboard, collection).
 
 ### Modèle d'organisation cible — hub fonctionnel
 

@@ -358,8 +358,38 @@ humaine. M3 commence donc par la conception, pas par la bascule.
 - **Organisation par fonction, pas par technologie** : la structure interne du
   hub suit cinq espaces fonctionnels (Collection, Usine, Entrepot, Atelier,
   Vigie), et non un decoupage ex-public / ex-prive.
+- **Perimetre : quatre depots absorbes** — `joy-division-ai-writing-studio`,
+  `joy-division-studio-private`, `joy-division-releases` (registre des
+  variantes, 14e registre) et `joy-division-collection` (Collection
+  personnelle). `releases`, aujourd'hui public en CC BY-SA, bascule en prive
+  comme le reste du hub.
+- **Reagencement leger = mapping logique** : l'arborescence actuelle est
+  conservee et les apps ne sont pas reecrites ; les cinq espaces sont une couche
+  de lecture (README / manifest + navigation), pas un deplacement massif de
+  dossiers. Aucune fonctionnalite perdue (14 registres, RAG, manuscript-studio,
+  dashboard, collection).
 - Le dossier d'architecture detaille n'est pas encore demande : a produire avant
   toute migration, sur instruction ulterieure.
+
+### Transposition des depots actuels (cadre)
+
+Mapping indicatif des surfaces existantes vers les cinq espaces (deplacement
+logique, contenus conserves) :
+
+| Espace | Surfaces actuelles rattachees |
+| --- | --- |
+| La Collection | `joy-division-collection/` (possession, observations, wishlist) ; `joy-division-releases/` (registre des variantes). |
+| L'Usine | `tools/` (atomisation, build, validation, canonisation) ; `apps/m2-formulaire/` ; `schemas/`. |
+| L'Entrepot | `sources/`, `registers/`, `exports/`, `rag/` ; les 11 apps registres ; `apps/rag-studio/`. |
+| L'Atelier | `chapters/` (DM generes + matiere editoriale privee), `master_docs/`, `prompts/` ; `apps/manuscript-studio/`, `apps/master-docs/`, `apps/prompt-studio/`, `apps/local-songbook-editor/`. |
+| La Vigie | `reports/`, `docs/` (roadmap, audits), `STATUS*.md` ; `apps/corpus-dashboard/` ; indicateurs M1. |
+
+Points de reconciliation connus : `chapters/` (la matiere editoriale privee est
+la source, le `document_maitre.md` public en est la sortie generee) ;
+`generate_status.py` (conserver la variante du build canonique) ; dossiers
+presents des deux cotes (`_meta/`, `docs/`, `prompts/`, `reports/`) reunis par
+union. Modification technique principale : remplacer les fetchs GitHub distants
+des apps privees par une lecture locale synchronisee.
 
 ### Modele d'organisation cible — hub fonctionnel
 
